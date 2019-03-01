@@ -6,7 +6,7 @@ export default function Page({ title, children }) {
 	return (
 		<>
 			<Head>
-				<title>Urlaubsverwaltung</title>
+				<title>Urlaubsverwaltung · {title}</title>
 				<meta name="viewport" content="initial-scale=1.0, width=device-width" />
 				<link rel="stylesheet" href="/static/css/reset.css" />
 			</Head>
@@ -18,8 +18,8 @@ export default function Page({ title, children }) {
 					margin: 1rem 0;
 				}
 			`}</style>
-			<h1>{title}</h1>
 			<Navigation />
+			<h1>{title}</h1>
 			{children}
 		</>
 	);

@@ -1,3 +1,4 @@
+/* eslint-disable jsx-a11y/anchor-is-valid */
 import React from "react";
 import Link from "next/link";
 
@@ -18,13 +19,28 @@ export default function Navigation() {
 			`}</style>
 			<ul>
 				<li>
-					<Link href="/">
-						<a>Home</a>
+					<Link href="/features">
+						<a>Features</a>
 					</Link>
 				</li>
 				<li>
-					<Link href="/about">
-						<a>About</a>
+					<Link href="/demo">
+						<a>Demo</a>
+					</Link>
+				</li>
+				<li>
+					<Link href="/faq">
+						<a>Faq</a>
+					</Link>
+				</li>
+				<li>
+					<Link href="/newsletter">
+						<a>Newsletter</a>
+					</Link>
+				</li>
+				<li>
+					<Link href="/contact">
+						<a>Kontakt</a>
 					</Link>
 				</li>
 			</ul>
