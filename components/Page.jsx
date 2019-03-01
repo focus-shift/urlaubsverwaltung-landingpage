@@ -8,12 +8,14 @@ export default function Page({ title, children }) {
 			<Head>
 				<title>Urlaubsverwaltung</title>
 				<meta name="viewport" content="initial-scale=1.0, width=device-width" />
-				<link rel="stylesheet" href="/static/reset.css" />
-				<link rel="stylesheet" href="/static/style.css" />
+				<link rel="stylesheet" href="/static/css/reset.css" />
 			</Head>
 			<style global jsx>{`
 				body {
 					padding: 1rem;
+				}
+				p {
+					margin: 1rem 0;
 				}
 			`}</style>
 			<h1>{title}</h1>

@@ -4,17 +4,23 @@
 	"description": "",
 	"main": "index.js",
 	"scripts": {
-		"dev": "next",
-		"build": "rimraf out && next build && next export",
-		"start": "next start"
+		"dev": "nodemon server/index.js",
+		"build": "./build.sh",
+		"start-content-server": "node server/content-server.js",
+		"clean": "rimraf .next out",
+		"nextjs:build": "next build",
+		"nextjs:export": "next export"
 	},
 	"keywords": [],
 	"author": "Benjamin Seber <seber@synyx.de> (https://www.synyx.de)",
 	"license": "apache-2.0",
 	"dependencies": {
+		"express": "^4.16.4",
+		"isomorphic-unfetch": "^3.0.0",
 		"next": "^8.0.3",
 		"react": "^16.8.3",
-		"react-dom": "^16.8.3"
+		"react-dom": "^16.8.3",
+		"react-markdown": "^4.0.6"
 	},
 	"devDependencies": {
 		"babel-eslint": "^9.0.0",
@@ -26,6 +32,7 @@
 		"eslint-plugin-jsx-a11y": "^6.2.1",
 		"eslint-plugin-prettier": "^3.0.1",
 		"eslint-plugin-react": "^7.12.4",
+		"nodemon": "^1.18.10",
 		"prettier": "^1.16.4",
 		"rimraf": "^2.6.3"
 	}
