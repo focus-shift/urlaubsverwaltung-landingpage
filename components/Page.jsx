@@ -2,7 +2,7 @@ import React from "react";
 import Head from "next/head";
 import Header from "./Header";
 
-import "../static/css/style.css";
+import "./style.css";
 
 export default function Page({ title, children }) {
 	return (
