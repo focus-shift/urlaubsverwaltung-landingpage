@@ -19,6 +19,7 @@
 		"@zeit/next-css": "^1.0.1",
 		"autoprefixer": "^9.4.9",
 		"next": "^8.0.3",
+		"next-images": "^1.1.1",
 		"next-purgecss": "^3.0.1",
 		"react": "^16.8.3",
 		"react-dom": "^16.8.3",

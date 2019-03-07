@@ -2,6 +2,7 @@ import React from "react";
 import Link from "./Link";
 
 import SocialMedia from "./SocialMedia";
+import bearImage from "./bear.png";
 
 export default function Header() {
 	return (
@@ -10,7 +11,7 @@ export default function Header() {
 				<Link href="/" className="block h-full flex items-center">
 					<img
 						className="h-full"
-						src="/static/images/bear.png"
+						src={bearImage}
 						alt="der urlaubär"
 						height="32px"
 					/>
