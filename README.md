@@ -25,7 +25,7 @@ npm run dev
 ## Homepage bauen
 
 ```bash
-./build.sh
+npm run build
 ```
 
 Das Skript baut alle benötigten statischen Resourcen für die Homepage (_.html, _.js, \*.css Assets).
