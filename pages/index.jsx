@@ -6,20 +6,17 @@ export default function IndexPage() {
 	return (
 		<Page>
 			<div className="container mx-auto">
-				<h1>Home</h1>
+				<h1>Probier's mal mit Urlaub!</h1>
 				<p className="container mx-auto">
-					Waidmanns Heil! Der Jungfer jauchzen die hochnäsig Kleinod. Die
-					piesacken Sülze jauchzen. Lümmeltüte und Kesselflicker stibitzen kess
-					Drückeberger. Die Kokolores foppen der kess Absacker. Die piesacken
-					Stelldichein. Das halsstarrig Panzerkampfwagen. Der dufte
-					Springinsfeld auftakeln. Die Haudegen katzbuckeln das feist Dachshund.
-					Abort und Quasselstrippe bohnern geflissentlich Rächer.
-					Promenadenmischung und Wuchtbrumme stagnieren töricht Lametta. Der
-					famos Kesselflicker frickeln. Heidewitzka!
+					Direkt vom Strand aus den nächsten Urlaub beantragen und die Sonne
+					weiter genießen? Mit dem Urlaubär kein Problem!
+					Urlaubsplanung leicht gemacht - übersichtlich, bequem und überall
+					nutzbar. So macht nicht nur der Urlaub Spaß, sondern auch die
+					Urlaubsplanung. Echt bärenstark!
 				</p>
 				<article>
 					<h2>Warum Urlaubär?</h2>
-					<p>Einfach, schnell überall benutzbar</p>
+					<p>Beim Urlaubär bist du in besten Pfoten!</p>
 					<Benefits />
 					<Customers />
 				</article>
