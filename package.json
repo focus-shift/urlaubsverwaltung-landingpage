@@ -1,19 +1,20 @@
 {
-	"name": "urlaubsverwaltung-homepage-nextjs",
-	"version": "0.0.1",
-	"description": "",
-	"main": "index.js",
+	"name": "urlaubsverwaltung-landingpage",
+	"version": "0.1.0",
+	"description": "Landing Page der Open Source Urlaubsverwaltung",
+	"license": "apache-2.0",
+	"private": true,
+	"repository": "github:/synyx/urlaubsverwaltung-landingpage",
+	"bugs": "https://github.com/synyx/urlaubsverwaltung-landingpage/issues",
+	"keywords": [],
+	"author": "Benjamin Seber <seber@synyx.de> (https://www.synyx.de)",
 	"scripts": {
 		"dev": "nodemon server/index.js",
 		"build": "./build.sh",
-		"start-content-server": "node server/content-server.js",
 		"clean": "rimraf .next out",
 		"nextjs:build": "next build",
 		"nextjs:export": "next export"
 	},
-	"keywords": [],
-	"author": "Benjamin Seber <seber@synyx.de> (https://www.synyx.de)",
-	"license": "apache-2.0",
 	"dependencies": {
 		"@zeit/next-css": "^1.0.1",
 		"autoprefixer": "^9.4.9",

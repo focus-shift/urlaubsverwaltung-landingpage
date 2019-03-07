@@ -1,8 +1,7 @@
 #!/bin/bash
 
-# echo "=> install project dependencies"
-# npm install
-
+echo "=> install project dependencies"
+npm install
 
 echo "=> start content server"
 node ./server/content-server.js > /dev/null &
