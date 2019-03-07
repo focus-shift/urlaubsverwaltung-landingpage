@@ -13,6 +13,7 @@ Was du benötigst:
 Hast du NodeJS installiert und dieses Repository geklont kannst du direkt loswerkeln.
 
 ```bash
+
 git clone git@github.com:synyx/urlaubsverwaltung-landingpage.git
 cd urlaubsverwaltung-landingpage
 npm install
