@@ -15,12 +15,16 @@
 	"author": "Benjamin Seber <seber@synyx.de> (https://www.synyx.de)",
 	"license": "apache-2.0",
 	"dependencies": {
+		"@zeit/next-css": "^1.0.1",
+		"autoprefixer": "^9.4.9",
 		"express": "^4.16.4",
 		"isomorphic-unfetch": "^3.0.0",
 		"next": "^8.0.3",
+		"next-purgecss": "^3.0.1",
 		"react": "^16.8.3",
 		"react-dom": "^16.8.3",
-		"react-markdown": "^4.0.6"
+		"react-markdown": "^4.0.6",
+		"tailwindcss": "^0.7.4"
 	},
 	"devDependencies": {
 		"babel-eslint": "^9.0.0",
