@@ -499,10 +499,6 @@ table {
   padding: .5rem;
 }
 
-.static {
-  position: static;
-}
-
 .whitespace-no-wrap {
   white-space: nowrap;
 }
