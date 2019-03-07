@@ -7,6 +7,10 @@ branches:
 
 script:
   - npm run build
+  # nextjs moves generated assets into _next directory
+  # which is ignored by gh-pages / jekyll
+  # therefore disable jekyll (we have static html files anyway)
+  - touch ./out/.nojekyll
 
 deploy:
   provider: pages
