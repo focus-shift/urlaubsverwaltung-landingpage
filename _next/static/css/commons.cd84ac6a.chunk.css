@@ -77,6 +77,11 @@ strong {
  * 2. Correct the odd `em` font sizing in all browsers.
  */
 
+code {
+  font-family: monospace, monospace; /* 1 */
+  font-size: 1em; /* 2 */
+}
+
 /**
  * Add the correct font size in all browsers.
  */
@@ -306,6 +311,7 @@ h3,
 h4,
 h5,
 h6,
+figure,
 p {
   margin: 0;
 }
