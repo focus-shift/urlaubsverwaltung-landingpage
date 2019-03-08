@@ -1,9 +1,10 @@
 import React from "react";
+
 import "./benefit-list.tailwind.css";
 
 export default function BenefitList() {
 	return (
-		<dl title="Urlaubär Benefits" className="benefit-list">
+		<dl title="Urlaubär Benefits" className="benefits-grid">
 			<BenefitListItem
 				title="Papierlos"
 				text="Nie wieder Papierkrieg und scheußliche Excel-Tabellen. Mit dem Urlaubär kannst du deine Urlaubsanträge komplett papierlos verwalten – von der Antragsstellung bis zur Genehmigung."
@@ -35,9 +36,10 @@ export default function BenefitList() {
 function BenefitListItem({ title, text }) {
 	return (
 		<>
-			<dt>{title}</dt>
-			<dd>
+			<dt className="benefit-title">{title}</dt>
+			<dd className="benefit-description">
 				<svg
+					className="benefit-image"
 					xmlns="http://www.w3.org/2000/svg"
 					viewBox="0 0 24 24"
 					width="128"
