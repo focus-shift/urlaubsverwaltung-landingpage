@@ -5,7 +5,7 @@ import NextLink from "next/link";
 export default function Link({ className, href, children }) {
 	const basePath = process.env.BASE_PATH || "";
 	return (
-		<NextLink href={basePath + href}>
+		<NextLink href={href} as={basePath + href}>
 			<a className={className}>{children}</a>
 		</NextLink>
 	);
