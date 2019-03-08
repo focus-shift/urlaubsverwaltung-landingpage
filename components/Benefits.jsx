@@ -1,5 +1,5 @@
 import React from "react";
-import "./benefit-list.css";
+import "./benefit-list.tailwind.css";
 
 export default function BenefitList() {
 	return (

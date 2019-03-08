@@ -2,7 +2,7 @@ import React from "react";
 import Head from "next/head";
 import Header from "./Header";
 
-import "./style.css";
+import "./style.tailwind.css";
 
 export default function Page({ title, children }) {
 	return (
