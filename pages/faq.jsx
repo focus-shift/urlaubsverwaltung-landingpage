@@ -34,6 +34,41 @@ export default function Faq() {
 				Abteilungsleiter der bearbeiteten Abteilung.
 			</p>
 			<h2 id="benutzer">Benutzer</h2>
+			<h3 id="welche-berechtigungen-gibt-es">Welche Berechtigungen gibt es?</h3>
+			<p>
+				In der Urlaubsverwaltung gibt es aktuell folgende Arten von
+				Berechtigungen:
+				<ul>
+					<li>
+						inaktiv: hat keinen Zugang mehr zur Urlaubsverwaltung (Daten des
+						Benutzers bleiben zur Archivierung bestehen)
+					</li>
+					<li>User: darf Urlaub für sich selbst beantragen</li>
+					<li>
+						Abteilungsleiter: darf Urlaubsanträge für die Benutzer seiner
+						Abteilungen einsehen, genehmigen und ablehnen
+					</li>
+					<li>
+						Freigabe Verantwortlicher: ist bei der zweistufigen Genehmigung von
+						Anträgen verantwortlich für die endgültige Freigabe
+					</li>
+					<li>
+						Chef: darf Urlaubsanträge aller Benutzer einsehen, genehmigen und
+						ablehnen
+					</li>
+					<li>
+						Office: darf Einstellungen zur Anwendung vornehmen, Mitarbeiter
+						verwalten, Urlaub für Mitarbeiter beantragen/stornieren und
+						Krankmeldungen pflegen
+					</li>
+					<li>
+						Admin: Keine fachliche Rolle sondern nur für den Zugriff von
+						Management Schnittstellen ([Spring Boot
+						Actuator](https://docs.spring.io/spring-boot/docs/current/reference/html/production-ready-endpoints.html)).
+					</li>
+				</ul>
+				Eine aktive Person kann eine oder mehrere Rollen innehaben.
+			</p>
 			<h3 id="welcher-benutzer-bekommt-adminrechte">
 				Welcher Benutzer bekommt die Admin-Rechte bei Authentifikation mit
 				LDAP/AD?
@@ -422,9 +457,9 @@ export default function Faq() {
 				<code>UNPAIDLEAVE</code>. Welche ID hier eingetragen werden muss, kann
 				in der Tabelle <code>VacationType</code> nachgesehen werden.
 			</p>
-			<h2 id="wie-funktioniert-der-übergang-zwischen-zwei-jahren">
+			<h3 id="wie-funktioniert-der-übergang-zwischen-zwei-jahren">
 				Wie funktioniert der Übergang zwischen zwei Jahren?
-			</h2>
+			</h3>
 			<p>
 				Der Urlaub der im bisherigen Jahr noch nicht genommen wurde wird in das
 				folgende Jahr übernommen. Diese Übernahme passiert in den
@@ -435,6 +470,15 @@ export default function Faq() {
 				Benutzung der Urlaubsverwaltung aufkommen können. Der Fragenkatalog
 				erhebt keinen Anspruch auf Vollständigkeit und befindet sich im
 				ständigen Wachstum und in Veränderung.
+			</p>
+			<h2 id="rest-api">REST-Schnittstelle</h2>
+			<p>
+				Die Urlaubsverwaltung besitzt eine sich selbst beschreibende
+				REST-Schnittstelle. Diese kann über `/api/` aufgerufen werden, z.B.{" "}
+				<a href="https://urlaubsverwaltung-demo.synyx.de/api/index.html">
+					hier
+				</a>
+				.
 			</p>
 		</Page>
 	);
