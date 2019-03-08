@@ -270,6 +270,26 @@ export default function Faq() {
 				</a>{" "}
 			</p>
 			<h2 id="exchange">Exchange-Anbindung</h2>
+			<p>
+				Die Urlaubsverwaltung bietet die Möglichkeit alle Urlaube und
+				Krankheitstage mit einem Kalender (Microsoft Exchange bzw. Office 365)
+				zu synchronisieren.
+			</p>
+			<h3 id="wie-aktiviere-ich-die-kalendersynchronisation-mit-exchange">
+				Wie aktiviere ich die Kalendersynchronisation mit Exchange?
+			</h3>
+			<figure>
+				<img
+					src="https://raw.githubusercontent.com/synyx/urlaubsverwaltung/master/docs/exchange-calendar-settings.png"
+					alt="Einstellungsdialog für Microsoft Exchange als Kalenderanbindung"
+				/>
+			</figure>
+			<p>
+				Anhand der zu konfigurierenden E-Mail-Adresse wird per Autodiscovery die
+				dazugehörige Exchange Server Adresse ermittelt, welche für die
+				Synchronisation verwendet wird. Wichtig ist, dass der gewünschte
+				Kalender bereits zuvor angelegt wurde.
+			</p>
 			<h3 id="welche-bedingungen-muss-der-exchange-benutzer-erfuellen">
 				Welche Bedingungen muss der Exchange Benutzer erfüllen?
 			</h3>
@@ -298,23 +318,24 @@ export default function Faq() {
 				mit dem angegebenen Namen gibt. Wenn kein Kalender mit diesem Namen
 				existiert, wird automatisch ein neuer angelegt.
 			</p>
-
 			<h2 id="google-calendar">Google-Calendar-Anbindung</h2>
 			<p>
-				Die Urlaubsverwaltung kann an einen Google Kalender angebunden werden,
-				dazu sind folgende Dinge nötig:
+				Die Urlaubsverwaltung bietet die Möglichkeit alle Urlaube und
+				Krankheitstage mit einem Google Kalender zu synchronisieren.
 			</p>
+			<h3 id="google-calendar-steps">Dazu ist folgendes nötig:</h3>
 			<ol type="1">
 				<li>
-					<strong>Google Kalender API</strong> aktivieren (
+					<strong>Google Kalender API</strong> aktivieren:
 					<a href="https://cloud.google.com/apis/docs/enable-disable-apis">
 						Enable and disable APIs
 					</a>
-					)
 				</li>
 				<li>
-					Die <strong>OAuth2 Client Id</strong> als Webanwendung konfigurieren
-					(https://console.developers.google.com).
+					Die <strong>OAuth2 Client Id</strong> als Webanwendung konfigurieren:
+					<a href="https://console.developers.google.com">
+						https://console.developers.google.com
+					</a>
 				</li>
 				<li>
 					Das <strong>OAuth2 Client Secret</strong> bekommt man durch die
@@ -329,6 +350,73 @@ export default function Faq() {
 					“Autorisierte Weiterleitungs-URL” angegeben werden.
 				</li>
 			</ol>
+			<figure>
+				<img
+					src="https://raw.githubusercontent.com/synyx/urlaubsverwaltung/master/docs/google-calendar-settings.png"
+					alt="Einstellungsdialog für Google Calendar als Kalenderanbindung"
+				/>
+			</figure>
+			<p>
+				Die Anbindung von Google Calendar basiert auf einem OAuth 2.0 Handshake.
+				Sobald alle Konfigurationsfelder wie unten beschrieben für die
+				Synchronisation mit Google Calendar befüllt sind, kann mit dem Button
+				"Zugriff erlauben..." der OAuth 2.0 Handshake durchgeführt werden.
+				Sofern dieser Schritt erfolgreich war und die Synchronisation
+				eingerichtet ist, steht neben dem Button "Verbindung zum Google-Kalender
+				ist hergestellt."
+			</p>
+			<h3 id="client-anlegen">Client anlegen</h3>
+			<p>
+				Um einen solchen OAuth 2.0 Handshake durchführen zu können ist es
+				zunächst notwendig die Urlaubsverwaltung als Anwendung bei Google
+				bekannt zu machen. Dies geschieht über{" "}
+				<a href="https://console.developers.google.com">APIs und Services</a>
+				.Hier muss zunächst ein{" "}
+				<a href="https://console.developers.google.com/projectcreate">
+					Projekt angelegt
+				</a>
+				werden. Sobald das geschehen ist kann die{" "}
+				<a href="https://console.developers.google.com/apis/library/calendar-json.googleapis.com/">
+					Calendar API
+				</a>
+				aktiviert werden. Nach der Aktivierung müssen außerdem
+				<a href="https://console.developers.google.com/apis/credentials/oauthclient">
+					OAuth 2.0 Client Zugangsdaten
+				</a>
+				erzeugt werden. Es müssen außerdem die Autorisierte Weiterleitungs-URIs
+				mit dem Wert gefüllt werden der in den Einstellungen unter
+				Weiterleitungs-URL angezeigt wird. Direkt nach der Erstellung werden
+				<strong>Client Id</strong> und <strong>Client Secret</strong> angezeigt.
+				Diese müssen dann in den Einstellungen der Urlaubsverwaltung
+				entsprechend hinterlegt werden.
+			</p>
+			<figure>
+				<img
+					src="https://raw.githubusercontent.com/synyx/urlaubsverwaltung/master/docs/google-create-oauth-client.png"
+					alt="Anlage eines OAuth 2.0 Clients"
+				/>
+			</figure>
+			<h3 id="kalender-anlegen-konfigurieren">
+				Kalender anlegen/konfigurieren
+			</h3>
+			<p>
+				Eine weitere notwendige Information ist die <strong>Kalender ID</strong>{" "}
+				welche später zur Synchronisation verwendet wird. Es kann dafür entweder
+				ein bestehender Kalender verwendet werden oder ein [neuer Kalender
+				angelegt](https://calendar.google.com/calendar/r/settings/createcalendar)
+				werden. In Google Calendar kann man dann in den Kalendereinstellungen
+				die **Kalendar ID** finden. Diese muss ebenfalls in der
+				Urlaubsverwaltung gepflegt werden.
+			</p>
+			<h3 id="weiterleitungs-url">Urlaubsverwaltung Weiterleitungs-URL</h3>
+			<p>
+				Damit der OAuth 2.0 Handshake durchgeführt werden kann, ist es notwendig
+				die die Weiterleitungs-URL bei der Konfiguration der Webanwendung bei
+				Google anzugeben. Diese ist abhängig von der Installation und wird in
+				den Einstellungen des Google Kalenders angezeigt, z.B.
+				`http://localhost:8080/web/google-api-handshake` für ein Testsystem. Sie
+				ist nur für die initiale Freigabe des Kalenders nötig.
+			</p>
 			<h2 id="ueberstunden">Überstunden</h2>
 			<h3 id="kann-ich-die-ueberstundenfunktion-deaktivieren">
 				Kann ich die Überstundenfunktion deaktivieren?
