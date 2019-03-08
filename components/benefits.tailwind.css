@@ -11,8 +11,6 @@
 }
 
 .benefit-description {
-	text-align: center;
-	margin-bottom: 2rem;
 }
 
 .benefit-image {
@@ -30,8 +28,13 @@
 		transform: translateY(calc(128px + 6px));
 	}
 
+	.benefit-image {
+		transform: translateY(-64px);
+	}
+
 	.benefits-grid {
 		display: grid;
+		grid-gap: 1rem;
 		grid-template-columns: repeat(2, 1fr);
 	}
 
@@ -98,7 +101,7 @@
 	.benefits-grid {
 		display: grid;
 		grid-template-columns: repeat(3, 1fr);
-		grid-gap: 8px;
+		grid-gap: 1rem;
 	}
 
 	.benefit-title:nth-of-type(1) {
