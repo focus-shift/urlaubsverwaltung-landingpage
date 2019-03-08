@@ -12,7 +12,7 @@ export default function Page({ title, children }) {
 				<meta name="viewport" content="initial-scale=1.0, width=device-width" />
 			</Head>
 			<Header />
-			{children}
+			<main className="container mx-auto">{children}</main>
 		</>
 	);
 }
