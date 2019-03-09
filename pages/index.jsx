@@ -14,6 +14,7 @@ export default function IndexPage() {
 				<Benefits />
 				<Customers />
 			</article>
+			<Integration />
 		</Page>
 	);
 }
@@ -30,6 +31,20 @@ function Stage() {
 					nur der Urlaub Spaß, sondern auch die Urlaubsplanung. Echt bärenstark!
 				</p>
 			</div>
+		</div>
+	);
+}
+
+function Integration() {
+	return (
+		<div className="bg-grey-light text-grey-darker text-center flex flex-col p-4 sm:p-6">
+			<h2 className="mb-2 sm:mb-4">Verzahnung</h2>
+			<ul className="list-reset flex flex-row mx-auto">
+				<li className="p-4">Foo</li>
+				<li className="p-4">Bar</li>
+				<li className="p-4">Baz</li>
+				<li className="p-4">Bum</li>
+			</ul>
 		</div>
 	);
 }
