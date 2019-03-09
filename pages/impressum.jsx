@@ -6,17 +6,58 @@ export default function Impressum() {
 	return (
 		<Page title="Impressum">
 			<h1 className="mt-12 mb-6">Impressum</h1>
+			<h2 className="mb-4">Inhalt, fachliche & technische Gestaltung:</h2>
+			<address className="mb-4">
+				<p className="mb-4">
+					synyx GmbH & Co. KG
+					<br />
+					Gartenstraße 67
+					<br />
+					D-76135 Karlsruhe
+				</p>
+				<p className="mb-4">
+					Telefon: +49 721 203823-0
+					<br />
+					Fax: +49 721 203823-12
+					<br />
+					E-Mail: info@synyx.de
+					<br />
+					https://synyx.de
+				</p>
+				<p className="mb-4">
+					Blog: http://blog.synyx.de
+					<br />
+					IRC: irc://irc.synyx.de #synyx
+				</p>
+			</address>
+			<p className="mb-4">
+				Sitz der Gesellschaft: Karlsruhe
+				<br />
+				Registergericht: Amtsgericht Mannheim
+				<br />
+				Handelsregisternummer: HRA 104793
+				<br />
+				USt-IdNr.: DE249264296
+				<br />
+				Komplementärin: synyx Verwaltung GmbH
+				<br />
+				Sitz der Gesellschaft: Karlsruhe
+				<br />
+				Geschäftsführer: Thomas Kraft, Markus Daniel, Joachim Arrasz
+				<br />
+				Handelsregisternummer: HRB 107250
+			</p>
+			<p className="mb-4">
+				Webmaster: Thomas Kraft
+				<br />
+				Inhaltlich Verantwortlicher gemäß § 6 MDStV: Thomas Kraft
+			</p>
 			<p>
-				Griaß di! Das Erbfeind liebkosen die frivol Missetäter. Das nichtsnutzig
-				Kinkerlitzchen bemuttern. Der adrett Springinsfeld. Haderlump und Lump
-				anschwärzen feist Halunke. Die Schmock bauchpinseln der feist
-				Steckenpferd. Das Promenadenmischung abkupfern der nichtsnutzig
-				Kleintierzuchtverein. Der emsig Tohuwabohu. Die halbstark Unhold. Die
-				Trinkhalle festnageln das frivol Kuppelei. Das töricht Lametta. Der
-				butterweich Schuhwichse auftakeln. Die Schürzenjäger frohlocken die
-				feist Naschkatze. Die rosig Fräulein piesacken. Die butterweich
-				Rädelsführer flanieren. Die Wuchtbrumme schlampampen der bierernst
-				Affenzahn. Heidewitzka!
+				Die allgemeinen Geschäftsbedingungen (AGBs) der synyx GmbH & Co. KG
+				können Sie hier einsehen{" "}
+				<a href="https://synyx.de/assets/downloads/AGB_synyx_17.pdf" download>
+					(PDF-Dokument, 15 Seiten)
+				</a>
 			</p>
 		</Page>
 	);
