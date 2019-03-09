@@ -4,10 +4,11 @@ import Navigation from "./Navigation";
 import Link from "./Link";
 import SocialMedia from "./SocialMedia";
 import bearImage from "./bear.png";
+import "./header.tailwind.css";
 
 export default function Header() {
 	return (
-		<header className="flex flex-row items-center h-10 overflow-hidden p-2 container mx-auto">
+		<header className="header flex flex-row items-center h-10 overflow-hidden p-2 container mx-auto">
 			<div className="h-full">
 				<Link href="/" className="block h-full flex items-center">
 					<img
