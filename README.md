@@ -31,3 +31,10 @@ npm run build
 Das Skript baut alle benötigten statischen Resourcen für die Homepage (_.html, _.js, \*.css Assets).
 
 Aktuell findest du diese Assets im `<rootDir>/out` Verzeichnis und kannst diese z. B. mit `npx http-server out` anschauen. [http-server](https://github.com/indexzero/http-server) startet per default einen Server auf Port 8080 (http://localhost:8080).
+
+## FAQ
+
+### Warum ist das Projektsetup so verrückt?
+
+Weil wir die Chance nutzen wollen Technologien zu evaluieren ¯\\\_(ツ)\_/¯  
+Eigentlich reicht es aktuell HTML und CSS selbst zu hacken... Dieses eigentlich...
