@@ -21,6 +21,10 @@ html {
  * Remove the margin in all browsers.
  */
 
+body {
+  margin: 0;
+}
+
 /**
  * Render the `main` element consistently in IE.
  */
@@ -573,6 +577,10 @@ table {
   padding-right: 1rem;
 }
 
+.static {
+  position: static;
+}
+
 .text-center {
   text-align: center;
 }
@@ -590,6 +598,10 @@ table {
 }
 
 /* Your custom CSS here */
+
+body {
+  font-family: "Open Sans", sans-serif;
+}
 
 h1,
 h2,
