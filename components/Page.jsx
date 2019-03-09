@@ -10,9 +10,8 @@ export default function Page({ title, children }) {
 	return (
 		<div className="min-h-screen flex flex-col">
 			<Head>
+				{/* for static meta elements see pages/_document.jsx */}
 				<title>{pageTitle}</title>
-				<meta name="viewport" content="initial-scale=1.0, width=device-width" />
-				<link rel="icon" href="/static/favicon.svg" type="image/svg" />
 			</Head>
 			<Header />
 			<main className="flex-1 container mx-auto mb-12">{children}</main>
