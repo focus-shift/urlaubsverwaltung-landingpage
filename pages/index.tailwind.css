@@ -1,5 +1,5 @@
 .frontpage-stage {
-	background-color: #e0e0e0;
+	@apply bg-grey-light;
 	background-image: url("./frontpage-background.svg");
 	background-position: bottom;
 	background-repeat: no-repeat;
