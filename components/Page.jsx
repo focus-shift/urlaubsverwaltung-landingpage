@@ -12,6 +12,7 @@ export default function Page({ title, children }) {
 			<Head>
 				<title>{pageTitle}</title>
 				<meta name="viewport" content="initial-scale=1.0, width=device-width" />
+				<link rel="icon" href="/static/favicon.svg" type="image/svg" />
 			</Head>
 			<Header />
 			<main className="flex-1 container mx-auto mb-12">{children}</main>
