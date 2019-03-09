@@ -2,6 +2,8 @@ const withCSS = require("@zeit/next-css");
 const withPurgeCss = require("next-purgecss");
 const withImages = require("next-images");
 
+const isProd = process.env.NODE_ENV === "production";
+
 const config = {
 	env: {
 		CONTENT_HOST: "http://localhost:3000",
@@ -30,11 +32,12 @@ const config = {
 };
 
 function compose(...fns) {
-	return config => fns.reduceRight((config, fn) => fn(config), config);
+	return config =>
+		fns.reduceRight((config, fn) => (fn ? fn(config) : config), config);
 }
 
 module.exports = compose(
 	withCSS,
-	withPurgeCss,
+	isProd && withPurgeCss,
 	withImages,
 )(config);
