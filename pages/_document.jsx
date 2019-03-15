@@ -20,6 +20,7 @@ export default class MyDocument extends Document {
 						content="initial-scale=1.0, width=device-width"
 					/>
 					<link rel="icon" href="/static/favicon.svg" type="image/svg" />
+					<script defer async src="/static/easteregg.js" />
 				</Head>
 				<body>
 					<Main />
