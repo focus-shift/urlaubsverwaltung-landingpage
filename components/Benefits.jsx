@@ -7,32 +7,32 @@ export default function Benefits() {
 		<dl title="Urlaubär Benefits" className="benefits-grid">
 			<BenefitItem
 				title="Papierlos"
-				text="Nie wieder Papierkrieg und scheußliche Excel-Tabellen. Mit dem Urlaubär kannst du deine Urlaubsanträge komplett papierlos verwalten – von der Antragsstellung bis zur Genehmigung."
+				text="Nie wieder Papierkrieg und scheußliche Excel-Tabellen. Verwalte Urlaubsanträge ab sofort komplett papierlos – von der Antragsstellung bis zur Genehmigung."
 				image={PlaceHolderImage}
 			/>
 			<BenefitItem
 				title="Clever"
-				text="Du brauchst dir keine Gedanken darum zu machen, wann welcher Feiertag ist oder den Taschenrechner zücken, um zu berechnen, wie viele Urlaubstage du noch hast. Der Urlaubär weiß Bescheid und du kannst deinen Hirnschmalz sinnvoller einsetzen."
+				text="Du brauchst Dir keine Gedanken mehr darum zu machen, wann welcher Feiertag ist oder den Taschenrechner zücken, um Urlaubstage zu berechnen. Unsere Anwendung weiß Bescheid und Du kannst Deinen Hirnschmalz sinnvoller einsetzen."
 				image={PlaceHolderImage}
 			/>
 			<BenefitItem
-				title="Transparent"
-				text="Mit dem Urlaubär hast du immer alles im Blick. Wann sind deine Kollegen im Urlaub? Welche Anträge müssen noch genehmigt werden?"
+				title="Übersichtlich"
+				text="Mit unserer Anwendung hast Du immer alles im Blick. Wann sind Deine Kollegen im Urlaub? Wie viele Urlaubstage hast Du noch übrig? Welche Anträge müssen noch genehmigt werden?"
 				image={PlaceHolderImage}
 			/>
 			<BenefitItem
 				title="Jederzeit"
-				text="Du kannst den Urlaubär problemlos auf deinem Smartphone nutzen und dadurch jederzeit und von überall Urlaubsanträge verwalten."
+				text="Selbstverständlich läuft unsere Anwendung auch problemlos auf Deinem Smartphone oder Tablet. Dadurch bist Du in der Lage, jederzeit und von überall Urlaubsanträge zu pflegen."
 				image={PlaceHolderImage}
 			/>
 			<BenefitItem
-				title="Konfigurierbar"
-				text="Eisbär, Pandabär oder Grizzly – passe den Urlaubär flexibel an deine Bedürfnisse an."
+				title="Anpassbar"
+				text="Passe die Anwendung flexibel an Deine Bedürfnisse und Workflows an. Ob E-Mail-Benachrichtigungen oder Synchronisation mit dem Firmenkalender, schalte an oder aus, was Du brauchst oder auch nicht."
 				image={PlaceHolderImage}
 			/>
 			<BenefitItem
 				title="Vielseitig"
-				text="Der Urlaubär ist nicht nur Spezialist beim Thema Urlaub, sondern hat auch in Sachen Krankmeldungen und Überstunden ordentlich was auf dem Kasten."
+				text="Unsere bärenstarke Anwendung ist nicht nur Profi beim Thema Urlaub, sondern hat auch in Sachen Krankmeldungen und Überstunden ordentlich was auf dem Kasten."
 				image={PlaceHolderImage}
 			/>
 		</dl>
