@@ -14,7 +14,7 @@ export default function Page({ title, children }) {
 				<title>{pageTitle}</title>
 			</Head>
 			<Header />
-			<main className="flex-1 container mx-auto mb-12">{children}</main>
+			<main className="flex-1 container mb-12">{children}</main>
 			<Footer />
 		</div>
 	);
