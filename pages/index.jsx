@@ -9,8 +9,12 @@ export default function IndexPage() {
 		<Page>
 			<Stage />
 			<article>
-				<h2>Warum Urlaubär?</h2>
-				<p>Beim Urlaubär bist du in besten Pfoten!</p>
+				<h2>Beim Urlaubär bist du in besten Pfoten!</h2>
+				<p>
+					Keine Lust mehr auf Papierchaos und scheußliche Excel-Tabellen? Du
+					willst übersichtlich, bequem und von überall Urlaubsanträge verwalten?
+					Dann probier's doch mal mit unserer bärenstarken Urlaubsverwaltung!
+				</p>
 				<Benefits />
 			</article>
 		</Page>
@@ -21,12 +25,15 @@ function Stage() {
 	return (
 		<div className="frontpage-stage flex justify-center">
 			<div className="md:w-5/6 p-8 sm:p-12 md:p-16 lg:p-20">
-				<h1 className="mb-4">Probier's mal mit Urlaub!</h1>
+				<h1 className="mb-4">Urlaubsverwaltung geht auch anders!</h1>
 				<p>
-					Direkt vom Strand aus den nächsten Urlaub beantragen und die Sonne
-					weiter genießen? Mit dem Urlaubär kein Problem! Urlaubsplanung leicht
-					gemacht - übersichtlich, bequem und überall nutzbar. So macht nicht
-					nur der Urlaub Spaß, sondern auch die Urlaubsplanung. Echt bärenstark!
+					Direkt vom Strand aus den nächsten Urlaub beantragen und weiter die
+					Sonne genießen? Dank des Urlaubären ist das gar kein Problem. Unsere
+					Anwendung mit dem bärenstarken Maskottchen versetzt Dich schon beim
+					Beantragen von Urlaub in Urlaubsstimmung. Übersichtlich, bequem und
+					von überall Urlaubsanträge verwalten – So macht nicht nur der Urlaub
+					Spaß, sondern schon die Urlaubsplanung. Probier's aus und überzeuge
+					Dich selbst!
 				</p>
 			</div>
 		</div>
