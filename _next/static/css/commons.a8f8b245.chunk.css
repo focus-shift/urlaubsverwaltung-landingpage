@@ -9,11 +9,6 @@
  * 2. Prevent adjustments of font size after orientation changes in iOS.
  */
 
-html {
-  line-height: 1.15; /* 1 */
-  -webkit-text-size-adjust: 100%; /* 2 */
-}
-
 /* Sections
    ========================================================================== */
 
@@ -86,11 +81,6 @@ strong {
  * 2. Correct the odd `em` font sizing in all browsers.
  */
 
-code {
-  font-family: monospace, monospace; /* 1 */
-  font-size: 1em; /* 2 */
-}
-
 /**
  * Add the correct font size in all browsers.
  */
@@ -120,8 +110,7 @@ img {
  */
 
 button,
-input,
-textarea {
+input {
   font-family: inherit; /* 1 */
   font-size: 100%; /* 1 */
   line-height: 1.15; /* 1 */
@@ -211,10 +200,6 @@ legend {
  * Remove the default vertical scrollbar in IE 10+.
  */
 
-textarea {
-  overflow: auto;
-}
-
 /**
  * 1. Add the correct box sizing in IE 10.
  * 2. Remove the padding in IE 10.
@@ -301,11 +286,6 @@ textarea {
  * 2. Change the default font family in all browsers (opinionated)
  */
 
-html {
-  box-sizing: border-box; /* 1 */
-  font-family: sans-serif; /* 2 */
-}
-
 *,
 *::before,
 *::after {
@@ -325,7 +305,6 @@ h3,
 h4,
 h5,
 h6,
-figure,
 p {
   margin: 0;
 }
@@ -392,35 +371,27 @@ img {
   border-style: solid;
 }
 
-textarea {
-  resize: vertical;
-}
-
 img {
   max-width: 100%;
   height: auto;
 }
 
-input::-webkit-input-placeholder,
-textarea::-webkit-input-placeholder {
+input::-webkit-input-placeholder {
   color: inherit;
   opacity: .5;
 }
 
-input:-ms-input-placeholder,
-textarea:-ms-input-placeholder {
+input:-ms-input-placeholder {
   color: inherit;
   opacity: .5;
 }
 
-input::-ms-input-placeholder,
-textarea::-ms-input-placeholder {
+input::-ms-input-placeholder {
   color: inherit;
   opacity: .5;
 }
 
-input::placeholder,
-textarea::placeholder {
+input::placeholder {
   color: inherit;
   opacity: .5;
 }
@@ -428,10 +399,6 @@ textarea::placeholder {
 button,
 [role="button"] {
   cursor: pointer;
-}
-
-table {
-  border-collapse: collapse;
 }
 
 .container {
@@ -479,10 +446,6 @@ table {
   display: block;
 }
 
-.table {
-  display: table;
-}
-
 .flex {
   display: flex;
 }
@@ -524,10 +487,6 @@ table {
   margin-right: auto;
 }
 
-.mb-2 {
-  margin-bottom: .5rem;
-}
-
 .mb-4 {
   margin-bottom: 1rem;
 }
@@ -560,10 +519,6 @@ table {
   padding: .5rem;
 }
 
-.p-4 {
-  padding: 1rem;
-}
-
 .p-8 {
   padding: 2rem;
 }
@@ -572,21 +527,12 @@ table {
   padding: 3rem;
 }
 
-.px-4 {
-  padding-left: 1rem;
-  padding-right: 1rem;
-}
-
 .static {
   position: static;
 }
 
 .text-center {
   text-align: center;
-}
-
-.text-grey-darker {
-  color: #606f7b;
 }
 
 .text-white {
@@ -633,33 +579,12 @@ h6 {
 
 @media (min-width: 576px) {
 
-  .sm\:mb-4 {
-    margin-bottom: 1rem;
-  }
-
-  .sm\:p-6 {
-    padding: 1.5rem;
-  }
-
   .sm\:p-12 {
     padding: 3rem;
-  }
-
-  .sm\:px-6 {
-    padding-left: 1.5rem;
-    padding-right: 1.5rem;
   }
 }
 
 @media (min-width: 768px) {
-
-  .md\:flex-row {
-    flex-direction: row;
-  }
-
-  .md\:flex-1 {
-    flex: 1 1 0%;
-  }
 
   .md\:p-16 {
     padding: 4rem;
@@ -671,10 +596,6 @@ h6 {
 }
 
 @media (min-width: 992px) {
-
-  .lg\:flex-row-reverse {
-    flex-direction: row-reverse;
-  }
 
   .lg\:p-20 {
     padding: 5rem;
