@@ -6,6 +6,7 @@ import Document, { Html, Head, Main, NextScript } from "next/document";
 
 export default class MyDocument extends Document {
 	render() {
+		const assetPrefix = process.env.ASSET_PREFIX || "";
 		return (
 			<Html lang="de">
 				<Head>
@@ -19,8 +20,12 @@ export default class MyDocument extends Document {
 						name="viewport"
 						content="initial-scale=1.0, width=device-width"
 					/>
-					<link rel="icon" href="/static/favicon.svg" type="image/svg" />
-					<script defer async src="/static/easteregg.js" />
+					<link
+						rel="icon"
+						href={`${assetPrefix}/static/favicon.svg`}
+						type="image/svg"
+					/>
+					<script defer async src={`${assetPrefix}/static/easteregg.js`} />
 				</Head>
 				<body>
 					<Main />
