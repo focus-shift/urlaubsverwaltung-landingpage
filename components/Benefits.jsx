@@ -8,32 +8,32 @@ export default function Benefits() {
 			<BenefitItem
 				title="Papierlos"
 				text="Nie wieder Papierkrieg und scheußliche Excel-Tabellen. Verwalte Urlaubsanträge ab sofort komplett papierlos – von der Antragsstellung bis zur Genehmigung."
-				image={PlaceHolderImage}
+				image={BenefitSvg}
 			/>
 			<BenefitItem
 				title="Clever"
 				text="Du brauchst Dir keine Gedanken mehr darum zu machen, wann welcher Feiertag ist oder den Taschenrechner zücken, um Urlaubstage zu berechnen. Unsere Anwendung weiß Bescheid und Du kannst Deinen Hirnschmalz sinnvoller einsetzen."
-				image={PlaceHolderImage}
+				image={BenefitSvg}
 			/>
 			<BenefitItem
 				title="Übersichtlich"
 				text="Mit unserer Anwendung hast Du immer alles im Blick. Wann sind Deine Kollegen im Urlaub? Wie viele Urlaubstage hast Du noch übrig? Welche Anträge müssen noch genehmigt werden?"
-				image={PlaceHolderImage}
+				image={BenefitSvg}
 			/>
 			<BenefitItem
 				title="Jederzeit"
 				text="Selbstverständlich läuft unsere Anwendung auch problemlos auf Deinem Smartphone oder Tablet. Dadurch bist Du in der Lage, jederzeit und von überall Urlaubsanträge zu pflegen."
-				image={PlaceHolderImage}
+				image={BenefitSvg}
 			/>
 			<BenefitItem
 				title="Anpassbar"
 				text="Passe die Anwendung flexibel an Deine Bedürfnisse und Workflows an. Ob E-Mail-Benachrichtigungen oder Synchronisation mit dem Firmenkalender, schalte an oder aus, was Du brauchst oder auch nicht."
-				image={PlaceHolderImage}
+				image={BenefitSvg}
 			/>
 			<BenefitItem
 				title="Vielseitig"
 				text="Unsere bärenstarke Anwendung ist nicht nur Profi beim Thema Urlaub, sondern hat auch in Sachen Krankmeldungen und Überstunden ordentlich was auf dem Kasten."
-				image={PlaceHolderImage}
+				image={BenefitSvg}
 			/>
 		</dl>
 	);
@@ -51,21 +51,63 @@ function BenefitItem({ title, text, image }) {
 	);
 }
 
-const PlaceHolderImage = (
+const BenefitSvg = (
 	<svg
 		xmlns="http://www.w3.org/2000/svg"
-		viewBox="0 0 297.5 296"
+		viewBox="0 0 425.9 450.3"
 		width="128"
 		height="128"
 		className="benefit-image mx-auto"
 	>
-		<path
-			fill="#4f4f4f"
-			d="M147.2 0C230.7-.3 297 64 297.5 146.3a147.5 147.5 0 0 1-149 149.7C66 296 .3 231.7 0 150.8-.3 65.4 63.2.3 147.2 0z"
-		/>
-		<path
-			fill="#fff"
-			d="M148.7 75.1c-65.2 0-65.2 32.6-65.2 73 0 40.2 29.2 72.8 65.2 72.8S214 188.3 214 148c0-40.3 0-72.9-65.3-72.9zm17 60.3a14.5 14.5 0 0 0-9.8 14.9l3.8 47.4a6 6 0 0 1-1.7 3.9 12.3 12.3 0 0 1-18.5 0 6 6 0 0 1-1.7-3.9l3.8-47.4c.5-6.6-3.5-12.8-9.8-15-12-4-20.4-12.4-20.4-22 0-13.8 16.7-24.9 37.3-24.9s37.4 11.1 37.4 24.8c0 9.7-8.3 18-20.4 22.2z"
-		/>
+		<defs>
+			<linearGradient
+				id="a"
+				x1="213"
+				x2="213"
+				y1="450.3"
+				y2="24.4"
+				gradientUnits="userSpaceOnUse"
+			>
+				<stop offset="0" stopColor="#83ccd6" />
+				<stop offset="1" stopColor="#c8e2c9" />
+			</linearGradient>
+		</defs>
+		<g>
+			<g>
+				<circle cx="213" cy="237.3" r="213" fill="url(#a)" />
+				<path
+					fill="#7e5635"
+					d="M395.1 224.7c-7-22.4-13.5-42.5-19.2-59.3-17-50.7-34.3-149-162.3-149-130.8 0-145 98.3-162.2 149-5.7 16.8-12.3 36.9-19.4 59.3l-23 74a213 213 0 0 0 408.5-2c-8-25.8-15.4-50-22.4-72z"
+				/>
+				<path
+					fill="#7e5635"
+					d="M228.7 0a123 123 0 0 0-49.1 20.1H237s6.4-10 10.3-13.4a85.2 85.2 0 0 0-29.8 6.5c3.4-6.4 6.1-8.8 11-13.2z"
+				/>
+				<path
+					fill="#f4c38e"
+					d="M213.5 208.8c-63.4 0-63.4 26.9-63.4 60 0 33.2 15.5 66.7 63.4 66.7s63.4-33.5 63.4-66.6c0-33.2 0-60.1-63.4-60.1z"
+				/>
+				<path
+					fill="#202020"
+					d="M245.7 245.4a36 36 0 0 1-32.2 24 36 36 0 0 1-32.2-24c-2.8-10 5.6-16 10.5-17.3 10.5-2.8 33-3.2 43.4 0 4.8 1.4 13.3 7.4 10.5 17.3z"
+				/>
+				<path
+					fill="none"
+					stroke="#333"
+					strokeLinecap="round"
+					strokeMiterlimit="10"
+					strokeWidth="7.5"
+					d="M192 238.5a56.7 56.7 0 0 1 41.9 0"
+				/>
+				<circle cx="289.2" cy="186.9" r="16.9" fill="#202020" />
+				<circle cx="292.3" cy="181.3" r="5.6" fill="#fbfbfb" />
+				<circle cx="136.7" cy="186.9" r="16.9" fill="#202020" />
+				<circle cx="139.8" cy="181.3" r="5.6" fill="#fbfbfb" />
+				<circle cx="100.4" cy="57.8" r="42.3" fill="#7e5635" />
+				<circle cx="100.4" cy="57.8" r="27.5" fill="#644023" />
+				<circle cx="325.6" cy="57.8" r="42.3" fill="#7e5635" />
+				<circle cx="325.6" cy="57.8" r="27.5" fill="#644023" />
+			</g>
+		</g>
 	</svg>
 );
