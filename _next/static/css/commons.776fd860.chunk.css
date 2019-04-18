@@ -302,9 +302,6 @@ dd,
 h1,
 h2,
 h3,
-h4,
-h5,
-h6,
 p {
   margin: 0;
 }
@@ -324,7 +321,7 @@ button:focus {
   outline: 5px auto -webkit-focus-ring-color;
 }
 
-ol,
+
 ul {
   margin: 0;
 }
@@ -401,34 +398,6 @@ button,
   cursor: pointer;
 }
 
-.container {
-  width: 100%;
-}
-
-@media (min-width: 576px) {
-  .container {
-    max-width: 576px;
-  }
-}
-
-@media (min-width: 768px) {
-  .container {
-    max-width: 768px;
-  }
-}
-
-@media (min-width: 992px) {
-  .container {
-    max-width: 992px;
-  }
-}
-
-@media (min-width: 1200px) {
-  .container {
-    max-width: 1200px;
-  }
-}
-
 .list-reset {
   list-style: none;
   padding: 0;
@@ -438,12 +407,8 @@ button,
   background-color: #3d4852;
 }
 
-.bg-grey-light {
-  background-color: #e0e0e0;
-}
-
-.block {
-  display: block;
+.bg-blue-darkest {
+  background-color: #12283a;
 }
 
 .flex {
@@ -478,10 +443,6 @@ button,
   height: 2.5rem;
 }
 
-.h-full {
-  height: 100%;
-}
-
 .mx-auto {
   margin-left: auto;
   margin-right: auto;
@@ -495,6 +456,10 @@ button,
   margin-bottom: 1.5rem;
 }
 
+.mb-10 {
+  margin-bottom: 2.5rem;
+}
+
 .mt-12 {
   margin-top: 3rem;
 }
@@ -503,8 +468,8 @@ button,
   margin-bottom: 3rem;
 }
 
-.min-h-screen {
-  min-height: 100vh;
+.max-w-md {
+  max-width: 40rem;
 }
 
 .overflow-hidden {
@@ -527,6 +492,11 @@ button,
   padding: 3rem;
 }
 
+.px-4 {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
 .static {
   position: static;
 }
@@ -539,8 +509,8 @@ button,
   color: #fff;
 }
 
-.whitespace-no-wrap {
-  white-space: nowrap;
+.visible {
+  visibility: visible;
 }
 
 /* Your custom CSS here */
@@ -551,10 +521,7 @@ body {
 
 h1,
 h2,
-h3,
-h4,
-h5,
-h6 {
+h3 {
   font-family: "Oswald", sans-serif;
   font-weight: 600;
 }
@@ -575,6 +542,11 @@ h6 {
   position: static;
   width: auto;
   height: auto;
+}
+
+.page {
+  margin: 0 auto;
+  max-width: 1200px;
 }
 
 @media (min-width: 576px) {
