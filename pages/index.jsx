@@ -18,8 +18,8 @@ function Stage() {
 		<div className="frontpage-stage flex justify-center mb-10">
 			<div className="overscan-frontpage-stage" />
 			<div className="md:w-5/6 p-8 sm:p-12 md:p-16 lg:p-20">
-				<h1 className="mb-4">Urlaubsverwaltung geht auch anders!</h1>
-				<p>
+				<h1 className="mb-4 text-white">Urlaubsverwaltung geht auch anders!</h1>
+				<p className="mb-12 text-blue-lightest leading-normal">
 					Direkt vom Strand aus den nächsten Urlaub beantragen und weiter die
 					Sonne genießen? Dank des Urlaubären ist das gar kein Problem. Unsere
 					Anwendung mit dem bärenstarken Maskottchen versetzt Dich schon beim
@@ -28,6 +28,23 @@ function Stage() {
 					Spaß, sondern schon die Urlaubsplanung. Probier's aus und überzeuge
 					Dich selbst!
 				</p>
+				<form>
+					<div className="flex justify-center">
+						<div className="flex flex-row w-full md:w-3/5">
+							<input
+								placeholder="EMail"
+								type="email"
+								className="p-3 flex-grow"
+							/>
+							<button
+								type="submit"
+								className="p-3 text-white bg-orange-darkest"
+							>
+								Anmelden
+							</button>
+						</div>
+					</div>
+				</form>
 			</div>
 		</div>
 	);
