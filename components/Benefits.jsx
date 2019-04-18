@@ -43,9 +43,9 @@ function BenefitItem({ title, text, image }) {
 	return (
 		<>
 			<dt className="benefit-title">{title}</dt>
-			<dd className="flex flex-col items-center">
+			<dd className="benefit-description ">
 				{image}
-				<p className="benefit-description">{text}</p>
+				<p className="benefit-description-text">{text}</p>
 			</dd>
 		</>
 	);
