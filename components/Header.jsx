@@ -7,7 +7,7 @@ import bearImage from "./bear.png";
 
 export default function Header() {
 	return (
-		<header className="bg-grey-light flex flex-row items-center h-10 overflow-hidden p-2 container">
+		<header className="bg-grey-light flex flex-row items-center h-10 overflow-hidden p-2">
 			<div className="h-full">
 				<Link href="/" className="block h-full flex items-center">
 					<img

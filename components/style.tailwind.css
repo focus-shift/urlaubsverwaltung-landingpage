@@ -37,3 +37,8 @@ h6 {
 	width: auto;
 	height: auto;
 }
+
+.page {
+	margin: 0 auto;
+	max-width: 1200px;
+}
