@@ -16,6 +16,7 @@ export default function IndexPage() {
 function Stage() {
 	return (
 		<div className="frontpage-stage flex justify-center">
+			<div className="overscan-frontpage-stage" />
 			<div className="md:w-5/6 p-8 sm:p-12 md:p-16 lg:p-20">
 				<h1 className="mb-4">Urlaubsverwaltung geht auch anders!</h1>
 				<p>
@@ -35,8 +36,8 @@ function Stage() {
 function Benefits() {
 	return (
 		<article>
-			<h2>Beim Urlaubär bist du in besten Pfoten!</h2>
-			<p>
+			<h2 className="mt-8 mb-4">Beim Urlaubär bist du in besten Pfoten!</h2>
+			<p className="mb-8">
 				Keine Lust mehr auf Papierchaos und scheußliche Excel-Tabellen? Du
 				willst übersichtlich, bequem und von überall Urlaubsanträge verwalten?
 				Dann probier's doch mal mit unserer bärenstarken Urlaubsverwaltung!

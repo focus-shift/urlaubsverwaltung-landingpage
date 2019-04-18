@@ -1,31 +1,41 @@
 .frontpage-stage {
-	@apply bg-grey-light;
-	background-image: url("./frontpage-background.svg");
-	background-position: bottom;
-	background-repeat: no-repeat;
+	overflow: hidden;
+	position: relative;
 	height: 24rem;
+}
+
+.overscan-frontpage-stage {
+	z-index: -1;
+	background-color: #59c4ed;
+	background-image: url("./frontpage-background.svg");
+	background-repeat: no-repeat;
+	background-position: bottom;
+	height: 101%;
+	left: -0.5%;
+	position: absolute;
+	top: -0.5%;
+	width: 101%;
 }
 
 @screen sm {
 	.frontpage-stage {
+		height: 32rem;
 	}
 }
 
 @screen md {
 	.frontpage-stage {
-		height: 30rem;
+		height: 41rem;
 	}
 }
 
 @screen lg {
 	.frontpage-stage {
-		height: 36rem;
+		height: 50rem;
 	}
 }
 
 @screen xl {
 	.frontpage-stage {
-		background-size: cover;
-		height: 41rem;
 	}
 }
