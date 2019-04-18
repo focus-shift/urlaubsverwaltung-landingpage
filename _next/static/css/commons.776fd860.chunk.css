@@ -415,6 +415,10 @@ button,
   background-color: #12283a;
 }
 
+.block {
+  display: block;
+}
+
 .flex {
   display: flex;
 }
@@ -515,6 +519,10 @@ button,
 
 .static {
   position: static;
+}
+
+.absolute {
+  position: absolute;
 }
 
 .text-center {
