@@ -407,6 +407,10 @@ button,
   background-color: #3d4852;
 }
 
+.bg-orange-darkest {
+  background-color: #462a16;
+}
+
 .bg-blue-darkest {
   background-color: #12283a;
 }
@@ -439,8 +443,16 @@ button,
   flex: 1 1 0%;
 }
 
+.flex-grow {
+  flex-grow: 1;
+}
+
 .h-10 {
   height: 2.5rem;
+}
+
+.leading-normal {
+  line-height: 1.5;
 }
 
 .mx-auto {
@@ -484,6 +496,10 @@ button,
   padding: .5rem;
 }
 
+.p-3 {
+  padding: .75rem;
+}
+
 .p-8 {
   padding: 2rem;
 }
@@ -509,8 +525,16 @@ button,
   color: #fff;
 }
 
+.text-blue-lightest {
+  color: #eff8ff;
+}
+
 .visible {
   visibility: visible;
+}
+
+.w-full {
+  width: 100%;
 }
 
 /* Your custom CSS here */
@@ -560,6 +584,10 @@ h3 {
 
   .md\:p-16 {
     padding: 4rem;
+  }
+
+  .md\:w-3\/5 {
+    width: 60%;
   }
 
   .md\:w-5\/6 {
