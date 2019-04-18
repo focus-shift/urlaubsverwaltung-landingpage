@@ -5,9 +5,9 @@ import Page from "../components/Page";
 export default function Impressum() {
 	return (
 		<Page title="Impressum">
-			<h1 className="mt-12 mb-6">Impressum</h1>
-			<h2 className="mb-4">Inhalt, fachliche & technische Gestaltung:</h2>
-			<address className="mb-4">
+			<h1 className="px-4 mt-12 mb-6">Impressum</h1>
+			<h2 className="px-4 mb-4">Inhalt, fachliche & technische Gestaltung:</h2>
+			<address className="px-4 mb-4">
 				<p className="mb-4">
 					synyx GmbH & Co. KG
 					<br />
@@ -30,7 +30,7 @@ export default function Impressum() {
 					IRC: irc://irc.synyx.de #synyx
 				</p>
 			</address>
-			<p className="mb-4">
+			<p className="px-4 mb-4">
 				Sitz der Gesellschaft: Karlsruhe
 				<br />
 				Registergericht: Amtsgericht Mannheim
@@ -47,12 +47,12 @@ export default function Impressum() {
 				<br />
 				Handelsregisternummer: HRB 107250
 			</p>
-			<p className="mb-4">
+			<p className="px-4 mb-4">
 				Webmaster: Thomas Kraft
 				<br />
 				Inhaltlich Verantwortlicher gemäß § 6 MDStV: Thomas Kraft
 			</p>
-			<p>
+			<p className="px-4">
 				Die allgemeinen Geschäftsbedingungen (AGBs) der synyx GmbH & Co. KG
 				können Sie hier einsehen{" "}
 				<a href="https://synyx.de/assets/downloads/AGB_synyx_17.pdf" download>
