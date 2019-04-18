@@ -4,38 +4,41 @@ import "./benefits.tailwind.css";
 
 export default function Benefits() {
 	return (
-		<dl title="Urlaubär Benefits" className="benefits-grid">
-			<BenefitItem
-				title="Papierlos"
-				text="Nie wieder Papierkrieg und scheußliche Excel-Tabellen. Verwalte Urlaubsanträge ab sofort komplett papierlos – von der Antragsstellung bis zur Genehmigung."
-				image={BenefitSvg}
-			/>
-			<BenefitItem
-				title="Clever"
-				text="Du brauchst Dir keine Gedanken mehr darum zu machen, wann welcher Feiertag ist oder den Taschenrechner zücken, um Urlaubstage zu berechnen. Unsere Anwendung weiß Bescheid und Du kannst Deinen Hirnschmalz sinnvoller einsetzen."
-				image={BenefitSvg}
-			/>
-			<BenefitItem
-				title="Übersichtlich"
-				text="Mit unserer Anwendung hast Du immer alles im Blick. Wann sind Deine Kollegen im Urlaub? Wie viele Urlaubstage hast Du noch übrig? Welche Anträge müssen noch genehmigt werden?"
-				image={BenefitSvg}
-			/>
-			<BenefitItem
-				title="Jederzeit"
-				text="Selbstverständlich läuft unsere Anwendung auch problemlos auf Deinem Smartphone oder Tablet. Dadurch bist Du in der Lage, jederzeit und von überall Urlaubsanträge zu pflegen."
-				image={BenefitSvg}
-			/>
-			<BenefitItem
-				title="Anpassbar"
-				text="Passe die Anwendung flexibel an Deine Bedürfnisse und Workflows an. Ob E-Mail-Benachrichtigungen oder Synchronisation mit dem Firmenkalender, schalte an oder aus, was Du brauchst oder auch nicht."
-				image={BenefitSvg}
-			/>
-			<BenefitItem
-				title="Vielseitig"
-				text="Unsere bärenstarke Anwendung ist nicht nur Profi beim Thema Urlaub, sondern hat auch in Sachen Krankmeldungen und Überstunden ordentlich was auf dem Kasten."
-				image={BenefitSvg}
-			/>
-		</dl>
+		<>
+			{BenefitSvgDefinition}
+			<dl title="Urlaubär Benefits" className="benefits-grid">
+				<BenefitItem
+					title="Papierlos"
+					text="Nie wieder Papierkrieg und scheußliche Excel-Tabellen. Verwalte Urlaubsanträge ab sofort komplett papierlos – von der Antragsstellung bis zur Genehmigung."
+					image={BenefitSvg}
+				/>
+				<BenefitItem
+					title="Clever"
+					text="Du brauchst Dir keine Gedanken mehr darum zu machen, wann welcher Feiertag ist oder den Taschenrechner zücken, um Urlaubstage zu berechnen. Unsere Anwendung weiß Bescheid und Du kannst Deinen Hirnschmalz sinnvoller einsetzen."
+					image={BenefitSvg}
+				/>
+				<BenefitItem
+					title="Übersichtlich"
+					text="Mit unserer Anwendung hast Du immer alles im Blick. Wann sind Deine Kollegen im Urlaub? Wie viele Urlaubstage hast Du noch übrig? Welche Anträge müssen noch genehmigt werden?"
+					image={BenefitSvg}
+				/>
+				<BenefitItem
+					title="Jederzeit"
+					text="Selbstverständlich läuft unsere Anwendung auch problemlos auf Deinem Smartphone oder Tablet. Dadurch bist Du in der Lage, jederzeit und von überall Urlaubsanträge zu pflegen."
+					image={BenefitSvg}
+				/>
+				<BenefitItem
+					title="Anpassbar"
+					text="Passe die Anwendung flexibel an Deine Bedürfnisse und Workflows an. Ob E-Mail-Benachrichtigungen oder Synchronisation mit dem Firmenkalender, schalte an oder aus, was Du brauchst oder auch nicht."
+					image={BenefitSvg}
+				/>
+				<BenefitItem
+					title="Vielseitig"
+					text="Unsere bärenstarke Anwendung ist nicht nur Profi beim Thema Urlaub, sondern hat auch in Sachen Krankmeldungen und Überstunden ordentlich was auf dem Kasten."
+					image={BenefitSvg}
+				/>
+			</dl>
+		</>
 	);
 }
 
@@ -54,14 +57,21 @@ function BenefitItem({ title, text, image }) {
 const BenefitSvg = (
 	<svg
 		xmlns="http://www.w3.org/2000/svg"
+		xmlnsXlink="http://www.w3.org/1999/xlink"
 		viewBox="0 0 425.9 450.3"
 		width="128"
 		height="128"
 		className="benefit-image mx-auto"
 	>
+		<use xlinkHref="#benefit-icon-svg" />
+	</svg>
+);
+
+const BenefitSvgDefinition = (
+	<svg style={{ display: "none" }}>
 		<defs>
 			<linearGradient
-				id="a"
+				id="benefit-icon-svg-gradient"
 				x1="213"
 				x2="213"
 				y1="450.3"
@@ -72,9 +82,14 @@ const BenefitSvg = (
 				<stop offset="1" stopColor="#c8e2c9" />
 			</linearGradient>
 		</defs>
-		<g>
-			<g>
-				<circle cx="213" cy="237.3" r="213" fill="url(#a)" />
+		<defs>
+			<g id="benefit-icon-svg">
+				<circle
+					cx="213"
+					cy="237.3"
+					r="213"
+					fill="url(#benefit-icon-svg-gradient)"
+				/>
 				<path
 					fill="#7e5635"
 					d="M395.1 224.7c-7-22.4-13.5-42.5-19.2-59.3-17-50.7-34.3-149-162.3-149-130.8 0-145 98.3-162.2 149-5.7 16.8-12.3 36.9-19.4 59.3l-23 74a213 213 0 0 0 408.5-2c-8-25.8-15.4-50-22.4-72z"
@@ -108,6 +123,6 @@ const BenefitSvg = (
 				<circle cx="325.6" cy="57.8" r="42.3" fill="#7e5635" />
 				<circle cx="325.6" cy="57.8" r="27.5" fill="#644023" />
 			</g>
-		</g>
+		</defs>
 	</svg>
 );
