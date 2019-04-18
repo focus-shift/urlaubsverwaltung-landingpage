@@ -1,6 +1,6 @@
 import React from "react";
 import Page from "../components/Page";
-import Benefits from "../components/Benefits";
+import BenefitList from "../components/Benefits";
 
 import "./index.tailwind.css";
 
@@ -8,15 +8,7 @@ export default function IndexPage() {
 	return (
 		<Page>
 			<Stage />
-			<article>
-				<h2>Beim Urlaubär bist du in besten Pfoten!</h2>
-				<p>
-					Keine Lust mehr auf Papierchaos und scheußliche Excel-Tabellen? Du
-					willst übersichtlich, bequem und von überall Urlaubsanträge verwalten?
-					Dann probier's doch mal mit unserer bärenstarken Urlaubsverwaltung!
-				</p>
-				<Benefits />
-			</article>
+			<Benefits />
 		</Page>
 	);
 }
@@ -37,5 +29,19 @@ function Stage() {
 				</p>
 			</div>
 		</div>
+	);
+}
+
+function Benefits() {
+	return (
+		<article>
+			<h2>Beim Urlaubär bist du in besten Pfoten!</h2>
+			<p>
+				Keine Lust mehr auf Papierchaos und scheußliche Excel-Tabellen? Du
+				willst übersichtlich, bequem und von überall Urlaubsanträge verwalten?
+				Dann probier's doch mal mit unserer bärenstarken Urlaubsverwaltung!
+			</p>
+			<BenefitList />
+		</article>
 	);
 }
