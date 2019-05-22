@@ -35,7 +35,7 @@ main {
 
 h1 {
   font-size: 2em;
-  margin: .67em 0;
+  margin: 0.67em 0;
 }
 
 /* Grouping content
@@ -123,8 +123,7 @@ input {
  */
 
 button,
-input {
-  /* 1 */
+input { /* 1 */
   overflow: visible;
 }
 
@@ -133,8 +132,7 @@ input {
  * 1. Remove the inheritance of text transform in Firefox.
  */
 
-button {
-  /* 1 */
+button { /* 1 */
   text-transform: none;
 }
 
@@ -323,11 +321,19 @@ button:focus {
 
 
 ul {
+  list-style: none;
   margin: 0;
+  padding: 0;
 }
 
 /**
  * Tailwind custom reset styles
+ */
+
+/**
+ * 1. Use the system font stack as a sane default.
+ * 2. Use Tailwind's default "normal" line-height so the user isn't forced
+ * to override it to ensure consistency even when using the default theme.
  */
 
 /**
@@ -351,7 +357,7 @@ ul {
 *::after {
   border-width: 0;
   border-style: solid;
-  border-color: #e0e0e0;
+  border-color: #e2e8f0;
 }
 
 /**
@@ -368,29 +374,24 @@ img {
   border-style: solid;
 }
 
-img {
-  max-width: 100%;
-  height: auto;
-}
-
 input::-webkit-input-placeholder {
   color: inherit;
-  opacity: .5;
+  opacity: 0.5;
 }
 
 input:-ms-input-placeholder {
   color: inherit;
-  opacity: .5;
+  opacity: 0.5;
 }
 
 input::-ms-input-placeholder {
   color: inherit;
-  opacity: .5;
+  opacity: 0.5;
 }
 
 input::placeholder {
   color: inherit;
-  opacity: .5;
+  opacity: 0.5;
 }
 
 button,
@@ -398,21 +399,82 @@ button,
   cursor: pointer;
 }
 
-.list-reset {
-  list-style: none;
+h1,
+h2,
+h3 {
+  font-size: inherit;
+  font-weight: inherit;
+}
+
+/**
+ * Reset links to optimize for opt-in styling instead of
+ * opt-out.
+ */
+
+a {
+  color: inherit;
+  text-decoration: inherit;
+}
+
+/**
+ * Reset form element properties that are easy to forget to
+ * style explicitly so you don't inadvertently introduce
+ * styles that deviate from your design system. These styles
+ * supplement a partial reset that is already applied by
+ * normalize.css.
+ */
+
+button,
+input {
   padding: 0;
+  line-height: inherit;
+  color: inherit;
 }
 
-.bg-grey-darkest {
-  background-color: #3d4852;
+/**
+ * Use the configured 'mono' font family for elements that
+ * are expected to be rendered with a monospace font, falling
+ * back to the system monospace stack if there is no configured
+ * 'mono' font family.
+ */
+
+/**
+ * Make replaced elements `display: block` by default as that's
+ * the behavior you want almost all of the time. Inspired by
+ * CSS Remedy, with `svg` added as well.
+ *
+ * https://github.com/mozdevs/cssremedy/issues/14
+ */
+
+img,
+svg,
+canvas {
+  display: block;
+  vertical-align: middle;
 }
 
-.bg-orange-darkest {
-  background-color: #462a16;
+/**
+ * Constrain images and videos to the parent width and preserve
+ * their instrinsic aspect ratio.
+ *
+ * https://github.com/mozdevs/cssremedy/issues/14
+ */
+
+img {
+  max-width: 100%;
+  height: auto;
 }
 
-.bg-blue-darkest {
-  background-color: #12283a;
+.bg-gray-800 {
+  background-color: #2d3748;
+}
+
+.bg-orange-900 {
+  background-color: #7b341e;
+}
+
+.bg-blue-900 {
+  background-color: #2a4365;
 }
 
 .block {
@@ -425,10 +487,6 @@ button,
 
 .flex-row {
   flex-direction: row;
-}
-
-.flex-col {
-  flex-direction: column;
 }
 
 .items-center {
@@ -451,12 +509,12 @@ button,
   flex-grow: 1;
 }
 
-.h-10 {
-  height: 2.5rem;
+.font-semibold {
+  font-weight: 600;
 }
 
-.leading-normal {
-  line-height: 1.5;
+.h-10 {
+  height: 2.5rem;
 }
 
 .mx-auto {
@@ -485,23 +543,27 @@ button,
 }
 
 .max-w-md {
-  max-width: 40rem;
+  max-width: 28rem;
 }
 
-.overflow-hidden {
-  overflow: hidden;
+.max-w-6xl {
+  max-width: 72rem;
 }
 
 .p-1 {
-  padding: .25rem;
+  padding: 0.25rem;
 }
 
 .p-2 {
-  padding: .5rem;
+  padding: 0.5rem;
 }
 
 .p-3 {
-  padding: .75rem;
+  padding: 0.75rem;
+}
+
+.p-4 {
+  padding: 1rem;
 }
 
 .p-8 {
@@ -525,6 +587,10 @@ button,
   position: absolute;
 }
 
+.shadow {
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
+}
+
 .text-center {
   text-align: center;
 }
@@ -533,8 +599,20 @@ button,
   color: #fff;
 }
 
-.text-blue-lightest {
-  color: #eff8ff;
+.text-gray-900 {
+  color: #1a202c;
+}
+
+.text-xl {
+  font-size: 1.25rem;
+}
+
+.text-2xl {
+  font-size: 1.5rem;
+}
+
+.underline {
+  text-decoration: underline;
 }
 
 .visible {
@@ -546,6 +624,11 @@ button,
 }
 
 /* Your custom CSS here */
+
+
+body {
+  height: 100%;
+}
 
 body {
   font-family: "Open Sans", sans-serif;
@@ -576,12 +659,7 @@ h3 {
   height: auto;
 }
 
-.page {
-  margin: 0 auto;
-  max-width: 1200px;
-}
-
-@media (min-width: 576px) {
+@media (min-width: 640px) {
 
   .sm\:p-12 {
     padding: 3rem;
@@ -594,16 +672,12 @@ h3 {
     padding: 4rem;
   }
 
-  .md\:w-3\/5 {
-    width: 60%;
-  }
-
   .md\:w-5\/6 {
     width: 83.33333%;
   }
 }
 
-@media (min-width: 992px) {
+@media (min-width: 1024px) {
 
   .lg\:p-20 {
     padding: 5rem;

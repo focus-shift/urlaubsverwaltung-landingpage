@@ -41,7 +41,7 @@
           transform: translateY(-48px);
 }
 
-@media (min-width: 576px) {
+@media (min-width: 640px) {
 }
 
 @media (min-width: 768px) {
@@ -122,7 +122,7 @@
   }
 }
 
-@media (min-width: 992px) {
+@media (min-width: 1024px) {
   .benefit-title {
     -webkit-transform: translateY(calc(128px + 12px));
             transform: translateY(calc(128px + 12px));
@@ -195,13 +195,13 @@
   }
 }
 
-@media (min-width: 1200px) {
+@media (min-width: 1280px) {
 }
 
 .frontpage-stage {
   overflow: hidden;
   position: relative;
-  height: 24rem;
+  height: 38rem;
 }
 
 .overscan-frontpage-stage {
@@ -217,25 +217,25 @@
   width: 101%;
 }
 
-@media (min-width: 576px) {
+@media (min-width: 640px) {
   .frontpage-stage {
-    height: 32rem;
+    height: 40rem;
   }
 }
 
 @media (min-width: 768px) {
   .frontpage-stage {
-    height: 41rem;
+    height: 45rem;
   }
 }
 
-@media (min-width: 992px) {
+@media (min-width: 1024px) {
   .frontpage-stage {
     height: 50rem;
   }
 }
 
-@media (min-width: 1200px) {
+@media (min-width: 1280px) {
   .frontpage-stage {
   }
 }
