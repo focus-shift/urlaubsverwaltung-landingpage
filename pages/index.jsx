@@ -28,25 +28,50 @@ function Stage() {
 					Spaß, sondern schon die Urlaubsplanung. Probier's aus und überzeuge
 					Dich selbst!
 				</p>
-				<form>
-					<div className="flex justify-center">
-						<div className="flex flex-row w-full md:w-3/5">
-							<input
-								placeholder="EMail"
-								type="email"
-								className="p-3 flex-grow"
-							/>
-							<button
-								type="submit"
-								className="p-3 text-white bg-orange-darkest"
-							>
-								Anmelden
-							</button>
-						</div>
-					</div>
-				</form>
+				<NewsletterSubscription />
 			</div>
 		</div>
+	);
+}
+
+function NewsletterSubscription() {
+	return (
+		<form
+			action="https://synyx.us20.list-manage.com/subscribe/post?u=1fe1456f5c442625816e0ad3e&amp;id=c61526cacb"
+			method="post"
+			id="mc-embedded-subscribe-form"
+			name="mc-embedded-subscribe-form"
+			target="_blank"
+			noValidate
+		>
+			<div className="flex justify-center">
+				<div className="flex flex-row w-full md:w-3/5">
+					<label htmlFor="mce-EMAIL" className="visually-hidden">
+						E-Mail Addresse&nbsp;
+					</label>
+					<input
+						type="email"
+						name="EMAIL"
+						id="mce-EMAIL"
+						placeholder="E-Mail Adresse"
+						className="p-3 flex-grow"
+					/>
+					<button type="submit" className="p-3 text-white bg-orange-darkest">
+						Anmelden
+					</button>
+				</div>
+				<div
+					style={{ position: "absolute", left: "-5000px" }}
+					aria-hidden="true"
+				>
+					<input
+						type="text"
+						name="b_fccd0eb4b621b298a993066d1_efeb5dbd37"
+						tabIndex="-1"
+					/>
+				</div>
+			</div>
+		</form>
 	);
 }
 
