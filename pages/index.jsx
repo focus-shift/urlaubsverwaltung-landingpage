@@ -21,7 +21,10 @@ function Stage() {
 				<h1 className="text-2xl font-semibold mb-4 text-gray-900">
 					Urlaubsverwaltung geht auch anders!
 				</h1>
-				<p className="p-4 mb-12 text-gray-900">
+				<p
+					className="p-4 mb-12 text-gray-900 shadow"
+					style={{ backgroundColor: "rgba(255,255,255,0.5)" }}
+				>
 					Direkt vom Strand aus den nächsten Urlaub beantragen und weiter die
 					Sonne genießen? Dank des Urlaubären ist das gar kein Problem. Unsere
 					Anwendung mit dem bärenstarken Maskottchen versetzt Dich schon beim
@@ -47,7 +50,7 @@ function NewsletterSubscription() {
 			noValidate
 		>
 			<div className="flex justify-center">
-				<div className="flex flex-row w-full md:w-3/5">
+				<div className="flex flex-row w-full shadow">
 					<label htmlFor="mce-EMAIL" className="visually-hidden">
 						E-Mail Addresse&nbsp;
 					</label>
