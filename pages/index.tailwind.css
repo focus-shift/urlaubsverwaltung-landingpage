@@ -1,7 +1,7 @@
 .frontpage-stage {
 	overflow: hidden;
 	position: relative;
-	height: 24rem;
+	height: 38rem;
 }
 
 .overscan-frontpage-stage {
@@ -19,13 +19,13 @@
 
 @screen sm {
 	.frontpage-stage {
-		height: 32rem;
+		height: 40rem;
 	}
 }
 
 @screen md {
 	.frontpage-stage {
-		height: 41rem;
+		height: 45rem;
 	}
 }
 
