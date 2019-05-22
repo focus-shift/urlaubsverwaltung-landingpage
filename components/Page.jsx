@@ -8,7 +8,7 @@ import "./style.tailwind.css";
 export default function Page({ title, children }) {
 	const pageTitle = ["Urlaubsverwaltung", title].filter(Boolean).join(" · ");
 	return (
-		<div className="page flex flex-col">
+		<div className="page flex flex-col min-h-full">
 			<Head>
 				{/* for static meta elements see pages/_document.jsx */}
 				<title>{pageTitle}</title>

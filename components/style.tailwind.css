@@ -6,8 +6,17 @@
 
 @import url("https://fonts.googleapis.com/css?family=Open+Sans:400,700|Oswald:600");
 
+html,
+body {
+	height: 100%;
+}
+
 body {
 	font-family: "Open Sans", sans-serif;
+}
+
+#__next {
+	height: 100%;
 }
 
 h1,
