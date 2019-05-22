@@ -4,7 +4,7 @@ import Link from "./Link";
 
 export default function Footer() {
 	return (
-		<footer className="bg-grey-darkest text-center p-12">
+		<footer className="bg-gray-800 text-center p-12">
 			<Link href="/impressum" className="text-white">
 				Impressum
 			</Link>

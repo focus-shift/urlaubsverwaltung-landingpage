@@ -4,18 +4,22 @@ export default function SocialMedia() {
 	return (
 		<>
 			<h3 className="visually-hidden">Social Media</h3>
-			<ul className="list-reset flex flex-row">
+			<ul className="flex flex-row">
 				<li className="p-1">
 					<a
 						href="https://github.com/synyx/urlaubsverwaltung"
 						aria-label="github project"
-						className="color-white"
+						className="text-blue"
 					>
 						{github}
 					</a>
 				</li>
 				<li className="p-1">
-					<a href="https://twitter.com/synyx_ka" aria-label="twitter account">
+					<a
+						href="https://twitter.com/synyx_ka"
+						aria-label="twitter account"
+						className="text-blue"
+					>
 						{twitter}
 					</a>
 				</li>

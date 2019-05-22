@@ -5,7 +5,7 @@ import Page from "../components/Page";
 export default function Impressum() {
 	return (
 		<Page title="Impressum">
-			<h1 className="px-4 mt-12 mb-6">Impressum</h1>
+			<h1 className="text-xl font-semibold px-4 mt-12 mb-6">Impressum</h1>
 			<h2 className="px-4 mb-4">Inhalt, fachliche & technische Gestaltung:</h2>
 			<address className="px-4 mb-4">
 				<p className="mb-4">
@@ -55,7 +55,11 @@ export default function Impressum() {
 			<p className="px-4">
 				Die allgemeinen Geschäftsbedingungen (AGBs) der synyx GmbH & Co. KG
 				können Sie hier einsehen{" "}
-				<a href="https://synyx.de/assets/downloads/AGB_synyx_17.pdf" download>
+				<a
+					href="https://synyx.de/assets/downloads/AGB_synyx_17.pdf"
+					download
+					className="text-blue"
+				>
 					(PDF-Dokument, 15 Seiten)
 				</a>
 			</p>

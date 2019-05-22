@@ -18,8 +18,10 @@ function Stage() {
 		<div className="frontpage-stage flex justify-center mb-10">
 			<div className="overscan-frontpage-stage" />
 			<div className="md:w-5/6 p-8 sm:p-12 md:p-16 lg:p-20">
-				<h1 className="mb-4 text-white">Urlaubsverwaltung geht auch anders!</h1>
-				<p className="mb-12 text-blue-lightest leading-normal">
+				<h1 className="text-2xl font-semibold mb-4 text-gray-900">
+					Urlaubsverwaltung geht auch anders!
+				</h1>
+				<p className="p-4 mb-12 text-gray-900">
 					Direkt vom Strand aus den nächsten Urlaub beantragen und weiter die
 					Sonne genießen? Dank des Urlaubären ist das gar kein Problem. Unsere
 					Anwendung mit dem bärenstarken Maskottchen versetzt Dich schon beim
@@ -56,7 +58,7 @@ function NewsletterSubscription() {
 						placeholder="E-Mail Adresse"
 						className="p-3 flex-grow"
 					/>
-					<button type="submit" className="p-3 text-white bg-orange-darkest">
+					<button type="submit" className="p-3 text-white bg-orange-900">
 						Anmelden
 					</button>
 				</div>
@@ -78,7 +80,7 @@ function NewsletterSubscription() {
 function Benefits() {
 	return (
 		<article className="px-4">
-			<h2 className="mb-6 text-center">
+			<h2 className="text-xl font-semibold mb-6 text-center">
 				Beim Urlaubär bist du in besten Pfoten!
 			</h2>
 			<p className="mx-auto mb-12 text-center max-w-md">
