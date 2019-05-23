@@ -10,6 +10,7 @@ const config = {
 		BASE_PATH: process.env.BASE_PATH || "",
 	},
 	purgeCss: {
+		whitelist: ["body", "html"],
 		extractors: [
 			{
 				extractor: class TailwindExtractor {
