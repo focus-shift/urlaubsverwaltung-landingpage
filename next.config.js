@@ -15,7 +15,7 @@ const config = {
 			{
 				extractor: class TailwindExtractor {
 					static extract(content) {
-						return content.match(/[A-Za-z0-9:/_-]+/g) || [];
+						return content.match(/[ÄÖÜäöüA-Za-z0-9:/_-]+/g) || [];
 					}
 				},
 				extensions: ["tailwind.css", "js", "jsx", "svg"].concat([
