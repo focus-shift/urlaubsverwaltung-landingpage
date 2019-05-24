@@ -5,7 +5,6 @@ import "./benefits.tailwind.css";
 export default function Benefits() {
 	return (
 		<>
-			{BenefitSvgDefinition}
 			<dl title="Urlaubär Benefits" className="benefits-grid">
 				<BenefitItem
 					title="Papierlos"
@@ -38,6 +37,7 @@ export default function Benefits() {
 					image={BenefitSvg}
 				/>
 			</dl>
+			{BenefitSvgDefinition}
 		</>
 	);
 }
