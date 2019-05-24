@@ -17,19 +17,18 @@ function Stage() {
 	return (
 		<div className="frontpage-stage flex justify-center mb-10">
 			<div className="overscan-frontpage-stage" />
-			<div className="md:w-2/3 p-8 sm:p-12 md:p-16 lg:p-20">
-				<h1 className="text-3xl md:text-4xl font-semibold mb-4 text-white text-center">
+			<div className="p-8 sm:p-12 md:p-16 lg:p-20">
+				<h1 className="text-3xl md:text-4xl font-semibold mb-4 text-gray-900 text-center">
 					Urlaubsverwaltung geht auch anders!
 				</h1>
-				<p
-					className="p-4 mb-12 text-gray-900 text-l"
-					style={{ backgroundColor: "rgba(255,255,255,0.5)" }}
-				>
-					Der Urlaubär soll Dir bei der Urlaubsverwaltung unter die Pfoten
-					greifen? Trage Dich in unseren Newsletter ein und erfahre als Erstes
-					von neuen Entwicklungen in unserer bärenstarken Anwendung.
-				</p>
-				<NewsletterSubscription />
+				<div className="mx-auto md:w-2/3 bg-orange-300 p-4 md:p-8 shadow">
+					<p className="mb-6 text-gray-900 text-l bg-orange-300 text-center">
+						Der Urlaubär soll Dir bei der Urlaubsverwaltung unter die Pfoten
+						greifen? Trage Dich in unseren Newsletter ein und erfahre als Erstes
+						von neuen Entwicklungen in unserer bärenstarken Anwendung.
+					</p>
+					<NewsletterSubscription />
+				</div>
 			</div>
 		</div>
 	);
@@ -46,7 +45,7 @@ function NewsletterSubscription() {
 			noValidate
 		>
 			<div className="flex justify-center">
-				<div className="flex flex-row w-full shadow">
+				<div className="flex flex-row w-full">
 					<label htmlFor="mce-EMAIL" className="visually-hidden">
 						E-Mail-Addresse&nbsp;
 					</label>
