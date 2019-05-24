@@ -1,1 +1,0 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([[3],{WLr1:function(n,e,t){"use strict";t.r(e);var r=t("q1tI"),u=t.n(r);e.default=function(){return u.a.createElement("h1",null,"hallo")}},qM7C:function(n,e,t){(window.__NEXT_P=window.__NEXT_P||[]).push(["/NewsletterTest",function(){var n=t("WLr1");return{page:n.default||n}}])}},[["qM7C",1,0]]]);
