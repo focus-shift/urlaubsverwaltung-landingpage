@@ -77,11 +77,11 @@ function NewsletterSubscription() {
 
 function Benefits() {
 	return (
-		<article className="px-4">
+		<article className="px-4 mx-auto max-w-6xl">
 			<h2 className="text-xl font-semibold mb-6 text-center">
 				Beim Urlaubär bist Du in besten Pfoten!
 			</h2>
-			<p className="mx-auto mb-12 text-center max-w-md">
+			<p className="mx-auto mb-12 text-center max-w-xl">
 				Keine Lust mehr auf Papierchaos und scheußliche Excel-Tabellen? Du
 				willst übersichtlich, bequem und von überall Urlaubsanträge verwalten?
 				Dann probier's doch mal mit unserer bärenstarken Urlaubsverwaltung!

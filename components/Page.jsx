@@ -14,7 +14,7 @@ export default function Page({ title, children }) {
 				<title>{pageTitle}</title>
 			</Head>
 			<Header />
-			<main className="mx-auto max-w-6xl flex-1 mb-12">{children}</main>
+			<main className="flex-1 mb-12">{children}</main>
 			<Footer />
 		</React.Fragment>
 	);

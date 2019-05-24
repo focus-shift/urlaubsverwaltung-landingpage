@@ -10,6 +10,7 @@
 	background-image: url("./frontpage-background.svg");
 	background-repeat: no-repeat;
 	background-position: bottom;
+	background-size: cover;
 	height: 101%;
 	left: -0.5%;
 	position: absolute;
