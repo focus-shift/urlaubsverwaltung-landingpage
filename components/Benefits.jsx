@@ -14,27 +14,27 @@ export default function Benefits() {
 				/>
 				<BenefitItem
 					title="Clever"
-					text="Du brauchst Dir keine Gedanken mehr darum zu machen, wann welcher Feiertag ist oder den Taschenrechner zücken, um Urlaubstage zu berechnen. Unsere Anwendung weiß Bescheid und Du kannst Deinen Hirnschmalz sinnvoller einsetzen."
+					text="Wann ist welcher Feiertag? Wie viele Urlaubstage sind noch übrig? Unsere Anwendung weiß Bescheid und Du kannst Deinen Hirnschmalz künftig sinnvoller einsetzen."
 					image={BenefitSvg}
 				/>
 				<BenefitItem
 					title="Übersichtlich"
-					text="Mit unserer Anwendung hast Du immer alles im Blick. Wann sind Deine Kollegen im Urlaub? Wie viele Urlaubstage hast Du noch übrig? Welche Anträge müssen noch genehmigt werden?"
+					text="Wann sind Deine Kollegen im Urlaub? Welche Anträge müssen noch genehmigt werden? Mit unserer Anwendung hast Du immer alles im Blick."
 					image={BenefitSvg}
 				/>
 				<BenefitItem
 					title="Jederzeit"
-					text="Selbstverständlich läuft unsere Anwendung auch problemlos auf Deinem Smartphone oder Tablet. Dadurch bist Du in der Lage, jederzeit und von überall Urlaubsanträge zu pflegen."
+					text="Selbstverständlich läuft unsere Anwendung auch auf Deinem Smartphone oder Tablet. Dadurch bist Du in der Lage, jederzeit und von überall Urlaubsanträge zu pflegen."
 					image={BenefitSvg}
 				/>
 				<BenefitItem
 					title="Anpassbar"
-					text="Passe die Anwendung flexibel an Deine Bedürfnisse und Workflows an. Ob E-Mail-Benachrichtigungen oder Synchronisation mit dem Firmenkalender, schalte an oder aus, was Du brauchst oder auch nicht."
+					text="Passe die Anwendung flexibel an Deine Bedürfnisse und Workflows an. Ob E-Mail-Benachrichtigungen oder Synchronisation mit dem Firmenkalender, entscheide selbst, was Du brauchst und was nicht."
 					image={BenefitSvg}
 				/>
 				<BenefitItem
 					title="Vielseitig"
-					text="Unsere bärenstarke Anwendung ist nicht nur Profi beim Thema Urlaub, sondern hat auch in Sachen Krankmeldungen und Überstunden ordentlich was auf dem Kasten."
+					text="Unsere Anwendung ist nicht nur Profi beim Thema Urlaub, sondern hat auch in Sachen Krankmeldungen und Überstunden ordentlich was auf dem Kasten."
 					image={BenefitSvg}
 				/>
 			</dl>
