@@ -18,10 +18,10 @@ function Stage() {
 		<div className="frontpage-stage flex justify-center mb-10">
 			<div className="overscan-frontpage-stage" />
 			<div className="p-8 sm:p-12 md:p-16 lg:p-20">
-				<h1 className="text-3xl md:text-4xl font-semibold mb-4 text-gray-900 text-center">
-					Urlaubsverwaltung geht auch anders!
-				</h1>
 				<div className="mx-auto md:w-2/3 bg-orange-300 p-4 md:p-8 shadow max-w-5xl">
+					<h1 className="text-3xl md:text-4xl font-semibold mb-4 text-gray-900">
+						Urlaubsverwaltung geht auch anders!
+					</h1>
 					<p className="mb-6 text-gray-900 text-l">
 						Der Urlaubär soll Dir bei der Urlaubsverwaltung eine Pfote zur Hand
 						legen? Trage Dich in unseren Newsletter ein und erfahre als Erstes
