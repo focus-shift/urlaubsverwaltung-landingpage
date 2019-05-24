@@ -48,13 +48,13 @@ function NewsletterSubscription() {
 			<div className="flex justify-center">
 				<div className="flex flex-row w-full shadow">
 					<label htmlFor="mce-EMAIL" className="visually-hidden">
-						E-Mail Addresse&nbsp;
+						E-Mail-Addresse&nbsp;
 					</label>
 					<input
 						type="email"
 						name="EMAIL"
 						id="mce-EMAIL"
-						placeholder="E-Mail Adresse"
+						placeholder="E-Mail-Adresse"
 						className="p-3 flex-grow"
 					/>
 					<button type="submit" className="p-3 text-white bg-orange-900">
