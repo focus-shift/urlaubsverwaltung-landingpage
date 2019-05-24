@@ -626,6 +626,10 @@ img {
   font-size: 1.5rem;
 }
 
+.text-3xl {
+  font-size: 1.875rem;
+}
+
 .underline {
   text-decoration: underline;
 }
@@ -687,8 +691,12 @@ h3 {
     padding: 4rem;
   }
 
-  .md\:w-5\/6 {
-    width: 83.33333%;
+  .md\:text-4xl {
+    font-size: 2.25rem;
+  }
+
+  .md\:w-2\/3 {
+    width: 66.66667%;
   }
 }
 
