@@ -22,7 +22,7 @@ function Stage() {
 					Urlaubsverwaltung geht auch anders!
 				</h1>
 				<div className="mx-auto md:w-2/3 bg-orange-300 p-4 md:p-8 shadow max-w-5xl">
-					<p className="mb-6 text-gray-900 text-l text-center">
+					<p className="mb-6 text-gray-900 text-l">
 						Der Urlaubär soll Dir bei der Urlaubsverwaltung eine Pfote zur Hand
 						legen? Trage Dich in unseren Newsletter ein und erfahre als Erstes
 						von neuen Entwicklungen in unserer bärenstarken Anwendung.
