@@ -207,9 +207,10 @@
 .overscan-frontpage-stage {
   z-index: -1;
   background-color: #59c4ed;
-  background-image: url(https://synyx.github.io/urlaubsverwaltung-landingpage//_next/static/images/frontpage-background-80ea57958a67aafc852e72afc0400260.svg);
+  background-image: url(https://synyx.github.io/urlaubsverwaltung-landingpage//_next/static/images/frontpage-background-99866a58da5085ae314ec2d192d24bf8.svg);
   background-repeat: no-repeat;
   background-position: bottom;
+  background-size: cover;
   height: 101%;
   left: -0.5%;
   position: absolute;

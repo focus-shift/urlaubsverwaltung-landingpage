@@ -484,6 +484,10 @@ img {
   background-color: #2d3748;
 }
 
+.bg-orange-300 {
+  background-color: #fbd38d;
+}
+
 .bg-orange-900 {
   background-color: #7b341e;
 }
@@ -557,8 +561,12 @@ img {
   margin-bottom: 3rem;
 }
 
-.max-w-md {
-  max-width: 28rem;
+.max-w-2xl {
+  max-width: 42rem;
+}
+
+.max-w-5xl {
+  max-width: 64rem;
 }
 
 .max-w-6xl {
@@ -634,10 +642,6 @@ img {
   text-decoration: underline;
 }
 
-.visible {
-  visibility: visible;
-}
-
 .w-full {
   width: 100%;
 }
@@ -686,6 +690,10 @@ h3 {
 }
 
 @media (min-width: 768px) {
+
+  .md\:p-8 {
+    padding: 2rem;
+  }
 
   .md\:p-16 {
     padding: 4rem;
