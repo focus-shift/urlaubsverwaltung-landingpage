@@ -17,21 +17,17 @@ function Stage() {
 	return (
 		<div className="frontpage-stage flex justify-center mb-10">
 			<div className="overscan-frontpage-stage" />
-			<div className="md:w-5/6 p-8 sm:p-12 md:p-16 lg:p-20">
-				<h1 className="text-2xl font-semibold mb-4 text-gray-900">
+			<div className="md:w-2/3 p-8 sm:p-12 md:p-16 lg:p-20">
+				<h1 className="text-4xl font-semibold mb-4 text-white text-center">
 					Urlaubsverwaltung geht auch anders!
 				</h1>
 				<p
-					className="p-4 mb-12 text-gray-900 shadow"
+					className="p-4 mb-12 text-gray-900 text-l"
 					style={{ backgroundColor: "rgba(255,255,255,0.5)" }}
 				>
-					Direkt vom Strand aus den nächsten Urlaub beantragen und weiter die
-					Sonne genießen? Dank des Urlaubären ist das gar kein Problem. Unsere
-					Anwendung mit dem bärenstarken Maskottchen versetzt Dich schon beim
-					Beantragen von Urlaub in Urlaubsstimmung. Übersichtlich, bequem und
-					von überall Urlaubsanträge verwalten – So macht nicht nur der Urlaub
-					Spaß, sondern schon die Urlaubsplanung. Probier's aus und überzeuge
-					Dich selbst!
+					Der Urlaubär soll dir bei der Urlaubsverwaltung unter die Pfoten
+					greifen? Trage dich in unseren Newsletter ein und erfahre als Erster
+					von neuen Entwicklungen aus der Bärenhöhle.
 				</p>
 				<NewsletterSubscription />
 			</div>
