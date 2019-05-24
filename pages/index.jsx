@@ -25,9 +25,9 @@ function Stage() {
 					className="p-4 mb-12 text-gray-900 text-l"
 					style={{ backgroundColor: "rgba(255,255,255,0.5)" }}
 				>
-					Der Urlaubär soll dir bei der Urlaubsverwaltung unter die Pfoten
-					greifen? Trage dich in unseren Newsletter ein und erfahre als Erster
-					von neuen Entwicklungen aus der Bärenhöhle.
+					Der Urlaubär soll Dir bei der Urlaubsverwaltung unter die Pfoten
+					greifen? Trage Dich in unseren Newsletter ein und erfahre als Erstes
+					von neuen Entwicklungen in unserer bärenstarken Anwendung.
 				</p>
 				<NewsletterSubscription />
 			</div>
@@ -58,7 +58,7 @@ function NewsletterSubscription() {
 						className="p-3 flex-grow"
 					/>
 					<button type="submit" className="p-3 text-white bg-orange-900">
-						Anmelden
+						Eintragen
 					</button>
 				</div>
 				<div
@@ -80,7 +80,7 @@ function Benefits() {
 	return (
 		<article className="px-4">
 			<h2 className="text-xl font-semibold mb-6 text-center">
-				Beim Urlaubär bist du in besten Pfoten!
+				Beim Urlaubär bist Du in besten Pfoten!
 			</h2>
 			<p className="mx-auto mb-12 text-center max-w-md">
 				Keine Lust mehr auf Papierchaos und scheußliche Excel-Tabellen? Du
