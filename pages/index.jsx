@@ -18,7 +18,7 @@ function Stage() {
 		<div className="frontpage-stage flex justify-center mb-10">
 			<div className="overscan-frontpage-stage" />
 			<div className="md:w-2/3 p-8 sm:p-12 md:p-16 lg:p-20">
-				<h1 className="text-4xl font-semibold mb-4 text-white text-center">
+				<h1 className="text-3xl md:text-4xl font-semibold mb-4 text-white text-center">
 					Urlaubsverwaltung geht auch anders!
 				</h1>
 				<p
