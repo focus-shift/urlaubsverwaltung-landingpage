@@ -23,8 +23,8 @@ function Stage() {
 				</h1>
 				<div className="mx-auto md:w-2/3 bg-orange-300 p-4 md:p-8 shadow">
 					<p className="mb-6 text-gray-900 text-l bg-orange-300 text-center">
-						Der Urlaubär soll Dir bei der Urlaubsverwaltung unter die Pfoten
-						greifen? Trage Dich in unseren Newsletter ein und erfahre als Erstes
+						Der Urlaubär soll dir bei der Urlaubsverwaltung eine Pfote zur Hand
+						legen? Trage dich in unseren Newsletter ein und erfahre als Erstes
 						von neuen Entwicklungen in unserer bärenstarken Anwendung.
 					</p>
 					<NewsletterSubscription />
