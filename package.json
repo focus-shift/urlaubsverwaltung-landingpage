@@ -13,7 +13,8 @@
 		"build": "npm run clean && npm run nextjs:build && npm run nextjs:export",
 		"clean": "rimraf .next out",
 		"nextjs:build": "next build",
-		"nextjs:export": "next export"
+		"nextjs:export": "next export",
+		"lint": "eslint --ext js,jsx pages components static"
 	},
 	"dependencies": {
 		"@zeit/next-css": "1.0.1",
