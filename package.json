@@ -27,7 +27,7 @@
 	"devDependencies": {
 		"babel-eslint": "9.0.0",
 		"eslint": "5.16.0",
-		"eslint-config-prettier": "4.0.0",
+		"eslint-config-prettier": "4.3.0",
 		"eslint-config-react-app": "3.0.7",
 		"eslint-plugin-flowtype": "2.50.3",
 		"eslint-plugin-import": "2.16.0",
