@@ -1,0 +1,42 @@
+.datenschutz-container {
+	@apply px-4;
+	@apply mx-auto;
+	@apply max-w-6xl;
+	@apply text-base;
+}
+
+.datenschutz-container h1 {
+	@apply mt-6;
+	@apply mb-6;
+	@apply text-3xl;
+}
+
+.datenschutz-container h2 {
+	@apply mt-6;
+	@apply mb-4;
+	@apply text-2xl;
+}
+
+.datenschutz-container h3 {
+	@apply mt-6;
+	@apply mb-4;
+	@apply text-xl;
+}
+
+.datenschutz-container strong {
+	font-family: "Oswald";
+}
+
+.datenschutz-container p {
+	@apply mb-2;
+}
+
+.datenschutz-container address {
+	@apply mb-2;
+}
+
+.datenschutz-container ul {
+	@apply my-4;
+	@apply mx-8;
+	@apply list-disc;
+}
