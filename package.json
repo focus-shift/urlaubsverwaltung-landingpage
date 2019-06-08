@@ -10,7 +10,7 @@
 	"author": "Benjamin Seber <seber@synyx.de> (https://www.synyx.de)",
 	"scripts": {
 		"dev": "next",
-		"build": "npm run clean && npm run nextjs:build && npm run nextjs:export",
+		"build": "NODE_ENV=production && npm run clean && npm run nextjs:build && npm run nextjs:export",
 		"clean": "rimraf .next out",
 		"nextjs:build": "next build",
 		"nextjs:export": "next export",
