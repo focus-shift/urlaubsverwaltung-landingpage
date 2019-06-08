@@ -34,7 +34,7 @@ const fonts = css`
 			url("${assetPrefix}${assetPrefix}/static/fonts/Open_Sans/OpenSans-Light.ttf") format("truetype");
 		font-weight: 100;
 		font-style: normal;
-		font-display: optional;
+		font-display: swap;
 	}
 
 	@font-face {
@@ -44,7 +44,7 @@ const fonts = css`
 			url("${assetPrefix}/static/fonts/Open_Sans/OpenSans-LightItalic.ttf") format("truetype");
 		font-weight: 100;
 		font-style: italic;
-		font-display: optional;
+		font-display: swap;
 	}
 
 	@font-face {
@@ -54,7 +54,7 @@ const fonts = css`
 			url("${assetPrefix}/static/fonts/Open_Sans/OpenSans-Regular.ttf") format("truetype");
 		font-weight: 400;
 		font-style: normal;
-		font-display: optional;
+		font-display: swap;
 	}
 
 	@font-face {
@@ -64,7 +64,7 @@ const fonts = css`
 			url("${assetPrefix}/static/fonts/Open_Sans/OpenSans-Italic.ttf") format("truetype");
 		font-weight: 400;
 		font-style: italic;
-		font-display: optional;
+		font-display: swap;
 	}
 
 	@font-face {
@@ -74,7 +74,7 @@ const fonts = css`
 			url("${assetPrefix}/static/fonts/Open_Sans/OpenSans-SemiBold.ttf") format("truetype");
 		font-weight: 600;
 		font-style: normal;
-		font-display: optional;
+		font-display: swap;
 	}
 
 	@font-face {
@@ -84,7 +84,7 @@ const fonts = css`
 			url("${assetPrefix}/static/fonts/Open_Sans/OpenSans-SemiBoldItalic.ttf") format("truetype");
 		font-weight: 600;
 		font-style: italic;
-		font-display: optional;
+		font-display: swap;
 	}
 
 	@font-face {
@@ -94,7 +94,7 @@ const fonts = css`
 			url("${assetPrefix}/static/fonts/Open_Sans/OpenSans-Bold.ttf") format("truetype");
 		font-weight: 700;
 		font-style: normal;
-		font-display: optional;
+		font-display: swap;
 	}
 
 	@font-face {
@@ -104,7 +104,7 @@ const fonts = css`
 			url("${assetPrefix}/static/fonts/Open_Sans/OpenSans-BoldItalic.ttf") format("truetype");
 		font-weight: 700;
 		font-style: italic;
-		font-display: optional;
+		font-display: swap;
 	}
 
 	@font-face {
@@ -114,7 +114,7 @@ const fonts = css`
 			url("${assetPrefix}/static/fonts/Open_Sans/OpenSans-ExtraBold.ttf") format("truetype");
 		font-weight: 800;
 		font-style: normal;
-		font-display: optional;
+		font-display: swap;
 	}
 
 	@font-face {
@@ -124,7 +124,7 @@ const fonts = css`
 			url("${assetPrefix}/static/fonts/Open_Sans/OpenSans-ExtraBoldItalic.ttf") format("truetype");
 		font-weight: 800;
 		font-style: italic;
-		font-display: optional;
+		font-display: swap;
 	}
 
 	@font-face {
@@ -134,7 +134,7 @@ const fonts = css`
 			url("${assetPrefix}/static/fonts/Open_Sans/OpenSans-Light.ttf") format("truetype");
 		font-weight: 100;
 		font-style: normal;
-		font-display: optional;
+		font-display: swap;
 	}
 
 	@font-face {
@@ -144,7 +144,7 @@ const fonts = css`
 			url("${assetPrefix}/static/fonts/Open_Sans/OpenSans-LightItalic.ttf") format("truetype");
 		font-weight: 100;
 		font-style: italic;
-		font-display: optional;
+		font-display: swap;
 	}
 
 	@font-face {
@@ -154,7 +154,7 @@ const fonts = css`
 			url("${assetPrefix}/static/fonts/Open_Sans/OpenSans-Regular.ttf") format("truetype");
 		font-weight: 400;
 		font-style: normal;
-		font-display: optional;
+		font-display: swap;
 	}
 
 	@font-face {
@@ -164,7 +164,7 @@ const fonts = css`
 			url("${assetPrefix}/static/fonts/Open_Sans/OpenSans-Italic.ttf") format("truetype");
 		font-weight: 400;
 		font-style: italic;
-		font-display: optional;
+		font-display: swap;
 	}
 
 	@font-face {
@@ -174,7 +174,7 @@ const fonts = css`
 			url("${assetPrefix}/static/fonts/Open_Sans/OpenSans-SemiBold.ttf") format("truetype");
 		font-weight: 600;
 		font-style: normal;
-		font-display: optional;
+		font-display: swap;
 	}
 
 	@font-face {
@@ -184,7 +184,7 @@ const fonts = css`
 			url("${assetPrefix}/static/fonts/Open_Sans/OpenSans-SemiBoldItalic.ttf") format("truetype");
 		font-weight: 600;
 		font-style: italic;
-		font-display: optional;
+		font-display: swap;
 	}
 
 	@font-face {
@@ -194,7 +194,7 @@ const fonts = css`
 			url("${assetPrefix}/static/fonts/Open_Sans/OpenSans-Bold.ttf") format("truetype");
 		font-weight: 700;
 		font-style: normal;
-		font-display: optional;
+		font-display: swap;
 	}
 
 	@font-face {
@@ -204,7 +204,7 @@ const fonts = css`
 			url("${assetPrefix}/static/fonts/Open_Sans/OpenSans-BoldItalic.ttf") format("truetype");
 		font-weight: 700;
 		font-style: italic;
-		font-display: optional;
+		font-display: swap;
 	}
 
 	@font-face {
@@ -214,7 +214,7 @@ const fonts = css`
 			url("${assetPrefix}/static/fonts/Open_Sans/OpenSans-ExtraBold.ttf") format("truetype");
 		font-weight: 800;
 		font-style: normal;
-		font-display: optional;
+		font-display: swap;
 	}
 
 	@font-face {
@@ -224,7 +224,7 @@ const fonts = css`
 			url("${assetPrefix}/static/fonts/Open_Sans/OpenSans-ExtraBoldItalic.ttf") format("truetype");
 		font-weight: 800;
 		font-style: italic;
-		font-display: optional;
+		font-display: swap;
 	}
 
 	@font-face {
@@ -232,6 +232,6 @@ const fonts = css`
 		src: url("${assetPrefix}/static/fonts/Oswald/Oswald.woff2") format("woff2"),
 			url("${assetPrefix}/static/fonts/Oswald/Oswald.woff") format("woff"),
 			url("${assetPrefix}/static/fonts/Oswald/Oswald.ttf") format("truetype");
-		font-display: optional;
+		font-display: swap;
 	}
 `;
