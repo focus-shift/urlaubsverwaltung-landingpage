@@ -838,13 +838,26 @@ img {
   height: 2.5rem;
 }
 
+.mx-2 {
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
+}
+
 .mx-auto {
   margin-left: auto;
   margin-right: auto;
 }
 
+.mb-2 {
+  margin-bottom: 0.5rem;
+}
+
 .mb-4 {
   margin-bottom: 1rem;
+}
+
+.mt-6 {
+  margin-top: 1.5rem;
 }
 
 .mb-6 {
@@ -853,10 +866,6 @@ img {
 
 .mb-10 {
   margin-bottom: 2.5rem;
-}
-
-.mt-12 {
-  margin-top: 3rem;
 }
 
 .mb-12 {
