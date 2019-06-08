@@ -37,11 +37,14 @@ export default function Impressum() {
 				</p>
 				<h2 className="text-2xl mb-4">Kontakt</h2>
 				<p className="mb-2">
-					Telefon: +49 721 203823-0
+					Telefon: <a href="tel:+497212038230">+49 721 203823-0</a>
 					<br />
 					Telefax: +49 721 203823-12
 					<br />
-					E-Mail: info@synyx.de
+					E-Mail:{" "}
+					<a href="mailto:info@synyx.de" className="underline">
+						info@synyx.de
+					</a>
 				</p>
 				<h2 className="text-2xl mb-4">Umsatzsteuer-ID</h2>
 				<p className="mb-2">

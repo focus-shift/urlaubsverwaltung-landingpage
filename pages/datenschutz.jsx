@@ -118,9 +118,9 @@ export default function Datenschutz() {
 					<br />
 					D-76135 Karlsruhe
 					<br />
-					Telefon: +49 721 203823-0
+					Telefon: <a href="tel:+497212038230">+49 721 203823-0</a>
 					<br />
-					E-Mail: info@synyx.de
+					E-Mail: <a href="mailto:info@synyx.de">info@synyx.de</a>
 				</address>
 				<p>
 					Verantwortliche Stelle ist die natürliche oder juristische Person, die
@@ -140,9 +140,9 @@ export default function Datenschutz() {
 					<br />
 					76135 Karlsruhe
 					<br />
-					Telefon: +49 721 203823-0
+					Telefon: <a href="tel:+497212038230">+49 721 203823-0</a>
 					<br />
-					E-Mail: info@synyx.de
+					E-Mail: <a href="mailto:info@synyx.de">info@synyx.de</a>
 				</address>
 				<h3>Widerruf Ihrer Einwilligung zur Datenverarbeitung</h3>
 				<p>
