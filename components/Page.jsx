@@ -3,6 +3,7 @@ import Head from "next/head";
 
 import Header from "./Header";
 import Footer from "./Footer";
+import "./font.tailwind.css";
 import "./style.tailwind.css";
 
 export default function Page({ title, children }) {
