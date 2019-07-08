@@ -39,7 +39,7 @@
 		"eslint-plugin-react-hooks": "1.6.0",
 		"husky": "3.0.0",
 		"lint-staged": "8.2.0",
-		"prettier": "1.18.0",
+		"prettier": "1.18.2",
 		"rimraf": "2.6.3",
 		"tailwindcss": "1.0.4"
 	},
