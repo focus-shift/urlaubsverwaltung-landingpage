@@ -20,7 +20,7 @@
 }
 
 .datenschutz-container strong {
-	font-family: "Oswald";
+	@apply font-heading;
 }
 
 .datenschutz-container p {

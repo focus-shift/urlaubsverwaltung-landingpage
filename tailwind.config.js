@@ -17,6 +17,17 @@ module.exports = {
 					"900": "#212121",
 				},
 			},
+			fontFamily: {
+				heading: ["Oswald", "sans-serif"],
+				body: [
+					"Open Sans",
+					"-apple-system",
+					"Roboto",
+					'"Helvetica Neue"',
+					"Arial",
+					"sans-serif",
+				],
+			},
 		},
 	},
 };

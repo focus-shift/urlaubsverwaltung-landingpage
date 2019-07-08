@@ -63,7 +63,7 @@ export default class MyDocument extends Document {
 					/>
 					<script defer async src={`${assetPrefix}/static/easteregg.js`} />
 				</MyHead>
-				<body>
+				<body className="font-body">
 					<Main />
 					{!isProd && <NextScript />}
 				</body>

@@ -9,10 +9,6 @@ body {
 	height: 100%;
 }
 
-body {
-	font-family: "Open Sans", sans-serif;
-}
-
 #__next {
 	height: 100%;
 	display: flex;
@@ -32,7 +28,7 @@ h3,
 h4,
 h5,
 h6 {
-	font-family: "Oswald", sans-serif;
+	@apply font-heading;
 	font-weight: 600;
 }
 
