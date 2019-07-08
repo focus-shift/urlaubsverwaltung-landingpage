@@ -18,6 +18,13 @@
 	width: 101%;
 }
 
+/* tailwind explicitly sets button:focus -> therefore override it */
+*:focus,
+button:focus {
+	outline: none;
+	@apply shadow-outline;
+}
+
 @screen sm {
 	.frontpage-stage {
 		height: 40rem;
