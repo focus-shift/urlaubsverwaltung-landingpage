@@ -37,6 +37,8 @@ const assetPrefix = process.env.ASSET_PREFIX || "";
 800    Black, Extra Bold or Heavy
 900    Extra Black, Fat, Poster or Ultra Black
 */
+const fontDisplay = "swap";
+
 const fonts = css`
 	@font-face {
 		font-family: "Open Sans";
@@ -45,7 +47,7 @@ const fonts = css`
 			url("${assetPrefix}${assetPrefix}/static/fonts/Open_Sans/OpenSans-Light.ttf") format("truetype");
 		font-weight: 100;
 		font-style: normal;
-		font-display: swap;
+		font-display: ${fontDisplay}
 	}
 
 	@font-face {
@@ -55,7 +57,7 @@ const fonts = css`
 			url("${assetPrefix}/static/fonts/Open_Sans/OpenSans-LightItalic.ttf") format("truetype");
 		font-weight: 100;
 		font-style: italic;
-		font-display: swap;
+		font-display: ${fontDisplay}
 	}
 
 	@font-face {
@@ -65,7 +67,7 @@ const fonts = css`
 			url("${assetPrefix}/static/fonts/Open_Sans/OpenSans-Regular.ttf") format("truetype");
 		font-weight: 400;
 		font-style: normal;
-		font-display: swap;
+		font-display: ${fontDisplay}
 	}
 
 	@font-face {
@@ -75,7 +77,7 @@ const fonts = css`
 			url("${assetPrefix}/static/fonts/Open_Sans/OpenSans-Italic.ttf") format("truetype");
 		font-weight: 400;
 		font-style: italic;
-		font-display: swap;
+		font-display: ${fontDisplay}
 	}
 
 	@font-face {
@@ -85,7 +87,7 @@ const fonts = css`
 			url("${assetPrefix}/static/fonts/Open_Sans/OpenSans-SemiBold.ttf") format("truetype");
 		font-weight: 600;
 		font-style: normal;
-		font-display: swap;
+		font-display: ${fontDisplay}
 	}
 
 	@font-face {
@@ -95,7 +97,7 @@ const fonts = css`
 			url("${assetPrefix}/static/fonts/Open_Sans/OpenSans-SemiBoldItalic.ttf") format("truetype");
 		font-weight: 600;
 		font-style: italic;
-		font-display: swap;
+		font-display: ${fontDisplay}
 	}
 
 	@font-face {
@@ -105,7 +107,7 @@ const fonts = css`
 			url("${assetPrefix}/static/fonts/Open_Sans/OpenSans-Bold.ttf") format("truetype");
 		font-weight: 700;
 		font-style: normal;
-		font-display: swap;
+		font-display: ${fontDisplay}
 	}
 
 	@font-face {
@@ -115,7 +117,7 @@ const fonts = css`
 			url("${assetPrefix}/static/fonts/Open_Sans/OpenSans-BoldItalic.ttf") format("truetype");
 		font-weight: 700;
 		font-style: italic;
-		font-display: swap;
+		font-display: ${fontDisplay}
 	}
 
 	@font-face {
@@ -125,7 +127,7 @@ const fonts = css`
 			url("${assetPrefix}/static/fonts/Open_Sans/OpenSans-ExtraBold.ttf") format("truetype");
 		font-weight: 800;
 		font-style: normal;
-		font-display: swap;
+		font-display: ${fontDisplay}
 	}
 
 	@font-face {
@@ -135,7 +137,7 @@ const fonts = css`
 			url("${assetPrefix}/static/fonts/Open_Sans/OpenSans-ExtraBoldItalic.ttf") format("truetype");
 		font-weight: 800;
 		font-style: italic;
-		font-display: swap;
+		font-display: ${fontDisplay}
 	}
 
 	@font-face {
@@ -145,7 +147,7 @@ const fonts = css`
 			url("${assetPrefix}${assetPrefix}/static/fonts/Oswald/Oswald-ExtraLight.ttf") format("truetype");
 		font-weight: 100;
 		font-style: normal;
-		font-display: swap;
+		font-display: ${fontDisplay}
 	}
 
 	@font-face {
@@ -155,7 +157,7 @@ const fonts = css`
 			url("${assetPrefix}/static/fonts/Oswald/Oswald-ExtraLightItalic.ttf") format("truetype");
 		font-weight: 100;
 		font-style: italic;
-		font-display: swap;
+		font-display: ${fontDisplay}
 	}
 
 	@font-face {
@@ -165,7 +167,7 @@ const fonts = css`
 			url("${assetPrefix}/static/fonts/Oswald/Oswald-Regular.ttf") format("truetype");
 		font-weight: 400;
 		font-style: normal;
-		font-display: swap;
+		font-display: ${fontDisplay}
 	}
 
 	@font-face {
@@ -175,7 +177,7 @@ const fonts = css`
 			url("${assetPrefix}/static/fonts/Oswald/Oswald-RegularItalic.ttf") format("truetype");
 		font-weight: 400;
 		font-style: italic;
-		font-display: swap;
+		font-display: ${fontDisplay}
 	}
 
 	@font-face {
@@ -185,7 +187,7 @@ const fonts = css`
 			url("${assetPrefix}/static/fonts/Oswald/Oswald-DemiBold.ttf") format("truetype");
 		font-weight: 600;
 		font-style: normal;
-		font-display: swap;
+		font-display: ${fontDisplay}
 	}
 
 	@font-face {
@@ -195,7 +197,7 @@ const fonts = css`
 			url("${assetPrefix}/static/fonts/Oswald/Oswald-DemiBoldItalic.ttf") format("truetype");
 		font-weight: 600;
 		font-style: italic;
-		font-display: swap;
+		font-display: ${fontDisplay}
 	}
 
 	@font-face {
@@ -205,7 +207,7 @@ const fonts = css`
 			url("${assetPrefix}/static/fonts/Oswald/Oswald-Bold.ttf") format("truetype");
 		font-weight: 700;
 		font-style: normal;
-		font-display: swap;
+		font-display: ${fontDisplay}
 	}
 
 	@font-face {
@@ -215,7 +217,7 @@ const fonts = css`
 			url("${assetPrefix}/static/fonts/Oswald/Oswald-BoldItalic.ttf") format("truetype");
 		font-weight: 700;
 		font-style: italic;
-		font-display: swap;
+		font-display: ${fontDisplay}
 	}
 
 	@font-face {
@@ -225,7 +227,7 @@ const fonts = css`
 			url("${assetPrefix}/static/fonts/Oswald/Oswald-Heavy.ttf") format("truetype");
 		font-weight: 800;
 		font-style: normal;
-		font-display: swap;
+		font-display: ${fontDisplay}
 	}
 
 	@font-face {
@@ -235,6 +237,6 @@ const fonts = css`
 			url("${assetPrefix}/static/fonts/Oswald/Oswald-HeavyBoldItalic.ttf") format("truetype");
 		font-weight: 800;
 		font-style: italic;
-		font-display: swap;
+		font-display: ${fontDisplay}
 	}
 `;
