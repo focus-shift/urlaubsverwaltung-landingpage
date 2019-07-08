@@ -19,6 +19,13 @@ body {
 	flex-direction: column;
 }
 
+/* tailwind explicitly sets button:focus -> therefore override it */
+*:focus,
+button:focus {
+	outline: none;
+	@apply shadow-outline;
+}
+
 h1,
 h2,
 h3,
