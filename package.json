@@ -41,7 +41,7 @@
 		"lint-staged": "8.2.0",
 		"prettier": "1.18.0",
 		"rimraf": "2.6.3",
-		"tailwindcss": "1.0.3"
+		"tailwindcss": "1.0.4"
 	},
 	"husky": {
 		"hooks": {
