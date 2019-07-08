@@ -229,9 +229,101 @@ const fonts = css`
 
 	@font-face {
 		font-family: "Oswald";
-		src: url("${assetPrefix}/static/fonts/Oswald/Oswald.woff2") format("woff2"),
-			url("${assetPrefix}/static/fonts/Oswald/Oswald.woff") format("woff"),
-			url("${assetPrefix}/static/fonts/Oswald/Oswald.ttf") format("truetype");
+		src: url("${assetPrefix}${assetPrefix}/static/fonts/Oswald/Oswald-ExtraLight.woff2") format("woff2"),
+			url("${assetPrefix}${assetPrefix}/static/fonts/Oswald/Oswald-ExtraLight.woff") format("woff"),
+			url("${assetPrefix}${assetPrefix}/static/fonts/Oswald/Oswald-ExtraLight.ttf") format("truetype");
+		font-weight: 100;
+		font-style: normal;
+		font-display: swap;
+	}
+
+	@font-face {
+		font-family: "Oswald";
+		src: url("${assetPrefix}${assetPrefix}/static/fonts/Oswald/Oswald-ExtraLightItalic.woff2") format("woff2"),
+			url("${assetPrefix}/static/fonts/Oswald/Oswald-ExtraLightItalic.woff") format("woff"),
+			url("${assetPrefix}/static/fonts/Oswald/Oswald-ExtraLightItalic.ttf") format("truetype");
+		font-weight: 100;
+		font-style: italic;
+		font-display: swap;
+	}
+
+	@font-face {
+		font-family: "Oswald";
+		src: url("${assetPrefix}/static/fonts/Oswald/Oswald-Regular.woff2") format("woff2"),
+			url("${assetPrefix}/static/fonts/Oswald/Oswald-Regular.woff") format("woff"),
+			url("${assetPrefix}/static/fonts/Oswald/Oswald-Regular.ttf") format("truetype");
+		font-weight: 400;
+		font-style: normal;
+		font-display: swap;
+	}
+
+	@font-face {
+		font-family: "Oswald";
+		src: url("${assetPrefix}/static/fonts/Oswald/Oswald-RegularItalic.woff2") format("woff2"),
+			url("${assetPrefix}/static/fonts/Oswald/Oswald-RegularItalic.woff") format("woff"),
+			url("${assetPrefix}/static/fonts/Oswald/Oswald-RegularItalic.ttf") format("truetype");
+		font-weight: 400;
+		font-style: italic;
+		font-display: swap;
+	}
+
+	@font-face {
+		font-family: "Oswald";
+		src: url("${assetPrefix}/static/fonts/Oswald/Oswald-DemiBold.woff2") format("woff2"),
+			url("${assetPrefix}/static/fonts/Oswald/Oswald-DemiBold.woff") format("woff"),
+			url("${assetPrefix}/static/fonts/Oswald/Oswald-DemiBold.ttf") format("truetype");
+		font-weight: 600;
+		font-style: normal;
+		font-display: swap;
+	}
+
+	@font-face {
+		font-family: "Oswald";
+		src: url("${assetPrefix}/static/fonts/Oswald/Oswald-DemiBoldItalic.woff2") format("woff2"),
+			url("${assetPrefix}/static/fonts/Oswald/Oswald-DemiBoldItalic.woff") format("woff"),
+			url("${assetPrefix}/static/fonts/Oswald/Oswald-DemiBoldItalic.ttf") format("truetype");
+		font-weight: 600;
+		font-style: italic;
+		font-display: swap;
+	}
+
+	@font-face {
+		font-family: "Oswald";
+		src: url("${assetPrefix}/static/fonts/Oswald/Oswald-Bold.woff2") format("woff2"),
+			url("${assetPrefix}/static/fonts/Oswald/Oswald-Bold.woff") format("woff"),
+			url("${assetPrefix}/static/fonts/Oswald/Oswald-Bold.ttf") format("truetype");
+		font-weight: 700;
+		font-style: normal;
+		font-display: swap;
+	}
+
+	@font-face {
+		font-family: "Oswald";
+		src: url("${assetPrefix}/static/fonts/Oswald/Oswald-BoldItalic.woff2") format("woff2"),
+			url("${assetPrefix}/static/fonts/Oswald/Oswald-BoldItalic.woff") format("woff"),
+			url("${assetPrefix}/static/fonts/Oswald/Oswald-BoldItalic.ttf") format("truetype");
+		font-weight: 700;
+		font-style: italic;
+		font-display: swap;
+	}
+
+	@font-face {
+		font-family: "Oswald";
+		src: url("${assetPrefix}/static/fonts/Oswald/Oswald-Heavy.woff2") format("woff2"),
+			url("${assetPrefix}/static/fonts/Oswald/Oswald-Heavy.woff") format("woff"),
+			url("${assetPrefix}/static/fonts/Oswald/Oswald-Heavy.ttf") format("truetype");
+		font-weight: 800;
+		font-style: normal;
+		font-display: swap;
+	}
+
+	@font-face {
+		font-family: "Oswald";
+		src: url("${assetPrefix}/static/fonts/Oswald/Oswald-HeavyBoldItalic.woff2") format("woff2"),
+			url("${assetPrefix}/static/fonts/Oswald/Oswald-HeavyBoldItalic.woff") format("woff"),
+			url("${assetPrefix}/static/fonts/Oswald/Oswald-HeavyBoldItalic.ttf") format("truetype");
+		font-weight: 800;
+		font-style: italic;
 		font-display: swap;
 	}
 `;
