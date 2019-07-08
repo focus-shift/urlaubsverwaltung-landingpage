@@ -37,7 +37,7 @@ function Stage() {
 function NewsletterSubscription() {
 	return (
 		<form
-			action="https://synyx.us20.list-manage.com/subscribe/post?u=1fe1456f5c442625816e0ad3e&amp;id=c61526cacb"
+			action="https://synyx.us20.list-manage.com/subscribe/post?u=1fe1456f5c442625816e0ad3e&amp;id=ec02111d51"
 			method="post"
 			id="mc-embedded-subscribe-form"
 			name="mc-embedded-subscribe-form"
