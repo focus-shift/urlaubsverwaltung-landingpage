@@ -1,8 +1,4 @@
 .datenschutz-container {
-	@apply px-4;
-	@apply mx-auto;
-	@apply max-w-6xl;
-	@apply text-base;
 }
 
 .datenschutz-container h1 {

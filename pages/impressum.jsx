@@ -5,7 +5,7 @@ import Page from "../components/Page";
 export default function Impressum() {
 	return (
 		<Page title="Impressum">
-			<div className="mx-auto max-w-6xl px-4 text-black">
+			<div className="container xl:max-w-6xl mx-auto px-4 text-black">
 				<h1 className="text-3xl mb-6 mt-6">Impressum</h1>
 				<h2 className="text-2xl mb-4">Angaben gemäß § 5 TMG</h2>
 				<p className="mb-2">
