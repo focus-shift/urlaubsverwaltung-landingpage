@@ -371,7 +371,7 @@ html {
 *::after {
   border-width: 0;
   border-style: solid;
-  border-color: #e2e8f0;
+  border-color: #e0e0e0;
 }
 
 /**
@@ -484,8 +484,38 @@ img {
   height: auto;
 }
 
+.container {
+  width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+@media (min-width: 640px) {
+  .container {
+    max-width: 640px;
+  }
+}
+
+@media (min-width: 768px) {
+  .container {
+    max-width: 768px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .container {
+    max-width: 1024px;
+  }
+}
+
+@media (min-width: 1280px) {
+  .container {
+    max-width: 1280px;
+  }
+}
+
 .bg-gray-800 {
-  background-color: #2d3748;
+  background-color: #424242;
 }
 
 .bg-orange-300 {
@@ -532,6 +562,10 @@ img {
   flex-grow: 1;
 }
 
+.font-body {
+  font-family: Open Sans, -apple-system, Roboto, "Helvetica Neue", Arial, sans-serif;
+}
+
 .font-semibold {
   font-weight: 600;
 }
@@ -572,6 +606,10 @@ img {
 
 .mb-12 {
   margin-bottom: 3rem;
+}
+
+.ml-auto {
+  margin-left: auto;
 }
 
 .max-w-2xl {
@@ -615,6 +653,10 @@ img {
   padding-right: 1rem;
 }
 
+.pl-2 {
+  padding-left: 0.5rem;
+}
+
 .static {
   position: static;
 }
@@ -631,12 +673,20 @@ img {
   text-align: center;
 }
 
+.text-black {
+  color: #000;
+}
+
 .text-white {
   color: #fff;
 }
 
 .text-gray-900 {
-  color: #1a202c;
+  color: #212121;
+}
+
+.text-base {
+  font-size: 1rem;
 }
 
 .text-xl {
@@ -670,20 +720,24 @@ body {
   height: 100%;
 }
 
-body {
-  font-family: "Open Sans", sans-serif;
-}
-
 #__next {
   height: 100%;
   display: flex;
   flex-direction: column;
 }
 
+/* tailwind explicitly sets button:focus -> therefore override it */
+
+*:focus,
+button:focus {
+  outline: none;
+  box-shadow: 0 0 0 3px rgba(66, 153, 225, 0.5);
+}
+
 h1,
 h2,
 h3 {
-  font-family: "Oswald", sans-serif;
+  font-family: Oswald, sans-serif;
   font-weight: 600;
 }
 
@@ -735,6 +789,13 @@ h3 {
 
   .lg\:p-20 {
     padding: 5rem;
+  }
+}
+
+@media (min-width: 1280px) {
+
+  .xl\:max-w-6xl {
+    max-width: 72rem;
   }
 }
 

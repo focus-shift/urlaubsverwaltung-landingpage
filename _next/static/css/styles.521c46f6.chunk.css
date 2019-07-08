@@ -1,10 +1,4 @@
 .datenschutz-container {
-  padding-left: 1rem;
-  padding-right: 1rem;
-  margin-left: auto;
-  margin-right: auto;
-  max-width: 72rem;
-  font-size: 1rem;
 }
 
 .datenschutz-container h1 {
@@ -26,7 +20,7 @@
 }
 
 .datenschutz-container strong {
-  font-family: "Oswald";
+  font-family: Oswald, sans-serif;
 }
 
 .datenschutz-container p {
