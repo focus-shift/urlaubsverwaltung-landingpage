@@ -8,6 +8,7 @@ export default function Header() {
 			<a href="/" className="flex flex-row items-center">
 				<BearIcon />
 				<span className="text-white pl-2">Urlaubsverwaltung</span>
+				<span className="visually-hidden">&nbsp;Startseite</span>
 			</a>
 			<div className="ml-auto">
 				<SocialMedia />
@@ -22,6 +23,7 @@ const BearIcon = () => (
 		viewBox="0 0 86.34 91.3"
 		width="32px"
 		height="32px"
+		aria-hidden
 	>
 		<linearGradient
 			id="header_bearIcon_background"
