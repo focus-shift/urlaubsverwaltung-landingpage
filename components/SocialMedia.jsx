@@ -9,7 +9,7 @@ export default function SocialMedia() {
 					<a
 						href="https://github.com/synyx/urlaubsverwaltung"
 						aria-label="github project"
-						className="text-blue"
+						className="text-blue block"
 					>
 						{github}
 					</a>
@@ -18,7 +18,7 @@ export default function SocialMedia() {
 					<a
 						href="https://twitter.com/synyx_ka"
 						aria-label="twitter account"
-						className="text-blue"
+						className="text-blue block"
 					>
 						{twitter}
 					</a>
