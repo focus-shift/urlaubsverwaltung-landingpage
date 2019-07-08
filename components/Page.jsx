@@ -162,6 +162,26 @@ const fonts = css`
 
 	@font-face {
 		font-family: "Oswald";
+		src: url("${assetPrefix}${assetPrefix}/static/fonts/Oswald/Oswald-Light.woff2") format("woff2"),
+			url("${assetPrefix}${assetPrefix}/static/fonts/Oswald/Oswald-Light.woff") format("woff"),
+			url("${assetPrefix}${assetPrefix}/static/fonts/Oswald/Oswald-Light.ttf") format("truetype");
+		font-weight: 200;
+		font-style: normal;
+		font-display: ${fontDisplay}
+	}
+
+	@font-face {
+		font-family: "Oswald";
+		src: url("${assetPrefix}${assetPrefix}/static/fonts/Oswald/Oswald-LightItalic.woff2") format("woff2"),
+			url("${assetPrefix}/static/fonts/Oswald/Oswald-LightItalic.woff") format("woff"),
+			url("${assetPrefix}/static/fonts/Oswald/Oswald-LightItalic.ttf") format("truetype");
+		font-weight: 200;
+		font-style: italic;
+		font-display: ${fontDisplay}
+	}
+
+	@font-face {
+		font-family: "Oswald";
 		src: url("${assetPrefix}/static/fonts/Oswald/Oswald-Regular.woff2") format("woff2"),
 			url("${assetPrefix}/static/fonts/Oswald/Oswald-Regular.woff") format("woff"),
 			url("${assetPrefix}/static/fonts/Oswald/Oswald-Regular.ttf") format("truetype");
@@ -176,6 +196,26 @@ const fonts = css`
 			url("${assetPrefix}/static/fonts/Oswald/Oswald-RegularItalic.woff") format("woff"),
 			url("${assetPrefix}/static/fonts/Oswald/Oswald-RegularItalic.ttf") format("truetype");
 		font-weight: 400;
+		font-style: italic;
+		font-display: ${fontDisplay}
+	}
+
+	@font-face {
+		font-family: "Oswald";
+		src: url("${assetPrefix}/static/fonts/Oswald/Oswald-Medium.woff2") format("woff2"),
+			url("${assetPrefix}/static/fonts/Oswald/Oswald-Medium.woff") format("woff"),
+			url("${assetPrefix}/static/fonts/Oswald/Oswald-Medium.ttf") format("truetype");
+		font-weight: 500;
+		font-style: normal;
+		font-display: ${fontDisplay}
+	}
+
+	@font-face {
+		font-family: "Oswald";
+		src: url("${assetPrefix}/static/fonts/Oswald/Oswald-MediumItalic.woff2") format("woff2"),
+			url("${assetPrefix}/static/fonts/Oswald/Oswald-MediumItalic.woff") format("woff"),
+			url("${assetPrefix}/static/fonts/Oswald/Oswald-MediumItalic.ttf") format("truetype");
+		font-weight: 500;
 		font-style: italic;
 		font-display: ${fontDisplay}
 	}
