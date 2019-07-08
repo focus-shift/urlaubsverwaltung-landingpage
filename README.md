@@ -7,7 +7,7 @@ Landing Page für die [Open Source Urlaubsverwaltung](https://github.com/synyx/u
 Was du benötigst:
 
 - Spaß an der Arbeit :o)
-- NodeJS Version 10.x
+- NodeJS Version 12.x
   - die genaue Version findest du in der [.nvmrc](.nvmrc) Datei
   - am besten installierst du dir ein Tool zum verwalten verschiedener NodeJS Versionen wie z. B. [node version manager (nvm)](https://github.com/creationix/nvm) oder [nodenv](https://github.com/nodenv/nodenv)
 
