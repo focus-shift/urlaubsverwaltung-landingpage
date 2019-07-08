@@ -102,9 +102,9 @@ const BenefitSvgDefinition = (
 				x2="43.18"
 				y2="4.94"
 			>
-				<stop offset="0" stop-color="#cce8f0" />
-				<stop offset=".6" stop-color="#8ad0e9" />
-				<stop offset=".92" stop-color="#5ac4ed" />
+				<stop offset="0" stopColor="#cce8f0" />
+				<stop offset=".6" stopColor="#8ad0e9" />
+				<stop offset=".92" stopColor="#5ac4ed" />
 			</linearGradient>
 			<circle cx="43.18" cy="48.12" r="43.18" fill="url(#SVGID_1_)" />
 			<path
@@ -128,9 +128,9 @@ const BenefitSvgDefinition = (
 					d="M38.94 48.36c2-1.04 6.23-1.13 8.48 0"
 					fill="none"
 					stroke="#333"
-					stroke-width="1.51"
-					stroke-linecap="round"
-					stroke-miterlimit="10"
+					strokeWidth="1.51"
+					strokeLinecap="round"
+					strokeMiterlimit="10"
 				/>
 				<circle fill="#202020" cx="58.64" cy="37.9" r="3.43" />
 				<circle fill="#fbfbfb" cx="59.26" cy="36.77" r="1.13" />
