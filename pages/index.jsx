@@ -23,9 +23,10 @@ function Stage() {
 				</h1>
 				<div className="mx-auto md:w-2/3 bg-orange-300 p-4 md:p-8 shadow max-w-5xl">
 					<p className="mb-6 text-gray-900 text-l text-center">
-						Der Urlaubär soll dir bei der Urlaubsverwaltung eine Pfote zur Hand
-						legen? Trage dich in unseren Newsletter ein und erfahre als Erstes
-						von neuen Entwicklungen in unserer bärenstarken Anwendung.
+						Schluss mit Papierchaos und Bürokratie. Wir zeigen dir, dass
+						Urlaubsverwaltung auch Spaß machen kann. Trage dich in unseren
+						Newsletter ein und erfahre als Erstes von neuen Entwicklungen in
+						unserer bärenstarken Anwendung.
 					</p>
 					<NewsletterSubscription />
 				</div>
@@ -47,7 +48,7 @@ function NewsletterSubscription() {
 			<div className="flex justify-center">
 				<div className="flex flex-row w-full">
 					<label htmlFor="mce-EMAIL" className="visually-hidden">
-						E-Mail-Addresse&nbsp;
+						E-Mail-Adresse&nbsp;
 					</label>
 					<input
 						type="email"
@@ -79,7 +80,7 @@ function Benefits() {
 	return (
 		<article className="px-4 mx-auto max-w-6xl">
 			<h2 className="text-xl font-semibold mb-6 text-center">
-				Beim Urlaubär bist Du in besten Pfoten!
+				Beim Urlaubär bist du in besten Pfoten!
 			</h2>
 			<p className="mx-auto mb-12 text-center max-w-2xl">
 				Keine Lust mehr auf Papierchaos und scheußliche Excel-Tabellen? Du
