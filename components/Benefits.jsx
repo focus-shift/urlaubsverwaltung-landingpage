@@ -14,22 +14,22 @@ export default function Benefits() {
 				/>
 				<BenefitItem
 					title="Clever"
-					text="Wann ist welcher Feiertag? Wie viele Urlaubstage sind noch übrig? Unsere Anwendung weiß Bescheid und Du kannst Deinen Hirnschmalz künftig sinnvoller einsetzen."
+					text="Wann ist welcher Feiertag? Wie viele Urlaubstage sind noch übrig? Unsere Anwendung weiß Bescheid und du kannst deinen Hirnschmalz künftig sinnvoller einsetzen."
 					image={BenefitSvg}
 				/>
 				<BenefitItem
 					title="Übersichtlich"
-					text="Wann sind Deine Kollegen im Urlaub? Welche Anträge müssen noch genehmigt werden? Mit unserer Anwendung hast Du immer alles im Blick."
+					text="Wann sind deine Kollegen im Urlaub? Welche Anträge müssen noch genehmigt werden? Mit unserer Anwendung hast du immer alles im Blick."
 					image={BenefitSvg}
 				/>
 				<BenefitItem
 					title="Jederzeit"
-					text="Selbstverständlich läuft unsere Anwendung auch auf Deinem Smartphone oder Tablet. Dadurch bist Du in der Lage, jederzeit und von überall Urlaubsanträge zu pflegen."
+					text="Selbstverständlich läuft unsere Anwendung auch auf deinem Smartphone oder Tablet. Dadurch bist du in der Lage, jederzeit und von überall Urlaubsanträge zu pflegen."
 					image={BenefitSvg}
 				/>
 				<BenefitItem
 					title="Anpassbar"
-					text="Passe die Anwendung flexibel an Deine Bedürfnisse und Workflows an. Ob E-Mail-Benachrichtigungen oder Synchronisation mit dem Firmenkalender, entscheide selbst, was Du brauchst und was nicht."
+					text="Passe die Anwendung flexibel an deine Bedürfnisse und Workflows an. Ob E-Mail-Benachrichtigungen oder Synchronisation mit dem Firmenkalender, entscheide selbst, was du brauchst und was nicht."
 					image={
 						<BearIcon
 							width={128}

@@ -80,7 +80,7 @@ function Benefits() {
 	return (
 		<article className="px-4 mx-auto max-w-6xl">
 			<h2 className="text-xl font-semibold mb-6 text-center">
-				Beim Urlaubär bist Du in besten Pfoten!
+				Beim Urlaubär bist du in besten Pfoten!
 			</h2>
 			<p className="mx-auto mb-12 text-center max-w-2xl">
 				Keine Lust mehr auf Papierchaos und scheußliche Excel-Tabellen? Du
