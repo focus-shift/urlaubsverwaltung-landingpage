@@ -1,9 +1,11 @@
 import React from "react";
 
+import uuid from "./uuid";
+
 export default ({
 	width = 128,
 	height = 128,
-	id,
+	id = uuid(),
 	role,
 	title,
 	description,
