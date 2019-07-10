@@ -23,7 +23,7 @@ function Stage() {
 					Urlaubsverwaltung geht auch anders!
 				</h1>
 				<div className="mx-auto md:w-2/3 bg-orange-300 p-4 md:p-8 shadow max-w-5xl">
-					<p className="mb-6 text-gray-900 text-l text-center">
+					<p className="mb-6 text-gray-900 text-l">
 						Schluss mit Papierchaos und Bürokratie. Wir zeigen dir, dass
 						Urlaubsverwaltung auch Spaß machen kann. Trage dich in unseren
 						Newsletter ein und erfahre als Erstes von neuen Entwicklungen in
@@ -46,7 +46,7 @@ function NewsletterSubscription() {
 			target="_blank"
 		>
 			<div className="flex flex-col justify-center">
-				<div className="text-gray-900 text-center mb-4">
+				<div className="text-gray-900 mb-6">
 					<label htmlFor="newsletter_form_check">
 						<input
 							id="newsletter_form_check"
