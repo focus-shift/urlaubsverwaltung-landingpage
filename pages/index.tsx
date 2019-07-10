@@ -43,8 +43,8 @@ function NewsletterSubscription() {
 			className="mj-w-res-iframe"
 			frameBorder="0"
 			scrolling="no"
-			marginHeight="0"
-			marginWidth="0"
+			marginHeight={0}
+			marginWidth={0}
 			src="https://app.mailjet.com/widget/iframe/4cK4/i9U"
 			width="100%"
 			height="115px"

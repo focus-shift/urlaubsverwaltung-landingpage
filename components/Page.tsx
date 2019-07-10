@@ -6,7 +6,12 @@ import Header from "./Header";
 import Footer from "./Footer";
 import "./style.tailwind.css";
 
-export default function Page({ title, children }) {
+interface PageProps {
+	title?: string;
+	children: any;
+}
+
+export default function Page({ title, children }: PageProps) {
 	const pageTitle = ["Urlaubsverwaltung", title].filter(Boolean).join(" · ");
 	return (
 		<React.Fragment>

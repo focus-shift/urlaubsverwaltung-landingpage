@@ -1,5 +1,17 @@
 import React from "react";
 
+interface BearIconProps {
+	width?: number;
+	height?: number;
+	id: string;
+	role?: string;
+	title?: string;
+	description?: string;
+	ariaHidden?: boolean;
+	className?: string;
+	children?: any;
+}
+
 export default ({
 	width = 128,
 	height = 128,
@@ -10,7 +22,7 @@ export default ({
 	ariaHidden,
 	className,
 	children,
-}) => (
+}: BearIconProps) => (
 	<svg
 		xmlns="http://www.w3.org/2000/svg"
 		viewBox="0 0 86.34 91.3"
