@@ -47,6 +47,7 @@ function NewsletterSubscription() {
 			marginWidth="0"
 			src="https://app.mailjet.com/widget/iframe/4cK4/i9U"
 			width="100%"
+			height="115px"
 		></iframe>
 	);
 }
