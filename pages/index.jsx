@@ -38,56 +38,16 @@ function Stage() {
 
 function NewsletterSubscription() {
 	return (
-		<form
-			action="https://synyx.us20.list-manage.com/subscribe/post?u=1fe1456f5c442625816e0ad3e&amp;id=ec02111d51"
-			method="post"
-			id="mc-embedded-subscribe-form"
-			name="mc-embedded-subscribe-form"
-			target="_blank"
-		>
-			<div className="flex flex-col justify-center">
-				<div className="text-gray-900 mb-6">
-					<label htmlFor="newsletter_form_check">
-						<input
-							id="newsletter_form_check"
-							type="checkbox"
-							required
-							className="mr-2"
-						/>
-						Mit dem Absenden stimme ich den{" "}
-						<Link href="/datenschutz#newsletter" className="underline">
-							Datenschutzbestimmungen
-						</Link>{" "}
-						zu
-					</label>
-				</div>
-				<div className="flex flex-row w-full">
-					<label htmlFor="mce-EMAIL" className="visually-hidden">
-						E-Mail-Adresse&nbsp;
-					</label>
-					<input
-						type="email"
-						name="EMAIL"
-						id="mce-EMAIL"
-						placeholder="E-Mail-Adresse"
-						className="p-3 flex-grow"
-					/>
-					<button type="submit" className="p-3 text-white bg-orange-900">
-						Eintragen
-					</button>
-				</div>
-				<div
-					style={{ position: "absolute", left: "-5000px" }}
-					aria-hidden="true"
-				>
-					<input
-						type="text"
-						name="b_fccd0eb4b621b298a993066d1_efeb5dbd37"
-						tabIndex="-1"
-					/>
-				</div>
-			</div>
-		</form>
+		<iframe
+			title="Urlaubsverwaltung Newsletter Anmeldung"
+			className="mj-w-res-iframe"
+			frameBorder="0"
+			scrolling="no"
+			marginHeight="0"
+			marginWidth="0"
+			src="https://app.mailjet.com/widget/iframe/4cK4/i9U"
+			width="100%"
+		></iframe>
 	);
 }
 
