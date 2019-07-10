@@ -18,6 +18,10 @@
 	width: 101%;
 }
 
+.newsletter-iframe {
+	height: 1200px;
+}
+
 @screen sm {
 	.frontpage-stage {
 		height: 40rem;
