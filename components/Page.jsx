@@ -42,9 +42,9 @@ const fontDisplay = "swap";
 const fonts = css`
 	@font-face {
 		font-family: "Open Sans";
-		src: url("${assetPrefix}${assetPrefix}/static/fonts/Open_Sans/OpenSans-Light.woff2") format("woff2"),
-			url("${assetPrefix}${assetPrefix}/static/fonts/Open_Sans/OpenSans-Light.woff") format("woff"),
-			url("${assetPrefix}${assetPrefix}/static/fonts/Open_Sans/OpenSans-Light.ttf") format("truetype");
+		src: url("${assetPrefix}/static/fonts/Open_Sans/OpenSans-Light.woff2") format("woff2"),
+			url("${assetPrefix}/static/fonts/Open_Sans/OpenSans-Light.woff") format("woff"),
+			url("${assetPrefix}/static/fonts/Open_Sans/OpenSans-Light.ttf") format("truetype");
 		font-weight: 100;
 		font-style: normal;
 		font-display: ${fontDisplay}
@@ -52,7 +52,7 @@ const fonts = css`
 
 	@font-face {
 		font-family: "Open Sans";
-		src: url("${assetPrefix}${assetPrefix}/static/fonts/Open_Sans/OpenSans-LightItalic.woff2") format("woff2"),
+		src: url("${assetPrefix}/static/fonts/Open_Sans/OpenSans-LightItalic.woff2") format("woff2"),
 			url("${assetPrefix}/static/fonts/Open_Sans/OpenSans-LightItalic.woff") format("woff"),
 			url("${assetPrefix}/static/fonts/Open_Sans/OpenSans-LightItalic.ttf") format("truetype");
 		font-weight: 100;
@@ -142,9 +142,9 @@ const fonts = css`
 
 	@font-face {
 		font-family: "Oswald";
-		src: url("${assetPrefix}${assetPrefix}/static/fonts/Oswald/Oswald-ExtraLight.woff2") format("woff2"),
-			url("${assetPrefix}${assetPrefix}/static/fonts/Oswald/Oswald-ExtraLight.woff") format("woff"),
-			url("${assetPrefix}${assetPrefix}/static/fonts/Oswald/Oswald-ExtraLight.ttf") format("truetype");
+		src: url("${assetPrefix}/static/fonts/Oswald/Oswald-ExtraLight.woff2") format("woff2"),
+			url("${assetPrefix}/static/fonts/Oswald/Oswald-ExtraLight.woff") format("woff"),
+			url("${assetPrefix}/static/fonts/Oswald/Oswald-ExtraLight.ttf") format("truetype");
 		font-weight: 100;
 		font-style: normal;
 		font-display: ${fontDisplay}
@@ -152,7 +152,7 @@ const fonts = css`
 
 	@font-face {
 		font-family: "Oswald";
-		src: url("${assetPrefix}${assetPrefix}/static/fonts/Oswald/Oswald-ExtraLightItalic.woff2") format("woff2"),
+		src: url("${assetPrefix}/static/fonts/Oswald/Oswald-ExtraLightItalic.woff2") format("woff2"),
 			url("${assetPrefix}/static/fonts/Oswald/Oswald-ExtraLightItalic.woff") format("woff"),
 			url("${assetPrefix}/static/fonts/Oswald/Oswald-ExtraLightItalic.ttf") format("truetype");
 		font-weight: 100;
@@ -162,9 +162,9 @@ const fonts = css`
 
 	@font-face {
 		font-family: "Oswald";
-		src: url("${assetPrefix}${assetPrefix}/static/fonts/Oswald/Oswald-Light.woff2") format("woff2"),
-			url("${assetPrefix}${assetPrefix}/static/fonts/Oswald/Oswald-Light.woff") format("woff"),
-			url("${assetPrefix}${assetPrefix}/static/fonts/Oswald/Oswald-Light.ttf") format("truetype");
+		src: url("${assetPrefix}}/static/fonts/Oswald/Oswald-Light.woff2") format("woff2"),
+			url("${assetPrefix}}/static/fonts/Oswald/Oswald-Light.woff") format("woff"),
+			url("${assetPrefix}}/static/fonts/Oswald/Oswald-Light.ttf") format("truetype");
 		font-weight: 200;
 		font-style: normal;
 		font-display: ${fontDisplay}
@@ -172,7 +172,7 @@ const fonts = css`
 
 	@font-face {
 		font-family: "Oswald";
-		src: url("${assetPrefix}${assetPrefix}/static/fonts/Oswald/Oswald-LightItalic.woff2") format("woff2"),
+		src: url("${assetPrefix}/static/fonts/Oswald/Oswald-LightItalic.woff2") format("woff2"),
 			url("${assetPrefix}/static/fonts/Oswald/Oswald-LightItalic.woff") format("woff"),
 			url("${assetPrefix}/static/fonts/Oswald/Oswald-LightItalic.ttf") format("truetype");
 		font-weight: 200;
