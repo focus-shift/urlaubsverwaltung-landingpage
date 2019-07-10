@@ -20,6 +20,9 @@
 		font-size: 100%;
 		margin: 0;
 		padding: 0;
+		/* remove intrinsic width of input field to avoid input width increasement when changing the font-size */
+		/* kudos https://stackoverflow.com/a/49284975 */
+		min-width: 0;
 	}
 	button:focus,
 	input:focus {
