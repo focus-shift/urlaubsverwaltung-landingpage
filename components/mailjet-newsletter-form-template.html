@@ -1,0 +1,95 @@
+<!--
+  HTML which has to be used as widget template within mailjet.
+  Added to this project to have version control for the newsletter iframe code.
+-->
+<style>
+	*,
+	*::before,
+	*::after {
+		box-sizing: inherit;
+		border-width: 0;
+		border-style: solid;
+		border-color: #e0e0e0;
+	}
+	button,
+	input {
+		line-height: inherit;
+		color: inherit;
+		overflow: visible;
+		font-family: inherit;
+		font-size: 100%;
+		margin: 0;
+		padding: 0;
+	}
+	button:focus,
+	input:focus {
+		outline: none;
+		box-shadow: 0 0 0 3px rgba(66, 153, 225, 0.5);
+	}
+	.visually-hidden {
+		/* https://snook.ca/archives/html_and_css/hiding-content-for-accessibility */
+		position: absolute !important;
+		height: 1px;
+		width: 1px;
+		overflow: hidden;
+		clip: rect(1px 1px 1px 1px); /* IE6, IE7 */
+		clip: rect(1px, 1px, 1px, 1px);
+	}
+</style>
+<link
+	href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap"
+	rel="stylesheet"
+/>
+<div
+	style="display:flex; flex-direction:column; justify-content:center; font-family:'Open Sans',sans-serif;"
+>
+	<div style="color:#212121; margin-bottom:1.5rem">
+		<label for="w-preview-consent-checkbox">
+			<input
+				type="checkbox"
+				id="w-preview-consent-checkbox"
+				name="w-preview-consent-checkbox"
+				required
+				class="mr-2"
+			/>
+			Mit dem Absenden stimme ich den
+			<a
+				href="https://synyx.github.io/urlaubsverwaltung-landingpage/datenschutz#newsletter"
+				target="_blank"
+				rel="noopener"
+				style="color:#212121"
+				>Datenschutzbestimmungen</a
+			>
+			zu
+		</label>
+	</div>
+	<div style="display:flex; width:100%">
+		<label id="email-input-label" for="email-input" class="visually-hidden">
+			E-Mail-Adresse&nbsp;
+		</label>
+		<input
+			id="email-input"
+			aria-labelledby="email-input-label"
+			type="email"
+			placeholder="E-Mail-Adresse"
+			name="w-field-field-69806-393739-1002296-email"
+			required="required"
+			data-kpxc-id="kpxcpw342845639"
+			class="w-preview-fields-content-cell-field-email p-3 flex-grow"
+			style="padding:0.75rem; flex-grow: 1;"
+		/>
+		<button
+			type="submit"
+			style="padding:0.75rem; color:#ffffff; background-color:#7b341e;"
+		>
+			Eintragen
+		</button>
+	</div>
+	<div style="position:absolute; left:-5000px" aria-hidden="true">
+		<input
+			type="text"
+			name="b_fccd0eb4b621b298a993066d1_efeb5dbd37"
+			tabIndex="-1"
+		/>
+	</div>
+</div>
