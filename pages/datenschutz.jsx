@@ -296,7 +296,7 @@ export default function Datenschutz() {
 					der technisch fehlerfreien Darstellung und der Optimierung seiner
 					Website hierzu müssen die Server-Log-Files erfasst werden.
 				</p>
-				<h2>4. Newsletter</h2>
+				<h2 id="newsletter">4. Newsletter</h2>
 				<h3>Newsletterdaten</h3>
 				<p>
 					Wenn Sie den auf der Website angebotenen Newsletter beziehen möchten,

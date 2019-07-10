@@ -2,6 +2,7 @@ import React from "react";
 import Page from "../components/Page";
 import BenefitList from "../components/Benefits";
 
+import Link from "../components/Link";
 import "./index.tailwind.css";
 
 export default function IndexPage() {
@@ -43,9 +44,23 @@ function NewsletterSubscription() {
 			id="mc-embedded-subscribe-form"
 			name="mc-embedded-subscribe-form"
 			target="_blank"
-			noValidate
 		>
-			<div className="flex justify-center">
+			<div className="flex flex-col justify-center">
+				<div className="text-gray-900 text-center mb-4">
+					<label htmlFor="newsletter_form_check">
+						<input
+							id="newsletter_form_check"
+							type="checkbox"
+							required
+							className="mr-2"
+						/>
+						Mit dem Absenden stimme ich den{" "}
+						<Link href="/datenschutz#newsletter" className="underline">
+							Datenschutzbestimmungen
+						</Link>{" "}
+						zu
+					</label>
+				</div>
 				<div className="flex flex-row w-full">
 					<label htmlFor="mce-EMAIL" className="visually-hidden">
 						E-Mail-Adresse&nbsp;
