@@ -85,11 +85,6 @@ strong {
  * 2. Correct the odd `em` font sizing in all browsers.
  */
 
-code {
-  font-family: monospace, monospace; /* 1 */
-  font-size: 1em; /* 2 */
-}
-
 /**
  * Add the correct font size in all browsers.
  */
@@ -272,10 +267,6 @@ legend {
 /**
  * Add the correct display in IE 10+.
  */
-
-template {
-  display: none;
-}
 
 /**
  * Add the correct display in IE 10.
@@ -466,11 +457,6 @@ input {
  * 'mono' font family.
  */
 
-
-code {
-  font-family: Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
-}
-
 /**
  * Make replaced elements `display: block` by default as that's
  * the behavior you want almost all of the time. Inspired by
@@ -549,10 +535,6 @@ img {
   display: flex;
 }
 
-.hidden {
-  display: none;
-}
-
 .flex-row {
   flex-direction: row;
 }
@@ -571,10 +553,6 @@ img {
 
 .flex-1 {
   flex: 1 1 0%;
-}
-
-.flex-grow {
-  flex-grow: 1;
 }
 
 .font-body {
@@ -597,10 +575,6 @@ img {
 .mx-auto {
   margin-left: auto;
   margin-right: auto;
-}
-
-.mr-2 {
-  margin-right: 0.5rem;
 }
 
 .mb-2 {
@@ -651,10 +625,6 @@ img {
   padding: 0.5rem;
 }
 
-.p-3 {
-  padding: 0.75rem;
-}
-
 .p-4 {
   padding: 1rem;
 }
@@ -678,10 +648,6 @@ img {
 
 .static {
   position: static;
-}
-
-.absolute {
-  position: absolute;
 }
 
 .shadow {
@@ -726,10 +692,6 @@ img {
 
 .underline {
   text-decoration: underline;
-}
-
-.visible {
-  visibility: visible;
 }
 
 /* Your custom CSS here */
