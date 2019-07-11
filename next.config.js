@@ -18,14 +18,7 @@ const config = {
 						return content.match(/[ÄÖÜäöüA-Za-z0-9:/_-]+/g) || [];
 					}
 				},
-				extensions: ["tailwind.css", "js", "jsx", "ts", "tsx", "svg"].concat([
-					// TODO remove extensions as soon as DefaultExtractor fallback exists in purgecss.
-					//      see https://github.com/FullHuman/purgecss/issues/148
-					"jpg",
-					"jpeg",
-					"png",
-					"gif",
-				]),
+				extensions: ["tailwind.css", "js", "jsx", "ts", "tsx", "svg"],
 			},
 		],
 	},
