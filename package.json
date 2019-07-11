@@ -14,7 +14,7 @@
 		"clean": "rimraf .next out",
 		"nextjs:build": "next build",
 		"nextjs:export": "next export",
-		"lint": "eslint --ext js,jsx pages components static"
+		"lint": "eslint --ext js,jsx,ts,tsx pages components static"
 	},
 	"dependencies": {
 		"@zeit/next-css": "1.0.1",
@@ -29,6 +29,8 @@
 	"devDependencies": {
 		"@types/node": "^12.6.2",
 		"@types/react": "^16.8.23",
+		"@typescript-eslint/eslint-plugin": "^1.11.0",
+		"@typescript-eslint/parser": "^1.11.0",
 		"babel-eslint": "10.0.1",
 		"eslint": "5.16.0",
 		"eslint-config-prettier": "4.3.0",
@@ -53,11 +55,11 @@
 	},
 	"lint-staged": {
 		"linters": {
-			"*.{js,jsx}": [
+			"*.{js,jsx,ts,tsx}": [
 				"eslint --fix",
 				"git add"
 			],
-			"*.{js,jsx,md}": [
+			"*.{js,jsx,ts,tsx,md}": [
 				"prettier --write",
 				"git add"
 			]
