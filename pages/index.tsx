@@ -2,7 +2,6 @@ import React from "react";
 import Page from "../components/Page";
 import BenefitList from "../components/Benefits";
 
-import Link from "../components/Link";
 import "./index.tailwind.css";
 
 export default function IndexPage() {

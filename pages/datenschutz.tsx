@@ -412,8 +412,7 @@ export default function Datenschutz() {
 						<a
 							href="https://www.mailjet.de/sicherheit-datenschutz/"
 							target="_blank"
-							rel="noopener
-					noreferrer"
+							rel="noopener noreferrer"
 						>
 							https://www.mailjet.de/sicherheit-datenschutz/
 						</a>
