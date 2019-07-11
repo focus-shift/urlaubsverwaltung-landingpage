@@ -775,6 +775,10 @@ h3 {
 
 @media (min-width: 1280px) {
 
+  .xl\:max-w-xl {
+    max-width: 36rem;
+  }
+
   .xl\:max-w-6xl {
     max-width: 72rem;
   }
