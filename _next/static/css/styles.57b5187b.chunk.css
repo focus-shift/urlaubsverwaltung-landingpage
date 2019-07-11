@@ -237,7 +237,13 @@
 .frontpage-stage {
   overflow: hidden;
   position: relative;
-  height: 38rem;
+  height: 46rem;
+}
+
+@media screen and (min-width: 480px) {
+  .frontpage-stage {
+    height: 38rem;
+  }
 }
 
 .overscan-frontpage-stage {
@@ -255,30 +261,48 @@
 }
 
 .newsletter-iframe {
-  height: 184px;
+  height: 237px;
 }
 
-@media screen and (min-width: 494px) {
+@media screen and (min-width: 324px) {
   .newsletter-iframe {
-    height: 102px;
+    height: 214px;
+  }
+}
+
+@media screen and (min-width: 370px) {
+  .newsletter-iframe {
+    height: 191px;
+  }
+}
+
+@media screen and (min-width: 480px) {
+  .newsletter-iframe {
+    height: 140px;
+  }
+}
+
+@media screen and (min-width: 516px) {
+  .newsletter-iframe {
+    height: 117px;
   }
 }
 
 @media screen and (min-width: 768px) {
   .newsletter-iframe {
-    height: 166px;
+    height: 198px;
   }
 }
 
 @media screen and (min-width: 800px) {
   .newsletter-iframe {
-    height: 120px;
+    height: 140px;
   }
 }
 
-@media screen and (min-width: 800px) {
+@media screen and (min-width: 854px) {
   .newsletter-iframe {
-    height: 102px;
+    height: 117px;
   }
 }
 
