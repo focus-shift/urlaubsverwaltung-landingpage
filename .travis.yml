@@ -11,6 +11,7 @@ script:
   # which is ignored by gh-pages / jekyll
   # therefore disable jekyll (we have static html files anyway)
   - touch ./out/.nojekyll
+  - echo "urlaubsverwaltung.cloud" > ./out/CNAME
 
 deploy:
   provider: pages
