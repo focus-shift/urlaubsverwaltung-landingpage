@@ -48,8 +48,8 @@ export default function Datenschutz() {
 					<strong>Wofür nutzen wir Ihre Daten?</strong>
 				</p>
 				<p>
-					Ein Teil der Daten wird erhoben, um eine fehlerfreie Bereitstellung der
-					Website zu gewährleisten. Andere Daten können zur Analyse Ihres
+					Ein Teil der Daten wird erhoben, um eine fehlerfreie Bereitstellung
+					der Website zu gewährleisten. Andere Daten können zur Analyse Ihres
 					Nutzerverhaltens verwendet werden.
 				</p>
 				<p>
@@ -65,10 +65,10 @@ export default function Datenschutz() {
 					Beschwerderecht bei der zuständigen Aufsichtsbehörde zu.
 				</p>
 				<p>
-					Außerdem haben Sie das Recht, unter bestimmten Umständen die Einschränkung
-					der Verarbeitung Ihrer personenbezogenen Daten zu verlangen. Details
-					hierzu entnehmen Sie der Datenschutzerklärung unter "Recht auf
-					Einschränkung der Verarbeitung".
+					Außerdem haben Sie das Recht, unter bestimmten Umständen die
+					Einschränkung der Verarbeitung Ihrer personenbezogenen Daten zu
+					verlangen. Details hierzu entnehmen Sie der Datenschutzerklärung unter
+					"Recht auf Einschränkung der Verarbeitung".
 				</p>
 				<h3>Analyse-Tools und Tools von Drittanbietern</h3>
 				<p>
@@ -142,7 +142,10 @@ export default function Datenschutz() {
 					<br />
 					Telefon: <a href="tel:+497212038230">+49 721 203823-0</a>
 					<br />
-					E-Mail: <a href="mailto:datenschutzbeauftragter@synyx.de">datenschutzbeauftragter@synyx.de</a>
+					E-Mail:{" "}
+					<a href="mailto:datenschutzbeauftragter@synyx.de">
+						datenschutzbeauftragter@synyx.de
+					</a>
 				</address>
 				<h3>Widerruf Ihrer Einwilligung zur Datenverarbeitung</h3>
 				<p>
@@ -390,17 +393,28 @@ export default function Datenschutz() {
 				<p>
 					Ausführliche Informationen zu den Funktionen von Mailjet entnehmen Sie
 					folgendem Link:
-					<a href="https://www.mailjet.de/funktion/" target="_blank"
-					rel="noopener noreferrer">https://www.mailjet.de/funktion/</a>.
+					<a
+						href="https://www.mailjet.de/funktion/"
+						target="_blank"
+						rel="noopener noreferrer"
+					>
+						https://www.mailjet.de/funktion/
+					</a>
+					.
 				</p>
 				<p>
 					Die Datenschutzerklärung von Mailjet finden Sie unter:
-					<a href="https://www.mailjet.de/sicherheit-datenschutz/"
-					target="_blank" rel="noopener
-					noreferrer">https://www.mailjet.de/sicherheit-datenschutz/</a>.
+					<a
+						href="https://www.mailjet.de/sicherheit-datenschutz/"
+						target="_blank"
+						rel="noopener
+					noreferrer"
+					>
+						https://www.mailjet.de/sicherheit-datenschutz/
+					</a>
+					.
 				</p>
-				<p>
-				</p>
+				<p></p>
 				<p>
 					Die Datenverarbeitung erfolgt auf Grundlage Ihrer Einwilligung (Art. 6
 					Abs. 1 lit. a DSGVO). Sie können diese Einwilligung jederzeit
