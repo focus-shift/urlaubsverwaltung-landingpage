@@ -38,6 +38,30 @@
 		clip: rect(1px 1px 1px 1px); /* IE6, IE7 */
 		clip: rect(1px, 1px, 1px, 1px);
 	}
+	.submit-container {
+		display: flex;
+		flex-direction: column;
+		width: 100%;
+	}
+	.email-input {
+		padding: 0.75rem;
+		flex-grow: 1;
+		margin-bottom: 0.25rem;
+	}
+	.submit-button {
+		padding: 0.75rem;
+		color: #ffffff;
+		background-color: #7b341e;
+	}
+	@media screen and (min-width: 384px) {
+		.submit-container {
+			flex-direction: row;
+		}
+		.email-input {
+			margin-bottom: 0;
+		}
+	}
+	}
 </style>
 <link
 	href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap"
@@ -66,7 +90,7 @@
 			zu
 		</label>
 	</div>
-	<div style="display:flex; width:100%">
+	<div class="submit-container">
 		<label id="email-input-label" for="email-input" class="visually-hidden">
 			E-Mail-Adresse&nbsp;
 		</label>
@@ -78,13 +102,9 @@
 			name="w-field-field-69806-393739-1002296-email"
 			required="required"
 			data-kpxc-id="kpxcpw342845639"
-			class="w-preview-fields-content-cell-field-email p-3 flex-grow"
-			style="padding:0.75rem; flex-grow: 1;"
+			class="w-preview-fields-content-cell-field-email email-input"
 		/>
-		<button
-			type="submit"
-			style="padding:0.75rem; color:#ffffff; background-color:#7b341e;"
-		>
+		<button type="submit" class="submit-button">
 			Eintragen
 		</button>
 	</div>

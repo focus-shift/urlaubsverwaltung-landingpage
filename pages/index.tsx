@@ -40,7 +40,7 @@ function NewsletterSubscription() {
 	return (
 		<iframe
 			title="Urlaubsverwaltung Newsletter Anmeldung"
-			className="mj-w-res-iframe"
+			className="mj-w-res-iframe newsletter-iframe"
 			frameBorder="0"
 			scrolling="no"
 			marginHeight={0}
