@@ -6,7 +6,7 @@ import "./benefits.tailwind.css";
 export default function Benefits() {
 	return (
 		<>
-			<dl title="Urlaubär Benefits" className="benefits-grid">
+			<dl className="benefits-grid">
 				<BenefitItem
 					title="Papierlos"
 					text="Nie wieder Papierkrieg und scheußliche Excel-Tabellen. Verwalte Urlaubsanträge ab sofort komplett papierlos – von der Antragsstellung bis zur Genehmigung."
@@ -56,8 +56,10 @@ export default function Benefits() {
 function BenefitItem({ title, text, image }) {
 	return (
 		<>
-			<dt className="benefit-title">{title}</dt>
-			<dd className="benefit-description ">
+			<dt id={title} className="benefit-title">
+				{title}
+			</dt>
+			<dd className="benefit-description" aria-labelledby={title}>
 				{image}
 				<p className="benefit-description-text">{text}</p>
 			</dd>
