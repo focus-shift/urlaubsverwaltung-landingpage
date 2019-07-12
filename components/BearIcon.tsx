@@ -36,7 +36,7 @@ export default ({
 		{title && <title id={`${id}_title`}>{title}</title>}
 		{description && <desc id={`${id}_desc`}>{description}</desc>}
 		<linearGradient
-			id="header_bearIcon_background"
+			id={`${id}_bearIcon_background`}
 			gradientUnits="userSpaceOnUse"
 			x1="43.18"
 			y1="91.3"
@@ -51,7 +51,7 @@ export default ({
 			cx="43.18"
 			cy="48.12"
 			r="43.18"
-			fill="url(#header_bearIcon_background)"
+			fill={`url(#${id}_bearIcon_background)`}
 		/>
 		<path
 			fill="#7e5635"
