@@ -12,9 +12,24 @@ export default function Header() {
 				<span className="text-white pl-2">Urlaubsverwaltung</span>
 				<span className="visually-hidden">&nbsp;Startseite</span>
 			</Link>
-			<div className="ml-auto">
-				<SocialMedia />
-			</div>
+			<nav className="ml-auto">
+				<Navigation />
+			</nav>
 		</header>
+	);
+}
+
+function Navigation() {
+	return (
+		<ul className="flex flex-row items-center justify-center">
+			<li className="pr-2">
+				<Link href="/demo" className="text-white">
+					Demo
+				</Link>
+			</li>
+			<li>
+				<SocialMedia />
+			</li>
+		</ul>
 	);
 }

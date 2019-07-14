@@ -1,0 +1,7 @@
+.demo-page {
+	background-color: #59c4ed;
+	background-image: url("./background-without-bear.svg");
+	background-repeat: no-repeat;
+	background-position: bottom;
+	background-size: cover;
+}
