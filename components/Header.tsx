@@ -31,7 +31,7 @@ function Navigation() {
 			<li className="p-1">
 				<a
 					href="https://github.com/synyx/urlaubsverwaltung"
-					aria-label="github project"
+					aria-label="Github Projekt"
 					className="text-blue block"
 				>
 					<GithubIcon role="img" title="Unser Projekt auf Github" />
@@ -40,7 +40,7 @@ function Navigation() {
 			<li className="p-1">
 				<a
 					href="https://twitter.com/synyx_ka"
-					aria-label="twitter account"
+					aria-label="Twitter Profil"
 					className="text-blue block"
 				>
 					<TwitterIcon role="img" title="Folge uns auf Twitter" />
