@@ -2,7 +2,8 @@ import React from "react";
 
 import Link from "./Link";
 import BearIcon from "./BearIcon";
-import SocialMedia from "./SocialMedia";
+import GithubIcon from "./GithubIcon";
+import TwitterIcon from "./TwitterIcon";
 
 export default function Header() {
 	return (
@@ -27,8 +28,23 @@ function Navigation() {
 					Demo
 				</Link>
 			</li>
-			<li>
-				<SocialMedia />
+			<li className="p-1">
+				<a
+					href="https://github.com/synyx/urlaubsverwaltung"
+					aria-label="github project"
+					className="text-blue block"
+				>
+					<GithubIcon role="img" title="Unser Projekt auf Github" />
+				</a>
+			</li>
+			<li className="p-1">
+				<a
+					href="https://twitter.com/synyx_ka"
+					aria-label="twitter account"
+					className="text-blue block"
+				>
+					<TwitterIcon role="img" title="Folge uns auf Twitter" />
+				</a>
 			</li>
 		</ul>
 	);
