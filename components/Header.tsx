@@ -8,7 +8,7 @@ import "./header.tailwind.css";
 
 export default function Header() {
 	return (
-		<header className="bg-blue-900">
+		<header className="bg-blue-900 absolute left-0 right-0 z-10">
 			<nav className="flex flex-wrap p-2 items-center">
 				<Link
 					href="/"
