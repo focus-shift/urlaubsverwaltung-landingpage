@@ -20,32 +20,32 @@ export default function Demo() {
 					<ul className="flex flex-wrap">
 						<RoleItem
 							rolename="Benutzer"
-							username=""
-							password=""
+							username="user"
+							password="secret"
 							description="Als Benutzer darfst du Urlaub für dich selbst beantragen."
 						/>
 						<RoleItem
 							rolename="Abteilungsleiter"
-							username=""
-							password=""
+							username="departmentHead"
+							password="secret"
 							description="Als Abteilungsleiter darfst du Urlaubsanträge deiner Abteilung sehen, genehmigen und ablehnen."
 						/>
 						<RoleItem
 							rolename="Freigabe Verantwortlicher"
-							username=""
-							password=""
+							username="secondStageAuthority"
+							password="secret"
 							description="Ein Freigabe Verwantwortlicher ist bei der zweistufigen Genehmigung von Urlaubsanträgen verantwortlich für die endgültige Freigabe."
 						/>
 						<RoleItem
 							rolename="Chef"
-							username=""
-							password=""
+							username="boss"
+							password="secret"
 							description="Als Chef darfst du die Urlaubsanträge aller Mitarbeiter sehen, genehmigen und ablehnen."
 						/>
 						<RoleItem
 							rolename="Office"
-							username=""
-							password=""
+							username="office"
+							password="secret"
 							description="Als Office darfst du Einstellungen zur Anwendung vornehmen. Du darfst Mitarbeiter verwalten und deren Urlaub beantragen/stornieren. Desweiteren darfst du Krankmeldungen pflegen."
 						/>
 					</ul>
