@@ -12,9 +12,9 @@ export default function Demo() {
 					Live Demo
 				</h1>
 				<p className="max-w-xl text-xl m-4 sm:mx-auto">
-					Du möchtest dir selbst ein Bild machen? Unser Demo System ist nur ein
-					Klick entfernt. Wähle einfach eine Rolle aus und erkundschafte die
-					Anwendung.
+					Du möchtest dir selbst ein Bild machen? Unser Demo System ist nur
+					einen Klick entfernt. Wähle einfach eine Rolle aus und erkundschafte
+					die Anwendung.
 				</p>
 				<div className="container xl:max-w-6xl mx-auto text-black">
 					<ul className="flex flex-wrap">
