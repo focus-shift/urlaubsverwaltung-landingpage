@@ -1,0 +1,31 @@
+.demo-page {
+	background-color: #59c4ed;
+	background-image: url("./background-without-bear.svg");
+	background-repeat: no-repeat;
+	background-position: bottom;
+	background-size: cover;
+	min-height: 46rem;
+}
+
+@screen sm {
+	.demo-page {
+		min-height: 40rem;
+	}
+}
+
+@screen md {
+	.demo-page {
+		min-height: 45rem;
+	}
+}
+
+@screen lg {
+	.demo-page {
+		min-height: 50rem;
+	}
+}
+
+@screen xl {
+	.demo-page {
+	}
+}

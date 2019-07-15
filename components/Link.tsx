@@ -2,7 +2,13 @@
 import React from "react";
 import NextLink from "next/link";
 
-export default function Link({ className, href, children }) {
+interface LinkProps {
+	href: string;
+	className?: string;
+	children: any;
+}
+
+export default function Link({ className, href, children }: LinkProps) {
 	const basePath = process.env.BASE_PATH || "";
 	return (
 		<NextLink href={href} as={basePath + href}>

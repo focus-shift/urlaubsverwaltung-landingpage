@@ -3,6 +3,10 @@ module.exports = {
 		container: {
 			center: true,
 		},
+		inset: {
+			"0": "0",
+			full: "100%",
+		},
 		extend: {
 			colors: {
 				gray: {
