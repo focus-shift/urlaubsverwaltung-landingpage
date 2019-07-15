@@ -8,11 +8,11 @@ import "./header.tailwind.css";
 
 export default function Header() {
 	return (
-		<header className="bg-blue-900 absolute left-0 right-0 z-10">
+		<header className="bg-blue-900 relative">
 			<nav className="flex flex-wrap p-2 items-center">
 				<Link
 					href="/"
-					className="flex flex-row items-center"
+					className="flex flex-row items-center z-20"
 					aria-label="Urlaubsverwaltung Startseite"
 				>
 					<BearIcon id="header" width={32} height={32} ariaHidden />
@@ -23,12 +23,12 @@ export default function Header() {
 				<input type="checkbox" id="mobile-menu-toggle" className="hidden" />
 				<label
 					htmlFor="mobile-menu-toggle"
-					className="ml-auto sm:hidden text-white focus:shadow-outline"
+					className="ml-auto sm:hidden text-white focus:shadow-outline z-20"
 					tabIndex={0}
 				>
 					Menü
 				</label>
-				<ul className="navigation-list">
+				<ul className="navigation-list bg-blue-900 z-10">
 					<li className="navigation-list-item">
 						<Link href="/demo" className="text-white">
 							Live Demo

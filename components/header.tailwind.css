@@ -1,17 +1,27 @@
 .navigation-list {
-	@apply hidden;
 	@apply flex flex-row flex-wrap;
 	flex: 1 1 100%;
 	font-size: 2rem;
 	text-align: center;
-	color: black;
+	color: white;
+	position: absolute;
+	top: -500%;
+	left: 0;
+	right: 0;
+	transition: top ease-in-out 655ms;
+}
+
+.navigation-list a {
+	color: transparent;
+	transition: color 500ms ease-in;
 }
 
 .navigation-list-item {
-	@apply hidden;
 	@apply border-b-2;
+	border-color: transparent;
 	@apply py-4;
 	flex-basis: 100%;
+	transition: border-color 500ms ease-in-out;
 }
 .navigation-list-item:first-child {
 	@apply mt-8;
@@ -27,6 +37,16 @@ input#mobile-menu-toggle ~ label {
 }
 
 input#mobile-menu-toggle:checked ~ label ~ .navigation-list {
+	top: 100%;
+}
+input#mobile-menu-toggle:checked ~ label ~ .navigation-list a {
+	color: white;
+}
+input#mobile-menu-toggle:checked
+	~ label
+	~ .navigation-list
+	> .navigation-list-item {
+	border-color: white;
 }
 
 input#mobile-menu-toggle:checked
@@ -44,6 +64,11 @@ input#mobile-menu-toggle:checked
 	}
 
 	.navigation-list {
+		position: static;
+	}
+
+	.navigation-list a {
+		color: inherit;
 	}
 
 	.navigation-list-item {
