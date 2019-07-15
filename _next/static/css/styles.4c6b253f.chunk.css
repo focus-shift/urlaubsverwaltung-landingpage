@@ -39,6 +39,38 @@
   list-style-type: disc;
 }
 
+.demo-page {
+  background-color: #59c4ed;
+  background-image: url(/_next/static/images/background-without-bear-18f8268cdfea2ed4409e48f0db72fa90.svg);
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-size: cover;
+  min-height: 46rem;
+}
+
+@media (min-width: 640px) {
+  .demo-page {
+    min-height: 40rem;
+  }
+}
+
+@media (min-width: 768px) {
+  .demo-page {
+    min-height: 45rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  .demo-page {
+    min-height: 50rem;
+  }
+}
+
+@media (min-width: 1280px) {
+  .demo-page {
+  }
+}
+
 .benefits-grid {
 }
 
