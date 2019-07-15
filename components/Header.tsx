@@ -28,7 +28,7 @@ export default function Header() {
 				>
 					Menü
 				</label>
-				<ul className="navigation-list bg-blue-900 z-10">
+				<ul className="navigation-list bg-blue-900 z-10 shadow-2xl sm:shadow-none">
 					<li className="navigation-list-item">
 						<Link href="/demo" className="text-white">
 							Live Demo
