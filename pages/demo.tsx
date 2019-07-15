@@ -25,18 +25,6 @@ export default function Demo() {
 							description="Als Benutzer darfst du Urlaub für dich selbst beantragen."
 						/>
 						<RoleItem
-							rolename="Abteilungsleiter"
-							username="departmentHead"
-							password="secret"
-							description="Als Abteilungsleiter darfst du Urlaubsanträge deiner Abteilung sehen, genehmigen und ablehnen."
-						/>
-						<RoleItem
-							rolename="Freigabe Verantwortlicher"
-							username="secondStageAuthority"
-							password="secret"
-							description="Ein Freigabe Verwantwortlicher ist bei der zweistufigen Genehmigung von Urlaubsanträgen verantwortlich für die endgültige Freigabe."
-						/>
-						<RoleItem
 							rolename="Chef"
 							username="boss"
 							password="secret"
