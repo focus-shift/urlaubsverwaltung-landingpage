@@ -35,12 +35,15 @@ input#mobile-menu-toggle ~ label {
 	user-select: none;
 }
 
+.navigation-list:focus-within,
 input#mobile-menu-toggle:checked ~ label ~ .navigation-list {
 	top: 100%;
 }
+.navigation-list:focus-within a,
 input#mobile-menu-toggle:checked ~ label ~ .navigation-list a {
 	color: white;
 }
+.navigation-list:focus-within > .navigation-list-item,
 input#mobile-menu-toggle:checked
 	~ label
 	~ .navigation-list
