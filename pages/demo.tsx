@@ -12,7 +12,7 @@ export default function Demo() {
 					Live Demo
 				</h1>
 				<p className="max-w-xl text-xl m-4 sm:mx-auto">
-					Du möchtest dir selbst ein Bild machen? Unser Demo System ist nur
+					Du möchtest dir selbst ein Bild machen? Unser Demo-System ist nur
 					einen Klick entfernt. Wähle einfach eine Rolle aus und erkundschafte
 					die Anwendung.
 				</p>
@@ -22,19 +22,19 @@ export default function Demo() {
 							rolename="Benutzer"
 							username="user"
 							password="secret"
-							description="Als Benutzer darfst du Urlaub für dich selbst beantragen."
+							description="Deinen nächsten Urlaubsantrag stellen, deine verbleibenden Urlaubstage und bisherigen Krankmeldungen überblicken? Behalte jederzeit den Durchblick über all deine Abwesenheiten."
 						/>
 						<RoleItem
 							rolename="Chef"
 							username="boss"
 							password="secret"
-							description="Als Chef darfst du die Urlaubsanträge aller Mitarbeiter sehen, genehmigen und ablehnen."
+							description="Genehmigen oder ablehnen? Verschaffe dir Überblick über die Urlaubsanträge deiner Mitarbeiter und entscheide weise. Denk immer dran, aus großer Macht folgt große Verantwortung."
 						/>
 						<RoleItem
 							rolename="Office"
 							username="office"
 							password="secret"
-							description="Als Office darfst du Einstellungen zur Anwendung vornehmen. Du darfst Mitarbeiter verwalten und deren Urlaub beantragen/stornieren. Desweiteren darfst du Krankmeldungen pflegen."
+							description="Du willst die volle Bandbreite der Möglichkeiten erleben? Hier kannst du neben Urlaubsanträgen nicht nur Benutzer und Krankmeldungen verwalten, sondern sogar Anwendungseinstellungen vornehmen."
 						/>
 					</ul>
 				</div>
