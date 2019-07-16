@@ -46,7 +46,7 @@ export default function Demo() {
 function RoleItem({ rolename, username, password, description }) {
 	return (
 		<li className="text-center w-full sm:w-1/2 lg:w-1/3 mb-4 sm:mb-6">
-			<div className="border shadow h-full m-4 sm:m-3 md:m-4 p-4 bg-white">
+			<div className="border shadow h-full m-4 sm:m-3 md:m-4 px-4 pt-12 pb-4 bg-white">
 				<BearIcon id="role_office" className="mx-auto mb-4" />
 				<a
 					href={`https://urlaubsverwaltung-demo.synyx.de/login?username=${username}&password=${password}`}
