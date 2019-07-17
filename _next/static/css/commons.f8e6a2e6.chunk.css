@@ -709,6 +709,10 @@ img {
   margin-bottom: 1rem;
 }
 
+.mb-5 {
+  margin-bottom: 1.25rem;
+}
+
 .mt-6 {
   margin-top: 1.5rem;
 }
@@ -769,6 +773,15 @@ img {
 .px-4 {
   padding-left: 1rem;
   padding-right: 1rem;
+}
+
+.py-8 {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+.pt-0 {
+  padding-top: 0;
 }
 
 .pl-2 {
@@ -911,17 +924,13 @@ h3 {
     display: none;
   }
 
-  .sm\:m-3 {
-    margin: 0.75rem;
-  }
-
   .sm\:mx-auto {
     margin-left: auto;
     margin-right: auto;
   }
 
-  .sm\:mb-6 {
-    margin-bottom: 1.5rem;
+  .sm\:p-3 {
+    padding: 0.75rem;
   }
 
   .sm\:p-12 {
@@ -939,8 +948,8 @@ h3 {
 
 @media (min-width: 768px) {
 
-  .md\:m-4 {
-    margin: 1rem;
+  .md\:p-4 {
+    padding: 1rem;
   }
 
   .md\:p-8 {
