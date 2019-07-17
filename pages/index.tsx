@@ -23,8 +23,8 @@ function Stage() {
 				</h1>
 				<div className="mx-auto md:w-2/3 bg-orange-300 p-4 md:p-8 shadow max-w-5xl">
 					<p className="mb-6 text-gray-900 text-l">
-						Schluss mit Papierchaos und Bürokratie. Wir zeigen dir, dass
-						Urlaubsverwaltung auch Spaß machen kann. Trage dich in unseren
+						Schluss mit Papierchaos und langweiliger Software. Wir zeigen dir,
+						dass Urlaubsverwaltung auch Spaß machen kann. Trage dich in unseren
 						Newsletter ein und erfahre als Erstes von neuen Entwicklungen in
 						unserer bärenstarken Anwendung.
 					</p>
@@ -58,9 +58,10 @@ function Benefits() {
 				Beim Urlaubär bist du in besten Pfoten!
 			</h2>
 			<p className="mx-auto mb-12 text-center max-w-2xl">
-				Keine Lust mehr auf Papierchaos und scheußliche Excel-Tabellen? Du
-				willst übersichtlich, bequem und von überall Urlaubsanträge verwalten?
-				Dann probier's doch mal mit unserer bärenstarken Urlaubsverwaltung!
+				Keine Lust mehr auf Papierchaos, scheußliche Excel-Tabellen und gähnend
+				langweilige Software? Du willst übersichtlich, bequem und von überall
+				Urlaubsanträge verwalten? Dann probier's doch mal mit unserer
+				bärenstarken Urlaubsverwaltung!
 			</p>
 			<BenefitList />
 		</article>
