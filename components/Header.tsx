@@ -45,7 +45,7 @@ export default function Header() {
 					</li>
 					<li className="navigation-list-item navigation-list-item-social-media">
 						<a
-							href="https://twitter.com/synyx_ka"
+							href="https://twitter.com/der_urlaubaer"
 							aria-label="Twitter Profil"
 							className="text-blue inline-block"
 						>
