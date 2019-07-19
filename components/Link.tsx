@@ -5,14 +5,21 @@ import NextLink from "next/link";
 interface LinkProps {
 	href: string;
 	className?: string;
+	tabIndex?: -1 | 0;
 	children: any;
 }
 
-export default function Link({ className, href, children }: LinkProps) {
-	const basePath = process.env.BASE_PATH || "";
+export default function Link({
+	className,
+	href,
+	tabIndex = 0,
+	children,
+}: LinkProps) {
 	return (
-		<NextLink href={href} as={basePath + href}>
-			<a className={className}>{children}</a>
+		<NextLink href={href}>
+			<a className={className} tabIndex={tabIndex}>
+				{children}
+			</a>
 		</NextLink>
 	);
 }
