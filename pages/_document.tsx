@@ -10,6 +10,18 @@ export default class MyDocument extends Document {
 		return (
 			<Html lang="de">
 				<Head>
+					<meta name="twitter:card" content="summary"></meta>
+					<meta name="twitter:site" content="@der_urlaubaer" />
+					<meta property="og:locale" content="de_DE" />
+					<meta
+						property="og:url"
+						content="https://www.urlaubsverwaltung.cloud"
+					/>
+					<meta property="og:site_name" content="Urlaubsverwaltung.cloud" />
+					<meta
+						property="og:description"
+						content="Der Urlaubär hilft dir deinen Urlaub zu planen und zu beantragen. Ganz einfach. Ohne Papierkram. Ohne Excellisten."
+					/>
 					<meta
 						name="description"
 						content="Der Urlaubär hilft dir deinen Urlaub zu planen und zu beantragen. Ganz einfach. Ohne Papierkram. Ohne Excellisten."
