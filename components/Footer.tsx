@@ -24,7 +24,7 @@ export default function Footer() {
 				</li>
 				<li className="mx-2">
 					<Link href="/agb-beta" className="text-white">
-						AGB
+						AGB (Beta-Phase)
 					</Link>
 				</li>
 			</ul>
