@@ -1,13 +1,7 @@
 const withCSS = require("@zeit/next-css");
 const withPurgeCss = require("next-purgecss");
 const withImages = require("next-images");
-const images = require("remark-images");
-const emoji = require("remark-emoji");
-const withMDX = require("@zeit/next-mdx")({
-	options: {
-		mdPlugins: [images, emoji],
-	},
-});
+const withMdx = require("@zeit/next-mdx")();
 
 const isProd = process.env.NODE_ENV === "production";
 
@@ -41,5 +35,5 @@ module.exports = compose(
 	withCSS,
 	isProd && withPurgeCss,
 	withImages,
-	withMDX,
+	withMdx,
 )(config);
