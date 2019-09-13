@@ -17,6 +17,8 @@
 		"lint": "eslint --ext js,jsx,ts,tsx pages components static"
 	},
 	"dependencies": {
+		"@mdx-js/mdx": "0.15.0-0",
+		"@zeit/next-mdx": "1.1.0",
 		"@zeit/next-css": "1.0.1",
 		"autoprefixer": "9.6.1",
 		"next": "9.0.0",

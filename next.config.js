@@ -1,6 +1,7 @@
 const withCSS = require("@zeit/next-css");
 const withPurgeCss = require("next-purgecss");
 const withImages = require("next-images");
+const withMdx = require("@zeit/next-mdx")();
 
 const isProd = process.env.NODE_ENV === "production";
 
@@ -34,4 +35,5 @@ module.exports = compose(
 	withCSS,
 	isProd && withPurgeCss,
 	withImages,
+	withMdx,
 )(config);

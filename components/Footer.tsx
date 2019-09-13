@@ -22,6 +22,11 @@ export default function Footer() {
 						Datenschutz
 					</Link>
 				</li>
+				<li className="mx-2">
+					<Link href="/agb-beta" className="text-white">
+						AGB (Beta-Phase)
+					</Link>
+				</li>
 			</ul>
 		</footer>
 	);
