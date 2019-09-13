@@ -6,7 +6,7 @@ import "./datenschutz.tailwind.css";
 export default function Datenschutz() {
 	return (
 		<Page title="Datenschutz">
-			<div className="container xl:max-w-6xl mx-auto px-4 text-base text-gray-900 datenschutz-container">
+			<div className="container xl:max-w-6xl mx-auto px-4 mb-12 text-base text-gray-900 datenschutz-container">
 				<div className="xl:max-w-xl">
 					<h1>Datenschutzerklärung</h1>
 					<h2>1. Datenschutz auf einen Blick</h2>

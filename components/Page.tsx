@@ -23,7 +23,7 @@ export default function Page({ title, children }: PageProps) {
 				{fonts}
 			</style>
 			<Header />
-			<main className="flex-1 mb-12">{children}</main>
+			<main className="flex-1">{children}</main>
 			<Footer />
 		</React.Fragment>
 	);

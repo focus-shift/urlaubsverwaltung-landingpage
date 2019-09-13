@@ -1,6 +1,7 @@
 import React from "react";
 import Page from "../components/Page";
 import BenefitList from "../components/Benefits";
+import CardLink from "../components/CardLink";
 
 import "./index.tailwind.css";
 
@@ -9,6 +10,7 @@ export default function IndexPage() {
 		<Page>
 			<Stage />
 			<Benefits />
+			<NewsletterSubscription />
 		</Page>
 	);
 }
@@ -21,14 +23,38 @@ function Stage() {
 				<h1 className="text-3xl md:text-4xl font-semibold mb-4 text-gray-900 text-center">
 					Urlaubsverwaltung geht auch anders!
 				</h1>
-				<div className="mx-auto md:w-2/3 bg-orange-300 p-4 md:p-8 shadow max-w-5xl">
-					<p className="mb-6 text-gray-900 text-l">
+				<div className="mx-auto md:w-2/3 p-4 md:p-8 max-w-5xl relative">
+					<p className="mb-6 text-gray-900 text-xl">
 						Schluss mit Papierchaos und langweiliger Software. Wir zeigen dir,
-						dass Urlaubsverwaltung auch Spaß machen kann. Trage dich in unseren
-						Newsletter ein und erfahre als Erstes von neuen Entwicklungen in
-						unserer bärenstarken Anwendung.
+						dass Urlaubsverwaltung auch Spaß machen kann.
 					</p>
-					<NewsletterSubscription />
+					<div className="flex flex-col sm:flex-row sm:justify-around">
+						<div className="frontpage-teaser-card mb-8 sm:mb-0 sm:mr-4">
+							<CardLink
+								href="/demo"
+								ariaLabel="Urlaubsverwaltung Live Demo"
+								className="mb-4"
+							>
+								Live-Demo
+							</CardLink>
+							<div className="text-gray-900 text-center">
+								Unser Demo-System ist nur einen Klick entfernt.
+							</div>
+						</div>
+						<div className="frontpage-teaser-card">
+							<CardLink
+								href="https://registry.beta.urlaubsverwaltung.cloud"
+								ariaLabel="Urlaubsverwaltung Beta-Phase"
+								className="mb-4"
+							>
+								Beta-Phase
+							</CardLink>
+							<div className="text-gray-900 text-center">
+								Anmeldung zur kostenlosen Beta-Phase deiner eigenen
+								Urlaubsverwaltung.
+							</div>
+						</div>
+					</div>
 				</div>
 			</div>
 		</div>
@@ -37,23 +63,28 @@ function Stage() {
 
 function NewsletterSubscription() {
 	return (
-		<iframe
-			title="Urlaubsverwaltung Newsletter Anmeldung"
-			className="mj-w-res-iframe newsletter-iframe"
-			frameBorder="0"
-			scrolling="no"
-			marginHeight={0}
-			marginWidth={0}
-			src="https://app.mailjet.com/widget/iframe/4cK4/i9U"
-			width="100%"
-			height="115px"
-		></iframe>
+		<div className="bg-orange-300 px-4 py-8  sm:py-12 sm:pb-20">
+			<h2 className="text-3xl text-center mb-8">Newsletter Anmeldung</h2>
+			<div className="max-w-3xl mx-auto">
+				<iframe
+					title="Urlaubsverwaltung Newsletter Anmeldung"
+					className="mj-w-res-iframe newsletter-iframe"
+					frameBorder="0"
+					scrolling="no"
+					marginHeight={0}
+					marginWidth={0}
+					src="https://app.mailjet.com/widget/iframe/4cK4/i9U"
+					width="100%"
+					height="115px"
+				></iframe>
+			</div>
+		</div>
 	);
 }
 
 function Benefits() {
 	return (
-		<article className="px-4 mx-auto max-w-6xl">
+		<article className="px-4 mx-auto max-w-6xl mb-8">
 			<h2 className="text-xl font-semibold mb-6 text-center">
 				Beim Urlaubär bist du in besten Pfoten!
 			</h2>
