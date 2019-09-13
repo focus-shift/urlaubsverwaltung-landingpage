@@ -1,11 +1,47 @@
 .frontpage-stage {
-	overflow: hidden;
 	position: relative;
 	height: 46rem;
 }
 @media screen and (min-width: 480px) {
 	.frontpage-stage {
 		height: 38rem;
+		/* svg background scale bug(?) only happens on wider displays */
+		/* however on mobile the beta-phase card overflows the frontpage-stage */
+		/* and we want to see the whole card. therefore only hide overflow on bigger screens */
+		overflow: hidden;
+	}
+}
+
+.frontpage-teaser-card {
+	background-color: rgba(255, 255, 255, 0.75);
+	@apply p-4;
+	@apply shadow;
+}
+
+.frontpage-teaser-button {
+	@apply bg-orange-300;
+	@apply block;
+	@apply font-bold;
+	@apply inline-flex;
+	@apply items-center;
+	@apply px-6;
+	@apply py-2;
+	@apply text-gray-800;
+	@apply tracking-wide;
+	@apply w-full;
+	@apply mb-4;
+	@apply rounded;
+}
+
+.frontpage-teaser-button:hover {
+	@apply text-white;
+	background-color: #7e5635;
+	border-color: #644023;
+}
+
+@screen sm {
+	.frontpage-teaser-card {
+		@apply w-1/2;
 	}
 }
 
