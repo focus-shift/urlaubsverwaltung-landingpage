@@ -8,7 +8,7 @@ import "./demo.tailwind.css";
 export default function Demo() {
 	return (
 		<Page title="Demo">
-			<div className="demo-page pt-12">
+			<div className="demo-page pt-12 mb-12">
 				<h1 className="text-3xl md:text-4xl font-semibold mb-4 text-center text-gray-900">
 					Live Demo
 				</h1>

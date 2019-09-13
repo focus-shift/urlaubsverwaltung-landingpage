@@ -10,6 +10,7 @@ export default function IndexPage() {
 		<Page>
 			<Stage />
 			<Benefits />
+			<NewsletterSubscription />
 		</Page>
 	);
 }
@@ -62,23 +63,28 @@ function Stage() {
 
 function NewsletterSubscription() {
 	return (
-		<iframe
-			title="Urlaubsverwaltung Newsletter Anmeldung"
-			className="mj-w-res-iframe newsletter-iframe"
-			frameBorder="0"
-			scrolling="no"
-			marginHeight={0}
-			marginWidth={0}
-			src="https://app.mailjet.com/widget/iframe/4cK4/i9U"
-			width="100%"
-			height="115px"
-		></iframe>
+		<div className="bg-orange-300 px-4 py-8  sm:py-12 sm:pb-20">
+			<h2 className="text-3xl text-center mb-8">Newsletter Anmeldung</h2>
+			<div className="max-w-3xl mx-auto">
+				<iframe
+					title="Urlaubsverwaltung Newsletter Anmeldung"
+					className="mj-w-res-iframe newsletter-iframe"
+					frameBorder="0"
+					scrolling="no"
+					marginHeight={0}
+					marginWidth={0}
+					src="https://app.mailjet.com/widget/iframe/4cK4/i9U"
+					width="100%"
+					height="115px"
+				></iframe>
+			</div>
+		</div>
 	);
 }
 
 function Benefits() {
 	return (
-		<article className="px-4 mx-auto max-w-6xl">
+		<article className="px-4 mx-auto max-w-6xl mb-8">
 			<h2 className="text-xl font-semibold mb-6 text-center">
 				Beim Urlaubär bist du in besten Pfoten!
 			</h2>
