@@ -1,0 +1,17 @@
+.card-link {
+	@apply bg-orange-300;
+	@apply block;
+	@apply font-bold;
+	@apply text-gray-800;
+	@apply w-full;
+	@apply rounded;
+	@apply text-center;
+	@apply px-6;
+	@apply py-2;
+}
+
+.card-link:hover {
+	@apply text-white;
+	background-color: #7e5635;
+	border-color: #644023;
+}

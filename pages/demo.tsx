@@ -2,6 +2,7 @@ import React from "react";
 
 import Page from "../components/Page";
 import BearIcon from "../components/BearIcon";
+import CardLink from "../components/CardLink";
 import "./demo.tailwind.css";
 
 export default function Demo() {
@@ -48,12 +49,12 @@ function RoleItem({ rolename, username, password, description }) {
 		<li className="text-center w-full sm:w-1/2 lg:w-1/3 p-4 sm:p-3 pt-0 md:p-4">
 			<div className="border shadow h-full px-4 py-8 bg-white">
 				<BearIcon id="role_office" className="mx-auto mb-4" />
-				<a
+				<CardLink
 					href={`https://urlaubsverwaltung-demo.synyx.de/login?username=${username}&password=${password}`}
-					className="inline-block px-4 py-2 text-white bg-orange-900 shadow hover:shadow-xl rounded mb-5"
+					className="mb-5"
 				>
 					Als {rolename} testen
-				</a>
+				</CardLink>
 				<p className="text-center">{description}</p>
 			</div>
 		</li>

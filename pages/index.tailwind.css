@@ -18,27 +18,6 @@
 	@apply shadow;
 }
 
-.frontpage-teaser-button {
-	@apply bg-orange-300;
-	@apply block;
-	@apply font-bold;
-	@apply inline-flex;
-	@apply items-center;
-	@apply px-6;
-	@apply py-2;
-	@apply text-gray-800;
-	@apply tracking-wide;
-	@apply w-full;
-	@apply mb-4;
-	@apply rounded;
-}
-
-.frontpage-teaser-button:hover {
-	@apply text-white;
-	background-color: #7e5635;
-	border-color: #644023;
-}
-
 @screen sm {
 	.frontpage-teaser-card {
 		@apply w-1/2;

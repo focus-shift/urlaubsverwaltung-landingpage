@@ -1,7 +1,7 @@
 import React from "react";
 import Page from "../components/Page";
 import BenefitList from "../components/Benefits";
-import Link from "../components/Link";
+import CardLink from "../components/CardLink";
 
 import "./index.tailwind.css";
 
@@ -29,28 +29,25 @@ function Stage() {
 					</p>
 					<div className="flex flex-col sm:flex-row sm:justify-around">
 						<div className="frontpage-teaser-card mb-8 sm:mb-0 sm:mr-4">
-							<div className="frontpage-teaser-button">
-								<Link
-									href="/demo"
-									className="mx-auto"
-									aria-label="Urlaubsverwaltung Live Demo"
-								>
-									Live-Demo
-								</Link>
-							</div>
+							<CardLink
+								href="/demo"
+								ariaLabel="Urlaubsverwaltung Live Demo"
+								className="mb-4"
+							>
+								Live-Demo
+							</CardLink>
 							<div className="text-gray-900 text-center">
 								Unser Demo-System ist nur einen Klick entfernt.
 							</div>
 						</div>
 						<div className="frontpage-teaser-card">
-							<div className="frontpage-teaser-button">
-								<a
-									href="https://registry.beta.urlaubsverwaltung.cloud/"
-									className="mx-auto"
-								>
-									Beta-Phase
-								</a>
-							</div>
+							<CardLink
+								href="https://registry.beta.urlaubsverwaltung.cloud"
+								ariaLabel="Urlaubsverwaltung Beta-Phase"
+								className="mb-4"
+							>
+								Beta-Phase
+							</CardLink>
 							<div className="text-gray-900 text-center">
 								Anmeldung zur kostenlosen Beta-Phase deiner eigenen
 								Urlaubsverwaltung.
