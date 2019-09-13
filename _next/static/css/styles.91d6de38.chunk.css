@@ -80,38 +80,6 @@
   list-style-type: disc;
 }
 
-.demo-page {
-  background-color: #59c4ed;
-  background-image: url(/_next/static/images/background-without-bear-18f8268cdfea2ed4409e48f0db72fa90.svg);
-  background-repeat: no-repeat;
-  background-position: bottom;
-  background-size: cover;
-  min-height: 46rem;
-}
-
-@media (min-width: 640px) {
-  .demo-page {
-    min-height: 40rem;
-  }
-}
-
-@media (min-width: 768px) {
-  .demo-page {
-    min-height: 45rem;
-  }
-}
-
-@media (min-width: 1024px) {
-  .demo-page {
-    min-height: 50rem;
-  }
-}
-
-@media (min-width: 1280px) {
-  .demo-page {
-  }
-}
-
 .benefits-grid {
 }
 
@@ -307,8 +275,59 @@
 @media (min-width: 1280px) {
 }
 
+.card-link {
+  background-color: #fbd38d;
+  display: block;
+  font-weight: 700;
+  color: #424242;
+  width: 100%;
+  border-radius: 0.25rem;
+  text-align: center;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+
+.card-link:hover {
+  color: #fff;
+  background-color: #7e5635;
+  border-color: #644023;
+}
+
+.demo-page {
+  background-color: #59c4ed;
+  background-image: url(/_next/static/images/background-without-bear-18f8268cdfea2ed4409e48f0db72fa90.svg);
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-size: cover;
+  min-height: 46rem;
+}
+
+@media (min-width: 640px) {
+  .demo-page {
+    min-height: 40rem;
+  }
+}
+
+@media (min-width: 768px) {
+  .demo-page {
+    min-height: 45rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  .demo-page {
+    min-height: 50rem;
+  }
+}
+
+@media (min-width: 1280px) {
+  .demo-page {
+  }
+}
+
 .frontpage-stage {
-  overflow: hidden;
   position: relative;
   height: 46rem;
 }
@@ -316,6 +335,22 @@
 @media screen and (min-width: 480px) {
   .frontpage-stage {
     height: 38rem;
+    /* svg background scale bug(?) only happens on wider displays */
+    /* however on mobile the beta-phase card overflows the frontpage-stage */
+    /* and we want to see the whole card. therefore only hide overflow on bigger screens */
+    overflow: hidden;
+  }
+}
+
+.frontpage-teaser-card {
+  background-color: rgba(255, 255, 255, 0.75);
+  padding: 1rem;
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
+}
+
+@media (min-width: 640px) {
+  .frontpage-teaser-card {
+    width: 50%;
   }
 }
 
