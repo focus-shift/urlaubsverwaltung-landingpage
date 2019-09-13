@@ -73,7 +73,7 @@ function NewsletterSubscription() {
 					scrolling="no"
 					marginHeight={0}
 					marginWidth={0}
-					src="https://app.mailjet.com/widget/iframe/4cK4/i9U"
+					src="https://app.mailjet.com/widget/iframe/4cK4/iWw"
 					width="100%"
 					height="115px"
 				></iframe>

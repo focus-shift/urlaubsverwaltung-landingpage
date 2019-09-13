@@ -48,7 +48,7 @@
 		flex-grow: 1;
 		margin-bottom: 0.25rem;
 	}
-	.submit-button {
+	.mj-subscribe-button {
 		padding: 0.75rem;
 		color: #ffffff;
 		background-color: #7b341e;
@@ -69,13 +69,32 @@
 <div
 	style="display:flex; flex-direction:column; justify-content:center; font-family:'Open Sans',sans-serif;"
 >
-	<div style="color:#212121; margin-bottom:1.5rem">
+	<div class="submit-container" style="margin-bottom:1.5rem">
+		<label id="email-input-label" for="email-input" class="visually-hidden">
+			E-Mail-Adresse&nbsp;
+		</label>
+		<input
+			id="email-input"
+			aria-labelledby="email-input-label"
+			type="email"
+			placeholder="E-Mail-Adresse"
+			name="w-field-field-new-email"
+			required="required"
+			class="w-preview-fields-content-cell-field-email email-input"
+		/>
+		<div class="mj-form-button">
+			<div class="mj-subscribe-button">
+				Eintragen
+			</div>
+		</div>
+	</div>
+	<div style="color:#212121;">
 		<label for="w-preview-consent-checkbox">
 			<input
 				type="checkbox"
 				id="w-preview-consent-checkbox"
 				name="w-preview-consent-checkbox"
-				required
+				required="required"
 				class="mr-2"
 			/>
 			Mit dem Absenden stimme ich der Verarbeitung meiner Daten gemäß der
@@ -88,30 +107,5 @@
 			>
 			zu
 		</label>
-	</div>
-	<div class="submit-container">
-		<label id="email-input-label" for="email-input" class="visually-hidden">
-			E-Mail-Adresse&nbsp;
-		</label>
-		<input
-			id="email-input"
-			aria-labelledby="email-input-label"
-			type="email"
-			placeholder="E-Mail-Adresse"
-			name="w-field-field-69806-393739-1002296-email"
-			required="required"
-			data-kpxc-id="kpxcpw342845639"
-			class="w-preview-fields-content-cell-field-email email-input"
-		/>
-		<button type="submit" class="submit-button">
-			Eintragen
-		</button>
-	</div>
-	<div style="position:absolute; left:-5000px" aria-hidden="true">
-		<input
-			type="text"
-			name="b_fccd0eb4b621b298a993066d1_efeb5dbd37"
-			tabIndex="-1"
-		/>
 	</div>
 </div>
