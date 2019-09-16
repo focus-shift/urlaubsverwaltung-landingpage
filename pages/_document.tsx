@@ -32,14 +32,17 @@ export default class MyDocument extends Document {
 						name="viewport"
 						content="initial-scale=1.0, width=device-width"
 					/>
-					<meta name="msapplication-TileColor" content="#ffffff" />
-					<meta
-						name="msapplication-TileImage"
-						content={`${assetPrefix}/static/favicons/ms-icon-144x144.png`}
-					/>
-					<meta name="theme-color" content="#ffffff" />
 
 					<link rel="manifest" href={`${assetPrefix}/static/manifest.json`} />
+					<link
+						rel="icon"
+						type="image/png"
+						href={`${assetPrefix}/static/favicons/favicon.png`}
+					/>
+					<link
+						rel="apple-touch-icon"
+						href={`${assetPrefix}/static/favicons/apple-icon.png`}
+					/>
 					<link
 						rel="apple-touch-icon"
 						sizes="57x57"
@@ -72,6 +75,11 @@ export default class MyDocument extends Document {
 					/>
 					<link
 						rel="apple-touch-icon"
+						sizes="128x128"
+						href={`${assetPrefix}/static/favicons/apple-icon-128x128.png`}
+					/>
+					<link
+						rel="apple-touch-icon"
 						sizes="144x144"
 						href={`${assetPrefix}/static/favicons/apple-icon-144x144.png`}
 					/>
@@ -86,10 +94,15 @@ export default class MyDocument extends Document {
 						href={`${assetPrefix}/static/favicons/apple-icon-180x180.png`}
 					/>
 					<link
+						rel="apple-touch-icon"
+						sizes="180x180"
+						href={`${assetPrefix}/static/favicons/apple-icon-precomposed.png`}
+					/>
+					<link
 						rel="icon"
 						type="image/png"
-						sizes="192x192"
-						href={`${assetPrefix}/static/favicons/android-icon-192x192.png`}
+						sizes="16x16"
+						href={`${assetPrefix}/static/favicons/favicon-16x16.png`}
 					/>
 					<link
 						rel="icon"
@@ -106,9 +119,21 @@ export default class MyDocument extends Document {
 					<link
 						rel="icon"
 						type="image/png"
-						sizes="16x16"
-						href={`${assetPrefix}/static/favicons/favicon-16x16.png`}
+						sizes="192x192"
+						href={`${assetPrefix}/static/favicons/favicon-192x192.png`}
 					/>
+					<link
+						rel="icon"
+						type="image/png"
+						sizes="196x196"
+						href={`${assetPrefix}/static/favicons/favicon-196x196.png`}
+					/>
+					<meta name="msapplication-TileColor" content="#ffffff" />
+					<meta
+						name="msapplication-TileImage"
+						content={`${assetPrefix}/static/favicons/ms-icon-144x144.png`}
+					/>
+					<meta name="theme-color" content="#ffffff" />
 
 					<script defer async src={`${assetPrefix}/static/easteregg.js`} />
 				</Head>
