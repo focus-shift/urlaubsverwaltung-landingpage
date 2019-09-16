@@ -8,7 +8,6 @@ const isProd = process.env.NODE_ENV === "production";
 const config = {
 	env: {
 		CONTENT_HOST: "http://localhost:3000",
-		BASE_PATH: process.env.BASE_PATH || "",
 	},
 	purgeCss: {
 		whitelist: ["body", "html", "__next"],
