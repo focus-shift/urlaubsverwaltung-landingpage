@@ -23,7 +23,6 @@ const config = {
 			},
 		],
 	},
-	assetPrefix: process.env.ASSET_PREFIX || "",
 };
 
 function compose(...fns) {
