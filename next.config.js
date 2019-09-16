@@ -6,9 +6,6 @@ const withMdx = require("@zeit/next-mdx")();
 const isProd = process.env.NODE_ENV === "production";
 
 const config = {
-	env: {
-		CONTENT_HOST: "http://localhost:3000",
-	},
 	purgeCss: {
 		whitelist: ["body", "html", "__next"],
 		extractors: [
