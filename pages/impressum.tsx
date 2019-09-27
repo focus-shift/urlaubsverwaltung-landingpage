@@ -22,17 +22,21 @@ export default function Impressum() {
 						Registergericht: Amtsgericht Mannheim
 					</p>
 					<p className="mb-2">
-						<strong>Vertreten durch:</strong>
+						<strong>Vertreten durch die Komplementärin:</strong>
 						<br />
 						synyx Verwaltung GmbH
+						<br />
+						Gartenstraße 67
+						<br />
+						76135 Karlsruhe
 					</p>
 					<p className="mb-2">
-						Diese vertreten durch:
+						Diese vertreten durch die Geschäftsführer:
 						<br />
 						Thomas Kraft, Markus Daniel, Joachim Arrasz
 					</p>
 					<p className="mb-6">
-						Handelsregister: HRA 107250
+						Registernummer: HRB 107250
 						<br />
 						Registergericht: Amtsgericht Mannheim
 					</p>
