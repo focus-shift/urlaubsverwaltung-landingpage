@@ -150,6 +150,12 @@ h1 {
  * 2. Show the overflow in Edge and IE.
  */
 
+hr {
+  box-sizing: content-box; /* 1 */
+  height: 0; /* 1 */
+  overflow: visible; /* 2 */
+}
+
 /**
  * 1. Correct the inheritance and scaling of font size in all browsers.
  * 2. Correct the odd `em` font sizing in all browsers.
@@ -413,6 +419,9 @@ dd,
 h1,
 h2,
 h3,
+h4,
+h5,
+h6,
 p {
   margin: 0;
 }
@@ -524,7 +533,10 @@ button,
 
 h1,
 h2,
-h3 {
+h3,
+h4,
+h5,
+h6 {
   font-size: inherit;
   font-weight: inherit;
 }
@@ -687,6 +699,14 @@ img {
   height: 100%;
 }
 
+.list-inside {
+  list-style-position: inside;
+}
+
+.list-disc {
+  list-style-type: disc;
+}
+
 .m-2 {
   margin: 0.5rem;
 }
@@ -730,6 +750,10 @@ img {
 
 .mb-12 {
   margin-bottom: 3rem;
+}
+
+.mb-16 {
+  margin-bottom: 4rem;
 }
 
 .ml-auto {
@@ -826,10 +850,6 @@ img {
   color: #212121;
 }
 
-.text-base {
-  font-size: 1rem;
-}
-
 .text-xl {
   font-size: 1.25rem;
 }
@@ -885,7 +905,10 @@ button:focus {
 
 h1,
 h2,
-h3 {
+h3,
+h4,
+h5,
+h6 {
   font-family: Oswald, sans-serif;
   font-weight: 600;
 }
