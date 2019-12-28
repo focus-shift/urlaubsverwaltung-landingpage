@@ -1,0 +1,37 @@
+{{#> _html title="Datenschutz" }}
+{{#*inline "content"}}
+
+{{> navigation class="fixed top-0 left-0 right-0 z-50"}}
+
+<main class="mb-48 mt-24 text-gray-900 max-w-6xl mx-auto px-4">
+	<h1 class="mb-6 text-3xl font-medium">Datenschutz</h1>
+	<ul class="list-disc list-inside mb-12">
+		<li>
+			<a href="#dateschutzerklaerung" class="underline font-light">
+				Datenschutz Webseite
+			</a>
+		</li>
+		<li>
+			<a href="#dateschutzerklaerung-betaphase" class="underline font-light">
+				Datenschutz Urlaubsverwaltung Beta-Phase
+			</a>
+		</li>
+	</ul>
+	<section class="mb-24">
+		<h2 id="dateschutzerklaerung" class="text-2xl font-medium mb-6">
+			Datenschutzerklärung Webseite
+		</h2>
+		{{> "datenschutz-landingpage"}}
+	</section>
+	<section>
+		<h2 id="dateschutzerklaerung-betaphase" class="text-2xl font-medium mb-6">
+			Datenschutzerklärung für die Urlaubsverwaltung Beta-Phase
+		</h2>
+		{{> "datenschutz-betaphase"}}
+	</section>
+</main>
+
+{{> footer}}
+
+{{/inline}}
+{{/_html}}

@@ -1,0 +1,306 @@
+{{#> _html }}
+
+{{#*inline "pre"}}
+<link rel="preload" href="/static/frontpage.js" as="script" />
+<link rel="preload" href="/static/001-kalender.png" as="image" media="(max-width: 639px)" />
+<link rel="preload" href="/static/002-urlaubsantraege.png" as="image" media="(max-width: 639px)" />
+<link rel="preload" href="/static/003-krankmeldungen.png" as="image" media="(max-width: 639px)" />
+<link rel="preload" href="/static/004-abteilung.png" as="image" media="(max-width: 639px)" />
+<link rel="preload" href="/static/005-externe-kalender.png" as="image" media="(max-width: 639px)" />
+<link rel="preload" href="/static/001-kalender_wide.png" as="image" media="(min-width: 640px)" />
+<link rel="preload" href="/static/002-urlaubsantraege_wide.png" as="image" media="(min-width: 640px)" />
+<link rel="preload" href="/static/003-krankmeldungen_wide.png" as="image" media="(min-width: 640px)" />
+<link rel="preload" href="/static/004-abteilung_wide.png" as="image" media="(min-width: 640px)" />
+<link rel="preload" href="/static/005-externe-kalender_wide.png" as="image" media="(min-width: 640px)" />
+{{/inline}}
+
+{{#*inline "scripts"}}
+<script defer src="/static/frontpage.js" type="module"></script>
+{{/inline}}
+
+{{#*inline "content"}}
+<div id="overlay" class="absolute top-0 w-screen h-screen bg-blue-300 flex flex-col items-center justify-center z-50"
+	style="background: rgb(144, 205, 244, 0.75);">
+	<h1 class="overlay-title">
+		Urlaubsverwaltung geht auch anders!
+	</h1>
+	<p class="overlay-text max-w-4xl">
+		Schluss mit Papierchaos und langeiliger Software. Wir zeigen dir, dass
+		Urlaubsverwaltung auch Spass machen kann.
+	</p>
+	<div class="max-w-4xl px-4 md:px-0 w-2/3 sm:w-1/2 md:w-1/3">
+		<a id="overlay-arrow-link" href="#features" class="block landingpage-arrow">
+			<svg class="w-full" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 18" preserveAspectRatio="none" class=""
+				width="328" height="46" fill="white">
+				<path d="M0 0 L32 16 L64 0 L32 18" />
+			</svg>
+		</a>
+	</div>
+	{{> navigation class="absolute bottom-0 left-0 right-0 z-50"}}
+</div>
+<div id="main-content" style="transform: translateY(100vh);">
+	<main class="mb-16 md:mb-48">
+		<section class="mb-24 md:mb-48 mx-auto max-w-10xl relative">
+			<h2 id="features" class="visually-hidden">Features</h2>
+			<div class="relative mb-8 sm:mb-12">
+				<picture class="">
+					<source media="(min-width: 640px)" srcset="/static/001-kalender_wide.png" />
+					<img id="img-001" src="/static/001-kalender.png" alt="Kalender der alle Abwesenheiten anzeigt." width="1140"
+						height="631" class="feature-screenshot" />
+				</picture>
+				<div class="feature-card feature-card--clearness" data-card-for="#img-001">
+					<strong class="feature-card-title">Übersichtlich</strong>
+					<span class="feature-card-text">
+						Wann hast du Urlaub geplant? Wann ist er genehmigt? Wann warst du
+						krank und wann sind Feiertage? Bei uns hast du alles auf einen
+						Blick.
+					</span>
+				</div>
+			</div>
+			<div class="relative mb-8 sm:mb-12">
+				<picture class="">
+					<source media="(min-width: 640px)" srcset="/static/002-urlaubsantraege_wide.png" />
+					<img id="img-002" src="/static/002-urlaubsantraege.png" alt="Auflistung der Urlaubsanträge." width="1140"
+						height="766" class="feature-screenshot" />
+				</picture>
+				<div class="feature-card feature-card--categories" data-card-for="#img-002">
+					<strong class="feature-card-title">Kategorien</strong>
+					<span class="feature-card-text">
+						Die Urlaubsverwaltung unterstützt neben "Erholungsurlaub" weitere
+						Kategorien wie z. B. "unbezahlter Urlaub", "Sonderurlaub" und auch
+						"Überstundenabbau".
+					</span>
+				</div>
+			</div>
+			<div class="relative mb-8 sm:mb-12">
+				<picture class="">
+					<source media="(min-width: 640px)" srcset="/static/003-krankmeldungen_wide.png" />
+					<img id="img-003" src="/static/003-krankmeldungen.png"
+						alt="Auflistung der Krankmeldungen und Kind-Krankheitstage." width="1140" height="480"
+						class="feature-screenshot" />
+				</picture>
+				<div class="feature-card feature-card--sicknote" data-card-for="#img-003">
+					<strong class="feature-card-title">Krankmeldungen</strong>
+					<span class="feature-card-text">
+						Krankmeldungen sind nur für dich und für das Office ersichtlich.
+						Kind-Krankheitstage werden nach deutschem Recht gesondert
+						aufgelistet.
+					</span>
+				</div>
+			</div>
+			<div class="relative mb-8 sm:mb-12">
+				<picture class="">
+					<source media="(min-width: 640px)" srcset="/static/004-abteilung_wide.png" />
+					<img id="img-004" src="/static/004-abteilung.png"
+						alt="Kalender der Abwesenheiten der Kollegen in meiner Abteilung anzeigt." width="1139" height="479"
+						class="feature-screenshot" />
+				</picture>
+				<div class="feature-card feature-card--department" data-card-for="#img-004">
+					<strong class="feature-card-title">Abteilungen</strong>
+					<span class="feature-card-text">
+						Abteilungen ermöglichen dir einen mehrstufigen Freigabeprozess. So
+						hast du als Abteilungsleiter jederzeit die Möglichkeit einen
+						Urlaubsantrag abzulehnen wegen Personalengpass.
+					</span>
+				</div>
+			</div>
+			<div class="relative">
+				<picture class="">
+					<source media="(min-width: 640px)" srcset="/static/005-externe-kalender_wide.png" />
+					<img id="img-005" src="/static/005-externe-kalender.png"
+						alt="Integration von externen Kalendern wie z. B. Microsoft Exchange." width="1140" height="764"
+						class="feature-screenshot" />
+				</picture>
+				<div class="feature-card feature-card--externalcalendars" data-card-for="#img-005">
+					<strong class="feature-card-title">Externe Kalender</strong>
+					<span class="feature-card-text">
+						Integriere Microsoft Exchange oder den Google Kalender und die
+						Urlaubsverwaltung synchronisiert für dich alle Abwesenheiten.
+					</span>
+				</div>
+			</div>
+		</section>
+		<section class="text-blue-900 mb-24 md:mb-32 py-12 sm:py-16 md:py-32 xl:py-32 relative">
+			<div class="bg-blue-200 shadow-inner h-full w-full absolute top-0" style="transform: skewY(9deg); z-index: -1">
+			</div>
+			<div class="max-w-6xl px-4 md:px-12 lg:px-24 mx-auto">
+				<h2 id="betaphase" class="text-3xl md:text-3xl lg:text-4xl mb-10 -mt-8 sm:-mt-16 md:-mt-20 lg:-mt-24">
+					Beta-Phase
+				</h2>
+				<p class="mb-6 text-lg md:text-xl">
+					Melde dich jetzt zur Beta-Phase der Urlaubsverwaltung an und mache dir
+					selbst ein Bild.
+				</p>
+				<ul class="ml-4 list-outside list-disc text-lg md:text-xl mb-8">
+					<li>Völlig unverbindlich</li>
+					<li>Kostenlos für mindestens 6 Monate</li>
+					<li>deine Daten sind DSGVO konform abgesichert</li>
+				</ul>
+				<a href="https://registry.beta.urlaubsverwaltung.cloud"
+					class="inline-block bg-blue-800 text-blue-100 rounded px-4 py-2 font-light">
+					Melde dich jetzt an
+				</a>
+			</div>
+		</section>
+		<section class="mb-24 md:mb-40 mx-auto max-w-10xl">
+			<h2 class="text-3xl md:text-5xl mb-12 text-center">
+				Urlaubsverwaltung <span class="text-red-600">♥️</span> Open Source
+			</h2>
+			<ul class="mb-12 flex flex-wrap justify-center">
+				<li class="mr-2 mb-2">
+					<a href="https://github.com/synyx/urlaubsverwaltung/actions?query=workflow%3A%22Urlaubsverwaltung+CI%22"
+						class="block">
+						<img src="https://github.com/synyx/urlaubsverwaltung/workflows/Urlaubsverwaltung%20CI/badge.svg"
+							alt="Build Status" />
+					</a>
+				</li>
+				<li class="mr-2 mb-2">
+					<a href="https://sonarcloud.io/dashboard?id=org.synyx:urlaubsverwaltung" class="block">
+						<img
+							src="https://sonarcloud.io/api/project_badges/measure?project=org.synyx:urlaubsverwaltung&metric=coverage"
+							alt="Sonarcloud Status" />
+					</a>
+				</li>
+				<li class="mr-2 mb-2">
+					<a href="https://hub.docker.com/r/synyx/urlaubsverwaltung" class="block">
+						<img src="https://img.shields.io/docker/pulls/synyx/urlaubsverwaltung.svg" alt="Docker Pulls" />
+					</a>
+				</li>
+
+				<li class="">
+					<a href="https://github.com/synyx/urlaubsverwaltung/releases/latest" class="block">
+						<img src="https://img.shields.io/github/downloads/synyx/urlaubsverwaltung/total.svg"
+							alt="Total Downloads" />
+					</a>
+				</li>
+			</ul>
+			<div class="relative px-4">
+				<div class="feature-card feature-card--customfeatures mb-8">
+					<strong class="feature-card-title">Featurewünsche?</strong>
+					<span class="feature-card-text">
+						Der Urlaubsverwaltung fehlt noch das eine Feature? Kontaktiere uns
+						und wir schauen gemeinsam wie wir deinen Wunsch in die Anwendung
+						einfließen lassen können.
+					</span>
+				</div>
+				<div class="feature-card feature-card--opensource">
+					<strong class="feature-card-title">Open Source</strong>
+					<span class="feature-card-text">
+						Du möchtest deine Daten nicht in der Cloud haben? Die
+						Urlaubsverwaltung ist und bleibt Open Source. Wir helfen dir gerne
+						bei deiner lokalen Einrichtung.
+					</span>
+				</div>
+				<picture class="hidden md:block">
+					<source media="(min-width: 1024px)" srcset="/static/uv-github_md_wide.png" />
+					<img src="/static/uv-github_md.png" alt="Github Seite der Urlaubsverwaltung" width="980" height="2508"
+						class="mx-auto w-full opacity-50 px-2 lg:px-0" />
+				</picture>
+			</div>
+		</section>
+		<section class="mx-auto max-w-6xl relative">
+			<h2 id="prices" class="text-4xl md:text-6xl mb-12 md:mb-20 text-center">
+				Preise
+			</h2>
+			<dl class="flex flex-col md:flex-row mb-12 md:mb-24 md:px-4">
+				<div class="md:w-1/3 md:py-8 md:pr-4 border-b md:border-none mb-4 md:mb-0">
+					<div class="p-4 md:bg-yellow-200 md:rounded md:shadow h-full flex flex-col text-base">
+						<dt class="mb-4 md:mb-8 flex items-center md:justify-center md:text-lg">
+							<svg role="img" width="20" height="20" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"
+								class="mr-2">
+								<path
+									d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12">
+								</path>
+							</svg>
+							<span>&nbsp;OpenSource</span>
+						</dt>
+						<dd class="flex-1 flex flex-col">
+							<span class="mb-8 font-light text-xl md:text-lg text-gray-900">
+								Die Urlaubsverwaltung ist und bleibt OpenSource ♥️ Alles was du
+								beachten musst ist die Lizenz.
+							</span>
+							<div class="mt-auto flex items-center justify-between md:block md:text-center">
+								<div class="md:mb-2 text-blue-700 md:text-yellow-800 font-light md:text-center text-xl text-4xl">
+									0€
+								</div>
+								<a href="https://github.com/synyx/urlaubsverwaltung" rel="noopener"
+									class="text-blue-700 md:text-yellow-900 md:text-center text-sm md:text-base">
+									gehe zu Github
+								</a>
+							</div>
+						</dd>
+					</div>
+				</div>
+				<div class="md:w-1/3 md:pr-4 border-b md:border-none mb-4 md:mb-0">
+					<div class="p-4 md:bg-yellow-400 md:rounded md:shadow-lg h-full flex flex-col md:text-lg">
+						<dt class="mb-4 md:mb-8 flex items-center md:justify-center md:text-xl">
+							<svg width="20" height="20" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg" class="mr-2">
+								<path style="fill-rule: evenodd;"
+									d="M16.8792928,9.09695343 C18.6654343,9.4976045 20,11.09295 20,13 C20,15.209139 18.209139,17 16,17 L5,17 C2.23857625,17 0,14.7614237 0,12 C0,9.58046798 1.71857515,7.56233069 4.00162508,7.09968852 C4.00054449,7.06659179 4,7.03335948 4,7 C4,5.34314575 5.34314575,4 7,4 C7.55384606,4 8.07263826,4.1500834 8.51792503,4.41179863 C9.4182103,3.53797709 10.6462795,3 12,3 C14.7614237,3 17,5.23857625 17,8 C17,8.37684164 16.9583108,8.74394625 16.8792928,9.09695343 Z">
+								</path>
+							</svg>
+							&nbsp;as a Service
+						</dt>
+						<dd class="flex-1 flex flex-col">
+							<span class="mb-8 md:text-xl font-light text-xl md:text-lg text-gray-900">
+								Wir kümmern uns um die Urlaubsverwaltung. Du kümmerst dich um
+								dein Business. Melde dich zur kostenlosen Beta-Phase der
+								Cloudlösung an.
+							</span>
+							<div class="mt-auto flex items-center justify-between md:block md:text-center">
+								<div class="md:mb-2 text-blue-700 md:text-yellow-800 font-light md:text-center text-4xl">
+									0€
+								</div>
+								<a href="https://registry.beta.urlaubsverwaltung.cloud"
+									class="text-blue-700 md:text-yellow-900 md:text-xl md:text-center text-sm md:text-base">
+									Kostenlos Anmelden
+								</a>
+							</div>
+						</dd>
+					</div>
+				</div>
+				<div class="md:w-1/3 md:py-8">
+					<div class="p-4 md:bg-yellow-200 md:rounded md:shadow h-full flex flex-col md:text-lg">
+						<dt class="mb-4 md:mb-8 flex items-center md:justify-center">
+							<svg width="20" height="20" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg" class="mr-2">
+								<path style="fill-rule: evenodd;"
+									d="M19,10.9999798 C19,13.2091299 17.4323196,15.8709335 15.5074835,16.940287 L10,20 L4.49251651,16.940287 C2.5636529,15.8686961 1,13.2055487 1,10.9999798 L1,3 C4.3761817,3 7.49184447,1.88458585 9.99858329,0.00216256114 C12.5058076,1.88587336 15.6225461,3.00212826 19,3.00212826 L19,10.9999798 Z M10,12.083735 L7.07502008,14.1191153 L8.1069132,10.708327 L5.26728307,8.55547283 L8.83000801,8.48286996 L10,5.11695271 L11.169992,8.48286996 L14.7327169,8.55547283 L11.8930868,10.708327 L12.9249799,14.1191153 L10,12.083735 Z">
+								</path>
+							</svg>
+							&nbsp;Enterprise
+						</dt>
+						<dd class="flex-1 flex flex-col">
+							<span class="mb-8 font-light text-xl md:text-lg text-gray-900">
+								Du möchtest die Urlaubsverwaltung bei dir selbst betreiben,
+								weißt aber nicht wie? Kontaktiere uns und wir sprechen darüber.
+							</span>
+							<div class="mt-auto flex items-center justify-between md:block md:text-center">
+								<div class="mt-auto md:mb-2 text-blue-700 md:text-yellow-800 font-light md:text-center text-2xl">
+									auf Anfrage
+								</div>
+								<a href="mailto:urlaubsverwaltung@synyx.de?subject=Preisanfrage%20on-premise"
+									class="text-blue-700 md:text-yellow-900 md:text-center text-sm md:text-base">
+									kontaktiere uns
+								</a>
+							</div>
+						</dd>
+					</div>
+				</div>
+			</dl>
+			<p class="mx-auto max-w-3xl px-4 md:px-8 text-base font-light">
+				Falls die Anwendung Features nicht anbietet die du jedoch gerne hättest
+				kannst du uns gerne darauf ansprechen. Entweder per
+				<a href="mailto:urlaubsverwaltung@synyx.de?subject=Anfrage%20Feature" class="underline">E-Mail</a>
+				oder direkt auf
+				<a href="https://github.com/synyx/urlaubsverwaltung" rel="noopener noreferrer" class="underline">
+					Github
+				</a>
+				ein Issue erstellen.
+			</p>
+		</section>
+	</main>
+	{{> footer}}
+</div>
+{{/inline}}
+
+{{/_html}}

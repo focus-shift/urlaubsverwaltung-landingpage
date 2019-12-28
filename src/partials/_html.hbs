@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+	<meta charset="utf-8" />
+	<meta http-equiv="language" content="de">
+
+	<meta name="twitter:card" content="summary">
+	<meta name="twitter:site" content="@der_urlaubaer">
+	<meta property="og:locale" content="de_DE">
+	<meta property="og:url" content="https://www.urlaubsverwaltung.cloud">
+	<meta property="og:site_name" content="Urlaubsverwaltung.cloud">
+	<meta property="og:description"
+		content="Der Urlaubär hilft dir deinen Urlaub zu planen und zu beantragen. Ganz einfach. Ohne Papierkram. Ohne Excellisten.">
+	<meta name="description"
+		content="Der Urlaubär hilft dir deinen Urlaub zu planen und zu beantragen. Ganz einfach. Ohne Papierkram. Ohne Excellisten.">
+
+	<meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1" class="next-head">
+
+	{{> favicons}}
+	<meta name="theme-color" content="#ffffff">
+	<link rel="manifest" href="/static/manifest.json">
+
+	<title>
+		Urlaubsverwaltung{{#if title}} - {{title}}{{/if}}
+	</title>
+
+	<link rel="stylesheet" href="/static/style.css" />
+	<link rel="preload" href="/static/page-prerenderer.js" as="script" />
+	{{#> pre}}{{/pre}}
+
+	<script>
+		if (window && window.history && window.history.scrollRestoration) {
+			window.history.scrollRestoration = "manual";
+		}
+	</script>
+</head>
+
+<body>
+	{{#> content}}{{/content}}
+	{{#> scripts}}{{/scripts}}
+	<script defer src="/static/easteregg.js" type="module"></script>
+	<script defer src="/static/page-prerenderer.js" type="module"></script>
+</body>
+
+</html>
