@@ -19,24 +19,25 @@
 {{/inline}}
 
 {{#*inline "content"}}
-<div id="overlay" class="absolute top-0 w-screen h-screen bg-blue-300 flex flex-col items-center justify-center z-50"
-	style="background: rgb(144, 205, 244, 0.75);">
-	<h1 class="overlay-title">
-		Urlaubsverwaltung geht auch anders!
-	</h1>
-	<p class="overlay-text max-w-4xl">
-		Schluss mit Papierchaos und langeiliger Software. Wir zeigen dir, dass
-		Urlaubsverwaltung auch Spass machen kann.
-	</p>
-	<div class="max-w-4xl px-4 md:px-0 w-2/3 sm:w-1/2 md:w-1/3">
-		<a id="overlay-arrow-link" href="#features" class="block landingpage-arrow">
-			<svg class="w-full" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 18" preserveAspectRatio="none" class=""
-				width="328" height="46" fill="white">
-				<path d="M0 0 L32 16 L64 0 L32 18" />
-			</svg>
-		</a>
-	</div>
-	{{> navigation class="absolute bottom-0 left-0 right-0 z-50"}}
+<div id="overlay" class="absolute top-0 bg-blue-300 z-50" style="background: rgb(144, 205, 244, 0.75);">
+	<header class="w-screen h-screen flex flex-col items-center justify-center">
+		<h1 class="overlay-title">
+			Urlaubsverwaltung geht auch anders!
+		</h1>
+		<p class="overlay-text max-w-4xl">
+			Schluss mit Papierchaos und langeiliger Software. Wir zeigen dir, dass
+			Urlaubsverwaltung auch Spass machen kann.
+		</p>
+		<div class="max-w-4xl px-4 md:px-0 w-2/3 sm:w-1/2 md:w-1/3">
+			<a id="overlay-arrow-link" href="#features" class="block landingpage-arrow">
+				<svg class="w-full" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 18" preserveAspectRatio="none" class=""
+					width="328" height="46" fill="white">
+					<path d="M0 0 L32 16 L64 0 L32 18" />
+				</svg>
+			</a>
+		</div>
+		{{> navigation class="absolute bottom-0 left-0 right-0 z-50"}}
+	</header>
 </div>
 <div id="main-content" style="transform: translateY(100vh);">
 	<main class="mb-16 md:mb-48">
