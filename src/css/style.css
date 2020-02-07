@@ -197,10 +197,6 @@ body {
 	.feature-card {
 		@apply w-1/4;
 	}
-
-	.feature-card-title {
-		@apply text-2xl;
-	}
 }
 
 @tailwind utilities;
