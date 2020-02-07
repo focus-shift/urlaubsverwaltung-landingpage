@@ -4,8 +4,8 @@ const nav = document.querySelector("nav");
 const footer = document.querySelector("footer");
 const featureCardElements = document.querySelectorAll(".feature-card");
 
-const { height: navHeight } = nav.getBoundingClientRect();
-const { height: overlayHeight } = overlay.getBoundingClientRect();
+let { height: navHeight } = nav.getBoundingClientRect();
+let { height: overlayHeight } = overlay.getBoundingClientRect();
 
 for (const card of featureCardElements) {
 	const element = document.querySelector(card.dataset.cardFor);
@@ -48,39 +48,53 @@ window.addEventListener("pageshow", () => {
 document.addEventListener(
 	"scroll",
 	function handleScroll() {
-		const { top } = overlay.getBoundingClientRect();
-
-		if (Math.abs(top) <= overlayHeight) {
-			main.style.transform = `translateY(${-1 * top}px)`;
-			if (top == 0) {
-				footer.style.marginBottom = `${overlayHeight}px`;
-			} else {
-				footer.style.marginBottom = `${top}px`;
-			}
-			for (let card of featureCardElements) {
-				card.style.transform = `translateY(${overlayHeight + top}px)`;
-			}
-		} else {
-			main.style.transform = `translateY(${overlayHeight}px)`;
-			for (let card of featureCardElements) {
-				card.style.transform = `translateY(0)`;
-			}
-		}
-
-		if (Math.abs(top) >= overlayHeight - navHeight) {
-			nav.classList.add("fixed", "top-0");
-			nav.classList.remove("absolute", "bottom-0");
-		} else {
-			nav.classList.remove("fixed", "top-0");
-			nav.classList.add("absolute", "bottom-0");
-		}
-
+		repositionCardElements();
 		sessionStorage.setItem("lastscroll_y", top);
 	},
 	{
 		passive: true,
 	},
 );
+
+window.addEventListener(
+	"resize",
+	function handleResize() {
+		overlayHeight = overlay.getBoundingClientRect().height;
+		repositionCardElements();
+	},
+	{
+		passive: true,
+	},
+);
+
+function repositionCardElements() {
+	const { top } = overlay.getBoundingClientRect();
+
+	if (Math.abs(top) <= overlayHeight) {
+		main.style.transform = `translateY(${-1 * top}px)`;
+		if (top == 0) {
+			footer.style.marginBottom = `${overlayHeight}px`;
+		} else {
+			footer.style.marginBottom = `${top}px`;
+		}
+		for (let card of featureCardElements) {
+			card.style.transform = `translateY(${overlayHeight + top}px)`;
+		}
+	} else {
+		main.style.transform = `translateY(${overlayHeight}px)`;
+		for (let card of featureCardElements) {
+			card.style.transform = `translateY(0)`;
+		}
+	}
+
+	if (Math.abs(top) >= overlayHeight - navHeight) {
+		nav.classList.add("fixed", "top-0");
+		nav.classList.remove("absolute", "bottom-0");
+	} else {
+		nav.classList.remove("fixed", "top-0");
+		nav.classList.add("absolute", "bottom-0");
+	}
+}
 
 nav.addEventListener("click", function handleClick(event) {
 	if (event.target.tagName === "A") {
