@@ -52,7 +52,7 @@ body {
 }
 
 .overlay-title {
-	/* word-break: break-word; */
+	word-break: break-word;
 	font-size: 16px;
 	font-size: calc(16px + 3vh);
 	margin-bottom: calc(1em + 3vh);
