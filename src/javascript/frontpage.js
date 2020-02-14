@@ -19,7 +19,16 @@ main.style.transform = "";
 // required when we click 'prices' link in the navigation for example
 footer.style.marginBottom = `${overlayHeight}px`;
 
+let userHasInteracted = false;
+window.addEventListener("scroll", () => (userHasInteracted = true), {
+	once: true,
+});
+
 window.addEventListener("pageshow", () => {
+	if (userHasInteracted) {
+		return;
+	}
+
 	let scrollToTop = 0;
 
 	const top = sessionStorage.getItem("lastscroll_y");
