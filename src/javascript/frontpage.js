@@ -133,9 +133,14 @@ function navigateToElement(link) {
 	window.history.replaceState(null, null, link.hash);
 	const element = document.querySelector(link.hash);
 	if (element) {
-		window.scrollTo({
-			top: element.offsetParent.offsetTop + overlayHeight - navHeight,
-			behavior: "smooth",
-		});
+		const top = element.offsetParent.offsetTop + overlayHeight - navHeight;
+		if ("scrollBehavior" in document.documentElement.style) {
+			window.scrollTo({
+				top,
+				behavior: "smooth",
+			});
+		} else {
+			window.scrollTo(0, top);
+		}
 	}
 }
