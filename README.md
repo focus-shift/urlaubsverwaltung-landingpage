@@ -18,7 +18,7 @@ Hast du NodeJS installiert und dieses Repository geklont kannst du direkt loswer
 git clone git@github.com:synyx/urlaubsverwaltung-landingpage.git
 cd urlaubsverwaltung-landingpage
 npm ci
-npm run watch
+npm run dev
 ```
 
 `npm run watch` startet einen Server und baut nach dem bearbeiten von Dateien alles neu. Im Browsers kannst du nach manuellem neuladen deine Änderungen begutachten.
