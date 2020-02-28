@@ -1,54 +1,38 @@
 {
-	"name": "urlaubsverwaltung-landingpage",
-	"version": "0.1.0",
-	"description": "Landing Page der Open Source Urlaubsverwaltung",
-	"license": "apache-2.0",
 	"private": true,
-	"repository": "github:/synyx/urlaubsverwaltung-landingpage",
-	"bugs": "https://github.com/synyx/urlaubsverwaltung-landingpage/issues",
-	"keywords": [],
 	"author": "Benjamin Seber <seber@synyx.de> (https://www.synyx.de)",
 	"scripts": {
-		"dev": "next",
-		"build": "NODE_ENV=production && npm run clean && npm run nextjs:build && npm run nextjs:export",
-		"clean": "rimraf .next out",
-		"nextjs:build": "next build",
-		"nextjs:export": "next export",
-		"lint": "eslint --ext js,jsx,ts,tsx pages components static"
+		"build": "make build",
+		"build-markup": "make markup",
+		"build-js": "make js",
+		"build-style": "make style",
+		"build-static": "make static",
+		"prewatch": "make clean",
+		"watch": "NODE_ENV=development concurrently \"npm:serve\" \"npm:watch-markup\" \"npm:watch-js\" \"npm:watch-style\" \"npm:watch-static\"",
+		"watch-markup": "onchange -i src/**/*.hbs -- npm run build-markup",
+		"watch-js": "onchange -i src/javascript/**/*.js -- npm run build-js",
+		"watch-style": "onchange -i src/css/**/*.css -- npm run build-style",
+		"watch-static": "onchange -i src/static/** -- npm run build-static",
+		"serve": "http-server -c-1 out"
 	},
 	"dependencies": {
-		"@mdx-js/mdx": "0.15.0-0",
-		"@zeit/next-mdx": "1.1.0",
-		"@zeit/next-css": "1.0.1",
-		"autoprefixer": "9.6.1",
-		"next": "9.0.0",
-		"next-images": "1.1.2",
-		"next-purgecss": "3.1.1",
-		"react": "16.8.6",
-		"react-dom": "16.8.6",
-		"styled-jsx": "^3.2.1"
-	},
-	"devDependencies": {
-		"@types/node": "^12.6.2",
-		"@types/react": "^16.8.23",
-		"@typescript-eslint/eslint-plugin": "^1.11.0",
-		"@typescript-eslint/parser": "^1.11.0",
-		"babel-eslint": "10.0.1",
-		"eslint": "5.16.0",
-		"eslint-config-prettier": "4.3.0",
-		"eslint-config-react-app": "4.0.1",
-		"eslint-plugin-flowtype": "2.50.3",
-		"eslint-plugin-import": "2.17.3",
-		"eslint-plugin-jsx-a11y": "6.2.1",
-		"eslint-plugin-prettier": "3.0.1",
-		"eslint-plugin-react": "7.13.0",
-		"eslint-plugin-react-hooks": "1.6.0",
-		"husky": "3.0.0",
-		"lint-staged": "8.2.0",
-		"prettier": "1.18.2",
-		"rimraf": "2.6.3",
-		"tailwindcss": "1.0.4",
-		"typescript": "3.5.3"
+		"@fullhuman/postcss-purgecss": "^1.3.0",
+		"autoprefixer": "^9.7.3",
+		"concurrently": "^5.0.2",
+		"cssnano": "^4.1.10",
+		"eslint": "^6.8.0",
+		"eslint-config-prettier": "^6.9.0",
+		"eslint-plugin-prettier": "^3.1.2",
+		"fs-extra": "^8.1.0",
+		"handlebars": "^4.5.3",
+		"html-minifier": "^4.0.0",
+		"http-server": "^0.12.0",
+		"husky": "^3.1.0",
+		"lint-staged": "^9.5.0",
+		"onchange": "^6.1.0",
+		"postcss-cli": "^6.1.3",
+		"prettier": "^1.19.1",
+		"tailwindcss": "^1.1.4"
 	},
 	"husky": {
 		"hooks": {
@@ -56,15 +40,9 @@
 		}
 	},
 	"lint-staged": {
-		"linters": {
-			"*.{js,jsx,ts,tsx}": [
-				"eslint --fix",
-				"git add"
-			],
-			"*.{js,jsx,ts,tsx,md}": [
-				"prettier --write",
-				"git add"
-			]
-		}
+		"*.js": [
+			"eslint --fix",
+			"git add"
+		]
 	}
 }
