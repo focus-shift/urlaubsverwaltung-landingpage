@@ -44,13 +44,11 @@ window.addEventListener("pageshow", () => {
 		}
 	}
 
-	window.scrollTo({
-		top: scrollToTop,
-		// use scroll behaviour 'smooth'
-		// to trigger hacky hack footer style margin calculations
-		// in scroll listener
-		behavior: "smooth",
-	});
+	// use scroll behaviour 'smooth'
+	// to trigger hacky hack footer style margin calculations
+	// in scroll listener
+	scrollTo(scrollToTop);
+
 	sessionStorage.removeItem("lastscroll_y");
 });
 
@@ -134,13 +132,66 @@ function navigateToElement(link) {
 	const element = document.querySelector(link.hash);
 	if (element) {
 		const top = element.offsetParent.offsetTop + overlayHeight - navHeight;
-		if ("scrollBehavior" in document.documentElement.style) {
-			window.scrollTo({
-				top,
-				behavior: "smooth",
-			});
+		scrollTo(top);
+	}
+}
+
+// =================================================================
+// Smooth Scroll behavior polyfill
+// kudos https://nicegist.github.io/d210786daa23fd57db59634dd231f341
+// (slighlty adapted to our requirements)
+
+// native smooth scrolling for Chrome, Firefox & Opera
+// @see: https://caniuse.com/#feat=css-scroll-behavior
+function nativeSmoothScrollTo(top) {
+	window.scroll({
+		behavior: "smooth",
+		top,
+	});
+}
+
+// polyfilled smooth scrolling for IE, Edge & Safari
+function smoothScrollTo(to, duration) {
+	const element = document.scrollingElement || document.documentElement,
+		start = element.scrollTop,
+		change = to - start,
+		startDate = +new Date();
+
+	// t = current time
+	// b = start value
+	// c = change in value
+	// d = duration
+	function easeInOutQuad(t, b, c, d) {
+		t /= d / 2;
+		if (t < 1) return (c / 2) * t * t + b;
+		t--;
+		return (-c / 2) * (t * (t - 2) - 1) + b;
+	}
+
+	function animateScroll() {
+		const currentDate = +new Date();
+		const currentTime = currentDate - startDate;
+		element.scrollTop = parseInt(
+			easeInOutQuad(currentTime, start, change, duration),
+		);
+		if (currentTime < duration) {
+			requestAnimationFrame(animateScroll);
 		} else {
-			window.scrollTo(0, top);
+			element.scrollTop = to;
 		}
+	}
+	animateScroll();
+}
+
+// detect support for the behavior property in ScrollOptions
+const supportsNativeSmoothScroll =
+	"scrollBehavior" in document.documentElement.style;
+
+// smooth scrolling stub
+function scrollTo(top) {
+	if (supportsNativeSmoothScroll) {
+		nativeSmoothScrollTo(top);
+	} else {
+		smoothScrollTo(top, 600);
 	}
 }
