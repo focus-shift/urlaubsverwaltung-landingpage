@@ -3,7 +3,7 @@ console.log(
 	"font-size: 48px; background-color: #b4d455",
 );
 console.log(
-	"%c blub ʕ •ᴥ•ʔゝ☆     ",
+	"%c  ʕ •ᴥ•ʔゝ☆     ",
 	"font-size:52px; color: black; background-color: #b4d455",
 );
 console.log(
