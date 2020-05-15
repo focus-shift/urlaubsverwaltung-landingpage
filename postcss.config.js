@@ -5,11 +5,6 @@ module.exports = {
 		require("tailwindcss"),
 		require("autoprefixer"),
 		isProduction &&
-			require("@fullhuman/postcss-purgecss")({
-				content: ["./src/**/*.hbs"],
-				defaultExtractor: content => content.match(/[\w-/:]+(?<!:)/g) || [],
-			}),
-		isProduction &&
 			require("cssnano")({
 				preset: "default",
 			}),
