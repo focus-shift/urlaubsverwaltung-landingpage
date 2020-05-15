@@ -28,7 +28,7 @@
 		"http-server": "0.12.3",
 		"husky": "4.2.5",
 		"lint-staged": "10.2.2",
-		"onchange": "6.1.0",
+		"onchange": "7.0.2",
 		"postcss-cli": "7.1.1",
 		"prettier": "2.0.5",
 		"tailwindcss": "1.4.6"
