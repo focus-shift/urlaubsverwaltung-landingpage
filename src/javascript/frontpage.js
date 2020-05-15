@@ -105,7 +105,7 @@ function repositionCardElements() {
 
 nav.addEventListener("click", function handleClick(event) {
 	if (event.target.tagName === "A") {
-		if (event.target.hash !== "#") {
+		if (event.target.hash && event.target.hash !== "#") {
 			event.preventDefault();
 			navigateToElement(event.target);
 		}

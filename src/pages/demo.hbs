@@ -1,0 +1,62 @@
+{{#> _html title="Demo" }}
+{{#*inline "content"}}
+
+<header class="fixed top-0 left-0 right-0 z-50">
+	{{> navigation}}
+</header>
+
+<main class="flex-1 mb-24 sm:mb-48 mt-24 text-gray-900 max-w-6xl mx-auto px-4">
+
+<h1 class="text-3xl mb-6 mt-6 font-medium">Live Demo</h1>
+
+<p class="mb-16">
+	Du möchtest dir selbst ein Bild machen?<br />
+	Unser Demo-System ist nur einen Klick entfernt. Wähle einfach eine Rolle aus und erkundschafte die Anwendung.
+</p>
+
+<div class="grid grid-cols-1 gap-4 sm:grid-cols-2 md:grid-cols-3">
+	<div class="p-4 rounded border border-blue-200 bg-blue-100 bg-opacity-50 max-w-sm mx-auto">
+		<p class="mb-2">
+			<a href="https://urlaubsverwaltung-demo.synyx.de/login?username=user&password=secret" class="block text-center px-4 py-2 text-blue-700 hover:text-blue-900 transition-colors">
+				<img role="presentation" alt="" src="/static/bear.svg" class="mx-auto w-24 h-24 block mb-2">
+				Als Benutzer testen
+			</a>
+		</p>
+		<p class="mb-2 font-light">
+			Deinen nächsten Urlaubsantrag stellen, deine verbleibenden Urlaubstage und bisherigen Krankmeldungen überblicken? Behalte jederzeit den Durchblick über all deine Abwesenheiten.
+		</p>
+	</div>
+	<div class="p-4 rounded border border-blue-200 bg-blue-100 bg-opacity-50 max-w-sm mx-auto">
+		<div>
+		</div>
+		<p class="mb-2">
+			<a href="https://urlaubsverwaltung-demo.synyx.de/login?username=boss&password=secret" class="block text-center px-4 py-2 text-blue-700 hover:text-blue-900 transition-colors">
+				<img role="presentation" alt="" src="/static/bear.svg" class="mx-auto w-24 h-24 block mb-2">
+				Als Chef testen
+			</a>
+		</p>
+		<p class="mb-2 font-light">
+			Genehmigen oder ablehnen? Verschaffe dir Überblick über die Urlaubsanträge deiner Mitarbeiter und entscheide weise. Denk immer dran, aus großer Macht folgt große Verantwortung.
+		</p>
+	</div>
+	<div class="p-4 rounded border border-blue-200 bg-blue-100 bg-opacity-50 max-w-sm mx-auto">
+		<div>
+		</div>
+		<p class="mb-2">
+			<a href="https://urlaubsverwaltung-demo.synyx.de/login?username=office&password=secret" class="block text-center px-4 py-2 text-blue-700 hover:text-blue-900 transition-colors">
+				<img role="presentation" alt="" src="/static/bear.svg" class="mx-auto w-24 h-24 block mb-2">
+				Als Office testen
+			</a>
+		</p>
+		<p class="mb-2 font-light">
+			Du willst die volle Bandbreite der Möglichkeiten erleben? Hier kannst du neben Urlaubsanträgen nicht nur Benutzer und Krankmeldungen verwalten, sondern sogar Anwendungseinstellungen vornehmen.
+		</p>
+	</div>
+</div>
+
+</main>
+
+{{> footer}}
+
+{{/inline}}
+{{/_html}}
