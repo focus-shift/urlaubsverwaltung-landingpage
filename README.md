@@ -21,7 +21,7 @@ npm ci
 npm run dev
 ```
 
-`npm run watch` startet einen Server und baut nach dem bearbeiten von Dateien alles neu. Im Browsers kannst du nach manuellem neuladen deine Änderungen begutachten.
+`npm run watch` startet einen Server und baut nach dem Bearbeiten von Dateien alles neu. Im Browsers kannst du nach manuellem neuladen deine Änderungen begutachten.
 
 ## Homepage bauen
 
@@ -29,4 +29,4 @@ npm run dev
 npm run build
 ```
 
-Das Skript baut alle benötigten statischen Resourcen für die Homepage (_.html, _.js, \*.css Assets).
+Das Skript baut alle benötigten statischen Ressourcen für die Homepage (_.html, _.js, \*.css Assets).
