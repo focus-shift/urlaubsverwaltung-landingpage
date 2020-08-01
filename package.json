@@ -16,7 +16,7 @@
 		"serve": "http-server -c-1 out"
 	},
 	"dependencies": {
-		"autoprefixer": "9.8.5",
+		"autoprefixer": "9.8.6",
 		"concurrently": "5.2.0",
 		"cssnano": "4.1.10",
 		"eslint": "7.6.0",
