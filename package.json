@@ -30,7 +30,7 @@
 		"lint-staged": "10.2.13",
 		"onchange": "7.0.2",
 		"postcss-cli": "7.1.1",
-		"prettier": "2.0.5",
+		"prettier": "2.1.1",
 		"tailwindcss": "1.7.5"
 	},
 	"husky": {
