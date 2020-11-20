@@ -8,10 +8,10 @@ Please look for other issues or pull requests which already work on this topic. 
 # 🙅 Issue
 - Question
   Feel free to ask us questions and please label them with 'type: question'
-  
+
 - Security Vulnerability
   STOP!! Please don't raise security vulnerabilities here.
-  Please send a email to urlaubsverwaltung@focus-shift.de  to learn how to disclose them responsibly.
+  Please send a email to info@urlaubsverwaltung.cloud  to learn how to disclose them responsibly.
 
 - With an Immediate Pull Request
   An issue will be closed as a duplicate of the immediate pull request,
