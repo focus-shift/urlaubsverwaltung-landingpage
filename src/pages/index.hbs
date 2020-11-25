@@ -6,12 +6,12 @@
 <link rel="preload" href="/static/002-urlaubsantraege.png" as="image" media="(max-width: 639px)" />
 <link rel="preload" href="/static/003-krankmeldungen.png" as="image" media="(max-width: 639px)" />
 <link rel="preload" href="/static/004-abteilung.png" as="image" media="(max-width: 639px)" />
-<link rel="preload" href="/static/005-externe-kalender.png" as="image" media="(max-width: 639px)" />
+<link rel="preload" href="/static/005-ical.png" as="image" media="(max-width: 639px)" />
 <link rel="preload" href="/static/001-kalender_wide.png" as="image" media="(min-width: 640px)" />
 <link rel="preload" href="/static/002-urlaubsantraege_wide.png" as="image" media="(min-width: 640px)" />
 <link rel="preload" href="/static/003-krankmeldungen_wide.png" as="image" media="(min-width: 640px)" />
 <link rel="preload" href="/static/004-abteilung_wide.png" as="image" media="(min-width: 640px)" />
-<link rel="preload" href="/static/005-externe-kalender_wide.png" as="image" media="(min-width: 640px)" />
+<link rel="preload" href="/static/005-ical.png" as="image" media="(min-width: 640px)" />
 {{/inline}}
 
 {{#*inline "scripts"}}
@@ -109,18 +109,17 @@
 			</div>
 			<div class="relative">
 				<picture class="">
-					<source media="(min-width: 640px)" srcset="/static/005-externe-kalender_wide.png" />
-					<img id="img-005" src="/static/005-externe-kalender.png"
-						alt="Integration von externen Kalendern wie z. B. Microsoft Exchange." width="1140" height="764"
+					<source media="(min-width: 640px)" srcset="/static/005-ical_wide.png" />
+					<img id="img-005" src="/static/005-ical.png"
+						alt="Integration in externe Kalender wie z.B. Microsoft Outlook Kalender." width="1140" height="764"
 						class="feature-screenshot" />
 				</picture>
 				<div class="feature-card feature-card--externalcalendars" data-card-for="#img-005">
-					<strong class="feature-card-title">Externe Kalender</strong>
+					<strong class="feature-card-title">iCal Kalenderfreigabe</strong>
 					<span class="bear-icon hidden lg:block lg:float-right"></span>
 					<span class="feature-card-text lg:flex-1">
-						Du kannst die Urlaubsverwaltung an Microsoft Exchange oder den
-						Google Kalender anbinden, um Abwesenheiten synchronisieren zu
-						lassen.
+						Du kannst die Abwesenheiten deiner Urlaubsverwaltung in Microsoft Outlook Kalender oder
+						Google Kalender via iCal Kalenderfreigabe einbinden.
 					</span>
 				</div>
 			</div>
