@@ -40,7 +40,8 @@ window.addEventListener("pageshow", () => {
 	if (hash) {
 		const element = document.querySelector(hash);
 		if (element) {
-			scrollToTop = element.offsetParent.offsetTop + overlayHeight - navHeight;
+			scrollToTop =
+				element.getBoundingClientRect().top + overlayHeight - navHeight;
 		}
 	}
 
@@ -131,7 +132,7 @@ function navigateToElement(link) {
 	window.history.replaceState(null, null, link.hash);
 	const element = document.querySelector(link.hash);
 	if (element) {
-		const top = element.offsetParent.offsetTop + overlayHeight - navHeight;
+		const top = element.getBoundingClientRect().top + overlayHeight - navHeight;
 		scrollTo(top);
 	}
 }
