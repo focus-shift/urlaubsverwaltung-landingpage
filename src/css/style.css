@@ -74,7 +74,6 @@ body {
 	@apply text-center;
 	@apply text-blue-900;
 	@apply px-4;
-	@apply font-light;
 }
 
 @screen md {
