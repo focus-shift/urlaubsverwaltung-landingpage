@@ -5,17 +5,6 @@ html {
 	height: 100%;
 }
 
-body {
-	/* navigation height */
-	/* padding-top: 48px; */
-}
-
-@screen md {
-	body {
-		/* padding-top: 0; */
-	}
-}
-
 .landingpage-arrow {
 	animation: pulse infinite 2s;
 	animation-timing-function: cubic-bezier(0.47, 0, 0.745, 0.715);
