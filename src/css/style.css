@@ -111,7 +111,6 @@ html {
 
 .feature-card-text {
 	@apply text-xl;
-	@apply font-light;
 	@apply text-gray-900;
 }
 
