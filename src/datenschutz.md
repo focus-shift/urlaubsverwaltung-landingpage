@@ -166,6 +166,8 @@ ausgespielt werden.
 
 ### 4.1. Umfang der Verarbeitung personenbezogener Daten
 
+#### 4.1.1.
+
 Wir erheben und verwenden personenbezogene Daten unserer Nutzer grundsätzlich nur,
 soweit dies zur Bereitstellung einer funktionsfähigen Website sowie unserer Inhalte und
 Leistungen erforderlich ist. Die Erhebung und Verwendung personenbezogener Daten
@@ -248,9 +250,7 @@ von "http://" auf "https://" wechselt und an dem Schloss-Symbol in Ihrer Browser
 
 ## 6. Bereitstellung der Website und Erstellung von Logfiles
 
-### 6.1.
-
-Beschreibung und Umfang der Datenverarbeitung
+### 6.1. Beschreibung und Umfang der Datenverarbeitung
 
 #### 6.1.1.
 
@@ -277,52 +277,50 @@ findet nicht statt.
 
 ### 6.2. Rechtsgrundlage für die Datenverarbeitung
 
-### 6.3.
+### 6.2.1.
 
 Rechtsgrundlage für die vorübergehende Speicherung der Daten und der Logfiles ist Art.
 6 Abs. 1 S. 1 lit. f DSGVO.
 
-### 6.4. Zweck der Datenverarbeitung
+### 6.3. Zweck der Datenverarbeitung
 
-### 6.5.
+### 6.3.1.
 
 Die vorübergehende Speicherung der IP-Adresse durch das System ist notwendig, um eine
 Auslieferung der Website an den Rechner des Nutzers zu ermöglichen. Hierfür muss die
 IP-Adresse des Nutzers für die Dauer der Sitzung gespeichert bleiben.
 
-### 6.6.
+### 6.3.2.
 
 Die Speicherung in Logfiles erfolgt, um die Funktionsfähigkeit der Website
 sicherzustellen. Zudem dienen uns die Daten zur Optimierung der Website und zur
 Sicherstellung der Sicherheit unserer informationstechnischen Systeme. Eine Auswertung
 der Daten zu Marketingzwecken findet in diesem Zusammenhang nicht statt.
 
-### 6.7.
+### 6.3.3.
 
 In diesen Zwecken liegt auch unser berechtigtes Interesse an der Datenverarbeitung nach
 Art. 6 Abs. 1 S. 1 lit. f DSGVO.
 
-### 6.8. Dauer der Speicherung
+### 6.4. Dauer der Speicherung
 
-### 6.9.
+### 6.4.1.
 
 Die Daten werden gelöscht, sobald sie für die Erreichung des Zweckes ihrer Erhebung
 nicht mehr erforderlich sind. Im Falle der Erfassung der Daten zur Bereitstellung der
 Website ist dies der Fall, wenn die jeweilige Sitzung beendet ist.
 
-### 6.10.
+### 6.4.2.
 
 Im Falle der Speicherung der Daten in Logfiles ist dies nach spätestens sieben Tagen der
 Fall. Eine darüberhinausgehende Speicherung ist möglich. In diesem Fall werden die IP-
 Adressen der Nutzer gelöscht oder verfremdet, sodass eine Zuordnung des aufrufenden
 Clients nicht mehr möglich ist.
 
-### 6.11.
+### 6.5. Widerspruchs- und Beseitigungsmöglichkeit
 
-Widerspruchs- und Beseitigungsmöglichkeit
 Die Erfassung der Daten zur Bereitstellung der Website und die Speicherung der Daten in
-Logfiles ist für den Betrieb der Internetseite zwingend erforderlich. Es besteht folglich
-seitens des Nutzers keine Widerspruchsmöglichkeit.
+Logfiles ist für den Betrieb der Internetseite zwingend erforderlich. Es besteht folglich seitens des Nutzers keine Widerspruchsmöglichkeit.
 
 ## 7. Verwendung von Cookies
 
@@ -413,14 +411,12 @@ Bereits gespeicherte Cookies können jederzeit gelöscht werden. Dies kann auch
 automatisiert erfolgen. Werden Cookies für unsere Website deaktiviert, können
 möglicherweise nicht mehr alle Funktionen der Website vollumfänglich genutzt werden.
 
-#### 7.4.1.1.
+#### 7.4.2.
 
 Beim Aufruf unserer Website werden die Nutzer durch ein Infobanner über die
 Verwendung von Cookies informiert und der Nutzer gefragt, ob dieser dem Setzen auch
 der benannten Cookies zustimmt. Der Nutzer kann frei entscheiden, ob er eine Auswahl
-tätigt sowie, ob eine Einwilligung erfolgt. Erteilt der Nutzer keine Einwilligung, so werden
-keine / nur technisch notwendige Cookies gesetzt und eine weitergehende Speicherung
-von Cookies findet nicht statt.
+tätigt sowie, ob eine Einwilligung erfolgt. Erteilt der Nutzer keine Einwilligung, so werden keine / nur technisch notwendige Cookies gesetzt und eine weitergehende Speicherung von Cookies findet nicht statt.
 
 ## 8. Registrierung
 
