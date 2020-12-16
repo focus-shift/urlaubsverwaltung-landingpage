@@ -1,8 +1,10 @@
-{{#> _html title="Datenschutz" }}
-{{#*inline "content"}}
+---
+layout: layout
+title: Datenschutz
+---
 
 <header class="fixed top-0 left-0 right-0 z-50">
-	{{> navigation}}
+	{{> partials/navigation}}
 </header>
 
 <main class="flex-1 mb-48 mt-24 text-gray-900 max-w-6xl mx-auto px-4">
@@ -23,17 +25,14 @@
 		<h2 id="dateschutzerklaerung" class="text-2xl font-medium mb-6">
 			Datenschutzerklärung Webseite
 		</h2>
-		{{> "datenschutz-landingpage"}}
+		{{> "partials/datenschutz-landingpage"}}
 	</section>
 	<section>
 		<h2 id="dateschutzerklaerung-uv" class="text-2xl font-medium mb-6">
 			Datenschutzerklärung für die Urlaubsverwaltung
 		</h2>
-		{{> "datenschutz-uv"}}
+		{{> "partials/datenschutz-uv"}}
 	</section>
 </main>
 
-{{> footer}}
-
-{{/inline}}
-{{/_html}}
+{{> partials/footer}}

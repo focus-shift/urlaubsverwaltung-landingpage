@@ -1,8 +1,10 @@
-{{#> _html title="ABG" }}
-{{#*inline "content"}}
+---
+layout: layout
+title: AGB
+---
 
 <header class="fixed top-0 left-0 right-0 z-50">
-	{{> navigation}}
+	{{> partials/navigation}}
 </header>
 
 <main class="flex-1 mb-48 mt-24 text-gray-900 max-w-6xl mx-auto px-4">
@@ -248,7 +250,4 @@
 	</p>
 </main>
 
-{{> footer}}
-
-{{/inline}}
-{{/_html}}
+{{> partials/footer}}

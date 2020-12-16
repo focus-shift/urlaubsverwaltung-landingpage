@@ -1,24 +1,7 @@
-{{#> _html }}
+---
+layout: layout-index
+---
 
-{{#*inline "pre"}}
-<link rel="preload" href="/static/frontpage.js" as="script" />
-<link rel="preload" href="/static/001-kalender.png" as="image" media="(max-width: 639px)" />
-<link rel="preload" href="/static/002-urlaubsantraege.png" as="image" media="(max-width: 639px)" />
-<link rel="preload" href="/static/003-krankmeldungen.png" as="image" media="(max-width: 639px)" />
-<link rel="preload" href="/static/004-abteilung.png" as="image" media="(max-width: 639px)" />
-<link rel="preload" href="/static/005-ical.png" as="image" media="(max-width: 639px)" />
-<link rel="preload" href="/static/001-kalender_wide.png" as="image" media="(min-width: 640px)" />
-<link rel="preload" href="/static/002-urlaubsantraege_wide.png" as="image" media="(min-width: 640px)" />
-<link rel="preload" href="/static/003-krankmeldungen_wide.png" as="image" media="(min-width: 640px)" />
-<link rel="preload" href="/static/004-abteilung_wide.png" as="image" media="(min-width: 640px)" />
-<link rel="preload" href="/static/005-ical.png" as="image" media="(min-width: 640px)" />
-{{/inline}}
-
-{{#*inline "scripts"}}
-<script defer src="/static/frontpage.js" type="module"></script>
-{{/inline}}
-
-{{#*inline "content"}}
 <div id="overlay" class="absolute top-0 left-0 right-0 bg-blue-300 z-50" style="background: rgba(144, 205, 244, 0.75);">
 	<header class="w-full h-screen flex flex-col items-center justify-center">
 		<h1 class="overlay-title">
@@ -35,7 +18,7 @@
 				</svg>
 			</a>
 		</div>
-		{{> navigation class="absolute bottom-0 left-0 right-0 z-50"}}
+		{{> partials/navigation class="absolute bottom-0 left-0 right-0 z-50"}}
 	</header>
 </div>
 <div id="main-content" style="transform: translateY(100vh);">
@@ -257,8 +240,5 @@
 			</div>
 		</section>
 	</main>
-	{{> footer}}
+	{{> partials/footer}}
 </div>
-{{/inline}}
-
-{{/_html}}

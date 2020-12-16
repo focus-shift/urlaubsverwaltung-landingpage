@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+  {{> meta}}
+
+	<title>
+		Urlaubsverwaltung{{#if title}} - {{title}}{{/if}}
+	</title>
+
+	<link rel="preload" href="/static/js/frontpage.js" as="script" />
+	<link rel="preload" href="/static/001-kalender.png" as="image" media="(max-width: 639px)" />
+	<link rel="preload" href="/static/002-urlaubsantraege.png" as="image" media="(max-width: 639px)" />
+	<link rel="preload" href="/static/003-krankmeldungen.png" as="image" media="(max-width: 639px)" />
+	<link rel="preload" href="/static/004-abteilung.png" as="image" media="(max-width: 639px)" />
+	<link rel="preload" href="/static/005-ical.png" as="image" media="(max-width: 639px)" />
+	<link rel="preload" href="/static/001-kalender_wide.png" as="image" media="(min-width: 640px)" />
+	<link rel="preload" href="/static/002-urlaubsantraege_wide.png" as="image" media="(min-width: 640px)" />
+	<link rel="preload" href="/static/003-krankmeldungen_wide.png" as="image" media="(min-width: 640px)" />
+	<link rel="preload" href="/static/004-abteilung_wide.png" as="image" media="(min-width: 640px)" />
+	<link rel="preload" href="/static/005-ical.png" as="image" media="(min-width: 640px)" />
+
+	<link rel="stylesheet" href="/static/css/style.css" />
+	<link rel="preload" href="/static/js/page-prerenderer.js" as="script" />
+
+	<script defer src="/static/js/frontpage.js" type="module"></script>
+
+	<script>
+		if (window && window.history && window.history.scrollRestoration) {
+			window.history.scrollRestoration = "manual";
+		}
+	</script>
+</head>
+
+<body class="flex flex-col min-h-full">
+	{{{ content }}}
+	<script defer src="/static/js/easteregg.js" type="module"></script>
+	<script defer src="/static/js/page-prerenderer.js" type="module"></script>
+</body>
+
+</html>
