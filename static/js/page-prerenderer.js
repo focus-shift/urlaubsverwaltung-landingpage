@@ -4,7 +4,7 @@ if (window.location.pathname !== "/") {
 }
 
 new IntersectionObserver(function handleFooterIntersection(entries, observer) {
-	setTimeout(function() {
+	setTimeout(function () {
 		entries.forEach(entry => {
 			if (entry.isIntersecting) {
 				observer.disconnect();

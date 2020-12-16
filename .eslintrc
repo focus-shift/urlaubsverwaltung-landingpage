@@ -6,13 +6,13 @@
 	},
 	"overrides": [
 		{
-			"files": ["src/**"],
+			"files": ["src/**", "static/**"],
 			"env": {
 				"browser": true
 			}
 		},
 		{
-			"files": ["!src/**"],
+			"files": ["!src/**", "!static/**"],
 			"env": {
 				"node": true
 			}

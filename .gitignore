@@ -1,4 +1,7 @@
 .idea/
 .vscode/
 node_modules/
+
 out/
+build/
+dist/

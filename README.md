@@ -21,12 +21,18 @@ npm ci
 npm run dev
 ```
 
-`npm run watch` startet einen Server und baut nach dem Bearbeiten von Dateien alles neu. Im Browsers kannst du nach manuellem neuladen deine Änderungen begutachten.
+`npm run dev` startet einen Server und baut nach dem Bearbeiten von Dateien alles neu.
 
 ## Homepage bauen
+
+Eine optimierte Version der Landingpage kannst du bauen mit:
 
 ```bash
 npm run build
 ```
 
-Das Skript baut alle benötigten statischen Ressourcen für die Homepage (_.html, _.js, \*.css Assets).
+## Deployment
+
+Jeder commit auf den master wird automatisiert gebaut, auf den `gh-pages` branch gemerged und damit live genommen.
+
+siehe `.github/workflows/deployment.yml`
