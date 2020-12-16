@@ -25,5 +25,19 @@
 		p {
 			@apply mb-2;
 		}
+
+		ul {
+			@apply list-inside;
+			@apply list-disc;
+			@apply my-4;
+		}
+
+		li {
+		}
+
+		a {
+			@apply underline;
+		}
+
 	}
 }

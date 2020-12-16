@@ -1,8 +1,6 @@
 ---
 layout: layout-subpage
 title: Datenschutz UV
-css:
-  - "/static/css/datenschutz.css"
 ---
 
 <article class="datenschutz">
@@ -32,8 +30,8 @@ Der Verantwortliche im Sinne der Datenschutz-Grundverordnung, sonstiger in den
 Mitgliedstaaten der Europäischen Union geltenden Datenschutzgesetze und anderer
 Bestimmungen mit datenschutzrechtlichem Charakter ist:
 
-Focus Shift Software GmbH
-Lindenallee 126
+Focus Shift Software GmbH\
+Lindenallee 126\
 76189 Karlsruhe, Deutschland
 
 E-Mail: [datenschutz@urlaubsverwaltung.cloud](mailto:datenschutz@urlaubsverwaltung.cloud)
@@ -330,7 +328,9 @@ seitens des Nutzers keine Widerspruchsmöglichkeit.
 
 ### 7.1. Beschreibung und Umfang der Datenverarbeitung
 
-7.1.1. Wir nutzen auf Grundlage unserer berechtigten Interessen auf dieser Internetseite sog. Cookies.
+#### 7.1.1.
+
+Wir nutzen auf Grundlage unserer berechtigten Interessen auf dieser Internetseite sog. Cookies.
 Bei Cookies handelt es sich um Textdateien, die im Internetbrowser bzw. vom
 Internetbrowser auf dem Computersystem des Nutzers gespeichert werden. Ruft ein
 Nutzer eine Website auf, so kann ein Cookie auf dem Betriebssystem des Nutzers
@@ -354,10 +354,11 @@ Session-Cookies, die bestimmte Einstellungen des Nutzers speichern, z.B.:
 - Spracheinstellungen
 - Merken von Suchbegriffen
 - Log-In-Daten
-  Opt-Out-Cookies, mit der Information, ob der Nutzer aktiv in das Setzen
-  technisch notwendiger wie nicht notwendiger Cookies eingewilligt hat.
-  Test-Cookies, mit der Information, ob der Nutzer in seinem Browser das Setzen
-  von Cookies erlaubt Cookies, zu Analyse-, Werbe-, und Marketingzwecke.
+
+Opt-Out-Cookies, mit der Information, ob der Nutzer aktiv in das Setzen
+technisch notwendiger wie nicht notwendiger Cookies eingewilligt hat.
+Test-Cookies, mit der Information, ob der Nutzer in seinem Browser das Setzen
+von Cookies erlaubt Cookies, zu Analyse-, Werbe-, und Marketingzwecke.
 
 ##### 7.1.2.3.
 
@@ -714,9 +715,8 @@ Die Daten werden gelöscht, sobald sie die Einwilligung zur Nutzung von Gravatar
 Sie können die Einwilligung zur Nutzung von Gravatar deaktivieren. In diesem Fall werden
 keine Daten mehr übermittelt.
 
-## 12.
+## 12. Rechte der betroffenen Person
 
-Rechte der betroffenen Person
 Werden personenbezogene Daten von Ihnen verarbeitet, sind Sie Betroffener i.S.d.
 DSGVO und es stehen Ihnen folgende Rechte gegenüber dem Verantwortlichen zu:
 
@@ -986,7 +986,9 @@ beeinträchtigt. Dies gilt nicht, wenn die Entscheidung
 Verantwortlichen erforderlich ist,
 
 (2) aufgrund von Rechtsvorschriften der Union oder der Mitgliedstaaten, denen der Verantwortliche unterliegt, zulässig ist und diese Rechtsvorschriften angemessene Maßnahmen zur Wahrung Ihrer Rechte und Freiheiten sowie Ihrer
-berechtigten Interessen enthalten oder (3)
+berechtigten Interessen enthalten oder
+
+(3) mit Ihrer ausdrücklichen Einwilligung erfolgt.
 
 ### 15.2.
 
@@ -1006,9 +1008,9 @@ Entscheidung gehört.
 
 ## 16. Recht auf Beschwerde bei einer Aufsichtsbehörde
 
-### 16.1. Unbeschadet
+### 16.1.
 
-eines anderweitigen verwaltungsrechtlichen oder gerichtlichen
+Unbeschadet eines anderweitigen verwaltungsrechtlichen oder gerichtlichen
 Rechtsbehelfs steht Ihnen das Recht auf Beschwerde bei einer Aufsichtsbehörde,
 insbesondere in dem Mitgliedstaat ihres Aufenthaltsorts, ihres Arbeitsplatzes oder des
 Orts des mutmaßlichen Verstoßes, zu, wenn Sie der Ansicht sind, dass die Verarbeitung
