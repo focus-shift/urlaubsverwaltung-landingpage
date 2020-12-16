@@ -3,7 +3,7 @@ layout: layout-subpage
 title: Impressum
 ---
 
-<article class="impressum">
+<article>
 
 # Impressum
 

@@ -3,7 +3,7 @@ layout: layout-subpage
 title: Datenschutz UV
 ---
 
-<article class="datenschutz">
+<article>
 
 Stand: 16.12.2020
 

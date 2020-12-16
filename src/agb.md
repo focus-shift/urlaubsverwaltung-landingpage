@@ -3,7 +3,7 @@ layout: layout-subpage
 title: AGB
 ---
 
-<article class="agb">
+<article>
 
 Stand: 2. Dezember 2020
 
