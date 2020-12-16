@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+	{{> meta}}
+
+	<title>
+		Urlaubsverwaltung{{#if title}} - {{title}}{{/if}}
+	</title>
+
+	<link rel="stylesheet" href="/static/css/style.css" />
+	<link rel="stylesheet" href="/static/css/datenschutz.css" />
+	<link rel="preload" href="/static/js/page-prerenderer.js" as="script" />
+
+	<script>
+		if (window && window.history && window.history.scrollRestoration) {
+			window.history.scrollRestoration = "manual";
+		}
+	</script>
+</head>
+
+<body class="flex flex-col min-h-full">
+  <header class="fixed top-0 left-0 right-0 z-50">
+    {{> partials/navigation}}
+  </header>
+
+  <main class="flex-1 mb-48 mt-24 text-gray-900 max-w-6xl mx-auto px-4">
+    {{{ content }}}
+  </main>
+
+  {{> partials/footer}}
+
+	<script defer src="/static/js/easteregg.js" type="module"></script>
+	<script defer src="/static/js/page-prerenderer.js" type="module"></script>
+</body>
+
+</html>
