@@ -1,4 +1,5 @@
 @layer components {
+	.impressum,
 	.datenschutz {
 		h1 {
 			@apply text-3xl;
@@ -38,6 +39,5 @@
 		a {
 			@apply underline;
 		}
-
 	}
 }
