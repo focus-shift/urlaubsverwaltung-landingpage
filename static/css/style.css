@@ -10,7 +10,7 @@
 
 @layer components {
 	/* e.g. agb, impressum, ... */
-	.article {
+	article {
 		h1 {
 			@apply text-3xl;
 			@apply font-medium;
