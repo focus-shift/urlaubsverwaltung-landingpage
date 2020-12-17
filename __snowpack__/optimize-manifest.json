@@ -105,7 +105,6 @@
         "/static/js/page-prerenderer.js"
       ],
       "css": [
-        "/static/css/datenschutz.css",
         "/static/css/style.css",
         "/static/favicons/apple-icon-114x114.png",
         "/static/favicons/apple-icon-120x120.png",
