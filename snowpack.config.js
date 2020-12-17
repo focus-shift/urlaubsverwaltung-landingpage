@@ -11,6 +11,7 @@ module.exports = {
 		"@snowpack/plugin-optimize",
 		["@snowpack/plugin-postcss", { config: "postcss.config.js" }],
 		["@snowpack/plugin-run-script", { cmd: "eleventy", watch: "$1 --watch" }],
+		"snowpack-plugin-cache-bust",
 	],
 	devOptions: {
 		out: "dist",
