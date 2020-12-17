@@ -1,5 +1,5 @@
 module.exports = {
-	purge: ["./src/**/*.hbs"],
+	purge: ["./src/**/*.hbs", "./src/**/*.md"],
 	theme: {
 		extend: {
 			listStyleType: {
