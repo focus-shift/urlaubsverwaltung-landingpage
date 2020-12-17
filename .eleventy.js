@@ -4,6 +4,7 @@ const paths = {
 };
 
 module.exports = function (eleventyConfig) {
+	eleventyConfig.setTemplateFormats(["njk", "hbs", "md", "txt"]);
 	return {
 		dir: {
 			input: paths.input,
