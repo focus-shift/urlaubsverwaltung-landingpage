@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  
+    <url>
+      <loc>/agb-beta/</loc>
+      <lastmod>2020-12-17T08:44:13.261Z</lastmod>
+      <changefreq>monthly</changefreq>
+    </url>
+  
+    <url>
+      <loc>/agb/</loc>
+      <lastmod>2020-12-17T08:44:13.261Z</lastmod>
+      <changefreq>monthly</changefreq>
+    </url>
+  
+    <url>
+      <loc>/av-vertrag/</loc>
+      <lastmod>2020-12-17T08:44:13.261Z</lastmod>
+      <changefreq>monthly</changefreq>
+    </url>
+  
+    <url>
+      <loc>/datenschutz/</loc>
+      <lastmod>2020-12-17T08:44:13.261Z</lastmod>
+      <changefreq>monthly</changefreq>
+    </url>
+  
+    <url>
+      <loc>/demo/</loc>
+      <lastmod>2020-12-17T08:44:13.265Z</lastmod>
+      <changefreq>monthly</changefreq>
+    </url>
+  
+    <url>
+      <loc>/impressum/</loc>
+      <lastmod>2020-12-17T08:44:13.265Z</lastmod>
+      <changefreq>monthly</changefreq>
+    </url>
+  
+    <url>
+      <loc>/</loc>
+      <lastmod>2020-12-17T08:44:13.265Z</lastmod>
+      <changefreq>weekly</changefreq>
+    </url>
+  
+</urlset>
