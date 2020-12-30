@@ -13,7 +13,8 @@ Focus Shift Software GmbH
 Lindenallee 126  
 76189 Karlsruhe, Deutschland
 
-E-Mail: <a href="mailto:info@urlaubsverwaltung.cloud" class="underline">info@urlaubsverwaltung.cloud</a>
+E-Mail: <a href="mailto:info@urlaubsverwaltung.cloud" class="underline">info@urlaubsverwaltung.cloud</a>\
+Telefon: <a href="tel:0721 98614542">0721 98614542</a>
 
 Geschäftsführer: Daniel Fuchs, Andreas Weigel  
 Handelsregisternummer: HRB 737998  
