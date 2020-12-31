@@ -1,29 +1,31 @@
-<nav class="flex flex-wrap justify-between bg-blue-700 text-white py-2 {{#if class}}{{class}}{{/if}}">
-	<ul class="flex max-w-5xl mx-auto">
-		<li class="mx-2 leading-loose">
-			<a href="/#features" class="block py-1 px-3 hover:underline">
-				Features
-			</a>
-		</li>
-		<li class="mr-2 leading-loose">
-			<a href="/#prices" class="block py-1 px-3 hover:underline">
-				Preise
-			</a>
-		</li>
-		<li class="leading-loose">
-			<a href="/demo" class="block py-1 px-3 hover:underline">
-				Demo
-			</a>
-		</li>
-	</ul>
-	<ul class="flex max-w-6xl mx-auto">
-		<li>
-			<a
-				href="https://registry.apps.urlaubsverwaltung.cloud"
-				class="block text-center sm:text-left sm:inline-block bg-blue-600 text-blue-100 px-4 py-2 rounded-md text-lg"
-			>
-				Jetzt kostenlos testen
-			</a>
-		</li>
-	</ul>
+<nav class="bg-blue-700 bg-opacity-90 text-white py-2 {{#if class}}{{class}}{{/if}}">
+	<div class="max-w-screen-lg mx-auto flex flex-wrap justify-around xs:justify-between px-4 sm:px-8 md:px-4">
+		<ul class="flex items-center space-x-8 md:space-x-12">
+			<li class="leading-loose">
+				<a href="/#features" class="block hover:underline">
+					Features
+				</a>
+			</li>
+			<li class="leading-loose">
+				<a href="/#prices" class="block hover:underline">
+					Preise
+				</a>
+			</li>
+			<li class="leading-loose">
+				<a href="/demo" class="block hover:underline">
+					Demo
+				</a>
+			</li>
+		</ul>
+		<ul class="flex mt-2 xs:mt-0">
+			<li>
+				<a
+					href="https://registry.apps.urlaubsverwaltung.cloud"
+					class="block text-center sm:text-left sm:inline-block bg-blue-600 text-blue-100 px-2 py-1 rounded-md text-lg"
+				>
+					Jetzt kostenlos testen
+				</a>
+			</li>
+		</ul>
+	</div>
 </nav>

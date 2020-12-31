@@ -23,10 +23,15 @@
     {{> partials/navigation}}
   </header>
 
-  <main class="flex-1 mb-48 mt-24 text-gray-900 max-w-6xl mx-auto px-4">
-    {{{ content }}}
+	<div class="hidden xs:block bg-structured fixed top-0 left-0 right-0 bottom-0"></div>
+
+  <main class="z-40 mt-12 relative flex-1 max-w-screen-lg mx-auto bg-white">
+		<div class="p-8 pt-16 xs:mx-8 md:mx-12 xl:mx-0 break-word xs:break-normal relative">
+    	{{{ content }}}
+		</div>
   </main>
 
+	<div class="fixed bottom-0 bg-blue-900 left-0 right-0 transform skew-y-3 translate-y-20" style="height: 27vh;"></div>
   {{> partials/footer}}
 
 	<script defer src="/static/js/easteregg.js" type="module"></script>

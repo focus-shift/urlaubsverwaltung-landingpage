@@ -18,7 +18,7 @@ module.exports = {
 		port: 3000,
 		open: "none",
 		hmr: true,
-		hmrDelay: 300,
+		hmrDelay: 500,
 	},
 	buildOptions: {
 		out: paths.out,
