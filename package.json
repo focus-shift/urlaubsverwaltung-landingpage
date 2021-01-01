@@ -22,7 +22,7 @@
 		"prettier": "2.2.0",
 		"snowpack": "2.18.3",
 		"snowpack-plugin-cache-bust": "https://github.com/focus-shift/snowpack-plugin-cache-bust.git#v0.1.0",
-		"tailwindcss": "2.0.1"
+		"tailwindcss": "2.0.2"
 	},
 	"husky": {
 		"hooks": {
