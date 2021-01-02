@@ -1,3 +1,5 @@
+const defaultConfig = require("tailwindcss/defaultConfig.js");
+
 module.exports = {
 	purge: ["./src/**/*.hbs", "./src/**/*.md"],
 	theme: {
@@ -21,6 +23,12 @@ module.exports = {
 				"9xl": "96rem",
 				"10xl": "104rem",
 			},
+		},
+		screens: {
+			// cannot use 'extend' as `xs` would override other screens
+			// since it would be added to the bottom of the css file
+			xs: "480px",
+			...defaultConfig.theme.screens,
 		},
 		colors: {
 			transparent: "transparent",

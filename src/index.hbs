@@ -23,7 +23,7 @@ changeFreq: weekly
 	</header>
 </div>
 <div id="main-content" style="transform: translateY(100vh);">
-	<main class="mb-16 md:mb-48">
+	<main class="relative mb-16 md:mb-48 z-10 bg-white pb-24">
 		<section class="mb-24 md:mb-48 mx-auto max-w-10xl relative">
 			<h2 id="features" class="sr-only">Features</h2>
 			<div class="relative mb-8 sm:mb-12">
@@ -125,7 +125,7 @@ changeFreq: weekly
 			</div>
 		</section>
 		<section id="prices" class="text-blue-900 mb-24 md:mb-32 py-12 pb-16 sm:py-16 sm:pb-20 md:py-32 md:pb-40 relative">
-			<div class="bg-blue-200 shadow-inner h-full w-full absolute top-0" style="transform: skewY(9deg); z-index: -1">
+			<div class="bg-blue-200 shadow-inner h-full w-full absolute top-0 transform skew-y-3" style="z-index: -1">
 			</div>
 			<div class="mx-auto max-w-3xl relative md:text-center">
 				<h2 class="text-4xl md:text-5xl mb-6 md:mb-12 px-4">
@@ -257,5 +257,5 @@ changeFreq: weekly
 			</div>
 		</section>
 	</main>
-	{{> partials/footer}}
+	{{> partials/footer }}
 </div>
