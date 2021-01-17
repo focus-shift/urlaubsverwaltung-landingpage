@@ -1,38 +1,5 @@
 {
   "imports": {
-    "/agb-beta/index.html": {
-      "entry": [
-        "/static/js/easteregg.js",
-        "/static/js/page-prerenderer.js"
-      ],
-      "css": [
-        "/static/css/style.css",
-        "/static/favicons/apple-icon-114x114.png",
-        "/static/favicons/apple-icon-120x120.png",
-        "/static/favicons/apple-icon-128x128.png",
-        "/static/favicons/apple-icon-144x144.png",
-        "/static/favicons/apple-icon-152x152.png",
-        "/static/favicons/apple-icon-180x180.png",
-        "/static/favicons/apple-icon-57x57.png",
-        "/static/favicons/apple-icon-60x60.png",
-        "/static/favicons/apple-icon-72x72.png",
-        "/static/favicons/apple-icon-76x76.png",
-        "/static/favicons/apple-icon-precomposed.png",
-        "/static/favicons/apple-icon.png",
-        "/static/favicons/favicon-16x16.png",
-        "/static/favicons/favicon-192x192.png",
-        "/static/favicons/favicon-196x196.png",
-        "/static/favicons/favicon-32x32.png",
-        "/static/favicons/favicon-96x96.png",
-        "/static/favicons/favicon.png",
-        "/static/js/page-prerenderer.js",
-        "/static/manifest.json"
-      ],
-      "js": [
-        "/static/js/easteregg.js",
-        "/static/js/page-prerenderer.js"
-      ]
-    },
     "/agb/index.html": {
       "entry": [
         "/static/js/easteregg.js",
