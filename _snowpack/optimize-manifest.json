@@ -30,7 +30,9 @@
       ],
       "js": [
         "/static/js/easteregg.js",
-        "/static/js/page-prerenderer.js"
+        "/static/js/page-prerenderer.js",
+        "https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js",
+        "https://support.apps.urlaubsverwaltung.cloud/assets/chat/chat.min.js"
       ]
     },
     "/av-vertrag/index.html": {
@@ -63,7 +65,9 @@
       ],
       "js": [
         "/static/js/easteregg.js",
-        "/static/js/page-prerenderer.js"
+        "/static/js/page-prerenderer.js",
+        "https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js",
+        "https://support.apps.urlaubsverwaltung.cloud/assets/chat/chat.min.js"
       ]
     },
     "/datenschutz/index.html": {
@@ -96,7 +100,9 @@
       ],
       "js": [
         "/static/js/easteregg.js",
-        "/static/js/page-prerenderer.js"
+        "/static/js/page-prerenderer.js",
+        "https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js",
+        "https://support.apps.urlaubsverwaltung.cloud/assets/chat/chat.min.js"
       ]
     },
     "/demo/index.html": {
@@ -129,7 +135,9 @@
       ],
       "js": [
         "/static/js/easteregg.js",
-        "/static/js/page-prerenderer.js"
+        "/static/js/page-prerenderer.js",
+        "https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js",
+        "https://support.apps.urlaubsverwaltung.cloud/assets/chat/chat.min.js"
       ]
     },
     "/impressum/index.html": {
@@ -162,7 +170,9 @@
       ],
       "js": [
         "/static/js/easteregg.js",
-        "/static/js/page-prerenderer.js"
+        "/static/js/page-prerenderer.js",
+        "https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js",
+        "https://support.apps.urlaubsverwaltung.cloud/assets/chat/chat.min.js"
       ]
     },
     "/index.html": {
@@ -207,7 +217,9 @@
       "js": [
         "/static/js/easteregg.js",
         "/static/js/frontpage.js",
-        "/static/js/page-prerenderer.js"
+        "/static/js/page-prerenderer.js",
+        "https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js",
+        "https://support.apps.urlaubsverwaltung.cloud/assets/chat/chat.min.js"
       ]
     }
   },
