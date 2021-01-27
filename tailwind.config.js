@@ -1,7 +1,12 @@
 const defaultConfig = require("tailwindcss/defaultConfig.js");
 
 module.exports = {
-	purge: ["./src/**/*.hbs", "./src/**/*.md"],
+	purge: {
+		content: ["./src/**/*.hbs", "./src/**/*.md"],
+		options: {
+			safelist: [/^zammad-/],
+		},
+	},
 	theme: {
 		extend: {
 			listStyleType: {
