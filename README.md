@@ -33,6 +33,6 @@ npm run build
 
 ## Deployment
 
-Jeder commit auf den master wird automatisiert gebaut, auf den `gh-pages` branch gemerged und damit live genommen.
+Jeder commit auf den Branch `main` wird automatisiert gebaut, auf den `gh-pages` branch gemerged und damit live genommen.
 
 siehe `.github/workflows/deployment.yml`
