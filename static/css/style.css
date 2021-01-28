@@ -310,6 +310,9 @@ input {
 	-webkit-transition: all 0.35s;
 	transition: all 0.35s;
 }
+.tab-content a {
+	font-weight: bold;
+}
 .tab-close {
 	display: -webkit-box;
 	display: flex;
