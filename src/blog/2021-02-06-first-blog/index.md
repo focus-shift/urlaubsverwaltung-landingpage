@@ -9,3 +9,7 @@ author: Benjamin Seber
 hallo welt
 hallo welt
 hallo welt
+
+mit bild:
+
+<img src="vscode.png">

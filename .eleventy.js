@@ -12,6 +12,7 @@ const not = fn => (...args) => !fn(...args);
 const isDraft = post => Boolean(post.data.draft);
 
 module.exports = function (eleventyConfig) {
+	eleventyConfig.addPassthroughCopy("src/**/*.{png,jpg,jpeg,webp}");
 	eleventyConfig.setTemplateFormats(["njk", "hbs", "md", "txt"]);
 
 	eleventyConfig.addPlugin(pluginRss);
