@@ -25,7 +25,14 @@
 
 	<div class="hidden xs:block bg-structured fixed top-0 left-0 right-0 bottom-0"></div>
 
-  <main class="z-40 mt-12 relative flex-1 max-w-screen-lg mx-auto bg-white">
+  <main class="z-40 mt-12 relative flex-1 w-full max-w-screen-lg mx-auto bg-white">
+		{{#if draft}}
+			<div class="w-full p-8 py-2 border-2 border-yellow-900 bg-yellow-200 text-lg font-bold flex justify-between">
+				<span>DRAFT</span>
+				<span>DRAFT</span>
+				<span>DRAFT</span>
+			</div>
+		{{/if}}
 		<div class="p-8 pt-16 xs:mx-8 md:mx-12 xl:mx-0 break-word xs:break-normal relative">
     	{{{ content }}}
 		</div>
