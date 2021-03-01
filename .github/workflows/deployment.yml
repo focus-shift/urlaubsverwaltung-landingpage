@@ -23,7 +23,7 @@ jobs:
           touch ./dist/.nojekyll
           echo "urlaubsverwaltung.cloud" > ./dist/CNAME
       - name: Deploy
-        uses: JamesIves/github-pages-deploy-action@3.7.1
+        uses: JamesIves/github-pages-deploy-action@4.0.0
         with:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           BRANCH: gh-pages
