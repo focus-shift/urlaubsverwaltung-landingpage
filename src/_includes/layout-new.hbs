@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+  {{> meta}}
+	<title>
+		Urlaubsverwaltung{{#if title}} - {{title}}{{/if}}
+	</title>
+	<link rel="stylesheet" href="/static/css/style.css" />
+	<style>
+		body {
+			font-family: Roboto;
+		}
+	</style>
+</head>
+
+<body class="flex flex-col min-h-full">
+	{{{ content }}}
+</body>
+
+</html>
