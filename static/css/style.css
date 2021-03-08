@@ -7,9 +7,9 @@
 		height: 100%;
 	}
 
-	nav {
+	/* nav {
 		backdrop-filter: blur(4px);
-	}
+	} */
 }
 
 @layer components {
