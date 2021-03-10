@@ -30,8 +30,7 @@ module.exports = {
 				"10xl": "104rem",
 			},
 			colors: {
-				lightBlue: colors.lightBlue,
-				cyan: colors.cyan,
+				...colors,
 			},
 		},
 		screens: {
