@@ -107,10 +107,11 @@ layout: layout-new
   });
 </script>
 
-<div id="header-container" class="sticky top-0 bg-white bg-opacity-95" style="backdrop-filter: blur(1px);">
+<div id="header-container" class="fixed top-0 left-0 right-0">
+  <div class="absolute top-0 left-0 right-0 bottom-0 bg-white bg-opacity-95" style="backdrop-filter: blur(1px);"></div>
   <div class="flex w-full max-w-screen-xl py-2 mx-auto">
     <header class="w-full flex justify-between flex-row-reverse md:flex-row p-2 md:p-4 lg:p-0">
-      <a href="/" class="">
+      <a href="/" class="z-10">
         <div class="flex items-center flex-row-reverse md:flex-row">
           {{> partials/bear class='w-8 h-8 lg:w-12 lg:h-12' }}
           <h1 class="flex flex-col mr-2 md:ml-4 text-right md:text-left">
@@ -126,7 +127,7 @@ layout: layout-new
       </a>
       <div class="flex items-center">
         <input id="menu-toggle-checkbox" type="checkbox" class="hidden">
-        <label for="menu-toggle-checkbox" class="flex items-center px-4 py-4 absolute top-2 left-0 md:hidden cursor-pointer z-10">
+        <label for="menu-toggle-checkbox" class="flex items-center px-4 py-4 absolute top-2 left-0 md:hidden cursor-pointer z-50">
             <span class="tw-inline-block">
                 <span class="hamburger-bar"></span>
                 <span class="hamburger-bar"></span>
@@ -135,7 +136,7 @@ layout: layout-new
                 <span class="hamburger-bar"></span>
             </span>
         </label>
-        <nav class="fixed md:static top-0 bottom-0 left-0 transition-transform transform-gpu -translate-x-full md:-translate-x-0 pt-24 pl-8 md:pt-0 lg:pl-0 w-5/6 md:w-auto shadow-2xl md:shadow-none">
+        <nav class="z-20 fixed bg-white md:static top-0 bottom-0 left-0 transition-transform transform-gpu -translate-x-full md:-translate-x-0 pt-24 pl-8 md:pt-0 lg:pl-0 w-5/6 md:w-auto shadow-2xl md:shadow-none">
           <ul role="menu" class="flex flex-col space-y-8 md:space-y-0 md:flex-row md:space-x-12 w-full md:w-auto">
             <li role="none">
               <a href="#" role="menuitem" class="text-xl md:text-lg lg:text-xl">
@@ -165,7 +166,7 @@ layout: layout-new
           </ul>
         </nav>
       </div>
-      <div class="flex items-center justify-center fixed lg:static bottom-0 left-0 right-0">
+      <div class="z-10 flex items-center justify-center fixed lg:static bottom-0 left-0 right-0">
         <a href="#" class="px-3 py-2 border border-black border-opacity-25 rounded bg-yellow-200 text-yellow-900">
           kostenlos testen
         </a>
