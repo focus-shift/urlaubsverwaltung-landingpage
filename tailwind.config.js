@@ -10,6 +10,26 @@ module.exports = {
 	},
 	theme: {
 		extend: {
+			fontFamily: {
+				header: [
+					"Raleway",
+					"system-ui",
+					"-apple-system",
+					"'Segoe UI'",
+					"Roboto",
+					"Helvetica",
+					"sans-serif",
+				],
+				content: [
+					"Lato",
+					"system-ui",
+					"-apple-system",
+					"'Segoe UI'",
+					"Roboto",
+					"Helvetica",
+					"sans-serif",
+				],
+			},
 			listStyleType: {
 				latin: "lower-latin",
 			},
