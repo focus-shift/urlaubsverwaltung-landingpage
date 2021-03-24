@@ -53,6 +53,7 @@ layout: layout-new
           #faq-checkbox-app:checked ~ dl dt > label[for="faq-checkbox-app"] > span > svg,
           #faq-checkbox-feedback:checked ~ dl dt > label[for="faq-checkbox-feedback"] > span > svg {
             transform: rotate(45deg);
+            color: #0369A1;
           }
 
           #faq-checkbox-wirklich-kostenlos:checked ~ dl dd[data-id="faq-p-wirklich-kostenlos"],
@@ -80,11 +81,11 @@ layout: layout-new
         <input type="checkbox" name="noop" id="faq-checkbox-feedback">
         <dl>
           <dt class="group text-lg md:text-xl text-black font-semibold">
-            <label for="faq-checkbox-wirklich-kostenlos" class="cursor-pointer flex md:items-center text-black text-opacity-90 group-hover:text-yellow-500 group-hover:text-opacity-100">
+            <label for="faq-checkbox-wirklich-kostenlos" class="cursor-pointer flex md:items-center text-black text-opacity-90">
               <span class="mr-4 md:mr-6 text-lightBlue-400 text-opacity-70 group-hover:text-opacity-100 mt-1">
                 {{> partials/icon-plus-circle class='w-6 h-6 md:w-7 md:h-7'}}
               </span>
-              Ist die Testphase wirklich kostenlos? 
+              Ist die Testphase wirklich kostenlos?
             </label>
           </dt>
           <dd data-id="faq-p-wirklich-kostenlos" class="mt-4 ml-10 md:ml-13 text-lg text-black text-opacity-80">
@@ -92,11 +93,11 @@ layout: layout-new
             Während der Testphase sind alle Funktionen der Software vollständig freigeschaltet.
           </dd>
           <dt class="group text-lg md:text-xl mt-8 md:mt-4 text-black font-semibold">
-            <label for="faq-checkbox-nach-testphase" class="cursor-pointer flex md:items-center text-black text-opacity-90 group-hover:text-yellow-500 group-hover:text-opacity-100">
+            <label for="faq-checkbox-nach-testphase" class="cursor-pointer flex md:items-center text-black text-opacity-90">
               <span class="mr-4 md:mr-6 text-lightBlue-400 text-opacity-70 group-hover:text-opacity-100 mt-1">
                 {{> partials/icon-plus-circle class='w-6 h-6 md:w-7 md:h-7'}}
               </span>
-              Was passiert nach der kostenlosen Testphase? 
+              Was passiert nach der kostenlosen Testphase?
             </label>
           </dt>
           <dd data-id="faq-p-nach-testphase" class="mt-4 ml-10 md:ml-13 text-lg text-black text-opacity-80">
@@ -105,11 +106,11 @@ layout: layout-new
             info@urlaubsverwaltung.cloud</a>. Solltest du kein Interesse mehr haben, löschen wir deine Urlaubsverwaltung mit allen darin generierten Daten nach der Testphase.
           </dd>
           <dt class="group text-lg md:text-xl mt-8 md:mt-4 text-black font-semibold">
-            <label for="faq-checkbox-teilnehmen" class="cursor-pointer flex md:items-center text-black text-opacity-90 group-hover:text-yellow-500 group-hover:text-opacity-100">
+            <label for="faq-checkbox-teilnehmen" class="cursor-pointer flex md:items-center text-black text-opacity-90">
               <span class="mr-4 md:mr-6 text-lightBlue-400 text-opacity-70 group-hover:text-opacity-100 mt-1">
                 {{> partials/icon-plus-circle class='w-6 h-6 md:w-7 md:h-7'}}
               </span>
-              Wie kann ich an der kostenlosen Testphase teilnehmen? 
+              Wie kann ich an der kostenlosen Testphase teilnehmen?
             </label>
           </dt>
           <dd data-id="faq-p-teilnehmen" class="mt-4 ml-10 md:ml-13 text-lg text-black text-opacity-80">
@@ -117,11 +118,11 @@ layout: layout-new
             Sie steht dir in wenigen Minuten zur Verfügung. Ohne Terminabsprache oder langen Wartezeiten.
           </dd>
           <dt class="group text-lg md:text-xl mt-8 md:mt-4 text-black font-semibold">
-            <label for="faq-checkbox-zahlungsarten" class="cursor-pointer flex md:items-center text-black text-opacity-90 group-hover:text-yellow-500 group-hover:text-opacity-100">
+            <label for="faq-checkbox-zahlungsarten" class="cursor-pointer flex md:items-center text-black text-opacity-90">
               <span class="mr-4 md:mr-6 text-lightBlue-400 text-opacity-70 group-hover:text-opacity-100 mt-1">
                 {{> partials/icon-plus-circle class='w-6 h-6 md:w-7 md:h-7'}}
               </span>
-              Welche Zahlungsarten gibt es und welche Kündigungsfristen gelten? 
+              Welche Zahlungsarten gibt es und welche Kündigungsfristen gelten?
             </label>
           </dt>
           <dd data-id="faq-p-zahlungsarten" class="mt-4 ml-10 md:ml-13 text-lg text-black text-opacity-80">
@@ -129,11 +130,11 @@ layout: layout-new
             Kündigen kannst du mit 14 Tagen zum jeweiligen Ende eines jeden Vertragsmonats.
           </dd>
           <dt class="group text-lg md:text-xl mt-8 md:mt-4 text-black font-semibold">
-            <label for="faq-checkbox-kosten" class="cursor-pointer flex md:items-center text-black text-opacity-90 group-hover:text-yellow-500 group-hover:text-opacity-100">
+            <label for="faq-checkbox-kosten" class="cursor-pointer flex md:items-center text-black text-opacity-90">
               <span class="mr-4 md:mr-6 text-lightBlue-400 text-opacity-70 group-hover:text-opacity-100 mt-1">
                 {{> partials/icon-plus-circle class='w-6 h-6 md:w-7 md:h-7'}}
               </span>
-              Wieviel kostet mich die Urlaubsverwaltung? 
+              Wieviel kostet mich die Urlaubsverwaltung?
             </label>
           </dt>
           <dd data-id="faq-p-kosten" class="mt-4 ml-10 md:ml-13 text-lg text-black text-opacity-80">
@@ -142,7 +143,7 @@ layout: layout-new
             Wird ein Benutzer auf den Status inaktiv gesetzt, findet er keine Beachtung in der Rechnung ab dem darauf folgenden Leistungszeitraum.
           </dd>
           <dt class="group text-lg md:text-xl mt-8 md:mt-4 text-black font-semibold">
-            <label for="faq-checkbox-dsgvo" class="cursor-pointer flex md:items-center text-black text-opacity-90 group-hover:text-yellow-500 group-hover:text-opacity-100">
+            <label for="faq-checkbox-dsgvo" class="cursor-pointer flex md:items-center text-black text-opacity-90">
               <span class="mr-4 md:mr-6 text-lightBlue-400 text-opacity-70 group-hover:text-opacity-100 mt-1">
                 {{> partials/icon-plus-circle class='w-6 h-6 md:w-7 md:h-7'}}
               </span>
@@ -153,7 +154,7 @@ layout: layout-new
             Deine Daten werden DSGVO-konform verarbeitet und in Deutschland verschlüsselt gespeichert. Wir erstellen täglich ein Backup.
           </dd>
           <dt class="group text-lg md:text-xl mt-8 md:mt-4 text-black font-semibold">
-            <label for="faq-checkbox-mitarbeiter-anlegen" class="cursor-pointer flex md:items-center text-black text-opacity-90 group-hover:text-yellow-500 group-hover:text-opacity-100">
+            <label for="faq-checkbox-mitarbeiter-anlegen" class="cursor-pointer flex md:items-center text-black text-opacity-90">
               <span class="mr-4 md:mr-6 text-lightBlue-400 text-opacity-70 group-hover:text-opacity-100 mt-1">
                 {{> partials/icon-plus-circle class='w-6 h-6 md:w-7 md:h-7'}}
               </span>
@@ -166,7 +167,7 @@ layout: layout-new
             können wir diesen integrieren, sodass ihr euren gewohnten Login benutzen könnt.
           </dd>
           <dt class="group text-lg md:text-xl mt-8 md:mt-4 text-black font-semibold">
-            <label for="faq-checkbox-kalenderintegration" class="cursor-pointer flex md:items-center text-black text-opacity-90 group-hover:text-yellow-500 group-hover:text-opacity-100">
+            <label for="faq-checkbox-kalenderintegration" class="cursor-pointer flex md:items-center text-black text-opacity-90">
               <span class="mr-4 md:mr-6 text-lightBlue-400 text-opacity-70 group-hover:text-opacity-100 mt-1">
                 {{> partials/icon-plus-circle class='w-6 h-6 md:w-7 md:h-7'}}
               </span>
@@ -178,7 +179,7 @@ layout: layout-new
             Ist der Firmen-weite Kalender freigeschaltet, lässt sich auch dieser von jedem Mitarbeiter abonnieren.
           </dd>
           <dt class="group text-lg md:text-xl mt-8 md:mt-4 text-black font-semibold">
-            <label for="faq-checkbox-app" class="cursor-pointer flex md:items-center text-black text-opacity-90 group-hover:text-yellow-500 group-hover:text-opacity-100">
+            <label for="faq-checkbox-app" class="cursor-pointer flex md:items-center text-black text-opacity-90">
               <span class="mr-4 md:mr-6 text-lightBlue-400 text-opacity-70 group-hover:text-opacity-100 mt-1">
                 {{> partials/icon-plus-circle class='w-6 h-6 md:w-7 md:h-7'}}
               </span>
@@ -190,7 +191,7 @@ layout: layout-new
             Füge die Seite deiner Urlaubsverwaltung einfach dem Startbildschirm deines Handys hinzu.
           </dd>
           <dt class="group text-lg md:text-xl mt-8 md:mt-4 text-black font-semibold">
-            <label for="faq-checkbox-feedback" class="cursor-pointer flex md:items-center text-black text-opacity-90 group-hover:text-yellow-500 group-hover:text-opacity-100">
+            <label for="faq-checkbox-feedback" class="cursor-pointer flex md:items-center text-black text-opacity-90">
               <span class="mr-4 md:mr-6 text-lightBlue-400 text-opacity-70 group-hover:text-opacity-100 mt-1">
                 {{> partials/icon-plus-circle class='w-6 h-6 md:w-7 md:h-7'}}
               </span>
