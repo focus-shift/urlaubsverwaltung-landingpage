@@ -202,6 +202,15 @@ layout: layout-new
             Schreibe uns entweder per <a href="mailto:info@urlaubsverwaltung.cloud?subject=Anfrage%20Feature">E-Mail</a> oder öffne direkt ein Issue auf <a href="https://github.com/synyx/urlaubsverwaltung/issues">Github</a>.
           </dd>
         </dl>
+        <script>
+          [...document.querySelectorAll("label[for*=faq-checkbox]")].forEach(label => {
+            label.addEventListener('click', function(event) {
+              event.preventDefault();
+              const checkbox = document.querySelector('#' + label.getAttribute("for"));
+              checkbox.checked = !checkbox.checked;
+            });
+          });
+        </script>
       </div>
     </div>
   </div>
