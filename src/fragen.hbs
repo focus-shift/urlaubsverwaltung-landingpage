@@ -7,7 +7,7 @@ layout: layout-new
 <main class="mt-4 md:mt-16 pb-12 sm:pb-32 md:pb-24">
   <div class="w-full max-w-screen-xl mx-auto">
     <div class="flex flex-col md:flex-row mb-16 px-4 lg:px-0">
-      <div class="md:w-1/3 max-w-sm md:mr-10 pr-4">
+      <div class="mb-8 md:mb-0 md:w-1/3 max-w-sm md:mr-10 pr-4">
         <h1 class="text-2xl font-bold mb-6 md:mb-12">
           <span>
             oft gestellte Fragen
@@ -33,7 +33,7 @@ layout: layout-new
           </ul>
         </div>
       </div>
-      <div class="flex-1 mb-8 md:mb-0 bg-lightBlue-50 rounded-2xl p-8">
+      <div class="flex-1 mb-8 md:mb-0 bg-lightBlue-50 rounded-2xl py-8 px-4 md:p-8">
         <style>
           input[type="checkbox"] ~ dl dd {
             display: none;
@@ -44,8 +44,10 @@ layout: layout-new
 
           #faq-checkbox-wirklich-kostenlos:checked ~ dl dt > label[for="faq-checkbox-wirklich-kostenlos"] > span > svg,
           #faq-checkbox-nach-testphase:checked ~ dl dt > label[for="faq-checkbox-nach-testphase"] > span > svg,
+          #faq-checkbox-teilnehmen:checked ~ dl dt > label[for="faq-checkbox-teilnehmen"] > span > svg,
           #faq-checkbox-zahlungsarten:checked ~ dl dt > label[for="faq-checkbox-zahlungsarten"] > span > svg,
           #faq-checkbox-kosten:checked ~ dl dt > label[for="faq-checkbox-kosten"] > span > svg,
+          #faq-checkbox-dsgvo:checked ~ dl dt > label[for="faq-checkbox-dsgvo"] > span > svg,
           #faq-checkbox-mitarbeiter-anlegen:checked ~ dl dt > label[for="faq-checkbox-mitarbeiter-anlegen"] > span > svg,
           #faq-checkbox-kalenderintegration:checked ~ dl dt > label[for="faq-checkbox-kalenderintegration"] > span > svg,
           #faq-checkbox-app:checked ~ dl dt > label[for="faq-checkbox-app"] > span > svg,
@@ -85,7 +87,7 @@ layout: layout-new
               Ist die Testphase wirklich kostenlos? 
             </label>
           </dt>
-          <dd data-id="faq-p-wirklich-kostenlos" class="mt-4 text-lg text-black text-opacity-80">
+          <dd data-id="faq-p-wirklich-kostenlos" class="mt-4 ml-10 md:ml-13 text-lg text-black text-opacity-80">
             Ja, du kannst die Urlaubsverwaltung 30 Tage lang unverbindlich und kostenlos testen.
             Während der Testphase sind alle Funktionen der Software vollständig freigeschaltet.
           </dd>
@@ -97,8 +99,8 @@ layout: layout-new
               Was passiert nach der kostenlosen Testphase? 
             </label>
           </dt>
-          <dd data-id="faq-p-nach-testphase" class="mb-8 text-lg text-black text-opacity-80">
-            Wenn du über die kostenlts4 Testphase hinaus weiter Interesse an der Urlaubsverwaltung hast,
+          <dd data-id="faq-p-nach-testphase" class="mt-4 ml-10 md:ml-13 text-lg text-black text-opacity-80">
+            Wenn du über die kostenlose Testphase hinaus weiter Interesse an der Urlaubsverwaltung hast,
             bestätige die Teilnahme per E-Mail an <a href="mailto:info@urlaubsverwaltung.cloud?subject=Teilnahme%20am%20kostenpflichtigen%20Service&body=Liebes%20Urlaubsverwaltung-Team%0D%0A%0D%0AIch%20bestätige%20die%20Teilnahme%20am%20kostenpflichtigen%20Service%20und%20stimme%20damit%20den%20geltenden%20AGB%20und%20Datenschutzbestimmungen%20zu.%0D%0A%0D%0AViele%20Grüße">
             info@urlaubsverwaltung.cloud</a>. Solltest du kein Interesse mehr haben, löschen wir deine Urlaubsverwaltung mit allen darin generierten Daten nach der Testphase.
           </dd>
@@ -110,7 +112,7 @@ layout: layout-new
               Wie kann ich an der kostenlosen Testphase teilnehmen? 
             </label>
           </dt>
-          <dd data-id="faq-p-teilnehmen" class="mt-4 text-lg text-black text-opacity-80">
+          <dd data-id="faq-p-teilnehmen" class="mt-4 ml-10 md:ml-13 text-lg text-black text-opacity-80">
             Melde dich <a href="https://registry.apps.urlaubsverwaltung.cloud/registration">hier</a> kostenlos an und registriere dir damit deine eigene Urlaubsverwaltung.
             Sie steht dir in wenigen Minuten zur Verfügung. Ohne Terminabsprache oder langen Wartezeiten.
           </dd>
@@ -122,7 +124,7 @@ layout: layout-new
               Welche Zahlungsarten gibt es und welche Kündigungsfristen gelten? 
             </label>
           </dt>
-          <dd data-id="faq-p-zahlungsarten" class="mt-4 text-lg text-black text-opacity-80">
+          <dd data-id="faq-p-zahlungsarten" class="mt-4 ml-10 md:ml-13 text-lg text-black text-opacity-80">
             Du bekommst monatlich nach dem Leistungszeitraum eine Rechnung per E-Mail zugestellt.
             Kündigen kannst du mit 14 Tagen zum jeweiligen Ende eines jeden Vertragsmonats.
           </dd>
@@ -134,7 +136,7 @@ layout: layout-new
               Wieviel kostet mich die Urlaubsverwaltung? 
             </label>
           </dt>
-          <dd data-id="faq-p-kosten" class="mb-8 text-lg text-black text-opacity-80">
+          <dd data-id="faq-p-kosten" class="mt-4 ml-10 md:ml-13 text-lg text-black text-opacity-80">
             Jeder registrierte Benutzer der den Status aktiv hat, kostet 1,5t 4 (zzgl.MwSt) pro Monat. Kommt ein neuer
             Benutzer während des Leistungszeitraumes hinzu, wird er für diesen Zeitraum nur anteilig abgerechnet.
             Wird ein Benutzer auf den Status inaktiv gesetzt, findet er keine Beachtung in der Rechnung ab dem darauf folgenden Leistungszeitraum.
@@ -147,7 +149,7 @@ layout: layout-new
               Sind meine Daten sicher? Wo werden meine Daten gespeichert?
             </label>
           </dt>
-          <dd data-id="faq-p-dsgvo" class="mt-4 text-lg text-black text-opacity-80">
+          <dd data-id="faq-p-dsgvo" class="mt-4 ml-10 md:ml-13 text-lg text-black text-opacity-80">
             Deine Daten werden DSGVO-konform verarbeitet und in Deutschland verschlüsselt gespeichert. Wir erstellen täglich ein Backup.
           </dd>
           <dt class="group text-lg md:text-xl mt-8 md:mt-4 text-black font-semibold">
@@ -158,7 +160,7 @@ layout: layout-new
               Wie lege ich Mitarbeiter an? Kann ich meine Mitarbeiter importieren?
             </label>
           </dt>
-          <dd data-id="faq-p-mitarbeiter-anlegen" class="mt-4 text-lg text-black text-opacity-80">
+          <dd data-id="faq-p-mitarbeiter-anlegen" class="mt-4 ml-10 md:ml-13 text-lg text-black text-opacity-80">
             Wenn du eine Urlaubsverwaltung registrierst bekommst von uns einen Link zu deiner eigenen Urlaubsverwaltung.
             Unter diesem Link kann sich jeder Mitarbeiter selbst registrieren. Verwendet ihr einen OpenID Connect Anbieter (wie z.B. Microsoft 365, Auth0, Google, SAP, etc.)
             können wir diesen integrieren, sodass ihr euren gewohnten Login benutzen könnt.
@@ -171,7 +173,7 @@ layout: layout-new
               Gibt es eine Kalenderintegration?
             </label>
           </dt>
-          <dd data-id="faq-p-kalenderintegration" class="mt-4 text-lg text-black text-opacity-80">
+          <dd data-id="faq-p-kalenderintegration" class="mt-4 ml-10 md:ml-13 text-lg text-black text-opacity-80">
             Jeder Benutzer der Urlaubsverwaltung kann seinen eigenen Kalender, sowie einen Kalender pro Abteilung abonnieren.
             Ist der Firmen-weite Kalender freigeschaltet, lässt sich auch dieser von jedem Mitarbeiter abonnieren.
           </dd>
@@ -183,7 +185,7 @@ layout: layout-new
               Gibt es eine Android oder iOS App?
             </label>
           </dt>
-          <dd data-id="faq-p-app" class="mt-4 text-lg text-black text-opacity-80">
+          <dd data-id="faq-p-app" class="mt-4 ml-10 md:ml-13 text-lg text-black text-opacity-80">
             Die Urlaubsverwaltung ist für mobile Endgeräte optimiert und benötigt keine eigene App.
             Füge die Seite deiner Urlaubsverwaltung einfach dem Startbildschirm deines Handys hinzu.
           </dd>
@@ -195,7 +197,7 @@ layout: layout-new
               Kann die Urlaubsverwaltung um eine Funktion erweitert werden?
             </label>
           </dt>
-          <dd data-id="faq-p-feedback" ass="text-lg text-black text-opacity-80">
+          <dd data-id="faq-p-feedback" class="mt-4 ml-10 md:ml-13 text-lg text-black text-opacity-80">
             Hast du einen Vorschlag für eine Verbesserung oder fehlt dir eine Funktion, nehme Kontakt mit uns auf.
             Schreibe uns entweder per <a href="mailto:info@urlaubsverwaltung.cloud?subject=Anfrage%20Feature">E-Mail</a> oder öffne direkt ein Issue auf <a href="https://github.com/synyx/urlaubsverwaltung/issues">Github</a>.
           </dd>

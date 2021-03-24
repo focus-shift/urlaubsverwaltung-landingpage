@@ -49,6 +49,10 @@ module.exports = {
 				"9xl": "96rem",
 				"10xl": "104rem",
 			},
+			spacing: {
+				13: "3.25rem",
+				15: "3.75rem",
+			},
 			colors: {
 				...colors,
 			},
