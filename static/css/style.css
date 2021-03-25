@@ -24,6 +24,24 @@
 	}
 }
 
+@layer utilities {
+	[class*="backdrop-"] {
+		--uv-backdrop-blur: 0;
+		--uv-backdrop-saturate: 0;
+		-webkit-backdrop-filter: saturate(var(--uv-backdrop-saturate))
+			blur(var(--uv-backdrop-blur));
+		backdrop-filter: saturate(var(--uv-backdrop-saturate))
+			blur(var(--uv-backdrop-blur));
+		background-color: rgba(255, 255, 255, 0.72);
+	}
+	.backdrop-blur {
+		--uv-backdrop-blur: 20px;
+	}
+	.backdrop-saturate {
+		--uv-backdrop-saturate: 180%;
+	}
+}
+
 @layer components {
 	.zammad-chat-welcome {
 		display: flex;
