@@ -41,10 +41,15 @@
 	/* e.g. agb, impressum, ... */
 	article {
 		h1 {
-			@apply text-3xl;
+			@apply text-2xl;
 			@apply font-medium;
-			/* @apply mt-8; */
 			@apply mb-4;
+		}
+
+		@scree xs {
+			h1 {
+				@apply text-3xl;
+			}
 		}
 
 		h2 {
