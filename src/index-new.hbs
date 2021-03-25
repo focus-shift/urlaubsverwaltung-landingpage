@@ -78,7 +78,16 @@ layout: layout-new
         </div>
       </div>
       <div class="flex-1 mb-8 md:mb-0">
-        <img src="/static/uv-with-browser.png" alt="Urlaubsverwaltung Startseite" class="shadow-lg rounded md:rounded-lg xl:rounded-2xl">
+        <div class="shadow-lg rounded-b md:rounded-b-lg xl:rounded-b-2xl">
+          {{> partials/browser-head }}
+          <div class="border-l-2 border-r-2 border-b-2 border-gray-700 rounded-b md:rounded-b-lg xl:rounded-b-2xl">
+            <img
+              src="/static/uv-startseite.png"
+              alt="Startseite der Urlaubsverwaltung mit kalenderischer Abwesenheitsübersicht"
+              class="rounded-b md:rounded-b-lg xl:rounded-b-2xl"
+            >
+          </div>
+        </div>
       </div>
     </div>
     <div class="px-4">
