@@ -1,5 +1,7 @@
 const formatDate = require("date-fns/format");
-const markdownIt = require("markdown-it");
+const localeDe = require("date-fns/locale/de");
+const markdown = require("markdown-it");
+const markdownIt = require("markdown-it")();
 const markdownItAnchor = require("markdown-it-anchor");
 const cheerio = require("cheerio");
 
@@ -8,21 +10,31 @@ const paths = {
 	output: "build",
 };
 
+const prod = process.env.NODE_ENV === "production";
+
+const not = fn => (...args) => !fn(...args);
+const isDraft = post => Boolean(post.data.draft);
+
 module.exports = function (eleventyConfig) {
 	eleventyConfig.setTemplateFormats(["njk", "hbs", "md", "html", "txt"]);
-
 	eleventyConfig.addPassthroughCopy("src/**/*.{png,jpg,jpeg,webp,avif}");
 
+	eleventyConfig.setFrontMatterParsingOptions({
+		excerpt: true,
+		excerpt_alias: "excerpt",
+		excerpt_separator: "<!-- more -->",
+	});
+
 	eleventyConfig.setLibrary("md",
-		markdownIt({
+		markdown({
 			html: true,
 			breaks: true,
 			linkify: true
 		})
-		.use(markdownItAnchor, {
-			slugify: str => slugify(str),
-			tabIndex: false,
-		})
+			.use(markdownItAnchor, {
+				slugify: str => slugify(str),
+				tabIndex: false,
+			})
 	);
 
 	eleventyConfig.addHandlebarsHelper("debug", function (...args) {
@@ -30,11 +42,23 @@ module.exports = function (eleventyConfig) {
 	});
 
 	eleventyConfig.addHandlebarsHelper("date", function (date, format) {
-		return formatDate(date, format);
+		return formatDate(date, format, { locale: localeDe });
 	});
 
 	eleventyConfig.addHandlebarsHelper("eq", function (one, two, options) {
 		return one === two ? options.fn(this) : null;
+	});
+
+	eleventyConfig.addHandlebarsHelper("markdownToHtml", function (text) {
+		return markdownIt.render(text);
+	});
+
+	eleventyConfig.addCollection("blogposts", function (collection) {
+		const allBlogPosts = collection
+			.getFilteredByGlob("./src/neuigkeiten/**/*.md")
+			.reverse();
+
+		return prod ? allBlogPosts.filter(not(isDraft)) : allBlogPosts;
 	});
 
 	eleventyConfig.addHandlebarsHelper("toc", function (data) {
