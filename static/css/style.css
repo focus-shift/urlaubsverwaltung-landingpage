@@ -44,18 +44,40 @@
 
 .navigation-item {
 	position: relative;
+	display: flex;
+	align-items: center;
 }
-.navigation-item.active::after {
+
+.navigation-item.active::before {
+	content: "";
+	position: absolute;
 	width: 0;
 	height: 0;
-	position: absolute;
-	content: "";
-	display: block;
-	border-left: 8px solid transparent;
-	border-right: 8px solid transparent;
-	border-top: 8px solid #fcd34d;
-	left: 50%;
-	margin-left: -8px;
+	border-left: 8px solid #fcd34d;
+	border-top: 8px solid transparent;
+	border-bottom: 8px solid transparent;
+	margin-left: -1rem;
+}
+
+@screen md {
+	.navigation-item {
+		display: block;
+	}
+	.navigation-item.active::before {
+		display: none;
+	}
+	.navigation-item.active::after {
+		width: 0;
+		height: 0;
+		position: absolute;
+		content: "";
+		display: block;
+		border-left: 8px solid transparent;
+		border-right: 8px solid transparent;
+		border-top: 8px solid #fcd34d;
+		left: 50%;
+		margin-left: -8px;
+	}
 }
 
 @layer components {
