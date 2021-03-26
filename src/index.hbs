@@ -125,18 +125,26 @@ layout: layout
             Die Abwesenheitskalender können ganz einfach freigegeben und in alle gängigen Kalender Apps integriert werden.
           </p>
           <div>
-            <img src="" alt="">
+            <img src="/static/uv-kalender-freigabe.png" alt="Dein Abwesenheitskalender kann für externe Kalender freigegeben werden.">
           </div>
         </div>
         <div class="p-8 bg-lightBlue-50 flex flex-col">
           <h3 class="text-lightBlue-900 text-xl mb-6">
             Single Sign On
           </h3>
-          <p class="flex-1 text-black text-opacity-60 mb-6">
-            Dein Unternehmen hat bereits einen OPenId Provider wie z. B. Microsoft 365, Azure Active Directory oder Auth0 konfiguriert? Wir helfen dir gerne bei der Einrichtung deiner Urlaubsverwaltung.
+          <p class="text-black text-opacity-60 mb-6">
+            Dein Unternehmen hat bereits einen OpenId Provider wie z. B. Microsoft 365, Azure Active Directory oder Auth0 konfiguriert? Wir helfen dir gerne bei der Einrichtung deiner Urlaubsverwaltung.
           </p>
-          <div>
-            <img src="" alt="">
+          <div class="flex items-center justify-around flex-wrap">
+            <div>
+              {{> partials/logo-auth0 }}
+            </div>
+            <div>
+              {{> partials/logo-office-365 }}
+            </div>
+            <div>
+              {{> partials/logo-azure }}
+            </div>
           </div>
         </div>
       </div>
