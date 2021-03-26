@@ -36,8 +36,12 @@
         76189 Karlsruhe, Deutschland
       </div>
       <div class="text-white text-opacity-75">
-        E-Mail: <a href="mailto:info@urlaubsverwaltung.cloud?subject=Anfrage" class="text-white text-opacity-75 hover:text-opacity-100">info@urlaubsverwaltung.cloud</a><br />
-        Telefon: <a href="tel:0721 98614542" class="text-white text-opacity-75 hover:text-opacity-100">0721 98614542</a>
+        <span class="flex items-center">
+          {{>partials/icon-mail class="w-4 h-4"}} <span class="sr-only">E-Mail:</span> <a href="mailto:info@urlaubsverwaltung.cloud?subject=Anfrage" class="ml-1.5 text-white text-opacity-75 hover:text-opacity-100">info@urlaubsverwaltung.cloud</a><br />
+        </span>
+        <span class="flex items-center">
+        {{>partials/icon-phone class="w-4 h-4"}} <span class="sr-only">Telefon:</span> <a href="tel:0721 98614542" class="ml-1.5 text-white text-opacity-75 hover:text-opacity-100">0721 98614542</a>
+        </span>
       </div>
     </div>
     <div>
