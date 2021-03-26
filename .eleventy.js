@@ -1,6 +1,7 @@
 const formatDate = require("date-fns/format");
 const localeDe = require("date-fns/locale/de");
 const markdown = require("markdown-it")();
+const pluginRss = require("@11ty/eleventy-plugin-rss");
 
 const paths = {
 	input: "src",
@@ -15,6 +16,8 @@ const isDraft = post => Boolean(post.data.draft);
 module.exports = function (eleventyConfig) {
 	eleventyConfig.setTemplateFormats(["njk", "hbs", "md", "txt"]);
 	eleventyConfig.addPassthroughCopy("src/**/*.{png,jpg,jpeg,webp}");
+
+	eleventyConfig.addPlugin(pluginRss);
 
 	eleventyConfig.setFrontMatterParsingOptions({
 		excerpt: true,

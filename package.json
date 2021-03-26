@@ -8,6 +8,7 @@
 	},
 	"dependencies": {
 		"@11ty/eleventy": "0.12.1",
+		"@11ty/eleventy-plugin-rss": "1.1.1",
 		"@snowpack/plugin-optimize": "0.2.13",
 		"@snowpack/plugin-postcss": "1.2.2",
 		"@snowpack/plugin-run-script": "2.3.0",
