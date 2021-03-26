@@ -4,6 +4,7 @@ const markdown = require("markdown-it");
 const markdownIt = require("markdown-it")();
 const markdownItAnchor = require("markdown-it-anchor");
 const cheerio = require("cheerio");
+const pluginRss = require("@11ty/eleventy-plugin-rss");
 
 const paths = {
 	input: "src",
@@ -18,6 +19,8 @@ const isDraft = post => Boolean(post.data.draft);
 module.exports = function (eleventyConfig) {
 	eleventyConfig.setTemplateFormats(["njk", "hbs", "md", "html", "txt"]);
 	eleventyConfig.addPassthroughCopy("src/**/*.{png,jpg,jpeg,webp,avif}");
+
+	eleventyConfig.addPlugin(pluginRss);
 
 	eleventyConfig.setFrontMatterParsingOptions({
 		excerpt: true,
