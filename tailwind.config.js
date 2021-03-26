@@ -64,4 +64,9 @@ module.exports = {
 			...defaultConfig.theme.screens,
 		},
 	},
+	variants: {
+		extend: {
+			boxShadow: ["active"],
+		},
+	},
 };
