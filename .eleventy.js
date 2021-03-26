@@ -1,5 +1,4 @@
 const formatDate = require("date-fns/format");
-const { parseWithOptions } = require("date-fns/fp");
 
 const paths = {
 	input: "src",
