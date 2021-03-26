@@ -1,4 +1,5 @@
 const formatDate = require("date-fns/format");
+const { parseWithOptions } = require("date-fns/fp");
 
 const paths = {
 	input: "src",
@@ -10,6 +11,10 @@ module.exports = function (eleventyConfig) {
 
 	eleventyConfig.addHandlebarsHelper("date", function (date, format) {
 		return formatDate(date, format);
+	});
+
+	eleventyConfig.addHandlebarsHelper("eq", function (one, two, options) {
+		return one === two ? options.fn(this) : null;
 	});
 
 	return {

@@ -42,6 +42,22 @@
 	}
 }
 
+.navigation-item {
+	position: relative;
+}
+.navigation-item.active::after {
+	width: 0;
+	height: 0;
+	position: absolute;
+	content: "";
+	display: block;
+	border-left: 8px solid transparent;
+	border-right: 8px solid transparent;
+	border-top: 8px solid #fcd34d;
+	left: 50%;
+	margin-left: -8px;
+}
+
 @layer components {
 	.zammad-chat-welcome {
 		display: flex;
