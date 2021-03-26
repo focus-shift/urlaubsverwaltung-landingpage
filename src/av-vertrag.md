@@ -1,6 +1,7 @@
 ---
 layout: layout-subpage
 title: Auftragsverarbeitung
+backgroundColor: bg-white
 ---
 
 <article>

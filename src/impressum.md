@@ -1,6 +1,7 @@
 ---
 layout: layout-subpage
 title: Impressum
+backgroundColor: bg-white
 ---
 
 <article>

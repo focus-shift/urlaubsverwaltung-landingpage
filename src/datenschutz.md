@@ -1,6 +1,7 @@
 ---
 layout: layout-subpage
 title: Datenschutz UV
+backgroundColor: bg-white
 ---
 
 <article>
