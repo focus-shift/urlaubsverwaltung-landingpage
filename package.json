@@ -2,8 +2,8 @@
 	"private": true,
 	"author": "Benjamin Seber <benjamin.seber@focus-shift.de> (https://www.focus-shift.de)",
 	"scripts": {
-		"dev": "npm run clean && npx snowpack dev",
-		"build": "npm run clean && npx snowpack build",
+		"dev": "NODE_ENV=development npm run clean && npx snowpack dev",
+		"build": "NODE_ENV=production npm run clean && npx snowpack build",
 		"clean": "rm -rf build dist"
 	},
 	"dependencies": {
