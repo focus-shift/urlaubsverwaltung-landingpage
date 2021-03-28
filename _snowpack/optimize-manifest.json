@@ -32,6 +32,7 @@
         "/static/js/easteregg.js",
         "/static/js/page-prerenderer.js",
         "https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js",
+        "https://plausible.io/js/plausible.js",
         "https://support.apps.urlaubsverwaltung.cloud/assets/chat/chat.min.js"
       ]
     },
@@ -67,6 +68,7 @@
         "/static/js/easteregg.js",
         "/static/js/page-prerenderer.js",
         "https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js",
+        "https://plausible.io/js/plausible.js",
         "https://support.apps.urlaubsverwaltung.cloud/assets/chat/chat.min.js"
       ]
     },
@@ -102,6 +104,7 @@
         "/static/js/easteregg.js",
         "/static/js/page-prerenderer.js",
         "https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js",
+        "https://plausible.io/js/plausible.js",
         "https://support.apps.urlaubsverwaltung.cloud/assets/chat/chat.min.js"
       ]
     },
@@ -137,6 +140,7 @@
         "/static/js/easteregg.js",
         "/static/js/page-prerenderer.js",
         "https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js",
+        "https://plausible.io/js/plausible.js",
         "https://support.apps.urlaubsverwaltung.cloud/assets/chat/chat.min.js"
       ]
     },
@@ -172,6 +176,7 @@
         "/static/js/easteregg.js",
         "/static/js/page-prerenderer.js",
         "https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js",
+        "https://plausible.io/js/plausible.js",
         "https://support.apps.urlaubsverwaltung.cloud/assets/chat/chat.min.js"
       ]
     },
@@ -207,6 +212,7 @@
         "/static/js/easteregg.js",
         "/static/js/page-prerenderer.js",
         "https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js",
+        "https://plausible.io/js/plausible.js",
         "https://support.apps.urlaubsverwaltung.cloud/assets/chat/chat.min.js"
       ]
     },
@@ -254,6 +260,7 @@
         "/static/js/frontpage.js",
         "/static/js/page-prerenderer.js",
         "https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js",
+        "https://plausible.io/js/plausible.js",
         "https://support.apps.urlaubsverwaltung.cloud/assets/chat/chat.min.js"
       ]
     }
