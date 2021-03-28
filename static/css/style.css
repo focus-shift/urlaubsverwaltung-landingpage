@@ -102,7 +102,7 @@
 			@apply mb-4;
 		}
 
-		@scree xs {
+		@screen xs {
 			h1 {
 				@apply text-3xl;
 			}
