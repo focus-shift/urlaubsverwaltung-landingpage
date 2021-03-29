@@ -1,6 +1,7 @@
 ---
 layout: layout-subpage
 title: AGB
+backgroundColor: bg-white
 ---
 
 <article>

@@ -1,9 +1,10 @@
 ---
 layout: layout-subpage
 title: Impressum
+backgroundColor: bg-white
 ---
 
-<article>
+<article class="2xl:mt-8">
 
 # Impressum
 

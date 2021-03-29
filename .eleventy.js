@@ -12,6 +12,10 @@ module.exports = function (eleventyConfig) {
 		return formatDate(date, format);
 	});
 
+	eleventyConfig.addHandlebarsHelper("eq", function (one, two, options) {
+		return one === two ? options.fn(this) : null;
+	});
+
 	return {
 		dir: {
 			input: paths.input,
