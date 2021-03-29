@@ -153,7 +153,8 @@
         "/static/font/lato/Lato-Regular.woff2",
         "/static/font/raleway/Raleway-Bold.woff2",
         "/static/font/raleway/Raleway-SemiBold.woff2",
-        "/static/manifest.json"
+        "/static/manifest.json",
+        "https://support.apps.urlaubsverwaltung.cloud/assets/chat/chat.css"
       ],
       "js": [
         "/static/js/easteregg.js",
@@ -194,7 +195,8 @@
         "/static/font/lato/Lato-Regular.woff2",
         "/static/font/raleway/Raleway-Bold.woff2",
         "/static/font/raleway/Raleway-SemiBold.woff2",
-        "/static/manifest.json"
+        "/static/manifest.json",
+        "https://support.apps.urlaubsverwaltung.cloud/assets/chat/chat.css"
       ],
       "js": [
         "/static/js/easteregg.js",
@@ -276,7 +278,8 @@
         "/static/font/lato/Lato-Regular.woff2",
         "/static/font/raleway/Raleway-Bold.woff2",
         "/static/font/raleway/Raleway-SemiBold.woff2",
-        "/static/manifest.json"
+        "/static/manifest.json",
+        "https://support.apps.urlaubsverwaltung.cloud/assets/chat/chat.css"
       ],
       "js": [
         "/static/js/easteregg.js",
@@ -317,7 +320,8 @@
         "/static/font/lato/Lato-Regular.woff2",
         "/static/font/raleway/Raleway-Bold.woff2",
         "/static/font/raleway/Raleway-SemiBold.woff2",
-        "/static/manifest.json"
+        "/static/manifest.json",
+        "https://support.apps.urlaubsverwaltung.cloud/assets/chat/chat.css"
       ],
       "js": [
         "/static/js/easteregg.js",
@@ -358,7 +362,8 @@
         "/static/font/lato/Lato-Regular.woff2",
         "/static/font/raleway/Raleway-Bold.woff2",
         "/static/font/raleway/Raleway-SemiBold.woff2",
-        "/static/manifest.json"
+        "/static/manifest.json",
+        "https://support.apps.urlaubsverwaltung.cloud/assets/chat/chat.css"
       ],
       "js": [
         "/static/js/easteregg.js",
