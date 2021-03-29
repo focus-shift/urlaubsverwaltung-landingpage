@@ -82,13 +82,16 @@ backgroundColor: bg-white
         <div class="shadow-lg rounded-b md:rounded-b-lg xl:rounded-b-2xl">
           {{> partials/browser-head width='860' height='39' }}
           <div class="border-l-2 border-r-2 border-b-2 border-gray-700 rounded-b md:rounded-b-lg xl:rounded-b-2xl">
-            <img
-              src="/static/uv-startseite.png"
-              alt="Startseite der Urlaubsverwaltung mit kalenderischer Abwesenheitsübersicht"
-              class="rounded-b md:rounded-b-lg xl:rounded-b-2xl"
-              width="860px"
-              height="680px"
-            >
+            <picture>
+              <source srcset="/static/uv-startseite_sm.png" media="(max-width: 639px)">
+              <img
+                src="/static/uv-startseite.png"
+                alt="Startseite der Urlaubsverwaltung mit kalenderischer Abwesenheitsübersicht"
+                class="rounded-b md:rounded-b-lg xl:rounded-b-2xl"
+                width="860px"
+                height="680px"
+              >
+            </picture>
           </div>
         </div>
       </div>
@@ -106,7 +109,10 @@ backgroundColor: bg-white
             Wann ist welcher Feiertag? Wie hast du deinen Urlaub verplant? Wann warst du krank? Bei uns hast du immer alles im Blick.
           </p>
           <div>
-            <img src="/static/uv-kalender.png" width="860px" height="295px" alt="kalendarischen Übersicht der Abwesenheiten">
+            <picture>
+              <source srcset="/static/uv-kalender_sm.png" media="(max-width: 639px)">
+              <img src="/static/uv-kalender.png" width="860px" height="295px" alt="kalendarischen Übersicht der Abwesenheiten">
+            </picture>
           </div>
         </div>
         <div class="p-8 bg-lightBlue-50 flex flex-col">
@@ -117,7 +123,10 @@ backgroundColor: bg-white
             Wann sind meine Kollege:innen abwesend? Kann nächsten Monat ein neues Projekt gestartet werden? Die Teamübersicht gibt dir Einsicht auf alle Teams und das komplette Jahr.
           </p>
           <div>
-            <img src="/static/uv-teamuebersicht.png" width="860px" height="274px" alt="Abwesenheiten der Teams im Überblick">
+            <picture>
+              <source srcset="/static/uv-teamuebersicht_sm.png" media="(max-width: 639px)">
+              <img src="/static/uv-teamuebersicht.png" width="860px" height="274px" alt="Abwesenheiten der Teams im Überblick">
+            </picture>
           </div>
         </div>
         <div class="p-8 bg-lightBlue-50 flex flex-col">
@@ -128,7 +137,10 @@ backgroundColor: bg-white
             Die Abwesenheitskalender können ganz einfach freigegeben und in alle gängigen Kalender Apps integriert werden.
           </p>
           <div>
-            <img src="/static/uv-kalender-freigabe.png" width="860px" height="292px" alt="Dein Abwesenheitskalender kann für externe Kalender freigegeben werden.">
+            <picture>
+              <source srcset="/static/uv-kalender-freigabe_sm.png" media="(max-width: 639px)">
+              <img src="/static/uv-kalender-freigabe.png" width="860px" height="292px" alt="Dein Abwesenheitskalender kann für externe Kalender freigegeben werden.">
+            </picture>
           </div>
         </div>
         <div class="p-8 bg-lightBlue-50 flex flex-col">
@@ -198,7 +210,10 @@ backgroundColor: bg-white
           </aside>
         </div>
         <div class="px-4 mb-8 xs:mb-12 sm:px-12 md:px-8 md:mb-0 md:w-2/3">
-          <img src="/static/uv-multidevice.png" width="860px" height="561px" alt="urlaubsverwaltung auf Smartphone, Tablet, Laptop und PC nutzen">
+          <picture>
+            <source srcset="/static/uv-multidevice_sm.png" media="(max-width: 639px)">
+            <img src="/static/uv-multidevice.png" width="860px" height="561px" alt="urlaubsverwaltung auf Smartphone, Tablet, Laptop und PC nutzen">
+          </picture>
         </div>
       </div>
     </div>
