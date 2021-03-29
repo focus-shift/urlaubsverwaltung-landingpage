@@ -3,6 +3,7 @@
     "/agb/index.html": {
       "entry": [
         "/static/js/easteregg.js",
+        "/static/js/navigation.js",
         "/static/js/page-prerenderer.js"
       ],
       "css": [
@@ -25,11 +26,15 @@
         "/static/favicons/favicon-32x32.png",
         "/static/favicons/favicon-96x96.png",
         "/static/favicons/favicon.png",
-        "/static/js/page-prerenderer.js",
+        "/static/font/lato/Lato-Bold.woff2",
+        "/static/font/lato/Lato-Regular.woff2",
+        "/static/font/raleway/Raleway-Bold.woff2",
+        "/static/font/raleway/Raleway-SemiBold.woff2",
         "/static/manifest.json"
       ],
       "js": [
         "/static/js/easteregg.js",
+        "/static/js/navigation.js",
         "/static/js/page-prerenderer.js",
         "https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js",
         "https://plausible.io/js/plausible.js",
@@ -39,6 +44,7 @@
     "/av-vertrag/index.html": {
       "entry": [
         "/static/js/easteregg.js",
+        "/static/js/navigation.js",
         "/static/js/page-prerenderer.js"
       ],
       "css": [
@@ -61,11 +67,15 @@
         "/static/favicons/favicon-32x32.png",
         "/static/favicons/favicon-96x96.png",
         "/static/favicons/favicon.png",
-        "/static/js/page-prerenderer.js",
+        "/static/font/lato/Lato-Bold.woff2",
+        "/static/font/lato/Lato-Regular.woff2",
+        "/static/font/raleway/Raleway-Bold.woff2",
+        "/static/font/raleway/Raleway-SemiBold.woff2",
         "/static/manifest.json"
       ],
       "js": [
         "/static/js/easteregg.js",
+        "/static/js/navigation.js",
         "/static/js/page-prerenderer.js",
         "https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js",
         "https://plausible.io/js/plausible.js",
@@ -75,6 +85,7 @@
     "/datenschutz/index.html": {
       "entry": [
         "/static/js/easteregg.js",
+        "/static/js/navigation.js",
         "/static/js/page-prerenderer.js"
       ],
       "css": [
@@ -97,11 +108,15 @@
         "/static/favicons/favicon-32x32.png",
         "/static/favicons/favicon-96x96.png",
         "/static/favicons/favicon.png",
-        "/static/js/page-prerenderer.js",
+        "/static/font/lato/Lato-Bold.woff2",
+        "/static/font/lato/Lato-Regular.woff2",
+        "/static/font/raleway/Raleway-Bold.woff2",
+        "/static/font/raleway/Raleway-SemiBold.woff2",
         "/static/manifest.json"
       ],
       "js": [
         "/static/js/easteregg.js",
+        "/static/js/navigation.js",
         "/static/js/page-prerenderer.js",
         "https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js",
         "https://plausible.io/js/plausible.js",
@@ -111,6 +126,7 @@
     "/demo/index.html": {
       "entry": [
         "/static/js/easteregg.js",
+        "/static/js/navigation.js",
         "/static/js/page-prerenderer.js"
       ],
       "css": [
@@ -133,11 +149,15 @@
         "/static/favicons/favicon-32x32.png",
         "/static/favicons/favicon-96x96.png",
         "/static/favicons/favicon.png",
-        "/static/js/page-prerenderer.js",
+        "/static/font/lato/Lato-Bold.woff2",
+        "/static/font/lato/Lato-Regular.woff2",
+        "/static/font/raleway/Raleway-Bold.woff2",
+        "/static/font/raleway/Raleway-SemiBold.woff2",
         "/static/manifest.json"
       ],
       "js": [
         "/static/js/easteregg.js",
+        "/static/js/navigation.js",
         "/static/js/page-prerenderer.js",
         "https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js",
         "https://plausible.io/js/plausible.js",
@@ -147,6 +167,7 @@
     "/faq/index.html": {
       "entry": [
         "/static/js/easteregg.js",
+        "/static/js/navigation.js",
         "/static/js/page-prerenderer.js"
       ],
       "css": [
@@ -169,11 +190,15 @@
         "/static/favicons/favicon-32x32.png",
         "/static/favicons/favicon-96x96.png",
         "/static/favicons/favicon.png",
-        "/static/js/page-prerenderer.js",
+        "/static/font/lato/Lato-Bold.woff2",
+        "/static/font/lato/Lato-Regular.woff2",
+        "/static/font/raleway/Raleway-Bold.woff2",
+        "/static/font/raleway/Raleway-SemiBold.woff2",
         "/static/manifest.json"
       ],
       "js": [
         "/static/js/easteregg.js",
+        "/static/js/navigation.js",
         "/static/js/page-prerenderer.js",
         "https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js",
         "https://plausible.io/js/plausible.js",
@@ -183,6 +208,7 @@
     "/impressum/index.html": {
       "entry": [
         "/static/js/easteregg.js",
+        "/static/js/navigation.js",
         "/static/js/page-prerenderer.js"
       ],
       "css": [
@@ -205,11 +231,15 @@
         "/static/favicons/favicon-32x32.png",
         "/static/favicons/favicon-96x96.png",
         "/static/favicons/favicon.png",
-        "/static/js/page-prerenderer.js",
+        "/static/font/lato/Lato-Bold.woff2",
+        "/static/font/lato/Lato-Regular.woff2",
+        "/static/font/raleway/Raleway-Bold.woff2",
+        "/static/font/raleway/Raleway-SemiBold.woff2",
         "/static/manifest.json"
       ],
       "js": [
         "/static/js/easteregg.js",
+        "/static/js/navigation.js",
         "/static/js/page-prerenderer.js",
         "https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js",
         "https://plausible.io/js/plausible.js",
@@ -219,19 +249,10 @@
     "/index.html": {
       "entry": [
         "/static/js/easteregg.js",
-        "/static/js/frontpage.js",
+        "/static/js/navigation.js",
         "/static/js/page-prerenderer.js"
       ],
       "css": [
-        "/static/001-kalender_wide.png",
-        "/static/001-kalender.png",
-        "/static/002-urlaubsantraege_wide.png",
-        "/static/002-urlaubsantraege.png",
-        "/static/003-krankmeldungen_wide.png",
-        "/static/003-krankmeldungen.png",
-        "/static/004-abteilung_wide.png",
-        "/static/004-abteilung.png",
-        "/static/005-ical.png",
         "/static/css/style.css",
         "/static/favicons/apple-icon-114x114.png",
         "/static/favicons/apple-icon-120x120.png",
@@ -251,13 +272,97 @@
         "/static/favicons/favicon-32x32.png",
         "/static/favicons/favicon-96x96.png",
         "/static/favicons/favicon.png",
-        "/static/js/frontpage.js",
-        "/static/js/page-prerenderer.js",
+        "/static/font/lato/Lato-Bold.woff2",
+        "/static/font/lato/Lato-Regular.woff2",
+        "/static/font/raleway/Raleway-Bold.woff2",
+        "/static/font/raleway/Raleway-SemiBold.woff2",
         "/static/manifest.json"
       ],
       "js": [
         "/static/js/easteregg.js",
-        "/static/js/frontpage.js",
+        "/static/js/navigation.js",
+        "/static/js/page-prerenderer.js",
+        "https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js",
+        "https://plausible.io/js/plausible.js",
+        "https://support.apps.urlaubsverwaltung.cloud/assets/chat/chat.min.js"
+      ]
+    },
+    "/neuigkeiten/index.html": {
+      "entry": [
+        "/static/js/easteregg.js",
+        "/static/js/navigation.js",
+        "/static/js/page-prerenderer.js"
+      ],
+      "css": [
+        "/static/css/style.css",
+        "/static/favicons/apple-icon-114x114.png",
+        "/static/favicons/apple-icon-120x120.png",
+        "/static/favicons/apple-icon-128x128.png",
+        "/static/favicons/apple-icon-144x144.png",
+        "/static/favicons/apple-icon-152x152.png",
+        "/static/favicons/apple-icon-180x180.png",
+        "/static/favicons/apple-icon-57x57.png",
+        "/static/favicons/apple-icon-60x60.png",
+        "/static/favicons/apple-icon-72x72.png",
+        "/static/favicons/apple-icon-76x76.png",
+        "/static/favicons/apple-icon-precomposed.png",
+        "/static/favicons/apple-icon.png",
+        "/static/favicons/favicon-16x16.png",
+        "/static/favicons/favicon-192x192.png",
+        "/static/favicons/favicon-196x196.png",
+        "/static/favicons/favicon-32x32.png",
+        "/static/favicons/favicon-96x96.png",
+        "/static/favicons/favicon.png",
+        "/static/font/lato/Lato-Bold.woff2",
+        "/static/font/lato/Lato-Regular.woff2",
+        "/static/font/raleway/Raleway-Bold.woff2",
+        "/static/font/raleway/Raleway-SemiBold.woff2",
+        "/static/manifest.json"
+      ],
+      "js": [
+        "/static/js/easteregg.js",
+        "/static/js/navigation.js",
+        "/static/js/page-prerenderer.js",
+        "https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js",
+        "https://plausible.io/js/plausible.js",
+        "https://support.apps.urlaubsverwaltung.cloud/assets/chat/chat.min.js"
+      ]
+    },
+    "/preis/index.html": {
+      "entry": [
+        "/static/js/easteregg.js",
+        "/static/js/navigation.js",
+        "/static/js/page-prerenderer.js"
+      ],
+      "css": [
+        "/static/css/style.css",
+        "/static/favicons/apple-icon-114x114.png",
+        "/static/favicons/apple-icon-120x120.png",
+        "/static/favicons/apple-icon-128x128.png",
+        "/static/favicons/apple-icon-144x144.png",
+        "/static/favicons/apple-icon-152x152.png",
+        "/static/favicons/apple-icon-180x180.png",
+        "/static/favicons/apple-icon-57x57.png",
+        "/static/favicons/apple-icon-60x60.png",
+        "/static/favicons/apple-icon-72x72.png",
+        "/static/favicons/apple-icon-76x76.png",
+        "/static/favicons/apple-icon-precomposed.png",
+        "/static/favicons/apple-icon.png",
+        "/static/favicons/favicon-16x16.png",
+        "/static/favicons/favicon-192x192.png",
+        "/static/favicons/favicon-196x196.png",
+        "/static/favicons/favicon-32x32.png",
+        "/static/favicons/favicon-96x96.png",
+        "/static/favicons/favicon.png",
+        "/static/font/lato/Lato-Bold.woff2",
+        "/static/font/lato/Lato-Regular.woff2",
+        "/static/font/raleway/Raleway-Bold.woff2",
+        "/static/font/raleway/Raleway-SemiBold.woff2",
+        "/static/manifest.json"
+      ],
+      "js": [
+        "/static/js/easteregg.js",
+        "/static/js/navigation.js",
         "/static/js/page-prerenderer.js",
         "https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js",
         "https://plausible.io/js/plausible.js",

@@ -3,44 +3,56 @@
   
     <url>
       <loc>/agb/</loc>
-      <lastmod>2021-03-28T16:25:46.935Z</lastmod>
+      <lastmod>2021-03-29T15:52:39.771Z</lastmod>
       <changefreq>monthly</changefreq>
     </url>
   
     <url>
       <loc>/av-vertrag/</loc>
-      <lastmod>2021-03-28T16:25:46.939Z</lastmod>
+      <lastmod>2021-03-29T15:52:39.771Z</lastmod>
       <changefreq>monthly</changefreq>
     </url>
   
     <url>
       <loc>/datenschutz/</loc>
-      <lastmod>2021-03-28T16:25:46.939Z</lastmod>
+      <lastmod>2021-03-29T15:52:39.771Z</lastmod>
       <changefreq>monthly</changefreq>
     </url>
   
     <url>
       <loc>/demo/</loc>
-      <lastmod>2021-03-28T16:25:46.939Z</lastmod>
+      <lastmod>2021-03-29T15:52:39.771Z</lastmod>
       <changefreq>monthly</changefreq>
     </url>
   
     <url>
       <loc>/faq/</loc>
-      <lastmod>2021-03-28T16:25:46.939Z</lastmod>
+      <lastmod>2021-03-29T15:52:39.771Z</lastmod>
       <changefreq>monthly</changefreq>
     </url>
   
     <url>
       <loc>/impressum/</loc>
-      <lastmod>2021-03-28T16:25:46.939Z</lastmod>
+      <lastmod>2021-03-29T15:52:39.771Z</lastmod>
       <changefreq>monthly</changefreq>
     </url>
   
     <url>
       <loc>/</loc>
-      <lastmod>2021-03-28T16:25:46.939Z</lastmod>
-      <changefreq>weekly</changefreq>
+      <lastmod>2021-03-29T15:52:39.771Z</lastmod>
+      <changefreq>monthly</changefreq>
+    </url>
+  
+    <url>
+      <loc>/neuigkeiten/</loc>
+      <lastmod>2021-03-29T15:52:39.771Z</lastmod>
+      <changefreq>monthly</changefreq>
+    </url>
+  
+    <url>
+      <loc>/preis/</loc>
+      <lastmod>2021-03-29T15:52:39.771Z</lastmod>
+      <changefreq>monthly</changefreq>
     </url>
   
 </urlset>
