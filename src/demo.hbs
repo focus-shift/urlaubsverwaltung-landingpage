@@ -17,42 +17,57 @@ backgroundColor: bg-lightBlue-50
       Unser Demo-System ist nur einen Klick entfernt. Wähle einfach eine Rolle aus und erkundschafte die Anwendung.
     </p>
     <div class="grid grid-cols-1 gap-4 sm:gap-8 sm:grid-cols-2 md:grid-cols-3">
-      <div class="p-4 rounded border border-blue-100 bg-white">
+      <div class="flex flex-col p-4 rounded border border-blue-100 bg-white">
         <p class="mb-2">
           <a href="https://demo.urlaubsverwaltung.cloud/login?username=user&password=secret" class="block text-center px-4 py-2 text-lightBlue-700 hover:text-lightBlue-900 transition-colors">
             <img role="presentation" alt="" src="/static/bear.svg" class="mx-auto w-24 h-24 block mb-2">
-            Als Benutzer testen
+            Benutzer
           </a>
         </p>
-        <p class="mb-2">
+        <p class="flex-1 mb-2">
           Deinen nächsten Urlaubsantrag stellen, deine verbleibenden Urlaubstage und bisherigen Krankmeldungen überblicken? Behalte jederzeit den Durchblick über all deine Abwesenheiten.
         </p>
+        <div class="mt-2">
+          <a href="https://demo.urlaubsverwaltung.cloud/login?username=user&password=secret" class="flex items-center px-2 py-1 rounded font-medium bg-yellow-300 text-lightBlue-900 text-opacity-90 hover:text-opacity-100 border border-lightBlue-100 hover:border-blue-200 hover:shadow-md active:shadow">
+            als Benutzer zur Urlaubsverwaltung {{> partials/icon-arrow-right class="w-4 h-4 ml-1"}}
+          </a>
+        </div>
       </div>
-      <div class="p-4 rounded border border-blue-100 bg-white">
+      <div class="flex flex-col p-4 rounded border border-blue-100 bg-white">
         <div>
         </div>
         <p class="mb-2">
           <a href="https://demo.urlaubsverwaltung.cloud/login?username=boss&password=secret" class="block text-center px-4 py-2 text-lightBlue-700 hover:text-lightBlue-900 transition-colors">
             <img role="presentation" alt="" src="/static/bear.svg" class="mx-auto w-24 h-24 block mb-2">
-            Als Chef testen
+            Chef
           </a>
         </p>
-        <p class="mb-2">
+        <p class="flex-1 mb-2">
           Genehmigen oder ablehnen? Verschaffe dir Überblick über die Urlaubsanträge deiner Mitarbeiter und entscheide weise. Denk immer dran, aus großer Macht folgt große Verantwortung.
         </p>
+        <div class="mt-2">
+          <a href="https://demo.urlaubsverwaltung.cloud/login?username=boss&password=secret" class="flex items-center px-2 py-1 rounded font-medium bg-yellow-300 text-lightBlue-900 text-opacity-90 hover:text-opacity-100 border border-lightBlue-100 hover:border-blue-200 hover:shadow-md active:shadow">
+            als Chef zur Urlaubsverwaltung {{> partials/icon-arrow-right class="w-4 h-4 ml-1"}}
+          </a>
+        </div>
       </div>
-      <div class="p-4 rounded border border-blue-100 bg-white">
+      <div class="flex flex-col p-4 rounded border border-blue-100 bg-white">
         <div>
         </div>
         <p class="mb-2">
           <a href="https://demo.urlaubsverwaltung.cloud/login?username=office&password=secret" class="block text-center px-4 py-2 text-lightBlue-700 hover:text-lightBlue-900 transition-colors">
             <img role="presentation" alt="" src="/static/bear.svg" class="mx-auto w-24 h-24 block mb-2">
-            Als Office testen
+            Office
           </a>
         </p>
-        <p class="mb-2">
+        <p class="flex-1 mb-2">
           Du willst die volle Bandbreite der Möglichkeiten erleben? Hier kannst du neben Urlaubsanträgen nicht nur Benutzer und Krankmeldungen verwalten, sondern sogar Anwendungseinstellungen vornehmen.
         </p>
+        <div class="mt-2">
+          <a href="https://demo.urlaubsverwaltung.cloud/login?username=office&password=secret" class="flex items-center px-2 py-1 rounded font-medium bg-yellow-300 text-lightBlue-900 text-opacity-90 hover:text-opacity-100 border border-lightBlue-100 hover:border-blue-200 hover:shadow-md active:shadow">
+            als Office zur Urlaubsverwaltung {{> partials/icon-arrow-right class="w-4 h-4 ml-1"}}
+          </a>
+        </div>
       </div>
     </div>
   </div>
