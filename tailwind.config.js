@@ -6,7 +6,7 @@ module.exports = {
 		// eleventy generates html files into the `build` directory
 		// @jadex/snowpack-plugin-tailwindcss-jit marks files as changed for snowpack, matching this `purge.content` path.
 		// snowpack pushes these new changes to the browser executing postcss/tailwind on demand.
-		content: ["./build/**/*.{html,js}"],
+		content: ["./build/**/*.{html,js}", "./static/**/*.js"],
 	},
 	theme: {
 		extend: {
