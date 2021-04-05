@@ -17,8 +17,8 @@
           </h1>
         </div>
       </a>
+      <input id="menu-toggle-checkbox" type="checkbox" class="hidden">
       <div class="flex items-center">
-        <input id="menu-toggle-checkbox" type="checkbox" class="hidden">
         <label for="menu-toggle-checkbox" class="flex items-center px-4 py-4 absolute top-2 left-0 md:hidden cursor-pointer z-50">
             <span class="tw-inline-block">
                 <span class="hamburger-bar"></span>
@@ -53,10 +53,12 @@
           </ul>
         </nav>
       </div>
-      <div class="hidden lg:flex z-10 items-center justify-center fixed lg:static bottom-0 left-0 right-0">
+      <div
+        class="z-20 p-4 md:p-2 xl:p-0 w-5/6 md:w-auto fixed md:static top-0 left-0 transition-transform transform-gpu -translate-x-full md:-translate-x-0 flex items-center justify-end"
+      >
         <a
           href="https://registry.apps.urlaubsverwaltung.cloud/registration"
-          class="px-2 py-1 rounded font-medium bg-yellow-300 text-lightBlue-900 text-opacity-90 hover:text-opacity-100 border border-lightBlue-100 hover:border-blue-200 hover:shadow-md active:shadow"
+          class="md:sr-only lg:not-sr-only px-2 py-1 lg:px-2 lg:py-1 rounded font-medium bg-yellow-300 text-lightBlue-900 text-opacity-90 hover:text-opacity-100 border border-lightBlue-100 hover:border-blue-200 hover:shadow-md active:shadow"
         >
           kostenlos testen
         </a>
