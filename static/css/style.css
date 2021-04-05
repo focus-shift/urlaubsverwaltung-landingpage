@@ -86,6 +86,36 @@
 	}
 }
 
+@screen md {
+	.navigation-item-blog {
+		@apply sr-only;
+	}
+	.navigation-item-faq {
+		@apply sr-only;
+	}
+}
+
+@media only screen and (min-width: 768px) {
+	.navigation-item-faq {
+		@apply hidden;
+	}
+}
+
+@media only screen and (min-width: 940px) {
+	.navigation-item-blog {
+		@apply not-sr-only;
+		@apply relative;
+	}
+}
+
+@media only screen and (min-width: 1140px) {
+	.navigation-item-faq {
+		@apply not-sr-only;
+		@apply relative;
+		@apply inline;
+	}
+}
+
 @layer components {
 	.zammad-chat-welcome {
 		display: flex;
