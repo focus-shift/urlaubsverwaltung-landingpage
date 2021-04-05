@@ -10,6 +10,7 @@ module.exports = {
 	plugins: [
 		"@snowpack/plugin-optimize",
 		["@snowpack/plugin-postcss", { config: "postcss.config.js" }],
+		"@jadex/snowpack-plugin-tailwindcss-jit",
 		["@snowpack/plugin-run-script", { cmd: "eleventy", watch: "$1 --watch" }],
 		"snowpack-plugin-cache-bust",
 	],
