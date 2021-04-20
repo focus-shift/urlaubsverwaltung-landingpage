@@ -2,6 +2,9 @@ const prod = process.env.NODE_ENV === "production";
 
 module.exports = {
 	eleventyComputed: {
+		draft: data => {
+			return data.draft === "" ? true : Boolean(data.draft);
+		},
 		teaserImage: data => {
 			return data.page.url + "teaser.png";
 		},
