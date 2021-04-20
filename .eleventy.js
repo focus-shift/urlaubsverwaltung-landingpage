@@ -14,7 +14,8 @@ const paths = {
 const prod = process.env.NODE_ENV === "production";
 
 const not = fn => (...args) => !fn(...args);
-const isDraft = post => Boolean(post.data.draft);
+const isDraft = post =>
+	post.data.draft === "" ? true : Boolean(post.data.draft);
 
 module.exports = function (eleventyConfig) {
 	eleventyConfig.setTemplateFormats(["njk", "hbs", "md", "html", "txt"]);
