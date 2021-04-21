@@ -42,10 +42,14 @@ draft: false
               </h3>
               <div class="text-lg flex flex-col sm:flex-row items-start">
                 <div class="sm:w-2/3 sm:pr-8">
-                  {{{markdownToHtml data.excerpt}}}
+                  <a href="{{url url}}" class="no-underline hover:underline">
+                    {{{markdownToHtml data.excerpt}}}
+                  </a>
                 </div>
                 <div class="order-first sm:order-last flex-1 mb-8 sm:mb-0">
-                  <img src="{{data.teaserImage}}">
+                  <a href="{{url url}}" class="no-underline">
+                    <img src="{{data.teaserImage}}">
+                  </a>
                 </div>
               </div>
               <div>
