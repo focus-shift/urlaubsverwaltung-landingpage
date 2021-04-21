@@ -15,7 +15,7 @@ Hast du NodeJS installiert und dieses Repository geklont kannst du direkt loswer
 
 ```bash
 
-git clone git@github.com:focus-shift/urlaubsverwaltung-landingpage.git
+git clone --depth 1 git@github.com:focus-shift/urlaubsverwaltung-landingpage.git
 cd urlaubsverwaltung-landingpage
 npm ci
 npm run dev
