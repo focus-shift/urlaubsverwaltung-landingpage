@@ -3,10 +3,10 @@ const defaultConfig = require("tailwindcss/defaultConfig.js");
 
 module.exports = {
 	purge: {
-		// eleventy generates html files into the `build` directory
-		// @jadex/snowpack-plugin-tailwindcss-jit marks files as changed for snowpack, matching this `purge.content` path.
-		// snowpack pushes these new changes to the browser executing postcss/tailwind on demand.
-		content: ["./build/**/*.{html,js}", "./static/**/*.js"],
+		content: ["./src/**/*.hbs", "./src/**/*.md", "./static/**/*.js"],
+		options: {
+			safelist: [/^zammad-/],
+		},
 	},
 	theme: {
 		extend: {
