@@ -6,10 +6,10 @@ module.exports = {
 			return data.draft === "" ? true : Boolean(data.draft);
 		},
 		teaserImage: data => {
-			return data.page.url + "teaser.png";
+			return data.teaserImage || "";
 		},
 		permalink: data => {
-			if (data.draft && prod) {
+			if ((data.draft === "" || data.draft) && prod) {
 				// ignore permalink for drafts on production mode
 				// -> no html file will be generated
 				return false;
