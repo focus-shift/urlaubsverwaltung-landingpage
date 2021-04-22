@@ -6,6 +6,7 @@ title: Version 4.15.0 veröffentlicht
 author: Benjamin Seber
 release-version: 4.15.0
 teaserImage: /static/update.png
+category: Aktualisierung
 ---
 
 Neue Features und Verbesserungen.
@@ -15,32 +16,61 @@ Neue Features und Verbesserungen.
 ### Erinnerung an Urlaubsbeginn
 
 <div class="flex space-x-8">
-  <div>
-    <img src="einstellung-urlaubsbenachrichtigung.png" alt="Einstellen der automatischen Benachrichtigung X Tage vor Urlaubsbeginn.">
-  </div>
-  <div class="max-w-lg">
+  <div class="max-w-2xl">
+    <p>
+      Mit der neuen Version bringen wir dir die <em class="font-bold">Automatische Erinnerungsfunktion</em>.
+    </p>
     <p class="mb-4">
-      In den Einstellungen kann nun aktiviert werden, ob deine Mitarbeiter:innen X Tage vor Urlaubsbeginn automatisch per E-Mail informiert werden sollen oder nicht.
+      In den Einstellungen kannst du ab sofort konfigurieren, ob deine Mitarbeiter:innen drei Tage vor Urlaubsbeginn automatisch per E-Mail informiert werden sollen oder nicht. So wird hoffentlich nicht mehr all zu oft vergessen die E-Mail Abwesenheitsnachricht einzurichten, oder noch rechtzeitig eine Übergabe zu planen.
     </p>
     <p>
-      Damit reduziert sich hoffentlich die Wahrscheinlichkeit, dass Übergaben und E-Mail Abwesenheitsnachrichten vergessen werden.
+      Natürlich kannst du auch einstellen wie viele Tage im voraus die Benachrichtigung versendet werden soll. Dir reicht ein Tag? Du willst eine Woche vorher die Information bekommen? Trage einfach die Tagesanzahl ein, die dir am besten passt.
     </p>
+    <p>
+      Aktuell gilt diese Einstellung für alle Anwender:innen der Urlaubsverwaltung. Noch ist es nicht möglich diese Einstellung für sich persönlich vorzunehmen.
+      Melde dich gerne bei uns falls dir die Funktion wichtig ist. Wir schauen dann wie wir das schneller umsetzen werden.
+    </p>
+  </div>
+  <div class="flex-1">
+    <img
+      src="einstellung-urlaubsbenachrichtigung.png"
+      alt="Einstellen der automatischen Benachrichtigung X Tage vor Urlaubsbeginn."
+      class="mx-auto"
+    >
   </div>
 </div>
 
 ### Halbe Urlaubstage erlauben oder unterbinden
 
 <div class="flex space-x-8">
-  <img src="einstellung-halbe-urlaubstage.png" alt="Einstellen ob halbe Urlaubstage erlaubt sind oder nicht.">
-  <p class="max-w-lg">
-    Lorem ipsum
-  </p>
+  <div class="mr-8">
+    <img 
+      src="einstellung-halbe-urlaubstage.png"
+      alt="Einstellen ob halbe Urlaubstage erlaubt sind oder nicht."
+      class="mx-auto"
+    >
+  </div>
+  <div class="max-w-2xl">
+    <p>
+      Nach § 7 BUrlG hat die Arbeitgeberin die Urlaubswünsche des Arbeitnehmers zu berücksichtigen. Das gilt aber nur, wenn dem Urlaubswunsch
+    </p>
+    <ul>
+      <li>weder dringende betriebliche Belange</li>
+      <li>noch Urlaubswünsche anderer Arbeitnehmer, die unter sozialen Gesichtspunkten Vorrang haben,</li>
+    </ul>
+    <p>
+      nicht entgegenstehen.
+    </p>
+    <p>
+      Das unterstützen wir ab sofort auch in der Urlaubsverwaltung. Bisher konnten <em>immer</em> halbe <em>oder</em> ganze Urlaubstage beantragt werden. Jetzt kannst du einstellen, ob halbe Urlaubstage in deinem Unternehmen erlaubt sind oder nicht.
+    </p>
+  </div>
 </div>
 
 ### Verschicke abgelehnten Kalendereintrag, wenn eine Abwesenheit zurückgenommen wird
 
 <div class="flex space-x-8">
-  <img src="xxx.png" alt="per E-Mail ical Anhang einen Kalendereintrag mit einem Klick löschen lassen.">
+  <img src="cancelled.png" class="w-1/5 border-none" alt="per E-Mail ical Anhang einen Kalendereintrag mit einem Klick löschen lassen.">
   <p class="max-w-lg">
     Lorem ipsum
   </p>
