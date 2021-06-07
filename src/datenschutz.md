@@ -6,7 +6,7 @@ backgroundColor: bg-white
 
 <article>
 
-Stand: 16.12.2020
+Stand: 12.05.2021
 
 # Datenschutzerklärung
 
@@ -712,19 +712,67 @@ Die Daten werden gelöscht, sobald sie die Einwilligung zur Nutzung von Gravatar
 Sie können die Einwilligung zur Nutzung von Gravatar deaktivieren. In diesem Fall werden
 keine Daten mehr übermittelt.
 
+## 12. GoCardless
+
+### 12.1. Umfang der Verarbeitung personenbezogener Daten
+
+#### 12.1.1.
+
+Der Dienst verwendet GoCardless zur Zahlungsabwicklung bei Verwendung von SEPA-Lastschriften. Wenn Sie die Bezahlung via SEPA-Lastschrift auswählen, werden die von Ihnen eingegebenen Zahlungsdaten an GoCardless übermittelt.
+
+#### 12.1.2.
+
+Betreiber von GoCardless ist GoCardless Ltd. Sutton Yard, Goswell Rd, London EC1V 7EN, United Kingdom.
+
+#### 12.1.3.
+
+Folgende Daten werden im Rahmen der Nutzung erhoben:
+Land, Vorname, Nachname, Firmenname, IBAN, Anschrift, E-Mailadresse, jedoch verschlüsselt
+
+### 12.2.
+
+Rechtsgrundlage für die Verarbeitung personenbezogener Daten
+Rechtsgrundlage für die Verarbeitung der personenbezogenen Daten der Nutzer ist Art.
+6 Abs. 1 S. 1 lit. f DSGVO.
+
+### 12.3. Zweck der Datenverarbeitung
+
+#### 12.3.1.
+
+Die Weitergabe der Daten dient der Zahlungsabwicklung.
+
+#### 12.3.2.
+
+Die Datenschutzerklärung von GoCardless finden Sie hier: https://gocardless.com/privacy/.
+Weitere Informationen zu GoCardless und die DSGVO sind hier zu finden:
+https://support.gocardless.com/hc/de/articles/360000281005-GoCardless-und-die-DSGVO
+
+### 12.4. Dauer der Speicherung
+
+#### 12.4.1.
+
+Die Daten werden gelöscht, sobald sie die Einwilligung zur Nutzung von GoCardless widerrufen.
+
+### 12.5. Widerspruchs- und Beseitigungsmöglichkeit
+
+#### 12.5.1.
+
+Sie können die Einwilligung zur Nutzung von GoCardless deaktivieren. In diesem Fall werden keine Daten mehr übermittelt.
+
+
 ## 12. Rechte der betroffenen Person
 
 Werden personenbezogene Daten von Ihnen verarbeitet, sind Sie Betroffener i.S.d.
 DSGVO und es stehen Ihnen folgende Rechte gegenüber dem Verantwortlichen zu:
 
-### 12.1. Auskunftsrecht
+### 13.1. Auskunftsrecht
 
-#### 12.1.1.
+#### 13.1.1.
 
 Sie können von dem Verantwortlichen eine Bestätigung darüber verlangen, ob
 personenbezogene Daten, die Sie betreffen, von uns verarbeitet werden.
 
-#### 12.1.2.
+#### 13.1.2.
 
 Liegt eine solche Verarbeitung vor, können Sie von dem Verantwortlichen über folgende
 Informationen Auskunft verlangen:
@@ -756,7 +804,7 @@ aussagekräftige Informationen über die involvierte Logik sowie die Tragweite u
 die angestrebten Auswirkungen einer derartigen Verarbeitung für die betroffene
 Person.
 
-#### 12.1.3.
+#### 13.1.3.
 
 Ihnen steht das Recht zu, Auskunft darüber zu verlangen, ob die Sie betreffenden
 personenbezogenen Daten in ein Drittland oder an eine internationale Organisation
@@ -764,18 +812,18 @@ personenbezogenen Daten in ein Drittland oder an eine internationale Organisatio
 geeigneten Garantien gem. Art. 46 DSGVO im Zusammenhang mit der Übermittlung
 unterrichtet zu werden.
 
-### 12.2. Recht auf Berichtigung
+### 13.2. Recht auf Berichtigung
 
-#### 12.2.1.
+#### 13.2.1.
 
 Sie haben ein Recht auf Berichtigung und/oder Vervollständigung gegenüber dem
 Verantwortlichen, sofern die verarbeiteten personenbezogenen Daten, die Sie betreffen,
 unrichtig oder unvollständig sind. Der Verantwortliche hat die Berichtigung unverzüglich
 vorzunehmen.
 
-### 12.3. Recht auf Einschränkung der Verarbeitung
+### 13.3. Recht auf Einschränkung der Verarbeitung
 
-#### 12.3.1.
+#### 13.3.1.
 
 Unter den folgenden Voraussetzungen können Sie die Einschränkung der Verarbeitung der
 Sie betreffenden personenbezogenen Daten verlangen:
@@ -795,7 +843,7 @@ Ausübung oder Verteidigung von Rechtsansprüchen benötigen, oder
 eingelegt haben und noch nicht feststeht, ob die berechtigten Gründe des
 Verantwortlichen gegenüber Ihren Gründen überwiegen.
 
-#### 12.3.2.
+#### 13.3.2.
 
 Wurde die Verarbeitung der Sie betreffenden personenbezogenen Daten eingeschränkt,
 dürfen diese Daten – von ihrer Speicherung abgesehen – nur mit Ihrer Einwilligung oder
@@ -804,15 +852,15 @@ Schutz der Rechte einer anderen natürlichen oder juristischen Person oder aus G
 eines wichtigen öffentlichen Interesses der Union oder eines Mitgliedstaats verarbeitet
 werden.
 
-#### 12.3.3.
+#### 13.3.3.
 
 Wurde die Einschränkung der Verarbeitung nach den o.g. Voraussetzungen eingeschränkt,
 werden Sie von dem Verantwortlichen unterrichtet bevor die Einschränkung aufgehoben
 wird.
 
-### 12.4. Recht auf Löschung
+### 13.4. Recht auf Löschung
 
-#### 12.4.1.
+#### 13.4.1.
 
 Sie können von dem Verantwortlichen verlangen, dass die Sie betreffenden
 personenbezogenen Daten unverzüglich gelöscht werden, und der Verantwortliche ist
@@ -839,7 +887,7 @@ Mitgliedstaaten erforderlich, dem der Verantwortliche unterliegt.
 (6) Die Sie betreffenden personenbezogenen Daten wurden in Bezug auf angebotene
 Dienste der Informationsgesellschaft gemäß Art. 8 Abs. 1 DSGVO erhoben.
 
-#### 12.5. Information an Dritte
+#### 13.5. Information an Dritte
 
 Hat der Verantwortliche die Sie betreffenden personenbezogenen Daten öffentlich
 gemacht und ist er gem. Art. 17 Abs. 1 DSGVO zu deren Löschung verpflichtet, so trifft
@@ -849,7 +897,7 @@ Verantwortliche, die die personenbezogenen Daten verarbeiten, darüber zu inform
 dass Sie als betroffene Person von ihnen die Löschung aller Links zu diesen
 personenbezogenen Daten oder von Kopien oder Replikationen dieser personenbezogenen Daten verlangt haben.
 
-#### 12.6. Ausnahmen
+#### 13.6. Ausnahmen
 
 Das Recht auf Löschung besteht nicht, soweit die Verarbeitung erforderlich ist
 
@@ -872,9 +920,9 @@ beeinträchtigt, oder
 
 (5) zur Geltendmachung, Ausübung oder Verteidigung von Rechtsansprüchen.
 
-### 12.7. Recht auf Unterrichtung
+### 13.7. Recht auf Unterrichtung
 
-#### 12.7.1.
+#### 13.7.1.
 
 Haben Sie das Recht auf Berichtigung, Löschung oder Einschränkung der Verarbeitung
 gegenüber dem Verantwortlichen geltend gemacht, ist dieser verpflichtet, allen
@@ -883,14 +931,14 @@ diese Berichtigung oder Löschung der Daten oder Einschränkung der Verarbeitung
 mitzuteilen, es sei denn, dies erweist sich als unmöglich oder ist mit einem
 unverhältnismäßigen Aufwand verbunden.
 
-#### 12.7.2.
+#### 13.7.2.
 
 Ihnen steht gegenüber dem Verantwortlichen das Recht zu, über diese Empfänger
 unterrichtet zu werden.
 
-### 12.8. Recht auf Datenübertragbarkeit
+### 13.8. Recht auf Datenübertragbarkeit
 
-### 12.8.1.
+### 13.8.1.
 
 Sie haben das Recht, die Sie betreffenden personenbezogenen Daten, die Sie dem
 Verantwortlichen bereitgestellt haben, in einem strukturierten, gängigen und
@@ -901,7 +949,7 @@ die Verarbeitung auf einer Einwilligung gem. Art. 6 Abs. 1 S. 1 lit. a DSGVO
 oder Art. 9 Abs. 2 lit. a DSGVO oder auf einem Vertrag gem. Art. 6 Abs. 1 S. 1 lit. b
 DSGVO beruht und (2)
 
-#### 12.8.2.
+#### 13.8.2.
 
 die Verarbeitung mithilfe automatisierter Verfahren erfolgt.
 In Ausübung dieses Rechts haben Sie ferner das Recht, zu erwirken, dass die Sie
@@ -909,70 +957,70 @@ betreffenden personenbezogenen Daten direkt von einem Verantwortlichen einem
 anderen Verantwortlichen übermittelt werden, soweit dies technisch machbar ist.
 Freiheiten und Rechte anderer Personen dürfen hierdurch nicht beeinträchtigt werden.
 
-#### 12.8.3.
+#### 13.8.3.
 
 Das Recht auf Datenübertragbarkeit gilt nicht für eine Verarbeitung personenbezogener
 Daten, die für die Wahrnehmung einer Aufgabe erforderlich ist, die im öffentlichen
 Interesse liegt oder in Ausübung öffentlicher Gewalt erfolgt, die dem Verantwortlichen
 übertragen wurde.
 
-## 13. Widerspruchsrecht
+## 14. Widerspruchsrecht
 
-### 13.1.
+### 14.1.
 
 Sie haben das Recht, aus Gründen, die sich aus ihrer besonderen Situation ergeben,
 jederzeit gegen die Verarbeitung der Sie betreffenden personenbezogenen Daten, die
 aufgrund von Art. 6 Abs. 1 S. 1 lit. e oder f DSGVO erfolgt, Widerspruch einzulegen; dies
 gilt auch für ein auf diese Bestimmungen gestütztes Profiling.
 
-### 13.2.
+### 14.2.
 
 Der Verantwortliche verarbeitet die Sie betreffenden personenbezogenen Daten nicht
 mehr, es sei denn, er kann zwingende schutzwürdige Gründe für die Verarbeitung
 nachweisen, die Ihre Interessen, Rechte und Freiheiten überwiegen, oder die
 Verarbeitung dient der Geltendmachung, Ausübung oder Verteidigung von Rechtsansprüchen.
 
-### 13.3.
+### 14.3.
 
 Werden die Sie betreffenden personenbezogenen Daten verarbeitet, um Direktwerbung
 zu betreiben, haben Sie das Recht, jederzeit Widerspruch gegen die Verarbeitung der Sie
 betreffenden personenbezogenen Daten zum Zwecke derartiger Werbung einzulegen;
 dies gilt auch für das Profiling, soweit es mit solcher Direktwerbung in Verbindung steht.
 
-### 13.4.
+### 14.4.
 
 Widersprechen Sie der Verarbeitung für Zwecke der Direktwerbung, so werden die Sie
 betreffenden personenbezogenen Daten nicht mehr für diese Zwecke verarbeitet.
 
-### 13.5.
+### 14.5.
 
 Sie haben die Möglichkeit, im Zusammenhang mit der Nutzung von Diensten der
 Informationsgesellschaft – ungeachtet der Richtlinie 2002/58/EG – Ihr Widerspruchsrecht
 mittels automatisierter Verfahren auszuüben, bei denen technische Spezifikationen
 verwendet werden.
 
-### 13.6.
+### 14.6.
 
 Sie haben auch das Recht, aus Gründen, die sich aus Ihrer besonderen Situation ergeben, bei der Verarbeitung Sie betreffender personenbezogener Daten, die zu
 wissenschaftlichen oder historischen Forschungszwecken oder zu statistischen Zwecken
 gem. Art. 89 Abs. 1 DSGVO erfolgt, dieser zu widersprechen.
 
-### 13.7.
+### 14.7.
 
 Ihr Widerspruchsrecht kann insoweit beschränkt werden, als es voraussichtlich die
 Verwirklichung der Forschungs- oder Statistikzwecke unmöglich macht oder ernsthaft
 beeinträchtigt und die Beschränkung für die Erfüllung der Forschungs- oder
 Statistikzwecke notwendig ist.
 
-## 14. Recht auf Widerruf der datenschutzrechtlichen Einwilligungserklärung
+## 15. Recht auf Widerruf der datenschutzrechtlichen Einwilligungserklärung
 
 Sie haben das Recht, Ihre datenschutzrechtliche Einwilligungserklärung jederzeit zu
 widerrufen. Durch den Widerruf der Einwilligung wird die Rechtmäßigkeit der aufgrund
 der Einwilligung bis zum Widerruf erfolgten Verarbeitung nicht berührt.
 
-## 15. Automatisierte Entscheidung im Einzelfall einschließlich Profiling
+## 16. Automatisierte Entscheidung im Einzelfall einschließlich Profiling
 
-### 15.1.
+### 16.1.
 
 Sie haben das Recht, nicht einer ausschließlich auf einer automatisierten Verarbeitung –
 einschließlich Profiling – beruhenden Entscheidung unterworfen zu werden, die Ihnen
@@ -987,7 +1035,7 @@ berechtigten Interessen enthalten oder
 
 (3) mit Ihrer ausdrücklichen Einwilligung erfolgt.
 
-### 15.2.
+### 16.2.
 
 mit Ihrer ausdrücklichen Einwilligung erfolgt.
 Allerdings dürfen diese Entscheidungen nicht auf besonderen Kategorien
@@ -995,7 +1043,7 @@ personenbezogener Daten nach Art. 9 Abs. 1 DSGVO beruhen, sofern nicht Art. 9 Ab
 lit. a oder g DSGVO gilt und angemessene Maßnahmen zum Schutz der Rechte und
 Freiheiten sowie Ihrer berechtigten Interessen getroffen wurden.
 
-### 15.3.
+### 16.3.
 
 Hinsichtlich der in (1) und (3) genannten Fälle trifft der Verantwortliche angemessene
 Maßnahmen, um die Rechte und Freiheiten sowie Ihre berechtigten Interessen zu wahren,
@@ -1003,9 +1051,9 @@ wozu mindestens das Recht auf Erwirkung des Eingreifens einer Person seitens des
 Verantwortlichen, auf Darlegung des eigenen Standpunkts und auf Anfechtung der
 Entscheidung gehört.
 
-## 16. Recht auf Beschwerde bei einer Aufsichtsbehörde
+## 17. Recht auf Beschwerde bei einer Aufsichtsbehörde
 
-### 16.1.
+### 17.1.
 
 Unbeschadet eines anderweitigen verwaltungsrechtlichen oder gerichtlichen
 Rechtsbehelfs steht Ihnen das Recht auf Beschwerde bei einer Aufsichtsbehörde,
@@ -1013,7 +1061,7 @@ insbesondere in dem Mitgliedstaat ihres Aufenthaltsorts, ihres Arbeitsplatzes od
 Orts des mutmaßlichen Verstoßes, zu, wenn Sie der Ansicht sind, dass die Verarbeitung
 der Sie betreffenden personenbezogenen Daten gegen die DSGVO verstößt.
 
-### 16.2.
+### 17.2.
 
 Die Aufsichtsbehörde, bei der die Beschwerde eingereicht wurde, unterrichtet den
 Beschwerdeführer über den Stand und die Ergebnisse der Beschwerde einschließlich der
