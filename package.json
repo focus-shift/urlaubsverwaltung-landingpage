@@ -20,7 +20,7 @@
 		"lint-staged": "11.1.1",
 		"postcss": "8.3.6",
 		"postcss-cli": "8.3.1",
-		"postcss-nested": "5.0.5",
+		"postcss-nested": "5.0.6",
 		"prettier": "2.3.2",
 		"snowpack": "3.0.13",
 		"snowpack-plugin-cache-bust": "https://github.com/focus-shift/snowpack-plugin-cache-bust.git#v0.1.0",
