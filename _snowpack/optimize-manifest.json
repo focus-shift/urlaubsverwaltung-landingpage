@@ -3,6 +3,7 @@
     "/agb/index.html": {
       "entry": [
         "/static/js/easteregg.js",
+        "/static/js/goals.js",
         "/static/js/navigation.js",
         "/static/js/page-prerenderer.js"
       ],
@@ -35,6 +36,7 @@
       ],
       "js": [
         "/static/js/easteregg.js",
+        "/static/js/goals.js",
         "/static/js/navigation.js",
         "/static/js/page-prerenderer.js",
         "https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js",
@@ -45,6 +47,7 @@
     "/av-vertrag/index.html": {
       "entry": [
         "/static/js/easteregg.js",
+        "/static/js/goals.js",
         "/static/js/navigation.js",
         "/static/js/page-prerenderer.js"
       ],
@@ -77,6 +80,7 @@
       ],
       "js": [
         "/static/js/easteregg.js",
+        "/static/js/goals.js",
         "/static/js/navigation.js",
         "/static/js/page-prerenderer.js",
         "https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js",
@@ -87,6 +91,7 @@
     "/datenschutz/index.html": {
       "entry": [
         "/static/js/easteregg.js",
+        "/static/js/goals.js",
         "/static/js/navigation.js",
         "/static/js/page-prerenderer.js"
       ],
@@ -119,6 +124,7 @@
       ],
       "js": [
         "/static/js/easteregg.js",
+        "/static/js/goals.js",
         "/static/js/navigation.js",
         "/static/js/page-prerenderer.js",
         "https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js",
@@ -129,6 +135,7 @@
     "/demo/index.html": {
       "entry": [
         "/static/js/easteregg.js",
+        "/static/js/goals.js",
         "/static/js/navigation.js",
         "/static/js/page-prerenderer.js"
       ],
@@ -161,6 +168,7 @@
       ],
       "js": [
         "/static/js/easteregg.js",
+        "/static/js/goals.js",
         "/static/js/navigation.js",
         "/static/js/page-prerenderer.js",
         "https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js",
@@ -171,6 +179,7 @@
     "/faq/index.html": {
       "entry": [
         "/static/js/easteregg.js",
+        "/static/js/goals.js",
         "/static/js/navigation.js",
         "/static/js/page-prerenderer.js"
       ],
@@ -203,6 +212,7 @@
       ],
       "js": [
         "/static/js/easteregg.js",
+        "/static/js/goals.js",
         "/static/js/navigation.js",
         "/static/js/page-prerenderer.js",
         "https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js",
@@ -213,6 +223,7 @@
     "/impressum/index.html": {
       "entry": [
         "/static/js/easteregg.js",
+        "/static/js/goals.js",
         "/static/js/navigation.js",
         "/static/js/page-prerenderer.js"
       ],
@@ -245,6 +256,7 @@
       ],
       "js": [
         "/static/js/easteregg.js",
+        "/static/js/goals.js",
         "/static/js/navigation.js",
         "/static/js/page-prerenderer.js",
         "https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js",
@@ -255,6 +267,7 @@
     "/index.html": {
       "entry": [
         "/static/js/easteregg.js",
+        "/static/js/goals.js",
         "/static/js/navigation.js",
         "/static/js/page-prerenderer.js"
       ],
@@ -287,6 +300,7 @@
       ],
       "js": [
         "/static/js/easteregg.js",
+        "/static/js/goals.js",
         "/static/js/navigation.js",
         "/static/js/page-prerenderer.js",
         "https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js",
@@ -297,6 +311,7 @@
     "/neuigkeiten/index.html": {
       "entry": [
         "/static/js/easteregg.js",
+        "/static/js/goals.js",
         "/static/js/navigation.js",
         "/static/js/page-prerenderer.js"
       ],
@@ -329,6 +344,7 @@
       ],
       "js": [
         "/static/js/easteregg.js",
+        "/static/js/goals.js",
         "/static/js/navigation.js",
         "/static/js/page-prerenderer.js",
         "https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js",
@@ -339,6 +355,7 @@
     "/preis/index.html": {
       "entry": [
         "/static/js/easteregg.js",
+        "/static/js/goals.js",
         "/static/js/navigation.js",
         "/static/js/page-prerenderer.js"
       ],
@@ -371,6 +388,7 @@
       ],
       "js": [
         "/static/js/easteregg.js",
+        "/static/js/goals.js",
         "/static/js/navigation.js",
         "/static/js/page-prerenderer.js",
         "https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js",
