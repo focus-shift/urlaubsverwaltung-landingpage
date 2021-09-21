@@ -1,1 +1,0 @@
-window.addEventListener("click",function(t){if(typeof plausible=="function"){const{goal:i,goalTrigger:a}=t.target.dataset;i&&(plausible(i,{props:{trigger:a}}),t.target.tagName==="A"&&(t.preventDefault(),t.ctrlKey||t.metaKey||t.shiftKey||(setTimeout(function(){location.href=t.target.href},100),t.preventDefault())))}});

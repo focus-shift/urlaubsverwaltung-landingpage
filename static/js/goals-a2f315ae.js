@@ -1,0 +1,1 @@
+window.addEventListener("click",function(t){if(typeof plausible=="function"){const i=t.target.tagName==="A"?t.target:t.target.closest("a"),{goal:a,goalTrigger:o}=i.dataset;a&&(plausible(a,{props:{trigger:o}}),t.ctrlKey||t.metaKey||t.shiftKey||(setTimeout(function(){location.href=i.href},100),t.preventDefault()))}});
