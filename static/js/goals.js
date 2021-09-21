@@ -2,6 +2,9 @@ window.addEventListener("click", function (event) {
 	if (typeof plausible === "function") {
 		const link =
 			event.target.tagName === "A" ? event.target : event.target.closest("a");
+		if (!link) {
+			return;
+		}
 		const { goal, goalTrigger } = link.dataset;
 		if (goal) {
 			// eslint-disable-next-line no-undef
