@@ -8,6 +8,6 @@ backgroundColor: bg-white
 
 # Vertrag zur Auftragsverarbeitung
 
-Der Vertrag zur Auftragsverarbeitung (Stand: 12.05.2021) wird als <a href="/static/av-vertrag-2021-05-21.pdf" class="underline">PDF zum Download</a> bereitgestellt.
+Der Vertrag zur Auftragsverarbeitung (Stand: 12.05.2021) wird als <a href="/static/av-vertrag-2021-05-12.pdf" class="underline">PDF zum Download</a> bereitgestellt.
 
 </article>
