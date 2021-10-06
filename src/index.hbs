@@ -85,7 +85,11 @@ backgroundColor: bg-white
           {{> partials/browser-head width='860' height='39' }}
           <div class="border-l-2 border-r-2 border-b-2 border-gray-700 rounded-b md:rounded-b-lg xl:rounded-b-2xl">
             <picture>
+              <source srcset="/static/uv-startseite_sm.avif" media="(max-width: 639px)" type="image/avif">
+              <source srcset="/static/uv-startseite_sm.webp" media="(max-width: 639px)" type="image/webp">
               <source srcset="/static/uv-startseite_sm.png" media="(max-width: 639px)">
+              <source srcset="/static/uv-startseite.avif" type="image/avif">
+              <source srcset="/static/uv-startseite.webp" type="image/webp">
               <img
                 src="/static/uv-startseite.png"
                 alt="Startseite der Urlaubsverwaltung mit kalenderischer Abwesenheitsübersicht"
