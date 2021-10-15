@@ -1,6 +1,10 @@
+---
+layout: layout-subpage
+---
+
 ## Workflow bei Krankmeldungen
 
-![Workflow bei Krankmeldungen](../images/krankmeldung.png)
+![Workflow bei Krankmeldungen](krankmeldung.png)
 
 
 ## Was passiert, wenn eine Krankmeldung in einem Urlaubszeitraum angelegt wird?

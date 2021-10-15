@@ -1,3 +1,7 @@
+---
+layout: layout-subpage
+---
+
 ## Wo konfiguriere ich den E-Mail-Versand?
 
 Die Konfiguration des E-Mail-Versands wird über Anwendungskonfiguration vorgenommen. Mehr Details gibt es [hier](https://github.com/synyx/urlaubsverwaltung#e-mail-server-konfigurieren).

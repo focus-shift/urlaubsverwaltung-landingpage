@@ -1,3 +1,7 @@
+---
+layout: layout-subpage
+---
+
 ## Kann ich die Überstundenfunktion deaktivieren?
 
 Jein. Unter dem Menüpunkt "Einstellungen" beim Tab "Arbeitszeiten" kann die

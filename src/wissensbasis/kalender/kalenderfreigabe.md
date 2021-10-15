@@ -1,3 +1,7 @@
+---
+layout: layout-subpage
+---
+
 #### Welche Formen der iCal Kalenderfreigabe gibt es?
 
 Die Urlaubsverwaltung bietet die folgenden Möglichkeiten für eine iCal Kalenderfreigabe:
@@ -13,26 +17,26 @@ Diesen Freigabe-Link kennst nur du. Gehe verantwortungsvoll damit um. Jeder, der
 Die Kalenderfreigabe kann pro Benutzer konfiguriert werden. Um die Konfiguration in der Urlaubsverwaltung durchzuführen sind folgende Schritte zu tun:
 1. Klicke auf "Kalenderfreigabe" in der Übersichtsseite oberhalb des Kalenders
 
-![Kalenderfreigabe](../../images/kalenderfreigabe.png)
+![Kalenderfreigabe](kalenderfreigabe.png)
 
 2. Wähle z. Bsp. "Meinen Kalender freigeben"
 
-![Kalenderfreigabe aktivieren](../../images/kalenderfreigabe-aktivieren.png)
+![Kalenderfreigabe aktivieren](kalenderfreigabe-aktivieren.png)
 
 3. Es wird ein geheimer Link generiert, welchen du jetzt zum Abonnieren verwenden kannst. Weitere Infos über das Abonnieren findest du [hier](#welche-m%C3%B6glichkeiten-habe-ich-eine-ical-kalenderfreigabe-in-meinem-client-zu-verwenden).
 
-![Kalenderfreigabe Link](../../images/kalenderfreigabe-link.png)
+![Kalenderfreigabe Link](kalenderfreigabe-link.png)
 
 #### Wie kann ich eine Freigabe löschen?
 
 Eine Freigabe kann über folgende Schritte gelöscht werden:
 1. Klicke auf "Kalenderfreigabe" in der Übersichtsseite oberhalb des Kalenders
 
-![Kalenderfreigabe](../../images/kalenderfreigabe.png)
+![Kalenderfreigabe](kalenderfreigabe.png)
 
 2. Wähle beim betreffenden Kalender "Freigabe löschen". Durch das Löschen ist der Zugriff über den geheimen Link nicht mehr möglich.
 
-![Kalenderfreigabe löschen](../../images/kalenderfreigabe-löschen.png)
+![Kalenderfreigabe löschen](kalenderfreigabe-löschen.png)
 
 #### Welche Möglichkeiten habe ich eine iCal Kalenderfreigabe in meinem Client zu verwenden?
 

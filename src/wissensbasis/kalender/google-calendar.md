@@ -1,3 +1,7 @@
+---
+layout: layout-subpage
+---
+
 ![](https://img.shields.io/badge/status-deprecated-yellow) 
 
 Die Urlaubsverwaltung kann an einen Google Kalender angebunden werden, dazu sind folgende Dinge nötig

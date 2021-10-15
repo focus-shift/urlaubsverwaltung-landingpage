@@ -1,6 +1,10 @@
+---
+layout: layout-subpage
+---
+
 ## Workflow bei Urlaubsanträgen
 
-![Workflow bei Urlaubsanträgen](../images/urlaub.png)
+![Workflow bei Urlaubsanträgen](urlaub.png)
 
 ## Wer genehmigt Urlaub?
 
@@ -78,14 +82,14 @@ nachgesehen werden.
 Der Urlaub der im bisherigen Jahr noch nicht genommen wurde wird in das folgende Jahr übernommen. Diese Übernahme passiert in den Standard-Einstellungen am 1.1. des Folgejahres um 05:00 Uhr.
 Der übernommene Resturlaub beinhaltet alle bis zum 31.12. nicht genommenen Urlaubstage. Dieser Resturlaub kann dann bis zum Ende des Monats März genommen werden.
 
-![Urlaubsvertretung am Antrag](../images/vertretung.png)
+![Urlaubsvertretung am Antrag](vertretung.png)
 
 ## Kann eine Urlaubsvertretung angegeben werden?
 
 Ja, bei der Antragsstellung können optional eine oder mehrere Urlaubsvertretungen angegeben werden. Für jede Vertretung kann eine eigene Notiz hinterlegt werden. Die ausgewählten Personen werden über die Vertretung per E-Mail benachrichtigt. Außerdem ist für die Vertretung unter dem Menü-Punkt "Urlaub" im Abschnitt "Aktuelle und zukünftige Vertretungen" eine Übersicht aller Vertretungen einsehbar.
 
-![Übersicht zu aktuellen und zukünftigen Vertretungen](../images/uebersicht-vertretungen.png)
+![Übersicht zu aktuellen und zukünftigen Vertretungen](uebersicht-vertretungen.png)
 
 ## Technische Dokumentation für Application Status
 
-![application-status](../images/tech-application-status.png)
+![application-status](tech-application-status.png)

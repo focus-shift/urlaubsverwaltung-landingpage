@@ -1,3 +1,7 @@
+---
+layout: layout-subpage
+---
+
 ## Wie kann eine Abteilung angelegt werden?
 
 In der Menüleiste gibt es einen Punkt "Abteilungen". Hier kann man die
@@ -18,7 +22,7 @@ Berechtigungen des Benutzers vergeben werden. Hat ein Benutzer die Berechtigung
 "Abteilungsleiter" konfiguriert, ist er in der Lage tatsächlich Abteilungsleiter
 einer Abteilung zu werden. 
 
-![Konfiguration der Berechtigung Abteilungsleiter](../images/abteilungsleiter-berechtigung.png)
+![Konfiguration der Berechtigung Abteilungsleiter](abteilungsleiter-berechtigung.png)
 
 Nun geht man über die Menüleiste zu den "Abteilungen". Hier bearbeitet man eine
 bestehende Abteilung oder legt eine neue an. Beim Zuordnen der Mitarbeiter zu
@@ -27,4 +31,4 @@ Berechtigung haben, die zusätzliche Auswahlmöglichkeit "ist Abteilungsleiter".
 Wählt man diese aus und speichert die Zuordnung, ist der entsprechende Benutzer
 nun Abteilungsleiter dieser Abteilung.
 
-![Abteilungsleiter einer Abteilung konfigurieren](../images/abteilungsleiter-abteilung.png)
+![Abteilungsleiter einer Abteilung konfigurieren](abteilungsleiter-abteilung.png)

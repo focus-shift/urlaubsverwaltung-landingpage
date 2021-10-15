@@ -1,3 +1,7 @@
+---
+layout: layout-subpage
+---
+
 ## Wie kann ich die geltenden Feiertage für die Urlaubsverwaltung konfigurieren?
 
 In der Menüleiste gibt es einen Punkt "Einstellungen". Hier kann das Bundesland

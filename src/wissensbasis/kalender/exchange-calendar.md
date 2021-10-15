@@ -1,3 +1,7 @@
+---
+layout: layout-subpage
+---
+
 ![](https://img.shields.io/badge/status-deprecated-yellow) 
 
 ## Welche Bedingungen muss der Exchange Benutzer erfüllen?

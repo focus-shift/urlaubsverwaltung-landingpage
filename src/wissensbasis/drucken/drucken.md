@@ -1,3 +1,7 @@
+---
+layout: layout-subpage
+---
+
 ## Wie konfiguriere ich Ausdrucke
 
 Auf manchen Seiten der Urlaubsverwaltung gibt es einen "Drucken" Button. Dieser
@@ -12,11 +16,11 @@ daher nur im Querformat gedruckt werden. Beim Auslösen des Drucks ist dann also
 darauf zu achten, dass beim Punkt "Ausrichtung" der Wert "Querformat" aktiviert
 ist:
 
-![Seite einrichten](../images/seite_einrichten.png)
+![Seite einrichten](seite_einrichten.png)
 
 Man kann sich auch eine Druckvorschau anzeigen lassen, wenn man statt über den
 "Drucken" Button über die normale Druckfunktion des Browsers druckt. Dann sieht
 man auch das jeweilige Verhalten im Quer- und Hochformat,
 vgl. 
 
-![Beispiel Screenshot](../images/druckvorschau.png)
+![Beispiel Screenshot](druckvorschau.png)

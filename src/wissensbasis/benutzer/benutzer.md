@@ -1,3 +1,7 @@
+---
+layout: layout-subpage
+---
+
 ## Welche Berechtigungen gibt es?
 
 In der Urlaubsverwaltung gibt es aktuell folgende Arten von Berechtigungen:
@@ -31,7 +35,7 @@ Die Urlaubsverwaltung nutzt zur Verwaltung von Benutzern einen konfigurierbaren 
 Beim Editieren des Benutzers muss folgende Berechtigung ausgewählt werden:
 > hat keinen Zugang mehr zur Urlaubsverwaltung (Daten des Benutzers bleiben bestehen)
 
-![Inaktivieren eines Benutzers](../images/benutzer-inaktiv.png)
+![Inaktivieren eines Benutzers](benutzer-inaktiv.png)
 
 Mit dieser Berechtigung kann sich der Benutzer nicht mehr einloggen, aber seine Daten bleiben zu Archivierungszwecken bestehen.
 
@@ -58,7 +62,7 @@ dann notwendig, wenn der Urlaubsanspruch für das nächste Jahr sich vom
 diesjährigen unterscheidet. Ansonsten hat der Benutzer im nächsten Jahr einfach
 den gleichen Urlaubsanspruch, den er im aktuellen Jahr hat.
 
-![Urlaubsanspruch bearbeiten](../images/holiday_next_year.png)
+![Urlaubsanspruch bearbeiten](holiday_next_year.png)
 
 ## Muss ich den Resturlaub der Benutzer manuell eintragen?
 
