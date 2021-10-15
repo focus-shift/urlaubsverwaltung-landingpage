@@ -1,0 +1,70 @@
+---
+layout: layout
+title: Abwesenheitsübersicht
+backgroundColor: bg-lightBlue-50
+---
+
+{{> partials/navigation active="funktionen" }}
+
+<main class="flex-1 mt-4 md:mt-16 2xl:mt-32 mb-32 pb-12 sm:pb-32 md:pb-24 w-full max-w-screen-xl mx-auto">
+  <div class="px-4 xl:px-2">
+    <h1>Abwesenheitsübersicht</h1>
+
+    Die Abwesenheitsübersicht erlaubt dir einen detailierten Einblick in die Abwesenheiten deiner Kollegen, Teams oder deines gesamten Unternehmens.
+
+    <div class="flex flex-1 mb-8 md:mb-0 max-w-max justify-center">
+      <div class="shadow-lg rounded-b md:rounded-b-lg xl:rounded-b-2xl">
+        {{> partials/browser-head width='860' height='39' }}
+        <div class="border-l-2 border-r-2 border-b-2 border-gray-700 rounded-b md:rounded-b-lg xl:rounded-b-2xl">
+          <picture>
+            <source srcset="../static/uv-feature-abwesenheitsuebersicht.png" media="(max-width: 639px)">
+            <img
+              src="../static/uv-feature-abwesenheitsuebersicht.png"
+              alt="Übersicht zu den Abwesenheiten deiner Kollegen"
+              class="rounded-b md:rounded-b-lg xl:rounded-b-2xl"
+              width="860px"
+              height="680px"
+            >
+          </picture>
+        </div>
+      </div>
+    </div>
+
+    <div class="grid md:grid-cols-2 gap-4 lg:gap-8">
+      <div class="bg-lightBlue-50 flex flex-col">
+        <h2 class="text-lightBlue-900 text-xl my-6">
+          Monats- und Jahresauswahl
+        </h2>
+        <p class="flex-1 text-black text-opacity-60 mb-6">
+          Wähle einen beliebigen Monat oder gleich ganz ein ganzes Jahr. Ganz egal ob direkt im Browser oder zum Ausdrucken - alle Abwesenheiten auf einen Blick!
+        </p>
+      </div>
+      <div class="bg-lightBlue-50 flex flex-col">
+        <h2 class="text-lightBlue-900 text-xl my-6">
+          Abteilungsfilter
+        </h2>
+        <p class="flex-1 text-black text-opacity-60 mb-6">
+          Mit der Filtermöglichkeit auf Abteilungsebene hast du dir schnell einen Überblick zu den Abwesenheiten deiner Kollegen verschafft.
+          Oder ist ein Abteilungsübergeifender Workshop geplant? Kein Problem mit der Möglichkeit Abwesenheiten über Abteilungsgrenzen hinweg einzusehen ist schnell ein passender Termin gefunden.
+        </p>
+      </div>
+      <div class="bg-lightBlue-50 flex flex-col">
+        <h2 class="text-lightBlue-900 text-xl my-6">
+          Urlaube, Krankheiten und mehr
+        </h2>
+        <p class="flex-1 text-black text-opacity-60 mb-6">
+          Neben den Abwesenheiten in Form von Urlaub oder Krankheit, sind auch Feiertage und Wochenenden immer mit im Blick. 
+          Dabei bleibt auch der aktuelle Genehmigungszustand nicht auf der Strecke und du behälst den Durchblick!
+        </p>
+      </div>
+      <div class="bg-lightBlue-50 flex flex-col">
+        <h2 class="text-lightBlue-900 text-xl my-6">
+          Datenschutz und Sichbarkeit
+        </h2>
+        <p class="flex-1 text-black text-opacity-60 mb-6">
+          Die Ansicht ist an deine Rolle und Abteilungszugehörigkeit angepasst. Somit siehst du immer nur das was für dich relevant ist - schnell, einfach und datenschutzkonform.
+        </p>
+      </div>
+    </div>
+  </div>
+</main>
