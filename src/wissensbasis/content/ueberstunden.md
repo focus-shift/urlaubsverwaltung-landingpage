@@ -1,0 +1,32 @@
+## Kann ich die Überstundenfunktion deaktivieren?
+
+Jein. Unter dem Menüpunkt "Einstellungen" beim Tab "Arbeitszeiten" kann die
+Überstundenfunktion deaktiviert werden. Dies hat zur Folge, dass keine
+Überstundeneinträge angelegt werden können. Außerdem wird die
+Überstundenübersicht auf der persönlichen Übersichtsseite ausgeblendet.
+
+Sollte die Überstundenfunktion in der Vergangenheit genutzt worden sein und wird
+nachträglich deaktiviert, so hat dies keine Auswirkung auf die bestehenden
+Überstundeneinträge; diese bleiben erhalten. Es können allerdings keine neuen
+Überstundeneinträge angelegt werden.
+
+## Wer wird informiert, wenn ein Überstundeneintrag angelegt wurde?
+
+Wenn ein Überstundeneintrag erstellt wurde oder ein bereits bestehender editiert
+wurde, erhalten die Benutzer, die die Office Berechtigung haben und bei denen
+die entsprechende E-Mail-Benachrichtigung aktiv ist, eine E-Mail.
+
+Voraussetzung: Der E-Mail-Versand ist unter dem Menüpunkt "Einstellungen"
+aktiviert und korrekt konfiguriert.
+
+## Kann ich die Überstundenpflege nur für privilegierte Benutzer erlauben?
+
+Ja, durch eine globale Konfiguration in den Einstellungen ist die Eintragung, Anpassung, Löschung von Überstunden auf privilegierte Benutzer in den Rollen Office, Chef, Abteilungsleiter, Freigabe-Verantwortlicher eingeschränkt. Anwender in der normalen Benutzer Rolle dürfen ihre Überstunden dann lediglich einsehen. Die Konfiguration kann unter "Einstellungen" im Tab "Arbeitszeiten" unter "Einstellungen zu Überstunden" mit der Konfiguration "Pflege von Überstunden nur durch privilegierte Benutzer" aktiviert werden.
+
+## Ist es möglich für einen Urlaubsantrag auf Überstundenabbau eine minimale Stundenanzahl zu konfigurieren?
+
+Ja, ein Urlaubsantrag auf Überstundenabbau ist mit einer Minimalstundenanzahl konfigurierbar. Damit müssen pro Antrag mindestens die konfigurierten Minimalstunden abgebaut werden. Diese Minimalstundenanzahl kann über die Einstellungen der Urlaubsverwaltung global konfiguriert werden. Die Konfiguration kann unter "Einstellungen" im Tab "Arbeitszeiten" unter "Einstellungen zu Überstunden" mit der Konfiguration "Minimale Anzahl an abgebauten Stunden pro Antrag" aktiviert werden.
+
+## Ist der Überstundenabbau deaktivierbar?
+
+Ja, die Funktionalität den Abbau von Überstunden direkt eintragen zu können ist über eine globale Konfiguration in den Einstellungen deaktivierbar. Die Konfiguration kann unter "Einstellungen" im Tab "Arbeitszeiten" unter "Einstellungen zu Überstunden" mit der Konfiguration "Überstundenabbau ohne Urlaubsantrag aktivieren" aktiviert werden.
