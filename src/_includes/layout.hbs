@@ -16,15 +16,17 @@
 	{{> partials/font-lato }}
 </head>
 
-<body class="flex flex-col min-h-full {{backgroundColor}}">
+<body id="top" class="flex flex-col min-h-full {{backgroundColor}}">
 	<div class="flex-1">
 		{{{ content }}}
 	</div>
 	{{> partials/footer }}
+	{{> partials/to-top-button }}
 
 	<script async defer data-domain="urlaubsverwaltung.cloud" src="https://stats.urlaubsverwaltung.cloud/js/index.js"></script>
 	<script defer src="/static/js/goals.js" type="module"></script>
 	<script defer src="/static/js/navigation.js" type="module"></script>
+	<script defer src="/static/js/top.js" type="module"></script>
 	<script defer src="/static/js/easteregg.js" type="module"></script>
 	<script defer src="/static/js/page-prerenderer.js" type="module"></script>
 	{{> partials/support-chat}}
