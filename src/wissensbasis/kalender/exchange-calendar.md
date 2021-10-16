@@ -1,5 +1,7 @@
 ---
-layout: layout-subpage
+layout: layout-wissensbasis
+breadcrumb:
+  title: Exchange
 ---
 
 ![](https://img.shields.io/badge/status-deprecated-yellow) 

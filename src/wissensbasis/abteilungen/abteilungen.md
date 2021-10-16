@@ -1,5 +1,7 @@
 ---
-layout: layout-subpage
+layout: layout-wissensbasis
+breadcrumb:
+  title: Abteilungen
 ---
 
 ## Wie kann eine Abteilung angelegt werden?

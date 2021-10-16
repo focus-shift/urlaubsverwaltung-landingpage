@@ -1,5 +1,7 @@
 ---
-layout: layout-subpage
+layout: layout-wissensbasis
+breadcrumb:
+  title: Benutzer
 ---
 
 ## Welche Berechtigungen gibt es?

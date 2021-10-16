@@ -1,5 +1,7 @@
 ---
-layout: layout-subpage
+layout: layout-wissensbasis
+breadcrumb:
+  title: Drucken
 ---
 
 ## Wie konfiguriere ich Ausdrucke

@@ -1,5 +1,7 @@
 ---
-layout: layout-subpage
+layout: layout-wissensbasis
+breadcrumb:
+  title: Feiertage
 ---
 
 ## Wie kann ich die geltenden Feiertage für die Urlaubsverwaltung konfigurieren?

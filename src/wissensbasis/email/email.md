@@ -1,5 +1,7 @@
 ---
-layout: layout-subpage
+layout: layout-wissensbasis
+breadcrumb:
+  title: E-Mail
 ---
 
 ## Wo konfiguriere ich den E-Mail-Versand?

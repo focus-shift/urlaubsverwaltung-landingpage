@@ -1,5 +1,7 @@
 ---
-layout: layout-subpage
+layout: layout-wissensbasis
+breadcrumb:
+  title: Kalenderfreigabe
 ---
 
 #### Welche Formen der iCal Kalenderfreigabe gibt es?
