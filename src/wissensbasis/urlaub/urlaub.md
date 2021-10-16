@@ -1,5 +1,7 @@
 ---
-layout: layout-subpage
+layout: layout-wissensbasis
+breadcrumb:
+  title: Urlaub
 ---
 
 ## Workflow bei Urlaubsanträgen

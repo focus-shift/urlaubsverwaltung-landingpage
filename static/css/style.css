@@ -5,6 +5,7 @@
 @layer base {
 	html {
 		height: 100%;
+		scroll-padding-top: 4rem; /* 64px for 16px font size */
 	}
 
 	html,

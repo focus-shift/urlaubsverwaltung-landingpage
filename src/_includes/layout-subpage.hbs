@@ -12,6 +12,9 @@
 	<link rel="preload" href="/static/font/lato/Lato-Bold.woff2" as="font" type="font/woff2" crossorigin />
 	<link rel="preload" href="https://support.apps.urlaubsverwaltung.cloud/assets/chat/chat.css" as="style" crossorigin />
 	<link rel="stylesheet" href="/static/css/style.css" />
+	{{#each stylesheets}}
+		<link rel="stylesheet" href="{{this}}" />
+	{{/each}}
 	{{> partials/font-raleway }}
 	{{> partials/font-lato }}
 </head>

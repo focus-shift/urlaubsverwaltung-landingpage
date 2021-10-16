@@ -1,0 +1,61 @@
+.breadcrumb {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.breadcrumb .breadcrumb-item {
+    position: relative;
+    display: flex;
+    align-items: baseline;
+}
+
+.breadcrumb .breadcrumb-item:not(:last-child)::after {
+    content: "";
+    display: inline-block;
+    width: 0.66rem;
+    height: 0.66rem;
+    margin-left: 0.5rem;
+    background-image: url('data:image/svg+xml;charset=UTF-8,<svg fill="none" stroke="black" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 5l7 7-7 7M5 5l7 7-7 7"></path></svg>');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+/*
+============================================================
+*/
+
+.toc-menu {
+    max-width: 37ch;
+}
+
+.toc-menu-item {
+    @apply text-sm;
+    @apply transition-colors;
+}
+
+.toc-menu-item::before {
+    content: "\2022";
+    color: theme("colors.gray.400");
+    display: inline-block;
+    width: 1em;
+    margin-left: -1em;
+}
+
+.toc-menu-item:hover::before {
+    color: theme("colors.gray.900");
+}
+
+.toc-menu-item:not(:last-child) {
+    margin-bottom: 0.75rem;
+}
+
+.toc-menu-item a {
+    color: theme("colors.gray.400");
+}
+
+.toc-menu-item a:hover {
+    color: theme("colors.gray.900");
+}
+

@@ -1,0 +1,34 @@
+---
+layout: layout-subpage
+stylesheets:
+  - /static/css/wissensbasis.css
+---
+
+<div class="flex">
+	<div class="sticky top-24 self-start w-1/3">
+		<ul class="mb-8 flex breadcrumb">
+			<li class="breadcrumb-item">
+				<a href="/wissensbasis/" class="transition-colors text-gray-900 hover:text-black">
+					Wissensbasis
+				</a>
+			</li>
+			<li class="breadcrumb-item">
+				<span class="transition-colors text-gray-900 hover:text-black">
+					{{breadcrumb.title}}
+				</span>
+			</li>
+		</ul>
+		<ul class="toc-menu">
+			{{#toc this}}
+				<li class="toc-menu-item">
+					<a href="{{link}}">
+						{{text}}
+					</a>
+				</li>
+			{{/toc}}
+		</ul>
+	</div>
+	<div class="wissensbasis-content flex-1">
+		{{{content}}}
+	</div>
+</div>
