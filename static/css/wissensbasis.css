@@ -59,3 +59,27 @@
     color: theme("colors.gray.900");
 }
 
+/*
+============================================================
+*/
+
+.wissensbasis-content {
+    h1, h2, h3, h4, h5, h6 {
+        margin-bottom: 1.5rem;
+        @apply text-xl;
+        @apply font-bold;
+    }
+
+    p + h1,
+    p + h2,
+    p + h3,
+    p + h4,
+    p + h5,
+    p + h6 {
+        margin-top: 3.5rem;
+    }
+
+    p {
+        margin-bottom: 1rem;
+    }
+}
