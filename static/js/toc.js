@@ -23,3 +23,17 @@ window.addEventListener("DOMContentLoaded", () => {
 	});
 });
 
+window.addEventListener("click", function (event) {
+	if (
+		event.target.tagName === "A" &&
+		event.target.parentNode.classList.contains("toc-menu-item")
+	) {
+		const linkTarget = document.querySelector(
+			"#" + event.target.href.split("#")[1],
+		);
+		if (linkTarget) {
+			linkTarget.scrollIntoView({ behavior: "smooth" });
+			event.preventDefault();
+		}
+	}
+});
