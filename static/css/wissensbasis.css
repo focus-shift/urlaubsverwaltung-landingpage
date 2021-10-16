@@ -79,7 +79,31 @@
         margin-top: 3.5rem;
     }
 
-    p {
+    p,
+    ul {
         margin-bottom: 1rem;
+    }
+
+    p a {
+        @apply transition-colors;
+        color: theme("colors.lightBlue.700");
+        text-decoration: underline;
+    }
+
+    p a:hover,
+    p a:focus {
+        color: theme("colors.lightBlue.900");
+    }
+
+    ul {
+        list-style: disc;
+        margin-left: 1.25rem;
+    }
+
+    li {
+    }
+
+    li:not(:last-child) {
+        margin-bottom: 0.25rem;
     }
 }
