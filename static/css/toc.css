@@ -1,0 +1,40 @@
+.toc-menu {
+    max-width: 37ch;
+}
+
+.toc-menu ul {
+    max-width: 37ch;
+    margin-top: 1rem;
+}
+
+.toc-menu-item {
+    @apply text-sm;
+    @apply transition-colors;
+    margin-left: 1rem;
+}
+
+.toc-menu-item:hover::before {
+    color: theme("colors.gray.900");
+}
+
+.toc-menu-item:not(:last-child) {
+    margin-bottom: 0.75rem;
+}
+
+.toc-menu-item a {
+    color: theme("colors.gray.400");
+}
+
+.toc-menu-item a::before {
+    content: "\2022";
+    color: theme("colors.gray.400");
+    display: inline-block;
+    width: 1em;
+    margin-left: -1rem;
+}
+
+.toc-menu-item a:hover,
+.toc-menu-item a[aria-current="location"],
+.toc-menu-item a[aria-current="location"]::before {
+    color: theme("colors.gray.900");
+}
