@@ -20,7 +20,7 @@
 </head>
 
 <body id="top" class="flex flex-col min-h-full {{backgroundColor}}">
-	{{> partials/navigation }}
+	{{> partials/navigation active=navigation.activeItem }}
 	<main class="flex-1 pb-12 sm:pb-32 md:pb-24">
 		<div class="w-full max-w-screen-xl mx-auto px-4 xl:px-2">
 			{{{ content }}}
