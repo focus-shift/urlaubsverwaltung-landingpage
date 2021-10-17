@@ -47,14 +47,14 @@
         margin-bottom: 1rem;
     }
 
-    p a {
+    a {
         @apply transition-colors;
         color: theme("colors.lightBlue.700");
         text-decoration: underline;
     }
 
-    p a:hover,
-    p a:focus {
+    a:hover,
+    a:focus {
         color: theme("colors.lightBlue.900");
     }
 
