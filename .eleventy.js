@@ -9,7 +9,7 @@ const paths = {
 };
 
 module.exports = function (eleventyConfig) {
-	eleventyConfig.setTemplateFormats(["njk", "hbs", "md", "txt"]);
+	eleventyConfig.setTemplateFormats(["njk", "hbs", "md", "html", "txt"]);
 
 	eleventyConfig.addPassthroughCopy("src/**/*.{png,jpg,jpeg,webp,avif}");
 
