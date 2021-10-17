@@ -1,10 +1,12 @@
 ---
 layout: layout-wissensbasis
 breadcrumb:
-  title: Kalenderfreigabe
+  title: Kalender
 ---
 
-#### Welche Formen der iCal Kalenderfreigabe gibt es?
+## Kalenderfreigabe
+
+### Welche Formen der iCal Kalenderfreigabe gibt es?
 
 Die Urlaubsverwaltung bietet die folgenden Möglichkeiten für eine iCal Kalenderfreigabe:
 
@@ -14,7 +16,7 @@ Die Urlaubsverwaltung bietet die folgenden Möglichkeiten für eine iCal Kalende
 
 Diesen Freigabe-Link kennst nur du. Gehe verantwortungsvoll damit um. Jeder, der diese URL kennt, hat Zugriff auf deinen Kalender.
 
-#### Wie kann ich einen Kalender per iCal freigeben?
+### Wie kann ich einen Kalender per iCal freigeben?
 
 Die Kalenderfreigabe kann pro Benutzer konfiguriert werden. Um die Konfiguration in der Urlaubsverwaltung durchzuführen sind folgende Schritte zu tun:
 1. Klicke auf "Kalenderfreigabe" in der Übersichtsseite oberhalb des Kalenders
@@ -29,7 +31,7 @@ Die Kalenderfreigabe kann pro Benutzer konfiguriert werden. Um die Konfiguration
 
 ![Kalenderfreigabe Link](kalenderfreigabe-link.png)
 
-#### Wie kann ich eine Freigabe löschen?
+### Wie kann ich eine Freigabe löschen?
 
 Eine Freigabe kann über folgende Schritte gelöscht werden:
 1. Klicke auf "Kalenderfreigabe" in der Übersichtsseite oberhalb des Kalenders
@@ -40,7 +42,7 @@ Eine Freigabe kann über folgende Schritte gelöscht werden:
 
 ![Kalenderfreigabe löschen](kalenderfreigabe-löschen.png)
 
-#### Welche Möglichkeiten habe ich eine iCal Kalenderfreigabe in meinem Client zu verwenden?
+### Welche Möglichkeiten habe ich eine iCal Kalenderfreigabe in meinem Client zu verwenden?
 
 Hier eine Liste von Anleitungen beliebter Kalenderlösungen, welche die iCal Kalenderfreigabe unterstützen:
 
@@ -49,10 +51,45 @@ Hier eine Liste von Anleitungen beliebter Kalenderlösungen, welche die iCal Kal
 * [Mircosoft Outlook](https://support.microsoft.com/de-de/office/importieren-oder-abonnieren-eines-kalenders-in-outlook-com-cff1429c-5af6-41ec-a5b4-74f2c278e98c)
 * [Mozilla Thunderbird](https://support.mozilla.org/de/kb/neue-kalender-erstellen#w_icalendar-ics)
 
-#### Wird die iCal Kalenderfreigabe die bisherigen Kalenderintegrationen wie Exchange und Google Calendar ersetzen?
+### Wird die iCal Kalenderfreigabe die bisherigen Kalenderintegrationen wie Exchange und Google Calendar ersetzen?
 
 Ja, wir haben die Kalenderintegration für Google Calendar und Exchange in Version 4 der Urlaubsverwaltung als `deprecated` makiert und werden diese in Version 5 entfernen. Die Integration kann aber ohne weitere Einschränkungen durch die iCal Kalenderfreigabe ersetzt werden.
 
-##### Welche Vorteile bringt mir das?
+#### Welche Vorteile bringt mir das?
 
 Durch die iCal Kalenderfreigabe können die Berechtigungen und Sichtbarkeiten feingranular konfiguriert werden, wodurch ein Datenschutz-konformer Einsatz möglich wird.
+
+## Exchange
+
+![](https://img.shields.io/badge/status-deprecated-yellow)
+
+### Welche Bedingungen muss der Exchange Benutzer erfüllen?
+
+Es wird die E-Mail-Adresse und das Passwort des Exchange Benutzers angegeben,
+der automatisch Termine anlegen soll. Für diese Zugangsdaten muss der
+Autodiscoverdienst funktionieren - am Besten dies vorher separat testen.
+
+Außerdem muss der Benutzer über folgende Berechtigungen verfügen:
+* Kalender anlegen können
+* Termine im angegebenen Kalender anlegen können
+* beim Anlegen von Terminen die entsprechenden Benutzer einladen können
+  (E-Mail-Adresse der Benutzer wird hierzu verwendet)
+
+
+### Muss der konfigurierte Kalender existieren?
+
+Bei der Synchronisierung wird überprüft, ob es bereits einen Kalender mit dem
+angegebenen Namen gibt. Wenn kein Kalender mit diesem Namen existiert, wird
+automatisch ein neuer angelegt.
+
+## Google
+
+![](https://img.shields.io/badge/status-deprecated-yellow)
+
+Die Urlaubsverwaltung kann an einen Google Kalender angebunden werden, dazu sind folgende Dinge nötig
+
+1. **Google Kalender API** aktivieren ([Enable and disable APIs](https://cloud.google.com/apis/docs/enable-disable-apis))
+2. Die **OAuth2 Client Id** als Webanwendung konfigurieren (https://console.developers.google.com).
+3. Das **OAuth2 Client Secret** bekommt man durch die Konfiguration des OAuth Clients.
+4. Die **Kalender ID** ist die sogenannte "Kalenderadresse" die man in den Kalender Details findet.
+5. Die **Weiterleitungs-URL** muss beim OAuth Client als "Autorisierte Weiterleitungs-URL" angegeben werden.
