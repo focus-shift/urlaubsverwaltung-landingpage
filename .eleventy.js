@@ -20,8 +20,8 @@ module.exports = function (eleventyConfig) {
 			linkify: true
 		})
 		.use(markdownItAnchor, {
-			permalink: markdownItAnchor.permalink.headerLink({ safariReaderFix: true }),
 			slugify: str => slugify(str),
+			tabIndex: false,
 		})
 	);
 
