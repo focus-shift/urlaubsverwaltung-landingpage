@@ -24,15 +24,7 @@ navigation:
 			</li>
 		</ul>
 		<div class="hidden lg:block flex-1 overflow-y-auto w-full pb-16" style="max-height: calc(100vh - 10rem);">
-			<ul class="toc-menu">
-				{{#toc this}}
-					<li class="toc-menu-item">
-						<a href="{{link}}">
-							{{text}}
-						</a>
-					</li>
-				{{/toc}}
-			</ul>
+			{{#toc this}}{{/toc}}
 		</div>
 	</div>
 	<div class="wissensbasis-content flex-1 bg-white rounded-2xl p-4 lg:p-8">

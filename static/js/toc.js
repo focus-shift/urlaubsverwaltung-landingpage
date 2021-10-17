@@ -1,5 +1,7 @@
 const headingElements = [
-	...document.querySelectorAll(".wissensbasis-content h2"),
+	...document.querySelectorAll(
+		".wissensbasis-content h2, .wissensbasis-content h3",
+	),
 ];
 
 window.addEventListener("DOMContentLoaded", () => {

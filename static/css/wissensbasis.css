@@ -30,6 +30,11 @@
     max-width: 37ch;
 }
 
+.toc-menu ul {
+    max-width: 37ch;
+    margin-top: 1rem;
+}
+
 .toc-menu-item {
     @apply text-sm;
     @apply transition-colors;
