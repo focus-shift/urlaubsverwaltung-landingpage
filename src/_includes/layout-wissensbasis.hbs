@@ -25,7 +25,13 @@ navigation:
 			</li>
 		</ul>
 		<div class="hidden lg:block flex-1 overflow-y-auto w-full pb-16" style="max-height: calc(100vh - 10rem);">
-			{{#toc this}}{{/toc}}
+			<div class="mb-8">
+				{{#toc this}}{{/toc}}
+			</div>
+			<div class="text-sm pr-8">
+				<hr class="mb-8" />
+				{{> partials/contact-info }}
+			</div>
 		</div>
 	</div>
 	<div class="wissensbasis-content flex-1 bg-white rounded-2xl p-4 lg:p-8">
