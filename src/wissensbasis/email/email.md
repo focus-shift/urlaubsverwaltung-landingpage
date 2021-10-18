@@ -6,10 +6,24 @@ breadcrumb:
 
 ## Wo konfiguriere ich den E-Mail-Versand?
 
+<aside class="wissensbasis-saas-info">
+  <p>
+    Verwendest du urlaubsverwaltung.cloud als Saas hast du hier nichts weiter zu tun.<br />
+    Wir haben für dich bereits alles eingerichtet!
+  </p>
+</aside>
+
 Die Konfiguration des E-Mail-Versands wird über Anwendungskonfiguration vorgenommen.
 Mehr technische Details gibt es [auf der Github Projektseite](https://github.com/synyx/urlaubsverwaltung#e-mail-server-konfigurieren).
 
 ## Die Links zu gestellten Urlaubsanträgen in den verschickten E-Mails sind nicht korrekt, was kann ich tun?
+
+<aside class="wissensbasis-saas-info">
+  <p>
+    Verwendest du urlaubsverwaltung.cloud als Saas hast du hier nichts weiter zu tun.<br />
+    Wir haben für dich bereits alles eingerichtet!
+  </p>
+</aside>
 
 Wie die Basis URL der Links in den verschickten E-Mails aussieht, wird ebenfalls
 über Anwendungskonfiguration vorgenommen. Mehr Details gibt es [auf der Github Projektseite](https://github.com/synyx/urlaubsverwaltung#e-mail-server-konfigurieren).
