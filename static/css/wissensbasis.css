@@ -27,9 +27,15 @@
 */
 
 .wissensbasis-content {
-    h1, h2, h3, h4, h5, h6 {
+    h1, h2 {
         margin-bottom: 1.5rem;
         @apply text-2xl;
+        @apply font-bold;
+    }
+
+    h3, h4, h5, h6 {
+        margin-bottom: 1.25rem;
+        @apply text-lg;
         @apply font-bold;
     }
 
