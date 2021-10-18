@@ -4,8 +4,9 @@
 
 @layer base {
 	html {
+		--scroll-padding-top: 8rem;
 		height: 100%;
-		scroll-padding-top: 8rem;
+		scroll-padding-top: var(--scroll-padding-top);
 	}
 
 	html,
@@ -27,6 +28,11 @@
 }
 
 @layer components {
+	.top-anchor {
+		margin-top: calc(-1 * var(--scroll-padding-top) + 4rem); /* 4rem height of navigation */
+		margin-bottom: var(--scroll-padding-top);
+	}
+
 	.to-top-button {
 		padding: 1rem;
 		border-radius: 99999px;

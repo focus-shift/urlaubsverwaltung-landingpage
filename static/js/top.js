@@ -1,7 +1,7 @@
 (function () {
 	const toTopButton = document.querySelector("a[href='#top']");
 	const container = toTopButton.parentNode;
-	const target = document.querySelector("#" + toTopButton.href.split("#")[1]);
+	const target = document.querySelector("#top");
 
 	container.classList.remove("hidden");
 	container.classList.add(
