@@ -58,9 +58,18 @@
         color: theme("colors.lightBlue.900");
     }
 
+    ul,
+    ol {
+        margin-left: 1.25rem;
+        margin-bottom: 1rem;
+    }
+
     ul {
         list-style: disc;
-        margin-left: 1.25rem;
+    }
+
+    ol {
+        list-style: decimal;
     }
 
     li {
