@@ -4,44 +4,39 @@ breadcrumb:
   title: Urlaub
 ---
 
-## Workflow bei Urlaubsanträgen
-
-![Workflow bei Urlaubsanträgen](urlaub.png)
-
 ## Wer genehmigt Urlaub?
 
 Der Urlaub kann entweder vom Abteilungsleiter des Mitarbeiters oder von
-globalen Chefs genehmigt werden.
-
-## Wird der im Urlaubsantrag ausgewählte Vertreter informiert?
-
-Der Vertreter erhält eine Mitteilung per E-Mail, vorausgesetzt der
-E-Mail-Versand ist unter dem Menüpunkt "Einstellungen" aktiviert und korrekt
-konfiguriert.
+globalen Chefs genehmigt werden. 
 
 ## Wer wird informiert, wenn ein Urlaubsantrag gestellt wurde?
 
 Wenn ein Urlaubsantrag gestellt wurde, erhalten sowohl Abteilungsleiter des
 Mitarbeiters als auch globale Chefs eine E-Mail-Benachrichtigung.
-(vorausgesetzt bei diesen Personen ist die entsprechende E-Mail-Benachrichtigung
-aktiviert)
 
-Voraussetzung: Der E-Mail-Versand ist unter dem Menüpunkt "Einstellungen"
-aktiviert und korrekt konfiguriert.
+Vorausgesetzt bei diesen Personen ist die entsprechende E-Mail-Benachrichtigung
+aktiviert.
 
 ## Wer wird informiert, wenn ein Urlaubsantrag genehmigt wurde?
 
 Wenn ein Urlaubsantrag genehmigt wurde, erhalten sowohl der betroffene
-Mitarbeiter als auch die Office Nutzer eine E-Mail-Benachrichtigung.
-(vorausgesetzt beim Office ist entsprechende E-Mail-Benachrichtigung aktiviert)
-
-Voraussetzung: Der E-Mail-Versand ist unter dem Menüpunkt "Einstellungen"
-aktiviert und korrekt konfiguriert.
+Mitarbeiter als auch die Office-Benutzer eine E-Mail-Benachrichtigung.
+Vorausgesetzt beim Office-Benutzer ist die entsprechende E-Mail-Benachrichtigung aktiviert.
 
 ## Wer wird informiert, wenn ein Urlaubsantrag abgelehnt wurde?
 
 Wenn ein Urlaubsantrag abgelehnt wurde, erhält nur der betroffene Mitarbeiter
 eine E-Mail.
+
+## Kann eine Urlaubsvertretung angegeben werden?
+
+Ja, bei der Antragsstellung können optional eine oder mehrere Urlaubsvertretungen angegeben werden. Für jede Vertretung kann eine eigene Notiz hinterlegt werden. Die ausgewählten Personen werden über die Vertretung per E-Mail benachrichtigt. Außerdem ist für die Vertretung unter dem Menü-Punkt "Urlaub" im Abschnitt "Aktuelle und zukünftige Vertretungen" eine Übersicht aller Vertretungen einsehbar.
+
+![Übersicht zu aktuellen und zukünftigen Vertretungen](uebersicht-vertretungen.png)
+
+## Wird die Urlaubsvertretung informiert?
+
+Die Vertretung erhält eine Mitteilung per E-Mail. Die E-Mail enthält zusätzlich einen Kalendereintrag als Anhang für den Import in den eigenen Kalender. 
 
 ## Wie funktioniert der zweistufige Genehmigungsprozess von Urlaubsanträgen?
 
@@ -61,36 +56,21 @@ nutzen.
 
 ## Wie kann ich die Art des Urlaubs bei einem Urlaubsantrag bearbeiten?
 
-Aktuell ist es noch nicht möglich, bestehende Urlaubsanträge zu bearbeiten.
-(offenes Issue #12)
+Die Art des Urlaubs kann noch angepasst werden solange der Antrag noch nicht genehmigt wurde. Das Bearbeiten kann durch den Mitarbeiter selbst durchgeführt werden.
 
-Um die Art des Urlaubs bei einem Urlaubsantrag zu bearbeiten, gibt es folgende
-Möglichkeiten:
+![Editieren eines Urlaubsantrags](editieren-urlaubsantrag.png)
 
-**Oberfläche**:
-Als privilegierter Benutzer den Urlaubsantrag stornieren und einen neuen
-Urlaubsantrag mit der korrekten Art des Urlaubs für den gleichen Zeitraum
-stellen.
-
-**Datenbank**:
-In der Datenbank der Urlaubsverwaltung in der Tabelle `Application` den
-entsprechenden Urlaubsantrag heraussuchen und den Wert im Feld `VacationType_id`
-anpassen auf die ID der gewünschten Urlaubsart, z.B. `3000` für `UNPAIDLEAVE`.
-Welche ID hier eingetragen werden muss, kann in der Tabelle `VacationType`
-nachgesehen werden.
+Um einen bereits genehmigten Antrag zu editieren, muss der bisherige Antrag stornieren können privilegierter Benutzer den Urlaubsantrag stornieren und einen neuen
+Urlaubsantrag mit der korrekten Art des Urlaubs für den gleichen Zeitraum erstellen.
 
 ## Wie funktioniert der Übergang zwischen zwei Jahren?
 
 Der Urlaub der im bisherigen Jahr noch nicht genommen wurde wird in das folgende Jahr übernommen. Diese Übernahme passiert in den Standard-Einstellungen am 1.1. des Folgejahres um 05:00 Uhr.
 Der übernommene Resturlaub beinhaltet alle bis zum 31.12. nicht genommenen Urlaubstage. Dieser Resturlaub kann dann bis zum Ende des Monats März genommen werden.
 
-![Urlaubsvertretung am Antrag](vertretung.png)
+## Workflow bei Urlaubsanträgen
 
-## Kann eine Urlaubsvertretung angegeben werden?
-
-Ja, bei der Antragsstellung können optional eine oder mehrere Urlaubsvertretungen angegeben werden. Für jede Vertretung kann eine eigene Notiz hinterlegt werden. Die ausgewählten Personen werden über die Vertretung per E-Mail benachrichtigt. Außerdem ist für die Vertretung unter dem Menü-Punkt "Urlaub" im Abschnitt "Aktuelle und zukünftige Vertretungen" eine Übersicht aller Vertretungen einsehbar.
-
-![Übersicht zu aktuellen und zukünftigen Vertretungen](uebersicht-vertretungen.png)
+![Workflow bei Urlaubsanträgen](urlaub.png)
 
 ## Technische Dokumentation für Application Status
 
