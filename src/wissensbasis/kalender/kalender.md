@@ -40,7 +40,7 @@ Eine Freigabe kann über folgende Schritte gelöscht werden:
 
 2. Wähle beim betreffenden Kalender "Freigabe löschen". Durch das Löschen ist der Zugriff über den geheimen Link nicht mehr möglich.
 
-![Kalenderfreigabe löschen](kalenderfreigabe-löschen.png)
+![Kalenderfreigabe löschen](kalenderfreigabe-loeschen.png)
 
 ### Welche Möglichkeiten habe ich eine iCal Kalenderfreigabe in meinem Client zu verwenden?
 
