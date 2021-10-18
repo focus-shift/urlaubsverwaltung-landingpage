@@ -6,7 +6,7 @@ breadcrumb:
 
 ## Wo konfiguriere ich den E-Mail-Versand?
 
-<aside class="wissensbasis-saas-info">
+<aside class="wissensbasis-info">
   <p>
     Verwendest du urlaubsverwaltung.cloud als Saas hast du hier nichts weiter zu tun.<br />
     Wir haben für dich bereits alles eingerichtet!
@@ -18,7 +18,7 @@ Mehr technische Details gibt es [auf der Github Projektseite](https://github.com
 
 ## Die Links zu gestellten Urlaubsanträgen in den verschickten E-Mails sind nicht korrekt, was kann ich tun?
 
-<aside class="wissensbasis-saas-info">
+<aside class="wissensbasis-info">
   <p>
     Verwendest du urlaubsverwaltung.cloud als Saas hast du hier nichts weiter zu tun.<br />
     Wir haben für dich bereits alles eingerichtet!
