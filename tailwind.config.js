@@ -62,6 +62,11 @@ module.exports = {
 			// since it would be added to the bottom of the css file
 			xs: "480px",
 			...defaultConfig.theme.screens,
+			// navbar has to be behind lg to override it
+			navbar: "1100px",
+			// xl and more are heavier than 'navbar'
+			xl: defaultConfig.theme.screens.xl,
+			"2xl": defaultConfig.theme.screens["2xl"],
 		},
 	},
 	variants: {

@@ -80,7 +80,7 @@
 	margin-left: -1rem;
 }
 
-@screen md {
+@screen navbar {
 	.navigation-item {
 		display: block;
 	}
@@ -172,7 +172,7 @@
 		--tw-translate-x: 0;
 	}
 
-	@screen md {
+	@screen navbar {
 		#menu-toggle-checkbox:checked + div > label ~ nav {
 			background-color: transparent;
 		}
