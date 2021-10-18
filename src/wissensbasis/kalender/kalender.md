@@ -27,7 +27,7 @@ Die Kalenderfreigabe kann pro Benutzer konfiguriert werden. Um die Konfiguration
 
 ![Kalenderfreigabe aktivieren](kalenderfreigabe-aktivieren.png)
 
-3. Es wird ein geheimer Link generiert, welchen du jetzt zum Abonnieren verwenden kannst. Weitere Infos über das Abonnieren findest du [hier](#welche-m%C3%B6glichkeiten-habe-ich-eine-ical-kalenderfreigabe-in-meinem-client-zu-verwenden).
+3. Es wird ein geheimer Link generiert, welchen du jetzt zum Abonnieren verwenden kannst. Weitere Infos über das Abonnieren findest du [hier](#welche-moeglichkeiten-habe-ich-eine-ical-kalenderfreigabe-in-meinem-client-zu-verwenden).
 
 ![Kalenderfreigabe Link](kalenderfreigabe-link.png)
 

@@ -108,7 +108,7 @@ function headingLevel(h) {
 function slugify(str) {
 	return str.toLowerCase()
 		.replace(/ä/g, 'ae')
-		.replace(/ö/g, 'ou')
+		.replace(/ö/g, 'oe')
 		.replace(/ü/g, 'ue')
 		.replace(/ß/g, 'ss')
 		.replace(/[?!.,$§]/g, '')
