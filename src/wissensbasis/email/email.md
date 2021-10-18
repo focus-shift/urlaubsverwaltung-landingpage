@@ -6,12 +6,13 @@ breadcrumb:
 
 ## Wo konfiguriere ich den E-Mail-Versand?
 
-Die Konfiguration des E-Mail-Versands wird über Anwendungskonfiguration vorgenommen. Mehr Details gibt es [hier](https://github.com/synyx/urlaubsverwaltung#e-mail-server-konfigurieren).
+Die Konfiguration des E-Mail-Versands wird über Anwendungskonfiguration vorgenommen.
+Mehr technische Details gibt es [auf der Github Projektseite](https://github.com/synyx/urlaubsverwaltung#e-mail-server-konfigurieren).
 
 ## Die Links zu gestellten Urlaubsanträgen in den verschickten E-Mails sind nicht korrekt, was kann ich tun?
 
 Wie die Basis URL der Links in den verschickten E-Mails aussieht, wird ebenfalls
-über Anwendungskonfiguration vorgenommen. Mehr Details gibt es [hier](https://github.com/synyx/urlaubsverwaltung#e-mail-server-konfigurieren).
+über Anwendungskonfiguration vorgenommen. Mehr Details gibt es [auf der Github Projektseite](https://github.com/synyx/urlaubsverwaltung#e-mail-server-konfigurieren).
 
 ## Wie kann ich den E-Mail-Versand für bestimmte Benutzer deaktivieren?
 
