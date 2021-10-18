@@ -4,10 +4,17 @@ breadcrumb:
   title: Krankmeldungen
 ---
 
-## Workflow bei Krankmeldungen
+## Wird an das Ende der Lohnfortzahlung erinnert?
+
+Ja, die Urlaubsverwaltung erinnert sowohl den Mitarbeiter als auch Personen mit der Berechtigung Office an das Ende der Lohnfortzahlung sofern der zusammenhängende Zeitraum einer Krankmeldung sechs Wochen übersteigt.
+
+Hierzu können in den _Einstellungen_ unter _Abwesenheiten_ die entsprechenden Zeiten gepflegt werden:
+
+![Einstellungen Krankmeldung](krankmeldung-einstellungen.png)
+
+## Ablauf bei Krankmeldungen
 
 ![Workflow bei Krankmeldungen](krankmeldung.png)
-
 
 ## Was passiert, wenn eine Krankmeldung in einem Urlaubszeitraum angelegt wird?
 
