@@ -61,7 +61,12 @@ Durch die iCal Kalenderfreigabe können die Berechtigungen und Sichtbarkeiten fe
 
 ## Exchange
 
-![](https://img.shields.io/badge/status-deprecated-yellow)
+<aside class="wissensbasis-info">
+  <p>
+    Die Exchange Integration wird nicht mehr gepflegt und wird demnächst ersetzt mit der 
+    allgemeinen <a href="#kalenderfreigabe">Kalenderfreigabe</a>. 
+  </p>
+</aside>
 
 ### Welche Bedingungen muss der Exchange Benutzer erfüllen?
 
@@ -84,7 +89,12 @@ automatisch ein neuer angelegt.
 
 ## Google
 
-![](https://img.shields.io/badge/status-deprecated-yellow)
+<aside class="wissensbasis-info">
+  <p>
+    Die Google Kalender Integration wird nicht mehr gepflegt und wird demnächst ersetzt mit der 
+    allgemeinen <a href="#kalenderfreigabe">Kalenderfreigabe</a>.
+  </p>
+</aside>
 
 Die Urlaubsverwaltung kann an einen Google Kalender angebunden werden, dazu sind folgende Dinge nötig
 

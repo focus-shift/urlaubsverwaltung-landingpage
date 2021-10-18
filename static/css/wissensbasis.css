@@ -71,7 +71,8 @@
     }
 }
 
-.wissensbasis-saas-info {
+.wissensbasis-saas-info,
+.wissensbasis-info {
     border-left: 5px solid theme("colors.amber.400");
     background-color: theme("colors.amber.50");
     color: theme("colors.amber.900");
@@ -82,4 +83,13 @@
     p {
         margin-bottom: 0;
     }
+
+    a {
+        text-decoration: underline;
+        color: theme("colors.amber.900");
+    }
+    a:hover {
+        color: theme("colors.black");
+    }
 }
+
