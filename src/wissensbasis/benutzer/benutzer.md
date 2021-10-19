@@ -17,6 +17,17 @@ In der Urlaubsverwaltung gibt es aktuell folgende Arten von Berechtigungen:
 
 Es ist geplant, das aktuelle Berechtigungskonzept [feingranularer](https://github.com/synyx/urlaubsverwaltung/issues/467) zu gestalten.
 
+
+## Wie stelle ich die Berechtigungen eines Benutzers ein?
+
+Als Benutzer mit der Berechtigung _Office_ kannst du über den Menü-Punkt Benutzer in das jeweilige Benutzerkonto der betreffenden Person navigieren.
+
+![Konto eines Benutzers](benutzer-konto.png)
+
+Hier gibt es die Möglichkeit die Berechtigungen über das "Stift"-Symbol zu editieren.
+
+![Berechtigungen editieren](berechtigungen-editieren.png)
+
 ## Welcher Benutzer darf nach Registrierung Einstellungen vornehmen?
 
 Nach der Registrierung der Urlaubsverwaltung bekommt der erste Benutzer, der sich einloggt, automatisch die Berechtigung _Office_
