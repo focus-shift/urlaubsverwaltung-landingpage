@@ -4,7 +4,7 @@ title: Impressum
 backgroundColor: bg-white
 ---
 
-<article class="2xl:mt-8">
+<article>
 
 # Impressum
 

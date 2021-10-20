@@ -4,7 +4,9 @@
 
 @layer base {
 	html {
+		--scroll-padding-top: 8rem;
 		height: 100%;
+		scroll-padding-top: var(--scroll-padding-top);
 	}
 
 	html,
@@ -21,6 +23,25 @@
 	h6 {
 		font-family: Raleway, sans-serif;
 		font-weight: 700;
+	}
+
+}
+
+@layer components {
+	.top-anchor {
+		margin-top: calc(-1 * var(--scroll-padding-top) + 4rem); /* 4rem height of navigation */
+		margin-bottom: var(--scroll-padding-top);
+	}
+
+	.to-top-button {
+		padding: 1rem;
+		border-radius: 99999px;
+		background-image: conic-gradient(at top right, lightcyan, lightblue);
+		@apply shadow-lg;
+	}
+	.to-top-button:hover,
+	.to-top-button:focus {
+		@apply shadow-xl;
 	}
 }
 
@@ -65,7 +86,7 @@
 	margin-left: -1rem;
 }
 
-@screen md {
+@screen navbar {
 	.navigation-item {
 		display: block;
 	}
@@ -157,7 +178,7 @@
 		--tw-translate-x: 0;
 	}
 
-	@screen md {
+	@screen navbar {
 		#menu-toggle-checkbox:checked + div > label ~ nav {
 			background-color: transparent;
 		}

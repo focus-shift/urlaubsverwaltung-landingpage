@@ -72,7 +72,7 @@ Sie sind dazu verpflichtet, Ihre Daten (einschließlich Ihrer Kontaktdaten) aktu
 
 ### § 8 Diensteangebot und Verfügbarkeit der Dienste
 
-(1) Der Diensteanbieter stellt Ihnen auf dem Portal unterschiedliche Dienste zur zeitlich befristeten Nutzung zur Verfügung. Solche Dienste sind z.B. die Urlaubsplanung, die Verwaltung von Fehlzeiten und Krankheitstagen.
+(1) Der Diensteanbieter stellt Ihnen auf dem Portal unterschiedliche Dienste zur zeitlich befristeten Nutzung zur Verfügung. Solche Dienste sind z. B. die Urlaubsplanung, die Verwaltung von Fehlzeiten und Krankheitstagen.
 
 Inhalt und Umfang der Dienste bestimmen sich nach den jeweiligen vertraglichen Vereinbarungen, im Übrigen nach den jeweils aktuell auf dem Portal verfügbaren Funktionalitäten.
 
@@ -80,7 +80,7 @@ Inhalt und Umfang der Dienste bestimmen sich nach den jeweiligen vertraglichen V
 
 (3) Für den Zugang sowie für sämtliche kostenpflichtige Dienste gewährleistet der Diensteanbieter in seinem Verantwortungsbereich eine Verfügbarkeit von 98% im Jahresmittel. Nicht in die Berechnung der Verfügbarkeit fallen die regulären Wartungsfenster des Webportals, die vorher angekündigt werden.
 
-Im Übrigen besteht ein Anspruch auf die Nutzung der auf dem Portal verfügbaren Dienste nur im Rahmen der technischen und betrieblichen Möglichkeiten beim Diensteanbieter. Der Diensteanbieter bemüht sich um eine möglichst unterbrechungsfreie Nutzbarkeit seiner Dienste. Jedoch können durch technische Störungen (wie z.B. Unterbrechung der Stromversorgung, Hardware- und Softwarefehler, technische Probleme in den Datenleitungen) zeitweilige Beschränkungen oder Unterbrechungen auftreten.
+Im Übrigen besteht ein Anspruch auf die Nutzung der auf dem Portal verfügbaren Dienste nur im Rahmen der technischen und betrieblichen Möglichkeiten beim Diensteanbieter. Der Diensteanbieter bemüht sich um eine möglichst unterbrechungsfreie Nutzbarkeit seiner Dienste. Jedoch können durch technische Störungen (wie z. B. Unterbrechung der Stromversorgung, Hardware- und Softwarefehler, technische Probleme in den Datenleitungen) zeitweilige Beschränkungen oder Unterbrechungen auftreten.
 
 ### § 9 Änderungen von Diensten
 
@@ -120,7 +120,7 @@ Der Diensteanbieter ist jederzeit berechtigt, auf dem Portal unentgeltlich berei
 
 ### § 13 Haftungsbeschränkung für unentgeltliche Dienste
 
-Sollten Ihnen durch die Nutzung von auf dem Portal unentgeltlich zur Verfügung gestellten Diensten (z.B. im Rahmen einer Testphase) ein Schaden entstehen, so haftet der Diensteanbieter nur, soweit Ihr Schaden aufgrund der vertragsgemäßen Nutzung der unentgeltlichen Inhalte und/oder Dienste entstanden ist, und nur bei Vorsatz (einschließlich Arglist) und grober Fahrlässigkeit des Diensteanbieters.
+Sollten Ihnen durch die Nutzung von auf dem Portal unentgeltlich zur Verfügung gestellten Diensten (z. B. im Rahmen einer Testphase) ein Schaden entstehen, so haftet der Diensteanbieter nur, soweit Ihr Schaden aufgrund der vertragsgemäßen Nutzung der unentgeltlichen Inhalte und/oder Dienste entstanden ist, und nur bei Vorsatz (einschließlich Arglist) und grober Fahrlässigkeit des Diensteanbieters.
 
 ### § 14 Haftungsbeschränkung für kostenpflichtige Dienste
 

@@ -1,0 +1,40 @@
+---
+layout: layout-subpage
+scripts:
+  - /static/js/toc.js
+stylesheets:
+  - /static/css/wissensbasis.css
+  - /static/css/toc.css
+backgroundColor: bg-lightBlue-50
+navigation:
+  activeItem: hilfe
+---
+
+<div class="flex flex-col lg:flex-row">
+	<div class="lg:sticky lg:top-16 lg:self-start lg:w-1/3 mr-2 lg:pt-8">
+		<ul class="mb-8 breadcrumb">
+			<li class="breadcrumb-item">
+				<a href="/hilfe/#dokumentation" class="font-header text-2xl font-bold transition-colors text-gray-900 hover:text-black">
+					Doku
+				</a>
+			</li>
+			<li class="breadcrumb-item">
+				<span class="font-header text-2xl font-bold transition-colors text-gray-900 hover:text-black">
+					{{breadcrumb.title}}
+				</span>
+			</li>
+		</ul>
+		<div class="hidden lg:block flex-1 overflow-y-auto w-full pb-16" style="max-height: calc(100vh - 10rem);">
+			<div class="mb-8">
+				{{#toc this}}{{/toc}}
+			</div>
+			<div class="text-sm pr-8">
+				<hr class="mb-8" />
+				{{> partials/contact-info }}
+			</div>
+		</div>
+	</div>
+	<div class="wissensbasis-content flex-1 bg-white rounded-2xl p-4 lg:p-8">
+		{{{content}}}
+	</div>
+</div>

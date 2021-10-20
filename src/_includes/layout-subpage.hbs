@@ -12,24 +12,33 @@
 	<link rel="preload" href="/static/font/lato/Lato-Bold.woff2" as="font" type="font/woff2" crossorigin />
 	<link rel="preload" href="https://support.apps.urlaubsverwaltung.cloud/assets/chat/chat.css" as="style" crossorigin />
 	<link rel="stylesheet" href="/static/css/style.css" />
+	{{#each stylesheets}}
+		<link rel="stylesheet" href="{{this}}" />
+	{{/each}}
 	{{> partials/font-raleway }}
 	{{> partials/font-lato }}
 </head>
 
-<body class="flex flex-col min-h-full">
-	{{> partials/navigation }}
+<body class="flex flex-col min-h-full {{backgroundColor}}">
+	{{> partials/top-anchor }}
+	{{> partials/navigation active=navigation.activeItem }}
 	<main class="flex-1 pb-12 sm:pb-32 md:pb-24">
-		<div class="w-full max-w-screen-xl mx-auto px-4">
+		<div class="w-full max-w-screen-xl mx-auto px-4 xl:px-2">
 			{{{ content }}}
 		</div>
 	</main>
 	{{> partials/footer }}
+	{{> partials/to-top-button }}
 
 	<script async defer data-domain="urlaubsverwaltung.cloud" src="https://stats.urlaubsverwaltung.cloud/js/index.js"></script>
 	<script defer src="/static/js/goals.js" type="module"></script>
 	<script defer src="/static/js/navigation.js" type="module"></script>
+	<script defer src="/static/js/top.js" type="module"></script>
 	<script defer src="/static/js/easteregg.js" type="module"></script>
 	<script defer src="/static/js/page-prerenderer.js" type="module"></script>
+	{{#each scripts}}
+		<script defer src="{{this}}" type="module"></script>
+	{{/each}}
 	{{> partials/support-chat}}
 </body>
 

@@ -1,17 +1,17 @@
-<div class="mb-24"></div>
+<div class="mb-16"></div>
 <div id="header-container" class="fixed top-0 left-0 right-0 z-50">
   <div class="absolute top-0 left-0 right-0 bottom-0 backdrop-blur backdrop-saturate"></div>
-  <div class="flex w-full max-w-screen-xl py-2 md:py-0 mx-auto">
-    <header class="w-full flex justify-between flex-row-reverse md:flex-row p-2 md:px-4 lg:p-2">
+  <div class="flex w-full max-w-screen-xl py-2 navbar:py-0 mx-auto">
+    <header class="w-full flex justify-between flex-row-reverse navbar:flex-row p-2 navbar:px-4">
       <a href="/" class="z-10">
-        <div class="flex items-center flex-row-reverse md:flex-row">
-          {{> partials/bear class='w-8 h-8 lg:w-12 lg:h-12' }}
-          <h1 class="flex flex-col mr-2 md:ml-4 text-right md:text-left font-content">
+        <div class="flex items-center flex-row-reverse navbar:flex-row">
+          {{> partials/bear class='w-8 h-8 navbar:w-12 navbar:h-12' }}
+          <h1 class="flex flex-col mr-2 navbar:ml-4 text-right navbar:text-left font-content">
             <span class="">
               urlaubsverwaltung.cloud
             </span>
             <span class="sr-only">&nbsp;</span>
-            <span class="text-xs lg:text-sm text-black text-opacity-50" style="letter-spacing: -0.055em; font-weight: 400;">
+            <span class="text-xs navbar:text-sm text-black text-opacity-50" style="letter-spacing: -0.055em; font-weight: 400;">
               von Focus Shift Software GmbH
             </span>
           </h1>
@@ -19,7 +19,7 @@
       </a>
       <input id="menu-toggle-checkbox" type="checkbox" class="hidden">
       <div class="flex items-center">
-        <label for="menu-toggle-checkbox" class="flex items-center px-4 py-4 absolute top-2 left-0 md:hidden cursor-pointer z-50">
+        <label for="menu-toggle-checkbox" class="flex items-center px-4 py-4 absolute top-2 left-0 navbar:hidden cursor-pointer z-50">
             <span class="tw-inline-block">
                 <span class="hamburger-bar"></span>
                 <span class="hamburger-bar"></span>
@@ -28,33 +28,33 @@
                 <span class="hamburger-bar"></span>
             </span>
         </label>
-        <nav class="z-20 fixed bg-white md:static top-0 bottom-0 left-0 transition-transform transform-gpu -translate-x-full md:-translate-x-0 pt-24 pl-8 md:pt-0 lg:pl-0 w-5/6 md:w-auto shadow-2xl md:shadow-none">
-          <ul role="menu" class="flex flex-col space-y-8 md:space-y-0 md:flex-row md:space-x-12 w-full md:w-auto">
+        <nav class="z-20 fixed bg-white navbar:static top-0 bottom-0 left-0 transition-transform transform-gpu -translate-x-full navbar:-translate-x-0 pt-24 pl-8 navbar:pt-0 navbar:pl-0 w-5/6 md:w-1/2 lg:w-1/3 navbar:w-full navbar:w-auto shadow-2xl navbar:shadow-none">
+          <ul role="menu" class="flex flex-col space-y-8 navbar:space-y-0 navbar:flex-row navbar:space-x-12 w-full navbar:w-auto">
             <li role="none" class="navigation-item {{#eq active "funktionen"}}active{{/eq}}">
-              <a href="/#funktionen" role="menuitem" class="font-header font-semibold text-xl md:text-lg">
+              <a href="/#funktionen" role="menuitem" class="font-header font-semibold text-xl navbar:text-lg">
                 Funktionen
               </a>
             </li>
             <li role="none" class="navigation-item {{#eq active "preis"}}active{{/eq}}">
-              <a href="/preis" role="menuitem" class="font-header font-semibold text-xl md:text-lg">
+              <a href="/preis" role="menuitem" class="font-header font-semibold text-xl navbar:text-lg">
                 Preis
               </a>
             </li>
             <li role="none" class="navigation-item {{#eq active "demo"}}active{{/eq}}">
-              <a href="/demo" role="menuitem" class="font-header font-semibold text-xl md:text-lg">
+              <a href="/demo" role="menuitem" class="font-header font-semibold text-xl navbar:text-lg">
                 Demo
               </a>
             </li>
-            <li role="none" class="navigation-item md:sr-only lg:not-sr-only lg:relative {{#eq active "fragen"}}active{{/eq}}">
-              <a href="/faq" role="menuitem" class="font-header font-semibold text-xl md:text-lg">
-                Fragen
+            <li role="none" class="navigation-item {{#eq active "hilfe"}}active{{/eq}}">
+              <a href="/hilfe" role="menuitem" class="font-header font-semibold text-xl navbar:text-lg">
+                Hilfe
               </a>
             </li>
           </ul>
         </nav>
       </div>
       <div
-        class="z-20 p-4 md:p-2 xl:p-0 w-5/6 md:w-auto fixed md:static top-0 left-0 transition-transform transform-gpu -translate-x-full md:-translate-x-0 flex items-center justify-end"
+        class="z-20 p-4 navbar:p-2 xl:p-0 w-5/6 md:w-1/2 lg:w-1/3 navbar:w-auto fixed navbar:static top-0 left-0 transition-transform transform-gpu -translate-x-full navbar:-translate-x-0 flex items-center justify-end"
       >
         <a
           href="https://registry.apps.urlaubsverwaltung.cloud/login/redirect"
@@ -64,7 +64,7 @@
         </a>
         <a
           href="https://registry.apps.urlaubsverwaltung.cloud/registration"
-          class="md:sr-only lg:not-sr-only px-2 py-1 lg:px-2 lg:py-1 rounded font-medium bg-yellow-300 text-lightBlue-900 text-opacity-90 hover:text-opacity-100 border border-lightBlue-100 hover:border-blue-200 hover:shadow-md active:shadow"
+          class="px-2 py-1 navbar:px-2 navbar:py-1 rounded font-medium bg-yellow-300 text-lightBlue-900 text-opacity-90 hover:text-opacity-100 border border-lightBlue-100 hover:border-blue-200 hover:shadow-md active:shadow"
           data-goal="signup"
           data-goal-trigger="top-navigation"
         >
