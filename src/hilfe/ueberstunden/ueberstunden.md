@@ -24,7 +24,18 @@ Die Überstunden als auch der Abbau von Überstunden kann durch den Mitarbeiter 
 
 Um diesen Workflow verwenden zu können, müssen folgende Einstellungen konfiguriert sein:
 
-![Konfiguration Eigenverantwortliche Überstunden Erfassung ](eigenverantwortliche-ueberstunden-erfassung.png)
+<p>
+  <picture>
+    <source srcset="eigenverantwortliche-ueberstunden-erfassung.avif" type="image/avif" />
+    <source srcset="eigenverantwortliche-ueberstunden-erfassung.webp" type="image/webp" />
+    <img
+      src="eigenverantwortliche-ueberstunden-erfassung.png"
+      alt="Konfiguration Eigenverantwortliche Überstunden Erfassung "
+      decoding="async"
+      loading="lazy"
+    />
+  </picture>
+</p>
 
 ### Eigenverantwortliche Erfassung und Antrag auf Abbau
 
@@ -32,7 +43,18 @@ Diese Form der Überstundenverwaltung ermöglicht die Erfassung der Überstunden
 
 Um diesen Workflow verwenden zu können, müssen folgende Einstellungen konfiguriert sein:
 
-![Konfiguration Antrag auf Überstundenabbau](ueberstunden-antrag.png)
+<p>
+  <picture>
+    <source srcset="ueberstunden-antrag.avif" type="image/avif" />
+    <source srcset="ueberstunden-antrag.webp" type="image/webp" />
+    <img
+      src="ueberstunden-antrag.png"
+      alt="Konfiguration Antrag auf Überstundenabbau"
+      decoding="async"
+      loading="lazy"
+    />
+  </picture>
+</p>
 
 
 ### Erfassung durch privilegierte Person und Antrag Überstundenabbau
@@ -41,7 +63,18 @@ Diese Form der Überstundenverwaltung ermöglicht die Erfassung der Überstunden
 
 Um diesen Workflow verwenden zu können, müssen folgende Einstellungen konfiguriert sein:
 
-![Konfiguration Erfassung der Überstunden durch eine privilegierte Person](privilegierte-ueberstunden-erfassung.png)
+<p>
+  <picture>
+    <source srcset="privilegierte-ueberstunden-erfassung.avif" type="image/avif" />
+    <source srcset="privilegierte-ueberstunden-erfassung.webp" type="image/webp" />
+    <img
+      src="privilegierte-ueberstunden-erfassung.png"
+      alt="Konfiguration Erfassung der Überstunden durch eine privilegierte Person"
+      decoding="async"
+      loading="lazy"
+    />
+  </picture>
+</p>
 
 
 ## Kann ich die Überstundenfunktion deaktivieren?

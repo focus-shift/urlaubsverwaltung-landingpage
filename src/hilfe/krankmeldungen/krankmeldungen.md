@@ -10,11 +10,33 @@ Ja, die Urlaubsverwaltung erinnert sowohl den Mitarbeiter als auch Personen mit 
 
 Hierzu können in den _Einstellungen_ unter _Abwesenheiten_ die entsprechenden Zeiten gepflegt werden:
 
-![Einstellungen Krankmeldung](krankmeldung-einstellungen.png)
+<p>
+  <picture>
+    <source srcset="krankmeldung-einstellungen.avif" type="image/avif" />
+    <source srcset="krankmeldung-einstellungen.webp" type="image/webp" />
+    <img
+      src="krankmeldung-einstellungen.png"
+      alt="Einstellungen Krankmeldung"
+      decoding="async"
+      loading="lazy"
+    />
+  </picture>
+</p>
 
 ## Ablauf bei Krankmeldungen
 
-![Workflow bei Krankmeldungen](krankmeldung.png)
+<p>
+  <picture>
+    <source srcset="krankmeldung.avif" type="image/avif" />
+    <source srcset="krankmeldung.webp" type="image/webp" />
+    <img
+      src="krankmeldung.png"
+      alt="Workflow bei Krankmeldungen"
+      decoding="async"
+      loading="lazy"
+    />
+  </picture>
+</p>
 
 ## Was passiert, wenn eine Krankmeldung in einem Urlaubszeitraum angelegt wird?
 

@@ -22,11 +22,33 @@ Es ist geplant, das aktuelle Berechtigungskonzept [feingranularer](https://githu
 
 Als Benutzer mit der Berechtigung _Office_ kannst du über den Menü-Punkt Benutzer in das jeweilige Konto der betreffenden Person navigieren.
 
-![Konto eines Benutzers](benutzer-konto.png)
+<p>
+  <picture>
+    <source srcset="benutzer-konto.avif" type="image/avif" />
+    <source srcset="benutzer-konto.webp" type="image/webp" />
+    <img
+      src="benutzer-konto.png"
+      alt="Konto eines Benutzers"
+      decoding="async"
+      loading="lazy"
+    />
+  </picture>
+</p>
 
 Hier gibt es die Möglichkeit die Berechtigungen über das "Stift"-Symbol zu editieren.
 
-![Berechtigungen editieren](berechtigungen-editieren.png)
+<p>
+  <picture>
+    <source srcset="berechtigungen-editieren.avif" type="image/avif" />
+    <source srcset="berechtigungen-editieren.webp" type="image/webp" />
+    <img
+      src="berechtigungen-editieren.png"
+      alt="Berechtigungen editieren"
+      decoding="async"
+      loading="lazy"
+    />
+  </picture>
+</p>
 
 ## Welcher Benutzer darf nach Registrierung Einstellungen vornehmen?
 
@@ -44,7 +66,18 @@ Wenn du eine Urlaubsverwaltung registrierst bekommst von uns einen Link zu deine
 Über die Anwendung kann man Benutzer nicht löschen, nur inaktivieren.
 Beim Editieren des Benutzers muss die Berechtigung _Inaktiv_ ausgewählt werden:
 
-![Inaktivieren eines Benutzers](benutzer-inaktiv.png)
+<p>
+  <picture>
+    <source srcset="benutzer-inaktiv.avif" type="image/avif" />
+    <source srcset="benutzer-inaktiv.webp" type="image/webp" />
+    <img
+      src="benutzer-inaktiv.png"
+      alt="Inaktivieren eines Benutzers"
+      decoding="async"
+      loading="lazy"
+    />
+  </picture>
+</p>
 
 Mit dieser Berechtigung kann sich der Benutzer nicht mehr einloggen, aber seine Daten bleiben zu Archivierungszwecken bestehen.
 
@@ -71,7 +104,18 @@ dann notwendig, wenn sich der Urlaubsanspruch für das nächste Jahr vom
 diesjährigen unterscheidet. Ansonsten hat der Benutzer im nächsten Jahr den
 gleichen Urlaubsanspruch, den er im aktuellen Jahr hat.
 
-![Urlaubsanspruch bearbeiten](holiday_next_year.png)
+<p>
+  <picture>
+    <source srcset="holiday_next_year.avif" type="image/avif" />
+    <source srcset="holiday_next_year.webp" type="image/webp" />
+    <img
+      src="holiday_next_year.png"
+      alt="Urlaubsanspruch bearbeiten"
+      decoding="async"
+      loading="lazy"
+    />
+  </picture>
+</p>
 
 ## Muss ich den Resturlaub der Benutzer manuell eintragen?
 
