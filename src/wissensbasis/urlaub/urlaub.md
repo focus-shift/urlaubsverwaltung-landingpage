@@ -6,8 +6,10 @@ breadcrumb:
 
 ## Wer genehmigt Urlaub?
 
-Der Urlaub kann entweder vom Abteilungsleiter des Mitarbeiters oder von
-globalen Chefs genehmigt werden. 
+Der einfache Genehmigungsprozess für Urlaubsanträge sieht vor, dass
+Urlaubsanträge von einem Abteilungsleiter oder Chef genehmigt werden.
+
+Außerdem gibt in der Urlaubsverwaltung auch einen [zweistufige Genehmigungsprozess](#wie-funktioniert-der-zweistufige-genehmigungsprozess-von-urlaubsantraegen).
 
 ## Wer wird informiert, wenn ein Urlaubsantrag gestellt wurde?
 
