@@ -22,7 +22,7 @@ Diese Datenschutzerklärung klärt Sie über die Art, den Umfang und Zweck der
 Verarbeitung von personenbezogenen Daten innerhalb unseres Onlineangebotes und der
 mit ihm verbundenen Webseiten, Funktionen und Inhalte (nachfolgend gemeinsam
 bezeichnet als „Onlineangebot“ oder „Website“) auf. Die Datenschutzerklärung gilt
-unabhängig von den verwendeten Domains, Systemen, Plattformen und Geräten (z.B.
+unabhängig von den verwendeten Domains, Systemen, Plattformen und Geräten (z. B.
 Desktop oder Mobile) auf denen das Onlineangebot ausgeführt wird.
 
 ## 2. Verantwortlicher
@@ -50,7 +50,7 @@ und verständlich sein.
 ### 3.2.
 
 Um dies zu gewährleisten, möchten wir vorab die verwendeten Begrifflichkeiten
-erläutern. Die verwendeten Begrifflichkeiten, wie z.B. „personenbezogene Daten“ oder
+erläutern. Die verwendeten Begrifflichkeiten, wie z. B. „personenbezogene Daten“ oder
 deren „Verarbeitung“ sind in Art. 4 der Datenschutzgrundverordnung (DSGVO) definiert.
 
 ### 3.3.
@@ -347,7 +347,7 @@ einem Seitenwechsel identifiziert werden kann.
 ##### 7.1.2.2.
 
 In den Cookies können dabei folgende Daten gespeichert und übermittelt:
-Session-Cookies, die bestimmte Einstellungen des Nutzers speichern, z.B.:
+Session-Cookies, die bestimmte Einstellungen des Nutzers speichern, z. B.:
 
 - Warenkorbinhalte
 - Spracheinstellungen
@@ -569,7 +569,7 @@ mitunter auch mit möglichen Daten des Nutzers verknüpft ist.
 Alle personenbezogenen Daten, die im Zuge der Kontaktaufnahme gespeichert wurden,
 werden in diesem Fall gelöscht, sofern steuer- und/oder handelsrechtliche Regelungen
 diesem nicht entgegenstehen. Ist eine Löschung aufgrund gesetzlicher steuer- und/oder
-handelsrechtlicher Regelungen (z.B. § 147 Abs. 1 AO, § 257 Abs. 1 HGB) wird der Nutzer
+handelsrechtlicher Regelungen (z. B. § 147 Abs. 1 AO, § 257 Abs. 1 HGB) wird der Nutzer
 gesondert informiert.
 
 ## 10. Mailjet
@@ -607,12 +607,12 @@ von uns nicht zur individuellen Auswertung verwendet.
 
 Kontaktlisten und personenbezogenen Daten werden durch uns sowie auch Mailjet als
 vertraulich betrachtet. Mailjet wird diese nicht an Dritte weitergeben. Der
-Versanddienstleister kann, ohne dies systematisch zu tun, verschiedene Metriken (z.B.
+Versanddienstleister kann, ohne dies systematisch zu tun, verschiedene Metriken (z. B.
 Click-, Open- und Bounce-Raten) und die Anzahl der E-Mails, die zur Bewertung der
 Performance-Raten von E-Mail-Kampagnen versendet werden, analysieren und verfolgen.
 Entsprechend können die Daten der Empfänger in pseudonymer Form, d.h. ohne
 Zuordnung zu einem Nutzer, zur Optimierung oder Verbesserung der eigenen Services
-genutzt werden, z.B. zur technischen Optimierung des Versandes und der Darstellung der
+genutzt werden, z. B. zur technischen Optimierung des Versandes und der Darstellung der
 Newsletter oder für statistische Zwecke. Der Versanddienstleister nutzt die Daten
 unserer E-Mailempfänger jedoch nicht, um diese selbst anzuschreiben oder um die Daten
 an Dritte weiterzugeben.

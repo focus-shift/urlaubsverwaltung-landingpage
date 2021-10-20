@@ -35,7 +35,7 @@ Die Kalenderfreigabe kann pro Benutzer konfiguriert werden. Um die Konfiguration
 
 ![Kalenderfreigabe](kalenderfreigabe.png)
 
-2. Wähle z.B. "Meinen Kalender freigeben"
+2. Wähle z. B. "Meinen Kalender freigeben"
 
 ![Kalenderfreigabe aktivieren](kalenderfreigabe-aktivieren.png)
 

@@ -21,4 +21,4 @@ benutzerspezifischen Bundeslands berechnet.
 
 ## Welche Feiertage sind vorhanden?
 
-Die Urlaubsverwaltung bietet alle in Deutschland geltenden Feiertage pro Bundesland an. Auch Besonderheiten wie z.B. das Augsburger Friedensfest ist mit dabei. Sollte uns ein Feiertag fehlen, gib uns gerne kurz Bescheid!
+Die Urlaubsverwaltung bietet alle in Deutschland geltenden Feiertage pro Bundesland an. Auch Besonderheiten wie z. B. das Augsburger Friedensfest ist mit dabei. Sollte uns ein Feiertag fehlen, gib uns gerne kurz Bescheid!
