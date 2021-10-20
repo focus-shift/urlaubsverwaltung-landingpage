@@ -33,26 +33,81 @@ Die Urlaubsverwaltung bietet die folgenden Möglichkeiten für eine Kalenderfrei
 Die Kalenderfreigabe kann pro Benutzer konfiguriert werden. Um die Konfiguration in der Urlaubsverwaltung durchzuführen sind folgende Schritte zu tun:
 1. Klicke auf "Kalenderfreigabe" in der Übersichtsseite oberhalb des Kalenders
 
-![Kalenderfreigabe](kalenderfreigabe.png)
+<p>
+  <picture>
+    <source srcset="kalenderfreigabe.avif" type="image/avif" />
+    <source srcset="kalenderfreigabe.webp" type="image/webp" />
+    <img
+      src="kalenderfreigabe.png"
+      alt="Kalenderfreigabe"
+      decoding="async"
+      loading="lazy"
+    />
+  </picture>
+</p>
 
 2. Wähle z. B. "Meinen Kalender freigeben"
 
-![Kalenderfreigabe aktivieren](kalenderfreigabe-aktivieren.png)
+<p>
+  <picture>
+    <source srcset="kalenderfreigabe-aktivieren.avif" type="image/avif" />
+    <source srcset="kalenderfreigabe-aktivieren.webp" type="image/webp" />
+    <img
+      src="kalenderfreigabe-aktivieren.png"
+      alt="Kalenderfreigabe aktivieren"
+      decoding="async"
+      loading="lazy"
+    />
+  </picture>
+</p>
 
 3. Es wird ein geheimer Link generiert, welchen du jetzt zum Abonnieren verwenden kannst. Weitere Infos über das Abonnieren findest du [hier](#welche-moeglichkeiten-habe-ich-eine-ical-kalenderfreigabe-in-meinem-client-zu-verwenden).
 
-![Kalenderfreigabe Link](kalenderfreigabe-link.png)
+<p>
+  <picture>
+    <source srcset="kalenderfreigabe-link.avif" type="image/avif" />
+    <source srcset="kalenderfreigabe-link.webp" type="image/webp" />
+    <img
+      src="kalenderfreigabe-link.png"
+      alt="Kalenderfreigabe Link"
+      decoding="async"
+      loading="lazy"
+    />
+  </picture>
+</p>
 
 ### Wie kann ich eine Freigabe löschen?
 
 Eine Freigabe kann über folgende Schritte gelöscht werden:
 1. Klicke auf "Kalenderfreigabe" in der Übersichtsseite oberhalb des Kalenders
 
-![Kalenderfreigabe](kalenderfreigabe.png)
+<p>
+  <picture>
+    <source srcset="kalenderfreigabe.avif" type="image/avif" />
+    <source srcset="kalenderfreigabe.webp" type="image/webp" />
+    <img
+      src="kalenderfreigabe.png"
+      alt="Kalenderfreigabe"
+      decoding="async"
+      loading="lazy"
+    />
+  </picture>
+</p>
 
 2. Wähle beim betreffenden Kalender "Freigabe löschen". Durch das Löschen ist der Zugriff über den geheimen Link nicht mehr möglich.
 
-![Kalenderfreigabe löschen](kalenderfreigabe-loeschen.png)
+<p>
+  <picture>
+    <source srcset="kalenderfreigabe-loeschen.avif" type="image/avif" />
+    <source srcset="kalenderfreigabe-loeschen.webp" type="image/webp" />
+    <img
+      src="kalenderfreigabe-loeschen.png"
+      alt="Kalenderfreigabe löschen"
+      decoding="async"
+      loading="lazy"
+    />
+  </picture>
+</p>
 
 ### Welche Möglichkeiten habe ich eine iCal Kalenderfreigabe in meinem Client zu verwenden?
 

@@ -8,7 +8,18 @@ breadcrumb:
 
 Als Benutzer mit der Berechtigung _Office_ können die Einstellungen der Benachrichtigungen über das Konto des Benutzers angepasst werden. Diese Einstellung ist bei der Zuordnung von Berechtigungen zu finden. Hier kann man zusätzlich auszuwählen, ob die E-Mail-Benachrichtigung zur jeweiligen Berechtigung aktiv oder nicht aktiv sein soll.
 
-![Benachrichtigung konfigurieren](benachrichtigung.png)
+<p>
+  <picture>
+    <source srcset="benachrichtigung.avif" type="image/avif" />
+    <source srcset="benachrichtigung.webp" type="image/webp" />
+    <img
+      src="benachrichtigung.png"
+      alt="Benachrichtigung konfigurieren"
+      decoding="async"
+      loading="lazy"
+    />
+  </picture>
+</p>
 
 Die E-Mail-Benachrichtigung, die
 man erhält, wenn der eigene Urlaubsantrag genehmigt/abgelehnt/storniert wurde,

@@ -34,7 +34,18 @@ eine E-Mail.
 
 Ja, bei der Antragsstellung können optional eine oder mehrere Urlaubsvertretungen angegeben werden. Für jede Vertretung kann eine eigene Notiz hinterlegt werden. Die ausgewählten Personen werden über die Vertretung per E-Mail benachrichtigt. Außerdem ist für die Vertretung unter dem Menü-Punkt "Urlaub" im Abschnitt "Aktuelle und zukünftige Vertretungen" eine Übersicht aller Vertretungen einsehbar.
 
-![Übersicht zu aktuellen und zukünftigen Vertretungen](uebersicht-vertretungen.png)
+<p>
+  <picture>
+    <source srcset="uebersicht-vertretungen.avif" type="image/avif" />
+    <source srcset="uebersicht-vertretungen.webp" type="image/webp" />
+    <img
+      src="uebersicht-vertretungen.png"
+      alt="Übersicht zu aktuellen und zukünftigen Vertretungen"
+      decoding="async"
+      loading="lazy"
+    />
+  </picture>
+</p>
 
 ## Wird die Urlaubsvertretung informiert?
 
@@ -60,7 +71,18 @@ nutzen.
 
 Die Art des Urlaubs kann noch angepasst werden solange der Antrag noch nicht genehmigt wurde. Das Bearbeiten kann durch den Mitarbeiter selbst durchgeführt werden.
 
-![Editieren eines Urlaubsantrags](editieren-urlaubsantrag.png)
+<p>
+  <picture>
+    <source srcset="editieren-urlaubsantrag.avif" type="image/avif" />
+    <source srcset="editieren-urlaubsantrag.webp" type="image/webp" />
+    <img
+      src="editieren-urlaubsantrag.png"
+      alt="Editieren eines Urlaubsantrags"
+      decoding="async"
+      loading="lazy"
+    />
+  </picture>
+</p>
 
 Um einen bereits genehmigten Antrag zu editieren, muss der bisherige Antrag stornieren können privilegierter Benutzer den Urlaubsantrag stornieren und einen neuen
 Urlaubsantrag mit der korrekten Art des Urlaubs für den gleichen Zeitraum erstellen.
@@ -72,8 +94,30 @@ Der übernommene Resturlaub beinhaltet alle bis zum 31.12. nicht genommenen Urla
 
 ## Workflow bei Urlaubsanträgen
 
-![Workflow bei Urlaubsanträgen](urlaub.png)
+<p>
+  <picture>
+    <source srcset="urlaub.avif" type="image/avif" />
+    <source srcset="urlaub.webp" type="image/webp" />
+    <img
+      src="urlaub.png"
+      alt="Workflow bei Urlaubsanträgen"
+      decoding="async"
+      loading="lazy"
+    />
+  </picture>
+</p>
 
 ## Technische Dokumentation für Application Status
 
-![application-status](tech-application-status.png)
+<p>
+  <picture>
+    <source srcset="tech-application-status.avif" type="image/avif" />
+    <source srcset="tech-application-status.webp" type="image/webp" />
+    <img
+      src="tech-application-status.png"
+      alt="application-status"
+      decoding="async"
+      loading="lazy"
+    />
+  </picture>
+</p>
