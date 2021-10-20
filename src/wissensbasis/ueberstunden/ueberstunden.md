@@ -66,4 +66,4 @@ Ja, ein Urlaubsantrag auf Überstundenabbau ist mit einer Minimalstundenanzahl k
 
 ## Ist der Überstundenabbau deaktivierbar?
 
-Ja, die Funktionalität den Abbau von Überstunden direkt eintragen zu können ist über eine globale Konfiguration in den Einstellungen deaktivierbar. Die Konfiguration kann unter "Einstellungen" im Tab "Arbeitszeiten" unter "Einstellungen zu Überstunden" mit der Konfiguration "Überstundenabbau ohne Urlaubsantrag aktivieren" aktiviert werden.
+Ja, die Funktionalität den Abbau von Überstunden direkt eintragen zu können, ist über eine globale Konfiguration in den Einstellungen deaktivierbar. Die Konfiguration kann in den "Einstellungen" im Tab "Arbeitszeiten" unter "Einstellungen zu Überstunden" mit der Konfiguration "Überstundenabbau ohne Urlaubsantrag aktivieren" aktiviert bzw. deaktiviert werden.
