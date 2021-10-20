@@ -54,10 +54,12 @@ Eine Freigabe kann über folgende Schritte gelöscht werden:
 
 Hier eine Liste von Anleitungen beliebter Kalenderlösungen, welche die iCal Kalenderfreigabe unterstützen:
 
-* [Apple Calendar](https://support.apple.com/de-de/guide/calendar/icl1022/mac)
-* [Google Calendar](https://support.google.com/calendar/answer/37100)
-* [Mircosoft Outlook](https://support.microsoft.com/de-de/office/importieren-oder-abonnieren-eines-kalenders-in-outlook-com-cff1429c-5af6-41ec-a5b4-74f2c278e98c)
-* [Mozilla Thunderbird](https://support.mozilla.org/de/kb/neue-kalender-erstellen#w_icalendar-ics)
+<ul>
+<li><a href="https://support.apple.com/de-de/guide/calendar/icl1022/mac" target="_blank">Apple Calendar</a></li>
+<li><a href="https://support.google.com/calendar/answer/37100" target="_blank">Google Calendar</a></li>
+<li><a href="https://support.microsoft.com/de-de/office/importieren-oder-abonnieren-eines-kalenders-in-outlook-com-cff1429c-5af6-41ec-a5b4-74f2c278e98c" target="_blank">Apple Calendar</a></li>
+<li><a href="https://support.mozilla.org/de/kb/neue-kalender-erstellen#w_icalendar-ics" target="_blank">Mozilla Thunderbird</a></li>
+</ul>
 
 ### Wird die iCal Kalenderfreigabe die bisherigen Kalenderintegrationen wie Exchange und Google Calendar ersetzen?
 
