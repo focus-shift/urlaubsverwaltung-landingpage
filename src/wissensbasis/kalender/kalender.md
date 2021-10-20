@@ -18,9 +18,9 @@ iCal oder auch iCalendar ist ein standardisiertes Datenformat zum Austausch von 
 
 Die Urlaubsverwaltung bietet die folgenden Möglichkeiten für eine Kalenderfreigabe:
 
-* Mein Kalender: Der Freigabe-Link enthält nur deine Abwesenheiten
-* Abteilung: Der Freigabe-Link enthält die Abwesenheiten deiner Abteilung
-* Firma: Der Freigabe-Link enthält die Abwesenheiten deiner Firma. Diese Freigabe ist nur möglich, wenn ein Office-Benutzer die Konfigurationsmöglichkeit erlaubt hat.
+* **Mein Kalender**: Der Freigabe-Link enthält nur deine Abwesenheiten
+* **Abteilung**: Der Freigabe-Link enthält die Abwesenheiten deiner Abteilung
+* **Firma**: Der Freigabe-Link enthält die Abwesenheiten deiner Firma. Diese Freigabe ist nur möglich, wenn ein Office-Benutzer die Konfigurationsmöglichkeit erlaubt hat.
 
 Diesen Freigabe-Link kennst nur du. Gehe verantwortungsvoll damit um. Jeder, der diese URL kennt, hat Zugriff auf deinen Kalender.
 
