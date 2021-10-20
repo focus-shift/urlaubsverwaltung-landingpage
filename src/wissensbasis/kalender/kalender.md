@@ -22,7 +22,11 @@ Die Urlaubsverwaltung bietet die folgenden Möglichkeiten für eine Kalenderfrei
 * **Abteilung**: Der Freigabe-Link enthält die Abwesenheiten deiner Abteilung
 * **Firma**: Der Freigabe-Link enthält die Abwesenheiten deiner Firma. Diese Freigabe ist nur möglich, wenn ein Office-Benutzer die Konfigurationsmöglichkeit erlaubt hat.
 
-Diesen Freigabe-Link kennst nur du. Gehe verantwortungsvoll damit um. Jeder, der diese URL kennt, hat Zugriff auf deinen Kalender.
+<aside class="wissensbasis-info">
+  <p>
+    Diesen Freigabe-Link kennst nur du. Gehe verantwortungsvoll damit um. Jeder, der diese URL kennt, hat Zugriff auf deinen Kalender.
+  </p>
+</aside>
 
 ### Wie kann ich einen Kalender freigeben?
 
