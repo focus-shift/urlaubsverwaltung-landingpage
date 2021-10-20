@@ -20,7 +20,7 @@ Es ist geplant, das aktuelle Berechtigungskonzept [feingranularer](https://githu
 
 ## Wie stelle ich die Berechtigungen eines Benutzers ein?
 
-Als Benutzer mit der Berechtigung _Office_ kannst du über den Menü-Punkt Benutzer in das jeweilige Benutzerkonto der betreffenden Person navigieren.
+Als Benutzer mit der Berechtigung _Office_ kannst du über den Menü-Punkt Benutzer in das jeweilige Konto der betreffenden Person navigieren.
 
 ![Konto eines Benutzers](benutzer-konto.png)
 
