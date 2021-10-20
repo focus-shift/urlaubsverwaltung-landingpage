@@ -15,6 +15,6 @@ Webseiten druckt, kann man [hier](https://support.mozilla.org/de/kb/Eine-Webseit
 Manche Seiten der Urlaubsverwaltung haben sehr viel horizontalen Inhalt, können
 daher nur im Querformat sinnvoll gedruckt werden. Beim Auslösen des Drucks ist dann also
 darauf zu achten, dass beim Punkt "Ausrichtung" der Wert "Querformat" aktiviert
-ist. Zusätzlich gibt es die Option, dass Hintergrundgrafiken dargestellt werden. Diese Option ist z. Bsp. bei der Abwesenheitsübersicht relevant um hier die Markierung der verschiedenen Abwesenheitenarten korrekt darzustellen.
+ist. Zusätzlich gibt es die Option, dass Hintergrundgrafiken dargestellt werden. Diese Option ist z.B. bei der Abwesenheitsübersicht relevant um hier die Markierung der verschiedenen Abwesenheitenarten korrekt darzustellen.
 
 ![](seite_einrichten.png)
