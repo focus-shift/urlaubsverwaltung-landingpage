@@ -5,7 +5,8 @@
         "/static/js/easteregg.js",
         "/static/js/goals.js",
         "/static/js/navigation.js",
-        "/static/js/page-prerenderer.js"
+        "/static/js/page-prerenderer.js",
+        "/static/js/top.js"
       ],
       "css": [
         "/static/css/style.css",
@@ -39,6 +40,7 @@
         "/static/js/goals.js",
         "/static/js/navigation.js",
         "/static/js/page-prerenderer.js",
+        "/static/js/top.js",
         "https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js",
         "https://stats.urlaubsverwaltung.cloud/js/index.js",
         "https://support.apps.urlaubsverwaltung.cloud/assets/chat/chat.min.js"
@@ -49,7 +51,8 @@
         "/static/js/easteregg.js",
         "/static/js/goals.js",
         "/static/js/navigation.js",
-        "/static/js/page-prerenderer.js"
+        "/static/js/page-prerenderer.js",
+        "/static/js/top.js"
       ],
       "css": [
         "/static/css/style.css",
@@ -83,6 +86,7 @@
         "/static/js/goals.js",
         "/static/js/navigation.js",
         "/static/js/page-prerenderer.js",
+        "/static/js/top.js",
         "https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js",
         "https://stats.urlaubsverwaltung.cloud/js/index.js",
         "https://support.apps.urlaubsverwaltung.cloud/assets/chat/chat.min.js"
@@ -93,7 +97,8 @@
         "/static/js/easteregg.js",
         "/static/js/goals.js",
         "/static/js/navigation.js",
-        "/static/js/page-prerenderer.js"
+        "/static/js/page-prerenderer.js",
+        "/static/js/top.js"
       ],
       "css": [
         "/static/css/style.css",
@@ -127,6 +132,7 @@
         "/static/js/goals.js",
         "/static/js/navigation.js",
         "/static/js/page-prerenderer.js",
+        "/static/js/top.js",
         "https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js",
         "https://stats.urlaubsverwaltung.cloud/js/index.js",
         "https://support.apps.urlaubsverwaltung.cloud/assets/chat/chat.min.js"
@@ -137,7 +143,8 @@
         "/static/js/easteregg.js",
         "/static/js/goals.js",
         "/static/js/navigation.js",
-        "/static/js/page-prerenderer.js"
+        "/static/js/page-prerenderer.js",
+        "/static/js/top.js"
       ],
       "css": [
         "/static/css/style.css",
@@ -171,17 +178,274 @@
         "/static/js/goals.js",
         "/static/js/navigation.js",
         "/static/js/page-prerenderer.js",
+        "/static/js/top.js",
         "https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js",
         "https://stats.urlaubsverwaltung.cloud/js/index.js",
         "https://support.apps.urlaubsverwaltung.cloud/assets/chat/chat.min.js"
       ]
     },
     "/faq/index.html": {
+      "entry": [],
+      "css": [],
+      "js": []
+    },
+    "/hilfe/abteilungen/index.html": {
       "entry": [
         "/static/js/easteregg.js",
         "/static/js/goals.js",
         "/static/js/navigation.js",
-        "/static/js/page-prerenderer.js"
+        "/static/js/page-prerenderer.js",
+        "/static/js/toc.js",
+        "/static/js/top.js"
+      ],
+      "css": [
+        "/static/css/style.css",
+        "/static/css/toc.css",
+        "/static/css/wissensbasis.css",
+        "/static/favicons/apple-icon-114x114.png",
+        "/static/favicons/apple-icon-120x120.png",
+        "/static/favicons/apple-icon-128x128.png",
+        "/static/favicons/apple-icon-144x144.png",
+        "/static/favicons/apple-icon-152x152.png",
+        "/static/favicons/apple-icon-180x180.png",
+        "/static/favicons/apple-icon-57x57.png",
+        "/static/favicons/apple-icon-60x60.png",
+        "/static/favicons/apple-icon-72x72.png",
+        "/static/favicons/apple-icon-76x76.png",
+        "/static/favicons/apple-icon-precomposed.png",
+        "/static/favicons/apple-icon.png",
+        "/static/favicons/favicon-16x16.png",
+        "/static/favicons/favicon-192x192.png",
+        "/static/favicons/favicon-196x196.png",
+        "/static/favicons/favicon-32x32.png",
+        "/static/favicons/favicon-96x96.png",
+        "/static/favicons/favicon.png",
+        "/static/font/lato/Lato-Bold.woff2",
+        "/static/font/lato/Lato-Regular.woff2",
+        "/static/font/raleway/Raleway-Bold.woff2",
+        "/static/font/raleway/Raleway-SemiBold.woff2",
+        "/static/manifest.json",
+        "https://support.apps.urlaubsverwaltung.cloud/assets/chat/chat.css"
+      ],
+      "js": [
+        "/static/js/easteregg.js",
+        "/static/js/goals.js",
+        "/static/js/navigation.js",
+        "/static/js/page-prerenderer.js",
+        "/static/js/toc.js",
+        "/static/js/top.js",
+        "https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js",
+        "https://stats.urlaubsverwaltung.cloud/js/index.js",
+        "https://support.apps.urlaubsverwaltung.cloud/assets/chat/chat.min.js"
+      ]
+    },
+    "/hilfe/benutzer/index.html": {
+      "entry": [
+        "/static/js/easteregg.js",
+        "/static/js/goals.js",
+        "/static/js/navigation.js",
+        "/static/js/page-prerenderer.js",
+        "/static/js/toc.js",
+        "/static/js/top.js"
+      ],
+      "css": [
+        "/static/css/style.css",
+        "/static/css/toc.css",
+        "/static/css/wissensbasis.css",
+        "/static/favicons/apple-icon-114x114.png",
+        "/static/favicons/apple-icon-120x120.png",
+        "/static/favicons/apple-icon-128x128.png",
+        "/static/favicons/apple-icon-144x144.png",
+        "/static/favicons/apple-icon-152x152.png",
+        "/static/favicons/apple-icon-180x180.png",
+        "/static/favicons/apple-icon-57x57.png",
+        "/static/favicons/apple-icon-60x60.png",
+        "/static/favicons/apple-icon-72x72.png",
+        "/static/favicons/apple-icon-76x76.png",
+        "/static/favicons/apple-icon-precomposed.png",
+        "/static/favicons/apple-icon.png",
+        "/static/favicons/favicon-16x16.png",
+        "/static/favicons/favicon-192x192.png",
+        "/static/favicons/favicon-196x196.png",
+        "/static/favicons/favicon-32x32.png",
+        "/static/favicons/favicon-96x96.png",
+        "/static/favicons/favicon.png",
+        "/static/font/lato/Lato-Bold.woff2",
+        "/static/font/lato/Lato-Regular.woff2",
+        "/static/font/raleway/Raleway-Bold.woff2",
+        "/static/font/raleway/Raleway-SemiBold.woff2",
+        "/static/manifest.json",
+        "https://support.apps.urlaubsverwaltung.cloud/assets/chat/chat.css"
+      ],
+      "js": [
+        "/static/js/easteregg.js",
+        "/static/js/goals.js",
+        "/static/js/navigation.js",
+        "/static/js/page-prerenderer.js",
+        "/static/js/toc.js",
+        "/static/js/top.js",
+        "https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js",
+        "https://stats.urlaubsverwaltung.cloud/js/index.js",
+        "https://support.apps.urlaubsverwaltung.cloud/assets/chat/chat.min.js"
+      ]
+    },
+    "/hilfe/drucken/index.html": {
+      "entry": [
+        "/static/js/easteregg.js",
+        "/static/js/goals.js",
+        "/static/js/navigation.js",
+        "/static/js/page-prerenderer.js",
+        "/static/js/toc.js",
+        "/static/js/top.js"
+      ],
+      "css": [
+        "/static/css/style.css",
+        "/static/css/toc.css",
+        "/static/css/wissensbasis.css",
+        "/static/favicons/apple-icon-114x114.png",
+        "/static/favicons/apple-icon-120x120.png",
+        "/static/favicons/apple-icon-128x128.png",
+        "/static/favicons/apple-icon-144x144.png",
+        "/static/favicons/apple-icon-152x152.png",
+        "/static/favicons/apple-icon-180x180.png",
+        "/static/favicons/apple-icon-57x57.png",
+        "/static/favicons/apple-icon-60x60.png",
+        "/static/favicons/apple-icon-72x72.png",
+        "/static/favicons/apple-icon-76x76.png",
+        "/static/favicons/apple-icon-precomposed.png",
+        "/static/favicons/apple-icon.png",
+        "/static/favicons/favicon-16x16.png",
+        "/static/favicons/favicon-192x192.png",
+        "/static/favicons/favicon-196x196.png",
+        "/static/favicons/favicon-32x32.png",
+        "/static/favicons/favicon-96x96.png",
+        "/static/favicons/favicon.png",
+        "/static/font/lato/Lato-Bold.woff2",
+        "/static/font/lato/Lato-Regular.woff2",
+        "/static/font/raleway/Raleway-Bold.woff2",
+        "/static/font/raleway/Raleway-SemiBold.woff2",
+        "/static/manifest.json",
+        "https://support.apps.urlaubsverwaltung.cloud/assets/chat/chat.css"
+      ],
+      "js": [
+        "/static/js/easteregg.js",
+        "/static/js/goals.js",
+        "/static/js/navigation.js",
+        "/static/js/page-prerenderer.js",
+        "/static/js/toc.js",
+        "/static/js/top.js",
+        "https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js",
+        "https://stats.urlaubsverwaltung.cloud/js/index.js",
+        "https://support.apps.urlaubsverwaltung.cloud/assets/chat/chat.min.js"
+      ]
+    },
+    "/hilfe/email/index.html": {
+      "entry": [
+        "/static/js/easteregg.js",
+        "/static/js/goals.js",
+        "/static/js/navigation.js",
+        "/static/js/page-prerenderer.js",
+        "/static/js/toc.js",
+        "/static/js/top.js"
+      ],
+      "css": [
+        "/static/css/style.css",
+        "/static/css/toc.css",
+        "/static/css/wissensbasis.css",
+        "/static/favicons/apple-icon-114x114.png",
+        "/static/favicons/apple-icon-120x120.png",
+        "/static/favicons/apple-icon-128x128.png",
+        "/static/favicons/apple-icon-144x144.png",
+        "/static/favicons/apple-icon-152x152.png",
+        "/static/favicons/apple-icon-180x180.png",
+        "/static/favicons/apple-icon-57x57.png",
+        "/static/favicons/apple-icon-60x60.png",
+        "/static/favicons/apple-icon-72x72.png",
+        "/static/favicons/apple-icon-76x76.png",
+        "/static/favicons/apple-icon-precomposed.png",
+        "/static/favicons/apple-icon.png",
+        "/static/favicons/favicon-16x16.png",
+        "/static/favicons/favicon-192x192.png",
+        "/static/favicons/favicon-196x196.png",
+        "/static/favicons/favicon-32x32.png",
+        "/static/favicons/favicon-96x96.png",
+        "/static/favicons/favicon.png",
+        "/static/font/lato/Lato-Bold.woff2",
+        "/static/font/lato/Lato-Regular.woff2",
+        "/static/font/raleway/Raleway-Bold.woff2",
+        "/static/font/raleway/Raleway-SemiBold.woff2",
+        "/static/manifest.json",
+        "https://support.apps.urlaubsverwaltung.cloud/assets/chat/chat.css"
+      ],
+      "js": [
+        "/static/js/easteregg.js",
+        "/static/js/goals.js",
+        "/static/js/navigation.js",
+        "/static/js/page-prerenderer.js",
+        "/static/js/toc.js",
+        "/static/js/top.js",
+        "https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js",
+        "https://stats.urlaubsverwaltung.cloud/js/index.js",
+        "https://support.apps.urlaubsverwaltung.cloud/assets/chat/chat.min.js"
+      ]
+    },
+    "/hilfe/feiertage/index.html": {
+      "entry": [
+        "/static/js/easteregg.js",
+        "/static/js/goals.js",
+        "/static/js/navigation.js",
+        "/static/js/page-prerenderer.js",
+        "/static/js/toc.js",
+        "/static/js/top.js"
+      ],
+      "css": [
+        "/static/css/style.css",
+        "/static/css/toc.css",
+        "/static/css/wissensbasis.css",
+        "/static/favicons/apple-icon-114x114.png",
+        "/static/favicons/apple-icon-120x120.png",
+        "/static/favicons/apple-icon-128x128.png",
+        "/static/favicons/apple-icon-144x144.png",
+        "/static/favicons/apple-icon-152x152.png",
+        "/static/favicons/apple-icon-180x180.png",
+        "/static/favicons/apple-icon-57x57.png",
+        "/static/favicons/apple-icon-60x60.png",
+        "/static/favicons/apple-icon-72x72.png",
+        "/static/favicons/apple-icon-76x76.png",
+        "/static/favicons/apple-icon-precomposed.png",
+        "/static/favicons/apple-icon.png",
+        "/static/favicons/favicon-16x16.png",
+        "/static/favicons/favicon-192x192.png",
+        "/static/favicons/favicon-196x196.png",
+        "/static/favicons/favicon-32x32.png",
+        "/static/favicons/favicon-96x96.png",
+        "/static/favicons/favicon.png",
+        "/static/font/lato/Lato-Bold.woff2",
+        "/static/font/lato/Lato-Regular.woff2",
+        "/static/font/raleway/Raleway-Bold.woff2",
+        "/static/font/raleway/Raleway-SemiBold.woff2",
+        "/static/manifest.json",
+        "https://support.apps.urlaubsverwaltung.cloud/assets/chat/chat.css"
+      ],
+      "js": [
+        "/static/js/easteregg.js",
+        "/static/js/goals.js",
+        "/static/js/navigation.js",
+        "/static/js/page-prerenderer.js",
+        "/static/js/toc.js",
+        "/static/js/top.js",
+        "https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js",
+        "https://stats.urlaubsverwaltung.cloud/js/index.js",
+        "https://support.apps.urlaubsverwaltung.cloud/assets/chat/chat.min.js"
+      ]
+    },
+    "/hilfe/index.html": {
+      "entry": [
+        "/static/js/easteregg.js",
+        "/static/js/goals.js",
+        "/static/js/navigation.js",
+        "/static/js/page-prerenderer.js",
+        "/static/js/top.js"
       ],
       "css": [
         "/static/css/style.css",
@@ -215,6 +479,207 @@
         "/static/js/goals.js",
         "/static/js/navigation.js",
         "/static/js/page-prerenderer.js",
+        "/static/js/top.js",
+        "https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js",
+        "https://stats.urlaubsverwaltung.cloud/js/index.js",
+        "https://support.apps.urlaubsverwaltung.cloud/assets/chat/chat.min.js"
+      ]
+    },
+    "/hilfe/kalender/index.html": {
+      "entry": [
+        "/static/js/easteregg.js",
+        "/static/js/goals.js",
+        "/static/js/navigation.js",
+        "/static/js/page-prerenderer.js",
+        "/static/js/toc.js",
+        "/static/js/top.js"
+      ],
+      "css": [
+        "/static/css/style.css",
+        "/static/css/toc.css",
+        "/static/css/wissensbasis.css",
+        "/static/favicons/apple-icon-114x114.png",
+        "/static/favicons/apple-icon-120x120.png",
+        "/static/favicons/apple-icon-128x128.png",
+        "/static/favicons/apple-icon-144x144.png",
+        "/static/favicons/apple-icon-152x152.png",
+        "/static/favicons/apple-icon-180x180.png",
+        "/static/favicons/apple-icon-57x57.png",
+        "/static/favicons/apple-icon-60x60.png",
+        "/static/favicons/apple-icon-72x72.png",
+        "/static/favicons/apple-icon-76x76.png",
+        "/static/favicons/apple-icon-precomposed.png",
+        "/static/favicons/apple-icon.png",
+        "/static/favicons/favicon-16x16.png",
+        "/static/favicons/favicon-192x192.png",
+        "/static/favicons/favicon-196x196.png",
+        "/static/favicons/favicon-32x32.png",
+        "/static/favicons/favicon-96x96.png",
+        "/static/favicons/favicon.png",
+        "/static/font/lato/Lato-Bold.woff2",
+        "/static/font/lato/Lato-Regular.woff2",
+        "/static/font/raleway/Raleway-Bold.woff2",
+        "/static/font/raleway/Raleway-SemiBold.woff2",
+        "/static/manifest.json",
+        "https://support.apps.urlaubsverwaltung.cloud/assets/chat/chat.css"
+      ],
+      "js": [
+        "/static/js/easteregg.js",
+        "/static/js/goals.js",
+        "/static/js/navigation.js",
+        "/static/js/page-prerenderer.js",
+        "/static/js/toc.js",
+        "/static/js/top.js",
+        "https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js",
+        "https://stats.urlaubsverwaltung.cloud/js/index.js",
+        "https://support.apps.urlaubsverwaltung.cloud/assets/chat/chat.min.js"
+      ]
+    },
+    "/hilfe/krankmeldungen/index.html": {
+      "entry": [
+        "/static/js/easteregg.js",
+        "/static/js/goals.js",
+        "/static/js/navigation.js",
+        "/static/js/page-prerenderer.js",
+        "/static/js/toc.js",
+        "/static/js/top.js"
+      ],
+      "css": [
+        "/static/css/style.css",
+        "/static/css/toc.css",
+        "/static/css/wissensbasis.css",
+        "/static/favicons/apple-icon-114x114.png",
+        "/static/favicons/apple-icon-120x120.png",
+        "/static/favicons/apple-icon-128x128.png",
+        "/static/favicons/apple-icon-144x144.png",
+        "/static/favicons/apple-icon-152x152.png",
+        "/static/favicons/apple-icon-180x180.png",
+        "/static/favicons/apple-icon-57x57.png",
+        "/static/favicons/apple-icon-60x60.png",
+        "/static/favicons/apple-icon-72x72.png",
+        "/static/favicons/apple-icon-76x76.png",
+        "/static/favicons/apple-icon-precomposed.png",
+        "/static/favicons/apple-icon.png",
+        "/static/favicons/favicon-16x16.png",
+        "/static/favicons/favicon-192x192.png",
+        "/static/favicons/favicon-196x196.png",
+        "/static/favicons/favicon-32x32.png",
+        "/static/favicons/favicon-96x96.png",
+        "/static/favicons/favicon.png",
+        "/static/font/lato/Lato-Bold.woff2",
+        "/static/font/lato/Lato-Regular.woff2",
+        "/static/font/raleway/Raleway-Bold.woff2",
+        "/static/font/raleway/Raleway-SemiBold.woff2",
+        "/static/manifest.json",
+        "https://support.apps.urlaubsverwaltung.cloud/assets/chat/chat.css"
+      ],
+      "js": [
+        "/static/js/easteregg.js",
+        "/static/js/goals.js",
+        "/static/js/navigation.js",
+        "/static/js/page-prerenderer.js",
+        "/static/js/toc.js",
+        "/static/js/top.js",
+        "https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js",
+        "https://stats.urlaubsverwaltung.cloud/js/index.js",
+        "https://support.apps.urlaubsverwaltung.cloud/assets/chat/chat.min.js"
+      ]
+    },
+    "/hilfe/ueberstunden/index.html": {
+      "entry": [
+        "/static/js/easteregg.js",
+        "/static/js/goals.js",
+        "/static/js/navigation.js",
+        "/static/js/page-prerenderer.js",
+        "/static/js/toc.js",
+        "/static/js/top.js"
+      ],
+      "css": [
+        "/static/css/style.css",
+        "/static/css/toc.css",
+        "/static/css/wissensbasis.css",
+        "/static/favicons/apple-icon-114x114.png",
+        "/static/favicons/apple-icon-120x120.png",
+        "/static/favicons/apple-icon-128x128.png",
+        "/static/favicons/apple-icon-144x144.png",
+        "/static/favicons/apple-icon-152x152.png",
+        "/static/favicons/apple-icon-180x180.png",
+        "/static/favicons/apple-icon-57x57.png",
+        "/static/favicons/apple-icon-60x60.png",
+        "/static/favicons/apple-icon-72x72.png",
+        "/static/favicons/apple-icon-76x76.png",
+        "/static/favicons/apple-icon-precomposed.png",
+        "/static/favicons/apple-icon.png",
+        "/static/favicons/favicon-16x16.png",
+        "/static/favicons/favicon-192x192.png",
+        "/static/favicons/favicon-196x196.png",
+        "/static/favicons/favicon-32x32.png",
+        "/static/favicons/favicon-96x96.png",
+        "/static/favicons/favicon.png",
+        "/static/font/lato/Lato-Bold.woff2",
+        "/static/font/lato/Lato-Regular.woff2",
+        "/static/font/raleway/Raleway-Bold.woff2",
+        "/static/font/raleway/Raleway-SemiBold.woff2",
+        "/static/manifest.json",
+        "https://support.apps.urlaubsverwaltung.cloud/assets/chat/chat.css"
+      ],
+      "js": [
+        "/static/js/easteregg.js",
+        "/static/js/goals.js",
+        "/static/js/navigation.js",
+        "/static/js/page-prerenderer.js",
+        "/static/js/toc.js",
+        "/static/js/top.js",
+        "https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js",
+        "https://stats.urlaubsverwaltung.cloud/js/index.js",
+        "https://support.apps.urlaubsverwaltung.cloud/assets/chat/chat.min.js"
+      ]
+    },
+    "/hilfe/urlaub/index.html": {
+      "entry": [
+        "/static/js/easteregg.js",
+        "/static/js/goals.js",
+        "/static/js/navigation.js",
+        "/static/js/page-prerenderer.js",
+        "/static/js/toc.js",
+        "/static/js/top.js"
+      ],
+      "css": [
+        "/static/css/style.css",
+        "/static/css/toc.css",
+        "/static/css/wissensbasis.css",
+        "/static/favicons/apple-icon-114x114.png",
+        "/static/favicons/apple-icon-120x120.png",
+        "/static/favicons/apple-icon-128x128.png",
+        "/static/favicons/apple-icon-144x144.png",
+        "/static/favicons/apple-icon-152x152.png",
+        "/static/favicons/apple-icon-180x180.png",
+        "/static/favicons/apple-icon-57x57.png",
+        "/static/favicons/apple-icon-60x60.png",
+        "/static/favicons/apple-icon-72x72.png",
+        "/static/favicons/apple-icon-76x76.png",
+        "/static/favicons/apple-icon-precomposed.png",
+        "/static/favicons/apple-icon.png",
+        "/static/favicons/favicon-16x16.png",
+        "/static/favicons/favicon-192x192.png",
+        "/static/favicons/favicon-196x196.png",
+        "/static/favicons/favicon-32x32.png",
+        "/static/favicons/favicon-96x96.png",
+        "/static/favicons/favicon.png",
+        "/static/font/lato/Lato-Bold.woff2",
+        "/static/font/lato/Lato-Regular.woff2",
+        "/static/font/raleway/Raleway-Bold.woff2",
+        "/static/font/raleway/Raleway-SemiBold.woff2",
+        "/static/manifest.json",
+        "https://support.apps.urlaubsverwaltung.cloud/assets/chat/chat.css"
+      ],
+      "js": [
+        "/static/js/easteregg.js",
+        "/static/js/goals.js",
+        "/static/js/navigation.js",
+        "/static/js/page-prerenderer.js",
+        "/static/js/toc.js",
+        "/static/js/top.js",
         "https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js",
         "https://stats.urlaubsverwaltung.cloud/js/index.js",
         "https://support.apps.urlaubsverwaltung.cloud/assets/chat/chat.min.js"
@@ -225,7 +690,8 @@
         "/static/js/easteregg.js",
         "/static/js/goals.js",
         "/static/js/navigation.js",
-        "/static/js/page-prerenderer.js"
+        "/static/js/page-prerenderer.js",
+        "/static/js/top.js"
       ],
       "css": [
         "/static/css/style.css",
@@ -259,6 +725,7 @@
         "/static/js/goals.js",
         "/static/js/navigation.js",
         "/static/js/page-prerenderer.js",
+        "/static/js/top.js",
         "https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js",
         "https://stats.urlaubsverwaltung.cloud/js/index.js",
         "https://support.apps.urlaubsverwaltung.cloud/assets/chat/chat.min.js"
@@ -269,7 +736,8 @@
         "/static/js/easteregg.js",
         "/static/js/goals.js",
         "/static/js/navigation.js",
-        "/static/js/page-prerenderer.js"
+        "/static/js/page-prerenderer.js",
+        "/static/js/top.js"
       ],
       "css": [
         "/static/css/style.css",
@@ -303,6 +771,7 @@
         "/static/js/goals.js",
         "/static/js/navigation.js",
         "/static/js/page-prerenderer.js",
+        "/static/js/top.js",
         "https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js",
         "https://stats.urlaubsverwaltung.cloud/js/index.js",
         "https://support.apps.urlaubsverwaltung.cloud/assets/chat/chat.min.js"
@@ -313,7 +782,8 @@
         "/static/js/easteregg.js",
         "/static/js/goals.js",
         "/static/js/navigation.js",
-        "/static/js/page-prerenderer.js"
+        "/static/js/page-prerenderer.js",
+        "/static/js/top.js"
       ],
       "css": [
         "/static/css/style.css",
@@ -347,6 +817,7 @@
         "/static/js/goals.js",
         "/static/js/navigation.js",
         "/static/js/page-prerenderer.js",
+        "/static/js/top.js",
         "https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js",
         "https://stats.urlaubsverwaltung.cloud/js/index.js",
         "https://support.apps.urlaubsverwaltung.cloud/assets/chat/chat.min.js"
@@ -357,7 +828,8 @@
         "/static/js/easteregg.js",
         "/static/js/goals.js",
         "/static/js/navigation.js",
-        "/static/js/page-prerenderer.js"
+        "/static/js/page-prerenderer.js",
+        "/static/js/top.js"
       ],
       "css": [
         "/static/css/style.css",
@@ -391,6 +863,7 @@
         "/static/js/goals.js",
         "/static/js/navigation.js",
         "/static/js/page-prerenderer.js",
+        "/static/js/top.js",
         "https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js",
         "https://stats.urlaubsverwaltung.cloud/js/index.js",
         "https://support.apps.urlaubsverwaltung.cloud/assets/chat/chat.min.js"
