@@ -54,7 +54,7 @@ Damit ein Benutzer Urlaub beantragen kann, müssen seine Daten vollständig sein
 In der Regel ist für den Zeitraum des Urlaubsantrags kein Urlaubsanspruch oder keine Arbeitszeiten konfiguriert.
 
 Unter dem Menüpunkt "Benutzer" ist eine Liste der Benutzer zu finden.
-Mit Klick auf "Details" des betreffenden Benutzers gelangt man zur Übersicht der Daten des Benutzers. Hier können die einzelnen Benutzerdaten wie Stammdaten,
+Mit Klick auf "Konto" des betreffenden Benutzers gelangt man zur Übersicht der Daten des Benutzers. Hier können die einzelnen Benutzerdaten wie Stammdaten,
 Arbeitszeiten und Urlaubsanspruch durch Klick auf die Editieren-Aktion (Stift-Icon) gepflegt werden. Sobald der Benutzer über alle erforderlichen Daten
 verfügt, sollte er auch in der Lage sein, Urlaub zu beantragen.
 
@@ -67,9 +67,9 @@ auszuwählen. So kann man bspw. das nächste Jahr auswählen, um den
 Urlaubsanspruch für das nächste Jahr einzutragen.
 
 Das manuelle Eintragen des Urlaubsanspruchs für das nächste Jahr ist aber nur
-dann notwendig, wenn der Urlaubsanspruch für das nächste Jahr sich vom
-diesjährigen unterscheidet. Ansonsten hat der Benutzer im nächsten Jahr einfach
-den gleichen Urlaubsanspruch, den er im aktuellen Jahr hat.
+dann notwendig, wenn sich der Urlaubsanspruch für das nächste Jahr vom
+diesjährigen unterscheidet. Ansonsten hat der Benutzer im nächsten Jahr den
+gleichen Urlaubsanspruch, den er im aktuellen Jahr hat.
 
 ![Urlaubsanspruch bearbeiten](holiday_next_year.png)
 
