@@ -6,7 +6,7 @@ breadcrumb:
 
 ## Gibt es die Möglichkeit Überstunden zu erfassen?
 
-Ja, die Urlaubsverwaltung bietet die Möglichkeit schnell und einfach Überstunden zu erfassen. Diese können ebenfalls abgebaut werden oder auch über einen Antrag auf Überstundenabbau durch eine privilegierte Person freigegeben werden.
+Ja, die Urlaubsverwaltung bietet die Möglichkeit schnell und einfach Überstunden zu erfassen. Diese können ebenfalls abgebaut werden oder auch über einen Antrag auf Überstundenabbau durch eine privilegierte Person freigegeben werden. Es sind verschiedene Arbeitsweisen der Überstundenverwaltung möglich. Diese sind [hier](#welche-arbeitsweisen-sind-moeglich-ueberstunden-im-unternehmen-abzubilden) zusammengefasst.
 
 Um die Überstundenverwaltung nutzen zu können muss unter dem Menüpunkt "Einstellungen" im Tab "Arbeitszeiten" Überstundenverwaltung aktiviert werden.
 
