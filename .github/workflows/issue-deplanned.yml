@@ -1,32 +1,32 @@
-name: Mark issue as planned
+name: Mark issue as deplanned
 
 on:
   issues:
-    types: [ milestoned ]
+    types: [ demilestoned ]
 
 jobs:
   apply-label:
     runs-on: ubuntu-20.04
     steps:
       - uses: actions/github-script@v5
-        name: Add label 'status planned' to issue when milestoned
+        name: Add label 'status new' to issue when demilestoned
         with:
           github-token: ${{github.token}}
           script: |
             github.rest.issues.addLabels({
               ...context.repo,
               issue_number: context.issue.number,
-              labels: ['status: planned']
+              labels: ['status: new']
             })
             .catch(e => { console.log(e.message) })
       - uses: actions/github-script@v5
-        name: Remove label 'status new' to issue when milestoned
+        name: Remove label 'status planned' to issue when demilestoned
         with:
           github-token: ${{github.token}}
           script: |
             github.rest.issues.removeLabel({
               ...context.repo,
               issue_number: context.issue.number,
-              name: 'status: new'
+              name: 'status: planned'
             })
             .catch(e => { console.log(e.message) })
