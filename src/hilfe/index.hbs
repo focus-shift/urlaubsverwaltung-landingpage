@@ -3,6 +3,8 @@ layout: layout-subpage
 backgroundColor: bg-lightBlue-50
 navigation:
   activeItem: hilfe
+stylesheets:
+  - /static/css/faq.css
 ---
 
 <div id="faq" class="w-full max-w-screen-xl mx-auto">
@@ -21,44 +23,6 @@ navigation:
 			</div>
 		</div>
 		<div class="flex-1 md:mb-0 bg-white rounded-2xl py-8 px-4 md:p-8">
-			<style>
-				input[type="checkbox"] {
-					display: none;
-				}
-				input[type="checkbox"] ~ dl dd {
-					display: none;
-				}
-				input[type="checkbox"] ~ dl dt > label > span > svg {
-					transition: transform ease-in-out 150ms;
-				}
-
-				#faq-checkbox-wirklich-kostenlos:checked ~ dl dt > label[for="faq-checkbox-wirklich-kostenlos"] > span > svg,
-				#faq-checkbox-nach-testphase:checked ~ dl dt > label[for="faq-checkbox-nach-testphase"] > span > svg,
-				#faq-checkbox-teilnehmen:checked ~ dl dt > label[for="faq-checkbox-teilnehmen"] > span > svg,
-				#faq-checkbox-zahlungsarten:checked ~ dl dt > label[for="faq-checkbox-zahlungsarten"] > span > svg,
-				#faq-checkbox-kosten:checked ~ dl dt > label[for="faq-checkbox-kosten"] > span > svg,
-				#faq-checkbox-dsgvo:checked ~ dl dt > label[for="faq-checkbox-dsgvo"] > span > svg,
-				#faq-checkbox-mitarbeiter-anlegen:checked ~ dl dt > label[for="faq-checkbox-mitarbeiter-anlegen"] > span > svg,
-				#faq-checkbox-kalenderintegration:checked ~ dl dt > label[for="faq-checkbox-kalenderintegration"] > span > svg,
-				#faq-checkbox-app:checked ~ dl dt > label[for="faq-checkbox-app"] > span > svg,
-				#faq-checkbox-feedback:checked ~ dl dt > label[for="faq-checkbox-feedback"] > span > svg {
-					transform: rotate(45deg);
-					color: rgba(14, 165, 233, var(--tw-text-opacity));
-				}
-
-				#faq-checkbox-wirklich-kostenlos:checked ~ dl dd[data-id="faq-p-wirklich-kostenlos"],
-				#faq-checkbox-nach-testphase:checked ~ dl dd[data-id="faq-p-nach-testphase"],
-				#faq-checkbox-teilnehmen:checked ~ dl dd[data-id="faq-p-teilnehmen"],
-				#faq-checkbox-zahlungsarten:checked ~ dl dd[data-id="faq-p-zahlungsarten"],
-				#faq-checkbox-kosten:checked ~ dl dd[data-id="faq-p-kosten"],
-				#faq-checkbox-dsgvo:checked ~ dl dd[data-id="faq-p-dsgvo"],
-				#faq-checkbox-mitarbeiter-anlegen:checked ~ dl dd[data-id="faq-p-mitarbeiter-anlegen"],
-				#faq-checkbox-kalenderintegration:checked ~ dl dd[data-id="faq-p-kalenderintegration"],
-				#faq-checkbox-app:checked ~ dl dd[data-id="faq-p-app"],
-				#faq-checkbox-feedback:checked ~ dl dd[data-id="faq-p-feedback"] {
-					display: block;
-				}
-			</style>
 			<input type="checkbox" name="noop" id="faq-checkbox-wirklich-kostenlos">
 			<input type="checkbox" name="noop" id="faq-checkbox-nach-testphase">
 			<input type="checkbox" name="noop" id="faq-checkbox-teilnehmen">
