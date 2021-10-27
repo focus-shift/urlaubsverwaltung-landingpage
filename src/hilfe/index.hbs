@@ -27,6 +27,7 @@ stylesheets:
 			<input type="checkbox" name="noop" id="faq-checkbox-nach-testphase">
 			<input type="checkbox" name="noop" id="faq-checkbox-teilnehmen">
 			<input type="checkbox" name="noop" id="faq-checkbox-zahlungsarten">
+			<input type="checkbox" name="noop" id="faq-checkbox-kuendigen">
 			<input type="checkbox" name="noop" id="faq-checkbox-kosten">
 			<input type="checkbox" name="noop" id="faq-checkbox-dsgvo">
 			<input type="checkbox" name="noop" id="faq-checkbox-mitarbeiter-anlegen">
@@ -76,11 +77,22 @@ stylesheets:
 							<span class="mr-4 md:mr-6 text-sky-400 text-opacity-70 group-hover:text-opacity-100 mt-1">
 								{{> partials/icon-plus-circle class='w-6 h-6 md:w-7 md:h-7'}}
 							</span>
-						Welche Zahlungsarten gibt es und welche Kündigungsfristen gelten?
+						Welche Zahlungsarten gibt es?
 					</label>
 				</dt>
 				<dd data-id="faq-p-zahlungsarten" class="mt-4 ml-10 md:ml-13 text-lg text-black text-opacity-80">
 					Du bekommst monatlich nach dem Leistungszeitraum eine Rechnung per E-Mail zugestellt.
+					Diese kannst du entweder in Form einer Überweisung begleichen oder ein SEPA-Lastschriftmandat erteilen
+				</dd>
+				<dt class="group text-lg md:text-xl mt-8 md:mt-4 text-black font-semibold">
+					<label tabindex="0" for="faq-checkbox-kuendigen" class="cursor-pointer flex md:items-center text-black text-opacity-90">
+							<span class="mr-4 md:mr-6 text-lightBlue-400 text-opacity-70 group-hover:text-opacity-100 mt-1">
+								{{> partials/icon-plus-circle class='w-6 h-6 md:w-7 md:h-7'}}
+							</span>
+						Welche Kündigungsfristen gelten?
+					</label>
+				</dt>
+				<dd data-id="faq-p-kuendigen" class="mt-4 ml-10 md:ml-13 text-lg text-black text-opacity-80">
 					Kündigen kannst du mit 14 Tagen zum jeweiligen Ende eines jeden Vertragsmonats.
 				</dd>
 				<dt class="group text-lg md:text-xl mt-8 md:mt-4 text-black font-semibold">
