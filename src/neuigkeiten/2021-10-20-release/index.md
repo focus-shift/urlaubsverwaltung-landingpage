@@ -8,7 +8,7 @@ release-version: 4.25.0
 teaserImage: /static/update.png
 ---
 
-Verbesserte Urlaubsübersichtsseite und Hilfe direkt aus der Urlaubserwaltung
+Verbesserte Urlaubsübersichtsseite und Hilfe direkt aus der Urlaubsverwaltung
 
 <!-- more -->
 
