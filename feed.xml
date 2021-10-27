@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/" xml:lang="de">
+  <title>urlaubsverwaltung.cloud</title>
+  <subtitle></subtitle>
+  <link rel="self" href="https://urlaubsverwaltung.cloud/feed.xml" />
+  <link rel="alternate" type="text/html" href="https://urlaubsverwaltung.cloud" />
+  <updated>2021-10-20T00:00:00Z</updated>
+  <id>https://urlaubsverwaltung.cloud</id>
+  
+  
+</feed>
