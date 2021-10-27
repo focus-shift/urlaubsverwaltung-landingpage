@@ -13,7 +13,10 @@ const paths = {
 
 const prod = process.env.NODE_ENV === "production";
 
-const not = fn => (...args) => !fn(...args);
+const not =
+	fn =>
+	(...args) =>
+		!fn(...args);
 const isDraft = post =>
 	post.data.draft === "" ? true : Boolean(post.data.draft);
 
@@ -29,16 +32,16 @@ module.exports = function (eleventyConfig) {
 		excerpt_separator: "<!-- more -->",
 	});
 
-	eleventyConfig.setLibrary("md",
+	eleventyConfig.setLibrary(
+		"md",
 		markdown({
 			html: true,
 			breaks: true,
-			linkify: true
-		})
-			.use(markdownItAnchor, {
-				slugify: str => slugify(str),
-				tabIndex: false,
-			})
+			linkify: true,
+		}).use(markdownItAnchor, {
+			slugify: str => slugify(str),
+			tabIndex: false,
+		}),
 	);
 
 	eleventyConfig.addHandlebarsHelper("debug", function (...args) {
@@ -46,7 +49,7 @@ module.exports = function (eleventyConfig) {
 	});
 
 	eleventyConfig.addHandlebarsHelper("date", function (date, format) {
-		return formatDate(date, format, {locale: localeDe});
+		return formatDate(date, format, { locale: localeDe });
 	});
 
 	eleventyConfig.addHandlebarsHelper("eq", function (one, two, options) {
@@ -69,18 +72,24 @@ module.exports = function (eleventyConfig) {
 		function renderNode(node) {
 			let childrenHtml = "";
 			if (node.children.length > 0) {
-				childrenHtml = `<ul>${node.children.map(child => renderNode(child)).join("")}</ul>`;
+				childrenHtml = `<ul>${node.children
+					.map(child => renderNode(child))
+					.join("")}</ul>`;
 			}
 			let html = "";
-			html += `<li class="toc-menu-item"><a href="${node.node.link}">${node.node.text}</a>${childrenHtml}</li>`
+			html += `<li class="toc-menu-item"><a href="${node.node.link}">${node.node.text}</a>${childrenHtml}</li>`;
 			return html;
 		}
 
 		const $ = cheerio.load(data.content);
-		const headings = [...$("h2, h3")]
+		const headings = [...$("h2, h3")];
 		const tree = tocTree(headings, 1, $);
 
-		return tree.length === 0 ? "" : `<ul class="toc-menu">${tree.map(node => renderNode(node)).join("")}</ul>`;
+		return tree.length === 0
+			? ""
+			: `<ul class="toc-menu">${tree
+					.map(node => renderNode(node))
+					.join("")}</ul>`;
 	});
 
 	return {
@@ -140,14 +149,15 @@ function headingLevel(h) {
 }
 
 function slugify(str) {
-	return str.toLowerCase()
-		.replace(/ä/g, 'ae')
-		.replace(/ö/g, 'oe')
-		.replace(/ü/g, 'ue')
-		.replace(/ß/g, 'ss')
-		.replace(/[?!.,$§]/g, '')
-		.replace(/\s+/g, '-')
-		.replace(/--*/g, '-')
-		.replace(/^-/, '')
-		.replace(/-$/, '')
+	return str
+		.toLowerCase()
+		.replace(/ä/g, "ae")
+		.replace(/ö/g, "oe")
+		.replace(/ü/g, "ue")
+		.replace(/ß/g, "ss")
+		.replace(/[?!.,$§]/g, "")
+		.replace(/\s+/g, "-")
+		.replace(/--*/g, "-")
+		.replace(/^-/, "")
+		.replace(/-$/, "");
 }
