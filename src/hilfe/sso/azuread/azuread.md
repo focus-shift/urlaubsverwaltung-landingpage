@@ -9,10 +9,10 @@ breadcrumb:
 ### Welcher Benutzer darf die Azure AD Anbindung konfigurieren?
 
 Die Konfiguration kann nur von dem Benutzer durchgeführt werden, welcher die Registrierung zu 
-urlaubsverwaltung.cloud durchgeführt hat. Dieser Benutzer hat die Berechtigung auf _Mein Konto_, über
+urlaubsverwaltung.cloud durchgeführt hat. Dieser Benutzer hat die Berechtigung auf _Mein Kundenportal_, über
 welches die Konfiguration durchgeführt werden kann.
 
-Zu _Mein Konto_ gelangst du über _[urlaubsverwaltung.cloud](https://urlaubsverwaltung.cloud)_ > _Anmelden_ und nach erfolgreichem Login über die Kachel _Mein Konto_.
+Zu _Mein Kundenportal_ gelangst du über _[urlaubsverwaltung.cloud](https://urlaubsverwaltung.cloud)_ > _Anmelden_ und nach erfolgreichem Login über die Kachel _Mein Kundenportal_.
 
 ### Wie können Benutzer aus Active Directory verwendet werden?
 
@@ -44,7 +44,7 @@ Durch die Ansprüche im _ID Token_ benötigt die registrierte App folgende Berec
 Dazu sind folgende Schritte notwendig:
 
 * [Schritt 1: Neue App-Registrierung im Azure AD durchführen](#schritt-1:-neue-app-registrierung-im-azure-ad-durchfuehren)
-* [Schritt 2: Auf Mein Konto die Anbindung konfigurieren](#schritt-2:-auf-mein-konto-die-anbindung-konfigurieren)
+* [Schritt 2: Auf Mein Kundenportal die Anbindung konfigurieren](#schritt-2:-auf-mein-kundenportal-die-anbindung-konfigurieren)
 * [Schritt 3: Für App-Registrierung Umleitungs-URI konfigurieren](#schritt-3:-fuer-app-registrierung-umleitungs-uri-konfigurieren)
 * [Schritt 4: Anmelden via Azure AD](#schritt-4:-anmeldung-via-azure-ad)
 
@@ -90,7 +90,7 @@ Nach erfolgreicher Registrierung kommst du auf die Übersichtsseite der App-Regi
   </picture>
 </p>
 
-Auf dieser Seite findest du zwei wichtige Informationen, welche in [Schritt 2](#schritt-2:-auf-mein-konto-die-anbindung-konfigurieren) benötigt werden.
+Auf dieser Seite findest du zwei wichtige Informationen, welche in [Schritt 2](#schritt-2:-auf-mein-kundenportal-die-anbindung-konfigurieren) benötigt werden.
 Am besten erstellt man eine Datei über einen Texteditor (z.B. Notepad) und kopiert die Werte dort hinein.
 
 1. Wert von _Anwendungs-Id_ kopieren und in Textdatei einfügen
@@ -177,10 +177,10 @@ entsprechende Microsoft Graph-Berechtigung aktiviert werden muss.
 </p>
 
 
-#### Schritt 2: Auf Mein Konto die Anbindung konfigurieren
+#### Schritt 2: Auf Mein Kundenportal die Anbindung konfigurieren
 
-Dazu muss man nun zu _Mein Konto_ von [urlaubsverwaltung.cloud](https://urlaubsverwaltung.cloud) via _Anmelden_ und über die Kachel
-_Mein Konto_ wechseln. Unter _Single-Sign-On_ > _Azure AD_ gelangst du nun auf die Konfigurationsseite.
+Dazu muss man nun zu _Mein Kundenportal_ von [urlaubsverwaltung.cloud](https://urlaubsverwaltung.cloud) via _Anmelden_ und über die Kachel
+_Mein Kundenportal_ wechseln. Unter _Single-Sign-On_ > _Azure AD_ gelangst du nun auf die Konfigurationsseite.
 
 Zuerst kopierst du die hervorgehobene URI in die Textdatei, welche in [Schritt 3](#schritt-3:-fuer-app-registrierung-umleitungs-uri-konfigurieren) als Umleitungs-URI konfiguriert wird.
 
@@ -263,7 +263,7 @@ Nachdem die Konfiguration von Schritt 1 bis 3 erfolgreich durchgeführt wurde, k
 urlaubsverwaltung.cloud via Azure AD erfolgen. Dazu rufst du die Url _Mein Profil_ von urlaubsverwaltung.cloud
 auf. Nun wirst du zur Anmelde-Seite von Microsoft umgeleitet und musst dich mit deinem Microsoft Konto anmelden.
 
-Es erscheint eine Meldung, dass der Zugriff auf die Angeforderten Berechtigungen (Details siehe [Schritt 2](#schritt-2:-auf-mein-konto-die-anbindung-konfigurieren))
+Es erscheint eine Meldung, dass der Zugriff auf die Angeforderten Berechtigungen (Details siehe [Schritt 2](#schritt-2:-auf-mein-kundenportal-die-anbindung-konfigurieren))
 akzeptiert werden muss.
 <p>
   <picture>
