@@ -104,15 +104,19 @@ Neuer geheimer Clientschlüssel erstellen
 2. _Neuer geheimer Clientschlüssel_ klicken
 3. Unter _Beschreibung_ eine Beschreibung vergeben z.B. _oidc-client-secret-2021-10_
 4. _Gültig bis_ die Laufzeit des Clientschlüssels auswählen.
-   > **Achtung**:
-   >
-   > Hierbei ist darauf zu achten, dass ein paar Tage _vor Ablauf_ des Clientschlüssels ein neuer Clientschlüssel für
-   > die Anwendung in Azure AD erzeugt werden muss. Dieser neue Clientschlüssel kann danach im Portal von
-   > urlaubsverwaltung.cloud konfiguriert werden. Falls dies nicht vor Ablauf des Clientschlüssel durchgeführt
-   > wird, ist **kein** Zugriff auf die Urlaubsverwaltung mehr möglich ist.
-   > Solltest du den Zeitpunkt verpasst haben, ist das kein Problem! Melde dich einfach via [E-Mail](mailto:info@urlaubsverwaltung.cloud?subject=Unterstützung%20Client-Secret%20abgelaufen) bei uns 
-   > und wir beheben zusammen das Problem - Daten gehen dabei _nicht_ verlohren!
-   > Am besten richtest du in deinem Kalender 7 - 14 Tage vor Ablauf des Clientschlüssels eine Erinnerung für den Wechsel ein.
+
+<aside class="wissensbasis-info">
+  <p class="font-bold uppercase">Achtung</p>
+  <p>
+    Hierbei ist darauf zu achten, dass ein paar Tage <span class="font-bold">vor Ablauf</span> des Clientschlüssels ein neuer Clientschlüssel für
+    die Anwendung in Azure AD erzeugt werden muss. Dieser neue Clientschlüssel kann danach im Portal von
+    urlaubsverwaltung.cloud konfiguriert werden. Falls dies nicht vor Ablauf des Clientschlüssel durchgeführt
+    wird, ist <span class="font-bold">kein</span> Zugriff auf die Urlaubsverwaltung mehr möglich ist.
+    Solltest du den Zeitpunkt verpasst haben, ist das kein Problem! Melde dich einfach via <a href="mailto:info@urlaubsverwaltung.cloud?subject=Unterstützung%20Client-Secret%20abgelaufen">E-Mail</a> bei uns und wir beheben zusammen das Problem - Daten gehen dabei <span class="font-bold">nicht</span> verloren!
+    Am besten richtest du in deinem Kalender 7-14 Tage vor Ablauf des Clientschlüssels eine Erinnerung für den Wechsel ein.
+  </p>
+</aside>
+
 5. Über einen Klick auf _Hinzufügen_ wird der neue geheime Clientschlüssel angelegt.
 
 Den erzeugten Wert des Clientschlüssels kopieren und ebenfalls in die Textdatei einfügen.
@@ -216,7 +220,12 @@ Nun ist die Konfiguration auf Seiten von Azure AD abgeschlossen.
 
 #### Schritt 4: Anmeldung via Azure AD
 
-> **Achtung**: Ab jetzt bitte alles in einem neuen privaten Browserfenster durchführen.
+<aside class="wissensbasis-info">
+  <p class="font-bold uppercase">Achtung</p>
+  <p>
+    Ab jetzt bitte alles in einem neuen privaten Browserfenster durchführen.
+  </p>
+</aside>
 
 Nachdem die Konfiguration von Schritt 1 bis 3 erfolgreich durchgeführt wurde, kann nun die Anmeldung zu
 urlaubsverwaltung.cloud via Azure AD erfolgen. Dazu rufst du die Url _Mein Profil_ von urlaubsverwaltung.cloud
