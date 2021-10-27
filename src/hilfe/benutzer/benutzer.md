@@ -31,6 +31,8 @@ Als Benutzer mit der Berechtigung _Office_ kannst du über den Menü-Punkt Benut
       alt="Konto eines Benutzers"
       decoding="async"
       loading="lazy"
+      width="1186"
+      height="467"
     />
   </picture>
 </p>
@@ -46,6 +48,8 @@ Hier gibt es die Möglichkeit die Berechtigungen über das "Stift"-Symbol zu edi
       alt="Berechtigungen editieren"
       decoding="async"
       loading="lazy"
+      width="1196"
+      height="761"
     />
   </picture>
 </p>
@@ -76,6 +80,8 @@ Beim Editieren des Benutzers muss die Berechtigung _Inaktiv_ ausgewählt werden:
       alt="Inaktivieren eines Benutzers"
       decoding="async"
       loading="lazy"
+      width="568"
+      height="289"
     />
   </picture>
 </p>
@@ -114,6 +120,8 @@ gleichen Urlaubsanspruch, den er im aktuellen Jahr hat.
       alt="Urlaubsanspruch bearbeiten"
       decoding="async"
       loading="lazy"
+      width="1189"
+      height="558"
     />
   </picture>
 </p>

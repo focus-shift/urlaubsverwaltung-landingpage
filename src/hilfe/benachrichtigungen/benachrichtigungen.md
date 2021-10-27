@@ -17,6 +17,8 @@ Als Benutzer mit der Berechtigung _Office_ können die Einstellungen der Benachr
       alt="Benachrichtigung konfigurieren"
       decoding="async"
       loading="lazy"
+      width="644"
+      height="551"
     />
   </picture>
 </p>

@@ -28,6 +28,8 @@ entsprechende Berechtigung _Abteilungsleiter_ erhalten. Die Konfiguration von Be
       alt="Konfiguration der Berechtigung Abteilungsleiter"
       decoding="async"
       loading="lazy"
+      width="789"
+      height="406"
     />
   </picture>
 </p>
@@ -48,6 +50,8 @@ nun Abteilungsleiter dieser Abteilung.
       alt="Abteilungsleiter einer Abteilung konfigurieren"
       decoding="async"
       loading="lazy"
+      width="784"
+      height="487"
     />
   </picture>
 </p>

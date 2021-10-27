@@ -19,6 +19,8 @@ Hierzu können in den _Einstellungen_ unter _Abwesenheiten_ die entsprechenden Z
       alt="Einstellungen Krankmeldung"
       decoding="async"
       loading="lazy"
+      width="1162"
+      height="259"
     />
   </picture>
 </p>
@@ -34,6 +36,8 @@ Hierzu können in den _Einstellungen_ unter _Abwesenheiten_ die entsprechenden Z
       alt="Workflow bei Krankmeldungen"
       decoding="async"
       loading="lazy"
+      width="1121"
+      height="709"
     />
   </picture>
 </p>
