@@ -36,3 +36,10 @@ npm run build
 Jeder commit auf den Branch `main` wird automatisiert gebaut, auf den `gh-pages` branch gemerged und damit live genommen.
 
 siehe `.github/workflows/deployment.yml`
+
+
+## Bilder & Icons
+
+* [Bild-Optimierung](https://squoosh.app/)
+* Screenshots via [flameshot](https://flameshot.org/)
+* [Icon Set](https://heroicons.com/)
