@@ -155,7 +155,7 @@ function slugify(str) {
 		.replace(/ö/g, "oe")
 		.replace(/ü/g, "ue")
 		.replace(/ß/g, "ss")
-		.replace(/[?!.,$§]/g, "")
+		.replace(/[:?!.,$§]/g, "")
 		.replace(/\s+/g, "-")
 		.replace(/--*/g, "-")
 		.replace(/^-/, "")
