@@ -2,7 +2,6 @@
 draft: false
 layout: layout-neuigkeiten
 date: 2021-10-20
-category: Aktualisierung
 title: Version 4.25.0 veröffentlicht
 author: Tobias Schneider
 release-version: 4.25.0
