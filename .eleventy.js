@@ -1,28 +1,44 @@
 const formatDate = require("date-fns/format");
-const markdownIt = require("markdown-it");
+const localeDe = require("date-fns/locale/de");
+const markdown = require("markdown-it");
+const markdownIt = require("markdown-it")();
 const markdownItAnchor = require("markdown-it-anchor");
 const cheerio = require("cheerio");
+const pluginRss = require("@11ty/eleventy-plugin-rss");
 
 const paths = {
 	input: "src",
 	output: "build",
 };
 
+const prod = process.env.NODE_ENV === "production";
+
+const not = fn => (...args) => !fn(...args);
+const isDraft = post =>
+	post.data.draft === "" ? true : Boolean(post.data.draft);
+
 module.exports = function (eleventyConfig) {
 	eleventyConfig.setTemplateFormats(["njk", "hbs", "md", "html", "txt"]);
-
 	eleventyConfig.addPassthroughCopy("src/**/*.{png,jpg,jpeg,webp,avif}");
 
+	eleventyConfig.addPlugin(pluginRss);
+
+	eleventyConfig.setFrontMatterParsingOptions({
+		excerpt: true,
+		excerpt_alias: "excerpt",
+		excerpt_separator: "<!-- more -->",
+	});
+
 	eleventyConfig.setLibrary("md",
-		markdownIt({
+		markdown({
 			html: true,
 			breaks: true,
 			linkify: true
 		})
-		.use(markdownItAnchor, {
-			slugify: str => slugify(str),
-			tabIndex: false,
-		})
+			.use(markdownItAnchor, {
+				slugify: str => slugify(str),
+				tabIndex: false,
+			})
 	);
 
 	eleventyConfig.addHandlebarsHelper("debug", function (...args) {
@@ -30,11 +46,23 @@ module.exports = function (eleventyConfig) {
 	});
 
 	eleventyConfig.addHandlebarsHelper("date", function (date, format) {
-		return formatDate(date, format);
+		return formatDate(date, format, {locale: localeDe});
 	});
 
 	eleventyConfig.addHandlebarsHelper("eq", function (one, two, options) {
 		return one === two ? options.fn(this) : null;
+	});
+
+	eleventyConfig.addHandlebarsHelper("markdownToHtml", function (text) {
+		return markdownIt.render(text);
+	});
+
+	eleventyConfig.addCollection("blogposts", function (collection) {
+		const allBlogPosts = collection
+			.getFilteredByGlob("./src/neuigkeiten/**/*.md")
+			.reverse();
+
+		return prod ? allBlogPosts.filter(not(isDraft)) : allBlogPosts;
 	});
 
 	eleventyConfig.addHandlebarsHelper("toc", function (data) {
@@ -95,13 +123,19 @@ function tocTree(headings, parentLevel, $) {
 }
 
 function headingLevel(h) {
-	switch(h) {
-		case "h1": return 1;
-		case "h2": return 2;
-		case "h3": return 3;
-		case "h4": return 4;
-		case "h5": return 5;
-		case "h6": return 6;
+	switch (h) {
+		case "h1":
+			return 1;
+		case "h2":
+			return 2;
+		case "h3":
+			return 3;
+		case "h4":
+			return 4;
+		case "h5":
+			return 5;
+		case "h6":
+			return 6;
 	}
 }
 

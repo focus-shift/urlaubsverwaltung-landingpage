@@ -1,0 +1,23 @@
+.blog {
+	ul {
+		@apply list-outside;
+		@apply list-disc;
+		@apply my-4;
+		@apply ml-5;
+	}
+
+	h3 {
+		@apply text-4xl;
+		@apply mb-8;
+		@apply mt-16;
+	}
+
+	p {
+		@apply mb-4;
+	}
+
+	img {
+		@apply border;
+		@apply border-2;
+	}
+}

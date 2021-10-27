@@ -45,11 +45,15 @@
                 Demo
               </a>
             </li>
-            <li role="none" class="navigation-item {{#eq active "hilfe"}}active{{/eq}}">
-              <a href="/hilfe" role="menuitem" class="font-header font-semibold text-xl navbar:text-lg">
-                Hilfe
+            <li role="none" class="navigation-item navigation-item-blog {{#eq active "neuigkeiten"}}active{{/eq}}">
+              <a href="/neuigkeiten" role="menuitem" class="font-header font-semibold text-xl md:text-lg">
+                Neuigkeiten
               </a>
             </li>
+						<li role="none" class="navigation-item {{#eq active "hilfe"}}active{{/eq}} md:hidden lg:inline">
+							<a href="/hilfe" role="menuitem" class="font-header font-semibold text-xl navbar:text-lg">
+								Hilfe
+							</a>
           </ul>
         </nav>
       </div>
