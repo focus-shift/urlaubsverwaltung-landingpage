@@ -1,56 +1,43 @@
-<!DOCTYPE html>
-<html lang="de">
+---
+layout: layout-subpage
+scripts:
+  - /static/js/toc.js
+stylesheets:
+  - /static/css/neuigkeiten.css
+backgroundColor: bg-lightBlue-50
+navigation:
+  activeItem: neuigkeiten
+---
 
-<head>
-  {{> meta}}
-	<title>
-		Urlaubsverwaltung{{#if title}} - {{title}}{{/if}}
-	</title>
-	<link rel="preload" href="/static/font/raleway/Raleway-SemiBold.woff2" as="font" type="font/woff2" crossorigin />
-	<link rel="preload" href="/static/font/raleway/Raleway-Bold.woff2" as="font" type="font/woff2" crossorigin />
-	<link rel="preload" href="/static/font/lato/Lato-Regular.woff2" as="font" type="font/woff2" crossorigin />
-	<link rel="preload" href="/static/font/lato/Lato-Bold.woff2" as="font" type="font/woff2" crossorigin />
-	<link rel="preload" href="https://support.apps.urlaubsverwaltung.cloud/assets/chat/chat.css" as="style" crossorigin />
-	<link rel="stylesheet" href="/static/css/style.css" />
-	<link rel="stylesheet" href="/static/css/neuigkeiten.css" />
-	{{> partials/font-raleway }}
-	{{> partials/font-lato }}
-</head>
+{{#if draft}}
+	<div class="fixed left-0 right-0 bottom-0 p-8 py-2 border-2 border-yellow-900 bg-yellow-200 text-lg font-bold flex justify-between">
+		<span>DRAFT</span>
+		<span>DRAFT</span>
+		<span>DRAFT</span>
+	</div>
+{{/if}}
 
-<body class="flex flex-col min-h-full bg-lightBlue-50">
-	{{> partials/navigation active="neuigkeiten" }}
-	{{#if draft}}
-		<div class="fixed bottom-0 w-full p-8 py-2 border-2 border-yellow-900 bg-yellow-200 text-lg font-bold flex justify-between">
-			<span>DRAFT</span>
-			<span>DRAFT</span>
-			<span>DRAFT</span>
+<div class="blog w-full max-w-screen-xl mx-auto py-4 px-6 rounded-2xl bg-white">
+	<div class="px-4 xl:px-0">
+		<div class="mb-8 flex flex-row items-center text-sm text-gray-500 space-x-1">
+			<a href="/neuigkeiten" class="no-underline hover:underline">Neuigkeiten</a>
+			<svg class="w-3 h-3" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path></svg>
+			{{#if category}}
+			<span>{{category}}</span>
+			<svg class="w-3 h-3" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path></svg>
+			{{/if}}
+			<span>{{title}}</span>
 		</div>
-	{{/if}}
-	<main class="blog flex-1 w-full max-w-screen-xl mx-auto mb-16 py-4 px-6 rounded-2xl bg-white">
-		<div class="px-4 xl:px-0">
-			<div class="mb-8 flex flex-row items-center text-sm text-gray-500 space-x-1">
-				<a href="/neuigkeiten" class="no-underline hover:underline">Neuigkeiten</a>
-				<svg class="w-3 h-3" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path></svg>
-				{{#if category}}
-				<span>{{category}}</span>
-				<svg class="w-3 h-3" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path></svg>
-				{{/if}}
-				<span>{{title}}</span>
-			</div>
-			<div>
-				<small class="text-black text-opacity-50 italic">
-					{{date date 'dd. MMMM yyyy'}}
-				</small>
-			</div>
-			<h2 class="text-4xl">
-				{{title}}
-			</h2>
-			<div class="mt-8 text-lg">
-				{{{ content }}}
-			</div>
+		<div>
+			<small class="text-black text-opacity-50 italic">
+				{{date date 'dd. MMMM yyyy'}}
+			</small>
 		</div>
-	</main>
-	{{> partials/footer }}
-</body>
-
-</html>
+		<h2 class="text-4xl">
+			{{title}}
+		</h2>
+		<div class="mt-8 text-lg">
+			{{{ content }}}
+		</div>
+	</div>
+</div>
