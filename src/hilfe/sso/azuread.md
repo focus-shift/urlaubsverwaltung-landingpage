@@ -4,7 +4,7 @@ breadcrumb:
   title: SSO mit Azure AD
 ---
 
-## Signle Sign-On mit Azure Active Directory (Azure AD)
+## Single Sign-On mit Azure Active Directory (Azure AD)
 
 ### Welcher Benutzer darf die Azure AD Anbindung konfigurieren?
 
@@ -260,12 +260,12 @@ dass es zu deiner E-Mail-Adresse schon ein Konto gibt.
   </picture>
 </p>
 
-1. Durch einen Klick auf _Zu einem bestehenden Benutzerkonto hinzufügen_ weisst du den 
-   Authentifzierungsserver von urlaubsverwaltung.cloud an, dass du das Azure AD Konto mit dem
+1. Durch einen Klick auf _Zu einem bestehenden Benutzerkonto hinzufügen_ weißt du den
+   Authentifizierungsserver von urlaubsverwaltung.cloud an, dass du das Azure AD Konto mit dem
    urlaubsverwaltung.cloud Konto verknüpfen möchtest.
 
 Der Authentifizierungsserver von urlaubsverwaltung.cloud schickt dir nun eine E-Mail mit einem Link, um
-sicher zu stellen dass die Verknüpfung der Benutzerkonten auch wirklich von dir angefordert wurde und du im
+sicher zu stellen, dass die Verknüpfung der Benutzerkonten auch wirklich von dir angefordert wurde und du im
 Besitz beider Benutzerkonten bist.
 <p>
   <picture>
