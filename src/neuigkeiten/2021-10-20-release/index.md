@@ -1,7 +1,8 @@
 ---
-draft: true
+draft: false
 layout: layout-neuigkeiten
 date: 2021-10-20
+category: Aktualisierung
 title: Version 4.25.0 veröffentlicht
 author: Tobias Schneider
 release-version: 4.25.0
@@ -12,13 +13,13 @@ Verbesserte Urlaubsübersichtsseite und Hilfe direkt aus der Urlaubserwaltung
 
 <!-- more -->
 
-### Verbesserte Urlaubsübersichtsseite
+## Verbesserte Urlaubsübersichtsseite
 
-<div class="flex flex-col lg:flex-row lg:space-x-8">
+<div class="flex flex-col items-center mt-2 lg:flex-row lg:space-x-8">
   <div>
     <img src="vacation-overview.png" alt="Neue Urlaubsübersichtsseite auf dem Desktop">
   </div>
-  <div class="max-w-none lg:max-w-lg">
+  <div class="max-w-none lg:max-w-screen">
     <p class="mt-4 lg:mb-4">
       In dieser Version wurde die <strong>Urlaubsübersichtsseite</strong> unter "Urlaub" verbessert, sodass diese noch schneller und 
       intuitiver auf kleinen Endgeräten zu bedienen ist. Mehr Informationen über deine Urlaubsanträge, sowie direkter Zugriff zum
@@ -31,11 +32,11 @@ Verbesserte Urlaubsübersichtsseite und Hilfe direkt aus der Urlaubserwaltung
   </div>
 </div>
 
-<div class="flex flex-col lg:flex-row lg:space-x-8">
+<div class="flex flex-col justify-end items-center lg:flex-row-reverse lg:space-x-8 lg:space-x-reverse lg:mt-8 lg:mb-8">
   <div>
-    <img src="vertretung.png" alt="Anstehende Vertretung mit Notiz">
+    <img class="mx-auto lg:max-w-md lg:h-80" src="vertretung.png" alt="Anstehende Vertretung mit Notiz">
   </div>
-  <div class="max-w-none lg:max-w-lg">
+  <div class="max-w-none lg:max-w-screen">
     <p class="mt-4 lg:mb-4">
         Mit der neuen Ansicht <em>anstehender Vertretungen</em>, wird nun auf übersichtliche Weise direkt aufgezeigt, wann eine
         Vertretung und für wie lange geplant ist und ob eine Notiz an die Vertretung hinterlassen wurde. Zum Glück hatte
@@ -44,16 +45,16 @@ Verbesserte Urlaubsübersichtsseite und Hilfe direkt aus der Urlaubserwaltung
   </div>
 </div>
 
-### Hilfe direkt aus der Urlaubsverwaltung
+## Hilfe direkt aus der Urlaubsverwaltung
 
-<div class="flex flex-col justify-end lg:flex-row-reverse lg:space-x-8 lg:space-x-reverse">
+<div class="flex flex-col items-center mt-2 lg:flex-row lg:space-x-8 lg:mb-8">
   <div>
-    <img class="mx-auto" src="hilfe.png" alt="Hilfe über das Avatarmenü">
+    <img class="mx-auto lg:max-w-md lg:h-72" src="hilfe.png" alt="Hilfe über das Avatarmenü">
   </div>
-  <div class="max-w-none lg:max-w-lg">
+  <div class="max-w-none lg:max-w-screen">
     <p class="mt-4 lg:mb-4">
       Unsere Philosophie mit der Urlaubsverwaltung ist es, eine mächtige Applikation zu entwickeln, die sich
-      sehr leichtgewichtig anfühlt, sodass sich jeder Benutzer direkt wohl fühlt und das Anliegen einfach und
+      sehr leichtgewichtig anfühlt, sodass sich jeder Benutzer direkt wohlfühlt und das Anliegen einfach und
       bequem erledigen kann. Es kommt jedoch ab und an vor, dass man spezifische Fragen zu einem bestimmten Feature
       hat und dieses auf eigene Faust lösen möchte. Deshalb haben wir für euch die <a href="/hilfe">Hilfe</a> Sektion auf 
       <a href="/hilfe">urlaubsverwaltung.cloud</a> erstellt und in der Urlaubsverwaltung im Avatar-Menü verlinkt.
@@ -64,9 +65,9 @@ Verbesserte Urlaubsübersichtsseite und Hilfe direkt aus der Urlaubserwaltung
   </div>
 </div>
 
-### Weitere Anpassungen
+## Weitere Anpassungen
 
-<div class="flex space-x-8">
+<div class="flex space-x-8 mt-2">
     <p class="mb-4">
       Damit ihr immer wisst, welche <strong>Version</strong> ihr von der Urlaubsverwaltung verwendet.
       Wird diese nun am Seitenende in den Einstellungen angezeigt.
