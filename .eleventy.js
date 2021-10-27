@@ -46,7 +46,7 @@ module.exports = function (eleventyConfig) {
 	});
 
 	eleventyConfig.addHandlebarsHelper("date", function (date, format) {
-		return formatDate(date, format, { locale: localeDe });
+		return formatDate(date, format, {locale: localeDe});
 	});
 
 	eleventyConfig.addHandlebarsHelper("eq", function (one, two, options) {
@@ -123,13 +123,19 @@ function tocTree(headings, parentLevel, $) {
 }
 
 function headingLevel(h) {
-	switch(h) {
-		case "h1": return 1;
-		case "h2": return 2;
-		case "h3": return 3;
-		case "h4": return 4;
-		case "h5": return 5;
-		case "h6": return 6;
+	switch (h) {
+		case "h1":
+			return 1;
+		case "h2":
+			return 2;
+		case "h3":
+			return 3;
+		case "h4":
+			return 4;
+		case "h5":
+			return 5;
+		case "h6":
+			return 6;
 	}
 }
 
