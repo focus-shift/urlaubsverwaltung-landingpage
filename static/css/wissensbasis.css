@@ -60,6 +60,16 @@
         margin-bottom: 1rem;
     }
 
+    p:not(:first-child) > img,
+    p:not(:first-child) > picture img {
+        margin-top: 2rem;
+    }
+
+    p:not(:last-child) > img,
+    p:not(:last-child) > picture img {
+        margin-bottom: 3.5rem;
+    }
+
     a {
         @apply transition-colors;
         color: theme("colors.lightBlue.700");
