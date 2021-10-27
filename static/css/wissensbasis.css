@@ -79,13 +79,13 @@
 
     a {
         @apply transition-colors;
-        color: theme("colors.lightBlue.700");
+        color: theme("colors.sky.700");
         text-decoration: underline;
     }
 
     a:hover,
     a:focus {
-        color: theme("colors.lightBlue.900");
+        color: theme("colors.sky.900");
     }
 
     ul,
