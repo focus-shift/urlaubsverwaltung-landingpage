@@ -14,7 +14,7 @@ urlaubsverwaltung.cloud authentifizieren.
 ## Welche Single Sign-On Provider werden unterstützt?
 
 Aktuell unterstützen wir folgende Single Sign-On Provider:
-* [Azure Active Directory (Azure AD)](/hilfe/sso/azuread)
+* [Azure Active Directory (Azure AD)](/hilfe/sso/azuread/)
 
 ## Warum wird mein Single Sign-On Provider (noch) nicht unterstützt?
 
