@@ -56,11 +56,15 @@ Registrierung starten.
 
 <p>
   <picture>
+    <source srcset="schritt_1_registrieren.avif" type="image/avif" />
+    <source srcset="schritt_1_registrieren.webp" type="image/webp" />
     <img
       src="schritt_1_registrieren.png"
       alt="App-Registrierung durchführen"
       decoding="async"
       loading="lazy"
+      width="1026"
+      height="761"
     />
   </picture>
 </p>
@@ -73,11 +77,15 @@ Registrierung starten.
 Nach erfolgreicher Registrierung kommst du auf die Übersichtsseite der App-Registrierung.
 <p>
   <picture>
+    <source srcset="schritt_1_uebersicht.avif" type="image/avif" />
+    <source srcset="schritt_1_uebersicht.webp" type="image/webp" />
     <img
       src="schritt_1_uebersicht.png"
       alt="Anwendungs-Id und Verzeichnis-Id kopieren"
       decoding="async"
       loading="lazy"
+      width="1024"
+      height="763"
     />
   </picture>
 </p>
@@ -91,11 +99,15 @@ Am besten erstellt man eine Datei über einen Texteditor (z.B. Notepad) und kopi
 Neuer geheimer Clientschlüssel erstellen
 <p>
   <picture>
+    <source srcset="schritt_1_clientsecret.avif" type="image/avif" />
+    <source srcset="schritt_1_clientsecret.webp" type="image/webp" />
     <img
       src="schritt_1_clientsecret.png"
       alt="Neuer geheimer Clientschlüssel hinzufügen"
       decoding="async"
       loading="lazy"
+      width="1027"
+      height="768"
     />
   </picture>
 </p>
@@ -126,11 +138,15 @@ Tokenkonfiguration durchführen: Um Benutzer innerhalb der Urlaubsverwaltung per
 können bzw. für die Zustellung von E-Mails an Benutzer benötigen wir folgende Daten:
 <p>
   <picture>
+    <source srcset="schritt_1_tokenkonfiguration.avif" type="image/avif" />
+    <source srcset="schritt_1_tokenkonfiguration.webp" type="image/webp" />
     <img
       src="schritt_1_tokenkonfiguration.png"
       alt="OIDC Token konfigurieren"
       decoding="async"
       loading="lazy"
+      width="1024"
+      height="771"
     />
   </picture>
 </p>
@@ -147,11 +163,15 @@ Es wird dabei eine Meldung angezeigt, dass für die Ansprüche _email_, _family_
 entsprechende Microsoft Graph-Berechtigung aktiviert werden muss.
 <p>
   <picture>
+    <source srcset="schritt_1_tokenkonfiguration_graph_api.avif" type="image/avif" />
+    <source srcset="schritt_1_tokenkonfiguration_graph_api.webp" type="image/webp" />
     <img
       src="schritt_1_tokenkonfiguration_graph_api.png"
       alt="API-Berechtigung für registrierte App konfigurieren"
       decoding="async"
       loading="lazy"
+      width="1029"
+      height="502"
     />
   </picture>
 </p>
@@ -167,11 +187,15 @@ Zuerst kopierst du die hervorgehobene URI in die Textdatei, welche in [Schritt 3
 Nun brauchen wir die Werte aus der Textdatei von [Schritt 1](#schritt-1:-neue-app-registrierung-im-azure-ad-durchfuehren):
 <p>
   <picture>
+    <source srcset="schritt_2_konfiguration.avif" type="image/avif" />
+    <source srcset="schritt_2_konfiguration.webp" type="image/webp" />
     <img
       src="schritt_2_konfiguration.png"
       alt=""
       decoding="async"
       loading="lazy"
+      width="1022"
+      height="770"
     />
   </picture>
 </p>
@@ -187,11 +211,15 @@ Bei der registrierten App im Azure AD wird nun eine neue Plattform hinzugefügt:
 
 <p>
   <picture>
+    <source srcset="schritt_3_plattform.avif" type="image/avif" />
+    <source srcset="schritt_3_plattform.webp" type="image/webp" />
     <img
       src="schritt_3_plattform.png"
       alt="Plattform vom Typ Web anlegen"
       decoding="async"
       loading="lazy"
+      width="1023"
+      height="773"
     />
   </picture>
 </p>
@@ -203,11 +231,15 @@ Bei der registrierten App im Azure AD wird nun eine neue Plattform hinzugefügt:
 Zum Schluss muss noch die Umleitungs-URI konfiguriert werden:
 <p>
   <picture>
+    <source srcset="schritt_3_umleitungsuri.avif" type="image/avif" />
+    <source srcset="schritt_3_umleitungsuri.webp" type="image/webp" />
     <img
       src="schritt_3_umleitungsuri.png"
       alt="Umleitungs-URI konfigurieren"
       decoding="async"
       loading="lazy"
+      width="1021"
+      height="766"
     />
   </picture>
 </p>
@@ -235,11 +267,15 @@ Es erscheint eine Meldung, dass der Zugriff auf die Angeforderten Berechtigungen
 akzeptiert werden muss.
 <p>
   <picture>
+    <source srcset="schritt_4_berechtigungen.avif" type="image/avif" />
+    <source srcset="schritt_4_berechtigungen.webp" type="image/webp" />
     <img
       src="schritt_4_berechtigungen.png"
       alt="Zugriff auf Azure AD bestätigen"
       decoding="async"
       loading="lazy"
+      width="1025"
+      height="768"
     />
   </picture>
 </p>
@@ -251,11 +287,15 @@ Danach wirst du auf den Authentifizierungsserver von urlaubsverwaltung.cloud wei
 dass es zu deiner E-Mail-Adresse schon ein Konto gibt.
 <p>
   <picture>
+    <source srcset="schritt_4_konto_existiert.avif" type="image/avif" />
+    <source srcset="schritt_4_konto_existiert.webp" type="image/webp" />
     <img
       src="schritt_4_konto_existiert.png"
       alt="Benutzerkonto für E-Mail existiert bereits"
       decoding="async"
       loading="lazy"
+      width="1025"
+      height="768"
     />
   </picture>
 </p>
@@ -269,11 +309,15 @@ sicher zu stellen, dass die Verknüpfung der Benutzerkonten auch wirklich von di
 Besitz beider Benutzerkonten bist.
 <p>
   <picture>
+    <source srcset="schritt_4_konto_bestaetigen.avif" type="image/avif" />
+    <source srcset="schritt_4_konto_bestaetigen.webp" type="image/webp" />
     <img
       src="schritt_4_konto_bestaetigen.png"
       alt="Existierendes urlaubsverwaltung.cloud Konto mit Azure AD Konto verknüpfen"
       decoding="async"
       loading="lazy"
+      width="1022"
+      height="768"
     />
   </picture>
 </p>
@@ -281,11 +325,15 @@ Besitz beider Benutzerkonten bist.
 E-Mail mit Link zum Bestätigen der Benutzerkonto-Verknüpfung
 <p>
   <picture>
+    <source srcset="schritt_4_konto_mail.avif" type="image/avif" />
+    <source srcset="schritt_4_konto_mail.webp" type="image/webp" />
     <img
       src="schritt_4_konto_mail.png"
       alt="E-Mail mit Link zum Konto verknüpfen"
       decoding="async"
       loading="lazy"
+      width="1022"
+      height="769"
     />
   </picture>
 </p>

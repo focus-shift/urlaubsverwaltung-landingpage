@@ -42,6 +42,8 @@ Die Kalenderfreigabe kann pro Benutzer konfiguriert werden. Um die Konfiguration
       alt="Kalenderfreigabe"
       decoding="async"
       loading="lazy"
+      width="1186"
+      height="813"
     />
   </picture>
 </p>
@@ -57,6 +59,8 @@ Die Kalenderfreigabe kann pro Benutzer konfiguriert werden. Um die Konfiguration
       alt="Kalenderfreigabe aktivieren"
       decoding="async"
       loading="lazy"
+      width="1171"
+      height="404"
     />
   </picture>
 </p>
@@ -72,6 +76,8 @@ Die Kalenderfreigabe kann pro Benutzer konfiguriert werden. Um die Konfiguration
       alt="Kalenderfreigabe Link"
       decoding="async"
       loading="lazy"
+      width="1176"
+      height="401"
     />
   </picture>
 </p>
@@ -90,6 +96,8 @@ Eine Freigabe kann über folgende Schritte gelöscht werden:
       alt="Kalenderfreigabe"
       decoding="async"
       loading="lazy"
+      width="1186"
+      height="813"
     />
   </picture>
 </p>
@@ -105,6 +113,8 @@ Eine Freigabe kann über folgende Schritte gelöscht werden:
       alt="Kalenderfreigabe löschen"
       decoding="async"
       loading="lazy"
+      width="1162"
+      height="377"
     />
   </picture>
 </p>

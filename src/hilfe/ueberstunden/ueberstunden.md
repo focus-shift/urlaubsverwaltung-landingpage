@@ -33,6 +33,8 @@ Um diesen Workflow verwenden zu können, müssen folgende Einstellungen konfigur
       alt="Konfiguration Eigenverantwortliche Überstunden Erfassung "
       decoding="async"
       loading="lazy"
+      width="618"
+      height="269"
     />
   </picture>
 </p>
@@ -52,6 +54,8 @@ Um diesen Workflow verwenden zu können, müssen folgende Einstellungen konfigur
       alt="Konfiguration Antrag auf Überstundenabbau"
       decoding="async"
       loading="lazy"
+      width="631"
+      height="227"
     />
   </picture>
 </p>
@@ -72,6 +76,8 @@ Um diesen Workflow verwenden zu können, müssen folgende Einstellungen konfigur
       alt="Konfiguration Erfassung der Überstunden durch eine privilegierte Person"
       decoding="async"
       loading="lazy"
+      width="622"
+      height="284"
     />
   </picture>
 </p>

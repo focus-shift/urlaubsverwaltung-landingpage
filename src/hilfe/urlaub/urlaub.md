@@ -43,6 +43,8 @@ Ja, bei der Antragsstellung können optional eine oder mehrere Urlaubsvertretung
       alt="Übersicht zu aktuellen und zukünftigen Vertretungen"
       decoding="async"
       loading="lazy"
+      width="1179"
+      height="174"
     />
   </picture>
 </p>
@@ -80,6 +82,8 @@ Die Art des Urlaubs kann noch angepasst werden solange der Antrag noch nicht gen
       alt="Editieren eines Urlaubsantrags"
       decoding="async"
       loading="lazy"
+      width="588"
+      height="221"
     />
   </picture>
 </p>
@@ -103,6 +107,8 @@ Der übernommene Resturlaub beinhaltet alle bis zum 31.12. nicht genommenen Urla
       alt="Workflow bei Urlaubsanträgen"
       decoding="async"
       loading="lazy"
+      width="1574"
+      height="853"
     />
   </picture>
 </p>
@@ -118,6 +124,8 @@ Der übernommene Resturlaub beinhaltet alle bis zum 31.12. nicht genommenen Urla
       alt="application-status"
       decoding="async"
       loading="lazy"
+      width="1143"
+      height="1946"
     />
   </picture>
 </p>
