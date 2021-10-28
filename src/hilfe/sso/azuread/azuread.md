@@ -43,10 +43,10 @@ Durch die Ansprüche im _ID Token_ benötigt die registrierte App folgende Berec
 
 Dazu sind folgende Schritte notwendig:
 
-* [Schritt 1: Neue App-Registrierung im Azure AD durchführen](#schritt-1:-neue-app-registrierung-im-azure-ad-durchfuehren)
-* [Schritt 2: Auf Mein Kundenportal die Anbindung konfigurieren](#schritt-2:-auf-mein-kundenportal-die-anbindung-konfigurieren)
-* [Schritt 3: Für App-Registrierung Umleitungs-URI konfigurieren](#schritt-3:-fuer-app-registrierung-umleitungs-uri-konfigurieren)
-* [Schritt 4: Anmelden via Azure AD](#schritt-4:-anmeldung-via-azure-ad)
+* [Schritt 1: Neue App-Registrierung im Azure AD durchführen](#schritt-1-neue-app-registrierung-im-azure-ad-durchfuehren)
+* [Schritt 2: Auf Mein Kundenportal die Anbindung konfigurieren](#schritt-2-auf-mein-kundenportal-die-anbindung-konfigurieren)
+* [Schritt 3: Für App-Registrierung Umleitungs-URI konfigurieren](#schritt-3-fuer-app-registrierung-umleitungs-uri-konfigurieren)
+* [Schritt 4: Anmelden via Azure AD](#schritt-4-anmeldung-via-azure-ad)
 
 #### Schritt 1: Neue App-Registrierung im Azure AD durchführen
 
