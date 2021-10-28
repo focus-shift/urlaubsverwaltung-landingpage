@@ -17,7 +17,7 @@
     <author>
       <name>Tobias Schneider</name>
     </author>
-    <content type="html">&lt;p&gt;Verbesserte Urlaubsübersichtsseite und Hilfe direkt aus der Urlaubsverwaltung&lt;/p&gt;
+    <content type="html">&lt;p&gt;Verbesserte Urlaub-Übersichtsseite und Hilfe direkt aus der Urlaubsverwaltung&lt;/p&gt;
 &lt;h2 id=&quot;hilfe-direkt-aus-der-urlaubsverwaltung&quot;&gt;Hilfe direkt aus der Urlaubsverwaltung&lt;/h2&gt;
 &lt;div class=&quot;flex flex-col items-center mt-2 lg:flex-row lg:space-x-8 lg:mb-8&quot;&gt;
   &lt;div&gt;
@@ -27,8 +27,8 @@
     &lt;p class=&quot;mt-4 lg:mb-4&quot;&gt;
       Unsere Philosophie mit der Urlaubsverwaltung ist es, eine mächtige Applikation zu entwickeln, die sich
       sehr leichtgewichtig anfühlt, sodass sich jeder Benutzer direkt wohlfühlt und das Anliegen einfach und
-      bequem erledigen kann. Es kommt jedoch ab und an vor, dass man spezifische Fragen zu einem bestimmten Feature
-      hat und dieses auf eigene Faust lösen möchte. Deshalb haben wir für euch die &lt;a href=&quot;https://urlaubsverwaltung.cloud/hilfe&quot;&gt;Hilfe&lt;/a&gt; Sektion auf 
+      bequem erledigen kann. Es kommt jedoch ab und an vor, dass man Fragen zu einem bestimmten Feature
+      hat und die Antworten auf eigene Faust finden möchte. Deshalb haben wir für euch die &lt;a href=&quot;https://urlaubsverwaltung.cloud/hilfe&quot;&gt;Hilfe&lt;/a&gt; auf
       &lt;a href=&quot;https://urlaubsverwaltung.cloud/hilfe&quot;&gt;urlaubsverwaltung.cloud&lt;/a&gt; erstellt und in der Urlaubsverwaltung im Avatar-Menü verlinkt.
     &lt;/p&gt;
     &lt;p&gt;
@@ -36,34 +36,34 @@
     &lt;/p&gt;
   &lt;/div&gt;
 &lt;/div&gt;
-&lt;h2 id=&quot;verbesserte-urlaubsuebersichtsseite&quot;&gt;Verbesserte Urlaubsübersichtsseite&lt;/h2&gt;
-&lt;div class=&quot;flex flex-col justify-end items-center lg:flex-row-reverse lg:space-x-8 lg:space-x-reverse lg:mt-8 lg:mb-8&quot;&gt;
+&lt;h2 id=&quot;verbesserte-urlaub-uebersichtsseite&quot;&gt;Verbesserte Urlaub-Übersichtsseite&lt;/h2&gt;
+&lt;div class=&quot;flex flex-col justify-end lg:flex-row-reverse lg:space-x-8 lg:space-x-reverse lg:mt-8 lg:mb-8&quot;&gt;
   &lt;div&gt;
     &lt;img class=&quot;mx-auto mt-2 lg:max-w-md lg:h-80&quot; src=&quot;https://urlaubsverwaltung.cloud/neuigkeiten/2021-10-20-release/vertretung.png&quot; alt=&quot;Anstehende Vertretung mit Notiz&quot; /&gt;
   &lt;/div&gt;
   &lt;div class=&quot;max-w-none lg:max-w-screen&quot;&gt;
     &lt;p class=&quot;mt-4 lg:mb-4&quot;&gt;
-      In dieser Version wurde die &lt;strong&gt;Urlaubsübersichtsseite&lt;/strong&gt; unter &quot;Urlaub&quot; verbessert, sodass diese noch schneller und 
-      intuitiver auf kleinen Endgeräten zu bedienen ist. Mehr Informationen über deine Urlaubsanträge, sowie direkter Zugriff zum
-      Genehmigen, Ablehnen und Editieren ersparen umständliche Klicks über das öffnen des Antrags.
+      In dieser Version wurde die &lt;strong&gt;Urlaub-Übersichtsseite&lt;/strong&gt; unter &lt;em&gt;Urlaub&lt;/em&gt; verbessert, sodass diese noch schneller und
+      intuitiver auf kleinen Endgeräten zu bedienen ist. Mehr Informationen über deine Urlaubsanträge sowie direkter Zugriff zum
+      Genehmigen, Ablehnen und Editieren ersparen umständliche Klicks über das Öffnen des Antrags.
     &lt;/p&gt;
     &lt;p&gt;
-      Zudem wurden die eigenen &lt;em&gt;noch offenen Urlaubsanträge&lt;/em&gt; sowie &lt;em&gt;anstehende Vertretungen&lt;/em&gt; gruppiert, sodass man auf
-      einen Blick den Status erkennen kann und immer auf dem Laufenden ist.
+      Zudem wurden deine &lt;em&gt;noch offenen Urlaubsanträge&lt;/em&gt; sowie &lt;em&gt;anstehende Vertretungen&lt;/em&gt; zusammengefasst, sodass
+      du auf einen Blick den aktuellen Stand deiner Anträge erkennst und immer auf dem Laufenden bist.
+    &lt;/p&gt;
+    &lt;p class=&quot;mt-4 lg:mb-4&quot;&gt;
+        Mit der neuen Ansicht &lt;em&gt;anstehende Vertretungen&lt;/em&gt;, wird auf übersichtliche Weise aufgezeigt, wann eine
+        Vertretung für wie lange geplant ist und ob eine Notiz an die Vertretung hinterlassen wurde. Zum Glück hatte
+        Juliane eine Notiz an Marlene hinterlassen, sonst wäre dieser Artikel wohl erst deutlich später veröffentlicht worden.
     &lt;/p&gt;
   &lt;/div&gt;
 &lt;/div&gt;
-&lt;p class=&quot;mt-4 lg:mb-4&quot;&gt;
-    Mit der neuen Ansicht &lt;em&gt;anstehender Vertretungen&lt;/em&gt;, wird nun auf übersichtliche Weise direkt aufgezeigt, wann eine
-    Vertretung und für wie lange geplant ist und ob eine Notiz an die Vertretung hinterlassen wurde. Zum Glück hatte
-    Juliane eine Notiz an Marlene hinterlassen, sonst wäre dieser Artikel wohl erst deutlich später veröffentlicht worden.
-&lt;/p&gt;
-&lt;img class=&quot;mb-4 lg:mb-8&quot; src=&quot;https://urlaubsverwaltung.cloud/neuigkeiten/2021-10-20-release/vacation-overview.png&quot; alt=&quot;Neue Urlaubsübersichtsseite auf dem Desktop&quot; /&gt;
+&lt;img class=&quot;mb-4 lg:mb-8&quot; src=&quot;https://urlaubsverwaltung.cloud/neuigkeiten/2021-10-20-release/vacation-overview.png&quot; alt=&quot;Neue Urlaub-Übersichtsseite auf dem Desktop&quot; /&gt;
 &lt;h2 id=&quot;weitere-anpassungen&quot;&gt;Weitere Anpassungen&lt;/h2&gt;
 &lt;div class=&quot;flex space-x-8 mt-2&quot;&gt;
     &lt;p class=&quot;mb-4&quot;&gt;
-      Damit ihr immer wisst, welche &lt;strong&gt;Version&lt;/strong&gt; ihr von der Urlaubsverwaltung verwendet.
-      Wird diese nun am Seitenende in den Einstellungen angezeigt.
+      Damit du immer weißt, welche &lt;strong&gt;Version&lt;/strong&gt; der Urlaubsverwaltung du verwendest,
+      wird diese nun am Seitenende in den &lt;em&gt;Einstellungen&lt;/em&gt; angezeigt.
     &lt;/p&gt;
 &lt;/div&gt;
 </content>
