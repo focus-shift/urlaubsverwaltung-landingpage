@@ -27,18 +27,21 @@
 			<input type="checkbox" name="noop" id="faq-checkbox-app">
 			<input type="checkbox" name="noop" id="faq-checkbox-feedback">
 			<dl>
-				<dt class="group text-lg md:text-xl text-black font-semibold">
-					<label tabindex="0" for="faq-checkbox-wirklich-kostenlos" class="cursor-pointer flex md:items-center text-black text-opacity-90">
-							<span class="mr-4 md:mr-6 text-sky-400 text-opacity-70 group-hover:text-opacity-100 mt-1">
-								{{> partials/icon-plus-circle class='w-6 h-6 md:w-7 md:h-7'}}
-							</span>
-						Ist die Testphase wirklich kostenlos?
-					</label>
-				</dt>
-				<dd data-id="faq-p-wirklich-kostenlos" class="mt-4 ml-10 md:ml-13 text-lg text-black text-opacity-80">
-					Ja, du kannst die Urlaubsverwaltung 30 Tage lang unverbindlich und kostenlos testen.
-					Während der Testphase sind alle Funktionen der Software vollständig freigeschaltet.
-				</dd>
+				{{#eq category "price" "all"}}
+					<dt class="group text-lg md:text-xl text-black font-semibold">
+						<label tabindex="0" for="faq-checkbox-wirklich-kostenlos" class="cursor-pointer flex md:items-center text-black text-opacity-90">
+								<span class="mr-4 md:mr-6 text-sky-400 text-opacity-70 group-hover:text-opacity-100 mt-1">
+									{{> partials/icon-plus-circle class='w-6 h-6 md:w-7 md:h-7'}}
+								</span>
+							Ist die Testphase wirklich kostenlos?
+						</label>
+					</dt>
+					<dd data-id="faq-p-wirklich-kostenlos" class="mt-4 ml-10 md:ml-13 text-lg text-black text-opacity-80">
+						Ja, du kannst die Urlaubsverwaltung 30 Tage lang unverbindlich und kostenlos testen.
+						Während der Testphase sind alle Funktionen der Software vollständig freigeschaltet.
+					</dd>
+				{{/eq}}
+				{{#eq category "price" "all"}}
 				<dt class="group text-lg md:text-xl mt-8 md:mt-4 text-black font-semibold">
 					<label tabindex="0" for="faq-checkbox-nach-testphase" class="cursor-pointer flex md:items-center text-black text-opacity-90">
 							<span class="mr-4 md:mr-6 text-sky-400 text-opacity-70 group-hover:text-opacity-100 mt-1">
@@ -52,6 +55,8 @@
 					bestätige die Teilnahme per E-Mail an <a class="font-bold underline" href="mailto:info@urlaubsverwaltung.cloud?subject=Teilnahme%20am%20kostenpflichtigen%20Service&body=Liebes%20Urlaubsverwaltung-Team%0D%0A%0D%0AIch%20bestätige%20die%20Teilnahme%20am%20kostenpflichtigen%20Service%20und%20stimme%20damit%20den%20geltenden%20AGB%20und%20Datenschutzbestimmungen%20zu.%0D%0A%0D%0AViele%20Grüße">
 					info@urlaubsverwaltung.cloud</a>. Solltest du kein Interesse mehr haben, löschen wir deine Urlaubsverwaltung mit allen darin generierten Daten nach der Testphase.
 				</dd>
+				{{/eq}}
+				{{#eq category "all"}}
 				<dt class="group text-lg md:text-xl mt-8 md:mt-4 text-black font-semibold">
 					<label tabindex="0" for="faq-checkbox-teilnehmen" class="cursor-pointer flex md:items-center text-black text-opacity-90">
 							<span class="mr-4 md:mr-6 text-sky-400 text-opacity-70 group-hover:text-opacity-100 mt-1">
@@ -64,6 +69,8 @@
 					Melde dich <a class="font-bold underline" href="https://registry.apps.urlaubsverwaltung.cloud/registration">hier</a> kostenlos an und registriere dir damit deine eigene Urlaubsverwaltung.
 					Sie steht dir in wenigen Minuten zur Verfügung. Ohne Terminabsprache oder langen Wartezeiten.
 				</dd>
+				{{/eq}}
+				{{#eq category "price" "all"}}
 				<dt class="group text-lg md:text-xl mt-8 md:mt-4 text-black font-semibold">
 					<label tabindex="0" for="faq-checkbox-zahlungsarten" class="cursor-pointer flex md:items-center text-black text-opacity-90">
 							<span class="mr-4 md:mr-6 text-sky-400 text-opacity-70 group-hover:text-opacity-100 mt-1">
@@ -76,6 +83,8 @@
 					Du bekommst monatlich nach dem Leistungszeitraum eine Rechnung per E-Mail zugestellt.
 					Diese kannst du entweder in Form einer Überweisung begleichen oder ein SEPA-Lastschriftmandat erteilen
 				</dd>
+				{{/eq}}
+				{{#eq category "price" "all"}}
 				<dt class="group text-lg md:text-xl mt-8 md:mt-4 text-black font-semibold">
 					<label tabindex="0" for="faq-checkbox-sepa" class="cursor-pointer flex md:items-center text-black text-opacity-90">
 							<span class="mr-4 md:mr-6 text-sky-400 text-opacity-70 group-hover:text-opacity-100 mt-1">
@@ -88,6 +97,8 @@
 					Das SEPA-Lastschriftmandat kann über dein Kundenportal erteilt werden.
 					Melde die dafür über "Anmelden" an und wähle dann "Mein Kundenportal".
 				</dd>
+				{{/eq}}
+				{{#eq category "price" "all"}}
 				<dt class="group text-lg md:text-xl mt-8 md:mt-4 text-black font-semibold">
 					<label tabindex="0" for="faq-checkbox-kuendigen" class="cursor-pointer flex md:items-center text-black text-opacity-90">
 							<span class="mr-4 md:mr-6 text-sky-400 text-opacity-70 group-hover:text-opacity-100 mt-1">
@@ -99,6 +110,8 @@
 				<dd data-id="faq-p-kuendigen" class="mt-4 ml-10 md:ml-13 text-lg text-black text-opacity-80">
 					Kündigen kannst du mit 14 Tagen zum jeweiligen Ende eines jeden Vertragsmonats.
 				</dd>
+				{{/eq}}
+				{{#eq category "all"}}
 				<dt class="group text-lg md:text-xl mt-8 md:mt-4 text-black font-semibold">
 					<label tabindex="0" for="faq-checkbox-kosten" class="cursor-pointer flex md:items-center text-black text-opacity-90">
 							<span class="mr-4 md:mr-6 text-sky-400 text-opacity-70 group-hover:text-opacity-100 mt-1">
@@ -112,6 +125,8 @@
 					Benutzer während des Leistungszeitraumes hinzu, wird er für diesen Zeitraum nur anteilig abgerechnet.
 					Wird ein Benutzer auf den Status inaktiv gesetzt, findet er keine Beachtung in der Rechnung ab dem darauf folgenden Leistungszeitraum.
 				</dd>
+				{{/eq}}
+				{{#eq category "all"}}
 				<dt class="group text-lg md:text-xl mt-8 md:mt-4 text-black font-semibold">
 					<label tabindex="0" for="faq-checkbox-dsgvo" class="cursor-pointer flex md:items-center text-black text-opacity-90">
 							<span class="mr-4 md:mr-6 text-sky-400 text-opacity-70 group-hover:text-opacity-100 mt-1">
@@ -123,6 +138,8 @@
 				<dd data-id="faq-p-dsgvo" class="mt-4 ml-10 md:ml-13 text-lg text-black text-opacity-80">
 					Deine Daten werden DSGVO-konform verarbeitet und in Deutschland verschlüsselt gespeichert. Wir erstellen täglich ein Backup.
 				</dd>
+				{{/eq}}
+				{{#eq category "all"}}
 				<dt class="group text-lg md:text-xl mt-8 md:mt-4 text-black font-semibold">
 					<label tabindex="0" for="faq-checkbox-mitarbeiter-anlegen" class="cursor-pointer flex md:items-center text-black text-opacity-90">
 							<span class="mr-4 md:mr-6 text-sky-400 text-opacity-70 group-hover:text-opacity-100 mt-1">
@@ -136,6 +153,8 @@
 					Unter diesem Link kann sich jeder Mitarbeiter selbst registrieren. Verwendet ihr einen OpenID Connect Anbieter (wie z. B. Microsoft 365, Azure Active Directory, Auth0, Google, SAP, etc.)
 					können wir diesen integrieren, sodass ihr euren gewohnten Login benutzen könnt.
 				</dd>
+				{{/eq}}
+				{{#eq category "all"}}
 				<dt class="group text-lg md:text-xl mt-8 md:mt-4 text-black font-semibold">
 					<label tabindex="0" for="faq-checkbox-kalenderintegration" class="cursor-pointer flex md:items-center text-black text-opacity-90">
 							<span class="mr-4 md:mr-6 text-sky-400 text-opacity-70 group-hover:text-opacity-100 mt-1">
@@ -148,6 +167,8 @@
 					Jeder Benutzer der Urlaubsverwaltung kann seinen eigenen Kalender, sowie einen Kalender pro Abteilung abonnieren.
 					Ist der Firmen-weite Kalender freigeschaltet, lässt sich auch dieser von jedem Mitarbeiter abonnieren.
 				</dd>
+				{{/eq}}
+				{{#eq category "all"}}
 				<dt class="group text-lg md:text-xl mt-8 md:mt-4 text-black font-semibold">
 					<label tabindex="0" for="faq-checkbox-app" class="cursor-pointer flex md:items-center text-black text-opacity-90">
 							<span class="mr-4 md:mr-6 text-sky-400 text-opacity-70 group-hover:text-opacity-100 mt-1">
@@ -160,6 +181,8 @@
 					Die Urlaubsverwaltung ist für mobile Endgeräte optimiert und benötigt keine eigene App.
 					Füge die Seite deiner Urlaubsverwaltung einfach dem Startbildschirm deines Handys hinzu.
 				</dd>
+				{{/eq}}
+				{{#eq category "all"}}
 				<dt class="group text-lg md:text-xl mt-8 md:mt-4 text-black font-semibold">
 					<label tabindex="0" for="faq-checkbox-feedback" class="cursor-pointer flex md:items-center text-black text-opacity-90">
 							<span class="mr-4 md:mr-6 text-sky-400 text-opacity-70 group-hover:text-opacity-100 mt-1">
@@ -172,6 +195,7 @@
 					Hast du einen Vorschlag für eine Verbesserung oder fehlt dir eine Funktion, nimm Kontakt mit uns auf.
 					Schreibe uns entweder per <a class="font-bold underline" href="mailto:info@urlaubsverwaltung.cloud?subject=Anfrage%20Feature">E-Mail</a> oder öffne direkt ein Issue auf <a class="font-bold underline" href="https://github.com/synyx/urlaubsverwaltung/issues">Github</a>.
 				</dd>
+				{{/eq}}
 			</dl>
 			<script>
 				[...document.querySelectorAll("label[for*=faq-checkbox]")].forEach(label => {
