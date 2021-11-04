@@ -981,6 +981,7 @@
         "/static/js/top.js"
       ],
       "css": [
+        "/static/css/faq.css",
         "/static/css/style.css",
         "/static/favicons/apple-icon-114x114.png",
         "/static/favicons/apple-icon-120x120.png",
