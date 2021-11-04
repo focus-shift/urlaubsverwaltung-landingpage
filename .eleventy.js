@@ -52,8 +52,13 @@ module.exports = function (eleventyConfig) {
 		return formatDate(date, format, { locale: localeDe });
 	});
 
-	eleventyConfig.addHandlebarsHelper("eq", function (one, two, options) {
-		return one === two ? options.fn(this) : null;
+	// check if a given value equals some of the following values
+	// e.g. ` {{#eq somethingToCheck "batman" "joker"}} ... {{/eq}}`
+	eleventyConfig.addHandlebarsHelper("eq", function (...args) {
+		const [first, ...rest] = args;
+		const [options] = rest.splice(-1);
+		const equalsAtLeastOne = Array.from(rest).some(value => first === value);
+		return equalsAtLeastOne ? options.fn(this) : null;
 	});
 
 	eleventyConfig.addHandlebarsHelper("markdownToHtml", function (text) {
