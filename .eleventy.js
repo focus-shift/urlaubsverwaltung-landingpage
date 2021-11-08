@@ -8,7 +8,7 @@ const pluginRss = require("@11ty/eleventy-plugin-rss");
 
 const paths = {
 	input: "src",
-	output: "build",
+	output: process.env.npm_package_config_outdir,
 };
 
 const prod = process.env.NODE_ENV === "production";
@@ -22,7 +22,8 @@ const isDraft = post =>
 
 module.exports = function (eleventyConfig) {
 	eleventyConfig.setTemplateFormats(["njk", "hbs", "md", "html", "txt"]);
-	eleventyConfig.addPassthroughCopy("src/**/*.{png,jpg,jpeg,webp,avif,mp4}");
+	eleventyConfig.addPassthroughCopy("./src/**/*.{png,jpg,jpeg,webp,avif,mp4}");
+	eleventyConfig.addPassthroughCopy({ "./public/static": "static" });
 
 	eleventyConfig.addPlugin(pluginRss);
 
