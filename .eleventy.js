@@ -5,6 +5,7 @@ const markdownIt = require("markdown-it")();
 const markdownItAnchor = require("markdown-it-anchor");
 const cheerio = require("cheerio");
 const pluginRss = require("@11ty/eleventy-plugin-rss");
+const htmlmin = require("html-minifier");
 
 const paths = {
 	input: "src",
@@ -26,6 +27,18 @@ module.exports = function (eleventyConfig) {
 	eleventyConfig.addPassthroughCopy({ "./public/static": "static" });
 
 	eleventyConfig.addPlugin(pluginRss);
+
+	eleventyConfig.addTransform("htmlmin", function (content, outputPath) {
+		if (outputPath && outputPath.endsWith(".html")) {
+			let minified = htmlmin.minify(content, {
+				useShortDoctype: true,
+				removeComments: true,
+				collapseWhitespace: true,
+			})
+			return minified
+		}
+		return content
+	})
 
 	eleventyConfig.setFrontMatterParsingOptions({
 		excerpt: true,
