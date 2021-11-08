@@ -111,6 +111,9 @@ module.exports = function (eleventyConfig) {
 					.join("")}</ul>`;
 	});
 
+	eleventyConfig.addWatchTarget("src/static/js/**/*.js");
+	eleventyConfig.addWatchTarget("src/static/css/**/*.css");
+
 	return {
 		dir: {
 			input: paths.input,
