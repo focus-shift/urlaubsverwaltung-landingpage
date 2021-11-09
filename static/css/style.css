@@ -117,76 +117,6 @@
 }
 
 @layer components {
-	.navigation-item {
-		position: relative;
-		display: flex;
-		align-items: center;
-	}
-
-	.navigation-item.active::before {
-		content: "";
-		position: absolute;
-		width: 0;
-		height: 0;
-		border-left: 8px solid #fcd34d;
-		border-top: 8px solid transparent;
-		border-bottom: 8px solid transparent;
-		margin-left: -1rem;
-	}
-
-	@screen navbar {
-		.navigation-item {
-			display: block;
-		}
-		.navigation-item.active::before {
-			display: none;
-		}
-		.navigation-item.active::after {
-			width: 0;
-			height: 0;
-			position: absolute;
-			content: "";
-			display: block;
-			border-left: 8px solid transparent;
-			border-right: 8px solid transparent;
-			border-top: 8px solid #fcd34d;
-			left: 50%;
-			margin-left: -8px;
-		}
-	}
-}
-
-@screen md {
-	.navigation-item-blog {
-		@apply sr-only;
-	}
-	.navigation-item-faq {
-		@apply sr-only;
-	}
-}
-
-@media only screen and (min-width: 768px) {
-	.navigation-item-faq {
-		@apply hidden;
-	}
-}
-
-@media only screen and (min-width: 940px) {
-	.navigation-item-blog {
-		@apply not-sr-only;
-		@apply relative;
-	}
-}
-
-@media only screen and (min-width: 1140px) {
-	.navigation-item-faq {
-		@apply not-sr-only;
-		@apply relative;
-		@apply inline;
-	}
-}
-
-@layer components {
 	.zammad-chat-welcome {
 		display: flex;
 	}
@@ -282,5 +212,43 @@
 	#menu-toggle-checkbox:checked + div > label > span > span:nth-child(5) {
 		bottom: 6.5px;
 		background-color: transparent !important;
+	}
+
+	.navigation-item {
+		position: relative;
+		display: flex;
+		align-items: center;
+	}
+
+	.navigation-item.active::before {
+		content: "";
+		position: absolute;
+		width: 0;
+		height: 0;
+		border-left: 8px solid theme("colors.amber.300");
+		border-top: 8px solid transparent;
+		border-bottom: 8px solid transparent;
+		margin-left: -1rem;
+	}
+
+	@screen navbar {
+		.navigation-item {
+			display: block;
+		}
+		.navigation-item.active::before {
+			display: none;
+		}
+		.navigation-item.active::after {
+			width: 0;
+			height: 0;
+			position: absolute;
+			content: "";
+			display: block;
+			border-left: 8px solid transparent;
+			border-right: 8px solid transparent;
+			border-top: 8px solid theme("colors.amber.300");
+			left: 50%;
+			margin-left: -8px;
+		}
 	}
 }
