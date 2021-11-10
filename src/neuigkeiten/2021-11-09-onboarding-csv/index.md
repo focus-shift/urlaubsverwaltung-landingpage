@@ -37,7 +37,7 @@ In jedem Fall: Lehne dich zurück, wir ermöglichen dir den passenden Einstieg!
 ## CSV-basiertes Onboarding
 
 Das Onboarding deiner Organisation kann mit einer Import-Datei im CSV-Format durchgeführt werden. Wichtig hierfür ist, dass die Namen deiner Mitarbeiter:innen und ihre E-Mail-Adressen vorliegen. Zusätzlich können Informationen wie die Abteilungszugehörigkeit und der Urlaubsanspruch angegeben werden.
-Eine Beispiel-Datei zur Orientierung ist <a href="import-beispiel.csv" class="underline">hier</a> bereitgestellt.
+Eine Beispiel-Datei zur Orientierung ist <a href="/static/import-beispiel.csv" class="underline">hier</a> bereitgestellt.
 
 <p>
   <picture>
