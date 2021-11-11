@@ -21,10 +21,10 @@ Neukunden, die sich bis zum 31.12.2021 registrieren, die ersten 3 Monate kostenl
 Testphase.
 
 Der Prozess der Abwesenheitsverwaltung ist in sich abgeschlossen und damit optimal dafür geeignet, firmeninterne
-Prozesse digital abzubilden. “Die relevante Datengrundlage im Bereich der betrieblichen Abwesenheiten unterliegt einem
-jährlichen Turnus, so dass sich vor allem Jahreswechsel dazu eignen, eine Urlaubsverwaltung zu konfigurieren,
+Prozesse digital abzubilden. "Die relevante Datengrundlage im Bereich der betrieblichen Abwesenheiten unterliegt einem
+jährlichen Turnus, sodass sich vor allem Jahreswechsel dazu eignen, eine Urlaubsverwaltung zu konfigurieren,
 insbesondere bei vielen Angestellten. Somit profitiert ein Kunde direkt von reduzierten Prozesskosten der
-Abwesenheitsverwaltung im neuen Jahr.”, so Andreas Weigel Geschäftsführer der Focus Shift Software GmbH.
+Abwesenheitsverwaltung im neuen Jahr.", so Andreas Weigel Geschäftsführer der Focus Shift Software GmbH.
 
 ## urlaubsverwaltung.cloud
 
