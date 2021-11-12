@@ -4,7 +4,7 @@ layout: layout-neuigkeiten
 date: 2021-11-11
 title: Starte deine Digitalisierungsstrategie - Urlaub, Krankmeldungen und Überstunden digital abbilden
 author: Tobias Schneider
-teaserImage: /static/urlaubsverwaltung.jpg
+teaserImage: /static/urlaubsverwaltung.png
 ---
 
 _Abwesenheitsverwaltung als Software as a Service (Saas) erleichtert kleinen und mittelständischen Unternehmen die
@@ -37,7 +37,7 @@ Kalender- oder Single Sign-On Systemen bieten eine nahtlose Integration in beste
     <source srcset="urlaubsverwaltung.avif" type="image/avif" />
     <source srcset="urlaubsverwaltung.webp" type="image/webp" />
     <img
-      src="urlaubsverwaltung.jpg"
+      src="urlaubsverwaltung.png"
       alt="Urlaubsverwaltung Landingpage"
       decoding="async"
       loading="lazy"
