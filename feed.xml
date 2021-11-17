@@ -4,8 +4,56 @@
   <subtitle></subtitle>
   <link rel="self" href="https://urlaubsverwaltung.cloud/feed.xml" />
   <link rel="alternate" type="text/html" href="https://urlaubsverwaltung.cloud" />
-  <updated>2021-11-11T00:00:00Z</updated>
+  <updated>2021-11-16T00:00:00Z</updated>
   <id>https://urlaubsverwaltung.cloud</id>
+  
+  
+  
+  <entry>
+    <title>Version 4.26.0 veröffentlicht</title>
+    <link href="https://urlaubsverwaltung.cloud/neuigkeiten/2021-11-16-release/" />
+    <updated>2021-11-16T00:00:00Z</updated>
+    <id>https://urlaubsverwaltung.cloud/neuigkeiten/2021-11-16-release/</id>
+    <author>
+      <name>Tobias Schneider</name>
+    </author>
+    <content type="html">&lt;p&gt;&lt;em&gt;Berechtigungen, optische Verbesserungen und mehr Transparenz im Anlageprozess einer Person&lt;/em&gt;&lt;/p&gt;
+&lt;h2 id=&quot;berechtigungen&quot;&gt;Berechtigungen&lt;/h2&gt;
+&lt;p&gt;Seit dieser Version können die Berechtigungen &lt;em&gt;Chef&lt;/em&gt; und &lt;em&gt;Office&lt;/em&gt; mit den Berechtigungen &lt;em&gt;Abteilungsleiter&lt;/em&gt; bzw.
+&lt;em&gt;Freigabe-Verantwortlicher&lt;/em&gt; kombiniert werden. Wir bieten dir damit die Möglichkeit deine Organisationsstruktur noch besser abbilden zu können.&lt;/p&gt;
+&lt;picture&gt;
+    &lt;source srcset=&quot;https://urlaubsverwaltung.cloud/neuigkeiten/2021-11-16-release/berechtigungen.avif&quot; type=&quot;image/avif&quot; /&gt;
+    &lt;source srcset=&quot;https://urlaubsverwaltung.cloud/neuigkeiten/2021-11-16-release/berechtigungen.webp&quot; type=&quot;image/webp&quot; /&gt;
+    &lt;img src=&quot;https://urlaubsverwaltung.cloud/neuigkeiten/2021-11-16-release/berechtigungen.png&quot; alt=&quot;Berechtigungen einer Person mit Abteilungsleiter und Chef bzw. Office&quot; decoding=&quot;async&quot; loading=&quot;lazy&quot; width=&quot;585&quot; /&gt;
+&lt;/picture&gt;
+&lt;h2 id=&quot;e-mail-benachrichtigung-bei-neuanlage-einer-person&quot;&gt;E-Mail-Benachrichtigung bei Neuanlage einer Person&lt;/h2&gt;
+&lt;p&gt;Personen mit der Berechtigung &lt;em&gt;Office&lt;/em&gt; erhalten eine E-Mail-Benachrichtigung, sobald eine neue Person in der
+Urlaubsverwaltung angelegt wurde. Diese Benachrichtigung soll dazu dienen, einen Überblick über Neuanlagen zu behalten
+und die Person direkt mit einem individuellen Urlaubsanspruch oder individuellen Arbeitszeiten zu konfiguriert.&lt;/p&gt;
+&lt;h2 id=&quot;weitere-anpassungen-und-fehlerbehebungen&quot;&gt;Weitere Anpassungen und Fehlerbehebungen&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Wir haben für euch aus dem technischen Begriff &lt;strong&gt;editieren&lt;/strong&gt; den verständlicheren und wundervollen Begriff &lt;em&gt;Bearbeiten&lt;/em&gt; gezaubert.
+In der Urlaubsverwaltung wird nun nicht mehr langweilig editiert, sondern mit Spaß bearbeitet.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Das verschickten der &lt;strong&gt;Erinnerungen für bevorstehende Urlaube&lt;/strong&gt; konnte in bestimmten Konstellation nicht durchgeführt werden.
+Dieser Fehler wurde behoben und es wird sichergestellt, dass die Erinnerungen korrekt versendet werden.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Bei aktivierten &lt;strong&gt;halben Urlaubstagen&lt;/strong&gt; in den Einstellungen ist es möglich den jährlichen Urlaubsanspruch
+einer Person auf einen halben Tag zu setzen.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Vorläufig genehmigte Urlaube&lt;/strong&gt; wurden sowohl im Kalender auf der Übersichtsseite als auch in der Datumsauswahl
+eines Antrages nicht angezeigt. Dies wurde behoben und die Anträge werden nun korrekt eingeblendet.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Fehlerhafte Links&lt;/strong&gt; in den E-Mails zu &lt;em&gt;meine anstehenden Vertretungen&lt;/em&gt; wurden angepasst.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+</content>
+  </entry>
   
   
   
