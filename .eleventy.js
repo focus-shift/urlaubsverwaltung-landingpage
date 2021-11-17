@@ -36,7 +36,7 @@ module.exports = function (eleventyConfig) {
 		"md",
 		markdown({
 			html: true,
-			breaks: true,
+			breaks: false,
 			linkify: true,
 		}).use(markdownItAnchor, {
 			slugify: str => slugify(str),
