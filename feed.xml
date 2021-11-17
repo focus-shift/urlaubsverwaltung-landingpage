@@ -17,8 +17,8 @@
     <author>
       <name>Tobias Schneider</name>
     </author>
-    <content type="html">&lt;p&gt;&lt;em&gt;Berechtigungen, optische Verbesserungen und mehr Transparenz im Anlageprozess einer Person&lt;/em&gt;&lt;/p&gt;
-&lt;h2 id=&quot;berechtigungen&quot;&gt;Berechtigungen&lt;/h2&gt;
+    <content type="html">&lt;p&gt;&lt;em&gt;Verbesserte Berechtigungen, optische Verbesserungen und mehr Transparenz im Anlageprozess einer Person&lt;/em&gt;&lt;/p&gt;
+&lt;h2 id=&quot;verbesserte-berechtigungen&quot;&gt;Verbesserte Berechtigungen&lt;/h2&gt;
 &lt;p&gt;Seit dieser Version können die Berechtigungen &lt;em&gt;Chef&lt;/em&gt; und &lt;em&gt;Office&lt;/em&gt; mit den Berechtigungen &lt;em&gt;Abteilungsleiter&lt;/em&gt; bzw.
 &lt;em&gt;Freigabe-Verantwortlicher&lt;/em&gt; kombiniert werden. Wir bieten dir damit die Möglichkeit deine Organisationsstruktur noch besser abbilden zu können.&lt;/p&gt;
 &lt;picture&gt;
@@ -29,11 +29,11 @@
 &lt;h2 id=&quot;e-mail-benachrichtigung-bei-neuanlage-einer-person&quot;&gt;E-Mail-Benachrichtigung bei Neuanlage einer Person&lt;/h2&gt;
 &lt;p&gt;Personen mit der Berechtigung &lt;em&gt;Office&lt;/em&gt; erhalten eine E-Mail-Benachrichtigung, sobald eine neue Person in der
 Urlaubsverwaltung angelegt wurde. Diese Benachrichtigung soll dazu dienen, einen Überblick über Neuanlagen zu behalten
-und die Person direkt mit einem individuellen Urlaubsanspruch oder individuellen Arbeitszeiten zu konfiguriert.&lt;/p&gt;
+und die Person direkt mit einem individuellen Urlaubsanspruch oder Arbeitszeiten zu konfiguriert.&lt;/p&gt;
 &lt;h2 id=&quot;weitere-anpassungen-und-fehlerbehebungen&quot;&gt;Weitere Anpassungen und Fehlerbehebungen&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;
-&lt;p&gt;Wir haben für euch aus dem technischen Begriff &lt;strong&gt;editieren&lt;/strong&gt; den verständlicheren und wundervollen Begriff &lt;em&gt;Bearbeiten&lt;/em&gt; gezaubert.
+&lt;p&gt;Wir haben für euch aus dem technischen Begriff &lt;strong&gt;Editieren&lt;/strong&gt; den verständlicheren und wundervollen Begriff &lt;em&gt;Bearbeiten&lt;/em&gt; gezaubert.
 In der Urlaubsverwaltung wird nun nicht mehr langweilig editiert, sondern mit Spaß bearbeitet.&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
