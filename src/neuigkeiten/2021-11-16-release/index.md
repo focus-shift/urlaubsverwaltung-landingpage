@@ -27,14 +27,11 @@ _Freigabe-Verantwortlicher_ kombiniert werden. Wir bieten dir damit die Möglich
       width="585"
     />
 </picture>
-<br/>
 
 ## E-Mail-Benachrichtigung bei Neuanlage einer Person
 Personen mit der Berechtigung _Office_ erhalten eine E-Mail-Benachrichtigung, sobald eine neue Person in der
 Urlaubsverwaltung angelegt wurde. Diese Benachrichtigung soll dazu dienen, einen Überblick über Neuanlagen zu behalten 
 und die Person direkt mit einem individuellen Urlaubsanspruch oder individuellen Arbeitszeiten zu konfiguriert.
-
-<br/>
 
 ## Weitere Anpassungen und Fehlerbehebungen
 * Wir haben für euch aus dem technischen Begriff **editieren** den verständlicheren und wundervollen Begriff _Bearbeiten_ gezaubert.
