@@ -6,6 +6,22 @@
 		@apply ml-5;
 	}
 
+	* + h1,
+	* + h2,
+	* + h3,
+	* + h4,
+	* + h5,
+	* + h6 {
+		@apply mt-8;
+	}
+
+	h1 + h2,
+	h2 + h3,
+	h3 + h4,
+	h5 + h6 {
+		@apply mt-0;
+	}
+
 	h3 {
 		@apply text-4xl;
 		@apply mb-8;
@@ -19,5 +35,15 @@
 	img {
 		@apply border;
 		@apply border-2;
+	}
+
+	p:not(:first-child) > img,
+	p:not(:first-child) > picture img {
+		@apply mt-8;
+	}
+
+	p:not(:last-child) > img,
+	p:not(:last-child) > picture img {
+		@apply mb-10;
 	}
 }
