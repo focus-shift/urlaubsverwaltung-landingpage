@@ -14,7 +14,7 @@ _Berechtigungen, optische Verbesserungen und mehr Transparenz im Anlageprozess e
 
 ## Berechtigungen
 Seit dieser Version können die Berechtigungen _Chef_ und _Office_ mit den Berechtigungen _Abteilungsleiter_ bzw. 
-_Freigabe-Verantwortlicher_ kombiniert werden. Wir bieten damit dir die Möglichkeit deine Organisationsstruktur noch besser abbilden zu können.
+_Freigabe-Verantwortlicher_ kombiniert werden. Wir bieten dir damit die Möglichkeit deine Organisationsstruktur noch besser abbilden zu können.
 
 <picture>
     <source srcset="berechtigungen.avif" type="image/avif" />
