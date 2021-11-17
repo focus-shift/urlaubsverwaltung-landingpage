@@ -8,11 +8,11 @@ release-version: 4.26.0
 teaserImage: /static/update.png
 ---
 
-_Berechtigungen, optische Verbesserungen und mehr Transparenz im Anlageprozess einer Person_
+_Verbesserte Berechtigungen, optische Verbesserungen und mehr Transparenz im Anlageprozess einer Person_
 
 <!-- more -->
 
-## Berechtigungen
+## Verbesserte Berechtigungen
 Seit dieser Version können die Berechtigungen _Chef_ und _Office_ mit den Berechtigungen _Abteilungsleiter_ bzw. 
 _Freigabe-Verantwortlicher_ kombiniert werden. Wir bieten dir damit die Möglichkeit deine Organisationsstruktur noch besser abbilden zu können.
 
@@ -31,10 +31,10 @@ _Freigabe-Verantwortlicher_ kombiniert werden. Wir bieten dir damit die Möglich
 ## E-Mail-Benachrichtigung bei Neuanlage einer Person
 Personen mit der Berechtigung _Office_ erhalten eine E-Mail-Benachrichtigung, sobald eine neue Person in der
 Urlaubsverwaltung angelegt wurde. Diese Benachrichtigung soll dazu dienen, einen Überblick über Neuanlagen zu behalten 
-und die Person direkt mit einem individuellen Urlaubsanspruch oder individuellen Arbeitszeiten zu konfiguriert.
+und die Person direkt mit einem individuellen Urlaubsanspruch oder Arbeitszeiten zu konfiguriert.
 
 ## Weitere Anpassungen und Fehlerbehebungen
-* Wir haben für euch aus dem technischen Begriff **editieren** den verständlicheren und wundervollen Begriff _Bearbeiten_ gezaubert.
+* Wir haben für euch aus dem technischen Begriff **Editieren** den verständlicheren und wundervollen Begriff _Bearbeiten_ gezaubert.
 In der Urlaubsverwaltung wird nun nicht mehr langweilig editiert, sondern mit Spaß bearbeitet.
 
 * Das verschickten der **Erinnerungen für bevorstehende Urlaube** konnte in bestimmten Konstellation nicht durchgeführt werden.
