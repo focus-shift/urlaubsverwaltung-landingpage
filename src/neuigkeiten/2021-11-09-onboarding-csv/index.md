@@ -8,7 +8,7 @@ teaserImage: /static/img/onboarding.jpg
 ---
 
 Damit der Einstieg reibungslos verläuft, haben wir eine kleine Artikelserie zusammengestellt, die die verschiedenen Möglichkeiten zum Onboarding beschreibt.
-In jedem Fall: Lehne dich zurück, wir ermöglichen dir den passenden Einstieg!
+Direkt eins vorweg: Lehne dich zurück! Wir ermöglichen dir den passenden Einstieg.
 
 <!-- more -->
 
@@ -29,7 +29,7 @@ In jedem Fall: Lehne dich zurück, wir ermöglichen dir den passenden Einstieg!
   </picture>
   <div class="max-w-none lg:max-w-screen">
     <p class="mt-4 lg:mb-4">
-      Ein neuer Anfang, bedeutet natürlich auch immer eine gewisse Vorbereitung. Zum einen müssen die Mitarbeiter:innen in der Organisation über die neue Software informiert werden. Zum anderen sollen die Abläufe passend abgebildet werden und natürlich auch die Daten wie zum Beispiel Urlaubsansprüche aus dem laufenden Jahr oder die erbrachten Überstunden müssen sauber übertragen werden. In dieser Artikelserie wollen wir drei mögliche Wege des Onboardings vorstellen, die einen reibungslosen Einstieg ermöglichen.
+      Ein neuer Anfang, bedeutet natürlich auch immer eine gewisse Vorbereitung. Zum einen müssen die Mitarbeiter:innen in der Organisation über die neue Software informiert werden, zum anderen sollen die Abläufe von Genehmigungsprozessen passend abgebildet werden. Natürlich sind auch die Daten wie zum Beispiel Urlaubsansprüche aus dem laufenden Jahr oder die erbrachten Überstunden wichtig für einen erfolgreichen Start. In dieser Artikelserie wollen wir drei mögliche Wege des Onboardings vorstellen, die einen reibungslosen Einstieg ermöglichen.
     </p>
   </div>
 </div>
@@ -37,7 +37,7 @@ In jedem Fall: Lehne dich zurück, wir ermöglichen dir den passenden Einstieg!
 ## CSV-basiertes Onboarding
 
 Das Onboarding deiner Organisation kann mit einer Import-Datei im CSV-Format durchgeführt werden. Wichtig hierfür ist, dass die Namen deiner Mitarbeiter:innen und ihre E-Mail-Adressen vorliegen. Zusätzlich können Informationen wie die Abteilungszugehörigkeit und der Urlaubsanspruch angegeben werden.
-Eine Beispiel-Datei zur Orientierung ist <a href="/static/import-beispiel.csv" class="underline">hier</a> bereitgestellt.
+Eine Beispiel-Datei zur Orientierung haben wir dir <a href="/static/import-beispiel.csv" class="underline">hier</a> bereitgestellt.
 
 <p>
   <picture>
