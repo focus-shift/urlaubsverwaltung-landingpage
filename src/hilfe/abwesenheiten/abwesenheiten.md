@@ -129,20 +129,3 @@ Der übernommene Resturlaub beinhaltet alle bis zum 31.12. nicht genommenen Urla
     />
   </picture>
 </p>
-
-## Technische Dokumentation für Application Status
-
-<p>
-  <picture>
-    <source srcset="tech-application-status.avif" type="image/avif" />
-    <source srcset="tech-application-status.webp" type="image/webp" />
-    <img
-      src="tech-application-status.png"
-      alt="application-status"
-      decoding="async"
-      loading="lazy"
-      width="1143"
-      height="1946"
-    />
-  </picture>
-</p>
