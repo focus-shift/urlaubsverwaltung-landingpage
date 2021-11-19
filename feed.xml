@@ -4,8 +4,48 @@
   <subtitle></subtitle>
   <link rel="self" href="https://urlaubsverwaltung.cloud/feed.xml" />
   <link rel="alternate" type="text/html" href="https://urlaubsverwaltung.cloud" />
-  <updated>2021-11-16T00:00:00Z</updated>
+  <updated>2021-11-19T00:00:00Z</updated>
   <id>https://urlaubsverwaltung.cloud</id>
+  
+  
+  
+  <entry>
+    <title>Onboarding bei der urlaubsverwaltung.cloud</title>
+    <link href="https://urlaubsverwaltung.cloud/neuigkeiten/2021-11-19-onboarding-csv/" />
+    <updated>2021-11-19T00:00:00Z</updated>
+    <id>https://urlaubsverwaltung.cloud/neuigkeiten/2021-11-19-onboarding-csv/</id>
+    <author>
+      <name>Daniel Fuchs</name>
+    </author>
+    <content type="html">&lt;p&gt;Damit der Einstieg reibungslos verläuft, haben wir eine kleine Artikelserie zusammengestellt, die die verschiedenen Möglichkeiten zum Onboarding beschreibt.
+Direkt eins vorweg: Lehne dich zurück! Wir ermöglichen dir den passenden Einstieg.&lt;/p&gt;
+&lt;h2 id=&quot;los-gehts&quot;&gt;Los gehts!&lt;/h2&gt;
+&lt;div class=&quot;flex flex-col items-center mt-2 lg:flex-row lg:space-x-8 lg:mb-8&quot;&gt;
+  &lt;picture&gt;
+    &lt;source srcset=&quot;https://urlaubsverwaltung.cloud/static/img/onboarding.avif&quot; type=&quot;image/avif&quot; /&gt;
+    &lt;source srcset=&quot;https://urlaubsverwaltung.cloud/static/img/onboarding.webp&quot; type=&quot;image/webp&quot; /&gt;
+    &lt;img class=&quot;mx-auto lg:max-w-md lg:h-72&quot; src=&quot;https://urlaubsverwaltung.cloud/static/img/onboarding.png&quot; alt=&quot;Herzlich Willkommen&quot; decoding=&quot;async&quot; loading=&quot;lazy&quot; width=&quot;640&quot; height=&quot;426&quot; /&gt;
+  &lt;/picture&gt;
+  &lt;div class=&quot;max-w-none lg:max-w-screen&quot;&gt;
+    &lt;p class=&quot;mt-4 lg:mb-4&quot;&gt;
+      Ein neuer Anfang, bedeutet natürlich auch immer eine gewisse Vorbereitung. Zum einen müssen die Mitarbeiter:innen in der Organisation über die neue Software informiert werden, zum anderen sollen die Abläufe von Genehmigungsprozessen passend abgebildet werden. Natürlich sind auch die Daten wie zum Beispiel Urlaubsansprüche aus dem laufenden Jahr oder die erbrachten Überstunden wichtig für einen erfolgreichen Start. In dieser Artikelserie wollen wir drei mögliche Wege des Onboardings vorstellen, die einen reibungslosen Einstieg ermöglichen.
+    &lt;/p&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;h2 id=&quot;csv-basiertes-onboarding&quot;&gt;CSV-basiertes Onboarding&lt;/h2&gt;
+&lt;p&gt;Das Onboarding deiner Organisation kann mit einer Import-Datei im CSV-Format durchgeführt werden. Wichtig hierfür ist, dass die Namen deiner Mitarbeiter:innen und ihre E-Mail-Adressen vorliegen. Zusätzlich können Informationen wie die Abteilungszugehörigkeit und der Urlaubsanspruch angegeben werden.
+Eine Beispiel-Datei zur Orientierung haben wir dir &lt;a href=&quot;https://urlaubsverwaltung.cloud/static/import-beispiel.csv&quot; class=&quot;underline&quot;&gt;hier&lt;/a&gt; bereitgestellt.&lt;/p&gt;
+&lt;p&gt;
+  &lt;picture&gt;
+    &lt;source srcset=&quot;https://urlaubsverwaltung.cloud/neuigkeiten/2021-11-19-onboarding-csv/import-beispiel.avif&quot; type=&quot;image/avif&quot; /&gt;
+    &lt;source srcset=&quot;https://urlaubsverwaltung.cloud/neuigkeiten/2021-11-19-onboarding-csv/import-beispiel.webp&quot; type=&quot;image/webp&quot; /&gt;
+    &lt;img src=&quot;https://urlaubsverwaltung.cloud/neuigkeiten/2021-11-19-onboarding-csv/import-beispiel.png&quot; alt=&quot;Beispiel für einen Import&quot; decoding=&quot;async&quot; loading=&quot;lazy&quot; width=&quot;1209&quot; height=&quot;185&quot; /&gt;
+  &lt;/picture&gt;
+&lt;/p&gt;
+&lt;p&gt;Die Informationen können dann in verschlüsselter Form an uns übermittelt werden.
+Weitere Details zum Onboarding können wir im direkten Austausch klären. Schreibe uns dazu eine kurze E-Mail an &lt;a href=&quot;mailto:info@urlaubsverwaltung.cloud?subject=Onboarding%20meiner%20Organisation&quot; class=&quot;underline&quot;&gt;info@urlaubsverwaltung.cloud&lt;/a&gt;&lt;/p&gt;
+</content>
+  </entry>
   
   
   
@@ -94,46 +134,6 @@ Kalender- oder Single Sign-On Systemen bieten eine nahtlose Integration in beste
 &lt;p&gt;Die Focus Shift Software GmbH stellt kleinen und mittelständischen Unternehmen aller Branchen Software-as-a-Service-Produkte
 zur Verfügung, die das administrative Rückgrat der Unternehmen digital abbilden. Die Verlagerung der Kompetenzen aus der
 Verwaltung in Richtung der Fachkompetenz stärken das Kerngeschäft.&lt;/p&gt;
-</content>
-  </entry>
-  
-  
-  
-  <entry>
-    <title>Onboarding bei der urlaubsverwaltung.cloud</title>
-    <link href="https://urlaubsverwaltung.cloud/neuigkeiten/2021-11-09-onboarding-csv/" />
-    <updated>2021-11-09T00:00:00Z</updated>
-    <id>https://urlaubsverwaltung.cloud/neuigkeiten/2021-11-09-onboarding-csv/</id>
-    <author>
-      <name>Daniel Fuchs</name>
-    </author>
-    <content type="html">&lt;p&gt;Damit der Einstieg reibungslos verläuft, haben wir eine kleine Artikelserie zusammengestellt, die die verschiedenen Möglichkeiten zum Onboarding beschreibt.
-Direkt eins vorweg: Lehne dich zurück! Wir ermöglichen dir den passenden Einstieg.&lt;/p&gt;
-&lt;h2 id=&quot;los-gehts&quot;&gt;Los gehts!&lt;/h2&gt;
-&lt;div class=&quot;flex flex-col items-center mt-2 lg:flex-row lg:space-x-8 lg:mb-8&quot;&gt;
-  &lt;picture&gt;
-    &lt;source srcset=&quot;https://urlaubsverwaltung.cloud/static/img/onboarding.avif&quot; type=&quot;image/avif&quot; /&gt;
-    &lt;source srcset=&quot;https://urlaubsverwaltung.cloud/static/img/onboarding.webp&quot; type=&quot;image/webp&quot; /&gt;
-    &lt;img class=&quot;mx-auto lg:max-w-md lg:h-72&quot; src=&quot;https://urlaubsverwaltung.cloud/static/img/onboarding.png&quot; alt=&quot;Herzlich Willkommen&quot; decoding=&quot;async&quot; loading=&quot;lazy&quot; width=&quot;640&quot; height=&quot;426&quot; /&gt;
-  &lt;/picture&gt;
-  &lt;div class=&quot;max-w-none lg:max-w-screen&quot;&gt;
-    &lt;p class=&quot;mt-4 lg:mb-4&quot;&gt;
-      Ein neuer Anfang, bedeutet natürlich auch immer eine gewisse Vorbereitung. Zum einen müssen die Mitarbeiter:innen in der Organisation über die neue Software informiert werden, zum anderen sollen die Abläufe von Genehmigungsprozessen passend abgebildet werden. Natürlich sind auch die Daten wie zum Beispiel Urlaubsansprüche aus dem laufenden Jahr oder die erbrachten Überstunden wichtig für einen erfolgreichen Start. In dieser Artikelserie wollen wir drei mögliche Wege des Onboardings vorstellen, die einen reibungslosen Einstieg ermöglichen.
-    &lt;/p&gt;
-  &lt;/div&gt;
-&lt;/div&gt;
-&lt;h2 id=&quot;csv-basiertes-onboarding&quot;&gt;CSV-basiertes Onboarding&lt;/h2&gt;
-&lt;p&gt;Das Onboarding deiner Organisation kann mit einer Import-Datei im CSV-Format durchgeführt werden. Wichtig hierfür ist, dass die Namen deiner Mitarbeiter:innen und ihre E-Mail-Adressen vorliegen. Zusätzlich können Informationen wie die Abteilungszugehörigkeit und der Urlaubsanspruch angegeben werden.
-Eine Beispiel-Datei zur Orientierung haben wir dir &lt;a href=&quot;https://urlaubsverwaltung.cloud/static/import-beispiel.csv&quot; class=&quot;underline&quot;&gt;hier&lt;/a&gt; bereitgestellt.&lt;/p&gt;
-&lt;p&gt;
-  &lt;picture&gt;
-    &lt;source srcset=&quot;https://urlaubsverwaltung.cloud/neuigkeiten/2021-11-09-onboarding-csv/import-beispiel.avif&quot; type=&quot;image/avif&quot; /&gt;
-    &lt;source srcset=&quot;https://urlaubsverwaltung.cloud/neuigkeiten/2021-11-09-onboarding-csv/import-beispiel.webp&quot; type=&quot;image/webp&quot; /&gt;
-    &lt;img src=&quot;https://urlaubsverwaltung.cloud/neuigkeiten/2021-11-09-onboarding-csv/import-beispiel.png&quot; alt=&quot;Beispiel für einen Import&quot; decoding=&quot;async&quot; loading=&quot;lazy&quot; width=&quot;1209&quot; height=&quot;185&quot; /&gt;
-  &lt;/picture&gt;
-&lt;/p&gt;
-&lt;p&gt;Die Informationen können dann in verschlüsselter Form an uns übermittelt werden.
-Weitere Details zum Onboarding können wir im direkten Austausch klären. Schreibe uns dazu eine kurze E-Mail an &lt;a href=&quot;mailto:info@urlaubsverwaltung.cloud?subject=Onboarding%20meiner%20Organisation&quot; class=&quot;underline&quot;&gt;info@urlaubsverwaltung.cloud&lt;/a&gt;&lt;/p&gt;
 </content>
   </entry>
   
