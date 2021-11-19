@@ -1,7 +1,7 @@
 ---
 draft: false
 layout: layout-neuigkeiten
-date: 2021-11-09
+date: 2021-11-19
 title: Onboarding bei der urlaubsverwaltung.cloud
 author: Daniel Fuchs
 teaserImage: /static/img/onboarding.jpg
