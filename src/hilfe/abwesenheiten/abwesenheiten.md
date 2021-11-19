@@ -9,7 +9,7 @@ breadcrumb:
 Der einfache Genehmigungsprozess für Abwesenheiten sieht vor, dass
 Abwesenheitsanträge von einem Abteilungsleiter oder Chef genehmigt werden.
 
-Außerdem gibt in der Urlaubsverwaltung auch einen [zweistufige Genehmigungsprozess](#wie-funktioniert-der-zweistufige-genehmigungsprozess-von-abwesenheitsantraegen).
+Außerdem gibt in der Urlaubsverwaltung auch einen [zweistufigen Genehmigungsprozess](#wie-funktioniert-der-zweistufige-genehmigungsprozess-von-abwesenheitsantraegen).
 
 ## Wer wird informiert, wenn ein Abwesenheitsantrag gestellt wurde?
 
