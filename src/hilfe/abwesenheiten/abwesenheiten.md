@@ -86,6 +86,44 @@ muss der zweistufige Genehmigungsprozess für die einzelnen Abteilungen aktivier
 werden. So lassen sich beide Workflows für jeweils verschiedene Abteilungen
 nutzen.
 
+## Welche Abwesenheitsarten gibt es?
+
+Die Urlaubsverwaltung ist mit folgenden Abwesenheitsarten standardmäßig voreingestellt:
+
+* Erholungsurlaub
+* Sonderurlaub
+* Unbezahlter Urlaub
+* Überstundenabbau
+
+Zusätzlich sind viele weitere Abwesenheitsarten in den globalen Einstellungen der Urlaubsverwaltung aktivierbar.
+
+Die Aktivierung und Deaktivierung ist jeder Zeit möglich, bitte beachte das durch eine Änderung der Einstellungen bereits vorhandene Abwesenheiten nicht verändert werden.
+
+## Wie können zusätzliche Abwesenheitsarten konfiguriert werden?
+
+Ja, es ist möglich weitere Abwesenheitsarten zu konfigurieren. Diese können in den globalen Einstellungen der Urlaubsverwaltung konfiguriert werden. Fehlt dir eine Abwesenheitsart dann [schreib uns](mailto:info@urlaubsverwaltung.cloud?subject=Weitere%20Abwesenheitsart) einfach!
+
+<p>
+  <picture>
+    <source srcset="abwesenheitsarten.avif" type="image/avif" />
+    <source srcset="abwesenheitsarten.webp" type="image/webp" />
+    <img
+      src="abwesenheitsarten.png"
+      alt="Konfiguration von Abwesenheitsarten"
+      decoding="async"
+      loading="lazy"
+      width="724"
+      height="797"
+    />
+  </picture>
+</p>
+
+## Ist es möglich für eine Abwesenheitsart den Genehmigungsprozess zu aktivieren / deaktivieren?
+
+Ja, du kannst pro Abwesenheitsart festlegen, ob eine Genehmigung notwendig ist, z.B. könnte man die Abwesenheitsart "Ausbildung" ohne Genehmigungsprozess konfigurieren, wohingegen eine "Fortbildung" genehmigt werden muss.
+
+Bitte beachte zusätzlich, dass der für die Abteilung aktive Genehmigungsprozess verwendet wird.
+
 ## Wie kann ich die Art der Abwesenheit bei einem Antrag bearbeiten?
 
 Die Art der Abwesenheit kann noch angepasst werden solange der Antrag noch nicht genehmigt wurde. Das Bearbeiten kann durch den Mitarbeiter selbst durchgeführt werden.
