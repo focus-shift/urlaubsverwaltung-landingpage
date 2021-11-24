@@ -49,9 +49,17 @@ backgroundColor: bg-white
               {{> partials/icon-check class='w-6 h-6'}}
             </span>
             <span>
-              Papierlos Urlaub beantragen und genehmigen
+              Papierlos Urlaub und Abwesenheiten beantragen und genehmigen
             </span>
           </li>
+					<li class="flex items-start">
+            <span class="mr-3">
+							{{> partials/icon-check class='w-6 h-6'}}
+						</span>
+						<span>
+              Individualisierbare Abwesenheiten
+            </span>
+					</li>
           <li class="flex items-start">
             <span class="mr-3">
               {{> partials/icon-check class='w-6 h-6'}}
@@ -134,6 +142,35 @@ backgroundColor: bg-white
         Funktionen
       </h2>
       <div class="grid md:grid-cols-2 gap-4 lg:gap-8">
+				<div class="p-8 bg-sky-50 flex flex-col">
+					<h3 class="text-sky-900 text-xl mb-6">
+						Individualisierbare Abwesenheiten
+					</h3>
+					<p class="flex-1 text-black text-opacity-60 mb-6">
+						Du möchtest die Abwesenheiten der Urlaubsverwaltung deiner Organisation anpassen? Kein Problem! Wähle aus verschiedenen Abwesenheiten die Richtigen
+						für dich aus und konfiguriere diese. Wähle aus Erholungsurlaub, Fortbildung, Kur, Home-Office und vielen weiteren die aus die du benötigst!
+					</p>
+					<div>
+						<picture>
+							<source srcset="/static/uv-abwesenheitsarten_sm.png" media="(max-width: 639px)">
+							<img src="/static/uv-abwesenheitsarten.png" width="860px" alt="Konfiguration der Abwesenheitsarten">
+						</picture>
+					</div>
+				</div>
+				<div class="p-8 bg-sky-50 flex flex-col">
+					<h3 class="text-sky-900 text-xl mb-6">
+						Teamübersicht
+					</h3>
+					<p class="flex-1 text-black text-opacity-60 mb-6">
+						Wann sind meine Kolleginnen und Kollegen abwesend? Kann nächsten Monat ein neues Projekt gestartet werden? Die Teamübersicht gibt dir Einsicht auf alle Teams und das komplette Jahr.
+					</p>
+					<div>
+						<picture>
+							<source srcset="/static/uv-teamuebersicht_sm.png" media="(max-width: 639px)">
+							<img src="/static/uv-teamuebersicht.png" width="860px" height="274px" alt="Abwesenheiten der Teams im Überblick">
+						</picture>
+					</div>
+				</div>
         <div class="p-8 bg-sky-50 flex flex-col">
           <h3 class="text-sky-900 text-xl mb-6">
             Kalendarische Übersicht
@@ -145,20 +182,6 @@ backgroundColor: bg-white
             <picture>
               <source srcset="/static/uv-kalender_sm.png" media="(max-width: 639px)">
               <img src="/static/uv-kalender.png" width="860px" height="295px" alt="kalendarischen Übersicht der Abwesenheiten">
-            </picture>
-          </div>
-        </div>
-        <div class="p-8 bg-sky-50 flex flex-col">
-          <h3 class="text-sky-900 text-xl mb-6">
-            Teamübersicht
-          </h3>
-          <p class="flex-1 text-black text-opacity-60 mb-6">
-            Wann sind meine Kolleginnen und Kollegen abwesend? Kann nächsten Monat ein neues Projekt gestartet werden? Die Teamübersicht gibt dir Einsicht auf alle Teams und das komplette Jahr.
-          </p>
-          <div>
-            <picture>
-              <source srcset="/static/uv-teamuebersicht_sm.png" media="(max-width: 639px)">
-              <img src="/static/uv-teamuebersicht.png" width="860px" height="274px" alt="Abwesenheiten der Teams im Überblick">
             </picture>
           </div>
         </div>
