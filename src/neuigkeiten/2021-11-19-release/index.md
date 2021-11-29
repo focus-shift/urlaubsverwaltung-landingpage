@@ -23,8 +23,8 @@ _Bisher_ gab es in der Urlaubsverwaltung vier Abwesenheitsarten:
 * Unbezahlter Urlaub und
 * Überstundenabbau
 
-<div class="flex flex-col justify-end lg:flex-row-reverse lg:space-x-8 lg:space-x-reverse lg:my-8">
-  <div>
+<div class="flex flex-col justify-end lg:flex-row-reverse lg:space-x-8 lg:space-x-reverse mt-8 mb-4 lg:mt-4">
+  <div class="mb-8 lg:mb-0">
     <picture>
         <source srcset="abwesenheitsarten.avif" type="image/avif" />
         <source srcset="abwesenheitsarten.webp" type="image/webp" />
@@ -67,8 +67,8 @@ Die aktivierten Abwesenheitsarten fließen nicht nur beim Erstellen einer Abwese
 sondern werden auch in den Abwesenheitsstatistik (frühere Urlaubsstatistik) separat ausgewertet, sowie über den
 CSV-Export herausgegeben.
 
-<div class="flex flex-col items-start mt-2 lg:flex-row lg:space-x-8 mb-2 lg:mb-4">
-  <div>
+<div class="flex flex-col items-start md:flex-row my-8 md:space-x-8">
+  <div class="md:w-1/2">
     <picture>
         <source srcset="antrag.avif" type="image/avif" />
         <source srcset="antrag.webp" type="image/webp" />
@@ -81,7 +81,7 @@ CSV-Export herausgegeben.
         />
     </picture>
   </div>
-  <div class="mt-4 lg:mt-0">
+  <div class="md:w-1/2 mt-4 md:mt-0">
     <picture>
         <source srcset="abwesenheitsstatistik.avif" type="image/avif" />
         <source srcset="abwesenheitsstatistik.webp" type="image/webp" />
