@@ -37,7 +37,7 @@ _Bisher_ gab es in der Urlaubsverwaltung vier Abwesenheitsarten:
         />
     </picture>  
   </div>
-  <div class="max-w-none lg:max-w-xl">
+  <div class="lg:max-w-xl">
     <p>
         Diese sind in vielen Fällen ausreichend um deine täglichen Abwesenheiten abzubilden, aber für uns ist ausreichend nicht gut genug.
         Darum spendieren wir der Urlaubsverwaltung weitere Abwesenheitsarten und den Begriff "Urlaub" wird in einigen
