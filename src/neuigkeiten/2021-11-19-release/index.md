@@ -23,7 +23,7 @@ _Bisher_ gab es in der Urlaubsverwaltung vier Abwesenheitsarten:
 * Unbezahlter Urlaub und
 * Überstundenabbau
 
-<div class="flex flex-col justify-end lg:flex-row-reverse lg:space-x-8 lg:space-x-reverse lg:mt-8 lg:mb-8">
+<div class="flex flex-col justify-end lg:flex-row-reverse lg:space-x-8 lg:space-x-reverse lg:my-8">
   <div>
     <picture>
         <source srcset="abwesenheitsarten.avif" type="image/avif" />
