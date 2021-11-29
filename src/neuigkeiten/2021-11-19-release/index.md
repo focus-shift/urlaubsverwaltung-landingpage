@@ -25,17 +25,13 @@ _Bisher_ gab es in der Urlaubsverwaltung vier Abwesenheitsarten:
 
 <div class="flex flex-col justify-end lg:flex-row-reverse lg:space-x-8 lg:space-x-reverse mt-8 mb-4 lg:mt-4">
   <div class="mb-8 lg:mb-0">
-    <picture>
-        <source srcset="abwesenheitsarten.avif" type="image/avif" />
-        <source srcset="abwesenheitsarten.webp" type="image/webp" />
-        <img
-          src="abwesenheitsarten.png"
-          alt="Neue Abwesenheitsarten der Urlaubsverwaltung"
-          decoding="async"
-          loading="lazy"
-          width="1109"
-        />
-    </picture>  
+    <img
+      src="abwesenheitsarten.png"
+      alt="Neue Abwesenheitsarten der Urlaubsverwaltung"
+      decoding="async"
+      loading="lazy"
+      width="1280"
+    />
   </div>
   <div class="lg:max-w-xl">
     <p>
@@ -77,20 +73,19 @@ CSV-Export herausgegeben.
           alt="Erstellen einer Abwesenheit"
           decoding="async"
           loading="lazy"
-          width="1109"
+          width="1280"
         />
     </picture>
   </div>
   <div class="md:w-1/2 mt-4 md:mt-0">
     <picture>
-        <source srcset="abwesenheitsstatistik.avif" type="image/avif" />
         <source srcset="abwesenheitsstatistik.webp" type="image/webp" />
         <img
           src="abwesenheitsstatistik.png"
           alt="Abwesenheitsstatistik mit neuen Abwesenheitsarten"
           decoding="async"
           loading="lazy"
-          width="1212"
+          width="1280"
         />
     </picture>
   </div>
