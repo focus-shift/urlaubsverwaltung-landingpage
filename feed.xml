@@ -10,6 +10,78 @@
   
   
   <entry>
+    <title>Version 4.27.0 veröffentlicht</title>
+    <link href="https://urlaubsverwaltung.cloud/neuigkeiten/2021-11-19-release/" />
+    <updated>2021-11-19T00:00:00Z</updated>
+    <id>https://urlaubsverwaltung.cloud/neuigkeiten/2021-11-19-release/</id>
+    <author>
+      <name>Tobias Schneider</name>
+    </author>
+    <content type="html">&lt;p&gt;&lt;em&gt;Neue Abwesenheitsarten braucht die Urlaubsverwaltung!&lt;/em&gt;&lt;/p&gt;
+&lt;h2 id=&quot;neue-abwesenheitsarten&quot;&gt;Neue Abwesenheitsarten&lt;/h2&gt;
+&lt;p&gt;Deine Urlaubsverwaltung kann nun weitere Abwesenheiten und du hast die Möglichkeit diese freizuschalten!&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Bisher&lt;/em&gt; gab es in der Urlaubsverwaltung vier Abwesenheitsarten:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Erholungsurlaub&lt;/li&gt;
+&lt;li&gt;Sonderurlaub&lt;/li&gt;
+&lt;li&gt;Unbezahlter Urlaub und&lt;/li&gt;
+&lt;li&gt;Überstundenabbau&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&quot;flex flex-col justify-end lg:flex-row-reverse lg:space-x-8 lg:space-x-reverse mt-8 mb-4 lg:mt-4&quot;&gt;
+  &lt;div class=&quot;mb-8 lg:mb-0&quot;&gt;
+    &lt;img src=&quot;https://urlaubsverwaltung.cloud/neuigkeiten/2021-11-19-release/abwesenheitsarten.png&quot; alt=&quot;Neue Abwesenheitsarten der Urlaubsverwaltung&quot; decoding=&quot;async&quot; loading=&quot;lazy&quot; width=&quot;1280&quot; /&gt;
+  &lt;/div&gt;
+  &lt;div class=&quot;lg:max-w-xl&quot;&gt;
+    &lt;p&gt;
+        Diese sind in vielen Fällen ausreichend um deine täglichen Abwesenheiten abzubilden, aber für uns ist ausreichend nicht gut genug.
+        Darum spendieren wir der Urlaubsverwaltung weitere Abwesenheitsarten und den Begriff &quot;Urlaub&quot; wird in einigen
+        Fällen durch &quot;Abwesenheiten&quot; ersetzt, sodass auch der Weg der Urlaubsverwaltung zur Abwesenheitsverwaltung deutlicher wird.
+        Natürlich bleiben wir unserem Namen zunächst treu und die Urlaubsverwaltung wird weiterhin die Urlaubsverwaltung sein. 
+        Aber man weiß ja nie was uns die Zukunft bringt.
+    &lt;/p&gt;
+    &lt;p&gt;
+        Die neuen Abwesenheitsarten lassen sich in den Einstellungen mit der Berechtigung &#39;Office&#39; aktivieren bzw deaktivieren.
+        Zusätzlich kann konfiguriert werden, ob für diese Abwesenheitsart der Antrag durch einen Genehmigungsprozess (Einstufig bzw. Zweistufig) abgebildet wird.
+        Neu ist, dass jede Abwesenheit auch ohne Genehmigungsprozess konfiguriert werden kann.
+    &lt;/p&gt;  
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;Die Kategorie zeigt auf, von welchem Abwesenheitskonto die Abwesenheit abgezogen wird. Wenn es ein &lt;em&gt;Erholungsurlaub&lt;/em&gt;
+ist, wird die Abwesenheit von diesem Abwesenheitskonto abgezogen. Wenn es die Kategorie &lt;em&gt;Überstunden&lt;/em&gt; ist, wird die
+Abwesenheit von dem Überstundenkonto abgezogen.
+&lt;em&gt;Sonderurlaub&lt;/em&gt;, &lt;em&gt;Unbezahlter Urlaub&lt;/em&gt; und &lt;em&gt;Sonstiges&lt;/em&gt; werden von keinem Abwesenheitskonto abgezogen und dienen lediglich
+der Statistik.&lt;/p&gt;
+&lt;p&gt;Wir möchten zudem in einer kommenden Version der Urlaubsverwaltung die Möglichkeit bieten, dass eine Person mit der
+Berechtigung &#39;Office&#39; die Kategorie bzw. das Abwesenheitskonto pro Abwesenheitsart anpassen kann und damit individuell
+das Abwesenheitskonto für eine Abwesenheitsart anzupassen.&lt;/p&gt;
+&lt;p&gt;Die aktivierten Abwesenheitsarten fließen nicht nur beim Erstellen einer Abwesenheit in die Urlaubsverwaltung ein,
+sondern werden auch in den Abwesenheitsstatistik (frühere Urlaubsstatistik) separat ausgewertet, sowie über den
+CSV-Export herausgegeben.&lt;/p&gt;
+&lt;div class=&quot;flex flex-col items-start md:flex-row my-8 md:space-x-8&quot;&gt;
+  &lt;div class=&quot;md:w-1/2&quot;&gt;
+    &lt;picture&gt;
+        &lt;source srcset=&quot;https://urlaubsverwaltung.cloud/neuigkeiten/2021-11-19-release/antrag.avif&quot; type=&quot;image/avif&quot; /&gt;
+        &lt;source srcset=&quot;https://urlaubsverwaltung.cloud/neuigkeiten/2021-11-19-release/antrag.webp&quot; type=&quot;image/webp&quot; /&gt;
+        &lt;img src=&quot;https://urlaubsverwaltung.cloud/neuigkeiten/2021-11-19-release/antrag.png&quot; alt=&quot;Erstellen einer Abwesenheit&quot; decoding=&quot;async&quot; loading=&quot;lazy&quot; width=&quot;1280&quot; /&gt;
+    &lt;/picture&gt;
+  &lt;/div&gt;
+  &lt;div class=&quot;md:w-1/2 mt-4 md:mt-0&quot;&gt;
+    &lt;picture&gt;
+        &lt;source srcset=&quot;https://urlaubsverwaltung.cloud/neuigkeiten/2021-11-19-release/abwesenheitsstatistik.webp&quot; type=&quot;image/webp&quot; /&gt;
+        &lt;img src=&quot;https://urlaubsverwaltung.cloud/neuigkeiten/2021-11-19-release/abwesenheitsstatistik.png&quot; alt=&quot;Abwesenheitsstatistik mit neuen Abwesenheitsarten&quot; decoding=&quot;async&quot; loading=&quot;lazy&quot; width=&quot;1280&quot; /&gt;
+    &lt;/picture&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;Wir hoffen, dass ihr eure Organisation noch besser abbilden könnt, und wünschen viel Spaß mit den neuen
+Abwesenheitsarten.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;mailto:info@urlaubsverwaltung.cloud?subject=Weitere%20Abwesenheitsart&quot;&gt;Fehlt dir eine Abwesenheitsart dann
+schreib uns einfach!&lt;/a&gt;&lt;/p&gt;
+</content>
+  </entry>
+  
+  
+  
+  <entry>
     <title>Onboarding bei der urlaubsverwaltung.cloud</title>
     <link href="https://urlaubsverwaltung.cloud/neuigkeiten/2021-11-19-onboarding-csv/" />
     <updated>2021-11-19T00:00:00Z</updated>
