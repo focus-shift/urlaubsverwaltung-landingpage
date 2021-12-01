@@ -1,0 +1,20 @@
+---
+layout: layout-subpage
+backgroundColor: bg-white
+title: Es tut uns leid - hier ist etwas schiefgelaufen
+permalink: 404.html
+---
+
+{{> partials/navigation noMargin=true }}
+
+<div class="w-full max-w-xl mx-auto bg-white p-8">
+	<h2>{{ title }}</h2>
+	<p>
+		Leider gibt es die von dir gesuchte Seite nicht oder nicht mehr.
+		Möchtest du vielleicht mehr über die <a class="font-bold no-underline hover:underline" href="{{ "/" }}">Funktionen</a> der Urlaubsverwaltung erfahren?
+	</p>
+	<p class="mt-4">
+		Falls dir auf dieser Seite langweilig wird, kannst du dir gerne auch unsere <a class="font-bold no-underline hover:underline" href="{{ "/demo" }}">Demo</a> anschauen
+		und dich mit der Urlaubsverwaltung vertraut machen. Wir freuen uns auf dich!
+	</p>
+</div>
