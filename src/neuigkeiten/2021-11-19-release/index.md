@@ -2,13 +2,13 @@
 draft: false
 layout: layout-neuigkeiten
 date: 2021-11-19
-title: Version 4.27.0 veröffentlicht
+title: Neue Abwesenheitsarten braucht die Urlaubsverwaltung!
 author: Tobias Schneider
 release-version: 4.27.0
 teaserImage: /static/update.png
 ---
 
-_Neue Abwesenheitsarten braucht die Urlaubsverwaltung!_
+_Version 4.27.0 veröffentlicht_
 
 <!-- more -->
 

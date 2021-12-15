@@ -2,13 +2,13 @@
 draft: false
 layout: layout-neuigkeiten
 date: 2021-11-16
-title: Version 4.26.0 veröffentlicht
+title: Verbesserte Berechtigungen, optische Verbesserungen und mehr Transparenz im Anlageprozess einer Person
 author: Tobias Schneider
 release-version: 4.26.0
 teaserImage: /static/update.png
 ---
 
-_Verbesserte Berechtigungen, optische Verbesserungen und mehr Transparenz im Anlageprozess einer Person_
+_Version 4.26.0 veröffentlicht_
 
 <!-- more -->
 
