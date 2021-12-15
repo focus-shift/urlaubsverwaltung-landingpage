@@ -5,7 +5,7 @@ date: 2021-12-15
 title: Berechtigungskombinationen, Abwesenheitsübersicht und Logback
 author: Tobias Schneider
 release-version: 4.27.3
-teaserImage: /static/update.png
+teaserImage: /static/update.jpg
 ---
 
 _Wir beheben Fehler für euch in den Versionen 4.27.1, 4.27.2 und 4.27.3_
