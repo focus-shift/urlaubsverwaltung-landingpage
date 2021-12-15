@@ -32,7 +32,7 @@ Lücke nicht betroffen. Trotzdem haben wir, um einfach auf Nummer sicher zu gehe
 (4.27.3) mit der neusten Logback Version aktualisiert und allen Mandanten zur Verfügung gestellt.&lt;/p&gt;
 &lt;h2 id=&quot;korrektur-der-angezeigten-personen-bei-berechtigungskombinationen&quot;&gt;Korrektur der angezeigten Personen bei Berechtigungskombinationen&lt;/h2&gt;
 &lt;p&gt;Nachdem die Urlaubsverwaltung, seit der Version 4.26.0, die Kombinationen von Berechtigungen &lt;em&gt;Office&lt;/em&gt; bzw. &lt;em&gt;Chef&lt;/em&gt; mit
-&lt;em&gt;Abteilungsleiter&lt;/em&gt; bzw. &lt;em&gt;Freigabe-Verantwortlicher&lt;/em&gt; erlaubt. Haben wir die Darstellung der &lt;em&gt;Personenübersicht&lt;/em&gt;
+&lt;em&gt;Abteilungsleiter&lt;/em&gt; bzw. &lt;em&gt;Freigabe-Verantwortlicher&lt;/em&gt; erlaubt, haben wir die Darstellung der &lt;em&gt;Personenübersicht&lt;/em&gt;
 sowie die &lt;em&gt;Abwesenheitsstatistik&lt;/em&gt; auf die verschiedenen Kombinationsmöglichkeiten angepasst, sodass du immer genau das siehst,
 was du auch sehen darfst.&lt;/p&gt;
 &lt;ul&gt;
