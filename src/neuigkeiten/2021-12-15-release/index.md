@@ -33,7 +33,7 @@ Lücke nicht betroffen. Trotzdem haben wir, um einfach auf Nummer sicher zu gehe
 ## Korrektur der angezeigten Personen bei Berechtigungskombinationen 
 
 Nachdem die Urlaubsverwaltung, seit der Version 4.26.0, die Kombinationen von Berechtigungen _Office_ bzw. _Chef_ mit 
-_Abteilungsleiter_ bzw. _Freigabe-Verantwortlicher_ erlaubt. Haben wir die Darstellung der _Personenübersicht_
+_Abteilungsleiter_ bzw. _Freigabe-Verantwortlicher_ erlaubt, haben wir die Darstellung der _Personenübersicht_
 sowie die _Abwesenheitsstatistik_ auf die verschiedenen Kombinationsmöglichkeiten angepasst, sodass du immer genau das siehst,
 was du auch sehen darfst.
 * Wenn du eine der Berechtigung _Office_ oder _Chef_ hast, werden dir alle Personen der Urlaubsverwaltung angezeigt.
