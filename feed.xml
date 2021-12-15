@@ -20,13 +20,13 @@
     <content type="html">&lt;p&gt;&lt;em&gt;Wir beheben Fehler für euch in den Versionen 4.27.1, 4.27.2 und 4.27.3&lt;/em&gt;&lt;/p&gt;
 &lt;h2 id=&quot;abwesenheitsuebersicht&quot;&gt;Abwesenheitsübersicht&lt;/h2&gt;
 &lt;p&gt;In der Abwesenheitsübersicht hatte sich ein kleiner Fehler eingeschlichen, sodass Feiertage nicht anhand der angezeigten Person,
-sondern anhand der globalen Einstellung unter &#39;Einstellungen zu Feiertagen&#39; angezeigt wurde. Dieser Fehler haben wir für euch
+sondern anhand der globalen Einstellung unter &#39;Einstellungen zu Feiertagen&#39; angezeigt wurde. Diesen Fehler haben wir für euch
 in der Version 4.27.2 behoben und allen Mandaten zur Verfügung gestellt.&lt;/p&gt;
 &lt;h2 id=&quot;apache-log4j2-&amp;amp;-logback&quot;&gt;Apache Log4j2 &amp;amp; Logback&lt;/h2&gt;
 &lt;p&gt;Nachdem eine kritische Sicherheitslücke in Apache Log4j2 entdeckt wurde, hält diese die IT-Welt auf trapp. Es werden nach und nach alle
 Systeme identifiziert und Log4j2 aktualisiert.&lt;/p&gt;
 &lt;p&gt;Die Urlaubsverwaltung setzt diese Bibliothek &lt;strong&gt;nicht&lt;/strong&gt; ein und war von dieser Lücke zu keinem Zeitpunkt betroffen.&lt;/p&gt;
-&lt;p&gt;Jedoch wurde kurz darauf wurde eine deutlich schwächere Sicherheitslücke in dem Logging Framework &lt;em&gt;Logback&lt;/em&gt; entdeckt,
+&lt;p&gt;Jedoch wurde kurz darauf eine deutlich schwächere Sicherheitslücke in dem Logging Framework &lt;em&gt;Logback&lt;/em&gt; entdeckt,
 welche nur unter ganz bestimmten Voraussetzungen ausgenutzt werden kann. Die Urlaubsverwaltung war auch von dieser
 Lücke nicht betroffen. Trotzdem haben wir, um einfach auf Nummer sicher zu gehen, für euch direkt die Urlaubsverwaltung
 (4.27.3) mit der neusten Logback Version aktualisiert und allen Mandanten zur Verfügung gestellt.&lt;/p&gt;
