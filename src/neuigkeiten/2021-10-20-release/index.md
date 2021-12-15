@@ -2,13 +2,13 @@
 draft: false
 layout: layout-neuigkeiten
 date: 2021-10-20
-title: Version 4.25.0 veröffentlicht
+title: Verbesserte Urlaub-Übersichtsseite und Hilfe direkt aus der Urlaubsverwaltung
 author: Tobias Schneider
 release-version: 4.25.0
 teaserImage: /static/update.png
 ---
 
-Verbesserte Urlaub-Übersichtsseite und Hilfe direkt aus der Urlaubsverwaltung
+_Version 4.25.0 veröffentlicht_
 
 <!-- more -->
 
