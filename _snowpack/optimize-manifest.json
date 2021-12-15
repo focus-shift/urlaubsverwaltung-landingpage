@@ -1159,7 +1159,7 @@
         "https://support.apps.urlaubsverwaltung.cloud/assets/chat/chat.min.js"
       ]
     },
-    "/neuigkeiten/2021-12-03-release/index.html": {
+    "/neuigkeiten/2021-12-15-release/index.html": {
       "entry": [
         "/static/js/easteregg.js",
         "/static/js/goals.js",
