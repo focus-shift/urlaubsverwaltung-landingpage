@@ -8,7 +8,7 @@ eleventyExcludeFromCollections: true
   {%- set isDraft = ('page.data.draft' if page.data.draft === true else false) -%}
   {%- if isDraft === false -%}
     <url>
-      <loc>{{ page.url | url }}</loc>
+      <loc>{{ site.url }}{{ page.url | url }}</loc>
       <lastmod>{{ page.date.toISOString() }}</lastmod>
       <changefreq>{{ page.data.changeFreq if page.data.changeFreq else "monthly" }}</changefreq>
     </url>
