@@ -1,9 +1,8 @@
-const colors = require("tailwindcss/colors");
 const defaultConfig = require("tailwindcss/defaultConfig.js");
 
 module.exports = {
-	purge: {
-		content: ["./src/**/*.hbs", "./src/**/*.md", "./static/**/*.js"],
+	content: {
+		files: ["./src/**/*.hbs", "./src/**/*.md", "./static/**/*.js"],
 		options: {
 			safelist: [/^zammad-/],
 		},
@@ -56,9 +55,6 @@ module.exports = {
 				18: "4.5rem",
 				19: "4.75rem",
 			},
-			colors: {
-				...colors,
-			},
 		},
 		screens: {
 			// cannot use 'extend' as `xs` would override other screens
@@ -70,11 +66,6 @@ module.exports = {
 			// xl and more are heavier than 'navbar'
 			xl: defaultConfig.theme.screens.xl,
 			"2xl": defaultConfig.theme.screens["2xl"],
-		},
-	},
-	variants: {
-		extend: {
-			boxShadow: ["active"],
 		},
 	},
 };
