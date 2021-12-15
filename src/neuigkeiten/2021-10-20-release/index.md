@@ -5,7 +5,7 @@ date: 2021-10-20
 title: Verbesserte Urlaub-Übersichtsseite und Hilfe direkt aus der Urlaubsverwaltung
 author: Tobias Schneider
 release-version: 4.25.0
-teaserImage: /static/update.png
+teaserImage: /static/update.jpg
 ---
 
 _Version 4.25.0 veröffentlicht_

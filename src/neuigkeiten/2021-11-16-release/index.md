@@ -5,7 +5,7 @@ date: 2021-11-16
 title: Verbesserte Berechtigungen, optische Verbesserungen und mehr Transparenz im Anlageprozess einer Person
 author: Tobias Schneider
 release-version: 4.26.0
-teaserImage: /static/update.png
+teaserImage: /static/update.jpg
 ---
 
 _Version 4.26.0 veröffentlicht_
