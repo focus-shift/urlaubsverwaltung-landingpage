@@ -25,7 +25,7 @@
 		"postcss": "8.4.4",
 		"postcss-cli": "9.0.2",
 		"postcss-nested": "5.0.6",
-		"prettier": "2.4.1",
+		"prettier": "2.5.1",
 		"snowpack": "3.0.13",
 		"snowpack-plugin-cache-bust": "https://github.com/focus-shift/snowpack-plugin-cache-bust.git#v0.1.0",
 		"tailwindcss": "2.2.19"
