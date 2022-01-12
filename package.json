@@ -20,7 +20,7 @@
 		"eslint-plugin-prettier": "4.0.0",
 		"husky": "7.0.4",
 		"lint-staged": "12.1.4",
-		"markdown-it": "12.3.0",
+		"markdown-it": "12.3.2",
 		"markdown-it-anchor": "8.4.1",
 		"postcss": "8.4.5",
 		"postcss-cli": "9.1.0",
