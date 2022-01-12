@@ -38,24 +38,24 @@ draft: false
 				</aside>
 				<div>
 					<h3 class="m-0 text-xl mb-4 font-semibold">
-						<a href="{{url url}}" class="no-underline hover:underline">
+						<a href="{{this.url}}" class="no-underline hover:underline">
 							{{data.title}}
 						</a>
 					</h3>
 					<div class="text-lg flex flex-col sm:flex-row items-start">
 						<div class="sm:w-2/3 sm:pr-8">
-							<a href="{{url url}}" class="no-underline hover:underline">
+							<a href="{{this.url}}" class="no-underline hover:underline">
 								{{{markdownToHtml data.excerpt}}}
 							</a>
 						</div>
 						<div class="order-first sm:order-last flex-1 mb-8 sm:mb-0">
-							<a href="{{url url}}" class="no-underline">
+							<a href="{{this.url}}" class="no-underline">
 								<img src="{{data.teaserImage}}">
 							</a>
 						</div>
 					</div>
 					<div>
-						<a href="{{url url}}" class="inline-block text-black text-opacity-60 hover:text-opacity-100 no-underline hover:underline">
+						<a href="{{this.url}}" class="inline-block text-black text-opacity-60 hover:text-opacity-100 no-underline hover:underline">
 							<span class="flex items-center">
 								<svg class="mr-1 mt-1 w-3 h-3" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 5l7 7-7 7M5 5l7 7-7 7"></path></svg>
 								weiterlesen
