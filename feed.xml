@@ -4,8 +4,57 @@
   <subtitle></subtitle>
   <link rel="self" href="https://urlaubsverwaltung.cloud/feed.xml" />
   <link rel="alternate" type="text/html" href="https://urlaubsverwaltung.cloud" />
-  <updated>2021-12-15T00:00:00Z</updated>
+  <updated>2022-01-12T00:00:00Z</updated>
   <id>https://urlaubsverwaltung.cloud</id>
+  
+  
+  
+  <entry>
+    <title>Feiertagsregelungen für Österreich 🇦🇹, Schweiz 🇨🇭 und das Vereinigte Königreich 🇬🇧, Abwesenheiten an Feiertagen und neues Kalenderdesign</title>
+    <link href="https://urlaubsverwaltung.cloud/neuigkeiten/2022-01-12-release/" />
+    <updated>2022-01-12T00:00:00Z</updated>
+    <id>https://urlaubsverwaltung.cloud/neuigkeiten/2022-01-12-release/</id>
+    <author>
+      <name>Tobias Schneider</name>
+    </author>
+    <content type="html">&lt;p&gt;&lt;em&gt;Feiertagsregelung für Österreich, die Schweiz und das Vereinigtes Königreich, Abwesenheiten an Feiertagen und ein neues Kalenderdesign&lt;/em&gt;&lt;/p&gt;
+&lt;h2 id=&quot;feiertagsregelungen-fuer-oesterreich-🇦🇹-schweiz-🇨🇭-und-das-vereinigte-koenigreich-🇬🇧&quot;&gt;Feiertagsregelungen für Österreich 🇦🇹, Schweiz 🇨🇭 und das Vereinigte Königreich 🇬🇧&lt;/h2&gt;
+&lt;p&gt;Ab sofort kann die Feiertagsregelung, neben den Bundesländern für Deutschland, auch mit den österreichischen Bundesländern,
+den Schweizer Kantonen sowie mit den Landesteilen des Vereinigtes Königreiches konfiguriert werden. Diese Einstellung ist, wie gewohnt,
+global in den Einstellungen der Urlaubsverwaltung konfigurierbar und steht zusätzlich im Konto einer Person zur Auswahl bereit.
+Der Name der Einstellung hat sich von &#39;Bundesland&#39; zu &#39;Feiertagsregelung&#39; geändert.&lt;/p&gt;
+&lt;div class=&quot;flex gap-4 flex-col md:flex-row&quot;&gt;
+    &lt;picture&gt;
+        &lt;source srcset=&quot;https://urlaubsverwaltung.cloud/neuigkeiten/2022-01-12-release/public_holiday_person.avif&quot; type=&quot;image/avif&quot; /&gt;
+        &lt;source srcset=&quot;https://urlaubsverwaltung.cloud/neuigkeiten/2022-01-12-release/public_holiday_person.webp&quot; type=&quot;image/webp&quot; /&gt;
+        &lt;img src=&quot;https://urlaubsverwaltung.cloud/neuigkeiten/2022-01-12-release/public_holiday_person.png&quot; alt=&quot;Personübersicht mit Feiertagregelungauswahl&quot; decoding=&quot;async&quot; loading=&quot;lazy&quot; /&gt;
+    &lt;/picture&gt;
+    &lt;picture&gt;
+        &lt;source srcset=&quot;https://urlaubsverwaltung.cloud/neuigkeiten/2022-01-12-release/public_holiday_person_change.avif&quot; type=&quot;image/avif&quot; /&gt;
+        &lt;source srcset=&quot;https://urlaubsverwaltung.cloud/neuigkeiten/2022-01-12-release/public_holiday_person_change.webp&quot; type=&quot;image/webp&quot; /&gt;
+        &lt;img src=&quot;https://urlaubsverwaltung.cloud/neuigkeiten/2022-01-12-release/public_holiday_person_change.png&quot; alt=&quot;Feiertagregelungauswahl einer Person&quot; decoding=&quot;async&quot; /&gt;
+    &lt;/picture&gt;
+&lt;/div&gt;
+&lt;h2 id=&quot;abwesenheiten-an-feiertagen&quot;&gt;Abwesenheiten an Feiertagen&lt;/h2&gt;
+&lt;p&gt;Die &lt;a href=&quot;https://urlaubsverwaltung.cloud/neuigkeiten/2022-01-12-release/#feiertagsregelung&quot;&gt;Feiertagsregelung&lt;/a&gt; wurde zudem um den Eintrag &lt;em&gt;Keine Feiertagsregelung&lt;/em&gt; erweitert. Mit dieser Einstellung
+ist es für die gesamte Urlaubsverwaltung sowie für bestimmte Personen möglich die Feiertagsregelung außer Kraft zu setzen und
+Abwesenheiten auch an Feiertagen einzutragen.&lt;/p&gt;
+&lt;picture&gt;
+    &lt;source srcset=&quot;https://urlaubsverwaltung.cloud/neuigkeiten/2022-01-12-release/public_holiday_person_no.avif&quot; type=&quot;image/avif&quot; /&gt;
+    &lt;source srcset=&quot;https://urlaubsverwaltung.cloud/neuigkeiten/2022-01-12-release/public_holiday_person_no.webp&quot; type=&quot;image/webp&quot; /&gt;
+    &lt;img src=&quot;https://urlaubsverwaltung.cloud/neuigkeiten/2022-01-12-release/public_holiday_person_no.png&quot; alt=&quot;Neues Kalenderdesign&quot; decoding=&quot;async&quot; /&gt;
+&lt;/picture&gt;
+&lt;h2 id=&quot;neues-kalenderdesign&quot;&gt;Neues Kalenderdesign&lt;/h2&gt;
+&lt;p&gt;Das Kalenderdesign wurde überarbeitet und bietet nun mehr Platz um zukünftig noch weitere Informationen für einen Tag anzuzeigen.
+Die Urlaubsverwaltung unterliegt einem ständigen Verbesserungsprozess, welcher Wert auf eine intuitive Bedienung legt.
+Mit dem neuen Kalenderdesign stellen wir die Weichen für mehr Flexibilität und einen höheren Informationsgehalt. Wir freuen uns auf dein Feedback!&lt;/p&gt;
+&lt;picture&gt;
+    &lt;source srcset=&quot;https://urlaubsverwaltung.cloud/neuigkeiten/2022-01-12-release/new_calendar_design_overview.avif&quot; type=&quot;image/avif&quot; /&gt;
+    &lt;source srcset=&quot;https://urlaubsverwaltung.cloud/neuigkeiten/2022-01-12-release/new_calendar_design_overview.webp&quot; type=&quot;image/webp&quot; /&gt;
+    &lt;img src=&quot;https://urlaubsverwaltung.cloud/neuigkeiten/2022-01-12-release/new_calendar_design_overview.png&quot; alt=&quot;Neues Kalenderdesign&quot; decoding=&quot;async&quot; /&gt;
+&lt;/picture&gt;
+</content>
+  </entry>
   
   
   
