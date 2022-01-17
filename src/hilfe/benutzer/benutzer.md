@@ -134,3 +134,10 @@ Urlaubs im alten Jahr berechnet.
 
 Wenn bereits Resturlaub für das nächste Jahr eingetragen wurde, wird dieser
 am 1. Januar automatisch überschrieben.
+
+## Gibt es eine Möglichkeit ein Profil-Bild zu hinterlegen?
+
+Ja, aktuell unterstützen wir für Profilbilder die Lösung [Gravatar](https://de.gravatar.com/).\
+Gravatar ist ein freier Dienst, welcher ohne weitere Kosten genutzt werden kann, um Avatare zu hinterlegen.
+
+D.h. man muss dort einen Account mit der betreffenden E-Mail-Adresse erstellen und sein Bild hochladen, danach wird automatisch das Profilbild in der Urlaubsverwaltung angezeigt.
