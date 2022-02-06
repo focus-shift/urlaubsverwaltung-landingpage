@@ -4,8 +4,76 @@
   <subtitle></subtitle>
   <link rel="self" href="https://urlaubsverwaltung.cloud/feed.xml" />
   <link rel="alternate" type="text/html" href="https://urlaubsverwaltung.cloud" />
-  <updated>2022-01-12T00:00:00Z</updated>
+  <updated>2022-02-06T00:00:00Z</updated>
   <id>https://urlaubsverwaltung.cloud</id>
+  
+  
+  
+  <entry>
+    <title>Willkommen auf der dunklen Seite</title>
+    <link href="https://urlaubsverwaltung.cloud/neuigkeiten/2022-02-06-release/" />
+    <updated>2022-02-06T00:00:00Z</updated>
+    <id>https://urlaubsverwaltung.cloud/neuigkeiten/2022-02-06-release/</id>
+    <author>
+      <name>Benjamin Seber</name>
+    </author>
+    <content type="html">&lt;p&gt;Mit Version 4.30.0 macht die Urlaubsverwaltung den Schritt zur dunklen Seite. Machst du ihn mit?&lt;/p&gt;
+&lt;h3 id=&quot;dunkelmodus&quot;&gt;Dunkelmodus&lt;/h3&gt;
+&lt;p&gt;Der Dunkelmodus (Dark Mode oder auch Dark Theme) ist eine Einstellung für das Erscheinungsbild der Benutzeroberfläche auf Smartphones und Desktop Computer bzw. Laptops.
+Im Gegensatz zum Light Mode (Light Theme), der dunklen Text auf hellem Hintergrund darstellt, wird im Dark Mode ein heller Text auf dunklem Hintergrund verwendet.
+Standardmäßig ist bei Windows, Android und MacOS das Light Theme aktiviert. Mittlerweile wird allerdings direkt beim Einrichten
+des Gerätes die Präferenz nachgefragt und eingestellt.&lt;/p&gt;
+&lt;p&gt;Neu in der Urlaubsverwaltung ab Version 4.30.0 ist, dass sie sich an der Systemeinstellung orientiert und
+sich mit hellem oder dunklem Hintergrund präsentiert. Sollte die Urlaubsverwaltung bereits im Einsatz sein,
+wird sie weiterhin im Light Mode dargestellt und muss vom Nutzer selbst auf Dark Mode umgestellt werden.&lt;/p&gt;
+&lt;p&gt;Die Idee hinter dem Dunkelmodus ist, dass er das vom Bildschirm emittierte Licht reduziert und damit die Augen entlasten soll.
+Des Weiteren hat eine Studie herausgefunden, dass heller Text auf dunklem Hintergrund sogar das Entstehen von Kurzsichtigkeit verhindern kann
+(&lt;a href=&quot;https://www.geo.de/wissen/gesundheit/19282-rtkl-kurzsichtigkeit-warum-wir-zukuenftig-mehr-weiss-auf-schwarz-lesen&quot;&gt;https://www.geo.de/wissen/gesundheit/19282-rtkl-kurzsichtigkeit-warum-wir-zukuenftig-mehr-weiss-auf-schwarz-lesen&lt;/a&gt;).&lt;/p&gt;
+&lt;p&gt;Warum wir uns freuen, dir endlich einen Dunkelmodus anzubieten:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Es ist cool und trendy. Mal im Ernst, wer findet die dunkle Seite nicht verlockend? 😎&lt;/li&gt;
+&lt;li&gt;Es verbessert die Accessibility für Personen die sensibel auf helles Licht reagieren&lt;/li&gt;
+&lt;li&gt;Die Akkulaufzeit auf Geräten mit OLED Display wird verbessert&lt;/li&gt;
+&lt;li&gt;Die Urlaubsverwaltung sticht endlich nicht mehr aus dem mittlerweile sehr populär und weit verbreiteten Erscheinungsbild heraus&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&quot;flex my-8 gap-4 flex-col md:flex-row&quot;&gt;
+    &lt;div&gt;
+      &lt;picture&gt;
+          &lt;source srcset=&quot;https://urlaubsverwaltung.cloud/neuigkeiten/2022-02-06-release/uv-theme-light.avif&quot; type=&quot;image/avif&quot; /&gt;
+          &lt;source srcset=&quot;https://urlaubsverwaltung.cloud/neuigkeiten/2022-02-06-release/uv-theme-light.webp&quot; type=&quot;image/webp&quot; /&gt;
+          &lt;img src=&quot;https://urlaubsverwaltung.cloud/neuigkeiten/2022-02-06-release/uv-theme-light.png&quot; alt=&quot;Urlaubsverwaltung Übersichtseite im Light Theme&quot; decoding=&quot;async&quot; loading=&quot;lazy&quot; class=&quot;rounded-lg&quot; /&gt;
+      &lt;/picture&gt;
+      &lt;p class=&quot;text-sm text-center&quot;&gt;Übersichtseite im Light Theme.&lt;/p&gt;
+    &lt;/div&gt;
+    &lt;div&gt;
+      &lt;picture&gt;
+          &lt;source srcset=&quot;https://urlaubsverwaltung.cloud/neuigkeiten/2022-02-06-release/uv-theme-dark.avif&quot; type=&quot;image/avif&quot; /&gt;
+          &lt;source srcset=&quot;https://urlaubsverwaltung.cloud/neuigkeiten/2022-02-06-release/uv-theme-dark.webp&quot; type=&quot;image/webp&quot; /&gt;
+          &lt;img src=&quot;https://urlaubsverwaltung.cloud/neuigkeiten/2022-02-06-release/uv-theme-dark.png&quot; alt=&quot;Urlaubsverwatlung Übersichtseite im Dark Theme&quot; decoding=&quot;async&quot; class=&quot;rounded-lg&quot; /&gt;
+      &lt;/picture&gt;
+      &lt;p class=&quot;text-sm text-center&quot;&gt;Übersichtseite im Dark Theme.&lt;/p&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;h3 id=&quot;dunkelmodus-einstellen&quot;&gt;Dunkelmodus einstellen&lt;/h3&gt;
+&lt;p&gt;Möchtest du in der Urlaubsverwaltung den Schritt auf die dunkle Seite mit gehen, ist das ganz einfach getan.&lt;/p&gt;
+&lt;p&gt;Wähle hierfür deinen Avatar rechts oben aus und wähle &amp;quot;Personalisierung&amp;quot;. Dort kannst du dich zwischen drei Möglichkeiten entscheiden:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;System&lt;/strong&gt;&lt;br /&gt;
+die Urlaubsverwaltung passt sich deinen Systemeinstellungen an (dunkel oder hell)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Hell&lt;/strong&gt;&lt;br /&gt;
+die Urlaubsverwaltung wird immer mit dunklem Text auf hellem Hintergrund dargestellt&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Dunkel&lt;/strong&gt;&lt;br /&gt;
+die Urlaubsverwaltung wird immer mit hellem Txt auf dunklem Hintergrund dargestellt&lt;/li&gt;
+&lt;/ul&gt;
+&lt;video controls=&quot;&quot; width=&quot;720&quot; height=&quot;515&quot; class=&quot;my-8&quot;&gt;
+  &lt;source src=&quot;https://urlaubsverwaltung.cloud/neuigkeiten/2022-02-06-release/uv-theme-configuration.mp4&quot; type=&quot;video/mp4&quot; /&gt;
+&lt;/video&gt;
+&lt;p&gt;Du hast Verbesserungsvorschläge?&lt;br /&gt;
+Wünschst du dir weitere Themes wie z. B. erhöhter Kontrast?&lt;br /&gt;
+Oder dir gefällt das neue Theme einfach nur sehr gut?&lt;/p&gt;
+&lt;p&gt;Wir freuen uns über dein Feedback an &lt;a href=&quot;mailto:info@urlaubsverwaltung.cloud?subject=Feedback&quot;&gt;info@urlaubsverwaltung.cloud&lt;/a&gt;.&lt;/p&gt;
+</content>
+  </entry>
   
   
   
