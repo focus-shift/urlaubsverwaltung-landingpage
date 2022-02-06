@@ -22,7 +22,7 @@ const isDraft = post =>
 
 module.exports = function (eleventyConfig) {
 	eleventyConfig.setTemplateFormats(["njk", "hbs", "md", "html", "txt"]);
-	eleventyConfig.addPassthroughCopy("src/**/*.{png,jpg,jpeg,webp,avif}");
+	eleventyConfig.addPassthroughCopy("src/**/*.{png,jpg,jpeg,webp,avif,mp4}");
 
 	eleventyConfig.addPlugin(pluginRss);
 
