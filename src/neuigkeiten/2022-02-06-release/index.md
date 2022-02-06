@@ -66,7 +66,7 @@ Warum wir uns freuen, dir endlich einen Dunkelmodus anzubieten:
 
 ### Dunkelmodus einstellen
 
-Möchtest du in der Urlaubsverwaltung den Schritt auf die dunkle Seite mit gehen ist das ganz einfach getan.
+Möchtest du in der Urlaubsverwaltung den Schritt auf die dunkle Seite mit gehen, ist das ganz einfach getan.
 
 Wähle hierfür deinen Avatar rechts oben aus und gehe zur Personalisierungs Webseite. Dort kannst du aus drei Möglichkeiten wählen:
 
