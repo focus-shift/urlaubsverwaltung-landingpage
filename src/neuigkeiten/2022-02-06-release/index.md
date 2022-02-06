@@ -27,7 +27,7 @@ Die Idee hinter dem Dunkelmodus ist, dass er das vom Bildschirm emittierte Licht
 Des Weiteren hat eine Studie herausgefunden, dass heller Text auf dunklem Hintergrund sogar das Entstehen von Kurzsichtigkeit verhindern kann
 (https://www.geo.de/wissen/gesundheit/19282-rtkl-kurzsichtigkeit-warum-wir-zukuenftig-mehr-weiss-auf-schwarz-lesen).
 
-Warum wir uns freuen dir endlich einen Dunkelmodus anzubieten:
+Warum wir uns freuen, dir endlich einen Dunkelmodus anzubieten:
 
 * Es ist cool und trendy. Mal im Ernst, wer findet die dunkle Seite nicht verlockend? 😎
 * Es verbessert die Accessibility für Personen die sensibel auf helles Licht reagieren
