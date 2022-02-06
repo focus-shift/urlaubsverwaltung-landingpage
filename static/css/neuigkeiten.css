@@ -46,4 +46,9 @@
 	p:not(:last-child) > picture img {
 		@apply mb-10;
 	}
+
+	a {
+		@apply font-medium;
+		@apply underline;
+	}
 }
