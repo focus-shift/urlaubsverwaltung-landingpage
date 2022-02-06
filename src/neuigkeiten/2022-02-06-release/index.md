@@ -82,7 +82,7 @@ Wähle hierfür deinen Avatar rechts oben aus und wähle "Personalisierung". Dor
 </video>
 
 Du hast Verbesserungsvorschläge?  
-Du wünschst die weitere Themes wie z. B. stärker Kontrast?  
+Wünschst du dir weitere Themes wie z. B. erhöhter Kontrast?  
 Oder dir gefällt das neue Theme einfach nur sehr gut?
 
 Wir freuen uns über dein Feedback an <a href="mailto:info@urlaubsverwaltung.cloud?subject=Feedback">info@urlaubsverwaltung.cloud</a>.
