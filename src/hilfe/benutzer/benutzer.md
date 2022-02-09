@@ -61,11 +61,6 @@ Nach der Registrierung der Urlaubsverwaltung bekommt der erste Benutzer, der sic
 
 Alle weiteren Benutzer werden initial mit der Berechtigung _Benutzer_ angelegt. Für zusätzlich Berechtigungen anderer Benutzer müssen diese von ersten Benutzer vergeben werden.
 
-## Wie lege ich Mitarbeiter an?
-
-Wenn du eine Urlaubsverwaltung registrierst bekommst von uns einen Link zu deiner eigenen Urlaubsverwaltung. Unter diesem Link kann sich jeder Mitarbeiter selbst registrieren. Die Urlaubsverwaltung nutzt zur Verwaltung von Benutzern einen konfigurierbaren Security Provider. Verwendet ihr einen OpenID Connect Anbieter (wie z. B. Microsoft 365, Azure Active Directory, Auth0, Google, SAP, etc.) können wir diesen integrieren, sodass ihr euren gewohnten Login benutzen könnt.
-Details zur Konfiguration findest du unter [Single Sign-On](/hilfe/sso).
-
 ## Wie kann ich Benutzer löschen?
 
 Über die Anwendung kann man Benutzer nicht löschen, nur inaktivieren.
