@@ -14,7 +14,20 @@ Es gibt drei unterschiedliche Möglichkeiten Mitarbeiter in deine Urlaubsverwalt
 Nachdem deine Urlaubsverwaltung bereitgestellt wurde, beskommst du von uns einen Link zu deinem Kundenportal.
 In diesem Portal hast du die Möglichkeit anhand von E-Mail-Adressen Mitarbeiter einzuladen die Urlaubsverwaltung zu verwenden.
 
-ToDo: Bild
+<p>
+  <picture>
+    <source srcset="invite-form.avif" type="image/avif" />
+    <source srcset="invite-form.webp" type="image/webp" />
+    <img
+      src="invite-form.png"
+      alt="Mitarbeitende einladen"
+      decoding="async"
+      loading="lazy"
+      width="832"
+      height="411"
+    />
+  </picture>
+</p>
 
 ### Single Sing-On konfigurieren
 
