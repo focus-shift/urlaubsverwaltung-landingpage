@@ -34,7 +34,7 @@ Die Mitarbeitenden erhalten darauf eine Einladung per E-Mail und können sich au
 ### Single Sing-On konfigurieren
 
 Die Urlaubsverwaltung nutzt zur Verwaltung von Benutzern einen konfigurierbaren Security Provider.
-Verwendet ihr einen OpenID Connect Anbieter (wie z. B. Microsoft 365, Azure Active Directory, Auth0, Google, SAP, etc.) 
+Verwendet ihr Microsoft 365 oder einen anderen OpenID Connect Anbieter, dann
 kannst du ihn einfach im Portal konfigurieren, sodass ihr euren gewohnten Login benutzen könnt.
 Details zur Konfiguration findest du unter [Single Sign-On](/hilfe/sso).
 
