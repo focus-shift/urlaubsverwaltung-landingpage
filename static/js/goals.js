@@ -41,6 +41,8 @@ window.addEventListener("click", function (event) {
 		.filter(Boolean);
 
 	if (availableSessionUtmElements.length > 0) {
+		// we have to use values from sessionStorage instead of the current URL
+		// since the user could have navigated to another page which doesn't have these search params in the url
 		for (let utmAnchor of document.querySelectorAll("a[data-append-utm]")) {
 			let url = new URL(utmAnchor.href);
 			for (let [param, value] of availableSessionUtmElements) {
