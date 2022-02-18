@@ -28,23 +28,22 @@ window.addEventListener("click", function (event) {
 		"utm_content",
 	];
 
-	let urlParams = new URLSearchParams(document.location.search);
+	let availableUrlSearchParams = new URLSearchParams(document.location.search);
 	for (let utmParam of utmParameter) {
-		addUrlParamToSessionStorage(urlParams, utmParam);
+		addUrlParamToSessionStorage(availableUrlSearchParams, utmParam);
 	}
 
-	let joinedUtmParameter = utmParameter
+	let availableSessionUtmElements = utmParameter
 		.map(param => {
 			const value = sessionStorage.getItem(param);
 			return value ? [param, value] : "";
 		})
 		.filter(Boolean);
 
-	if (joinedUtmParameter.length > 0) {
-		let allUtmAnchors = document.querySelectorAll("a[data-append-utm]");
-		for (let utmAnchor of allUtmAnchors) {
+	if (availableSessionUtmElements.length > 0) {
+		for (let utmAnchor of document.querySelectorAll("a[data-append-utm]")) {
 			let url = new URL(utmAnchor.href);
-			for (let [param, value] of joinedUtmParameter) {
+			for (let [param, value] of availableSessionUtmElements) {
 				url.searchParams.set(param, value);
 			}
 			utmAnchor.href = url.toString();
