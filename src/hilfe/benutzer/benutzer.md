@@ -54,6 +54,11 @@ Hier gibt es die Möglichkeit die Berechtigungen über das "Stift"-Symbol zu edi
   </picture>
 </p>
 
+## Wann greifen neue Berechtigungen für einen Benutzer?
+
+Nach dem die Berechtigungen für einen Benutzer angepasst wurden, muss dieser sich erneut an der Urlaubsverwaltung anmelden.
+Erst nach einem erneuten Login sind die aktualisierten Berechtigungen für den Benutzer verfügbar.
+
 ## Welcher Benutzer darf nach Registrierung Einstellungen vornehmen?
 
 Nach der Registrierung der Urlaubsverwaltung bekommt der erste Benutzer, der sich einloggt, automatisch die Berechtigung _Office_
