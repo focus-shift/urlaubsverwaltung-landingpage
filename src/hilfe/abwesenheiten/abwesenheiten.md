@@ -143,8 +143,7 @@ Die Art der Abwesenheit kann noch angepasst werden solange der Antrag noch nicht
   </picture>
 </p>
 
-Um einen bereits genehmigten Antrag zu editieren, muss der bisherige Antrag stornieren können privilegierter Benutzer den Abwesenheitsantrag stornieren und einen neuen
-Abwesenheitsantrag mit der korrekten Art der Abwesenheit für den gleichen Zeitraum erstellen.
+Um einen bereits genehmigten Antrag zu editieren, muss der bisherige Antrag stornieren werden. Ein Benutzer mit der Berechtigung Office kann den Abwesenheitsantrag stornieren und einen neuen Abwesenheitsantrag mit der korrekten Art der Abwesenheit für den gleichen Zeitraum erstellen. Alternativ kann der Antragssteller zunächst die Stornierung seines Antrags anfragen. Sobald diese Stornierungsanfrage genehmigt wurde, kann für den betreffenden Zeitraum ein neuer Antrag mit der korrekten Art der Abwesenheit erstellt werden.
 
 ## Wie funktioniert der Übergang zwischen zwei Jahren?
 
