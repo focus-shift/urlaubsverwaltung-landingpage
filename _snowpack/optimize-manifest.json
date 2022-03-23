@@ -1350,7 +1350,7 @@
         "https://support.apps.urlaubsverwaltung.cloud/assets/chat/chat.min.js"
       ]
     },
-    "/neuigkeiten/2022-03-23-release/index.html": {
+    "/neuigkeiten/2022-03-11-release/index.html": {
       "entry": [
         "/static/js/easteregg.js",
         "/static/js/goals.js",
@@ -1397,7 +1397,7 @@
         "https://support.apps.urlaubsverwaltung.cloud/assets/chat/chat.min.js"
       ]
     },
-    "/neuigkeiten/2022-03-25-release/index.html": {
+    "/neuigkeiten/2022-03-23-release/index.html": {
       "entry": [
         "/static/js/easteregg.js",
         "/static/js/goals.js",
