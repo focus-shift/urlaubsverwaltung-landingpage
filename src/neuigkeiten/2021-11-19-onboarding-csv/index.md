@@ -39,20 +39,18 @@ Direkt eins vorweg: Lehne dich zurück! Wir ermöglichen dir den passenden Einst
 Das Onboarding deiner Organisation kann mit einer Import-Datei im CSV-Format durchgeführt werden. Wichtig hierfür ist, dass die Namen deiner Mitarbeiter:innen und ihre E-Mail-Adressen vorliegen. Zusätzlich können Informationen wie die Abteilungszugehörigkeit und der Urlaubsanspruch angegeben werden.
 Eine Beispiel-Datei zur Orientierung haben wir dir <a href="/static/import-beispiel.csv" class="underline">hier</a> bereitgestellt.
 
-<p>
-  <picture>
-    <source srcset="import-beispiel.avif" type="image/avif" />
-    <source srcset="import-beispiel.webp" type="image/webp" />
-    <img
-      src="import-beispiel.png"
-      alt="Beispiel für einen Import"
-      decoding="async"
-      loading="lazy"
-      width="1209"
-      height="185"
-    />
-  </picture>
-</p>
+<picture>
+  <source srcset="import-beispiel.avif" type="image/avif" />
+  <source srcset="import-beispiel.webp" type="image/webp" />
+  <img
+    src="import-beispiel.png"
+    alt="Beispiel für einen Import"
+    decoding="async"
+    loading="lazy"
+    width="1209"
+    height="185"
+  />
+</picture>
 
 Die Informationen können dann in verschlüsselter Form an uns übermittelt werden.
 Weitere Details zum Onboarding können wir im direkten Austausch klären. Schreibe uns dazu eine kurze E-Mail an <a href="mailto:info@urlaubsverwaltung.cloud?subject=Onboarding meiner Organisation" class="underline">info@urlaubsverwaltung.cloud</a>
