@@ -4,8 +4,33 @@
   <subtitle></subtitle>
   <link rel="self" href="https://urlaubsverwaltung.cloud/feed.xml" />
   <link rel="alternate" type="text/html" href="https://urlaubsverwaltung.cloud" />
-  <updated>2022-02-06T00:00:00Z</updated>
+  <updated>2022-03-11T00:00:00Z</updated>
   <id>https://urlaubsverwaltung.cloud</id>
+  
+  
+  
+  <entry>
+    <title>Kalimera Griechenland - Griechische Feiertage und Übersetzung</title>
+    <link href="https://urlaubsverwaltung.cloud/neuigkeiten/2022-03-25-release/" />
+    <updated>2022-03-11T00:00:00Z</updated>
+    <id>https://urlaubsverwaltung.cloud/neuigkeiten/2022-03-25-release/</id>
+    <author>
+      <name>Tobias Schneider</name>
+    </author>
+    <content type="html">&lt;p&gt;Die Urlaubsverwaltung nun auch in Griechenland!&lt;/p&gt;
+&lt;h3 id=&quot;griechische-feiertage-&amp;amp;-uebersetzung&quot;&gt;Griechische Feiertage &amp;amp; Übersetzung&lt;/h3&gt;
+&lt;p&gt;Wir freuen uns sehr darüber, dass Nikos Zagkanas auf uns zukam und die Urlaubsverwaltung für Griechenland einsetzbar gemacht hat!&lt;/p&gt;
+&lt;p&gt;Die Urlaubsverwaltung verfügt nun über eine vollständige griechische Übersetzung, welche durch die Browsersprache gesteuert wird. Des Weiteren wurden auch griechische Feiertage integriert.&lt;/p&gt;
+&lt;p&gt;Wir empfanden die Kooperation als sehr angenehm und wir freuen uns darüber, auch in Griechenland einen Mehrwert bei der Abwesenheitsplanung beisteuern zu können.&lt;/p&gt;
+&lt;picture&gt;
+    &lt;source srcset=&quot;https://urlaubsverwaltung.cloud/neuigkeiten/2022-03-25-release/greek.avif&quot; type=&quot;image/avif&quot; /&gt;
+    &lt;source srcset=&quot;https://urlaubsverwaltung.cloud/neuigkeiten/2022-03-25-release/greek.webp&quot; type=&quot;image/webp&quot; /&gt;
+    &lt;img src=&quot;https://urlaubsverwaltung.cloud/neuigkeiten/2022-03-25-release/greek.png&quot; alt=&quot;Urlaubsverwaltung auf griechisch&quot; decoding=&quot;async&quot; loading=&quot;lazy&quot; class=&quot;rounded-lg&quot; /&gt;
+&lt;/picture&gt;
+&lt;br /&gt;
+&lt;p&gt;Wir freuen uns über dein Feedback an &lt;a href=&quot;mailto:info@urlaubsverwaltung.cloud?subject=Feedback&quot;&gt;info@urlaubsverwaltung.cloud&lt;/a&gt;.&lt;/p&gt;
+</content>
+  </entry>
   
   
   
