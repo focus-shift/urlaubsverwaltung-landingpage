@@ -14,11 +14,11 @@ Die Urlaubsverwaltung nun auch in Griechenland!
 
 ### Griechische Feiertage & Übersetzung
 
-Wir freuen uns sehr darüber, dass Nikos Zagkanas auf uns zukam, um für uns die Urlaubsverwaltung in Griechenland einsetzbar zu machen!
+Wir freuen uns sehr darüber, dass Nikos Zagkanas auf uns zukam und die Urlaubsverwaltung für Griechenland einsetzbar gemacht hat!
 
-Die Urlaubsverwaltung verfügt nun über eine vollständige griechische Übersetzung, welche durch die Browsersprache gesteuert wird, sowie
-über die griechischen Feiertage. Dies war eine sehr angenehme Kooperation und wir freuen uns sehr darüber auch in Griechenland einen Mehrwert
-bei der Abwesenheitsplanung beisteuern zu können.
+Die Urlaubsverwaltung verfügt nun über eine vollständige griechische Übersetzung, welche durch die Browsersprache gesteuert wird. Des Weiteren wurden auch griechische Feiertage integriert.
+
+Wir empfanden die Kooperation als sehr angenehm und wir freuen uns darüber, auch in Griechenland einen Mehrwert bei der Abwesenheitsplanung beisteuern zu können.
 
 <picture>
     <source srcset="greek.avif" type="image/avif" />
