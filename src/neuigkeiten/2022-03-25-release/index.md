@@ -1,7 +1,7 @@
 ---
 draft: false
 layout: layout-neuigkeiten
-date: 2022-02-06
+date: 2022-03-11
 title: Kalimera Griechenland - Griechische Feiertage und Übersetzung 
 author: Tobias Schneider
 release-version: 4.33.0
