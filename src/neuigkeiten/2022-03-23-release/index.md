@@ -22,7 +22,7 @@ Genau so erging es uns immer mal wieder. Zunächst wunderte man sich, dann schau
 das diese eine vier Tage Woche hat und das der freie Tag am Mittwoch ist. Ok. Verstanden. Man konnte den Antrag genehmigen.
 Drei Monate später wunderte man sich wieder und das Spiel ging von vorne los.
 
-Um dieser Herausforderung zu begegnen, haben wir, in der Abwesenheitsübersicht und in den Kalendern, die freien Tage einer Person dargestellt.
+Um dieser Herausforderung zu begegnen, zeigen die Abwesenheitsübersicht und die Kalender ab sofort die freien Tage einer Person an.
 
 <picture>
   <source srcset="vier-tage-woche.avif" type="image/avif" />
