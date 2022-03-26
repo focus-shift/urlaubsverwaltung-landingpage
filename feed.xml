@@ -4,8 +4,34 @@
   <subtitle></subtitle>
   <link rel="self" href="https://urlaubsverwaltung.cloud/feed.xml" />
   <link rel="alternate" type="text/html" href="https://urlaubsverwaltung.cloud" />
-  <updated>2022-03-23T00:00:00Z</updated>
+  <updated>2022-03-24T00:00:00Z</updated>
   <id>https://urlaubsverwaltung.cloud</id>
+  
+  
+  
+  <entry>
+    <title>Überarbeitung der Überstundenübersicht</title>
+    <link href="https://urlaubsverwaltung.cloud/neuigkeiten/2022-03-24-release/" />
+    <updated>2022-03-24T00:00:00Z</updated>
+    <id>https://urlaubsverwaltung.cloud/neuigkeiten/2022-03-24-release/</id>
+    <author>
+      <name>Tobias Schneider</name>
+    </author>
+    <content type="html">&lt;p&gt;Bessere Nachvollziehbarkeit und Übersicht deiner Überstunden&lt;/p&gt;
+&lt;h3 id=&quot;ueberstundenuebersicht-mit-flair&quot;&gt;Überstundenübersicht mit flair&lt;/h3&gt;
+&lt;p&gt;Wir haben für euch die Überstundenübersicht erweitert, sodass ihr nicht nur die eingetragenen Überstunden, sondern auch
+die &lt;strong&gt;beantragten und genehmigten Abwesenheiten&lt;/strong&gt; mit der Art &#39;Überstundenabbau&#39; angezeigt bekommt. Mit dieser zusätzlichen
+Information erhaltet ihr ein &lt;strong&gt;komplettes Bild eurer Überstunden&lt;/strong&gt; und wie diese aufgebaut bzw. abgebaut wurden.
+Zudem wird euch auf der untersten Zeile der &lt;strong&gt;Übertrag&lt;/strong&gt; eurer Überstunden aus dem vorherigen Jahr angezeigt,
+ein &lt;strong&gt;Schnelleinstieg zum Bearbeiten&lt;/strong&gt; bereitgestellt sowie die &lt;strong&gt;Summe&lt;/strong&gt; der Überstunden pro Eintrag angezeigt.&lt;/p&gt;
+&lt;picture&gt;
+    &lt;source srcset=&quot;https://urlaubsverwaltung.cloud/neuigkeiten/2022-03-24-release/overtime-overview.avif&quot; type=&quot;image/avif&quot; /&gt;
+    &lt;source srcset=&quot;https://urlaubsverwaltung.cloud/neuigkeiten/2022-03-24-release/overtime-overview.webp&quot; type=&quot;image/webp&quot; /&gt;
+    &lt;img src=&quot;https://urlaubsverwaltung.cloud/neuigkeiten/2022-03-24-release/overtime-overview.png&quot; alt=&quot;Urlaubsverwaltung neue Überstundenübersicht&quot; decoding=&quot;async&quot; loading=&quot;lazy&quot; class=&quot;rounded-lg&quot; /&gt;
+&lt;/picture&gt;
+&lt;p&gt;Wir freuen uns über dein Feedback an &lt;a href=&quot;mailto:info@urlaubsverwaltung.cloud?subject=Feedback&quot;&gt;info@urlaubsverwaltung.cloud&lt;/a&gt;.&lt;/p&gt;
+</content>
+  </entry>
   
   
   
