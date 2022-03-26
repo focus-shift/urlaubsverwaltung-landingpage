@@ -31,6 +31,13 @@ Eine optimierte Version der Landingpage kannst du bauen mit:
 npm run build
 ```
 
+### Verzeichnisstruktur
+
+* **public**
+  * enthält statische Resourcen die nicht transformiert werden müssen (z. B. favicon, robots.txt, ...)
+* **src**
+  * enthält den Inhalt der Webseite, CSS, JavaScript und alles was transformiert werden muss.
+
 ## Deployment
 
 Jeder commit auf den Branch `main` wird automatisiert gebaut, auf den `gh-pages` branch gemerged und damit live genommen.

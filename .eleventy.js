@@ -5,10 +5,11 @@ const markdownIt = require("markdown-it")();
 const markdownItAnchor = require("markdown-it-anchor");
 const cheerio = require("cheerio");
 const pluginRss = require("@11ty/eleventy-plugin-rss");
+const htmlmin = require("html-minifier");
 
 const paths = {
 	input: "src",
-	output: "build",
+	output: process.env.npm_package_config_outdir,
 };
 
 const prod = process.env.NODE_ENV === "production";
@@ -22,9 +23,22 @@ const isDraft = post =>
 
 module.exports = function (eleventyConfig) {
 	eleventyConfig.setTemplateFormats(["njk", "hbs", "md", "html", "txt"]);
-	eleventyConfig.addPassthroughCopy("src/**/*.{png,jpg,jpeg,webp,avif,mp4}");
+	eleventyConfig.addPassthroughCopy("./src/**/*.{png,jpg,jpeg,webp,avif,mp4}");
+	eleventyConfig.addPassthroughCopy({ "./public/static": "static" });
 
 	eleventyConfig.addPlugin(pluginRss);
+
+	eleventyConfig.addTransform("htmlmin", function (content, outputPath) {
+		if (outputPath && outputPath.endsWith(".html")) {
+			let minified = htmlmin.minify(content, {
+				useShortDoctype: true,
+				removeComments: true,
+				collapseWhitespace: true,
+			})
+			return minified
+		}
+		return content
+	})
 
 	eleventyConfig.setFrontMatterParsingOptions({
 		excerpt: true,
@@ -96,6 +110,9 @@ module.exports = function (eleventyConfig) {
 					.map(node => renderNode(node))
 					.join("")}</ul>`;
 	});
+
+	eleventyConfig.addWatchTarget("src/static/js/**/*.js");
+	eleventyConfig.addWatchTarget("src/static/css/**/*.css");
 
 	return {
 		dir: {

@@ -1,12 +1,7 @@
 const defaultConfig = require("tailwindcss/defaultConfig.js");
 
 module.exports = {
-	content: {
-		files: ["./src/**/*.hbs", "./src/**/*.md", "./static/**/*.js"],
-		options: {
-			safelist: [/^zammad-/],
-		},
-	},
+	content: ["./src/**/*.hbs", "./src/**/*.md", "./src/static/js/**/*.js"],
 	theme: {
 		extend: {
 			fontFamily: {

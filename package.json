@@ -2,22 +2,34 @@
 	"private": true,
 	"author": "Benjamin Seber <benjamin.seber@focus-shift.de> (https://www.focus-shift.de)",
 	"scripts": {
-		"dev": "NODE_ENV=development npm run clean && npx snowpack dev",
-		"build": "NODE_ENV=production npm run clean && npx snowpack build",
-		"clean": "rm -rf build dist"
+		"clean": "rm -rf $npm_package_config_outdir",
+		"predev": "npm run clean",
+		"dev": "concurrently 'npm:dev:*'",
+		"dev:eleventy": "NODE_ENV=development eleventy --serve",
+		"dev:css": "NODE_ENV=development postcss src/static/css/*.css -d $npm_package_config_outdir/static/css --watch",
+		"dev:js": "NODE_ENV=development esbuild common=src/static/js/common/index.js toc=src/static/js/toc.js --bundle --outdir=$npm_package_config_outdir/static/js --watch",
+		"prebuild": "npm run clean",
+		"build": "concurrently 'npm:build:*'",
+		"build:eleventy": "NODE_ENV=production eleventy",
+		"build:css": "NODE_ENV=production postcss src/static/css/*.css -d $npm_package_config_outdir/static/css",
+		"build:js": "NODE_ENV=production esbuild common=src/static/js/common/index.js toc=src/static/js/toc.js --bundle --outdir=$npm_package_config_outdir/static/js --minify"
+	},
+	"config": {
+		"outdir": "dist"
 	},
 	"dependencies": {
 		"@11ty/eleventy": "1.0.0",
 		"@11ty/eleventy-plugin-rss": "1.1.2",
-		"@snowpack/plugin-optimize": "0.2.13",
-		"@snowpack/plugin-postcss": "1.4.3",
-		"@snowpack/plugin-run-script": "2.3.0",
 		"autoprefixer": "10.4.2",
 		"cheerio": "1.0.0-rc.10",
+		"concurrently": "7.0.0",
 		"date-fns": "2.28.0",
+		"esbuild": "0.14.27",
 		"eslint": "8.10.0",
 		"eslint-config-prettier": "8.4.0",
 		"eslint-plugin-prettier": "4.0.0",
+		"html-minifier": "4.0.0",
+		"http-server": "14.1.0",
 		"husky": "7.0.4",
 		"lint-staged": "12.3.4",
 		"markdown-it": "12.3.2",
@@ -25,8 +37,6 @@
 		"postcss": "8.4.7",
 		"postcss-cli": "9.1.0",
 		"prettier": "2.5.1",
-		"snowpack": "3.0.13",
-		"snowpack-plugin-cache-bust": "https://github.com/focus-shift/snowpack-plugin-cache-bust.git#v0.1.0",
 		"tailwindcss": "3.0.23"
 	},
 	"husky": {
