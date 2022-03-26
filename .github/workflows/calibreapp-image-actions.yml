@@ -7,7 +7,6 @@ on:
       - "**.jpg"
       - "**.jpeg"
       - "**.png"
-      - "**.webp"
   workflow_dispatch:
 
 jobs:
