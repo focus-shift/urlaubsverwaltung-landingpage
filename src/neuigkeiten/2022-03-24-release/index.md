@@ -22,7 +22,6 @@ ein **Schnelleinstieg zum Bearbeiten** bereitgestellt sowie die **Summe** der Ü
 
 <picture>
     <source srcset="overtime-overview.avif" type="image/avif" />
-    <source srcset="overtime-overview.webp" type="image/webp" />
     <img
       src="overtime-overview.png"
       alt="Urlaubsverwaltung neue Überstundenübersicht"
