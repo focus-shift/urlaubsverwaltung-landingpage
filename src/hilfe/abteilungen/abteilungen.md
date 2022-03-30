@@ -2,6 +2,7 @@
 layout: layout-wissensbasis
 breadcrumb:
   title: Abteilungen
+title: Abteilungen - Hilfe
 ---
 
 ## Wie kann eine Abteilung angelegt werden?

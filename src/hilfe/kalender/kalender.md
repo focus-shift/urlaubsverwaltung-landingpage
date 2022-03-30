@@ -2,6 +2,7 @@
 layout: layout-wissensbasis
 breadcrumb:
   title: Kalender
+title: Kalender - Hilfe
 ---
 
 ## Kalenderfreigabe

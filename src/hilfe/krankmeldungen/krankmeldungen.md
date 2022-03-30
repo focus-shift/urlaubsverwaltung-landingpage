@@ -2,6 +2,7 @@
 layout: layout-wissensbasis
 breadcrumb:
   title: Krankmeldungen
+title: Krankmeldungen - Hilfe
 ---
 
 ## Wird an das Ende der Lohnfortzahlung erinnert?

@@ -2,6 +2,7 @@
 layout: layout-wissensbasis
 breadcrumb:
   title: SSO mit Azure AD
+title: Azure AD - Single Sign-On (SSO) - Hilfe
 ---
 
 ## Single Sign-On mit Azure Active Directory (Azure AD)

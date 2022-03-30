@@ -2,6 +2,7 @@
 layout: layout-wissensbasis
 breadcrumb:
   title: Feiertage
+title: Feiertage - Hilfe
 ---
 
 ## Wie kann ich die Feiertage für die Urlaubsverwaltung konfigurieren?
