@@ -2,6 +2,7 @@
 layout: layout-wissensbasis
 breadcrumb:
   title: Benachrichtigungen
+title: Benachrichtigungen - Hilfe
 ---
 
 ## Wie kann ich den E-Mail-Versand für bestimmte Benutzer deaktivieren?

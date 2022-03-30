@@ -2,6 +2,7 @@
 layout: layout-wissensbasis
 breadcrumb:
   title: Drucken
+title: Drucken - Hilfe
 ---
 
 ## Gibt es die Möglichkeit Ausdrucke zu erstellen?
