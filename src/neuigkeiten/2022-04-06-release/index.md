@@ -18,7 +18,7 @@ Mit der Version 4.34.0 zieht die neue Konfiguration **Einstellungen zu Sonderurl
 Ihr findet diese als Person mit der Berechtigung _Office_ unter _Einstellungen > Abwesenheitsarten_. An dieser Stelle
 könnt ihr nun die Anzeige der bei euch in der Organisation möglichen Sonderurlaube sowie die Anzahl der Tage konfigurieren.
 
-Diese Einstellung wird beim Beantragen eines Sonderurlaubes direkt angezeigt und unterstützt den Antragsteller.
+Diese Einstellung wird beim Beantragen eines Sonderurlaubes direkt angezeigt und unterstützt den Antragstellenden.
 
 <div class="flex my-8 gap-4 flex-col md:flex-row">
     <figure>
