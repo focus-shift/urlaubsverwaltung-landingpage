@@ -18,28 +18,9 @@ Die Urlaubsverwaltung kann nun Stammdaten! Was bedeutet das genau? Es ist im Kon
 wie die **Personalnummer** und **Zusatzinformation** zu hinterlegen. Zum Hinzufügen oder Bearbeiten einer dieser Informationen,
 könnt ihr über das Konto einer Person bei den __Stammdaten__ auf den Stift klicken und schon kann es losgehen.  
 
-<div class="flex my-8 gap-4 flex-col md:flex-row">
-    <figure>
-        <img
-          src="basedata-account-overview.png"
-          alt="Eingabe der Stammdaten"
-          decoding="async"
-          loading="lazy"
-          class="rounded-lg"
-        />
-        <figcaption class="text-sm text-center">Stammdatenformular</figcaption>
-    </figure>
-    <figure>
-        <img
-          src="basedata-input.png"
-          alt="Eingabe der Stammdaten"
-          decoding="async"
-          loading="lazy"
-          class="rounded-lg"
-        />
-        <figcaption class="text-sm text-center">Übersicht der Stammdaten</figcaption>
-    </figure>
-</div>
+<video controls width="720" height="515" class="my-8 border-2 rounded-lg">
+  <source src="stammdaten-bearbeiten.mp4" type="video/mp4">
+</video>
 
 Nachdem ihr die Informationen gespeichert habt, werden diese angezeigt
 
