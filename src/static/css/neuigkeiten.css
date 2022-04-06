@@ -22,8 +22,14 @@
 		@apply mt-0;
 	}
 
+	h2 {
+		@apply text-2xl;
+		@apply sm:text-4xl;
+	}
+
 	h3 {
-		@apply text-4xl;
+		@apply text-2xl;
+		@apply sm:text-4xl;
 		@apply mb-8;
 		@apply mt-16;
 	}
