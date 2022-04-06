@@ -4,8 +4,60 @@
   <subtitle></subtitle>
   <link rel="self" href="https://urlaubsverwaltung.cloud/feed.xml" />
   <link rel="alternate" type="text/html" href="https://urlaubsverwaltung.cloud" />
-  <updated>2022-03-24T00:00:00Z</updated>
+  <updated>2022-03-31T00:00:00Z</updated>
   <id>https://urlaubsverwaltung.cloud</id>
+  
+  
+  
+  <entry>
+    <title>Benutzerspezifische Stammdaten</title>
+    <link href="https://urlaubsverwaltung.cloud/neuigkeiten/2022-03-31-release/" />
+    <updated>2022-03-31T00:00:00Z</updated>
+    <id>https://urlaubsverwaltung.cloud/neuigkeiten/2022-03-31-release/</id>
+    <author>
+      <name>Tobias Schneider</name>
+    </author>
+    <content type="html">&lt;p&gt;Hinterlege eine Personalnummer und weitere Informationen für deine Mitarbeitende.&lt;/p&gt;
+&lt;p&gt;Die Urlaubsverwaltung kann nun Stammdaten! Was bedeutet das genau? Es ist im Konto einer Person möglich zusätzliche Informationen
+wie die &lt;strong&gt;Personalnummer&lt;/strong&gt; und &lt;strong&gt;Zusatzinformation&lt;/strong&gt; zu hinterlegen. Zum Hinzufügen oder Bearbeiten einer dieser Informationen,
+könnt ihr über das Konto einer Person bei den &lt;strong&gt;Stammdaten&lt;/strong&gt; auf den Stift klicken und schon kann es losgehen.&lt;/p&gt;
+&lt;video controls=&quot;&quot; width=&quot;720&quot; height=&quot;515&quot; class=&quot;my-8 border-2 rounded-lg&quot; poster=&quot;https://urlaubsverwaltung.cloud/neuigkeiten/2022-03-31-release/stammdaten-bearbeiten-poster.png&quot;&gt;
+  &lt;source src=&quot;https://urlaubsverwaltung.cloud/neuigkeiten/2022-03-31-release/stammdaten-bearbeiten.mp4&quot; type=&quot;video/mp4&quot; /&gt;
+&lt;/video&gt;
+&lt;p&gt;Nachdem ihr die Informationen gespeichert habt, werden diese angezeigt&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;im Konto,&lt;/li&gt;
+&lt;li&gt;in der Benutzerübersicht,&lt;/li&gt;
+&lt;li&gt;bei den Krankmeldungen,&lt;/li&gt;
+&lt;li&gt;in der Abwesenheitsstatistik und dessen CSV-Export&lt;/li&gt;
+&lt;li&gt;sowie in anderen Übersichten.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&quot;flex my-8 gap-4 flex-col md:flex-row&quot;&gt;
+    &lt;figure&gt;
+        &lt;picture&gt;
+            &lt;source srcset=&quot;https://urlaubsverwaltung.cloud/neuigkeiten/2022-03-31-release/benutzeruebersicht.avif&quot; type=&quot;image/avif&quot; /&gt;
+            &lt;img src=&quot;https://urlaubsverwaltung.cloud/neuigkeiten/2022-03-31-release/benutzeruebersicht.png&quot; alt=&quot;Benutzeruebersicht mit Personalnummer&quot; decoding=&quot;async&quot; loading=&quot;lazy&quot; class=&quot;rounded-lg&quot; /&gt;
+        &lt;/picture&gt;
+        &lt;figcaption class=&quot;text-sm text-center&quot;&gt;Benutzerübersicht mit Personalnummer.&lt;/figcaption&gt;
+    &lt;/figure&gt;
+    &lt;figure&gt;
+        &lt;picture&gt;
+            &lt;source srcset=&quot;https://urlaubsverwaltung.cloud/neuigkeiten/2022-03-31-release/krankmeldungen.avif&quot; type=&quot;image/avif&quot; /&gt;
+            &lt;img src=&quot;https://urlaubsverwaltung.cloud/neuigkeiten/2022-03-31-release/krankmeldungen.png&quot; alt=&quot;Krankmeldungen mit Personalnummer&quot; decoding=&quot;async&quot; loading=&quot;lazy&quot; class=&quot;rounded-lg&quot; /&gt;
+        &lt;/picture&gt;
+      &lt;figcaption class=&quot;text-sm text-center&quot;&gt;Krankmeldungen mit Personalnummer.&lt;/figcaption&gt;
+    &lt;/figure&gt;
+    &lt;figure&gt;
+        &lt;picture&gt;
+            &lt;source srcset=&quot;https://urlaubsverwaltung.cloud/neuigkeiten/2022-03-31-release/abwesenheitsstatistik.avif&quot; type=&quot;image/avif&quot; /&gt;
+            &lt;img src=&quot;https://urlaubsverwaltung.cloud/neuigkeiten/2022-03-31-release/abwesenheitsstatistik.png&quot; alt=&quot;Abwesenheitsstatistik mit Personalnummer&quot; decoding=&quot;async&quot; loading=&quot;lazy&quot; class=&quot;rounded-lg&quot; /&gt;
+        &lt;/picture&gt;
+        &lt;figcaption class=&quot;text-sm text-center&quot;&gt;Abwesenheitsstatistik mit Personalnummer.&lt;/figcaption&gt;
+    &lt;/figure&gt;
+&lt;/div&gt;
+&lt;p&gt;Wir freuen uns über dein Feedback an &lt;a href=&quot;mailto:info@urlaubsverwaltung.cloud?subject=Feedback&quot;&gt;info@urlaubsverwaltung.cloud&lt;/a&gt;.&lt;/p&gt;
+</content>
+  </entry>
   
   
   

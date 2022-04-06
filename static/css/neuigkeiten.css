@@ -11,16 +11,34 @@
 	.blog h1 + h2, .blog h2 + h3, .blog h3 + h4, .blog h5 + h6 {
     margin-top: 0px
 }
+	.blog h2 {
+    font-size: 1.5rem;
+    line-height: 2rem
+}
+	@media (min-width: 640px) {
+    .blog h2 {
+        font-size: 2.25rem;
+        line-height: 2.5rem
+    }
+}
 	.blog h3 {
-    font-size: 2.25rem;
-    line-height: 2.5rem;
+    font-size: 1.5rem;
+    line-height: 2rem
+}
+	@media (min-width: 640px) {
+    .blog h3 {
+        font-size: 2.25rem;
+        line-height: 2.5rem
+    }
+}
+	.blog h3 {
     margin-bottom: 2rem;
     margin-top: 4rem
 }
 	.blog p {
     margin-bottom: 1rem
 }
-	.blog img {
+	.blog video, .blog img {
     border-width: 2px
 }
 	.blog p:not(:first-child) ~ img, .blog p:not(:first-child) ~ picture img {
