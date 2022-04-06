@@ -4,8 +4,48 @@
   <subtitle></subtitle>
   <link rel="self" href="https://urlaubsverwaltung.cloud/feed.xml" />
   <link rel="alternate" type="text/html" href="https://urlaubsverwaltung.cloud" />
-  <updated>2022-03-31T00:00:00Z</updated>
+  <updated>2022-04-06T00:00:00Z</updated>
   <id>https://urlaubsverwaltung.cloud</id>
+  
+  
+  
+  <entry>
+    <title>Konfiguration von Sonderurlaubstagen und Bildungsurlaub</title>
+    <link href="https://urlaubsverwaltung.cloud/neuigkeiten/2022-04-06-release/" />
+    <updated>2022-04-06T00:00:00Z</updated>
+    <id>https://urlaubsverwaltung.cloud/neuigkeiten/2022-04-06-release/</id>
+    <author>
+      <name>Tobias Schneider</name>
+    </author>
+    <content type="html">&lt;p&gt;Sonderurlaube können individualisiert werden und Bildungsurlaub steht als neue Abwesenheitsart zur Verfügung&lt;/p&gt;
+&lt;h3 id=&quot;konfiguration-der-sonderurlaubstage&quot;&gt;Konfiguration der Sonderurlaubstage&lt;/h3&gt;
+&lt;p&gt;Mit der Version 4.34.0 zieht die neue Konfiguration &lt;strong&gt;Einstellungen zu Sonderurlaub&lt;/strong&gt; in die Urlaubsverwaltung ein.
+Ihr findet diese als Person mit der Berechtigung &lt;em&gt;Office&lt;/em&gt; unter &lt;em&gt;Einstellungen &amp;gt; Abwesenheitsarten&lt;/em&gt;. An dieser Stelle
+könnt ihr nun die Anzeige der bei euch in der Organisation möglichen Sonderurlaube sowie die Anzahl der Tage konfigurieren.&lt;/p&gt;
+&lt;p&gt;Diese Einstellung wird beim Beantragen eines Sonderurlaubes direkt angezeigt und unterstützt den Antragstellenden.&lt;/p&gt;
+&lt;div class=&quot;flex my-8 gap-4 flex-col md:flex-row&quot;&gt;
+    &lt;figure&gt;
+        &lt;picture&gt;
+            &lt;source srcset=&quot;https://urlaubsverwaltung.cloud/neuigkeiten/2022-04-06-release/configuration-special-holiday.avif&quot; type=&quot;image/avif&quot; /&gt;
+            &lt;img src=&quot;https://urlaubsverwaltung.cloud/neuigkeiten/2022-04-06-release/configuration-special-holiday.png&quot; alt=&quot;Einstellungen zu Sonderurlaub&quot; decoding=&quot;async&quot; loading=&quot;lazy&quot; class=&quot;rounded-lg&quot; /&gt;
+        &lt;/picture&gt;
+        &lt;figcaption class=&quot;text-sm text-center&quot;&gt;Einstellungen zu Sonderurlaub&lt;/figcaption&gt;
+    &lt;/figure&gt;
+    &lt;figure&gt;
+        &lt;picture&gt;
+            &lt;source srcset=&quot;https://urlaubsverwaltung.cloud/neuigkeiten/2022-04-06-release/absence-request.png&quot; type=&quot;image/avif&quot; /&gt;
+            &lt;img src=&quot;https://urlaubsverwaltung.cloud/neuigkeiten/2022-04-06-release/absence-request.png&quot; alt=&quot;Antrag eines Sonderurlaubes&quot; decoding=&quot;async&quot; loading=&quot;lazy&quot; class=&quot;rounded-lg&quot; /&gt;
+        &lt;/picture&gt;
+        &lt;figcaption class=&quot;text-sm text-center&quot;&gt;Antrag eines Sonderurlaubes&lt;/figcaption&gt;
+    &lt;/figure&gt;
+&lt;/div&gt;
+&lt;h3 id=&quot;bildungsurlaub&quot;&gt;Bildungsurlaub&lt;/h3&gt;
+&lt;p&gt;Eine neue Abwesenheitsart hat es in die Urlaubsverwaltung geschafft. Der &lt;strong&gt;Bildungsurlaub&lt;/strong&gt;. Ihr könnt ihn, wie gewohnt,
+in den Einstellungen unter Abwesenheitsarten aktivieren.&lt;/p&gt;
+&lt;br /&gt;
+Wir freuen uns über dein Feedback an &lt;a href=&quot;mailto:info@urlaubsverwaltung.cloud?subject=Feedback&quot;&gt;info@urlaubsverwaltung.cloud&lt;/a&gt;.
+</content>
+  </entry>
   
   
   
