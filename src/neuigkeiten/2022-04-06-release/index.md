@@ -21,7 +21,7 @@ könnt ihr nun die Anzeige der bei euch in der Organisation möglichen Sonderurl
 Diese Einstellung wird beim Beantragen eines Sonderurlaubes direkt angezeigt und unterstützt den Antragsteller.
 
 <div class="flex my-8 gap-4 flex-col md:flex-row">
-    <div>
+    <figure>
         <picture>
             <source srcset="configuration-special-holiday.avif" type="image/avif" />
             <img
@@ -32,9 +32,9 @@ Diese Einstellung wird beim Beantragen eines Sonderurlaubes direkt angezeigt und
               class="rounded-lg"
             />
         </picture>
-        <p class="text-sm text-center">Einstellungen zu Sonderurlaub</p>
-    </div>
-    <div>
+        <figcaption class="text-sm text-center">Einstellungen zu Sonderurlaub</figcaption>
+    </figure>
+    <figure>
         <picture>
             <source srcset="absence-request.png" type="image/avif" />
             <img
@@ -45,8 +45,8 @@ Diese Einstellung wird beim Beantragen eines Sonderurlaubes direkt angezeigt und
               class="rounded-lg"
             />
         </picture>
-        <p class="text-sm text-center">Antrag eines Sonderurlaubes</p>
-    </div>
+        <figcaption class="text-sm text-center">Antrag eines Sonderurlaubes</figcaption>
+    </figure>
 </div>
 
 ### Bildungsurlaub
