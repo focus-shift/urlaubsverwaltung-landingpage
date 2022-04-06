@@ -41,8 +41,13 @@ könnt ihr über das Konto einer Person bei den __Stammdaten__ auf den Stift kli
     </figure>
 </div>
 
-Nachdem ihr die Informationen gespeichert habt, werden diese im Konto, in der Benutzerübersicht, bei den Krankmeldungen,
-in der Abwesenheitsstatistik und dessen CSV-Export sowie in anderen Übersichten angezeigt.
+Nachdem ihr die Informationen gespeichert habt, werden diese angezeigt
+
+* im Konto,
+* in der Benutzerübersicht,
+* bei den Krankmeldungen,
+* in der Abwesenheitsstatistik und dessen CSV-Export
+* sowie in anderen Übersichten.
 
 <div class="flex my-8 gap-4 flex-col md:flex-row">
     <figure>
