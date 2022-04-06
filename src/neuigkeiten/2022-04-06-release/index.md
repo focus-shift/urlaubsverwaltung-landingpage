@@ -8,7 +8,7 @@ release-version: 4.34.0
 teaserImage: /static/update.jpg
 ---
 
-Ein- und Ausschalten sowie die Konfiguration der Sonderurlaube und eine neue Abwesenheitsart in der Urlaubsverwaltung
+Sonderurlaube können individualisiert werden und Bildungsurlaub steht als neue Abwesenheitsart zur Verfügung
 
 <!-- more -->
 
