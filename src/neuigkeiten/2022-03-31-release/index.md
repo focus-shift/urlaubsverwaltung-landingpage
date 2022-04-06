@@ -20,29 +20,23 @@ könnt ihr über das Konto einer Person bei den __Stammdaten__ auf den Stift kli
 
 <div class="flex my-8 gap-4 flex-col md:flex-row">
     <figure>
-        <picture>
-            <source srcset="basedata-account-overview.avif" type="image/avif" />
-            <img
-              src="basedata-account-overview.png"
-              alt="Eingabe der Stammdaten"
-              decoding="async"
-              loading="lazy"
-              class="rounded-lg"
-            />
-        </picture>
+        <img
+          src="basedata-account-overview.png"
+          alt="Eingabe der Stammdaten"
+          decoding="async"
+          loading="lazy"
+          class="rounded-lg"
+        />
         <figcaption class="text-sm text-center">Stammdatenformular</figcaption>
     </figure>
     <figure>
-        <picture>
-            <source srcset="basedata-input.avif" type="image/avif" />
-            <img
-              src="basedata-input.png"
-              alt="Eingabe der Stammdaten"
-              decoding="async"
-              loading="lazy"
-              class="rounded-lg"
-            />
-        </picture>
+        <img
+          src="basedata-input.png"
+          alt="Eingabe der Stammdaten"
+          decoding="async"
+          loading="lazy"
+          class="rounded-lg"
+        />
         <figcaption class="text-sm text-center">Übersicht der Stammdaten</figcaption>
     </figure>
 </div>
