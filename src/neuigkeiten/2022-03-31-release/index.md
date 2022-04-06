@@ -8,7 +8,7 @@ release-version: 4.35.0
 teaserImage: /static/update.jpg
 ---
 
-Hinterlege eine Personalnummer und weitere Informationen für deine Mitarbeitenden
+Hinterlege eine Personalnummer und weitere Informationen für deine Mitarbeitende.
 
 <!-- more -->
 
