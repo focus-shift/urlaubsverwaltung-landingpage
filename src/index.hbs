@@ -185,8 +185,12 @@ backgroundColor: bg-white
           </p>
           <div>
             <picture>
+              <source srcset="/static/uv-kalender_sm.avif" media="(max-width: 639px)" type="image/avif">
+              <source srcset="/static/uv-kalender_sm.webp" media="(max-width: 639px)" type="image/webp">
               <source srcset="/static/uv-kalender_sm.png" media="(max-width: 639px)">
-              <img src="/static/uv-kalender.png" width="860px" height="295px" alt="kalendarischen Übersicht der Abwesenheiten">
+              <source srcset="/static/uv-kalender.avif" type="image/avif">
+              <source srcset="/static/uv-kalender.webp" type="image/webp">
+              <img src="/static/uv-kalender.png" width="1172" height="418" alt="kalendarischen Übersicht der Abwesenheiten">
             </picture>
           </div>
         </div>
