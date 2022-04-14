@@ -132,8 +132,8 @@ backgroundColor: bg-white
                 src="/static/uv-startseite.png"
                 alt="Startseite der Urlaubsverwaltung mit kalenderischer Abwesenheitsübersicht"
                 class="rounded-b md:rounded-b-lg xl:rounded-b-2xl"
-                width="860px"
-                height="680px"
+                width="1440"
+                height="1206"
               >
             </picture>
           </div>
@@ -169,8 +169,10 @@ backgroundColor: bg-white
 					</p>
 					<div>
 						<picture>
+              <source srcset="/static/uv-teamuebersicht_sm.webp" media="(max-width: 639px)" type="image/webp">
 							<source srcset="/static/uv-teamuebersicht_sm.png" media="(max-width: 639px)">
-							<img src="/static/uv-teamuebersicht.png" width="860px" height="274px" alt="Abwesenheiten der Teams im Überblick">
+              <source srcset="/static/uv-teamuebersicht.webp" type="image/webp">
+							<img src="/static/uv-teamuebersicht.png" width="1204" height="609" alt="Abwesenheiten der Teams im Überblick">
 						</picture>
 					</div>
 				</div>
@@ -183,8 +185,12 @@ backgroundColor: bg-white
           </p>
           <div>
             <picture>
+              <source srcset="/static/uv-kalender_sm.avif" media="(max-width: 639px)" type="image/avif">
+              <source srcset="/static/uv-kalender_sm.webp" media="(max-width: 639px)" type="image/webp">
               <source srcset="/static/uv-kalender_sm.png" media="(max-width: 639px)">
-              <img src="/static/uv-kalender.png" width="860px" height="295px" alt="kalendarischen Übersicht der Abwesenheiten">
+              <source srcset="/static/uv-kalender.avif" type="image/avif">
+              <source srcset="/static/uv-kalender.webp" type="image/webp">
+              <img src="/static/uv-kalender.png" width="1172" height="418" alt="kalendarischen Übersicht der Abwesenheiten">
             </picture>
           </div>
         </div>
@@ -225,8 +231,12 @@ backgroundColor: bg-white
           </p>
           <div>
             <picture>
+              <source srcset="/static/uv-ueberstunden_sm.avif" media="(max-width: 639px)" type="image/avif">
+              <source srcset="/static/uv-ueberstunden_sm.webp" media="(max-width: 639px)" type="image/webp">
               <source srcset="/static/uv-ueberstunden_sm.png" media="(max-width: 639px)">
-              <img src="/static/uv-ueberstunden.png" width="860px" height="295px" alt="kalendarischen Übersicht der Abwesenheiten">
+              <source srcset="/static/uv-ueberstunden.avif" type="image/avif">
+              <source srcset="/static/uv-ueberstunden.webp" type="image/webp">
+              <img src="/static/uv-ueberstunden.png" width="1440" height="600" alt="kalendarischen Übersicht der Abwesenheiten">
             </picture>
           </div>
         </div>
@@ -302,7 +312,7 @@ backgroundColor: bg-white
         <div class="px-4 mb-8 xs:mb-12 sm:px-12 md:px-8 md:mb-0 md:w-2/3">
           <picture>
             <source srcset="/static/uv-multidevice_sm.png" media="(max-width: 639px)">
-            <img src="/static/uv-multidevice.png" width="860px" height="561px" alt="urlaubsverwaltung auf Smartphone, Tablet, Laptop und PC nutzen">
+            <img src="/static/uv-multidevice.png" width="1061" height="691" alt="urlaubsverwaltung auf Smartphone, Tablet, Laptop und PC nutzen">
           </picture>
         </div>
       </div>
