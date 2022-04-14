@@ -231,8 +231,12 @@ backgroundColor: bg-white
           </p>
           <div>
             <picture>
+              <source srcset="/static/uv-ueberstunden_sm.avif" media="(max-width: 639px)" type="image/avif">
+              <source srcset="/static/uv-ueberstunden_sm.webp" media="(max-width: 639px)" type="image/webp">
               <source srcset="/static/uv-ueberstunden_sm.png" media="(max-width: 639px)">
-              <img src="/static/uv-ueberstunden.png" width="860px" height="295px" alt="kalendarischen Übersicht der Abwesenheiten">
+              <source srcset="/static/uv-ueberstunden.avif" type="image/avif">
+              <source srcset="/static/uv-ueberstunden.webp" type="image/webp">
+              <img src="/static/uv-ueberstunden.png" width="1440" height="600" alt="kalendarischen Übersicht der Abwesenheiten">
             </picture>
           </div>
         </div>
