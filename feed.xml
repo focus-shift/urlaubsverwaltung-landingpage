@@ -4,8 +4,61 @@
   <subtitle></subtitle>
   <link rel="self" href="https://urlaubsverwaltung.cloud/feed.xml" />
   <link rel="alternate" type="text/html" href="https://urlaubsverwaltung.cloud" />
-  <updated>2022-04-06T00:00:00Z</updated>
+  <updated>2022-04-27T00:00:00Z</updated>
   <id>https://urlaubsverwaltung.cloud</id>
+  
+  
+  
+  <entry>
+    <title>Personalstammdaten immer im Blick</title>
+    <link href="https://urlaubsverwaltung.cloud/neuigkeiten/2022-04-27-release-4.35.0/" />
+    <updated>2022-04-27T00:00:00Z</updated>
+    <id>https://urlaubsverwaltung.cloud/neuigkeiten/2022-04-27-release-4.35.0/</id>
+    <author>
+      <name>Daniel Fuchs</name>
+    </author>
+    <content type="html">&lt;p&gt;Erweiterung der Personalstammdaten um Personalnummer und Zusatzinformationen. Außerdem: Kalendereinladung für &lt;em&gt;Office&lt;/em&gt;-Benutzende bei genehmigten Anträgen.&lt;/p&gt;
+&lt;h3 id=&quot;pflege-von-personalstammdaten&quot;&gt;Pflege von Personalstammdaten&lt;/h3&gt;
+&lt;p&gt;Mit der Version 4.35.0 der Urlaubsverwaltung ist es nun möglich Stammdaten einer Person zu pflegen.
+Benutzende mit der Berechtigung &lt;em&gt;Office&lt;/em&gt; können nun ganz bequem für Mitarbeitende die Personalnummer sowie weitere Zusatzinformation in der Urlaubsverwaltung speichern. Die Personalstammdaten können im Konto der betreffenden Person gepflegt werden.&lt;br /&gt;
+Die Personalnummer und Zusatzinformation sind in den bereits vorhandenen CSV-Exporten für Abwesenheiten und Krankmeldungen enthalten und können somit zur weiteren Verarbeitung in nachgelagerten Prozessen berücksichtigt werden.&lt;/p&gt;
+&lt;div class=&quot;flex my-8 gap-4 flex-col md:flex-row&quot;&gt;
+    &lt;figure&gt;
+        &lt;picture&gt;
+            &lt;source srcset=&quot;https://urlaubsverwaltung.cloud/neuigkeiten/2022-04-27-release-4.35.0/basedata-view.avif&quot; type=&quot;image/avif&quot; /&gt;
+            &lt;img src=&quot;https://urlaubsverwaltung.cloud/neuigkeiten/2022-04-27-release-4.35.0/basedata-view.png&quot; alt=&quot;Hinzufügen von Personalstammdaten&quot; decoding=&quot;async&quot; loading=&quot;lazy&quot; class=&quot;rounded-lg&quot; /&gt;
+        &lt;/picture&gt;
+        &lt;figcaption class=&quot;text-sm text-center&quot;&gt;Hinzufügen von Personalstammdaten&lt;/figcaption&gt;
+    &lt;/figure&gt;
+    &lt;figure&gt;
+        &lt;picture&gt;
+            &lt;source srcset=&quot;https://urlaubsverwaltung.cloud/neuigkeiten/2022-04-27-release-4.35.0/basedata-edit.avif&quot; type=&quot;image/avif&quot; /&gt;
+            &lt;img src=&quot;https://urlaubsverwaltung.cloud/neuigkeiten/2022-04-27-release-4.35.0/basedata-edit.png&quot; alt=&quot;Editieren von Personalstammdaten&quot; decoding=&quot;async&quot; loading=&quot;lazy&quot; class=&quot;rounded-lg&quot; /&gt;
+        &lt;/picture&gt;
+        &lt;figcaption class=&quot;text-sm text-center&quot;&gt;Editieren von Personalstammdaten&lt;/figcaption&gt;
+    &lt;/figure&gt;
+&lt;/div&gt;
+&lt;p&gt;Sofern mindestens eine Personalnummer gepflegt ist werden diese in allen Übersichten von Mitarbeitenden angezeigt und kann zur Sortierung sowie auch zur Suche verwendet werden. Folgende Ansichten sind um die Personalnummer erweitert:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Übersicht der Benutzenden&lt;/li&gt;
+&lt;li&gt;Abwesenheitsstatistik&lt;/li&gt;
+&lt;li&gt;Übersicht der Krankmeldungen&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&quot;flex my-8&quot;&gt;
+    &lt;figure&gt;
+        &lt;picture&gt;
+            &lt;source srcset=&quot;https://urlaubsverwaltung.cloud/neuigkeiten/2022-04-27-release-4.35.0/user-overview-with-personnel-number.avif&quot; type=&quot;image/avif&quot; /&gt;
+            &lt;img src=&quot;https://urlaubsverwaltung.cloud/neuigkeiten/2022-04-27-release-4.35.0/user-overview-with-personnel-number.png&quot; alt=&quot;Personalnummer in der Übersich von Benutzenden&quot; decoding=&quot;async&quot; loading=&quot;lazy&quot; class=&quot;rounded-lg&quot; /&gt;
+        &lt;/picture&gt;
+        &lt;figcaption class=&quot;text-sm text-center&quot;&gt;Personalnummer in der Übersicht von Benutzenden&lt;/figcaption&gt;
+    &lt;/figure&gt;
+&lt;/div&gt;
+&lt;h3 id=&quot;kalendereinladung-fuer-office-benutzende&quot;&gt;Kalendereinladung für Office-Benutzende&lt;/h3&gt;
+&lt;p&gt;Die E-Mail-Benachrichtigung einer genehmigten Abwesenheit wurde für die Benutzenden mit der Berechtigung &lt;em&gt;Office&lt;/em&gt; um den Kalendereinladung der Abwesenheit erweitert. Diese kann z.B. für einen externen Kalender zur einfacheren Koordination verwendet werden.&lt;/p&gt;
+&lt;br /&gt;
+Wir freuen uns über dein Feedback an &lt;a href=&quot;mailto:info@urlaubsverwaltung.cloud?subject=Feedback&quot;&gt;info@urlaubsverwaltung.cloud&lt;/a&gt;.
+</content>
+  </entry>
   
   
   
