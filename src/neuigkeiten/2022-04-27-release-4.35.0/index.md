@@ -71,7 +71,7 @@ Sofern mindestens eine Personalnummer gepflegt ist werden diese in allen Übersi
 
 ### Kalendereinladung für Office-Benutzende
 
-Nach der Genehmigung eines Antrags wurde bisher nur eine Benachrichtigung als E-Mail an die Benutzenden in der Rolle _Office_ versendet. Diese Benachrichtigung wurde nun zusätzlich um einen Kalendereinladung als Anhang erweitert. Diese kann z.B. für einen externen Kalender zur einfacheren Koodination verwendet werden.
+Die E-Mail-Benachrichtigung einer genehmigten Abwesenheit wurde für die Benutzenden mit der Berechtigung _Office_ um den Kalendereinladung der Abwesenheit erweitert. Diese kann z.B. für einen externen Kalender zur einfacheren Koordination verwendet werden.
 
 <br/>
 Wir freuen uns über dein Feedback an <a href="mailto:info@urlaubsverwaltung.cloud?subject=Feedback">info@urlaubsverwaltung.cloud</a>.
