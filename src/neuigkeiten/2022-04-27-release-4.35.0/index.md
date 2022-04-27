@@ -47,7 +47,7 @@ Die Personalnummer und Zusatzinformation sind in den bereits vorhandenen CSV-Exp
     </figure>
 </div>
 
-Zusätzlich ist die Personalnummer in allen Übersichten von Mitarbeitenden enthalten und kann zur Sortierung oder aber auch zur Suche verwendet werden. Folgene Ansichten sind um die Personalnummer erweitert:
+Sofern mindestens eine Personalnummer gepflegt ist werden diese in allen Übersichten von Mitarbeitenden angezeigt und kann zur Sortierung sowie auch zur Suche verwendet werden. Folgende Ansichten sind um die Personalnummer erweitert:
 
 * Übersicht der Benutzenden
 * Abwesenheitsstatistik
