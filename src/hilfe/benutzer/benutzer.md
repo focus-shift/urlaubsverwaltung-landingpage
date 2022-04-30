@@ -57,8 +57,7 @@ Hier gibt es die Möglichkeit die Berechtigungen über das "Stift"-Symbol zu edi
 
 ## Wann greifen neue Berechtigungen für einen Benutzer?
 
-Nach dem die Berechtigungen für einen Benutzer angepasst wurden, muss dieser sich erneut an der Urlaubsverwaltung anmelden.
-Erst nach einem erneuten Login sind die aktualisierten Berechtigungen für den Benutzer verfügbar.
+Nachdem die Berechtigungen für einen Mitarbeitenden angepasst wurden, sind diese sofort aktiv. Der Mitarbeitende muss sich _nicht_ erneut anmelden.
 
 ## Welcher Benutzer darf nach Registrierung Einstellungen vornehmen?
 
