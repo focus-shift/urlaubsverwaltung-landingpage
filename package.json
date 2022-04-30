@@ -18,7 +18,7 @@
 		"outdir": "dist"
 	},
 	"dependencies": {
-		"@11ty/eleventy": "1.0.0",
+		"@11ty/eleventy": "1.0.1",
 		"@11ty/eleventy-plugin-rss": "1.1.2",
 		"autoprefixer": "10.4.4",
 		"cheerio": "1.0.0-rc.10",
