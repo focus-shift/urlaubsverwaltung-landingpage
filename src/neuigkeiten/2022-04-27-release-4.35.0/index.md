@@ -15,8 +15,8 @@ Erweiterung der Personalstammdaten um Personalnummer und Zusatzinformationen. Au
 ### Pflege von Personalstammdaten
 
 Mit der Version 4.35.0 der Urlaubsverwaltung ist es nun möglich Stammdaten einer Person zu pflegen.
-Benutzende mit der Berechtigung _Office_ können nun ganz bequem für Mitarbeitende die Personalnummer sowie weitere Zusatzinformation in der Urlaubsverwaltung speichern. Die Personalstammdaten können im Konto der betreffenden Person gepflegt werden.\
-Die Personalnummer und Zusatzinformation sind in den bereits vorhandenen CSV-Exporten für Abwesenheiten und Krankmeldungen enthalten und können somit zur weiteren Verarbeitung in nachgelagerten Prozessen berücksichtigt werden. 
+Benutzende mit der Berechtigung _Office_ können nun ganz bequem für Mitarbeitende die Personalnummer sowie weitere Zusatzinformation in der Urlaubsverwaltung speichern. Die Personalstammdaten können im Konto der betreffenden Person gepflegt werden.
+Die Personalnummern und Zusatzinformationen sind in den bereits vorhandenen CSV-Exporten für Abwesenheiten und Krankmeldungen enthalten und können somit zur weiteren Verarbeitung in nachgelagerten Prozessen berücksichtigt werden.
 
 <div class="flex my-8 gap-4 flex-col md:flex-row">
     <figure>
@@ -47,7 +47,7 @@ Die Personalnummer und Zusatzinformation sind in den bereits vorhandenen CSV-Exp
     </figure>
 </div>
 
-Sofern mindestens eine Personalnummer gepflegt ist werden diese in allen Übersichten von Mitarbeitenden angezeigt und kann zur Sortierung sowie auch zur Suche verwendet werden. Folgende Ansichten sind um die Personalnummer erweitert:
+Sofern mindestens eine Personalnummer gepflegt ist, werden diese in allen Übersichten von Mitarbeitenden angezeigt und kann zur Sortierung sowie auch zur Suche verwendet werden. Folgende Ansichten sind um die Personalnummer erweitert:
 
 * Übersicht der Benutzenden
 * Abwesenheitsstatistik
@@ -59,7 +59,7 @@ Sofern mindestens eine Personalnummer gepflegt ist werden diese in allen Übersi
             <source srcset="user-overview-with-personnel-number.avif" type="image/avif" />
             <img
               src="user-overview-with-personnel-number.png"
-              alt="Personalnummer in der Übersich von Benutzenden"
+              alt="Personalnummer in der Übersicht von Benutzenden"
               decoding="async"
               loading="lazy"
               class="rounded-lg"
@@ -71,7 +71,7 @@ Sofern mindestens eine Personalnummer gepflegt ist werden diese in allen Übersi
 
 ### Kalendereinladung für Office-Benutzende
 
-Die E-Mail-Benachrichtigung einer genehmigten Abwesenheit wurde für die Benutzenden mit der Berechtigung _Office_ um den Kalendereinladung der Abwesenheit erweitert. Diese kann z.B. für einen externen Kalender zur einfacheren Koordination verwendet werden.
+Die E-Mail-Benachrichtigung einer genehmigten Abwesenheit wurde für die Benutzenden mit der Berechtigung _Office_ um die Kalendereinladung der Abwesenheit erweitert. Diese kann z.B. für einen externen Kalender zur einfacheren Koordination verwendet werden.
 
 <br/>
 Wir freuen uns über dein Feedback an <a href="mailto:info@urlaubsverwaltung.cloud?subject=Feedback">info@urlaubsverwaltung.cloud</a>.
