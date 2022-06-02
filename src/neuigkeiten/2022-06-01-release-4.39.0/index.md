@@ -8,7 +8,7 @@ release-version: 4.39.0
 teaserImage: /static/update.jpg
 ---
 
-Die Farben der Abwesenheitsarten können ab sofort individuell eingestellt werden. 
+Die Farbe und Sichtbarkeit einer Abwesenheitsart können ab sofort individuell konfiguriert werden. 
 Außerdem ist es nun möglich die Sichtbarkeit von Abwesenheitsarten zu konfigurieren.
 
 <!-- more -->
