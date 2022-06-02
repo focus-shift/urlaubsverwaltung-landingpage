@@ -9,7 +9,6 @@ teaserImage: /static/update.jpg
 ---
 
 Die Farbe und Sichtbarkeit einer Abwesenheitsart können ab sofort individuell konfiguriert werden. 
-Außerdem ist es nun möglich die Sichtbarkeit von Abwesenheitsarten zu konfigurieren.
 
 <!-- more -->
 
