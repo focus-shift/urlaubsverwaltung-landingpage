@@ -20,12 +20,7 @@ jobs:
         uses: actions/setup-node@v3
         with:
           node-version: "16"
-      - uses: actions/cache@v3.0.2
-        with:
-          path: ~/.npm
-          key: ${{ runner.os }}-node-${{ hashFiles('**/package-lock.json') }}
-          restore-keys: |
-            ${{ runner.os }}-node-
+          cache: 'npm'
       - name: Build
         run: |
           npm ci
