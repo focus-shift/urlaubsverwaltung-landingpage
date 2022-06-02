@@ -4,8 +4,101 @@
   <subtitle></subtitle>
   <link rel="self" href="https://urlaubsverwaltung.cloud/feed.xml" />
   <link rel="alternate" type="text/html" href="https://urlaubsverwaltung.cloud" />
-  <updated>2022-04-27T00:00:00Z</updated>
+  <updated>2022-06-01T00:00:00Z</updated>
   <id>https://urlaubsverwaltung.cloud</id>
+  
+  
+  
+  <entry>
+    <title>🌈 Jetzt wirds bunt! Individuelle Farben und Sichtbarkeiten für deine Abwesenheitsarten</title>
+    <link href="https://urlaubsverwaltung.cloud/neuigkeiten/2022-06-01-release-4.39.0/" />
+    <updated>2022-06-01T00:00:00Z</updated>
+    <id>https://urlaubsverwaltung.cloud/neuigkeiten/2022-06-01-release-4.39.0/</id>
+    <author>
+      <name>Andreas Weigel</name>
+    </author>
+    <content type="html">&lt;p&gt;Die Farbe und Sichtbarkeit einer Abwesenheitsart können ab sofort individuell konfiguriert werden.&lt;/p&gt;
+&lt;p&gt;Mit der Einführung weiterer Abwesenheitsarten wie &lt;em&gt;Home-Office&lt;/em&gt;, &lt;em&gt;Außer Haus&lt;/em&gt; oder &lt;em&gt;Ausbildung&lt;/em&gt; können auch Abwesenheiten erfasst werden, bei denen
+Mitarbeitende zwar nicht vor Ort, aber dennoch beschäftigt und erreichbar sind. Um einen umfassenden Überblick der Abwesenheiten zu erhalten kannst du, seit der neuen Version der Urlaubsverwaltung, die Abwesenheitsarten in den vorhandenen Übersichten und Kalendern farblich anpassen und gruppieren! 🎉&lt;/p&gt;
+&lt;h4 id=&quot;abwesenheitsuebersicht&quot;&gt;Abwesenheitsübersicht&lt;/h4&gt;
+&lt;div class=&quot;flex my-8&quot;&gt;
+    &lt;figure&gt;
+        &lt;picture&gt;
+            &lt;source srcset=&quot;https://urlaubsverwaltung.cloud/neuigkeiten/2022-06-01-release-4.39.0/allAbsencesVisibleForOffice.avif&quot; type=&quot;image/avif&quot; /&gt;
+            &lt;img src=&quot;https://urlaubsverwaltung.cloud/neuigkeiten/2022-06-01-release-4.39.0/allAbsencesVisibleForOffice.png&quot; alt=&quot;Farbliche Darstellung der Abwesenheitsarten mit entsprechender Legende in der Abwesenheitsübersicht&quot; decoding=&quot;async&quot; loading=&quot;lazy&quot; class=&quot;rounded-lg&quot; /&gt;
+        &lt;/picture&gt;
+        &lt;figcaption class=&quot;text-sm text-center&quot;&gt;Farbliche Darstellung der Abwesenheitsarten mit entsprechender Legende in der Abwesenheitsübersicht&lt;/figcaption&gt;
+    &lt;/figure&gt;
+&lt;/div&gt;
+&lt;p&gt;Zusätzlich wurde im Rahmen der Änderung eine eindeutigere Unterscheidbarkeit zwischen genehmigten und noch offenen Anträgen geschaffen.
+Noch nicht genehmigte Abwesenheiten werden als leerer Rahmen in der betreffenden Farbe angezeigt. Für genehmigte Anträge wird dieser Rahmen ausgefüllt dargestellt.&lt;/p&gt;
+&lt;h4 id=&quot;kalender-auf-der-persoenlichen-startseite&quot;&gt;Kalender auf der persönlichen Startseite&lt;/h4&gt;
+&lt;div class=&quot;flex my-8&quot;&gt;
+    &lt;figure&gt;
+        &lt;picture&gt;
+            &lt;source srcset=&quot;https://urlaubsverwaltung.cloud/neuigkeiten/2022-06-01-release-4.39.0/overviewCalendar.avif&quot; type=&quot;image/avif&quot; /&gt;
+            &lt;img src=&quot;https://urlaubsverwaltung.cloud/neuigkeiten/2022-06-01-release-4.39.0/overviewCalendar.png&quot; alt=&quot;Kalender auf der persönlichen Startseite mit farblicher Unterscheidung der Abwesenheitsarten&quot; decoding=&quot;async&quot; loading=&quot;lazy&quot; class=&quot;rounded-lg&quot; /&gt;
+        &lt;/picture&gt;
+        &lt;figcaption class=&quot;text-sm text-center&quot;&gt;Kalender auf der persönlichen Startseite mit farblicher Unterscheidung der Abwesenheitsarten&lt;/figcaption&gt;
+    &lt;/figure&gt;
+&lt;/div&gt;
+&lt;h4 id=&quot;datumsauswahl&quot;&gt;Datumsauswahl&lt;/h4&gt;
+&lt;div class=&quot;flex my-8&quot;&gt;
+    &lt;figure&gt;
+        &lt;picture&gt;
+            &lt;source srcset=&quot;https://urlaubsverwaltung.cloud/neuigkeiten/2022-06-01-release-4.39.0/calendarPicker.avif&quot; type=&quot;image/avif&quot; /&gt;
+            &lt;img src=&quot;https://urlaubsverwaltung.cloud/neuigkeiten/2022-06-01-release-4.39.0/calendarPicker.png&quot; alt=&quot;Datumsauswahl mit farblicher Unterscheidung der Abwesenheitsarten&quot; decoding=&quot;async&quot; loading=&quot;lazy&quot; class=&quot;rounded-lg&quot; /&gt;
+        &lt;/picture&gt;
+        &lt;figcaption class=&quot;text-sm text-center&quot;&gt;Datumsauswahl mit farblicher Unterscheidung der Abwesenheitsarten&lt;/figcaption&gt;
+    &lt;/figure&gt;
+&lt;/div&gt;
+&lt;h3 id=&quot;einstellung-der-farbe-der-abwesenheitsarten&quot;&gt;Einstellung der Farbe der Abwesenheitsarten&lt;/h3&gt;
+&lt;p&gt;Die Farben der Abwesenheitsarten können durch Benutzende mit der Berechtigung Office unter &lt;em&gt;Einstellungen&lt;/em&gt; » &lt;em&gt;Abwesenheitsarten&lt;/em&gt;  konfiguriert werden:&lt;/p&gt;
+&lt;div class=&quot;flex my-8&quot;&gt;
+    &lt;figure&gt;
+        &lt;picture&gt;
+            &lt;source srcset=&quot;https://urlaubsverwaltung.cloud/neuigkeiten/2022-06-01-release-4.39.0/colorConfiguration.avif&quot; type=&quot;image/avif&quot; /&gt;
+            &lt;img src=&quot;https://urlaubsverwaltung.cloud/neuigkeiten/2022-06-01-release-4.39.0/colorConfiguration.png&quot; alt=&quot;Neue Farbkonfiguration für Abwesenheitsarten&quot; decoding=&quot;async&quot; loading=&quot;lazy&quot; class=&quot;rounded-lg&quot; /&gt;
+        &lt;/picture&gt;
+        &lt;figcaption class=&quot;text-sm text-center&quot;&gt;Neue Farbkonfiguration für Abwesenheitsarten&lt;/figcaption&gt;
+    &lt;/figure&gt;
+&lt;/div&gt;
+&lt;p&gt;Die Farben der Abwesenheitsarten werden in allen oben genannten Übersichten entsprechend verwendet.&lt;/p&gt;
+&lt;h3 id=&quot;einstellung-der-sichtbarkeit&quot;&gt;Einstellung der Sichtbarkeit&lt;/h3&gt;
+&lt;p&gt;Neben der neuen Farbkonfiguration ist es nun auch möglich die Sichtbarkeit der Abwesenheitsarten in der Abwesenheitsübersicht einzustellen.&lt;/p&gt;
+&lt;div class=&quot;flex my-8&quot;&gt;
+    &lt;figure&gt;
+        &lt;picture&gt;
+            &lt;source srcset=&quot;https://urlaubsverwaltung.cloud/neuigkeiten/2022-06-01-release-4.39.0/visibilityConfiguration.avif&quot; type=&quot;image/avif&quot; /&gt;
+            &lt;img src=&quot;https://urlaubsverwaltung.cloud/neuigkeiten/2022-06-01-release-4.39.0/visibilityConfiguration.png&quot; alt=&quot;Einstellung der Sichtbarkeit von Abwesenheitsarten&quot; decoding=&quot;async&quot; loading=&quot;lazy&quot; class=&quot;rounded-lg&quot; /&gt;
+        &lt;/picture&gt;
+        &lt;figcaption class=&quot;text-sm text-center&quot;&gt;Einstellung der Sichtbarkeit von Abwesenheitsarten&lt;/figcaption&gt;
+    &lt;/figure&gt;
+&lt;/div&gt;
+&lt;p&gt;Bisher war die Sichtbarkeit anhand der Berechtigungen eingeschränkt. Normale Benutzende konnten bisher nur die generische Information &lt;em&gt;Abwesend&lt;/em&gt; für die Kolleg:innen der Abteilung einsehen. Dies macht vor allem im Hinblick auf Datenschutz-Aspekte Sinn, da den Kolleg:innen aus der Abteilung z.B. nicht mitgeteilt werden muss, warum eine Person nicht anwesend ist. Im nachfolgenden Beispiel sind für den normalen Benutzer Klaus Müller nur eigenen Abwesenheiten mit Abwesenheitsart sichtbar. Die Abwesenheiten der Kolleg:innen sind mit der generischen Information &lt;em&gt;Abwesen&lt;/em&gt; dargestellt.&lt;/p&gt;
+&lt;div class=&quot;flex my-8&quot;&gt;
+    &lt;figure&gt;
+        &lt;picture&gt;
+            &lt;source srcset=&quot;https://urlaubsverwaltung.cloud/neuigkeiten/2022-06-01-release-4.39.0/onlyOwnVisible.avif&quot; type=&quot;image/avif&quot; /&gt;
+            &lt;img src=&quot;https://urlaubsverwaltung.cloud/neuigkeiten/2022-06-01-release-4.39.0/colorConfiguration.png&quot; alt=&quot;Unterscheidung nur der eigenen Abwesenheitsarten&quot; decoding=&quot;async&quot; loading=&quot;lazy&quot; class=&quot;rounded-lg&quot; /&gt;
+        &lt;/picture&gt;
+        &lt;figcaption class=&quot;text-sm text-center&quot;&gt;Unterscheidung nur der eigenen Abwesenheitsarten, Abwesenheiten von Kolleg:innen werden als &lt;i&gt;Abwesend&lt;/i&gt; dargestellt.&lt;/figcaption&gt;
+    &lt;/figure&gt;
+&lt;/div&gt;
+&lt;p&gt;Dagegen ist z.B. die Abwesenheitsart &lt;em&gt;Home-Office&lt;/em&gt; oder &lt;em&gt;Außer Haus&lt;/em&gt; ein Fall bei dem es sinnvoll sein kann die Information in der Abteilung zu teilen, da die Person in Arbeitsabläufe eingebunden sein kann oder zumindest telefonisch erreichbar ist. Für diesen Fall ist es nun möglich, dass die Abwesenheitsart für alle sichtbar gemacht wird. Die Einstellung hat zur Folge, dass die Abwesenheitsart nicht mehr durch die generische Information &amp;quot;Abwesend&amp;quot; für normale Benutzende dargestellt wird, sondern die konkrete Abwesenheitsart sichtbar ist. Als Beispiel ist im folgenden Bild ist die &lt;i&gt;Home-Office&lt;/i&gt;-Abwesenheit von Niko Schmitt am 27.-30.06 für Klaus Müller als normaler Benutzer sichtbar. Abwesenheitsarten für die, die Sichtbarkeit nicht freigegeben wurde, werden weiterhin als &lt;em&gt;Abwesend&lt;/em&gt; angezeigt.&lt;/p&gt;
+&lt;div class=&quot;flex my-8&quot;&gt;
+    &lt;figure&gt;
+        &lt;picture&gt;
+            &lt;source srcset=&quot;https://urlaubsverwaltung.cloud/neuigkeiten/2022-06-01-release-4.39.0/differentVisibilities.avif&quot; type=&quot;image/avif&quot; /&gt;
+            &lt;img src=&quot;https://urlaubsverwaltung.cloud/neuigkeiten/2022-06-01-release-4.39.0/visibilityConfiguration.png&quot; alt=&quot;Differenzierung von Abwesenheitsarten der Mitarbeitenden&quot; decoding=&quot;async&quot; loading=&quot;lazy&quot; class=&quot;rounded-lg&quot; /&gt;
+        &lt;/picture&gt;
+        &lt;figcaption class=&quot;text-sm text-center&quot;&gt;Differenzierung von Abwesenheitsarten der Mitarbeitenden, im Beispiel wird &lt;i&gt;Home-Office&lt;/i&gt; für alle Mitarbeitenden der Abteilung sichtbar&lt;/figcaption&gt;
+    &lt;/figure&gt;
+&lt;/div&gt;
+&lt;br /&gt;
+Wir freuen uns über dein Feedback an &lt;a href=&quot;mailto:info@urlaubsverwaltung.cloud?subject=Feedback&quot;&gt;info@urlaubsverwaltung.cloud&lt;/a&gt;.
+</content>
+  </entry>
   
   
   
