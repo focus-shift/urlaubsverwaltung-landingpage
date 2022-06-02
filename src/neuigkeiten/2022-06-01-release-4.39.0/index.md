@@ -13,7 +13,7 @@ Die Farbe und Sichtbarkeit einer Abwesenheitsart können ab sofort individuell k
 <!-- more -->
 
 Mit der Einführung weiterer Abwesenheitsarten wie _Home-Office_, _Außer Haus_ oder _Ausbildung_ können auch Abwesenheiten erfasst werden, bei denen
-Mitarbeitende zwar nicht vor Ort, aber dennoch beschäftigt und erreichbar sind. Für einen umfassenden Überblick der Abwesenheiten, können mit der neuen Version der Urlaubsverwaltung 4.39.0 die Abwesenheitsarten in den vorhandenen Übersichten farblich unterschieden werden! 🎉
+Mitarbeitende zwar nicht vor Ort, aber dennoch beschäftigt und erreichbar sind. Um einen umfassenden Überblick der Abwesenheiten zu erhalten kannst du, seit der neuen Version der Urlaubsverwaltung, die Abwesenheitsarten in den vorhandenen Übersichten und Kalendern farblich anpassen und gruppieren! 🎉
 
 #### Abwesenheitsübersicht
 
