@@ -98,7 +98,7 @@ nachträglich deaktiviert, so hat dies keine Auswirkung auf die bestehenden
 
 ## Kann ich die Überstundenpflege nur für privilegierte Benutzer erlauben?
 
-Ja, durch eine globale Konfiguration in den Einstellungen ist die Eintragung, Anpassung, Löschung von Überstunden auf privilegierte Benutzer in den Rollen Office, Chef, Abteilungsleiter, Freigabe-Verantwortlicher eingeschränkt. Anwender in der normalen Benutzer Rolle dürfen ihre Überstunden dann lediglich einsehen. Die Konfiguration kann unter "Einstellungen" im Tab "Arbeitszeiten" unter "Einstellungen zu Überstunden" mit der Konfiguration "Pflege von Überstunden nur durch privilegierte Benutzer" aktiviert werden.
+Ja, durch eine globale Konfiguration in den Einstellungen ist die Eintragung, Anpassung, Löschung von Überstunden auf privilegierte Benutzer auf die Berechtigung Office, Chef, Abteilungsleiter, Freigabe-Verantwortlicher eingeschränkt. Anwender in der normalen Benutzer Rolle dürfen ihre Überstunden dann lediglich einsehen. Die Konfiguration kann unter "Einstellungen" im Tab "Arbeitszeiten" unter "Einstellungen zu Überstunden" mit der Konfiguration "Pflege von Überstunden nur durch privilegierte Benutzer" aktiviert werden.
 
 ## Ist es möglich für einen Urlaubsantrag auf Überstundenabbau eine minimale Stundenanzahl zu konfigurieren?
 
