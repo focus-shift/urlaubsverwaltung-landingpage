@@ -15,7 +15,7 @@ Es gibt drei unterschiedliche Möglichkeiten Mitarbeitende in deine Urlaubsverwa
 Nachdem deine Urlaubsverwaltung bereitgestellt wurde, erhälst du von uns per E-Mail einen Link zu deinem Kundenportal.
 Alternativ findest du das Kundenportal direkt über die Anmeldung (oben rechts) auf https://urlaubsverwaltung.cloud.
 Danach weiter auf "Mein Kundenportal".
-Im Kundenportal kannst du neue Mitarbeitende per E-Mail-Adresse eine Einladung zu deiner Urlaubsverwaltung versenden. Die Funktion findest du unter "Meine Urlaubsverwaltung"»"Neue Mitarbeitende einladen".
+Im Kundenportal kannst du neue Mitarbeitende per E-Mail-Adresse eine Einladung zu deiner Urlaubsverwaltung versenden. Die Funktion findest du unter "Meine Urlaubsverwaltung" » "Neue Mitarbeitende einladen".
 Die Mitarbeitenden erhalten darauf eine Einladung per E-Mail und können sich ausschließlich mit dieser bei deiner Urlaubsverwaltung registrieren.
 
 <p>
