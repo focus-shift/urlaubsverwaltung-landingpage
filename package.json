@@ -27,7 +27,7 @@
 		"esbuild": "0.14.48",
 		"eslint": "8.16.0",
 		"eslint-config-prettier": "8.5.0",
-		"eslint-plugin-prettier": "4.0.0",
+		"eslint-plugin-prettier": "4.2.1",
 		"html-minifier": "4.0.0",
 		"http-server": "14.1.1",
 		"husky": "8.0.1",
