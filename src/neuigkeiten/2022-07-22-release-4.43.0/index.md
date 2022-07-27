@@ -13,7 +13,7 @@ Der Verfall des Resturlaubs aus dem Vorjahr kann ab sofort pro Mitarbeitenden ko
 
 <!-- more -->
 
-#### Informationen über den verfallenen Resturlaub
+### Informationen über den verfallenen Resturlaub
 
 Der Verfall von Resturlaub wird dir auf der deiner Übersichtseite aufgezeigt, sofern dein teilweise oder vollständig Resturlaub verfallen ist.
 Dies schafft mehr Transparenz über die Berechnung deiner verbleibenden Urlaubstage und erklärt, warum sich dein anteiliger Urlaubsanspruch ggf. reduziert hat.
