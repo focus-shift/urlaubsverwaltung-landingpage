@@ -53,7 +53,7 @@ Der verfallene Resturlaub wird dir nicht nur bei den verbleibenden Urlaubstagen,
 </div>
 
 
-#### Verfall von Resturlaub pro Mitarbeitenden konfigurieren
+### Verfall von Resturlaub pro Mitarbeitenden konfigurieren
 
 Der Verfall von Resturlaub ist ab sofort pro Mitarbeitenden im Konto unter Urlaubsanspruch konfigurierbar. Bisher war
 das Verfallsdatum des Resturlaubes fest auf den 1. April des Folgejahres definiert. Dieses Datum entspricht zwar einer breiten
