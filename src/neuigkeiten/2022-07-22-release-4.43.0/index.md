@@ -58,7 +58,7 @@ Der verfallene Resturlaub wird dir nicht nur bei den verbleibenden Urlaubstagen,
 Der Verfall von Resturlaub ist ab sofort pro Mitarbeitenden im Konto unter Urlaubsanspruch konfigurierbar. Bisher war
 das Verfallsdatum des Resturlaubes fest auf den 1. April des Folgejahres definiert. Dieses Datum entspricht zwar einer breiten
 Masse der Mitarbeitenden, war jedoch sehr starr und hat nicht jeden Anwendungsfall befriedigt. Seit der Version 4.43.0 der
-Urlaubsverwaltung ist es nun möglich das Verfallsdatum im Konto unter Urlaubsanspruch pro Mitarbeitenden zu konfigurieren. 
+Urlaubsverwaltung ist es nun möglich das Verfallsdatum im Konto jedes einzelnen Mitarbeitenden unter Urlaubsanspruch individuell zu konfigurieren. 
 
 <div class="flex my-8">
     <figure>
