@@ -5,10 +5,18 @@
     margin-bottom: 1rem;
     margin-left: 1.25rem
 }
-	.blog * + h1, .blog * + h2, .blog * + h3, .blog * + h4, .blog * + h5, .blog * + h6 {
+	.blog * + h1, 
+	.blog * + h2, 
+	.blog * + h3, 
+	.blog * + h4, 
+	.blog * + h5, 
+	.blog * + h6 {
     margin-top: 2rem
 }
-	.blog h1 + h2, .blog h2 + h3, .blog h3 + h4, .blog h5 + h6 {
+	.blog h1 + h2, 
+	.blog h2 + h3, 
+	.blog h3 + h4, 
+	.blog h5 + h6 {
     margin-top: 0px
 }
 	.blog h2 {
@@ -38,13 +46,16 @@
 	.blog p {
     margin-bottom: 1rem
 }
-	.blog video, .blog img {
+	.blog video, 
+	.blog img {
     border-width: 2px
 }
-	.blog p:not(:first-child) ~ img, .blog p:not(:first-child) ~ picture img {
+	.blog p:not(:first-child) ~ img, 
+	.blog p:not(:first-child) ~ picture img {
     margin-top: 2rem
 }
-	.blog p:not(:last-child) ~ img, .blog p:not(:last-child) ~ picture img {
+	.blog p:not(:last-child) ~ img, 
+	.blog p:not(:last-child) ~ picture img {
     margin-bottom: 2.5rem
 }
 	.blog a {
