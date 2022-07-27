@@ -4,8 +4,61 @@
   <subtitle></subtitle>
   <link rel="self" href="https://urlaubsverwaltung.cloud/feed.xml" />
   <link rel="alternate" type="text/html" href="https://urlaubsverwaltung.cloud" />
-  <updated>2022-06-01T00:00:00Z</updated>
+  <updated>2022-07-22T00:00:00Z</updated>
   <id>https://urlaubsverwaltung.cloud</id>
+  
+  
+  
+  <entry>
+    <title>Verfall von Resturlaub pro Mitarbeitenden konfigurieren</title>
+    <link href="https://urlaubsverwaltung.cloud/neuigkeiten/2022-07-22-release-4.43.0/" />
+    <updated>2022-07-22T00:00:00Z</updated>
+    <id>https://urlaubsverwaltung.cloud/neuigkeiten/2022-07-22-release-4.43.0/</id>
+    <author>
+      <name>Tobias Schneider</name>
+    </author>
+    <content type="html">&lt;p&gt;Der Verfall des Resturlaubs aus dem Vorjahr kann ab sofort pro Mitarbeitenden konfiguriert werden und ist auf der
+Übersichtseite einsehbar.&lt;/p&gt;
+&lt;h3 id=&quot;informationen-ueber-den-verfallenen-resturlaub&quot;&gt;Informationen über den verfallenen Resturlaub&lt;/h3&gt;
+&lt;p&gt;Der Verfall von Resturlaub wird auf deiner Übersichtseite dargestellt. Hast du zum Beispiel 5 Tage Resturlaub nicht rechtzeitig genommen, steht rechts bei den verbleibenden Urlaubstagen &amp;quot;und 5 Tage Resturlaub sind verfallen&amp;quot;.
+Dies schafft mehr Transparenz über die Berechnung deiner verbleibenden Urlaubstage und erklärt, warum sich dein anteiliger Urlaubsanspruch ggf. reduziert hat.&lt;/p&gt;
+&lt;div class=&quot;flex my-8&quot;&gt;
+    &lt;figure&gt;
+        &lt;picture&gt;
+            &lt;source srcset=&quot;https://urlaubsverwaltung.cloud/neuigkeiten/2022-07-22-release-4.43.0/residual-leave-top.avif&quot; type=&quot;image/avif&quot; /&gt;
+            &lt;img src=&quot;https://urlaubsverwaltung.cloud/neuigkeiten/2022-07-22-release-4.43.0/residual-leave-top.png&quot; alt=&quot;Information über den verfallenen Resturlaub am Start der Übersichtsseite&quot; decoding=&quot;async&quot; loading=&quot;lazy&quot; class=&quot;rounded-lg&quot; /&gt;
+        &lt;/picture&gt;
+        &lt;figcaption class=&quot;text-sm text-center&quot;&gt;Information über den verfallenen Resturlaub am Start der Übersichtsseite&lt;/figcaption&gt;
+    &lt;/figure&gt;
+&lt;/div&gt;
+&lt;p&gt;Der verfallene Resturlaub wird dir nicht nur bei den verbleibenden Urlaubstagen, sondern auch bei der Auflistung deiner Abwesenheiten dargestellt.&lt;/p&gt;
+&lt;div class=&quot;flex my-8&quot;&gt;
+    &lt;figure&gt;
+        &lt;picture&gt;
+            &lt;source srcset=&quot;https://urlaubsverwaltung.cloud/neuigkeiten/2022-07-22-release-4.43.0/residual-leave-bottom.avif&quot; type=&quot;image/avif&quot; /&gt;
+            &lt;img src=&quot;https://urlaubsverwaltung.cloud/neuigkeiten/2022-07-22-release-4.43.0/residual-leave-top.png&quot; alt=&quot;Information über den verfallenen Resturlaub bei den Abwesenheiten auf der Übersichtsseite&quot; decoding=&quot;async&quot; loading=&quot;lazy&quot; class=&quot;rounded-lg&quot; /&gt;
+        &lt;/picture&gt;
+        &lt;figcaption class=&quot;text-sm text-center&quot;&gt;Information über den verfallenen Resturlaub bei den Abwesenheiten auf der Übersichtsseite&lt;/figcaption&gt;
+    &lt;/figure&gt;
+&lt;/div&gt;
+&lt;h3 id=&quot;verfall-von-resturlaub-pro-mitarbeitenden-konfigurieren&quot;&gt;Verfall von Resturlaub pro Mitarbeitenden konfigurieren&lt;/h3&gt;
+&lt;p&gt;Der Verfall von Resturlaub ist ab sofort pro Mitarbeitenden im Konto unter Urlaubsanspruch konfigurierbar. Bisher war
+das Verfallsdatum des Resturlaubes fest auf den 1. April des Folgejahres definiert. Dieses Datum entspricht zwar einer breiten
+Masse der Mitarbeitenden, war jedoch sehr starr und hat nicht jeden Anwendungsfall befriedigt. Seit der Version 4.43.0 der
+Urlaubsverwaltung ist es nun möglich das Verfallsdatum im Konto jedes einzelnen Mitarbeitenden unter Urlaubsanspruch individuell zu konfigurieren.&lt;/p&gt;
+&lt;div class=&quot;flex my-8&quot;&gt;
+    &lt;figure&gt;
+        &lt;picture&gt;
+            &lt;source srcset=&quot;https://urlaubsverwaltung.cloud/neuigkeiten/2022-07-22-release-4.43.0/residual-leave-configuration.avif&quot; type=&quot;image/avif&quot; /&gt;
+            &lt;img src=&quot;https://urlaubsverwaltung.cloud/neuigkeiten/2022-07-22-release-4.43.0/residual-leave-configuration.png&quot; alt=&quot;Konfiguration des Urlaubsanspruchs einer Person mit anpassbarem Datum zum Verfall des Resturlaubes&quot; decoding=&quot;async&quot; loading=&quot;lazy&quot; class=&quot;rounded-lg&quot; /&gt;
+        &lt;/picture&gt;
+        &lt;figcaption class=&quot;text-sm text-center&quot;&gt;Konfiguration des Urlaubsanspruchs einer Person mit anpassbarem Datum zum Verfall des Resturlaubes&lt;/figcaption&gt;
+    &lt;/figure&gt;
+&lt;/div&gt;
+&lt;br /&gt;
+Wir freuen uns über dein Feedback an &lt;a href=&quot;mailto:info@urlaubsverwaltung.cloud?subject=Feedback&quot;&gt;info@urlaubsverwaltung.cloud&lt;/a&gt;.
+</content>
+  </entry>
   
   
   
