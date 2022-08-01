@@ -19,7 +19,7 @@
 	},
 	"dependencies": {
 		"@11ty/eleventy": "1.0.1",
-		"@11ty/eleventy-plugin-rss": "1.1.2",
+		"@11ty/eleventy-plugin-rss": "1.2.0",
 		"autoprefixer": "10.4.8",
 		"cheerio": "1.0.0-rc.12",
 		"concurrently": "7.3.0",
