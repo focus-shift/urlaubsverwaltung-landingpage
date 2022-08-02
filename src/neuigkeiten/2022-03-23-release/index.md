@@ -5,7 +5,6 @@ date: 2022-03-23
 title: Freie Tage in der Abwesenheitsübersicht und den Kalendern
 author: Tobias Schneider
 release-version: 4.31.0
-teaserImage: /static/update.jpg
 ---
 
 Bessere Übersicht deiner freien Tage in der Abwesenheitsübersicht und in den Kalendern

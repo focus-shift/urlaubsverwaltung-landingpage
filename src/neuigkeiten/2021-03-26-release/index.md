@@ -5,7 +5,6 @@ date: 2021-03-08
 title: Version 4.13.0 veröffentlicht
 author: Benjamin Seber
 release-version: 4.13.0
-teaserImage: /static/update.jpg
 ---
 
 Neue Features und Verbesserungen.

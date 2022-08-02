@@ -5,7 +5,6 @@ date: 2022-02-06
 title: Willkommen auf der dunklen Seite
 author: Benjamin Seber
 release-version: 4.30.0
-teaserImage: /static/update.jpg
 ---
 
 Mit Version 4.30.0 macht die Urlaubsverwaltung den Schritt zur dunklen Seite. Machst du ihn mit?
