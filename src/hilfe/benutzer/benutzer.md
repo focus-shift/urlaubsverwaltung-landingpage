@@ -135,6 +135,11 @@ Urlaubs im alten Jahr berechnet.
 Wenn bereits Resturlaub für das nächste Jahr eingetragen wurde, wird dieser
 am 1. Januar automatisch überschrieben.
 
+## Wann verfällt der Resturlaub eines Mitarbeitenden
+
+Das Datum für den Verfall des Resturlaubs eines Mitarbeitenden kann im Konto unter Urlaubsanspruch konfiguriert werden.
+Die Voreinstellung des Verfallsdatums wird zunächst auf den 01.04. gesetzt.
+
 ## Gibt es eine Möglichkeit ein Profil-Bild zu hinterlegen?
 
 Ja, aktuell unterstützen wir für Profilbilder die Lösung [Gravatar](https://de.gravatar.com/).\
