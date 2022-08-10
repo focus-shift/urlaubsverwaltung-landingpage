@@ -14,16 +14,16 @@ Außerdem gibt in der Urlaubsverwaltung auch einen [zweistufigen Genehmigungspro
 
 ## Wer wird informiert, wenn ein Abwesenheitsantrag gestellt wurde?
 
-Wenn ein Abwesenheitsantrag gestellt wurde, erhalten sowohl Abteilungsleiter des
-Mitarbeiters als auch globale Chefs eine E-Mail-Benachrichtigung.
+Wenn ein Abwesenheitsantrag gestellt wurde, erhält der betroffene Mitarbeitende sowie alle Personen, die ein Interesse an dieser Information
+haben, wie der Abteilungsleiter und Freigabe-Verantwortlicher des Mitarbeitenden als auch globale Chefs eine E-Mail-Benachrichtigung.
 
-Vorausgesetzt bei diesen Personen ist die entsprechende E-Mail-Benachrichtigung
-aktiviert.
+Vorausgesetzt bei diesen Personen ist die entsprechende E-Mail-Benachrichtigung aktiviert.
 
 ## Wer wird informiert, wenn ein Abwesenheitsantrag genehmigt wurde?
 
-Wenn ein Abwesenheitsantrag genehmigt wurde, erhalten sowohl der betroffene
-Mitarbeiter als auch die Office-Benutzer eine E-Mail-Benachrichtigung.
+Wenn ein Abwesenheitsantrag genehmigt wurde, erhalten sowohl der betroffene Mitarbeitende, sowie alle Personen die ein Interesse an dieser Information
+haben, wie der Abteilungsleiter und Freigabe-Verantwortlicher des Mitarbeitenden als auch die Office-Mitarbeitenden eine E-Mail-Benachrichtigung.
+
 Vorausgesetzt beim Office-Benutzer ist die entsprechende E-Mail-Benachrichtigung aktiviert.
 
 ## Wer wird informiert, wenn ein Abwesenheitsantrag abgelehnt wurde?
@@ -113,8 +113,8 @@ Ja, es ist möglich weitere Abwesenheitsarten zu konfigurieren. Diese können in
       alt="Konfiguration von Abwesenheitsarten"
       decoding="async"
       loading="lazy"
-      width="724"
-      height="797"
+      width="859"
+      height="754"
     />
   </picture>
 </p>
@@ -125,9 +125,22 @@ Ja, du kannst pro Abwesenheitsart festlegen, ob eine Genehmigung notwendig ist, 
 
 Bitte beachte zusätzlich, dass der für die Abteilung aktive Genehmigungsprozess verwendet wird.
 
+## Ist es möglich für alle Anträge einer bestimmten Abwesenheitsart diese für alle Mitarbeitenden ohne Informationsverlust darzustellen? 
+
+Ja, du kannst pro Abwesenheitsart festlegen, ob diese für alle Mitarbeitenden sichtbar ist und ohne Informationsverlust dargestellt wird.  
+Was bedeutet das?
+Wenn bei einer Abwesenheitsart die Checkbox "sichtbar" deaktiviert ist, werden die Informationen dieser Anträge lediglich
+für die Mitarbeitenden dargestellt, welche ein berechtigtes Interesse an der Information haben, dass es sich z.B. um einen Erholungsurlaub handelt.
+Ist die Checkbox aktiviert, erhalten alle Mitarbeitenden, welche die Anträge der Person sehen können, die Information über die Abwesenheitsart.
+
+## Ist es möglich die Anzeigefarbe einer Abwesenheitsart anzupassen?
+
+Ja, du kannst bei den Einstellungen zu Abwesenheitsarten die Farbe pro Abwesenheitsart konfigurieren. Diese Farbe wird dann
+in allen Kalendern und in der Abwesenheitsübersicht verwendet.
+
 ## Wie kann ich die Art der Abwesenheit bei einem Antrag bearbeiten?
 
-Die Art der Abwesenheit kann noch angepasst werden solange der Antrag noch nicht genehmigt wurde. Das Bearbeiten kann durch den Mitarbeiter selbst durchgeführt werden.
+Die Art der Abwesenheit kann noch angepasst werden, solange der Antrag noch nicht genehmigt wurde. Das Bearbeiten kann durch den Mitarbeiter selbst durchgeführt werden.
 
 <p>
   <picture>
@@ -148,7 +161,7 @@ Um einen bereits genehmigten Antrag zu editieren, muss der bisherige Antrag stor
 
 ## Wie funktioniert der Übergang zwischen zwei Jahren?
 
-Der Erholungsurlaub der im bisherigen Jahr noch nicht genommen wurde wird in das folgende Jahr übernommen. Diese Übernahme passiert in den Standard-Einstellungen am 1.1. des Folgejahres um 05:00 Uhr.
+Der Erholungsurlaub, welcher im bisherigen Jahr noch nicht genommen wurde, wird in das folgende Jahr übernommen. Diese Übernahme passiert in den Standard-Einstellungen am 1.1. des Folgejahres um 05:00 Uhr.
 Der übernommene Resturlaub beinhaltet alle bis zum 31.12. nicht genommenen Urlaubstage. Dieser Resturlaub kann dann bis zum Ende des Monats März genommen werden.
 
 ## Workflow bei Abwesenheitsanträgen
