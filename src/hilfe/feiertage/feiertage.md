@@ -7,7 +7,7 @@ title: Feiertage - Hilfe
 
 ## Wie kann ich die Feiertage für die Urlaubsverwaltung konfigurieren?
 
-In der Menüleiste gibt es einen Punkt "Einstellungen". Hier kann das Land sowie die Region
+In der Menüleiste gibt es einen Punkt "Einstellungen". Hier kann das Land sowie die Region (z.B. Bundesland für Deutschland)
 ausgewählt werden, dessen geltende Feiertage beim Beantragen von Urlaub als 0
 Arbeitstage gezählt werden. Außerdem kann konfiguriert werden, wie Heiligabend
 und Silvester behandelt werden: gelten diese als gar kein Arbeitstag, als
