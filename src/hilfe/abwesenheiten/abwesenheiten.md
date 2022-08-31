@@ -16,7 +16,7 @@ einen [zweistufigen Genehmigungsprozess](#wie-funktioniert-der-zweistufige-geneh
 
 ## Wer wird informiert, wenn ein Abwesenheitsantrag gestellt wurde?
 
-Wenn ein Abwesenheitsantrag gestellt wurde, erhält der betroffene Mitarbeitende sowie alle Personen, die ein Interesse
+Wenn ein Abwesenheitsantrag gestellt wurde, erhält der betroffene Mitarbeitende sowie alle Personen, die ein berechtigtes Interesse
 an dieser Information haben, wie der Abteilungsleiter und Freigabe-Verantwortlicher des Mitarbeitenden als auch globale 
 Chefs eine E-Mail-Benachrichtigung.
 
