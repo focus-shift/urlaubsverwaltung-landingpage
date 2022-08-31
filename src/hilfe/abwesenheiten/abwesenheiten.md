@@ -145,7 +145,7 @@ Wenn bei einer Abwesenheitsart die Checkbox "sichtbar" deaktiviert ist, werden d
 lediglich für die Mitarbeitenden dargestellt, welche ein berechtigtes Interesse an der Information haben, dass es sich 
 z.B. um einen Erholungsurlaub handelt.
 Ist die Checkbox aktiviert, erhalten alle Mitarbeitenden, welche die Anträge der Person sehen können, die Information
-über die Abwesenheitsart.
+über die Abwesenheitsart. Hiermit könnte man z.B. die Abwesenheitsart "Home-Office" für alle sichtbar machen, sodass diese Information in der Abwesenheitsübersicht zur Verfügung steht.
 
 ## Ist es möglich die Anzeigefarbe einer Abwesenheitsart anzupassen?
 
