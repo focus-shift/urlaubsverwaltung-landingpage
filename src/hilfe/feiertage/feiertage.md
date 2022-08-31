@@ -7,20 +7,52 @@ title: Feiertage - Hilfe
 
 ## Wie kann ich die Feiertage für die Urlaubsverwaltung konfigurieren?
 
-In der Menüleiste gibt es einen Punkt "Einstellungen". Hier kann das Bundesland
+In der Menüleiste gibt es einen Punkt "Einstellungen". Hier kann das Land sowie die Region (z.B. Bundesland für Deutschland)
 ausgewählt werden, dessen geltende Feiertage beim Beantragen von Urlaub als 0
 Arbeitstage gezählt werden. Außerdem kann konfiguriert werden, wie Heiligabend
 und Silvester behandelt werden: gelten diese als gar kein Arbeitstag, als
 halber Arbeitstag oder als voller Arbeitstag?
 
-## Kann ich für einen bestimmten Benutzer die geltenden Feiertage konfigurieren?
+<p>
+  <picture>
+    <source srcset="einstellungen-feiertage.avif" type="image/avif" />
+    <source srcset="einstellungen-feiertage.webp" type="image/webp" />
+    <img
+      src="einstellungen-feiertage.png"
+      alt="Einstellungsmöglichkeit der globalen Feiertagsregelung"
+      decoding="async"
+      loading="lazy"
+      width="862"
+      height="226"
+    />
+  </picture>
+</p>
 
-Pro Benutzer kann beim Bearbeiten der Benutzerdaten ein Bundesland ausgewählt
-werden, wenn der Benutzer nicht dem systemweit eingestellten Bundesland
-zugehörig ist. Die Feiertage für den Benutzer werden dann anhand des
-benutzerspezifischen Bundeslands berechnet.
+## Kann ich für einen bestimmten Mitarbeitenden die geltenden Feiertage konfigurieren?
+
+Ja, im Konto des Mitarbeitenden kann unter dem Punkt "Feiertagsregelung" die systemweite eingestellte Feiertagsregelung
+durch eine persönliche Feiertagsregelung überschrieben werden. Die Feiertage für den Mitarbeitenden werden dann anhand
+des
+persönlichen Landes/Region berechnet.
+
+<p>
+  <picture>
+    <source srcset="konto-feiertage.avif" type="image/avif" />
+    <source srcset="konto-feiertage.webp" type="image/webp" />
+    <img
+      src="konto-feiertage.png"
+      alt="Einstellungsmöglichkeit der persönlichen Feiertagsregelung"
+      decoding="async"
+      loading="lazy"
+      width="898"
+      height="483"
+    />
+  </picture>
+</p>
+
 
 ## Welche Feiertage sind vorhanden?
 
-Die Urlaubsverwaltung bietet alle in der DACH-Region geltenden Feiertage pro Bundesland/Kanton an. 
-Auch Besonderheiten wie z. B. das Augsburger Friedensfest ist mit dabei. Sollte uns ein Feiertag fehlen, gib uns gerne kurz Bescheid!
+Die Urlaubsverwaltung bietet alle geltenden Feiertage der DACH-Region, des Vereinigten Königreiches und Griechenlands
+und weiteren europäischen Länder an. Auch Besonderheiten wie z. B. das Augsburger Friedensfest ist mit dabei. Sollte uns
+ein Feiertag fehlen, gib uns gerne kurz Bescheid!
