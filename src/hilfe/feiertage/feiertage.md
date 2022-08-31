@@ -30,7 +30,7 @@ halber Arbeitstag oder als voller Arbeitstag?
 
 ## Kann ich für einen bestimmten Mitarbeitenden die geltenden Feiertage konfigurieren?
 
-Ja, im Konto des Mitarbeitenden kann unter dem Punkt 'Feiertagsregelung' die systemweite eingestellte Feiertagsregelung
+Ja, im Konto des Mitarbeitenden kann unter dem Punkt "Feiertagsregelung" die systemweite eingestellte Feiertagsregelung
 durch eine persönliche Feiertagsregelung überschrieben werden. Die Feiertage für den Mitarbeitenden werden dann anhand
 des
 persönlichen Landes/Region berechnet.
