@@ -136,7 +136,7 @@ Ja, du kannst pro Abwesenheitsart festlegen, ob eine Genehmigung notwendig ist, 
 
 Bitte beachte zusätzlich, dass der für die Abteilung aktive Genehmigungsprozess verwendet wird.
 
-## Ist es möglich für alle Anträge einer bestimmten Abwesenheitsart diese für alle Mitarbeitenden ohne Informationsverlust darzustellen?
+## Ist es möglich eine bestimmte Abwesenheitsarten für alle Mitarbeitenden sichtbar zu machen?
 
 Ja, du kannst pro Abwesenheitsart festlegen, ob diese für alle Mitarbeitenden sichtbar ist und ohne Informationsverlust
 dargestellt wird.  
