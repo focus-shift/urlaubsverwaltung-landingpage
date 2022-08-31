@@ -25,7 +25,7 @@ Vorausgesetzt bei diesen Personen ist die entsprechende E-Mail-Benachrichtigung 
 ## Wer wird informiert, wenn ein Abwesenheitsantrag genehmigt wurde?
 
 Wenn ein Abwesenheitsantrag genehmigt wurde, erhalten sowohl der betroffene Mitarbeitende, sowie alle Personen die ein
-Interesse an dieser Information haben, wie der Abteilungsleiter und Freigabe-Verantwortlicher des Mitarbeitenden als 
+berechtigtes Interesse an dieser Information haben, wie der Abteilungsleiter und Freigabe-Verantwortlicher des Mitarbeitenden als 
 auch die Office-Mitarbeitenden eine E-Mail-Benachrichtigung.
 
 Vorausgesetzt beim Office-Benutzer ist die entsprechende E-Mail-Benachrichtigung aktiviert.
