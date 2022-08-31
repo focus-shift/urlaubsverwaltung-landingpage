@@ -5,7 +5,6 @@ date: 2022-06-01
 title: 🌈 Jetzt wirds bunt! Individuelle Farben und Sichtbarkeiten für deine Abwesenheitsarten
 author: Andreas Weigel
 release-version: 4.39.0
-teaserImage: /static/update.jpg
 ---
 
 Die Farbe und Sichtbarkeit einer Abwesenheitsart können ab sofort individuell konfiguriert werden. 

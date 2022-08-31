@@ -5,7 +5,6 @@ date: 2022-03-24
 title: Überarbeitung der Überstundenübersicht
 author: Tobias Schneider
 release-version: 4.31.0
-teaserImage: /static/update.jpg
 ---
 
 Bessere Nachvollziehbarkeit und Übersicht deiner Überstunden
