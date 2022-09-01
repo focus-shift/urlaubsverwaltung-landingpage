@@ -23,7 +23,7 @@
 		"autoprefixer": "10.4.8",
 		"cheerio": "1.0.0-rc.12",
 		"concurrently": "7.3.0",
-		"date-fns": "2.29.1",
+		"date-fns": "2.29.2",
 		"esbuild": "0.14.51",
 		"eslint": "8.21.0",
 		"eslint-config-prettier": "8.5.0",
