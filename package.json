@@ -24,7 +24,7 @@
 		"cheerio": "1.0.0-rc.12",
 		"concurrently": "7.3.0",
 		"date-fns": "2.29.2",
-		"esbuild": "0.14.51",
+		"esbuild": "0.15.6",
 		"eslint": "8.23.0",
 		"eslint-config-prettier": "8.5.0",
 		"eslint-plugin-prettier": "4.2.1",
