@@ -1,0 +1,127 @@
+
+.zeit-feature-card-border {
+    @apply md:bg-gradient-to-b;
+    @apply from-gray-50;
+    @apply to-sky-50;
+    padding: 1.125rem;
+}
+
+.zeit-feature-card {
+    @apply bg-white;
+    @apply flex;
+    @apply flex-col;
+    border-radius: 1.125rem;
+}
+
+.zeit-feature-card_description {
+    @apply flex-1;
+    @apply p-8;
+}
+
+.zeit-feature-card_description h3 {
+    @apply font-bold;
+    @apply text-xl;
+}
+
+.zeit-feature-card_description p {
+    @apply mt-4;
+}
+
+.zeit-feature-card_image {
+    @apply relative;
+    @apply flex;
+    @apply p-4;
+}
+
+.zeit-feature-card_image-cover {
+    @apply hidden;
+}
+
+.zeit-feature-card_image img {
+    @apply w-full;
+    @apply border;
+    @apply border-gray-100;
+    @apply rounded-xl;
+}
+
+@screen sm {
+    .zeit-feature-card_image {
+        @apply p-8;
+    }
+
+    .zeit-feature-card_description h3 {
+        @apply text-2xl;
+    }
+
+    .zeit-feature-card_description p {
+        @apply text-lg;
+    }
+}
+
+@screen md {
+    .zeit-feature-card-border {
+        border-radius: 1.375rem;
+    }
+
+    .zeit-feature-card {
+        @apply flex-row;
+        @apply gap-4;
+    }
+
+    .zeit-feature-card_description {
+        @apply py-24;
+        @apply px-12;
+    }
+
+    .zeit-feature-card_description h3 {
+        @apply text-3xl;
+    }
+
+    .zeit-feature-card_description p {
+        @apply mt-8;
+    }
+
+    .zeit-feature-card_image {
+        @apply p-0;
+        @apply w-1/2;
+    }
+
+    .zeit-feature-card_image-cover {
+        @apply block;
+        @apply w-1/2;
+        @apply absolute;
+        @apply left-0;
+        @apply top-0;
+        @apply bottom-0;
+        @apply bg-gradient-to-r;
+        @apply from-white;
+    }
+
+    .zeit-feature-card_image img {
+        @apply rounded-r-2xl;
+        object-fit: cover;
+        object-position: 25%;
+    }
+}
+
+@screen lg {
+    .zeit-feature-card_image {
+        @apply w-3/5;
+    }
+
+    .zeit-feature-card_image-cover {
+        @apply w-full;
+    }
+
+    .zeit-feature-card_image img {
+        object-fit: none;
+        object-position: 50% 50%;
+    }
+}
+
+@screen xl {
+    .zeit-feature-card_description {
+        @apply py-32;
+        @apply px-16;
+    }
+}

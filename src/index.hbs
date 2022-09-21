@@ -6,29 +6,29 @@ backgroundColor: bg-white
 {{> partials/navigation active="funktionen" noMargin=true }}
 
 <div>
-	<div
-		class="relative bg-sky-100 py-12 md:py-20 lg:pb-32"
-		style="
-			background-image: conic-gradient(from -.5turn at bottom right, #38BDF8, #FEF3C7, #BAE6FD);
-		"
-	>
-		<div class="z-10 w-full max-w-screen-xl mx-auto px-2">
-			<a data-append-utm href="https://registry.apps.urlaubsverwaltung.cloud/registration">
-				<div class="mb-2 px-8 py-4 bg-white bg-opacity-50">
-					<p class="text-2xl md:text-5xl font-bold leading-tight bg-gradient-to-r from-red-900 via-yellow-700 to-cyan-600 text-transparent bg-clip-text saturate-150 drop-shadow">
-						Digitalisiere jetzt dein Unternehmen!
-					</p>
-				</div>
-				<div class="px-8 py-4 text-lg md:text-3xl font-bold text-black text-opacity-90 bg-white bg-opacity-50">
-					<p class="flex items-center">
-						Abwesenheiten einfach verwalten — ohne Papierkram.
-						<span class="text-red-700 mx-2">
-							<svg class="w-8 h-8" fill="currentColor" width="16px" height="16px" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M3.172 5.172a4 4 0 015.656 0L10 6.343l1.172-1.171a4 4 0 115.656 5.656L10 17.657l-6.828-6.829a4 4 0 010-5.656z" clip-rule="evenodd"></path></svg>
-						</span>
-					</p>
-				</div>
-			</a>
-	</div>
+  <div
+    class="relative bg-sky-100 py-12 md:py-20 lg:pb-32"
+    style="
+      background-image: conic-gradient(from -.5turn at bottom right, #38BDF8, #FEF3C7, #BAE6FD);
+    "
+  >
+    <div class="z-10 w-full max-w-screen-xl mx-auto px-2">
+      <a data-append-utm href="https://registry.apps.urlaubsverwaltung.cloud/registration">
+        <div class="mb-2 px-8 py-4 bg-white bg-opacity-50">
+          <p class="text-2xl md:text-5xl font-bold leading-tight bg-gradient-to-r from-red-900 via-yellow-700 to-cyan-600 text-transparent bg-clip-text saturate-150 drop-shadow">
+            Digitalisiere jetzt dein Unternehmen!
+          </p>
+        </div>
+        <div class="px-8 py-4 text-lg md:text-3xl font-bold text-black text-opacity-90 bg-white bg-opacity-50">
+          <p class="flex items-center">
+            Arbeitszeit erfassen und Abwesenheiten einfach verwalten — ohne Papierkram.
+            <span class="text-red-700 mx-2">
+              <svg class="w-8 h-8" fill="currentColor" width="16px" height="16px" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M3.172 5.172a4 4 0 015.656 0L10 6.343l1.172-1.171a4 4 0 115.656 5.656L10 17.657l-6.828-6.829a4 4 0 010-5.656z" clip-rule="evenodd"></path></svg>
+            </span>
+          </p>
+        </div>
+      </a>
+  </div>
 </div>
 
 <main>
@@ -44,6 +44,14 @@ backgroundColor: bg-white
           </span>
         </div>
         <ul class="space-y-3 xs:max-w-md mb-8 xs:mb-12 sm:mb-8 md:mb-12 xs:px-6">
+          <li class="flex items-center">
+            <span class="mr-3">
+              {{> partials/icon-check class='w-6 h-6'}}
+            </span>
+            <span class="flex items-center">
+              Arbeitszeiten erfassen <span class="ml-1 inline-block px-2 py-0.5 bg-blue-600 text-white rounded-sm text-sm">Neu</span>
+            </span>
+          </li>
           <li class="flex items-start">
             <span class="mr-3">
               {{> partials/icon-check class='w-6 h-6'}}
@@ -52,14 +60,14 @@ backgroundColor: bg-white
               Papierlos Urlaub und Abwesenheiten beantragen und genehmigen
             </span>
           </li>
-					<li class="flex items-start">
+          <li class="flex items-start">
             <span class="mr-3">
-							{{> partials/icon-check class='w-6 h-6'}}
-						</span>
-						<span>
+              {{> partials/icon-check class='w-6 h-6'}}
+            </span>
+            <span>
               Individualisierbare Abwesenheiten
             </span>
-					</li>
+          </li>
           <li class="flex items-start">
             <span class="mr-3">
               {{> partials/icon-check class='w-6 h-6'}}
@@ -141,43 +149,71 @@ backgroundColor: bg-white
         Funktionen
       </h2>
       <div class="grid md:grid-cols-2 gap-4 lg:gap-8">
-				<div class="p-8 bg-sky-50 flex flex-col">
-					<h3 class="text-sky-900 text-xl mb-6">
-						Individualisierbare Abwesenheiten
-					</h3>
-					<p class="flex-1 text-black text-opacity-60 mb-6">
-						Du möchtest die Abwesenheiten der Urlaubsverwaltung anpassen? Kein Problem! Wähle aus verschiedenen Abwesenheiten die Richtigen
-						für dich aus. Wähle aus Erholungsurlaub, Fortbildung, Kur, Home-Office und vielen weiteren!
-					</p>
-					<div>
-						<picture>
-							<source srcset="/static/uv-abwesenheitsarten_sm.avif" media="(max-width: 639px)" type="image/avif">
-							<source srcset="/static/uv-abwesenheitsarten_sm.webp" media="(max-width: 639px)" type="image/webp">
-							<source srcset="/static/uv-abwesenheitsarten_sm.png" media="(max-width: 639px)">
-							<source srcset="/static/uv-abwesenheitsarten.avif" type="image/avif">
-							<source srcset="/static/uv-abwesenheitsarten.webp" type="image/webp">
-							<img src="/static/uv-abwesenheitsarten.png" width="730px" height="416px" alt="Konfiguration der Abwesenheitsarten">
-						</picture>
-					</div>
-				</div>
-				<div class="p-8 bg-sky-50 flex flex-col">
-					<h3 class="text-sky-900 text-xl mb-6">
-						Teamübersicht
-					</h3>
-					<p class="flex-1 text-black text-opacity-60 mb-6">
-						Wann sind meine Kolleginnen und Kollegen abwesend? Kann nächsten Monat ein neues Projekt gestartet werden? Die Teamübersicht gibt dir Einsicht auf alle Teams und das komplette Jahr.
-					</p>
-					<div>
-						<picture>
+        <div class="p-8 bg-sky-50 flex flex-col relative overflow-hidden">
+          <aside class="absolute right-0 top-0 rotate-45 translate-x-8 translate-y-4 px-12 bg-blue-600 text-white font-bold text-lg shadow-lg shadow-blue-200">
+            Neu
+          </aside>
+          <h3 class="text-sky-900 text-xl mb-6">
+            Arbeitszeit erfassen
+          </h3>
+          <p class="text-black text-opacity-60 mb-6">
+            Du möchtest (oder musst) Arbeitszeiten in deinem Unternehmen digital erfassen und nachweisen können?
+            Dann tauche tiefer ein und erfahre mehr über die Zeiterfassung von urlaubsverwaltung.cloud.
+          </p>
+          <div>
+            <a href="/zeiterfassung" class="text-black hover:underline">
+              {{> partials/icon-chevron-double-right class='w-4 h-4 -mt-0.5 inline-block'}}
+              mehr Informationen
+            </a>
+          </div>
+          <div class="mt-8">
+            <picture>
+  <!--            <source srcset="/static/uv-abwesenheitsarten_sm.avif" media="(max-width: 639px)" type="image/avif">-->
+  <!--            <source srcset="/static/uv-abwesenheitsarten_sm.webp" media="(max-width: 639px)" type="image/webp">-->
+  <!--            <source srcset="/static/uv-abwesenheitsarten_sm.png" media="(max-width: 639px)">-->
+  <!--            <source srcset="/static/uv-abwesenheitsarten.avif" type="image/avif">-->
+  <!--            <source srcset="/static/uv-abwesenheitsarten.webp" type="image/webp">-->
+              <img src="/static/zeiterfassung.png" width="730px" height="416px" alt="Zeiten erfassen mit der Arbeitszeiterfassung.">
+            </picture>
+          </div>
+        </div>
+        <div class="p-8 bg-sky-50 flex flex-col">
+          <h3 class="text-sky-900 text-xl mb-6">
+            Individualisierbare Abwesenheiten
+          </h3>
+          <p class="flex-1 text-black text-opacity-60 mb-6">
+            Du möchtest die Abwesenheiten der Urlaubsverwaltung anpassen? Kein Problem! Wähle aus verschiedenen Abwesenheiten die Richtigen
+            für dich aus. Wähle aus Erholungsurlaub, Fortbildung, Kur, Home-Office und vielen weiteren!
+          </p>
+          <div>
+            <picture>
+              <source srcset="/static/uv-abwesenheitsarten_sm.avif" media="(max-width: 639px)" type="image/avif">
+              <source srcset="/static/uv-abwesenheitsarten_sm.webp" media="(max-width: 639px)" type="image/webp">
+              <source srcset="/static/uv-abwesenheitsarten_sm.png" media="(max-width: 639px)">
+              <source srcset="/static/uv-abwesenheitsarten.avif" type="image/avif">
+              <source srcset="/static/uv-abwesenheitsarten.webp" type="image/webp">
+              <img src="/static/uv-abwesenheitsarten.png" width="730px" height="416px" alt="Konfiguration der Abwesenheitsarten">
+            </picture>
+          </div>
+        </div>
+        <div class="p-8 bg-sky-50 flex flex-col">
+          <h3 class="text-sky-900 text-xl mb-6">
+            Teamübersicht
+          </h3>
+          <p class="flex-1 text-black text-opacity-60 mb-6">
+            Wann sind meine Kolleginnen und Kollegen abwesend? Kann nächsten Monat ein neues Projekt gestartet werden? Die Teamübersicht gibt dir Einsicht auf alle Teams und das komplette Jahr.
+          </p>
+          <div>
+            <picture>
               <source srcset="/static/uv-teamuebersicht_sm.avif" media="(max-width: 639px)" type="image/avif">
               <source srcset="/static/uv-teamuebersicht_sm.webp" media="(max-width: 639px)" type="image/webp">
-							<source srcset="/static/uv-teamuebersicht_sm.png" media="(max-width: 639px)">
+              <source srcset="/static/uv-teamuebersicht_sm.png" media="(max-width: 639px)">
               <source srcset="/static/uv-teamuebersicht.avif" type="image/avif">
               <source srcset="/static/uv-teamuebersicht.webp" type="image/webp">
-							<img src="/static/uv-teamuebersicht.png" width="1204" height="640" alt="Abwesenheiten der Teams im Überblick">
-						</picture>
-					</div>
-				</div>
+              <img src="/static/uv-teamuebersicht.png" width="1204" height="640" alt="Abwesenheiten der Teams im Überblick">
+            </picture>
+          </div>
+        </div>
         <div class="p-8 bg-sky-50 flex flex-col">
           <h3 class="text-sky-900 text-xl mb-6">
             Kalendarische Übersicht
@@ -331,47 +367,47 @@ backgroundColor: bg-white
 
 <div class="bg-sky-100 pt-12 lg:pt-24 xl:pt-32">
   <div class="w-full max-w-screen-xl mx-auto">
-		<h2 class="px-4 xs:px-12 md:px-0 text-2xl font-bold mb-12 md:ml-8 md:mb-16 2xl:mb-24">
-			Das sagen unsere Kunden
-		</h2>
- 		<div class="px-6 xs:px-14 md:px-10 2xl:px-0 grid md:grid-cols-2 gap-8 2xl:gap-16">
-			<figure class="p-8 relative">
-				<svg width="90" height="90" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 310.284 310.284" class="text-white fill-current absolute -left-2 -top-2 2xl:-left-6 2xl:-top-8 w-16 h-16 md:w-22 md:h-22 2xl:w-24 2xl:h-24">
-					<path d="M155.142,0C69.597,0,0,69.597,0,155.142s69.597,155.142,155.142,155.142s155.142-69.597,155.142-155.142  S240.688,0,155.142,0z M79.171,231.401c-1.746,1.182-6.129,2.222-8.693-0.625l-4.731-5.95c-2.288-3.869,0.483-7.457,2.277-8.945  c8.529-7.075,14.731-12.548,18.601-16.419c7.589-7.981,13.199-15.97,16.903-23.935c0.847-1.821-1.315-2.977-2.438-3.345  c-27.967-9.166-41.955-25.325-41.955-48.474c0-13.639,4.53-24.722,13.585-33.242c9.059-8.525,20.407-12.785,34.041-12.785  c12.146,0,22.909,5.539,32.283,16.621c9.165,10.438,13.744,21.735,13.744,33.881C152.789,163.78,128.251,198.185,79.171,231.401z   M185.61,231.401c-1.746,1.182-6.129,2.222-8.693-0.625l-4.731-5.95c-2.288-3.869,0.483-7.457,2.277-8.945  c8.528-7.075,14.731-12.548,18.601-16.419c7.589-7.981,13.199-15.97,16.904-23.935c0.847-1.821-1.315-2.977-2.438-3.345  c-27.967-9.166-41.955-25.325-41.955-48.474c0-13.639,4.53-24.722,13.585-33.242c9.06-8.525,20.407-12.785,34.041-12.785  c12.146,0,22.909,5.539,32.283,16.621c9.164,10.438,13.744,21.735,13.744,33.881C259.228,163.78,234.69,198.185,185.61,231.401z"/>
-				</svg>
-				<div class="relative">
-					<blockquote class="text-xl 2xl:text-2xl mb-6 md:mb-4">
-						"Kompliment, ihr seid echt fix mit der Umsetzung von Verbesserungen, das ist Klasse!"
-					</blockquote>
-					<figcaption class="flex flex-col">
-						<cite class="font-bold lg:text-lg">
-							Angela Breyer
-						</cite>
-						<span class="lg:text-lg text-black text-opacity-50">
-							Organisationsentwicklung
-						</span>
-					</figcaption>
-				</div>
-			</figure>
-			<figure class="p-8 relative">
-				<svg width="90" height="90" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 310.284 310.284" class="text-white fill-current absolute -left-2 -top-2 2xl:-left-6 2xl:-top-8 w-16 h-16 md:w-22 md:h-22 2xl:w-24 2xl:h-24">
-					<path d="M155.142,0C69.597,0,0,69.597,0,155.142s69.597,155.142,155.142,155.142s155.142-69.597,155.142-155.142  S240.688,0,155.142,0z M79.171,231.401c-1.746,1.182-6.129,2.222-8.693-0.625l-4.731-5.95c-2.288-3.869,0.483-7.457,2.277-8.945  c8.529-7.075,14.731-12.548,18.601-16.419c7.589-7.981,13.199-15.97,16.903-23.935c0.847-1.821-1.315-2.977-2.438-3.345  c-27.967-9.166-41.955-25.325-41.955-48.474c0-13.639,4.53-24.722,13.585-33.242c9.059-8.525,20.407-12.785,34.041-12.785  c12.146,0,22.909,5.539,32.283,16.621c9.165,10.438,13.744,21.735,13.744,33.881C152.789,163.78,128.251,198.185,79.171,231.401z   M185.61,231.401c-1.746,1.182-6.129,2.222-8.693-0.625l-4.731-5.95c-2.288-3.869,0.483-7.457,2.277-8.945  c8.528-7.075,14.731-12.548,18.601-16.419c7.589-7.981,13.199-15.97,16.904-23.935c0.847-1.821-1.315-2.977-2.438-3.345  c-27.967-9.166-41.955-25.325-41.955-48.474c0-13.639,4.53-24.722,13.585-33.242c9.06-8.525,20.407-12.785,34.041-12.785  c12.146,0,22.909,5.539,32.283,16.621c9.164,10.438,13.744,21.735,13.744,33.881C259.228,163.78,234.69,198.185,185.61,231.401z"/>
-				</svg>
-				<div class="relative">
-					<blockquote class="text-xl 2xl:text-2xl mb-6 md:mb-4">
-						"Die Urlaubsverwaltung wird sowohl von den Kollegen als auch von der Geschäftsleitung sehr gut angenommen und auch Kollegen, die sich ansonsten schwer tun mit jeglichen Anwendungen, hatten keine Probleme."
-					</blockquote>
-					<figcaption class="flex flex-col">
-						<cite class="font-bold lg:text-lg">
-							Frank Rheinfelder
-						</cite>
-						<span class="lg:text-lg text-black text-opacity-50">
-							Betriebswirt / Bilanzbuchhalter
-						</span>
-					</figcaption>
-				</div>
-			</div>
-		</div>
+    <h2 class="px-4 xs:px-12 md:px-0 text-2xl font-bold mb-12 md:ml-8 md:mb-16 2xl:mb-24">
+      Das sagen unsere Kunden
+    </h2>
+     <div class="px-6 xs:px-14 md:px-10 2xl:px-0 grid md:grid-cols-2 gap-8 2xl:gap-16">
+      <figure class="p-8 relative">
+        <svg width="90" height="90" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 310.284 310.284" class="text-white fill-current absolute -left-2 -top-2 2xl:-left-6 2xl:-top-8 w-16 h-16 md:w-22 md:h-22 2xl:w-24 2xl:h-24">
+          <path d="M155.142,0C69.597,0,0,69.597,0,155.142s69.597,155.142,155.142,155.142s155.142-69.597,155.142-155.142  S240.688,0,155.142,0z M79.171,231.401c-1.746,1.182-6.129,2.222-8.693-0.625l-4.731-5.95c-2.288-3.869,0.483-7.457,2.277-8.945  c8.529-7.075,14.731-12.548,18.601-16.419c7.589-7.981,13.199-15.97,16.903-23.935c0.847-1.821-1.315-2.977-2.438-3.345  c-27.967-9.166-41.955-25.325-41.955-48.474c0-13.639,4.53-24.722,13.585-33.242c9.059-8.525,20.407-12.785,34.041-12.785  c12.146,0,22.909,5.539,32.283,16.621c9.165,10.438,13.744,21.735,13.744,33.881C152.789,163.78,128.251,198.185,79.171,231.401z   M185.61,231.401c-1.746,1.182-6.129,2.222-8.693-0.625l-4.731-5.95c-2.288-3.869,0.483-7.457,2.277-8.945  c8.528-7.075,14.731-12.548,18.601-16.419c7.589-7.981,13.199-15.97,16.904-23.935c0.847-1.821-1.315-2.977-2.438-3.345  c-27.967-9.166-41.955-25.325-41.955-48.474c0-13.639,4.53-24.722,13.585-33.242c9.06-8.525,20.407-12.785,34.041-12.785  c12.146,0,22.909,5.539,32.283,16.621c9.164,10.438,13.744,21.735,13.744,33.881C259.228,163.78,234.69,198.185,185.61,231.401z"/>
+        </svg>
+        <div class="relative">
+          <blockquote class="text-xl 2xl:text-2xl mb-6 md:mb-4">
+            "Kompliment, ihr seid echt fix mit der Umsetzung von Verbesserungen, das ist Klasse!"
+          </blockquote>
+          <figcaption class="flex flex-col">
+            <cite class="font-bold lg:text-lg">
+              Angela Breyer
+            </cite>
+            <span class="lg:text-lg text-black text-opacity-50">
+              Organisationsentwicklung
+            </span>
+          </figcaption>
+        </div>
+      </figure>
+      <figure class="p-8 relative">
+        <svg width="90" height="90" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 310.284 310.284" class="text-white fill-current absolute -left-2 -top-2 2xl:-left-6 2xl:-top-8 w-16 h-16 md:w-22 md:h-22 2xl:w-24 2xl:h-24">
+          <path d="M155.142,0C69.597,0,0,69.597,0,155.142s69.597,155.142,155.142,155.142s155.142-69.597,155.142-155.142  S240.688,0,155.142,0z M79.171,231.401c-1.746,1.182-6.129,2.222-8.693-0.625l-4.731-5.95c-2.288-3.869,0.483-7.457,2.277-8.945  c8.529-7.075,14.731-12.548,18.601-16.419c7.589-7.981,13.199-15.97,16.903-23.935c0.847-1.821-1.315-2.977-2.438-3.345  c-27.967-9.166-41.955-25.325-41.955-48.474c0-13.639,4.53-24.722,13.585-33.242c9.059-8.525,20.407-12.785,34.041-12.785  c12.146,0,22.909,5.539,32.283,16.621c9.165,10.438,13.744,21.735,13.744,33.881C152.789,163.78,128.251,198.185,79.171,231.401z   M185.61,231.401c-1.746,1.182-6.129,2.222-8.693-0.625l-4.731-5.95c-2.288-3.869,0.483-7.457,2.277-8.945  c8.528-7.075,14.731-12.548,18.601-16.419c7.589-7.981,13.199-15.97,16.904-23.935c0.847-1.821-1.315-2.977-2.438-3.345  c-27.967-9.166-41.955-25.325-41.955-48.474c0-13.639,4.53-24.722,13.585-33.242c9.06-8.525,20.407-12.785,34.041-12.785  c12.146,0,22.909,5.539,32.283,16.621c9.164,10.438,13.744,21.735,13.744,33.881C259.228,163.78,234.69,198.185,185.61,231.401z"/>
+        </svg>
+        <div class="relative">
+          <blockquote class="text-xl 2xl:text-2xl mb-6 md:mb-4">
+            "Die Urlaubsverwaltung wird sowohl von den Kollegen als auch von der Geschäftsleitung sehr gut angenommen und auch Kollegen, die sich ansonsten schwer tun mit jeglichen Anwendungen, hatten keine Probleme."
+          </blockquote>
+          <figcaption class="flex flex-col">
+            <cite class="font-bold lg:text-lg">
+              Frank Rheinfelder
+            </cite>
+            <span class="lg:text-lg text-black text-opacity-50">
+              Betriebswirt / Bilanzbuchhalter
+            </span>
+          </figcaption>
+        </div>
+      </div>
+    </div>
   </div>
 </div>
 
