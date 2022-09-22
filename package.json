@@ -23,6 +23,7 @@
 		"autoprefixer": "10.4.8",
 		"cheerio": "1.0.0-rc.12",
 		"concurrently": "7.3.0",
+		"cssnano": "5.1.13",
 		"date-fns": "2.29.2",
 		"esbuild": "0.15.6",
 		"eslint": "8.23.0",
