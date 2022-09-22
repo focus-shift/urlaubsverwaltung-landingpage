@@ -1,0 +1,317 @@
+---
+layout: layout
+title: Zeiterfassung
+stylesheets:
+  - /static/css/zeiterfassung.css
+---
+
+{{> partials/navigation active="funktionen" }}
+
+<main class="flex-1">
+
+	<div class="w-full max-w-screen-xl mx-auto">
+		<div class="px-12 sm:px-20 xl:px-12 2xl:px-4">
+			<h2 class="text-2xl font-bold" id="zeiterfassung">
+				Arbeitszeit erfassen
+			</h2>
+
+			<p class="mt-4">
+				Einfach und von überall deine Arbeitszeit erfassen.
+			</p>
+
+			<div class="mt-12 flex flex-col md:flex-row gap-8">
+				<div class="flex-1 flex flex-col">
+					<p class="font-bold">Features</p>
+					<ul class="mt-4 flex flex-col gap-3">
+						<li class="flex items-start">
+							<span class="mr-3">
+								{{> partials/icon-check class='w-6 h-6'}}
+							</span>
+							Erfassen von Arbeitszeiten: Kommt-Geht Erfassung oder einzelne Zeitbuchungen
+						</li>
+						<li class="flex items-start">
+							<span class="mr-3">
+								{{> partials/icon-check class='w-6 h-6'}}
+							</span>
+							Stoppuhr-Modus
+						</li>
+						<li class="flex items-start">
+							<span class="mr-3">
+								{{> partials/icon-check class='w-6 h-6'}}
+							</span>
+							Visualisierung der geleisteten Stunden auf Wochen und Monatsebene
+						</li>
+						<li class="flex items-start">
+							<span class="mr-3">
+								{{> partials/icon-check class='w-6 h-6'}}
+							</span>
+							Berichte für eigene erfasste Stunden
+						</li>
+						<li class="flex items-start">
+							<span class="mr-3">
+								{{> partials/icon-check class='w-6 h-6'}}
+							</span>
+							Berichte für Vorgesetzte
+						</li>
+						<li class="flex items-start">
+							<span class="mr-3">
+								{{> partials/icon-check class='w-6 h-6'}}
+							</span>
+							Export für z. B. Excel
+						</li>
+					</ul>
+					<p class="mt-12">
+						Und immer ein offenes Ohr für Fragen, Feedback und Funktionserweiterungen.
+					</p>
+					<p class="mb-2 xs:text-lg md:text-base">
+						Sichere dir jetzt deine eigene Urlaubsverwaltung inklusive Zeiterfassung.
+					</p>
+					<div class="max-w-lg">
+						<a data-append-utm
+							 href="https://registry.apps.urlaubsverwaltung.cloud/registration"
+							 class="px-3 py-2 text-lg font-medium flex items-center justify-center no-underline rounded whitespace-nowrap bg-yellow-300 text-sky-900 text-opacity-90 hover:text-opacity-100 border border-sky-100 hover:border-blue-200 hover:shadow-md active:shadow"
+							 data-goal="signup"
+							 data-goal-trigger="hero-element"
+						>
+							<span class="mr-2">
+								Zeiterfassung kostenlos testen
+							</span>
+							<span>
+								{{> partials/icon-cursor-click class='w-5 h-5'}}
+							</span>
+						</a>
+					</div>
+					<p class="mt-4">
+						<span class="mr-1 inline-block px-2 py-1 bg-blue-600 text-white rounded-sm text-sm">Neu</span>
+						Nutze die Zeiterfassung unverbindlich und kostenlos bis Ende 2022.
+					</p>
+				</div>
+				<div class="md:w-1/2">
+					<picture>
+						<source srcset="/static/zeiterfassung-multi-device.webp" type="image/webp">
+						<img src="/static/zeiterfassung-multi-device.png" width="1220" height="795" class="w-full" alt="">
+					</picture>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<h2 class="sr-only">
+		Funktionen
+	</h2>
+
+	<div class="mt-16 md:mt-32 bg-gradient-to-b from-white to-sky-100">
+		<div class="w-full max-w-screen-xl mx-auto md:px-8 2xl:px-0">
+			<div class="zeit-feature-card-border">
+				<div class="zeit-feature-card">
+					<div class="zeit-feature-card_description">
+						<h3>
+							Arbeitszeiten erfassen
+						</h3>
+						<p>
+							Erfasse Arbeitszeiten für bestimmte Tage und Zeitspannen.
+						</p>
+						<p>
+							Ergänze den Eintrag mit einem Kommentar, damit er später wieder zugeordnet werden kann.
+						</p>
+					</div>
+					<div class="zeit-feature-card_image">
+						<div class="zeit-feature-card_image-cover"></div>
+						<picture>
+							<source srcset="/static/zeiterfassung-zeit-erfassen.webp" type="image/webp">
+							<img src="/static/zeiterfassung-zeit-erfassen.png" width="1537" height="881" alt="">
+						</picture>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="bg-sky-100 lg:pt-16 xl:pt-24">
+		<div class="w-full max-w-screen-xl mx-auto md:px-8 2xl:px-0">
+
+			<div class="zeit-feature-card-border">
+				<div class="zeit-feature-card">
+					<div class="zeit-feature-card_description">
+						<h3>
+							Zeit stempeln
+						</h3>
+						<p>
+							Starte die Stoppuhr, wenn du mit einer Aufgabe beginnst und beende die Stoppuhr, wenn du fertig bist.
+						</p>
+						<p>
+							Die Zeiterfassung erstellt automatisch den passenden Eintrag.
+						</p>
+					</div>
+					<div class="zeit-feature-card_image">
+						<div class="zeit-feature-card_image-cover"></div>
+						<picture>
+							<source srcset="/static/zeiterfassung-zeit-erfassen.webp" type="image/webp">
+							<img src="/static/zeiterfassung-zeit-erfassen.png" style="object-position: 98% 0;" width="1537" height="881" alt="">
+						</picture>
+					</div>
+				</div>
+			</div>
+
+			<div class="lg:mt-12 xl:mt-24 zeit-feature-card-border">
+				<div class="zeit-feature-card">
+					<div class="zeit-feature-card_description">
+						<h3>
+							Berichte einsehen
+						</h3>
+						<p>
+							Grafische Diagramme helfen dir dabei, schnell einen Überblick auf Wochen oder Monatsebene zu bekommen.
+						</p>
+						<p>
+							Mit passender Berechtigung kannst du Berichte aller Personen einsehen und filtern.
+						</p>
+					</div>
+					<div class="zeit-feature-card_image">
+						<div class="zeit-feature-card_image-cover"></div>
+						<picture>
+							<source srcset="/static/zeiterfassung-reports-persons.webp" type="image/webp">
+							<img src="/static/zeiterfassung-reports-persons.png" width="1537" height="881" alt="">
+						</picture>
+					</div>
+				</div>
+			</div>
+
+			<div class="lg:mt-12 xl:mt-24 zeit-feature-card-border">
+				<div class="zeit-feature-card">
+					<div class="zeit-feature-card_description">
+						<h3>
+							Excel Export
+						</h3>
+						<p>
+							Berichte kannst du als CSV Datei herunterladen und z. B. in Excel für individuelle Analysen nutzen.
+						</p>
+					</div>
+					<div class="zeit-feature-card_image">
+						<div class="zeit-feature-card_image-cover"></div>
+						<picture>
+							<source srcset="/static/zeiterfassung-reports-persons.webp" type="image/webp">
+							<img src="/static/zeiterfassung-reports-persons.png" style="object-position: 75% 25%;" width="1537" height="881" alt="">
+						</picture>
+					</div>
+				</div>
+			</div>
+
+		</div>
+	</div>
+
+	<div class="bg-sky-100 pt-16 md:pt-24">
+
+		<div class="bg-sky-50 py-16">
+			<div class="w-full max-w-screen-xl mx-auto">
+				<div class="px-12 sm:px-20 xl:px-12 2xl:px-4">
+					<h3 class="text-2xl font-bold md:text-3xl xl:ml-24" id="beta">
+						Kostenlose Beta-Phase
+					</h3>
+					<div class="grid lg:grid-cols-2">
+						<div class="lg:flex lg:items-center lg:justify-center">
+							<div class="max-w-prose">
+								<ul class="mt-8 lg:mt-0 list-disc md:text-lg">
+									<li>
+										Völlig unverbindlich
+									</li>
+									<li>
+										Kostenlos mindestens bis zum Ende des Jahre 2022
+									</li>
+									<li>
+										Daten DSGVO-konform abgesichert
+									</li>
+								</ul>
+								<div class="mt-8">
+									<a data-append-utm
+										 href="https://registry.apps.urlaubsverwaltung.cloud/registration"
+										 class="-ml-4 px-3 py-2 text-lg font-medium flex items-center justify-center no-underline rounded whitespace-nowrap bg-yellow-300 text-sky-900 text-opacity-90 hover:text-opacity-100 border border-sky-100 hover:border-blue-200 hover:shadow-md active:shadow"
+										 data-goal="signup"
+										 data-goal-trigger="zeit-kostenlose-beta-phase"
+									>
+										<span class="mr-2">
+											Zeiterfassung kostenlos testen
+										</span>
+										<span>
+											{{> partials/icon-cursor-click class='w-5 h-5'}}
+										</span>
+									</a>
+								</div>
+							</div>
+						</div>
+						<div class="max-w-prose space-y-6 mt-6 md:text-lg lg:mt-0 lg:px-20">
+							<p>
+								Wir sind nicht irgendeine Zeiterfassung. Wir sind eine Zeiterfassung, die deine Anforderungen meistern will.
+							</p>
+							<p>
+								Unsere Entwicklung lebt von eurem Feedback und wir freuen uns <span class="italic">urlaubsverwaltung.cloud</span>
+								mit euch zusammen voranzubringen.
+							</p>
+							<p>
+								Bei Fragen und Wünschen kontaktiere uns per E-Mail oder rufe uns an.
+							</p>
+
+							<ul>
+								<li class="flex items-center">
+									{{>partials/icon-mail class="w-4 h-4"}} <span class="sr-only">E-Mail:</span> <a href="mailto:info@urlaubsverwaltung.cloud?subject=Anfrage" class="ml-1.5 text-black hover:underline">info@urlaubsverwaltung.cloud</a><br />
+								</li>
+								<li class="flex items-center">
+									{{>partials/icon-phone class="w-4 h-4"}} <span class="sr-only">Telefon:</span> <a href="tel:0721 98614542" class="ml-1.5 text-black hover:underline">0721 98614542</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="mt-16 xl:mt-24 2xl:mt-40 w-full max-w-screen-xl mx-auto">
+			<h2 class="px-4 xs:px-12 md:px-20 text-2xl font-bold mb-12 md:mb-16 2xl:mb-24 text-3xl">
+				Das sagen unsere Kunden
+			</h2>
+			<div class="px-6 xs:px-14 md:px-10 2xl:px-0 grid md:grid-cols-2 gap-8 2xl:gap-16">
+				<figure class="p-8 relative">
+					<svg width="90" height="90" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 310.284 310.284" class="text-white fill-current absolute -left-2 -top-2 2xl:-left-6 2xl:-top-8 w-16 h-16 md:w-22 md:h-22 2xl:w-24 2xl:h-24">
+						<path d="M155.142,0C69.597,0,0,69.597,0,155.142s69.597,155.142,155.142,155.142s155.142-69.597,155.142-155.142  S240.688,0,155.142,0z M79.171,231.401c-1.746,1.182-6.129,2.222-8.693-0.625l-4.731-5.95c-2.288-3.869,0.483-7.457,2.277-8.945  c8.529-7.075,14.731-12.548,18.601-16.419c7.589-7.981,13.199-15.97,16.903-23.935c0.847-1.821-1.315-2.977-2.438-3.345  c-27.967-9.166-41.955-25.325-41.955-48.474c0-13.639,4.53-24.722,13.585-33.242c9.059-8.525,20.407-12.785,34.041-12.785  c12.146,0,22.909,5.539,32.283,16.621c9.165,10.438,13.744,21.735,13.744,33.881C152.789,163.78,128.251,198.185,79.171,231.401z   M185.61,231.401c-1.746,1.182-6.129,2.222-8.693-0.625l-4.731-5.95c-2.288-3.869,0.483-7.457,2.277-8.945  c8.528-7.075,14.731-12.548,18.601-16.419c7.589-7.981,13.199-15.97,16.904-23.935c0.847-1.821-1.315-2.977-2.438-3.345  c-27.967-9.166-41.955-25.325-41.955-48.474c0-13.639,4.53-24.722,13.585-33.242c9.06-8.525,20.407-12.785,34.041-12.785  c12.146,0,22.909,5.539,32.283,16.621c9.164,10.438,13.744,21.735,13.744,33.881C259.228,163.78,234.69,198.185,185.61,231.401z"/>
+					</svg>
+					<div class="relative">
+						<blockquote class="text-xl 2xl:text-2xl mb-6 md:mb-4">
+							"Kompliment, ihr seid echt fix mit der Umsetzung von Verbesserungen, das ist Klasse!"
+						</blockquote>
+						<figcaption class="flex flex-col">
+							<cite class="font-bold lg:text-lg">
+								Angela Breyer
+							</cite>
+							<span class="lg:text-lg text-black text-opacity-50">
+								Organisationsentwicklung
+							</span>
+						</figcaption>
+					</div>
+				</figure>
+				<figure class="p-8 relative">
+					<svg width="90" height="90" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 310.284 310.284" class="text-white fill-current absolute -left-2 -top-2 2xl:-left-6 2xl:-top-8 w-16 h-16 md:w-22 md:h-22 2xl:w-24 2xl:h-24">
+						<path d="M155.142,0C69.597,0,0,69.597,0,155.142s69.597,155.142,155.142,155.142s155.142-69.597,155.142-155.142  S240.688,0,155.142,0z M79.171,231.401c-1.746,1.182-6.129,2.222-8.693-0.625l-4.731-5.95c-2.288-3.869,0.483-7.457,2.277-8.945  c8.529-7.075,14.731-12.548,18.601-16.419c7.589-7.981,13.199-15.97,16.903-23.935c0.847-1.821-1.315-2.977-2.438-3.345  c-27.967-9.166-41.955-25.325-41.955-48.474c0-13.639,4.53-24.722,13.585-33.242c9.059-8.525,20.407-12.785,34.041-12.785  c12.146,0,22.909,5.539,32.283,16.621c9.165,10.438,13.744,21.735,13.744,33.881C152.789,163.78,128.251,198.185,79.171,231.401z   M185.61,231.401c-1.746,1.182-6.129,2.222-8.693-0.625l-4.731-5.95c-2.288-3.869,0.483-7.457,2.277-8.945  c8.528-7.075,14.731-12.548,18.601-16.419c7.589-7.981,13.199-15.97,16.904-23.935c0.847-1.821-1.315-2.977-2.438-3.345  c-27.967-9.166-41.955-25.325-41.955-48.474c0-13.639,4.53-24.722,13.585-33.242c9.06-8.525,20.407-12.785,34.041-12.785  c12.146,0,22.909,5.539,32.283,16.621c9.164,10.438,13.744,21.735,13.744,33.881C259.228,163.78,234.69,198.185,185.61,231.401z"/>
+					</svg>
+					<div class="relative">
+						<blockquote class="text-xl 2xl:text-2xl mb-6 md:mb-4">
+							"Die Urlaubsverwaltung wird sowohl von den Kollegen als auch von der Geschäftsleitung sehr gut angenommen und auch Kollegen, die sich ansonsten schwer tun mit jeglichen Anwendungen, hatten keine Probleme."
+						</blockquote>
+						<figcaption class="flex flex-col">
+							<cite class="font-bold lg:text-lg">
+								Frank Rheinfelder
+							</cite>
+							<span class="lg:text-lg text-black text-opacity-50">
+								Betriebswirt / Bilanzbuchhalter
+							</span>
+						</figcaption>
+					</div>
+				</figure>
+			</div>
+		</div>
+
+		<div class="mt-24 w-full max-w-screen-xl mx-auto px-4 xl:px-2">
+			{{> partials/price }}
+		</div>
+
+		<div class="pb-8 md:pb-32"></div>
+	</div>
+</main>
