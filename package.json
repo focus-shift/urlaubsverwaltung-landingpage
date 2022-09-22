@@ -34,7 +34,7 @@
 		"husky": "8.0.1",
 		"lint-staged": "13.0.3",
 		"markdown-it": "13.0.1",
-		"markdown-it-anchor": "8.6.4",
+		"markdown-it-anchor": "8.6.5",
 		"postcss": "8.4.16",
 		"postcss-cli": "10.0.0",
 		"prettier": "2.7.1",
