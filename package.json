@@ -40,8 +40,7 @@
 		"tailwindcss": "3.1.8"
 	},
 	"lint-staged": {
-		"*.js": [
-			"eslint --fix"
-		]
+		"*.js": "eslint --fix",
+		"*.{html,md}": "prettier --write"
 	}
 }
