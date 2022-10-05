@@ -76,7 +76,9 @@
 
 @layer components {
 	.top-anchor {
-		margin-top: calc(-1 * var(--scroll-padding-top) + 4rem); /* 4rem height of navigation */
+		margin-top: calc(
+			-1 * var(--scroll-padding-top) + 4rem
+		); /* 4rem height of navigation */
 		margin-bottom: var(--scroll-padding-top);
 	}
 
