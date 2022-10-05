@@ -2,7 +2,7 @@
 draft: false
 layout: layout-neuigkeiten
 date: 2022-03-11
-title: Kalimera Griechenland - Griechische Feiertage und Übersetzung 
+title: Kalimera Griechenland - Griechische Feiertage und Übersetzung
 author: Tobias Schneider
 release-version: 4.33.0
 ---
@@ -34,7 +34,3 @@ Wir empfanden die Kooperation als sehr angenehm und wir freuen uns darüber, auc
 <br/>
 
 Wir freuen uns über dein Feedback an <a href="mailto:info@urlaubsverwaltung.cloud?subject=Feedback">info@urlaubsverwaltung.cloud</a>.
-
-
-
-

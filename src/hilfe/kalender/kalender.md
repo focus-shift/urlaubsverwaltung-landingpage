@@ -19,9 +19,9 @@ iCal oder auch iCalendar ist ein standardisiertes Datenformat zum Austausch von 
 
 Die Urlaubsverwaltung bietet die folgenden Möglichkeiten für eine Kalenderfreigabe:
 
-* **Mein Kalender**: Der Freigabe-Link enthält nur deine Abwesenheiten
-* **Abteilung**: Der Freigabe-Link enthält die Abwesenheiten deiner Abteilung
-* **Firma**: Der Freigabe-Link enthält die Abwesenheiten deiner Firma. Diese Freigabe ist nur möglich, wenn ein Office-Benutzer die Konfigurationsmöglichkeit erlaubt hat.
+- **Mein Kalender**: Der Freigabe-Link enthält nur deine Abwesenheiten
+- **Abteilung**: Der Freigabe-Link enthält die Abwesenheiten deiner Abteilung
+- **Firma**: Der Freigabe-Link enthält die Abwesenheiten deiner Firma. Diese Freigabe ist nur möglich, wenn ein Office-Benutzer die Konfigurationsmöglichkeit erlaubt hat.
 
 <aside class="wissensbasis-info">
   <p>
@@ -32,6 +32,7 @@ Die Urlaubsverwaltung bietet die folgenden Möglichkeiten für eine Kalenderfrei
 ### Wie kann ich einen Kalender freigeben?
 
 Die Kalenderfreigabe kann pro Benutzer konfiguriert werden. Um die Konfiguration in der Urlaubsverwaltung durchzuführen sind folgende Schritte zu tun:
+
 1. Klicke auf "Kalenderfreigabe" in der Übersichtsseite oberhalb des Kalenders
 
 <p>
@@ -86,6 +87,7 @@ Die Kalenderfreigabe kann pro Benutzer konfiguriert werden. Um die Konfiguration
 ### Wie kann ich eine Freigabe löschen?
 
 Eine Freigabe kann über folgende Schritte gelöscht werden:
+
 1. Klicke auf "Kalenderfreigabe" in der Übersichtsseite oberhalb des Kalenders
 
 <p>
@@ -154,11 +156,11 @@ der automatisch Termine anlegen soll. Für diese Zugangsdaten muss der
 "auto discovery"-Dienst funktionieren - am Besten dies vorher separat testen.
 
 Außerdem muss der Benutzer über folgende Berechtigungen verfügen:
-* Kalender anlegen können
-* Termine im angegebenen Kalender anlegen können
-* beim Anlegen von Terminen die entsprechenden Benutzer einladen können
-(E-Mail-Adresse der Benutzer wird hierzu verwendet)
 
+- Kalender anlegen können
+- Termine im angegebenen Kalender anlegen können
+- beim Anlegen von Terminen die entsprechenden Benutzer einladen können
+  (E-Mail-Adresse der Benutzer wird hierzu verwendet)
 
 ### Muss der konfigurierte Kalender existieren?
 

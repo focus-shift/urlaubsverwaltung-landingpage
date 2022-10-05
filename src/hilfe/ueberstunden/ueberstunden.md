@@ -61,7 +61,6 @@ Um diesen Workflow verwenden zu können, müssen folgende Einstellungen konfigur
   </picture>
 </p>
 
-
 ### Erfassung durch privilegierte Person und Antrag Überstundenabbau
 
 Diese Form der Überstundenverwaltung ermöglicht die Erfassung der Überstunden durch eine privilegierte Person (z. B. Person mit der Berechtigung Office, Chef oder Abteilungsleiter)
@@ -82,7 +81,6 @@ Um diesen Workflow verwenden zu können, müssen folgende Einstellungen konfigur
     />
   </picture>
 </p>
-
 
 ## Kann ich die Überstundenfunktion deaktivieren?
 

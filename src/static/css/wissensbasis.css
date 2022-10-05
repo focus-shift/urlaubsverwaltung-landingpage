@@ -1,25 +1,25 @@
 .breadcrumb {
-    display: flex;
-    align-items: center;
-    gap: 0.5rem;
+	display: flex;
+	align-items: center;
+	gap: 0.5rem;
 }
 
 .breadcrumb .breadcrumb-item {
-    position: relative;
-    display: flex;
-    align-items: baseline;
+	position: relative;
+	display: flex;
+	align-items: baseline;
 }
 
 .breadcrumb .breadcrumb-item:not(:last-child)::after {
-    content: "";
-    display: inline-block;
-    width: 0.66rem;
-    height: 0.66rem;
-    margin-left: 0.5rem;
-    background-image: url('data:image/svg+xml;charset=UTF-8,<svg fill="none" stroke="black" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 5l7 7-7 7M5 5l7 7-7 7"></path></svg>');
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: contain;
+	content: "";
+	display: inline-block;
+	width: 0.66rem;
+	height: 0.66rem;
+	margin-left: 0.5rem;
+	background-image: url('data:image/svg+xml;charset=UTF-8,<svg fill="none" stroke="black" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 5l7 7-7 7M5 5l7 7-7 7"></path></svg>');
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: contain;
 }
 
 /*
@@ -27,107 +27,109 @@
 */
 
 .wissensbasis-content {
-    h1, h2 {
-        margin-bottom: 1.5rem;
-        @apply text-2xl;
-        @apply font-bold;
-    }
+	h1,
+	h2 {
+		margin-bottom: 1.5rem;
+		@apply text-2xl;
+		@apply font-bold;
+	}
 
-    h3, h4, h5, h6 {
-        margin-bottom: 1.25rem;
-        @apply text-lg;
-        @apply font-bold;
-    }
+	h3,
+	h4,
+	h5,
+	h6 {
+		margin-bottom: 1.25rem;
+		@apply text-lg;
+		@apply font-bold;
+	}
 
-    * + h1,
-    * + h2,
-    * + h3,
-    * + h4,
-    * + h5,
-    * + h6 {
-        margin-top: 3.5rem;
-    }
+	* + h1,
+	* + h2,
+	* + h3,
+	* + h4,
+	* + h5,
+	* + h6 {
+		margin-top: 3.5rem;
+	}
 
-    h1 + h2,
-    h2 + h3,
-    h3 + h4,
-    h5 + h6 {
-        margin-top: 0;
-    }
+	h1 + h2,
+	h2 + h3,
+	h3 + h4,
+	h5 + h6 {
+		margin-top: 0;
+	}
 
-    p,
-    ul {
-        margin-bottom: 1rem;
-    }
+	p,
+	ul {
+		margin-bottom: 1rem;
+	}
 
-    img,
-    picture img {
-        @apply shadow-lg;
-        @apply rounded-xl;
-    }
+	img,
+	picture img {
+		@apply shadow-lg;
+		@apply rounded-xl;
+	}
 
-    p:not(:first-child) > img,
-    p:not(:first-child) > picture img {
-        margin-top: 2rem;
-    }
+	p:not(:first-child) > img,
+	p:not(:first-child) > picture img {
+		margin-top: 2rem;
+	}
 
-    p:not(:last-child) > img,
-    p:not(:last-child) > picture img {
-        margin-bottom: 3.5rem;
+	p:not(:last-child) > img,
+	p:not(:last-child) > picture img {
+		margin-bottom: 3.5rem;
+	}
 
-    }
+	a {
+		@apply transition-colors;
+		color: theme("colors.sky.700");
+		text-decoration: underline;
+	}
 
-    a {
-        @apply transition-colors;
-        color: theme("colors.sky.700");
-        text-decoration: underline;
-    }
+	a:hover,
+	a:focus {
+		color: theme("colors.sky.900");
+	}
 
-    a:hover,
-    a:focus {
-        color: theme("colors.sky.900");
-    }
+	ul,
+	ol {
+		margin-left: 1.25rem;
+		margin-bottom: 1rem;
+	}
 
-    ul,
-    ol {
-        margin-left: 1.25rem;
-        margin-bottom: 1rem;
-    }
+	ul {
+		list-style: disc;
+	}
 
-    ul {
-        list-style: disc;
-    }
+	ol {
+		list-style: decimal;
+	}
 
-    ol {
-        list-style: decimal;
-    }
+	li {
+	}
 
-    li {
-    }
-
-    li:not(:last-child) {
-        margin-bottom: 0.25rem;
-    }
+	li:not(:last-child) {
+		margin-bottom: 0.25rem;
+	}
 }
 
 .wissensbasis-info {
-    border-left: 5px solid theme("colors.amber.400");
-    background-color: theme("colors.amber.50");
-    color: theme("colors.amber.900");
-    font-style: italic;
-    padding: 0.25rem 1rem 0.25rem 0.5rem;
-    margin-bottom: 1rem;
+	border-left: 5px solid theme("colors.amber.400");
+	background-color: theme("colors.amber.50");
+	color: theme("colors.amber.900");
+	font-style: italic;
+	padding: 0.25rem 1rem 0.25rem 0.5rem;
+	margin-bottom: 1rem;
 
-    p {
-        margin-bottom: 0;
-    }
+	p {
+		margin-bottom: 0;
+	}
 
-    a {
-        text-decoration: underline;
-        color: theme("colors.amber.900");
-    }
-    a:hover {
-        color: theme("colors.black");
-    }
+	a {
+		text-decoration: underline;
+		color: theme("colors.amber.900");
+	}
+	a:hover {
+		color: theme("colors.black");
+	}
 }
-

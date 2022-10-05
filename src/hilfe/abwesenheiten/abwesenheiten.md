@@ -17,7 +17,7 @@ einen [zweistufigen Genehmigungsprozess](#wie-funktioniert-der-zweistufige-geneh
 ## Wer wird informiert, wenn ein Abwesenheitsantrag gestellt wurde?
 
 Wenn ein Abwesenheitsantrag gestellt wurde, erhält der betroffene Mitarbeitende sowie alle Personen, die ein berechtigtes Interesse
-an dieser Information haben, wie der Abteilungsleiter und Freigabe-Verantwortlicher des Mitarbeitenden als auch globale 
+an dieser Information haben, wie der Abteilungsleiter und Freigabe-Verantwortlicher des Mitarbeitenden als auch globale
 Chefs eine E-Mail-Benachrichtigung.
 
 Vorausgesetzt bei diesen Personen ist die entsprechende E-Mail-Benachrichtigung aktiviert.
@@ -25,7 +25,7 @@ Vorausgesetzt bei diesen Personen ist die entsprechende E-Mail-Benachrichtigung 
 ## Wer wird informiert, wenn ein Abwesenheitsantrag genehmigt wurde?
 
 Wenn ein Abwesenheitsantrag genehmigt wurde, erhalten sowohl der betroffene Mitarbeitende, sowie alle Personen die ein
-berechtigtes Interesse an dieser Information haben, wie der Abteilungsleiter und Freigabe-Verantwortlicher des Mitarbeitenden als 
+berechtigtes Interesse an dieser Information haben, wie der Abteilungsleiter und Freigabe-Verantwortlicher des Mitarbeitenden als
 auch die Office-Mitarbeitenden eine E-Mail-Benachrichtigung.
 
 Vorausgesetzt beim Office-Benutzer ist die entsprechende E-Mail-Benachrichtigung aktiviert.
@@ -98,10 +98,10 @@ nutzen.
 
 Die Urlaubsverwaltung ist mit folgenden Abwesenheitsarten standardmäßig voreingestellt:
 
-* Erholungsurlaub
-* Sonderurlaub
-* Unbezahlter Urlaub
-* Überstundenabbau
+- Erholungsurlaub
+- Sonderurlaub
+- Unbezahlter Urlaub
+- Überstundenabbau
 
 Zusätzlich sind viele weitere Abwesenheitsarten in den globalen Einstellungen der Urlaubsverwaltung aktivierbar.
 
@@ -131,7 +131,7 @@ dann [schreib uns](mailto:info@urlaubsverwaltung.cloud?subject=Weitere%20Abwesen
 
 ## Ist es möglich für eine Abwesenheitsart den Genehmigungsprozess zu aktivieren / deaktivieren?
 
-Ja, du kannst pro Abwesenheitsart festlegen, ob eine Genehmigung notwendig ist, z.B. könnte man die Abwesenheitsart 
+Ja, du kannst pro Abwesenheitsart festlegen, ob eine Genehmigung notwendig ist, z.B. könnte man die Abwesenheitsart
 "Ausbildung" ohne Genehmigungsprozess konfigurieren, wohingegen eine "Fortbildung" genehmigt werden muss.
 
 Bitte beachte zusätzlich, dass der für die Abteilung aktive Genehmigungsprozess verwendet wird.
@@ -142,14 +142,14 @@ Ja, du kannst pro Abwesenheitsart festlegen, ob diese für alle Mitarbeitenden s
 dargestellt wird.  
 Was bedeutet das?
 Wenn bei einer Abwesenheitsart die Checkbox "sichtbar" deaktiviert ist, werden die Informationen dieser Anträge
-lediglich für die Mitarbeitenden dargestellt, welche ein berechtigtes Interesse an der Information haben, dass es sich 
+lediglich für die Mitarbeitenden dargestellt, welche ein berechtigtes Interesse an der Information haben, dass es sich
 z.B. um einen Erholungsurlaub handelt.
 Ist die Checkbox aktiviert, erhalten alle Mitarbeitenden, welche die Anträge der Person sehen können, die Information
 über die Abwesenheitsart. Hiermit könnte man z.B. die Abwesenheitsart "Home-Office" für alle sichtbar machen, sodass diese Information in der Abwesenheitsübersicht zur Verfügung steht.
 
 ## Ist es möglich die Anzeigefarbe einer Abwesenheitsart anzupassen?
 
-Ja, du kannst bei den Einstellungen zu Abwesenheitsarten die Farbe pro Abwesenheitsart konfigurieren. 
+Ja, du kannst bei den Einstellungen zu Abwesenheitsarten die Farbe pro Abwesenheitsart konfigurieren.
 Diese Farbe wird dann in allen Kalendern und in der Abwesenheitsübersicht verwendet.
 
 ## Wie kann ich die Art der Abwesenheit bei einem Antrag bearbeiten?

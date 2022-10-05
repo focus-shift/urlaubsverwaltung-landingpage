@@ -9,7 +9,7 @@ title: Azure AD - Single Sign-On (SSO) - Hilfe
 
 ### Welcher Benutzer darf die Azure AD Anbindung konfigurieren?
 
-Die Konfiguration kann nur von dem Benutzer durchgeführt werden, welcher die Registrierung zu 
+Die Konfiguration kann nur von dem Benutzer durchgeführt werden, welcher die Registrierung zu
 urlaubsverwaltung.cloud durchgeführt hat. Dieser Benutzer hat die Berechtigung auf _Mein Kundenportal_, über
 welches die Konfiguration durchgeführt werden kann.
 
@@ -26,28 +26,27 @@ Details dazu findest du bei Microsoft in der Dokumentation [Installation von Azu
 
 Bei der Anbindung von Azure AD erhalten wir über den _ID Token_ Zugriff auf folgende Attribute:
 
-* _email_: Die E-Mail-Adresse des Benutzers
-* _family_name_: Der Nachname des Benutzers
-* _given_name_: Der Vorname des Benutzers
-
+- _email_: Die E-Mail-Adresse des Benutzers
+- _family_name_: Der Nachname des Benutzers
+- _given_name_: Der Vorname des Benutzers
 
 ### Welche API Berechtigungen von Microsoft werden verwendet?
 
 Durch die Ansprüche im _ID Token_ benötigt die registrierte App folgende Berechtigungen auf die _Microsoft Graph_-API:
 
-* _email_
-* _openid_
-* _profile_
-* _User.Read_
+- _email_
+- _openid_
+- _profile_
+- _User.Read_
 
 ### Wie kann ich die Azure AD Anbindung konfigurieren?
 
 Dazu sind folgende Schritte notwendig:
 
-* [Schritt 1: Neue App-Registrierung im Azure AD durchführen](#schritt-1-neue-app-registrierung-im-azure-ad-durchfuehren)
-* [Schritt 2: Auf Mein Kundenportal die Anbindung konfigurieren](#schritt-2-auf-mein-kundenportal-die-anbindung-konfigurieren)
-* [Schritt 3: Für App-Registrierung Umleitungs-URI konfigurieren](#schritt-3-fuer-app-registrierung-umleitungs-uri-konfigurieren)
-* [Schritt 4: Anmelden via Azure AD](#schritt-4-anmeldung-via-azure-ad)
+- [Schritt 1: Neue App-Registrierung im Azure AD durchführen](#schritt-1-neue-app-registrierung-im-azure-ad-durchfuehren)
+- [Schritt 2: Auf Mein Kundenportal die Anbindung konfigurieren](#schritt-2-auf-mein-kundenportal-die-anbindung-konfigurieren)
+- [Schritt 3: Für App-Registrierung Umleitungs-URI konfigurieren](#schritt-3-fuer-app-registrierung-umleitungs-uri-konfigurieren)
+- [Schritt 4: Anmelden via Azure AD](#schritt-4-anmeldung-via-azure-ad)
 
 #### Schritt 1: Neue App-Registrierung im Azure AD durchführen
 
@@ -71,11 +70,12 @@ Registrierung starten.
 </p>
 
 1. Als _Name_ der Anwendung kann z. B. _urlaubsverwaltung.cloud_ verwendet werden
-3. Für den Punkt _Unterstütze Kontotypen_ muss _Nur Konten in diesem Organisationsverzeichnis_ ausgewählt werden
-4. Umleitungs-URI überspringen und wird in [Schritt 3](#schritt-3:-fuer-app-registrierung-umleitungs-uri-konfigurieren) konfiguriert
-5. Nun auf _Registrieren_ klicken
+2. Für den Punkt _Unterstütze Kontotypen_ muss _Nur Konten in diesem Organisationsverzeichnis_ ausgewählt werden
+3. Umleitungs-URI überspringen und wird in [Schritt 3](#schritt-3:-fuer-app-registrierung-umleitungs-uri-konfigurieren) konfiguriert
+4. Nun auf _Registrieren_ klicken
 
 Nach erfolgreicher Registrierung kommst du auf die Übersichtsseite der App-Registrierung.
+
 <p>
   <picture>
     <source srcset="schritt_1_uebersicht.avif" type="image/avif" />
@@ -98,6 +98,7 @@ Am besten erstellt man eine Datei über einen Texteditor (z.B. Notepad) und kopi
 2. Wert von _Verzeichnis-Id_ kopieren und in Textdatei einfügen
 
 Neuer geheimer Clientschlüssel erstellen
+
 <p>
   <picture>
     <source srcset="schritt_1_clientsecret.avif" type="image/avif" />
@@ -134,9 +135,9 @@ Neuer geheimer Clientschlüssel erstellen
 
 Den erzeugten Wert des Clientschlüssels kopieren und ebenfalls in die Textdatei einfügen.
 
-
 Tokenkonfiguration durchführen: Um Benutzer innerhalb der Urlaubsverwaltung persönlich ansprechen zu
 können bzw. für die Zustellung von E-Mails an Benutzer benötigen wir folgende Daten:
+
 <p>
   <picture>
     <source srcset="schritt_1_tokenkonfiguration.avif" type="image/avif" />
@@ -162,6 +163,7 @@ können bzw. für die Zustellung von E-Mails an Benutzer benötigen wir folgende
 
 Es wird dabei eine Meldung angezeigt, dass für die Ansprüche _email_, _family_name_ und _given_name_ die
 entsprechende Microsoft Graph-Berechtigung aktiviert werden muss.
+
 <p>
   <picture>
     <source srcset="schritt_1_tokenkonfiguration_graph_api.avif" type="image/avif" />
@@ -177,7 +179,6 @@ entsprechende Microsoft Graph-Berechtigung aktiviert werden muss.
   </picture>
 </p>
 
-
 #### Schritt 2: Auf Mein Kundenportal die Anbindung konfigurieren
 
 Dazu muss man nun zu _Mein Kundenportal_ von [urlaubsverwaltung.cloud](https://urlaubsverwaltung.cloud) via _Anmelden_ und über die Kachel
@@ -186,6 +187,7 @@ _Mein Kundenportal_ wechseln. Unter _Single-Sign-On_ > _Azure AD_ gelangst du nu
 Zuerst kopierst du die hervorgehobene URI in die Textdatei, welche in [Schritt 3](#schritt-3:-fuer-app-registrierung-umleitungs-uri-konfigurieren) als Umleitungs-URI konfiguriert wird.
 
 Nun brauchen wir die Werte aus der Textdatei von [Schritt 1](#schritt-1:-neue-app-registrierung-im-azure-ad-durchfuehren):
+
 <p>
   <picture>
     <source srcset="schritt_2_konfiguration.avif" type="image/avif" />
@@ -230,6 +232,7 @@ Bei der registrierten App im Azure AD wird nun eine neue Plattform hinzugefügt:
 3. Typ _Web_
 
 Zum Schluss muss noch die Umleitungs-URI konfiguriert werden:
+
 <p>
   <picture>
     <source srcset="schritt_3_umleitungsuri.avif" type="image/avif" />
@@ -250,7 +253,6 @@ Zum Schluss muss noch die Umleitungs-URI konfiguriert werden:
 
 Nun ist die Konfiguration auf Seiten von Azure AD abgeschlossen.
 
-
 #### Schritt 4: Anmeldung via Azure AD
 
 <aside class="wissensbasis-info">
@@ -266,6 +268,7 @@ auf. Nun wirst du zur Anmelde-Seite von Microsoft umgeleitet und musst dich mit 
 
 Es erscheint eine Meldung, dass der Zugriff auf die Angeforderten Berechtigungen (Details siehe [Schritt 2](#schritt-2:-auf-mein-kundenportal-die-anbindung-konfigurieren))
 akzeptiert werden muss.
+
 <p>
   <picture>
     <source srcset="schritt_4_berechtigungen.avif" type="image/avif" />
@@ -286,6 +289,7 @@ akzeptiert werden muss.
 
 Danach wirst du auf den Authentifizierungsserver von urlaubsverwaltung.cloud weitergeleitet. Dieser merkt,
 dass es zu deiner E-Mail-Adresse schon ein Konto gibt.
+
 <p>
   <picture>
     <source srcset="schritt_4_konto_existiert.avif" type="image/avif" />
@@ -308,6 +312,7 @@ dass es zu deiner E-Mail-Adresse schon ein Konto gibt.
 Der Authentifizierungsserver von urlaubsverwaltung.cloud schickt dir nun eine E-Mail mit einem Link, um
 sicher zu stellen, dass die Verknüpfung der Benutzerkonten auch wirklich von dir angefordert wurde und du im
 Besitz beider Benutzerkonten bist.
+
 <p>
   <picture>
     <source srcset="schritt_4_konto_bestaetigen.avif" type="image/avif" />
@@ -324,6 +329,7 @@ Besitz beider Benutzerkonten bist.
 </p>
 
 E-Mail mit Link zum Bestätigen der Benutzerkonto-Verknüpfung
+
 <p>
   <picture>
     <source srcset="schritt_4_konto_mail.avif" type="image/avif" />

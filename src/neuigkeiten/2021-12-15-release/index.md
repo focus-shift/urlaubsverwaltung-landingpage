@@ -29,11 +29,12 @@ welche nur unter ganz bestimmten Voraussetzungen ausgenutzt werden kann. Die Url
 Lücke nicht betroffen. Trotzdem haben wir, um einfach auf Nummer sicher zu gehen, für euch direkt die Urlaubsverwaltung
 (4.27.3) mit der neusten Logback Version aktualisiert und allen Mandanten zur Verfügung gestellt.
 
-## Korrektur der angezeigten Personen bei Berechtigungskombinationen 
+## Korrektur der angezeigten Personen bei Berechtigungskombinationen
 
-Nachdem die Urlaubsverwaltung, seit der Version 4.26.0, die Kombinationen von Berechtigungen _Office_ bzw. _Chef_ mit 
+Nachdem die Urlaubsverwaltung, seit der Version 4.26.0, die Kombinationen von Berechtigungen _Office_ bzw. _Chef_ mit
 _Abteilungsleiter_ bzw. _Freigabe-Verantwortlicher_ erlaubt, haben wir die Darstellung der _Personenübersicht_
 sowie die _Abwesenheitsstatistik_ auf die verschiedenen Kombinationsmöglichkeiten angepasst, sodass du immer genau das siehst,
 was du auch sehen darfst.
-* Wenn du eine der Berechtigung _Office_ oder _Chef_ hast, werden dir alle Personen der Urlaubsverwaltung angezeigt.
-* Wenn du lediglich die Berechtigung _Abteilungsleiter_ bzw. _Freigabe-Verantwortlicher_ hast, werden dir die Personen der Abteilungen angezeigt, in denen du diese Tätigkeit ausübst.
+
+- Wenn du eine der Berechtigung _Office_ oder _Chef_ hast, werden dir alle Personen der Urlaubsverwaltung angezeigt.
+- Wenn du lediglich die Berechtigung _Abteilungsleiter_ bzw. _Freigabe-Verantwortlicher_ hast, werden dir die Personen der Abteilungen angezeigt, in denen du diese Tätigkeit ausübst.

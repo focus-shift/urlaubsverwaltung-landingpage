@@ -8,14 +8,15 @@ title: Single Sign-On (SSO) - Hilfe
 ## Welchen Vorteil habe ich durch die Verwendung von Single Sign-On?
 
 Wenn du einen der unterstützten Single Sing-On Provider in deinen Unternehmen verwendest, können alle
-Personen deiner Organisation *ohne* zusätzliche Anmeldedaten auf urlaubsverwaltung.cloud zugreifen.
+Personen deiner Organisation _ohne_ zusätzliche Anmeldedaten auf urlaubsverwaltung.cloud zugreifen.
 Ist eine Person gegenüber deinem Single Sign-On Provider authentifiziert, so muss sie sich nicht erneut bei
 urlaubsverwaltung.cloud authentifizieren.
 
 ## Welche Single Sign-On Provider werden unterstützt?
 
 Aktuell unterstützen wir folgende Single Sign-On Provider:
-* [Azure Active Directory (Azure AD)](/hilfe/sso/azuread/)
+
+- [Azure Active Directory (Azure AD)](/hilfe/sso/azuread/)
 
 ## Warum wird mein Single Sign-On Provider (noch) nicht unterstützt?
 

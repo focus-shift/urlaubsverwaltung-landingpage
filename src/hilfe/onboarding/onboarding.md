@@ -5,8 +5,7 @@ breadcrumb:
 title: Onboarding - Hilfe
 ---
 
-
-## Onboarding deiner Mitarbeitenden in deine Urlaubsverwaltung 
+## Onboarding deiner Mitarbeitenden in deine Urlaubsverwaltung
 
 Es gibt drei unterschiedliche Möglichkeiten Mitarbeitende in deine Urlaubsverwaltung aufzunehmen.
 
@@ -32,7 +31,6 @@ Die Mitarbeitenden erhalten darauf eine Einladung per E-Mail und können sich au
     />
   </picture>
 </p>
-
 
 ### Single Sing-On konfigurieren
 

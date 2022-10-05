@@ -35,7 +35,7 @@ Um dieser Herausforderung zu begegnen, zeigen die Abwesenheitsübersicht und die
   />
 </picture>
 
-Die Abwesenheitsübersicht zeigt jetzt auf den ersten Blick, dass Brigitte Händel an jedem Mittwoch und den Wochenenden freie Tage hat und an den restlichen anwesend ist. Mit dieser Information ist direkt erkenntlich, weshalb im Antrag von Brigitte Händel am 9. März keine Abwesenheit eingetragen ist. 
+Die Abwesenheitsübersicht zeigt jetzt auf den ersten Blick, dass Brigitte Händel an jedem Mittwoch und den Wochenenden freie Tage hat und an den restlichen anwesend ist. Mit dieser Information ist direkt erkenntlich, weshalb im Antrag von Brigitte Händel am 9. März keine Abwesenheit eingetragen ist.
 
 <picture>
   <source srcset="vier-tage-woche-kalender.avif" type="image/avif" />
@@ -52,7 +52,3 @@ Die Abwesenheitsübersicht zeigt jetzt auf den ersten Blick, dass Brigitte Händ
 Diese Informationen sind auch im persönlichen Kalender sowie in der Datumsauswahl verfügbar.
 
 Wir freuen uns über dein Feedback an <a href="mailto:info@urlaubsverwaltung.cloud?subject=Feedback">info@urlaubsverwaltung.cloud</a>.
-
-
-
-

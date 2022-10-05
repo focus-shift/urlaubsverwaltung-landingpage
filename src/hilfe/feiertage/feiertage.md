@@ -50,7 +50,6 @@ persönlichen Landes/Region berechnet.
   </picture>
 </p>
 
-
 ## Welche Feiertage sind vorhanden?
 
 Die Urlaubsverwaltung bietet alle geltenden Feiertage der DACH-Region, des Vereinigten Königreiches und Griechenlands

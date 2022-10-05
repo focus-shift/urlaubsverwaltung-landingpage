@@ -17,10 +17,10 @@ Deine Urlaubsverwaltung kann nun weitere Abwesenheiten und du hast die Möglichk
 
 _Bisher_ gab es in der Urlaubsverwaltung vier Abwesenheitsarten:
 
-* Erholungsurlaub
-* Sonderurlaub
-* Unbezahlter Urlaub und
-* Überstundenabbau
+- Erholungsurlaub
+- Sonderurlaub
+- Unbezahlter Urlaub und
+- Überstundenabbau
 
 <div class="flex flex-col justify-end lg:flex-row-reverse lg:space-x-8 lg:space-x-reverse mt-8 mb-4 lg:mt-4">
   <div class="mb-8 lg:mb-0">

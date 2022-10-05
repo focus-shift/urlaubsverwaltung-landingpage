@@ -48,9 +48,9 @@ Die Personalnummern und Zusatzinformationen sind in den bereits vorhandenen CSV-
 
 Sofern mindestens eine Personalnummer gepflegt ist, werden diese in allen Übersichten von Mitarbeitenden angezeigt und kann zur Sortierung sowie auch zur Suche verwendet werden. Folgende Ansichten sind um die Personalnummer erweitert:
 
-* Übersicht der Benutzenden
-* Abwesenheitsstatistik
-* Übersicht der Krankmeldungen
+- Übersicht der Benutzenden
+- Abwesenheitsstatistik
+- Übersicht der Krankmeldungen
 
 <div class="flex my-8">
     <figure>
