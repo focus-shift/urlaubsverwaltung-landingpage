@@ -23,6 +23,15 @@ npm run dev
 
 `npm run dev` startet einen Server und baut nach dem Bearbeiten von Dateien alles neu.
 
+### git hooks (optional)
+
+Zum Automatisieren verschiedener Dinge bietet dir das Projekt [git hooks](https://git-scm.com/book/uz/v2/Customizing-Git-Git-Hooks)
+an. Diese kannst du mit folgendem Befehl installieren:
+
+```bash
+./scripts/install-git-hooks.sh
+```
+
 ## Homepage bauen
 
 Eine optimierte Version der Landingpage kannst du bauen mit:
