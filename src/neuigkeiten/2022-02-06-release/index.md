@@ -28,10 +28,10 @@ Des Weiteren hat eine Studie herausgefunden, dass heller Text auf dunklem Hinter
 
 Warum wir uns freuen, dir endlich einen Dunkelmodus anzubieten:
 
-* Es ist cool und trendy. Mal im Ernst, wer findet die dunkle Seite nicht verlockend? 😎
-* Es verbessert die Accessibility für Personen die sensibel auf helles Licht reagieren
-* Die Akkulaufzeit auf Geräten mit OLED Display wird verbessert
-* Die Urlaubsverwaltung sticht endlich nicht mehr aus dem mittlerweile sehr populär und weit verbreiteten Erscheinungsbild heraus
+- Es ist cool und trendy. Mal im Ernst, wer findet die dunkle Seite nicht verlockend? 😎
+- Es verbessert die Accessibility für Personen die sensibel auf helles Licht reagieren
+- Die Akkulaufzeit auf Geräten mit OLED Display wird verbessert
+- Die Urlaubsverwaltung sticht endlich nicht mehr aus dem mittlerweile sehr populär und weit verbreiteten Erscheinungsbild heraus
 
 <div class="flex my-8 gap-4 flex-col md:flex-row">
     <div>
@@ -85,7 +85,3 @@ Wünschst du dir weitere Themes wie z. B. erhöhter Kontrast?
 Oder dir gefällt das neue Theme einfach nur sehr gut?
 
 Wir freuen uns über dein Feedback an <a href="mailto:info@urlaubsverwaltung.cloud?subject=Feedback">info@urlaubsverwaltung.cloud</a>.
-
-
-
-

@@ -759,7 +759,6 @@ Die Daten werden gelöscht, sobald sie die Einwilligung zur Nutzung von GoCardle
 
 Sie können die Einwilligung zur Nutzung von GoCardless deaktivieren. In diesem Fall werden keine Daten mehr übermittelt.
 
-
 ## 12. Rechte der betroffenen Person
 
 Werden personenbezogene Daten von Ihnen verarbeitet, sind Sie Betroffener i.S.d.

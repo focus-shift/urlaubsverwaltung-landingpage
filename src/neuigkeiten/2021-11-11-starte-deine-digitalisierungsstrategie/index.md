@@ -14,9 +14,9 @@ Digitalisierung im Personalmanagement und reduziert Prozesskosten._
 
 Der Jahreswechsel bietet eine optimale Gelegenheit für einen Schritt in Richtung unternehmensweiter Digitalisierung.
 Die Verwaltung von Abwesenheiten und Vertretungen ist mit einem hohen Administrationsaufwand verbunden, auch wenn die
-Prozesse standardisiert sind. Mit dem Produkt urlaubsverwaltung.cloud bietet die Focus Shift Software GmbH eine 
-intuitive Lösung für die Herausforderung, Abwesenheiten digital zu verwalten. Um insbesondere kleinen und 
-mittelständischen Unternehmen den wichtigen Schritt in das digitale Personalmanagement zu erleichtern, erhalten 
+Prozesse standardisiert sind. Mit dem Produkt urlaubsverwaltung.cloud bietet die Focus Shift Software GmbH eine
+intuitive Lösung für die Herausforderung, Abwesenheiten digital zu verwalten. Um insbesondere kleinen und
+mittelständischen Unternehmen den wichtigen Schritt in das digitale Personalmanagement zu erleichtern, erhalten
 Neukunden, die sich bis zum 31.12.2021 registrieren, die ersten 3 Monate kostenlos - zusätzlich zu der 30-tägigen
 Testphase.
 
@@ -50,4 +50,4 @@ Kalender- oder Single Sign-On Systemen bieten eine nahtlose Integration in beste
 
 Die Focus Shift Software GmbH stellt kleinen und mittelständischen Unternehmen aller Branchen Software-as-a-Service-Produkte
 zur Verfügung, die das administrative Rückgrat der Unternehmen digital abbilden. Die Verlagerung der Kompetenzen aus der
-Verwaltung in Richtung der Fachkompetenz stärken das Kerngeschäft. 
+Verwaltung in Richtung der Fachkompetenz stärken das Kerngeschäft.

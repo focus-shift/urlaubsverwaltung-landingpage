@@ -32,10 +32,10 @@ kann man nicht deaktivieren.
 
 Bei folgenden Ereignissen werden Benachrichtigungen an die betreffenden Personen versendet:
 
-* Statusänderungen eines Urlaubsantrags
-* Information der Urlaubsvertretung
-* Erinnerung an offene Urlaubsanträge
-* Erfassung von Überstunden
-* Erinnerung an das Ende der Lohnfortzahlung
-* Informationen zum vorhandenen Resturlaub bei Jahreswechsel
-* Neuer Benutzer
+- Statusänderungen eines Urlaubsantrags
+- Information der Urlaubsvertretung
+- Erinnerung an offene Urlaubsanträge
+- Erfassung von Überstunden
+- Erinnerung an das Ende der Lohnfortzahlung
+- Informationen zum vorhandenen Resturlaub bei Jahreswechsel
+- Neuer Benutzer

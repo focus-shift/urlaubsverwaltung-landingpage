@@ -9,15 +9,14 @@ title: Benutzer - Hilfe
 
 In der Urlaubsverwaltung gibt es aktuell folgende Arten von Berechtigungen:
 
-* **Benutzer**: hat Zugang zur Urlaubsverwaltung und darf Urlaub für sich selbst beantragen
-* **Abteilungsleiter**: darf Urlaubsanträge für die Benutzer seiner Abteilungen einsehen, genehmigen und ablehnen
-* **Freigabe-Verantwortlicher**: ist bei der zweistufigen Genehmigung von Anträgen verantwortlich für die endgültige Freigabe
-* **Chef**: darf Urlaubsanträge **aller** Benutzer einsehen, genehmigen und ablehnen
-* **Office**: darf Einstellungen zur Anwendung vornehmen, die Daten **aller** Mitarbeiter verwalten, Urlaub für **alle** Mitarbeiter beantragen/stornieren und Krankmeldungen pflegen
-* **Inaktiv**: hat keinen Zugang mehr zur Urlaubsverwaltung (Daten des Benutzers bleiben zur Archivierung bestehen)
+- **Benutzer**: hat Zugang zur Urlaubsverwaltung und darf Urlaub für sich selbst beantragen
+- **Abteilungsleiter**: darf Urlaubsanträge für die Benutzer seiner Abteilungen einsehen, genehmigen und ablehnen
+- **Freigabe-Verantwortlicher**: ist bei der zweistufigen Genehmigung von Anträgen verantwortlich für die endgültige Freigabe
+- **Chef**: darf Urlaubsanträge **aller** Benutzer einsehen, genehmigen und ablehnen
+- **Office**: darf Einstellungen zur Anwendung vornehmen, die Daten **aller** Mitarbeiter verwalten, Urlaub für **alle** Mitarbeiter beantragen/stornieren und Krankmeldungen pflegen
+- **Inaktiv**: hat keinen Zugang mehr zur Urlaubsverwaltung (Daten des Benutzers bleiben zur Archivierung bestehen)
 
 Es ist geplant, das aktuelle Berechtigungskonzept [feingranularer](https://github.com/synyx/urlaubsverwaltung/issues/467) zu gestalten.
-
 
 ## Wie stelle ich die Berechtigungen eines Benutzers ein?
 
@@ -62,6 +61,7 @@ Nachdem die Berechtigungen für einen Mitarbeitenden angepasst wurden, sind dies
 ## Welcher Benutzer darf nach Registrierung Einstellungen vornehmen?
 
 Nach der Registrierung der Urlaubsverwaltung bekommt der erste Benutzer, der sich einloggt, automatisch die Berechtigung _Office_
+
 > darf Einstellungen zur Anwendung vornehmen, die Daten aller Mitarbeiter verwalten, Urlaub für alle Mitarbeiter beantragen/stornieren und Krankmeldungen pflegen
 
 Alle weiteren Benutzer werden initial mit der Berechtigung _Benutzer_ angelegt. Für zusätzlich Berechtigungen anderer Benutzer müssen diese von ersten Benutzer vergeben werden.

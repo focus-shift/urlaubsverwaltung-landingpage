@@ -13,7 +13,7 @@ Hinterlege eine Personalnummer und weitere Informationen für deine Mitarbeitend
 
 Die Urlaubsverwaltung kann nun Stammdaten! Was bedeutet das genau? Es ist im Konto einer Person möglich zusätzliche Informationen
 wie die **Personalnummer** und **Zusatzinformation** zu hinterlegen. Zum Hinzufügen oder Bearbeiten einer dieser Informationen,
-könnt ihr über das Konto einer Person bei den __Stammdaten__ auf den Stift klicken und schon kann es losgehen.  
+könnt ihr über das Konto einer Person bei den **Stammdaten** auf den Stift klicken und schon kann es losgehen.
 
 <video controls width="720" height="515" class="my-8 border-2 rounded-lg" poster="stammdaten-bearbeiten-poster.png">
   <source src="stammdaten-bearbeiten.mp4" type="video/mp4">
@@ -21,11 +21,11 @@ könnt ihr über das Konto einer Person bei den __Stammdaten__ auf den Stift kli
 
 Nachdem ihr die Informationen gespeichert habt, werden diese angezeigt
 
-* im Konto,
-* in der Benutzerübersicht,
-* bei den Krankmeldungen,
-* in der Abwesenheitsstatistik und dessen CSV-Export
-* sowie in anderen Übersichten.
+- im Konto,
+- in der Benutzerübersicht,
+- bei den Krankmeldungen,
+- in der Abwesenheitsstatistik und dessen CSV-Export
+- sowie in anderen Übersichten.
 
 <div class="flex my-8 gap-4 flex-col md:flex-row">
     <figure>

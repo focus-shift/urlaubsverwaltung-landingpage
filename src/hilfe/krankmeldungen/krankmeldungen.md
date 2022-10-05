@@ -53,6 +53,7 @@ Beispiel: Max Mustermann hat Urlaub vom 23.11. - 27.11. und war nun am 25.11.
 krank
 
 Vorgehen:
-* Man storniert den kompletten Urlaubsantrag (23.11. - 27.11.)
-* Man legt eine Krankmeldung für den 25.11. an
-* Man legt Urlaub für 23.11. - 24.11. plus für den 26.11. - 27.11. an
+
+- Man storniert den kompletten Urlaubsantrag (23.11. - 27.11.)
+- Man legt eine Krankmeldung für den 25.11. an
+- Man legt Urlaub für 23.11. - 24.11. plus für den 26.11. - 27.11. an

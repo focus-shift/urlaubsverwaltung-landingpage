@@ -7,7 +7,7 @@ author: Andreas Weigel
 release-version: 4.39.0
 ---
 
-Die Farbe und Sichtbarkeit einer Abwesenheitsart können ab sofort individuell konfiguriert werden. 
+Die Farbe und Sichtbarkeit einer Abwesenheitsart können ab sofort individuell konfiguriert werden.
 
 <!-- more -->
 
@@ -71,10 +71,9 @@ Noch nicht genehmigte Abwesenheiten werden als leerer Rahmen in der betreffenden
     </figure>
 </div>
 
-
 ### Einstellung der Farbe der Abwesenheitsarten
 
-Die Farben der Abwesenheitsarten können durch Benutzende mit der Berechtigung Office unter _Einstellungen_ » _Abwesenheitsarten_  konfiguriert werden:
+Die Farben der Abwesenheitsarten können durch Benutzende mit der Berechtigung Office unter _Einstellungen_ » _Abwesenheitsarten_ konfiguriert werden:
 
 <div class="flex my-8">
     <figure>
@@ -96,7 +95,7 @@ Die Farben der Abwesenheitsarten werden in allen oben genannten Übersichten ent
 
 ### Einstellung der Sichtbarkeit
 
-Neben der neuen Farbkonfiguration ist es nun auch möglich die Sichtbarkeit der Abwesenheitsarten in der Abwesenheitsübersicht einzustellen. 
+Neben der neuen Farbkonfiguration ist es nun auch möglich die Sichtbarkeit der Abwesenheitsarten in der Abwesenheitsübersicht einzustellen.
 
 <div class="flex my-8">
     <figure>
@@ -132,7 +131,7 @@ Bisher war die Sichtbarkeit anhand der Berechtigungen eingeschränkt. Normale Be
     </figure>
 </div>
 
-Dagegen ist z.B. die Abwesenheitsart _Home-Office_ oder _Außer Haus_ ein Fall bei dem es sinnvoll sein kann die Information in der Abteilung zu teilen, da die Person in Arbeitsabläufe eingebunden sein kann oder zumindest telefonisch erreichbar ist. Für diesen Fall ist es nun möglich, dass die Abwesenheitsart für alle sichtbar gemacht wird. Die Einstellung hat zur Folge, dass die Abwesenheitsart nicht mehr durch die generische Information "Abwesend" für normale Benutzende dargestellt wird, sondern die konkrete Abwesenheitsart sichtbar ist. Als Beispiel ist im folgenden Bild ist die <i>Home-Office</i>-Abwesenheit von Niko Schmitt am 27.-30.06 für Klaus Müller als normaler Benutzer sichtbar. Abwesenheitsarten für die, die Sichtbarkeit nicht freigegeben wurde, werden weiterhin als _Abwesend_ angezeigt. 
+Dagegen ist z.B. die Abwesenheitsart _Home-Office_ oder _Außer Haus_ ein Fall bei dem es sinnvoll sein kann die Information in der Abteilung zu teilen, da die Person in Arbeitsabläufe eingebunden sein kann oder zumindest telefonisch erreichbar ist. Für diesen Fall ist es nun möglich, dass die Abwesenheitsart für alle sichtbar gemacht wird. Die Einstellung hat zur Folge, dass die Abwesenheitsart nicht mehr durch die generische Information "Abwesend" für normale Benutzende dargestellt wird, sondern die konkrete Abwesenheitsart sichtbar ist. Als Beispiel ist im folgenden Bild ist die <i>Home-Office</i>-Abwesenheit von Niko Schmitt am 27.-30.06 für Klaus Müller als normaler Benutzer sichtbar. Abwesenheitsarten für die, die Sichtbarkeit nicht freigegeben wurde, werden weiterhin als _Abwesend_ angezeigt.
 
 <div class="flex my-8">
     <figure>
