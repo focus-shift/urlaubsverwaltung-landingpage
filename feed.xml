@@ -4,8 +4,51 @@
   <subtitle></subtitle>
   <link rel="self" href="https://urlaubsverwaltung.cloud/feed.xml" />
   <link rel="alternate" type="text/html" href="https://urlaubsverwaltung.cloud" />
-  <updated>2022-07-22T00:00:00Z</updated>
+  <updated>2022-10-19T00:00:00Z</updated>
   <id>https://urlaubsverwaltung.cloud</id>
+  
+  
+  
+  <entry>
+    <title>Verfall von Resturlaub für alle und/oder für einzelne Mitarbeitenden deaktivieren</title>
+    <link href="https://urlaubsverwaltung.cloud/neuigkeiten/2022-10-19-verfall-resturlaub/" />
+    <updated>2022-10-19T00:00:00Z</updated>
+    <id>https://urlaubsverwaltung.cloud/neuigkeiten/2022-10-19-verfall-resturlaub/</id>
+    <author>
+      <name>Tobias Schneider</name>
+    </author>
+    <content type="html">&lt;p&gt;Der Verfall des Resturlaubs aus dem Vorjahr kann ab sofort für alle in den Einstellungen oder im jeweiligen Urlaubsanspruch
+des Mitarbeitenden deaktiviert bzw. aktiviert werden.&lt;/p&gt;
+&lt;h3 id=&quot;verfall-von-resturlaub-fuer-alle-mitarbeitenden-deaktivieren&quot;&gt;Verfall von Resturlaub für alle Mitarbeitenden deaktivieren&lt;/h3&gt;
+&lt;p&gt;Der Verfall des Resturlaubes kann, seit der Version 4.50.0 der Urlaubsverwaltung, in den Einstellungen unter
+&#39;Einstellungen zu Urlaub&#39; global deaktiviert bzw. aktiviert werden. Durch das Deaktivieren des Verfalls werden die
+nicht genommenen Urlaubstage komplett in das kommende Jahr als Resturlaub übernommen.&lt;/p&gt;
+&lt;div class=&quot;flex my-8&quot;&gt;
+    &lt;figure&gt;
+        &lt;picture&gt;
+            &lt;source srcset=&quot;https://urlaubsverwaltung.cloud/neuigkeiten/2022-10-19-verfall-resturlaub/residual-leave-configuration.avif&quot; type=&quot;image/avif&quot; /&gt;
+            &lt;img src=&quot;https://urlaubsverwaltung.cloud/neuigkeiten/2022-10-19-verfall-resturlaub/residual-leave-configuration.png&quot; alt=&quot;Konfiguration zum Deaktivieren/Aktivieren des Verfalls von Resturlaubs für alle Mitarbeitenden&quot; decoding=&quot;async&quot; loading=&quot;lazy&quot; class=&quot;rounded-lg&quot; /&gt;
+        &lt;/picture&gt;
+        &lt;figcaption class=&quot;text-sm text-center&quot;&gt;Konfiguration zum Deaktivieren/Aktivieren des Verfalls von Resturlaubs für alle Mitarbeitenden&lt;/figcaption&gt;
+    &lt;/figure&gt;
+&lt;/div&gt;
+&lt;h3 id=&quot;verfall-von-resturlaub-pro-mitarbeitenden-individuell-deaktivieren&quot;&gt;Verfall von Resturlaub pro Mitarbeitenden individuell deaktivieren&lt;/h3&gt;
+&lt;p&gt;Der Verfall von Resturlaub kann nicht nur für alle Mitarbeitenden, sondern zusätzlich auch pro Mitarbeitenden im Konto
+unter Urlaubsanspruch deaktiviert bzw. aktiviert werden. Hiermit hat man die Möglichkeit z.B. den Verfall für alle Mitarbeitenden
+zu deaktivieren und für bestimmte Mitarbeitenden individuell zu aktivieren.&lt;/p&gt;
+&lt;div class=&quot;flex my-8&quot;&gt;
+    &lt;figure&gt;
+        &lt;picture&gt;
+            &lt;source srcset=&quot;https://urlaubsverwaltung.cloud/neuigkeiten/2022-10-19-verfall-resturlaub/residual-leave-configuration-employee.avif&quot; type=&quot;image/avif&quot; /&gt;
+            &lt;img src=&quot;https://urlaubsverwaltung.cloud/neuigkeiten/2022-10-19-verfall-resturlaub/residual-leave-configuration-employee.png&quot; alt=&quot;Konfiguration des individuellen Verfalls von Resturlaub pro Mitarbeitenden&quot; decoding=&quot;async&quot; loading=&quot;lazy&quot; class=&quot;rounded-lg&quot; /&gt;
+        &lt;/picture&gt;
+        &lt;figcaption class=&quot;text-sm text-center&quot;&gt;Konfiguration des individuellen Verfalls von Resturlaub pro Mitarbeitenden&lt;/figcaption&gt;
+    &lt;/figure&gt;
+&lt;/div&gt;
+&lt;p&gt;Wir freuen uns über dein Feedback an &lt;a href=&quot;mailto:info@urlaubsverwaltung.cloud?subject=Feedback&quot;&gt;info@urlaubsverwaltung.cloud&lt;/a&gt;.
+&lt;br /&gt;&lt;/p&gt;
+</content>
+  </entry>
   
   
   
