@@ -6,13 +6,13 @@ title: Überschreiben der Browsersprache in den Personalisierungen
 author: Tobias Schneider
 ---
 
-Wir erweitern für euch die Personalisierung, sodass ihr die Urlaubsverwaltung unabhägnig der Browsersprche konfigurieren könnt.
+Wir erweitern für euch die Personalisierung, sodass ihr die Sprach unabhängig der Browsersprche konfigurieren könnt.
 
 <!-- more -->
 
 ### Browsersprache in der Personalisierung überschreiben
 
-Bisher war es in der Urlaubsverwaltung so, dass die Browsersprache bestimmt hat, in welcher Sprache die 
+Bisher war es in der Urlaubsverwaltung so, dass die Browsersprache bestimmt hat, in welcher Sprache die
 Urlaubsverwaltung dargestellt wurde. Dies ist weiterhin der Standardfall, jedoch gehen wir nun einen Schritt weiter und
 ermöglichen es in der Personalisierung einzustellen, welche Sprache verwendet werden soll.
 
