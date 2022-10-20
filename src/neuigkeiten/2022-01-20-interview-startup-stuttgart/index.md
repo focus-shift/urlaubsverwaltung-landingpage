@@ -4,7 +4,7 @@ layout: layout-neuigkeiten
 date: 2022-01-20
 title: Focus Shift im Interview - wie alles begann
 author: Andreas Weigel
-teaserImage: 
+teaserImage: /static/microphone.png
 ---
 
 Wer ist das Unternehmen hinter der Urlaubsverwaltung? Spannende Einblicke in die Anfangszeit der Focus Shift Software GmbH
@@ -13,7 +13,7 @@ Wer ist das Unternehmen hinter der Urlaubsverwaltung? Spannende Einblicke in die
 
 Die erste Zeit nach einer Gründung eines Unternehmens ist ziemlich turbulent. Etwas ganz Besonders ist es, wenn andere 
 Websiten über das eigene Unternehmen berichten. Im September wurden wir bei [deutsche-startups](https://www.deutsche-startups.de/2021/09/16/5-neue-startups-swa)
-erwähnt. Vielleicht aufgrund dessen wurde Stuttgart Startups auf uns aufmerksam.
+erwähnt. Vielleicht wurde aufgrund dessen Stuttgart Startups auf uns aufmerksam.
 
 ## Interview mit Stuttgart Startups
 
