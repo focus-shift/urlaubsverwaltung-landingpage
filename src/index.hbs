@@ -207,21 +207,22 @@ description: Starte heute mit der Digitalisierung deines Unternehmens. Urlaubsve
 				</div>
 				<div class="p-8 bg-sky-50 flex flex-col">
 					<h3 class="text-sky-900 text-xl mb-6">
-						Individualisierbare Abwesenheiten
-					</h3>
-					<p class="flex-1 text-black text-opacity-60 mb-6">
-						Du möchtest die Abwesenheiten der Urlaubsverwaltung anpassen? Kein Problem! Wähle aus verschiedenen
-						Abwesenheiten die Richtigen
-						für dich aus. Wähle aus Erholungsurlaub, Fortbildung, Kur, Home-Office und vielen weiteren!
-					</p>
+						Individualisierbare Abwesenheitsarten
+          </h3>
+          <p class="flex-1 text-black text-opacity-60 mb-6">
+            Du möchtest die Abwesenheiten der Urlaubsverwaltung anpassen? Kein Problem! Wähle aus verschiedenen Abwesenheiten die Richtigen
+            für dich aus. Wähle aus Erholungsurlaub, Fortbildung, Kur, Home-Office und vielen weiteren!
+          </p>
 					<div>
-						<picture>
-							<source srcset="/static/uv-abwesenheitsarten_sm.avif" media="(max-width: 639px)" type="image/avif">
-							<source srcset="/static/uv-abwesenheitsarten_sm.webp" media="(max-width: 639px)" type="image/webp">
-							<source srcset="/static/uv-abwesenheitsarten_sm.png" media="(max-width: 639px)">
-							<source srcset="/static/uv-abwesenheitsarten.avif" type="image/avif">
-							<source srcset="/static/uv-abwesenheitsarten.webp" type="image/webp">
-							<img src="/static/uv-abwesenheitsarten.png" width="730px" height="416px" loading="lazy"
+						<a href="/abwesenheitsarten" class="text-black hover:underline">
+							{{> partials/icon-chevron-double-right class='w-4 h-4 -mt-0.5 inline-block'}}
+							mehr Informationen
+						</a>
+					</div>
+          <div class="mt-8">
+            <picture>
+							<source srcset="/static/absencetypes.webp" type="image/webp">
+							<img src="/static/absencetypes.png" width="730px" height="416px" loading="lazy"
 									 alt="Konfiguration der Abwesenheitsarten">
 						</picture>
 					</div>
@@ -604,5 +605,4 @@ Cal("init",  {origin:"https://cal.com"});
 			</div>
 		</div>
 	</div>
-
 </main>
