@@ -248,12 +248,18 @@ backgroundColor: bg-white
         </div>
         <div class="p-8 bg-sky-50 flex flex-col">
           <h3 class="text-sky-900 text-xl mb-6">
-            Kalender-Export
+            Kalenderintegration
           </h3>
           <p class="flex-1 text-black text-opacity-60 mb-6">
             Die Abwesenheitskalender können ganz einfach freigegeben und in alle gängigen Kalender Apps integriert werden.
           </p>
-          <div>
+					<div>
+						<a href="/kalenderintegration" class="text-black hover:underline">
+							{{> partials/icon-chevron-double-right class='w-4 h-4 -mt-0.5 inline-block'}}
+							mehr Informationen
+						</a>
+					</div>
+          <div class="mt-8">
             <picture>
               <source srcset="/static/uv-kalender-freigabe_sm.png" media="(max-width: 639px)">
               <img src="/static/uv-kalender-freigabe.png" width="1000px" height="340px" alt="Dein Abwesenheitskalender kann für externe Kalender freigegeben werden.">
