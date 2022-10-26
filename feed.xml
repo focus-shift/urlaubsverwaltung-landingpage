@@ -4,8 +4,42 @@
   <subtitle></subtitle>
   <link rel="self" href="https://urlaubsverwaltung.cloud/feed.xml" />
   <link rel="alternate" type="text/html" href="https://urlaubsverwaltung.cloud" />
-  <updated>2022-10-19T00:00:00Z</updated>
+  <updated>2022-10-26T00:00:00Z</updated>
   <id>https://urlaubsverwaltung.cloud</id>
+  
+  
+  
+  <entry>
+    <title>Überschreiben der Browsersprache in den Personalisierungen</title>
+    <link href="https://urlaubsverwaltung.cloud/neuigkeiten/2022-10-26-sprachkonfiguration/" />
+    <updated>2022-10-26T00:00:00Z</updated>
+    <id>https://urlaubsverwaltung.cloud/neuigkeiten/2022-10-26-sprachkonfiguration/</id>
+    <author>
+      <name>Tobias Schneider</name>
+    </author>
+    <content type="html">&lt;p&gt;Wir erweitern für euch die Personalisierung, sodass ihr die Sprache unabhängig der Browsersprache konfigurieren könnt.&lt;/p&gt;
+&lt;h3 id=&quot;browsersprache-in-der-personalisierung-ueberschreiben&quot;&gt;Browsersprache in der Personalisierung überschreiben&lt;/h3&gt;
+&lt;p&gt;Bisher war es in der Urlaubsverwaltung ausschließlich so, dass die Browsersprache bestimmt hat, in welcher Sprache die
+Urlaubsverwaltung dargestellt wird. Dies ist weiterhin der Standardfall, jedoch gehen wir nun einen Schritt weiter und
+ermöglichen es in der Personalisierung einzustellen, welche Sprache verwendet werden soll.&lt;/p&gt;
+&lt;div class=&quot;flex my-8&quot;&gt;
+    &lt;figure&gt;
+        &lt;picture&gt;
+            &lt;source srcset=&quot;https://urlaubsverwaltung.cloud/neuigkeiten/2022-10-26-sprachkonfiguration/language-personalisation.avif&quot; type=&quot;image/avif&quot; /&gt;
+            &lt;img src=&quot;https://urlaubsverwaltung.cloud/neuigkeiten/2022-10-26-sprachkonfiguration/language-personalisation.png&quot; alt=&quot;Konfiguration zum Überschreiben der Browsersprache in den Personalisierungen&quot; decoding=&quot;async&quot; loading=&quot;lazy&quot; class=&quot;rounded-lg&quot; /&gt;
+        &lt;/picture&gt;
+        &lt;figcaption class=&quot;text-sm text-center&quot;&gt;Konfiguration zum Überschreiben der Browsersprache in den Personalisierungen&lt;/figcaption&gt;
+    &lt;/figure&gt;
+&lt;/div&gt;
+&lt;p&gt;Warum tun wir das? Weil wir euer Feedback ernst nehmen und mit euch die Urlaubsverwaltung weiterentwickeln! Es wurde mehrfach an uns
+herangetragen, dass Personen ihren Browser z.B. auf die englische Sprache eingestellt haben, jedoch mit den fachlichen und
+rechtlichen Bezeichnungen der Urlaubsverwaltung für Urlaub und Abwesenheiten auf Englisch ihre Probleme haben. Verständlich!
+Wer kennt schon die englischen Bezeichnungen für Resturlaub oder anteilige Urlaubstage.
+Nun könnt ihr euren Browser auf eurer Wunschsprache eingestellt haben und die Urlaubsverwaltung z.B. auf Deutsch genießen!&lt;/p&gt;
+&lt;br /&gt;
+Wir freuen uns über dein Feedback an &lt;a href=&quot;mailto:info@urlaubsverwaltung.cloud?subject=Feedback&quot;&gt;info@urlaubsverwaltung.cloud&lt;/a&gt;.
+</content>
+  </entry>
   
   
   
