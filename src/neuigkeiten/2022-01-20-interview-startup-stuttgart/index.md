@@ -12,7 +12,7 @@ Wer ist das Unternehmen hinter der Urlaubsverwaltung? Spannende Einblicke in die
 <!-- more -->
 
 Die erste Zeit nach einer Gründung eines Unternehmens ist ziemlich turbulent. Etwas ganz Besonders ist es, wenn andere 
-Websiten über das eigene Unternehmen berichten. Im September wurden wir bei [deutsche-startups](https://www.deutsche-startups.de/2021/09/16/5-neue-startups-swa)
+Webseiten über das eigene Unternehmen berichten. Im September wurden wir bei [deutsche-startups](https://www.deutsche-startups.de/2021/09/16/5-neue-startups-swa)
 erwähnt. Vielleicht wurde aufgrund dessen Stuttgart Startups auf uns aufmerksam.
 
 ## Interview mit Stuttgart Startups
