@@ -1,0 +1,132 @@
+.cal-integration-card-border {
+	@apply md:bg-gradient-to-b;
+	@apply from-gray-50;
+	@apply to-sky-50;
+	padding: 1.125rem;
+}
+
+.cal-integration-card {
+	@apply bg-white;
+	@apply flex;
+	@apply flex-col;
+	border-radius: 1.125rem;
+}
+
+.cal-integration-card_description {
+	@apply flex-1;
+	@apply p-8;
+}
+
+.cal-integration-card_description h3 {
+	@apply font-bold;
+	@apply text-xl;
+}
+
+.cal-integration-card_description p {
+	@apply mt-4;
+}
+
+.cal-integration-card_description a{
+	@apply underline;
+}
+
+.cal-integration-card_image {
+	@apply relative;
+	@apply flex;
+	@apply p-4;
+}
+
+.cal-integration-card_image-cover {
+	@apply hidden;
+}
+
+.cal-integration-card_image img {
+	@apply w-full;
+	@apply border;
+	@apply border-gray-100;
+	@apply rounded-xl;
+	@apply h-full;
+	vertical-align: center;
+}
+
+@screen sm {
+	.cal-integration-card_image {
+		@apply p-8;
+	}
+
+	.cal-integration-card_description h3 {
+		@apply text-2xl;
+	}
+
+	.cal-integration-card_description p {
+		@apply text-lg;
+	}
+}
+
+@screen md {
+	.cal-integration-card-border {
+		border-radius: 1.375rem;
+	}
+
+	.cal-integration-card {
+		@apply flex-row;
+		@apply gap-4;
+	}
+
+	.cal-integration-card_description {
+		@apply py-24;
+		@apply px-12;
+	}
+
+	.cal-integration-card_description h3 {
+		@apply text-3xl;
+	}
+
+	.cal-integration-card_description p {
+		@apply mt-8;
+	}
+
+	.cal-integration-card_image {
+		@apply p-0;
+		@apply w-1/2;
+	}
+
+	.cal-integration-card_image-cover {
+		@apply block;
+		@apply w-1/2;
+		@apply absolute;
+		@apply left-0;
+		@apply top-0;
+		@apply bottom-0;
+		@apply bg-gradient-to-r;
+		@apply from-white;
+	}
+
+	.cal-integration-card_image img {
+		@apply rounded-r-2xl;
+		object-fit: cover;
+		object-position: 25%;
+	}
+}
+
+@screen lg {
+	.cal-integration-card_image {
+		@apply w-3/5;
+	}
+
+	.cal-integration-card_image-cover {
+		@apply w-full;
+	}
+
+	.cal-integration-card_image img {
+		object-fit: none;
+		object-position: 50% 50%;
+	}
+}
+
+@screen xl {
+	.cal-integration-card_description {
+		@apply py-32;
+		@apply px-16;
+	}
+}

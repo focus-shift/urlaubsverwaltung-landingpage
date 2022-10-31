@@ -1,0 +1,278 @@
+---
+layout: layout
+title: Kalenderintegration
+stylesheets:
+  - /static/css/kalenderintegration.css
+---
+
+{{> partials/navigation active="funktionen" }}
+
+<main class="flex-1">
+
+	<div class="w-full max-w-screen-xl mx-auto">
+		<div class="px-12 sm:px-20 xl:px-12 2xl:px-4">
+			<h1 class="text-2xl font-bold" id="zeiterfassung">
+				Kalenderintegration
+			</h1>
+
+ 			<div class="mt-12 flex flex-col md:flex-row gap-8">
+ 				<div class="flex-1 flex flex-col">
+ 					<ul class="mt-4 flex flex-col gap-3">
+ 						<li class="flex items-start">
+ 							<span class="mr-3">
+ 								{{> partials/icon-check class='w-6 h-6'}}
+ 							</span>
+ 							iCal Standard für mehr Flexibilität
+ 						</li>
+ 						<li class="flex items-start">
+ 							<span class="mr-3">
+ 								{{> partials/icon-check class='w-6 h-6'}}
+ 							</span>
+ 							Rasend schnell
+ 						</li>
+ 						<li class="flex items-start">
+ 							<span class="mr-3">
+ 								{{> partials/icon-check class='w-6 h-6'}}
+ 							</span>
+ 							DSGVO-konform
+ 						</li>
+ 						<li class="flex items-start">
+ 							<span class="mr-3">
+ 								{{> partials/icon-check class='w-6 h-6'}}
+ 							</span>
+ 							Kalender mit den eigenen Abwesenheiten
+ 						</li>
+						<li class="flex items-start">
+ 							<span class="mr-3">
+								{{> partials/icon-check class='w-6 h-6'}}
+							</span>
+							Kalender auf Abteilungsebene
+						</li>
+						<li class="flex items-start">
+ 							<span class="mr-3">
+								{{> partials/icon-check class='w-6 h-6'}}
+							</span>
+							Firmenkalender
+						</li>
+ 					</ul>
+ 				</div>
+			</div>
+		</div>
+	</div>
+
+		<h2 class="sr-only">
+  		Funktionen
+  	</h2>
+
+  	<div class="mt-16 md:mt-32 bg-gradient-to-b from-white to-sky-100">
+  		<div class="w-full max-w-screen-xl mx-auto md:px-8 2xl:px-0">
+
+				<div class="cal-integration-card-border">
+  				<div class="cal-integration-card">
+  					<div class="cal-integration-card_description">
+  						<h3>
+  							iCal Standard für mehr Flexibilität
+  						</h3>
+  						<p>
+  							Alle <a href="https://urlaubsverwaltung.cloud/hilfe/kalender/#welche-moeglichkeiten-habe-ich-eine-ical-kalenderfreigabe-in-meinem-client-zu-verwenden">
+								gängigen Kalenderanwendungen </a> unterstützen das iCalendar Datenformat und können externe Kalender integrieren.
+  						</p>
+  						<p>
+  							Einfach Link generieren und in der Anwendungen der Wahl importieren.
+  						</p>
+  					</div>
+  					<div class="cal-integration-card_image">
+  						<div class="cal-integration-card_image-cover"></div>
+  						<picture>
+  							<source srcset="/static/kalenderintegration-url.webp" type="image/webp">
+  							<img src="/static/kalenderintegration-url.png" style="object-position: 0% 50%;" alt="">
+  						</picture>
+  					</div>
+  				</div>
+  			</div>
+  		</div>
+  	</div>
+
+  	<div class="bg-sky-100 lg:pt-16 xl:pt-24">
+  		<div class="w-full max-w-screen-xl mx-auto md:px-8 2xl:px-0">
+
+  			<div class="cal-integration-card-border">
+  				<div class="cal-integration-card">
+  					<div class="cal-integration-card_description">
+  						<h3>
+  							Beispiel Google Kalender
+  						</h3>
+  						<p>
+  							Unter "Weitere Kalender" kann "Per Url" ein Kalender integriert werden.
+  						</p>
+							<p>
+								Einfach die Url aus der Urlaubsverwaltung kopieren und durchstarten &#128640;
+							</p>
+  					</div>
+  					<div class="cal-integration-card_image">
+  						<div class="cal-integration-card_image-cover"></div>
+  						<picture>
+  							<source srcset="/static/kalenderintegration-google.webp" type="image/webp">
+  							<img src="/static/kalenderintegration-google.png" alt="">
+  						</picture>
+  					</div>
+  				</div>
+  			</div>
+
+				<div class="lg:mt-12 xl:mt-24 cal-integration-card-border">
+					<div class="cal-integration-card">
+						<div class="cal-integration-card_description">
+							<h3>
+								Beispiel Microsoft Outlook
+							</h3>
+							<p>
+								Unter "Kalender hinzufügen" kann mit "Aus dem Internet abonnieren" ein Kalender integriert werden.
+							</p>
+							<p>
+								Einfach die Url aus der Urlaubsverwaltung kopieren und durchstarten &#128640;
+							</p>
+						</div>
+						<div class="cal-integration-card_image">
+							<div class="cal-integration-card_image-cover"></div>
+							<picture>
+								<source srcset="/static/kalenderintegration-outlook.webp" type="image/webp">
+								<img src="/static/kalenderintegration-outlook.png" style="object-position: 100% 0%;" alt="">
+							</picture>
+						</div>
+					</div>
+				</div>
+
+				<div class="lg:mt-12 xl:mt-24 cal-integration-card-border">
+					<div class="cal-integration-card">
+						<div class="cal-integration-card_description">
+							<h3>
+								Rasend schnell
+							</h3>
+							<p>
+								Entscheide selbst wie weit die Kalenderdaten in die Vergangenheit reichen.
+							</p>
+							<p>
+								Das "Sliding-Window-Prinzip" stellt kurz Ladezeiten sicher.
+							</p>
+						</div>
+						<div class="cal-integration-card_image">
+							<div class="cal-integration-card_image-cover"></div>
+							<picture>
+								<source srcset="/static/kalenderintegration-zeitfenster.webp" type="image/webp">
+								<img src="/static/kalenderintegration-zeitfenster.png" alt="">
+							</picture>
+						</div>
+					</div>
+				</div>
+
+  			<div class="lg:mt-12 xl:mt-24 cal-integration-card-border">
+  				<div class="cal-integration-card">
+  					<div class="cal-integration-card_description">
+  						<h3>
+								DSGVO-Konform
+  						</h3>
+  						<p>
+  							Kalenderfreigabe auf Abteilungsebene möglich. Jeder sieht nur die Abwesenheiten für die er ein
+								berechtigtes Interesse hat.
+  						</p>
+  						<p>
+  							Zeige deinem Partner/ deiner Partnerin wann du da bist &#10084; mit dem Kalender deiner eigenen Abwesenheiten.
+  						</p>
+  					</div>
+  					<div class="cal-integration-card_image">
+  						<div class="cal-integration-card_image-cover"></div>
+  						<picture>
+  							<source srcset="/static/kalenderintegration-abteilungen.webp" type="image/webp">
+  							<img src="/static/kalenderintegration-abteilungen.png" alt="">
+  						</picture>
+  					</div>
+  				</div>
+  			</div>
+
+  			<div class="lg:mt-12 xl:mt-24 cal-integration-card-border">
+  				<div class="cal-integration-card">
+  					<div class="cal-integration-card_description">
+  						<h3>
+  							Behalte die Kontrolle
+  						</h3>
+							<p>
+								Die URL ist jederzeit stornierbar und kann bei Bedarf neugeneriert werden.
+							</p>
+  						<p>
+								Der unternehmensweite Kalender ist für spezielle Rollen verfügbar und kann für das ganze Unternehmen
+								freigegeben werden.
+  						</p>
+  					</div>
+  					<div class="cal-integration-card_image">
+  						<div class="cal-integration-card_image-cover"></div>
+  						<picture>
+								<source srcset="/static/kalenderintegration-companycalendar.webp" type="image/webp">
+								<img src="/static/kalenderintegration-companycalendar.png" style="object-position: 400% 50%;" alt="">
+  						</picture>
+  					</div>
+  				</div>
+  			</div>
+
+				<div class="lg:mt-12 xl:mt-24 cal-integration-card-border">
+					<a href="/hilfe/kalender" class="text-black hover:underline">
+						{{> partials/icon-chevron-double-right class='w-4 h-4 -mt-0.5 inline-block'}}
+						mehr Informationen zur Kalenderintegration findest du in der Hilfe
+					</a>
+				</div>
+			</div>
+		</div>
+
+
+  	<div class="bg-sky-100 pt-8 ">
+
+  		<div class="xl:mt-24 2xl:mt-40 w-full max-w-screen-xl mx-auto">
+  			<h2 class="px-4 xs:px-12 md:px-20 text-2xl font-bold mb-12 md:mb-16 2xl:mb-24 text-3xl">
+  				Das sagen unsere Kunden
+  			</h2>
+  			<div class="px-6 xs:px-14 md:px-10 2xl:px-0 grid md:grid-cols-2 gap-8 2xl:gap-16">
+  				<figure class="p-8 relative">
+  					<svg width="90" height="90" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 310.284 310.284" class="text-white fill-current absolute -left-2 -top-2 2xl:-left-6 2xl:-top-8 w-16 h-16 md:w-22 md:h-22 2xl:w-24 2xl:h-24">
+  						<path d="M155.142,0C69.597,0,0,69.597,0,155.142s69.597,155.142,155.142,155.142s155.142-69.597,155.142-155.142  S240.688,0,155.142,0z M79.171,231.401c-1.746,1.182-6.129,2.222-8.693-0.625l-4.731-5.95c-2.288-3.869,0.483-7.457,2.277-8.945  c8.529-7.075,14.731-12.548,18.601-16.419c7.589-7.981,13.199-15.97,16.903-23.935c0.847-1.821-1.315-2.977-2.438-3.345  c-27.967-9.166-41.955-25.325-41.955-48.474c0-13.639,4.53-24.722,13.585-33.242c9.059-8.525,20.407-12.785,34.041-12.785  c12.146,0,22.909,5.539,32.283,16.621c9.165,10.438,13.744,21.735,13.744,33.881C152.789,163.78,128.251,198.185,79.171,231.401z   M185.61,231.401c-1.746,1.182-6.129,2.222-8.693-0.625l-4.731-5.95c-2.288-3.869,0.483-7.457,2.277-8.945  c8.528-7.075,14.731-12.548,18.601-16.419c7.589-7.981,13.199-15.97,16.904-23.935c0.847-1.821-1.315-2.977-2.438-3.345  c-27.967-9.166-41.955-25.325-41.955-48.474c0-13.639,4.53-24.722,13.585-33.242c9.06-8.525,20.407-12.785,34.041-12.785  c12.146,0,22.909,5.539,32.283,16.621c9.164,10.438,13.744,21.735,13.744,33.881C259.228,163.78,234.69,198.185,185.61,231.401z"/>
+  					</svg>
+  					<div class="relative">
+  						<blockquote class="text-xl 2xl:text-2xl mb-6 md:mb-4">
+  							"Kompliment, ihr seid echt fix mit der Umsetzung von Verbesserungen, das ist Klasse!"
+  						</blockquote>
+  						<figcaption class="flex flex-col">
+  							<cite class="font-bold lg:text-lg">
+  								Angela Breyer
+  							</cite>
+  							<span class="lg:text-lg text-black text-opacity-50">
+  								Organisationsentwicklung
+  							</span>
+  						</figcaption>
+  					</div>
+  				</figure>
+  				<figure class="p-8 relative">
+  					<svg width="90" height="90" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 310.284 310.284" class="text-white fill-current absolute -left-2 -top-2 2xl:-left-6 2xl:-top-8 w-16 h-16 md:w-22 md:h-22 2xl:w-24 2xl:h-24">
+  						<path d="M155.142,0C69.597,0,0,69.597,0,155.142s69.597,155.142,155.142,155.142s155.142-69.597,155.142-155.142  S240.688,0,155.142,0z M79.171,231.401c-1.746,1.182-6.129,2.222-8.693-0.625l-4.731-5.95c-2.288-3.869,0.483-7.457,2.277-8.945  c8.529-7.075,14.731-12.548,18.601-16.419c7.589-7.981,13.199-15.97,16.903-23.935c0.847-1.821-1.315-2.977-2.438-3.345  c-27.967-9.166-41.955-25.325-41.955-48.474c0-13.639,4.53-24.722,13.585-33.242c9.059-8.525,20.407-12.785,34.041-12.785  c12.146,0,22.909,5.539,32.283,16.621c9.165,10.438,13.744,21.735,13.744,33.881C152.789,163.78,128.251,198.185,79.171,231.401z   M185.61,231.401c-1.746,1.182-6.129,2.222-8.693-0.625l-4.731-5.95c-2.288-3.869,0.483-7.457,2.277-8.945  c8.528-7.075,14.731-12.548,18.601-16.419c7.589-7.981,13.199-15.97,16.904-23.935c0.847-1.821-1.315-2.977-2.438-3.345  c-27.967-9.166-41.955-25.325-41.955-48.474c0-13.639,4.53-24.722,13.585-33.242c9.06-8.525,20.407-12.785,34.041-12.785  c12.146,0,22.909,5.539,32.283,16.621c9.164,10.438,13.744,21.735,13.744,33.881C259.228,163.78,234.69,198.185,185.61,231.401z"/>
+  					</svg>
+  					<div class="relative">
+  						<blockquote class="text-xl 2xl:text-2xl mb-6 md:mb-4">
+  							"Die Urlaubsverwaltung wird sowohl von den Kollegen als auch von der Geschäftsleitung sehr gut angenommen und auch Kollegen, die sich ansonsten schwer tun mit jeglichen Anwendungen, hatten keine Probleme."
+  						</blockquote>
+  						<figcaption class="flex flex-col">
+  							<cite class="font-bold lg:text-lg">
+  								Frank Rheinfelder
+  							</cite>
+  							<span class="lg:text-lg text-black text-opacity-50">
+  								Betriebswirt / Bilanzbuchhalter
+  							</span>
+  						</figcaption>
+  					</div>
+  				</figure>
+  			</div>
+  		</div>
+
+  		<div class="mt-24 w-full max-w-screen-xl mx-auto px-4 xl:px-2">
+  			{{> partials/price }}
+  		</div>
+
+  		<div class="pb-8 md:pb-32"></div>
+  	</div>
+  </main>
