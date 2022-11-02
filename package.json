@@ -27,7 +27,7 @@
 		"concurrently": "7.4.0",
 		"cssnano": "5.1.14",
 		"date-fns": "2.29.3",
-		"esbuild": "0.15.10",
+		"esbuild": "0.15.12",
 		"eslint": "8.26.0",
 		"eslint-config-prettier": "8.5.0",
 		"eslint-plugin-prettier": "4.2.1",
