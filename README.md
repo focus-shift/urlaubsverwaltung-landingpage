@@ -29,8 +29,10 @@ Zum Automatisieren verschiedener Dinge bietet dir das Projekt [git hooks](https:
 an. Diese kannst du mit folgendem Befehl installieren:
 
 ```bash
-./scripts/install-git-hooks.sh
+git config core.hooksPath '.githooks'
 ```
+
+Die Githooks sind im [.githooks](./.githooks/) Verzeichnis zu finden.
 
 ## Homepage bauen
 
@@ -42,10 +44,10 @@ npm run build
 
 ### Verzeichnisstruktur
 
-* **public**
-  * enthält statische Resourcen die nicht transformiert werden müssen (z. B. favicon, robots.txt, ...)
-* **src**
-  * enthält den Inhalt der Webseite, CSS, JavaScript und alles was transformiert werden muss.
+- **public**
+  - enthält statische Resourcen die nicht transformiert werden müssen (z. B. favicon, robots.txt, ...)
+- **src**
+  - enthält den Inhalt der Webseite, CSS, JavaScript und alles was transformiert werden muss.
 
 ## Deployment
 
@@ -53,9 +55,8 @@ Jeder commit auf den Branch `main` wird automatisiert gebaut, auf den `gh-pages`
 
 siehe `.github/workflows/deployment.yml`
 
-
 ## Bilder & Icons
 
-* [Bild-Optimierung](https://squoosh.app/)
-* Screenshots via [flameshot](https://flameshot.org/)
-* [Icon Set](https://heroicons.com/)
+- [Bild-Optimierung](https://squoosh.app/)
+- Screenshots via [flameshot](https://flameshot.org/)
+- [Icon Set](https://heroicons.com/)
