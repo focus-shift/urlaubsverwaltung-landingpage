@@ -16,7 +16,7 @@ In der Urlaubsverwaltung gibt es aktuell folgende Arten von Berechtigungen:
 - **Office**: darf Einstellungen zur Anwendung vornehmen, die Daten **aller** Mitarbeiter verwalten, Urlaub für **alle** Mitarbeiter beantragen/stornieren und Krankmeldungen pflegen
 - **Inaktiv**: hat keinen Zugang mehr zur Urlaubsverwaltung (Daten des Benutzers bleiben zur Archivierung bestehen)
 
-Es ist geplant, das aktuelle Berechtigungskonzept [feingranularer](https://github.com/synyx/urlaubsverwaltung/issues/467) zu gestalten.
+Es ist geplant, das aktuelle Berechtigungskonzept [feingranularer](https://github.com/urlaubsverwaltung/urlaubsverwaltung/issues/467) zu gestalten.
 
 ## Wie stelle ich die Berechtigungen eines Benutzers ein?
 

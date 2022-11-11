@@ -1,6 +1,6 @@
 # Urlaubsverwaltung
 
-Landing Page für die [Open Source Urlaubsverwaltung](https://github.com/synyx/urlaubsverwaltung)
+Landing Page für die [Open Source Urlaubsverwaltung](https://github.com/urlaubsverwaltung/urlaubsverwaltung)
 
 ## Development
 
