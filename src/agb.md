@@ -6,7 +6,7 @@ backgroundColor: bg-white
 
 <article>
 
-Stand: 2. Dezember 2020
+Stand: 25. November 2022
 
 # Nutzungsbedingungen
 
@@ -116,13 +116,24 @@ Der Diensteanbieter ist jederzeit berechtigt, auf dem Portal unentgeltlich berei
 
 (2) Hierüber hinaus verwendet der Diensteanbieter Ihre personenbezogenen Daten nur, soweit Sie hierzu ausdrücklich eingewilligt haben. Eine von Ihnen erteilte Einwilligung können Sie jederzeit widerrufen. Zusätzlich wird zwischen den Parteien ein Vertrag zur Auftragsverarbeitung abgeschlossen.
 
-## VI. Haftungsbeschränkung
+## VI. Nennung als Referenz
 
-### § 13 Haftungsbeschränkung für unentgeltliche Dienste
+### § 13 Referenznennung
+
+Der Dienstanbieter behält sich das Recht vor, solange ein vertragliches Verhältnis mit Ihnen besteht, den Namen sowie das Logo Ihres Unternehmens, 
+sowohl auf der Landingpage des Portals <a href="https://urlaubsverwaltung.cloud" class="underline">https://www.urlaubsverwaltung.cloud</a> und dessen Unterseiten, 
+als auch auf den Social Media Kanälen des Dienstanbieters als Referenzkunden zu nennen. 
+Der Dienstanbieter darf ferner die erbrachten Leistungen zu Demonstrationszwecken öffentlich wiedergeben oder auf sie hinweisen, 
+es sei denn, der Kunde kann ein entgegenstehendes berechtigtes Interesse geltend machen. 
+
+
+## VII. Haftungsbeschränkung
+
+### § 14 Haftungsbeschränkung für unentgeltliche Dienste
 
 Sollten Ihnen durch die Nutzung von auf dem Portal unentgeltlich zur Verfügung gestellten Diensten (z. B. im Rahmen einer Testphase) ein Schaden entstehen, so haftet der Diensteanbieter nur, soweit Ihr Schaden aufgrund der vertragsgemäßen Nutzung der unentgeltlichen Inhalte und/oder Dienste entstanden ist, und nur bei Vorsatz (einschließlich Arglist) und grober Fahrlässigkeit des Diensteanbieters.
 
-### § 14 Haftungsbeschränkung für kostenpflichtige Dienste
+### § 15 Haftungsbeschränkung für kostenpflichtige Dienste
 
 Im Rahmen der Nutzung kostenpflichtiger Dienste (einschließlich des Abrufs von kostenpflichtigen Inhalten) durch Sie haftet der Diensteanbieter nach Maßgabe der nachfolgenden Regelungen:
 
@@ -132,21 +143,21 @@ Im Rahmen der Nutzung kostenpflichtiger Dienste (einschließlich des Abrufs von 
 
 (3) Die vorstehende Haftungsbeschränkung gilt nicht im Falle von Arglist, im Falle von Körper- bzw. Personenschäden, für die Verletzung von Garantien sowie für Ansprüche aus Produkthaftung.
 
-## VII. Sonstige Bestimmungen
+## VIII. Sonstige Bestimmungen
 
-### § 15 Schriftformerfordernis
+### § 16 Schriftformerfordernis
 
 Sofern in diesen Teilnahme- und Nutzungsbedingungen nicht ausdrücklich etwas Anderes angegeben ist, sind sämtliche Erklärungen, die im Rahmen der Teilnahme an dem Portal abgegeben werden, in Schriftform oder per E-Mail abzugeben. Die E-Mail-Adresse des Diensteanbieters lautet <a href="mailto:info@urlaubsverwaltung.cloud" class="underline">info@urlaubsverwaltung.cloud</a> . Die postalische Anschrift des Diensteanbieters lautet Lindenallee 126, 76189 Karlsruhe. Änderungen der Kontaktdaten bleiben vorbehalten. Im Fall einer solchen Änderung wird der Diensteanbieter Sie hierüber in Kenntnis setzen.
 
-### § 16 Salvatorische Klausel
+### § 17 Salvatorische Klausel
 
 Sollte eine Bestimmung dieser Teilnahme- und Nutzungsbedingungen unwirksam sein oder werden, so bleibt die Rechtswirksamkeit der übrigen Bestimmungen hiervon unberührt. An Stelle der unwirksamen Bestimmung gilt eine wirksame Bestimmung als vereinbart, die der von den Parteien gewollten wirtschaftlich am nächsten kommt.
 
-### § 17 Anwendbares Recht
+### § 18 Anwendbares Recht
 
 Diese Teilnahme- und Nutzungsbedingungen unterliegen dem Recht der Bundesrepublik Deutschland unter Ausschluss des UN-Kaufrechts (Convention of Contracts for the International Sales of Goods, CISG).
 
-### § 18 Gerichtsstand
+### § 19 Gerichtsstand
 
 Ausschließlicher Gerichtsstand für alle sich aus diesen Teilnahme- und Nutzungsbedingungen ergebenden Streitigkeiten ist, soweit eine solche Gerichtsstandsvereinbarung zulässig ist, der Sitz des Diensteanbieters.
 
