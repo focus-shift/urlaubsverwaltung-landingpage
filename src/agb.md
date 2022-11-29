@@ -123,8 +123,8 @@ Der Diensteanbieter ist jederzeit berechtigt, auf dem Portal unentgeltlich berei
 Der Dienstanbieter behält sich das Recht vor, solange ein vertragliches Verhältnis mit Ihnen besteht, den Namen sowie das Logo Ihres Unternehmens, 
 sowohl auf der Landingpage des Portals <a href="https://urlaubsverwaltung.cloud" class="underline">https://www.urlaubsverwaltung.cloud</a> und dessen Unterseiten, 
 als auch auf den Social Media Kanälen des Dienstanbieters als Referenzkunden zu nennen. 
-Der Dienstanbieter darf ferner die erbrachten Leistungen zu Demonstrationszwecken öffentlich wiedergeben oder auf sie hinweisen, 
-es sei denn, der Kunde kann ein entgegenstehendes berechtigtes Interesse geltend machen. 
+Der Dienstanbieter darf ferner die erbrachten Leistungen zu Demonstrationszwecken öffentlich wiedergeben oder auf sie hinweisen.
+Der Referenznennung kann in Schriftform oder per E-Mail widersprochen werden
 
 
 ## VII. Haftungsbeschränkung
