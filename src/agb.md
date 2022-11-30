@@ -6,7 +6,7 @@ backgroundColor: bg-white
 
 <article>
 
-Stand: 25. November 2022
+Stand: 30. November 2022
 
 # Nutzungsbedingungen
 
