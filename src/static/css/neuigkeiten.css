@@ -58,4 +58,12 @@
 		@apply font-medium;
 		@apply underline;
 	}
+
+	blockquote {
+		@apply p-4;
+		@apply my-4;
+		@apply bg-gray-50;
+		@apply border-l-4;
+		@apply border-gray-300;
+	}
 }
