@@ -1,5 +1,5 @@
 ---
-draft: true
+draft: false
 layout: layout-neuigkeiten
 date: 2022-12-05
 title: Die einfachste Form der Zeiterfassung!
@@ -29,9 +29,9 @@ Dies änderte sich am 13.09.2022 mit dem Gerichtsurteil des Bundesarbeitsgericht
 > -- <a href="https://www.bundesarbeitsgericht.de/presse/einfuehrung-elektronischer-zeiterfassung-initiativrecht-des-betriebsrats/">Bundesarbeitsgericht</a> 
 
 
+<a target="_blank" href="https://dup-magazin.de/management/strategie/so-kommen-sie-der-pflicht-zur-arbeitszeiterfassung-nach/">
 49% der KMUs erfassen bereits die Arbeitszeit. 50% davon erfassen ihre Arbeitszeit jedoch mit Stift und Papier und 24% verwenden eine
-elektronische Tabelle, also Excel.
-https://dup-magazin.de/management/strategie/so-kommen-sie-der-pflicht-zur-arbeitszeiterfassung-nach/
+elektronische Tabelle, also wahrscheinlich Excel. </a>
 So ganz wird das dem EuGH Urteil nach einer objektiven, verlässlichen und zugänglichen Zeiterfassung nicht gerecht. 
 
 ### Aber was genau heißt objektiv, verlässlich und zugänglich?
@@ -60,7 +60,7 @@ Statistik **verlässlich** berechnet wird.
               class="rounded-lg"
             />
         </picture>
-        <figcaption class="text-sm text-center">Statistik der Zeiterfassung</figcaption>
+        <figcaption class="text-sm text-center">Statistik der Zeiterfassung bei urlaubsverwaltung.cloud</figcaption>
     </figure>
 </div>
 
@@ -79,7 +79,7 @@ verwendet werden können, sondern auch inklusiv bedienbar sein und nie.
               class="rounded-lg"
             />
         </picture>
-        <figcaption class="text-sm text-center">Formular zur Erfassung eines Zeitabschnittes</figcaption>
+        <figcaption class="text-sm text-center">Formular zur Erfassung eines Zeitabschnitts</figcaption>
     </figure>
 </div>
 
@@ -89,7 +89,7 @@ verwendet werden können, sondern auch inklusiv bedienbar sein und nie.
 Um den Anforderungen gerecht zu werden stellen wir eine Open Source Software as a Service zur Verfügung.
 Für eine Open Source Zeiterfassung gilt, dass alle Interessierten bei Bedarf nachvollziehen können wie Daten verarbeitet werden, 
 da der Sourcecode öffentlich zugänglich ist. Viel mehr gewinnt die Software an Stabilität und profitiert von der
-Mitarbeit einer aktiven Community.
+Mitarbeit einer aktiven Community und dem konstruktiven Feedback.
 
 Mit dem Fokus auf User Experience und Accessibility verfolgen wir stetig das Ziel die Software allen Menschen gleichermaßen
 zur Verfügung zu stellen.
