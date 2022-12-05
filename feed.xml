@@ -4,8 +4,79 @@
   <subtitle></subtitle>
   <link rel="self" href="https://urlaubsverwaltung.cloud/feed.xml" />
   <link rel="alternate" type="text/html" href="https://urlaubsverwaltung.cloud" />
-  <updated>2022-10-26T00:00:00Z</updated>
+  <updated>2022-12-05T00:00:00Z</updated>
   <id>https://urlaubsverwaltung.cloud</id>
+  
+  
+  
+  <entry>
+    <title>Die einfachste Form der Zeiterfassung!</title>
+    <link href="https://urlaubsverwaltung.cloud/neuigkeiten/2022-12-05-zeiterfassung/" />
+    <updated>2022-12-05T00:00:00Z</updated>
+    <id>https://urlaubsverwaltung.cloud/neuigkeiten/2022-12-05-zeiterfassung/</id>
+    <author>
+      <name>Andreas Weigel</name>
+    </author>
+    <content type="html">&lt;p&gt;Unsere schlanke Lösung auf die Anforderung des Bundesarbeitsgerichts (BAG) einer
+objektiven, verlässlichen und zugänglichen Zeiterfassung ist jetzt da!&lt;/p&gt;
+&lt;h3 id=&quot;brauche-ich-eine-zeiterfassung&quot;&gt;Brauche ich eine Zeiterfassung?&lt;/h3&gt;
+&lt;p&gt;Sind wir mal ehrlich, Vertrauensarbeitszeit hin oder her, die eigene Arbeitszeit in irgendeiner Art und Weise festzuhalten
+hat viele Vorteile und sollte jeder Arbeitnehmer machen. Nicht zuletzt als Selbstschutz um nachvollziehen zu können,
+ab wann zu viel gearbeitet wird. Vor allem im Homeoffice, wo z.B. der Arbeitsweg wegfällt,
+&lt;a target=&quot;_blank&quot; href=&quot;https://www.forbes.com/sites/zakdoffman/2020/03/24/coronavirus-work-from-home-longer-hours-more-distractions-and-this-surprising-privacy-threat/&quot;&gt;
+arbeiten viele Arbeitnehmer deutlich mehr &lt;/a&gt; als im Büro.&lt;/p&gt;
+&lt;p&gt;Seit dem EuGH Urteil aus dem Mai 2019 steht fest, dass in Europa die Pflicht für Arbeitgeber eine Zeiterfassung einzuführen
+unumgänglich ist. Da jedoch ein zeitlicher Rahmen bisher fehlte, sahen sich die Unternehmen nicht im Zugzwang.
+Dies änderte sich am 13.09.2022 mit dem Gerichtsurteil des Bundesarbeitsgerichts.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&amp;quot;Der Arbeitgeber ist nach §3 Abs. 2 Nr. 1 ArbSchG verpflichtet, ein System einzuführen, mit dem die von den Arbeitnehmern geleistete Arbeitszeit erfasst werden kann.&amp;quot;&lt;/p&gt;
+&lt;p&gt;-- &lt;a href=&quot;https://www.bundesarbeitsgericht.de/presse/einfuehrung-elektronischer-zeiterfassung-initiativrecht-des-betriebsrats/&quot;&gt;Bundesarbeitsgericht&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;a target=&quot;_blank&quot; href=&quot;https://dup-magazin.de/management/strategie/so-kommen-sie-der-pflicht-zur-arbeitszeiterfassung-nach/&quot;&gt;
+49% der KMUs erfassen bereits die Arbeitszeit. 50% davon erfassen ihre Arbeitszeit jedoch mit Stift und Papier und 24% verwenden eine
+elektronische Tabelle, also wahrscheinlich Excel. &lt;/a&gt;
+So ganz wird das dem EuGH Urteil nach einer objektiven, verlässlichen und zugänglichen Zeiterfassung nicht gerecht. 
+&lt;h3 id=&quot;aber-was-genau-heisst-objektiv-verlaesslich-und-zugaenglich&quot;&gt;Aber was genau heißt objektiv, verlässlich und zugänglich?&lt;/h3&gt;
+&lt;p&gt;Jeder Mitarbeitende sollte auf der gleichen Art seine Arbeitszeit erfassen, damit die erhobenen Zahlen keine
+Unstimmigkeiten vorweisen und wenig Interpretationsfreiheit zulassen. Nicht auf unterschiedliche Systeme oder Exceltabellen
+schauen zu müssen, ermöglicht eine &lt;strong&gt;objektive&lt;/strong&gt; Sicht und ein einfaches Verständnis.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;„Ich glaube keiner Statistik, die ich nicht selbst gefälscht habe“.&lt;/p&gt;
+&lt;p&gt;-- Sir Winston Churchill&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Sowohl Arbeitnehmer als auch Arbeitgeber müssen sich darauf verlassen können, dass Kalkulationen einheitlich und idempotent
+sind. Für jeden Mitarbeitenden muss also gelten, dass für die gleichen eingegebenen Zahlen auch die gleiche und korrekte
+Statistik &lt;strong&gt;verlässlich&lt;/strong&gt; berechnet wird.&lt;/p&gt;
+&lt;div class=&quot;flex my-8&quot;&gt;
+    &lt;figure&gt;
+        &lt;picture&gt;
+            &lt;source srcset=&quot;https://urlaubsverwaltung.cloud/neuigkeiten/2022-12-05-zeiterfassung/stats.avif&quot; type=&quot;image/avif&quot; /&gt;
+            &lt;img src=&quot;https://urlaubsverwaltung.cloud/neuigkeiten/2022-12-05-zeiterfassung/stats.png&quot; alt=&quot;Foo&quot; decoding=&quot;async&quot; loading=&quot;lazy&quot; class=&quot;rounded-lg&quot; /&gt;
+        &lt;/picture&gt;
+        &lt;figcaption class=&quot;text-sm text-center&quot;&gt;Statistik der Zeiterfassung bei urlaubsverwaltung.cloud&lt;/figcaption&gt;
+    &lt;/figure&gt;
+&lt;/div&gt;
+&lt;p&gt;Eine Lösung die als &lt;strong&gt;zugänglich&lt;/strong&gt; bezeichnet wird sollte nicht nur gleichermaßen aus dem HomeOffice sowie aus dem Büro
+verwendet werden können, sondern auch inklusiv bedienbar sein und nie.&lt;/p&gt;
+&lt;div class=&quot;flex my-8&quot;&gt;
+    &lt;figure&gt;
+        &lt;picture&gt;
+            &lt;source srcset=&quot;https://urlaubsverwaltung.cloud/neuigkeiten/2022-12-05-zeiterfassung/enterslot.avif&quot; type=&quot;image/avif&quot; /&gt;
+            &lt;img src=&quot;https://urlaubsverwaltung.cloud/neuigkeiten/2022-12-05-zeiterfassung/enterslot.png&quot; alt=&quot;Foo&quot; decoding=&quot;async&quot; loading=&quot;lazy&quot; class=&quot;rounded-lg&quot; /&gt;
+        &lt;/picture&gt;
+        &lt;figcaption class=&quot;text-sm text-center&quot;&gt;Formular zur Erfassung eines Zeitabschnitts&lt;/figcaption&gt;
+    &lt;/figure&gt;
+&lt;/div&gt;
+&lt;h3 id=&quot;unsere-open-source-software-as-a-service&quot;&gt;Unsere Open Source Software as a Service&lt;/h3&gt;
+&lt;p&gt;Um den Anforderungen gerecht zu werden stellen wir eine Open Source Software as a Service zur Verfügung.
+Für eine Open Source Zeiterfassung gilt, dass alle Interessierten bei Bedarf nachvollziehen können wie Daten verarbeitet werden,
+da der Sourcecode öffentlich zugänglich ist. Viel mehr gewinnt die Software an Stabilität und profitiert von der
+Mitarbeit einer aktiven Community und dem konstruktiven Feedback.&lt;/p&gt;
+&lt;p&gt;Mit dem Fokus auf User Experience und Accessibility verfolgen wir stetig das Ziel die Software allen Menschen gleichermaßen
+zur Verfügung zu stellen.&lt;/p&gt;
+&lt;p&gt;Als Reaktion auf das oben genannte Urteil stellen wir unsere Lösung den urlaubsverwaltung.cloud Kunden zunächst kostenlos zur Verfügung.&lt;/p&gt;
+</content>
+  </entry>
   
   
   
