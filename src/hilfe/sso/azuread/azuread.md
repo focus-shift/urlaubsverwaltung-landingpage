@@ -13,7 +13,7 @@ Die Konfiguration kann nur von dem Benutzer durchgeführt werden, welcher die Re
 urlaubsverwaltung.cloud durchgeführt hat. Dieser Benutzer hat die Berechtigung auf _Mein Kundenportal_, über
 welches die Konfiguration durchgeführt werden kann.
 
-Zu _Mein Kundenportal_ gelangst du über _[urlaubsverwaltung.cloud](https://urlaubsverwaltung.cloud)_ > _Anmelden_ und nach erfolgreichem Login über die Kachel _Mein Kundenportal_.
+Zu _Mein Kundenportal_ gelangst du über _[urlaubsverwaltung.cloud](https://urlaubsverwaltung.cloud)_ > _Login_ und nach erfolgreichem Login über die Kachel _Mein Kundenportal_.
 
 ### Wie können Benutzer aus Active Directory verwendet werden?
 
@@ -181,7 +181,7 @@ entsprechende Microsoft Graph-Berechtigung aktiviert werden muss.
 
 #### Schritt 2: Auf Mein Kundenportal die Anbindung konfigurieren
 
-Dazu muss man nun zu _Mein Kundenportal_ von [urlaubsverwaltung.cloud](https://urlaubsverwaltung.cloud) via _Anmelden_ und über die Kachel
+Dazu muss man nun zu _Mein Kundenportal_ von [urlaubsverwaltung.cloud](https://urlaubsverwaltung.cloud) via _Login_ und über die Kachel
 _Mein Kundenportal_ wechseln. Unter _Single-Sign-On_ > _Azure AD_ gelangst du nun auf die Konfigurationsseite.
 
 Zuerst kopierst du die hervorgehobene URI in die Textdatei, welche in [Schritt 3](#schritt-3:-fuer-app-registrierung-umleitungs-uri-konfigurieren) als Umleitungs-URI konfiguriert wird.
