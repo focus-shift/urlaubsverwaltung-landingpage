@@ -71,7 +71,7 @@ Dabei können alte Systeme und Verfahren neu gedacht und aufgeräumen werden, um
 ### 4. Jahreswechselaktion
 
 Um die Digitalisierung voranzubringen, haben wir aktuell die Aktion "Starte digital in das Jahr 2023". Damit habt ihr 
-noch mehr Zeit die Urlaubsverwaltung anzuschauen und auszuprobieren, ob eure Prozesse und Organisationsstruktur abgebildet werden können.
+noch mehr Zeit die Urlaubsverwaltung anzuschauen und auszuprobieren, wie eure Prozesse und Organisationsstruktur abgebildet werden können.
 Wir helfen euch beim Onboarding und stehen für Fragen gerne zur Verfügung.
 
  <div class="flex my-8">
