@@ -11,7 +11,7 @@ Neue Features und Verbesserungen.
 
 <!-- more -->
 
-### Entfernen von Assert aufrufen
+## Entfernen von Assert aufrufen
 
 <div class="flex space-x-8">
   <div>
@@ -27,7 +27,7 @@ Neue Features und Verbesserungen.
   </div>
 </div>
 
-### Fehlernachricht wenn `uv.calendar.organizer` ist nicht korrekt gesetzt
+## Fehlernachricht wenn `uv.calendar.organizer` ist nicht korrekt gesetzt
 
 <div class="flex space-x-8">
   <div>
@@ -43,7 +43,7 @@ Neue Features und Verbesserungen.
   </div>
 </div>
 
-### Standard-Arbeitstage via Einstellungen für neue Benutzer pflegen
+## Standard-Arbeitstage via Einstellungen für neue Benutzer pflegen
 
 <div class="flex space-x-8">
   <div>
@@ -59,7 +59,7 @@ Neue Features und Verbesserungen.
   </div>
 </div>
 
-### Stunden und Minuten Eingabe statt Dezimal beim Anträgen von Überstundenabbau
+## Stunden und Minuten Eingabe statt Dezimal beim Anträgen von Überstundenabbau
 
 <div class="flex space-x-8">
   <div>

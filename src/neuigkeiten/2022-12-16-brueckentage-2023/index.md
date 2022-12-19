@@ -12,7 +12,7 @@ Aus 8 Feiertagen werden 61 Tage Erholung!
 
 <!-- more -->
 
-### Die üblichen verdächtigen Ballungszeiträume Weihnachten und Ostern
+## Die üblichen verdächtigen Ballungszeiträume Weihnachten und Ostern
 
 Wenig überraschend verlängern Karfreitag und Ostersonntag das Osterwochenende und ermöglichen auch dieses Jahr nur mit 8
 Urlaubstagen 16 freie Erholungstage. Um es an dieser Stelle korrekt einzuordnen sei vorweggenommen, dass auch nächstes Jahr die
@@ -36,7 +36,7 @@ können.
     </figure>
 </div>
 
-### Aus 8 Feiertagen werden 61 Tage Erholung
+## Aus 8 Feiertagen werden 61 Tage Erholung
 
 Wir wollen an dieser Stelle natürlich nicht unterschlagen, dass Familien vor allem von den Schulferien abhängig sind,
 sodass auch im Jahr 2023 die klassischen wirtschaftlichen Flauten zu den Schulferienzeiten zu erwarten sind. 
@@ -79,7 +79,7 @@ sodass auch hier mit nur 4 Urlaubstagen 9 freie Tage möglich sind.
 
 **In ganz Deutschland kann man diese 8 Feiertage ausnutzen und sich mit 27 Urlaubstagen 61 Tage lang erholen.**
 
-### Weitere Feiertage der Bundesländer
+## Weitere Feiertage der Bundesländer
 
 Da jedes Bundesland individuell Feiertage festgelegt hat, sind auch weitere Kombinationen denkbar.
 
@@ -131,7 +131,7 @@ Da jedes Bundesland individuell Feiertage festgelegt hat, sind auch weitere Komb
 | Reformationstag                      | 31.10.2023 | Dienstag   |
 
 
-### Aus 8 Feiertagen werden 61 Tage Erholung
+## Aus 8 Feiertagen werden 61 Tage Erholung
 
 <div class="flex flex-col justify-end lg:flex-row-reverse lg:space-x-8 lg:space-x-reverse lg:mt-8 lg:mb-8">
   <div class="w-full">

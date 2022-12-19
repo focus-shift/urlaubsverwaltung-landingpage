@@ -11,7 +11,7 @@ Neue Features und Verbesserungen.
 
 <!-- more -->
 
-### Abteilung erhält ein Erstellungs- und Anpassungsdatum
+## Abteilung erhält ein Erstellungs- und Anpassungsdatum
 
 <div class="flex space-x-8">
   <div>
@@ -27,7 +27,7 @@ Neue Features und Verbesserungen.
   </div>
 </div>
 
-### Bei Änderung des Jahres werden die Links auf "Mein Konto" angepasst
+## Bei Änderung des Jahres werden die Links auf "Mein Konto" angepasst
 
 <div class="flex space-x-8">
   <div>
@@ -43,7 +43,7 @@ Neue Features und Verbesserungen.
   </div>
 </div>
 
-### Database cleanups
+## Database cleanups
 
 <div class="flex space-x-8">
   <div>
@@ -59,7 +59,7 @@ Neue Features und Verbesserungen.
   </div>
 </div>
 
-### Logout hinter dem Avatar anbieten
+## Logout hinter dem Avatar anbieten
 
 <div class="flex space-x-8">
   <div>
@@ -75,7 +75,7 @@ Neue Features und Verbesserungen.
   </div>
 </div>
 
-### SpringFox mit SpringDoc ersetzen
+## SpringFox mit SpringDoc ersetzen
 
 <div class="flex space-x-8">
   <div>

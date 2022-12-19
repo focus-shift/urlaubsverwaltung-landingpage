@@ -11,7 +11,7 @@ Mit Version 4.30.0 macht die Urlaubsverwaltung den Schritt zur dunklen Seite. Ma
 
 <!-- more -->
 
-### Dunkelmodus
+## Dunkelmodus
 
 Der Dunkelmodus (Dark Mode oder auch Dark Theme) ist eine Einstellung für das Erscheinungsbild der Benutzeroberfläche auf Smartphones und Desktop Computer bzw. Laptops.
 Im Gegensatz zum Light Mode (Light Theme), der dunklen Text auf hellem Hintergrund darstellt, wird im Dark Mode ein heller Text auf dunklem Hintergrund verwendet.
@@ -63,7 +63,7 @@ Warum wir uns freuen, dir endlich einen Dunkelmodus anzubieten:
     </div>
 </div>
 
-### Dunkelmodus einstellen
+## Dunkelmodus einstellen
 
 Möchtest du in der Urlaubsverwaltung den Schritt auf die dunkle Seite mit gehen, ist das ganz einfach getan.
 

@@ -10,7 +10,7 @@ Wir erweitern für euch die Personalisierung, sodass ihr die Sprache unabhängig
 
 <!-- more -->
 
-### Browsersprache in der Personalisierung überschreiben
+## Browsersprache in der Personalisierung überschreiben
 
 Bisher war es in der Urlaubsverwaltung ausschließlich so, dass die Browsersprache bestimmt hat, in welcher Sprache die
 Urlaubsverwaltung dargestellt wird. Dies ist weiterhin der Standardfall, jedoch gehen wir nun einen Schritt weiter und

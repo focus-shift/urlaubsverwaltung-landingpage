@@ -11,7 +11,7 @@ Sonderurlaube können individualisiert werden und Bildungsurlaub steht als neue 
 
 <!-- more -->
 
-### Konfiguration der Sonderurlaubstage
+## Konfiguration der Sonderurlaubstage
 
 Mit der Version 4.34.0 zieht die neue Konfiguration **Einstellungen zu Sonderurlaub** in die Urlaubsverwaltung ein.
 Ihr findet diese als Person mit der Berechtigung _Office_ unter _Einstellungen > Abwesenheitsarten_. An dieser Stelle
@@ -48,7 +48,7 @@ Diese Einstellung wird beim Beantragen eines Sonderurlaubes direkt angezeigt und
     </figure>
 </div>
 
-### Bildungsurlaub
+## Bildungsurlaub
 
 Eine neue Abwesenheitsart hat es in die Urlaubsverwaltung geschafft. Der **Bildungsurlaub**. Ihr könnt ihn, wie gewohnt,
 in den Einstellungen unter Abwesenheitsarten aktivieren.

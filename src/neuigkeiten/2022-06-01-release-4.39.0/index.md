@@ -14,7 +14,7 @@ Die Farbe und Sichtbarkeit einer Abwesenheitsart können ab sofort individuell k
 Mit der Einführung weiterer Abwesenheitsarten wie _Home-Office_, _Außer Haus_ oder _Ausbildung_ können auch Abwesenheiten erfasst werden, bei denen
 Mitarbeitende zwar nicht vor Ort, aber dennoch beschäftigt und erreichbar sind. Um einen umfassenden Überblick der Abwesenheiten zu erhalten kannst du, seit der neuen Version der Urlaubsverwaltung, die Abwesenheitsarten in den vorhandenen Übersichten und Kalendern farblich anpassen und gruppieren! 🎉
 
-#### Abwesenheitsübersicht
+## Abwesenheitsübersicht
 
 <div class="flex my-8">
     <figure>
@@ -35,7 +35,7 @@ Mitarbeitende zwar nicht vor Ort, aber dennoch beschäftigt und erreichbar sind.
 Zusätzlich wurde im Rahmen der Änderung eine eindeutigere Unterscheidbarkeit zwischen genehmigten und noch offenen Anträgen geschaffen.
 Noch nicht genehmigte Abwesenheiten werden als leerer Rahmen in der betreffenden Farbe angezeigt. Für genehmigte Anträge wird dieser Rahmen ausgefüllt dargestellt.
 
-#### Kalender auf der persönlichen Startseite
+## Kalender auf der persönlichen Startseite
 
 <div class="flex my-8">
     <figure>
@@ -53,7 +53,7 @@ Noch nicht genehmigte Abwesenheiten werden als leerer Rahmen in der betreffenden
     </figure>
 </div>
 
-#### Datumsauswahl
+## Datumsauswahl
 
 <div class="flex my-8">
     <figure>
@@ -71,7 +71,7 @@ Noch nicht genehmigte Abwesenheiten werden als leerer Rahmen in der betreffenden
     </figure>
 </div>
 
-### Einstellung der Farbe der Abwesenheitsarten
+## Einstellung der Farbe der Abwesenheitsarten
 
 Die Farben der Abwesenheitsarten können durch Benutzende mit der Berechtigung Office unter _Einstellungen_ » _Abwesenheitsarten_ konfiguriert werden:
 
@@ -93,7 +93,7 @@ Die Farben der Abwesenheitsarten können durch Benutzende mit der Berechtigung O
 
 Die Farben der Abwesenheitsarten werden in allen oben genannten Übersichten entsprechend verwendet.
 
-### Einstellung der Sichtbarkeit
+## Einstellung der Sichtbarkeit
 
 Neben der neuen Farbkonfiguration ist es nun auch möglich die Sichtbarkeit der Abwesenheitsarten in der Abwesenheitsübersicht einzustellen.
 

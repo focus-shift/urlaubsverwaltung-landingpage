@@ -11,7 +11,7 @@ Bessere Übersicht deiner freien Tage in der Abwesenheitsübersicht und in den K
 
 <!-- more -->
 
-### Freie Tage
+## Freie Tage
 
 Bestimmt ist es jedem von euch schonmal so ergangen. Man möchte einen Urlaubsantrag genehmigen und schaut davor noch kurz in die
 Abwesenheitsübersicht und wundert sich, warum der Kollege nur am Montag und Dienstag und dann wieder am Donnerstag und Freitag eine Abwesenheit eingetragen hat,

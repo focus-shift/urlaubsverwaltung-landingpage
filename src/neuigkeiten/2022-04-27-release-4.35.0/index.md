@@ -11,7 +11,7 @@ Erweiterung der Personalstammdaten um Personalnummer und Zusatzinformationen. Au
 
 <!-- more -->
 
-### Pflege von Personalstammdaten
+## Pflege von Personalstammdaten
 
 Mit der Version 4.35.0 der Urlaubsverwaltung ist es nun möglich Stammdaten einer Person zu pflegen.
 Benutzende mit der Berechtigung _Office_ können nun ganz bequem für Mitarbeitende die Personalnummer sowie weitere Zusatzinformation in der Urlaubsverwaltung speichern. Die Personalstammdaten können im Konto der betreffenden Person gepflegt werden.
@@ -68,7 +68,7 @@ Sofern mindestens eine Personalnummer gepflegt ist, werden diese in allen Übers
     </figure>
 </div>
 
-### Kalendereinladung für Office-Benutzende
+## Kalendereinladung für Office-Benutzende
 
 Die E-Mail-Benachrichtigung einer genehmigten Abwesenheit wurde für die Benutzenden mit der Berechtigung _Office_ um die Kalendereinladung der Abwesenheit erweitert. Diese kann z.B. für einen externen Kalender zur einfacheren Koordination verwendet werden.
 

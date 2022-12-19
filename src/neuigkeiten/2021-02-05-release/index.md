@@ -11,7 +11,7 @@ Neue Features und Verbesserungen.
 
 <!-- more -->
 
-### Kommentar an Vertreter
+## Kommentar an Vertreter
 
 <div class="flex space-x-8">
   <div>
@@ -27,7 +27,7 @@ Neue Features und Verbesserungen.
   </div>
 </div>
 
-### Stornierte, nicht genehmigte, Anträge auf der Übersicht anzeigen (revoked)
+## Stornierte, nicht genehmigte, Anträge auf der Übersicht anzeigen (revoked)
 
 <div class="flex space-x-8">
   <div>

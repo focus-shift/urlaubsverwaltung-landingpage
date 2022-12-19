@@ -12,7 +12,7 @@ Neue Features und Verbesserungen.
 
 <!-- more -->
 
-### Erinnerung an Urlaubsbeginn
+## Erinnerung an Urlaubsbeginn
 
 <div class="flex space-x-8">
   <div class="max-w-2xl">
@@ -39,7 +39,7 @@ Neue Features und Verbesserungen.
   </div>
 </div>
 
-### Halbe Urlaubstage erlauben oder unterbinden
+## Halbe Urlaubstage erlauben oder unterbinden
 
 <div class="flex space-x-8">
   <div class="mr-8">
@@ -66,7 +66,7 @@ Neue Features und Verbesserungen.
   </div>
 </div>
 
-### Verschicke abgelehnten Kalendereintrag, wenn eine Abwesenheit zurückgenommen wird
+## Verschicke abgelehnten Kalendereintrag, wenn eine Abwesenheit zurückgenommen wird
 
 <div class="flex space-x-8">
   <img src="cancelled.png" class="w-1/5 border-none" alt="per E-Mail ical Anhang einen Kalendereintrag mit einem Klick löschen lassen.">

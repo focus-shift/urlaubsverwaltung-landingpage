@@ -11,7 +11,7 @@ Neue Features und Verbesserungen.
 
 <!-- more -->
 
-### Keycloak / oidc basierendes Beispiel hinzugefügt
+## Keycloak / oidc basierendes Beispiel hinzugefügt
 
 <div class="flex space-x-8">
   <div>
@@ -27,7 +27,7 @@ Neue Features und Verbesserungen.
   </div>
 </div>
 
-### Standardfarben von tailwind v2 verwenden
+## Standardfarben von tailwind v2 verwenden
 
 <div class="flex space-x-8">
   <div>
@@ -43,7 +43,7 @@ Neue Features und Verbesserungen.
   </div>
 </div>
 
-### Überstunden in Stunden/Minuten anzeigen statt "1,75 Stunden"
+## Überstunden in Stunden/Minuten anzeigen statt "1,75 Stunden"
 
 <div class="flex space-x-8">
   <div>

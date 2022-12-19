@@ -12,7 +12,7 @@ objektiven, verlässlichen und zugänglichen Zeiterfassung ist jetzt da!
 
 <!-- more -->
 
-### Brauche ich eine Zeiterfassung?
+## Brauche ich eine Zeiterfassung?
 
 Sind wir mal ehrlich, Vertrauensarbeitszeit hin oder her, die eigene Arbeitszeit in irgendeiner Art und Weise festzuhalten
 hat viele Vorteile und sollte jeder Arbeitnehmer machen. Nicht zuletzt als Selbstschutz um nachvollziehen zu können,
@@ -34,7 +34,7 @@ Dies änderte sich am 13.09.2022 mit dem Gerichtsurteil des Bundesarbeitsgericht
 elektronische Tabelle, also wahrscheinlich Excel. </a>
 So ganz wird das dem EuGH Urteil nach einer objektiven, verlässlichen und zugänglichen Zeiterfassung nicht gerecht. 
 
-### Aber was genau heißt objektiv, verlässlich und zugänglich?
+## Aber was genau heißt objektiv, verlässlich und zugänglich?
 
 Jeder Mitarbeitende sollte auf der gleichen Art seine Arbeitszeit erfassen, damit die erhobenen Zahlen keine 
 Unstimmigkeiten vorweisen und wenig Interpretationsfreiheit zulassen. Nicht auf unterschiedliche Systeme oder Exceltabellen
@@ -84,7 +84,7 @@ verwendet werden können, sondern auch inklusiv bedienbar sein und nie.
 </div>
 
 
-### Unsere Open Source Software as a Service
+## Unsere Open Source Software as a Service
 
 Um den Anforderungen gerecht zu werden stellen wir eine Open Source Software as a Service zur Verfügung.
 Für eine Open Source Zeiterfassung gilt, dass alle Interessierten bei Bedarf nachvollziehen können wie Daten verarbeitet werden, 

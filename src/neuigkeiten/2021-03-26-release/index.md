@@ -11,7 +11,7 @@ Neue Features und Verbesserungen.
 
 <!-- more -->
 
-### Abwesenheitsübersicht für mehrere Abteilungen
+## Abwesenheitsübersicht für mehrere Abteilungen
 
 <div class="flex space-x-8">
   <div>
@@ -27,7 +27,7 @@ Neue Features und Verbesserungen.
   </div>
 </div>
 
-### Benutzerübersicht Zeilenhöhe anpassen
+## Benutzerübersicht Zeilenhöhe anpassen
 
 <div class="flex space-x-8">
   <div>
@@ -43,7 +43,7 @@ Neue Features und Verbesserungen.
   </div>
 </div>
 
-### GitHub Action release Workflow-Migration auf 'softprops/action-gh-release'
+## GitHub Action release Workflow-Migration auf 'softprops/action-gh-release'
 
 <div class="flex space-x-8">
   <div>
@@ -59,7 +59,7 @@ Neue Features und Verbesserungen.
   </div>
 </div>
 
-### Kalenderfreigabeübersichtslink ohne personalisierte id zur Verwendung in docs
+## Kalenderfreigabeübersichtslink ohne personalisierte id zur Verwendung in docs
 
 <div class="flex space-x-8">
   <div>
@@ -75,7 +75,7 @@ Neue Features und Verbesserungen.
   </div>
 </div>
 
-### Speichern wann eine Person einer Abteilung hinzugefügt wurde
+## Speichern wann eine Person einer Abteilung hinzugefügt wurde
 
 <div class="flex space-x-8">
   <div>

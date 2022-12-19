@@ -11,7 +11,7 @@ Bessere Nachvollziehbarkeit und Übersicht deiner Überstunden
 
 <!-- more -->
 
-### Überstundenübersicht mit flair
+## Überstundenübersicht mit flair
 
 Wir haben für euch die Überstundenübersicht erweitert, sodass ihr nicht nur die eingetragenen Überstunden, sondern auch
 die **beantragten und genehmigten Abwesenheiten** mit der Art 'Überstundenabbau' angezeigt bekommt. Mit dieser zusätzlichen

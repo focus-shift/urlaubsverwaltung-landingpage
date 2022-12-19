@@ -12,7 +12,7 @@ Der Verfall des Resturlaubs aus dem Vorjahr kann ab sofort pro Mitarbeitenden ko
 
 <!-- more -->
 
-### Informationen über den verfallenen Resturlaub
+## Informationen über den verfallenen Resturlaub
 
 Der Verfall von Resturlaub wird auf deiner Übersichtseite dargestellt. Hast du zum Beispiel 5 Tage Resturlaub nicht rechtzeitig genommen, steht rechts bei den verbleibenden Urlaubstagen "und 5 Tage Resturlaub sind verfallen".
 Dies schafft mehr Transparenz über die Berechnung deiner verbleibenden Urlaubstage und erklärt, warum sich dein anteiliger Urlaubsanspruch ggf. reduziert hat.
@@ -51,7 +51,7 @@ Der verfallene Resturlaub wird dir nicht nur bei den verbleibenden Urlaubstagen,
     </figure>
 </div>
 
-### Verfall von Resturlaub pro Mitarbeitenden konfigurieren
+## Verfall von Resturlaub pro Mitarbeitenden konfigurieren
 
 Der Verfall von Resturlaub ist ab sofort pro Mitarbeitenden im Konto unter Urlaubsanspruch konfigurierbar. Bisher war
 das Verfallsdatum des Resturlaubes fest auf den 1. April des Folgejahres definiert. Dieses Datum entspricht zwar einer breiten

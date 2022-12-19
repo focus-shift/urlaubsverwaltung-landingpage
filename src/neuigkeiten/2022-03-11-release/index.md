@@ -11,7 +11,7 @@ Die Urlaubsverwaltung nun auch in Griechenland!
 
 <!-- more -->
 
-### Griechische Feiertage & Übersetzung
+## Griechische Feiertage & Übersetzung
 
 Wir freuen uns sehr darüber, dass Nikos Zagkanas auf uns zukam und die Urlaubsverwaltung für Griechenland einsetzbar gemacht hat!
 
