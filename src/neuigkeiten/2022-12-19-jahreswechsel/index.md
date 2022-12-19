@@ -34,7 +34,7 @@ Rechnungsfehler werden vermieden.
               class="rounded-lg"
             />
         </picture>
-        <figcaption class="text-sm text-center">Über des Urlaubsanspruchs sowie des Resturlaubs</figcaption>
+        <figcaption class="text-sm text-center">Überblick des Urlaubsanspruchs sowie des Resturlaubs</figcaption>
     </figure>
 </div>
 
