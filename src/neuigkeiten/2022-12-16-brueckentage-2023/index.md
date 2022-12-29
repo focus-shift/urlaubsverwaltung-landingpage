@@ -160,11 +160,6 @@ Da jedes Bundesland individuell Feiertage festgelegt hat, sind auch weitere Komb
       kann es relativ kompliziert werden den Überblick zu behalten und den korrekten Urlaubsanspruch zu berechnen.
       Hier kann die Urlaubsverwaltung perfekt unterstützen, welche genau diese Faktoren einbezieht.
     </p>
-    <p class="mt-4 lg:mb-4">
-        Mit der neuen Ansicht <em>anstehende Vertretungen</em>, wird auf übersichtliche Weise aufgezeigt, wann eine
-        Vertretung für wie lange geplant ist und ob eine Notiz an die Vertretung hinterlassen wurde. Zum Glück hatte
-        Juliane eine Notiz an Marlene hinterlassen, sonst wäre dieser Artikel wohl erst deutlich später veröffentlicht worden.
-    </p>
   </div>
 </div>
 
