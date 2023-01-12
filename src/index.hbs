@@ -34,7 +34,7 @@ title: Urlaubsplaner und Abwesenheitsverwaltung
 
 <main>
   <div class="w-full max-w-screen-xl mx-auto">
-    <div class="mb-16 lg:mb-24 px-4 xl:px-2 flex flex-col-reverse md:flex-row">
+    <div class="mb-16 lg:mb-20 px-4 xl:px-2 flex flex-col-reverse md:flex-row">
       <div class="md:max-w-sm md:mr-10">
         <div class="text-2xl font-bold mb-6 md:mb-12 xs:px-6 md:px-0 pt-16">
           <span class="block">
@@ -146,7 +146,20 @@ title: Urlaubsplaner und Abwesenheitsverwaltung
         </div>
       </div>
     </div>
-    <div class="px-4 xl:px-2">
+
+		<div class="mb-10 lg:mb-28">
+			<div class="w-full max-w-screen-xl mx-auto">
+				<h2 id="referenzen" class="sr-only">
+					Referenzen
+				</h2>
+				<p class="text-center font-medium text-lg">Diese Unternehmen vertrauen uns</p>
+				<div class="lg:mt-4">
+					{{> partials/references }}
+				</div>
+			</div>
+		</div>
+
+		<div class="px-4 xl:px-2">
       <h2 id="funktionen" class="mb-8 xs:px-8 md:px-0 text-2xl font-bold md:mb-12 md:ml-8 -mt-28 pt-28">
         Funktionen
       </h2>
@@ -369,50 +382,7 @@ title: Urlaubsplaner und Abwesenheitsverwaltung
   </div>
 
 
-<div class="bg-sky-100 pt-12 lg:pt-24 xl:pt-32">
-  <div class="w-full max-w-screen-xl mx-auto">
-    <h2 class="px-4 xs:px-12 md:px-0 text-2xl font-bold mb-12 md:ml-8 md:mb-16 2xl:mb-24">
-      Das sagen unsere Kunden
-    </h2>
-     <div class="px-6 xs:px-14 md:px-10 2xl:px-0 grid md:grid-cols-2 gap-8 2xl:gap-16">
-      <figure class="p-8 relative">
-        <svg width="90" height="90" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 310.284 310.284" class="text-white fill-current absolute -left-2 -top-2 2xl:-left-6 2xl:-top-8 w-16 h-16 md:w-22 md:h-22 2xl:w-24 2xl:h-24">
-          <path d="M155.142,0C69.597,0,0,69.597,0,155.142s69.597,155.142,155.142,155.142s155.142-69.597,155.142-155.142  S240.688,0,155.142,0z M79.171,231.401c-1.746,1.182-6.129,2.222-8.693-0.625l-4.731-5.95c-2.288-3.869,0.483-7.457,2.277-8.945  c8.529-7.075,14.731-12.548,18.601-16.419c7.589-7.981,13.199-15.97,16.903-23.935c0.847-1.821-1.315-2.977-2.438-3.345  c-27.967-9.166-41.955-25.325-41.955-48.474c0-13.639,4.53-24.722,13.585-33.242c9.059-8.525,20.407-12.785,34.041-12.785  c12.146,0,22.909,5.539,32.283,16.621c9.165,10.438,13.744,21.735,13.744,33.881C152.789,163.78,128.251,198.185,79.171,231.401z   M185.61,231.401c-1.746,1.182-6.129,2.222-8.693-0.625l-4.731-5.95c-2.288-3.869,0.483-7.457,2.277-8.945  c8.528-7.075,14.731-12.548,18.601-16.419c7.589-7.981,13.199-15.97,16.904-23.935c0.847-1.821-1.315-2.977-2.438-3.345  c-27.967-9.166-41.955-25.325-41.955-48.474c0-13.639,4.53-24.722,13.585-33.242c9.06-8.525,20.407-12.785,34.041-12.785  c12.146,0,22.909,5.539,32.283,16.621c9.164,10.438,13.744,21.735,13.744,33.881C259.228,163.78,234.69,198.185,185.61,231.401z"/>
-        </svg>
-        <div class="relative">
-          <blockquote class="text-xl 2xl:text-2xl mb-6 md:mb-4">
-            "Kompliment, ihr seid echt fix mit der Umsetzung von Verbesserungen, das ist Klasse!"
-          </blockquote>
-          <figcaption class="flex flex-col">
-            <cite class="font-bold lg:text-lg">
-              Angela Breyer
-            </cite>
-            <span class="lg:text-lg text-black text-opacity-50">
-              Organisationsentwicklung
-            </span>
-          </figcaption>
-        </div>
-      </figure>
-      <figure class="p-8 relative">
-        <svg width="90" height="90" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 310.284 310.284" class="text-white fill-current absolute -left-2 -top-2 2xl:-left-6 2xl:-top-8 w-16 h-16 md:w-22 md:h-22 2xl:w-24 2xl:h-24">
-          <path d="M155.142,0C69.597,0,0,69.597,0,155.142s69.597,155.142,155.142,155.142s155.142-69.597,155.142-155.142  S240.688,0,155.142,0z M79.171,231.401c-1.746,1.182-6.129,2.222-8.693-0.625l-4.731-5.95c-2.288-3.869,0.483-7.457,2.277-8.945  c8.529-7.075,14.731-12.548,18.601-16.419c7.589-7.981,13.199-15.97,16.903-23.935c0.847-1.821-1.315-2.977-2.438-3.345  c-27.967-9.166-41.955-25.325-41.955-48.474c0-13.639,4.53-24.722,13.585-33.242c9.059-8.525,20.407-12.785,34.041-12.785  c12.146,0,22.909,5.539,32.283,16.621c9.165,10.438,13.744,21.735,13.744,33.881C152.789,163.78,128.251,198.185,79.171,231.401z   M185.61,231.401c-1.746,1.182-6.129,2.222-8.693-0.625l-4.731-5.95c-2.288-3.869,0.483-7.457,2.277-8.945  c8.528-7.075,14.731-12.548,18.601-16.419c7.589-7.981,13.199-15.97,16.904-23.935c0.847-1.821-1.315-2.977-2.438-3.345  c-27.967-9.166-41.955-25.325-41.955-48.474c0-13.639,4.53-24.722,13.585-33.242c9.06-8.525,20.407-12.785,34.041-12.785  c12.146,0,22.909,5.539,32.283,16.621c9.164,10.438,13.744,21.735,13.744,33.881C259.228,163.78,234.69,198.185,185.61,231.401z"/>
-        </svg>
-        <div class="relative">
-          <blockquote class="text-xl 2xl:text-2xl mb-6 md:mb-4">
-            "Die Urlaubsverwaltung wird sowohl von den Kollegen als auch von der Geschäftsleitung sehr gut angenommen und auch Kollegen, die sich ansonsten schwer tun mit jeglichen Anwendungen, hatten keine Probleme."
-          </blockquote>
-          <figcaption class="flex flex-col">
-            <cite class="font-bold lg:text-lg">
-              Frank Rheinfelder
-            </cite>
-            <span class="lg:text-lg text-black text-opacity-50">
-              Betriebswirt / Bilanzbuchhalter
-            </span>
-          </figcaption>
-        </div>
-      </div>
-    </div>
-  </div>
+	{{> partials/testimonials }}
 </div>
 
   <div class="bg-sky-100 pt-12 lg:pt-24 xl:pt-32 pb-12 sm:pb-32 md:pb-24">
