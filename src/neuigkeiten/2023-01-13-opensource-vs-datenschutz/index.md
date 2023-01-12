@@ -48,7 +48,8 @@ Dieser Umstand führt dazu, dass potentielle Ungereimtheiten schneller entdeckt 
 ## Datenschutz der Open Source Software urlaubsverwaltung.cloud
 
 In der Urlaubsverwaltung werden sensible personenbezogene Daten verarbeitet. Schon aus diesem Grund sind Datenschutz und 
-Sicherheit ein inhärenter Bestandteil bei der Konzeption und Umsetzung der Software und Architektur. 
+Sicherheit ein inhärenter Bestandteil bei der Konzeption und Umsetzung von Software und Architektur der Urlaubsverwaltung.
+Die verwendeten Open Source Lizenzen sind von der Open Source Software Initiative verifiziert.
 Es wird immer verschlüsselt kommuniziert und Prozesse werden anhand der Frage des "berechtigten Interesse" validiert.
 
 ## Open Source Software als Entscheidungskriterium
