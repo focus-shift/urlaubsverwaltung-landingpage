@@ -29,7 +29,7 @@ wie personenbezogene Daten verarbeitet werden.
 
 ## Open Source als offenes Konzept
 
-Open Source Software hingegen basiert auf der Idee, dass der Quellcode der Software frei zugänglich ist. Versierte 
+Open-Source-Software hingegen basiert auf der Idee, dass der Quellcode der Software frei zugänglich ist. Versierte 
 Softwareentwickler haben somit einen Einblick, sowohl in die Codequalität als auch in die Verarbeitungsprozesse der Daten.
 Diese Offenheit und Kontrollierbarkeit bewirkt, dass Software mit einem hohen Mindest-Qualitätsstandard bereitgestellt wird.
 
