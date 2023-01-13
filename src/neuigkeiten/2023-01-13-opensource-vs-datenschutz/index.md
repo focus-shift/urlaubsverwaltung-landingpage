@@ -52,7 +52,7 @@ Sicherheit ein inhärenter Bestandteil bei der Konzeption und Umsetzung von Soft
 Die verwendeten Open-Source-Lizenzen sind von der Open-Source-Software Initiative verifiziert.
 Es wird immer verschlüsselt kommuniziert und Prozesse werden anhand der Frage des "berechtigten Interesse" validiert.
 
-## Open Source Software als Entscheidungskriterium
+## Open-Source-Software als Entscheidungskriterium
 
 Open Source Software ist eine wesentliche Entwicklung, wenn es um Datenschutz, Transparenz und Sicherheit geht. 
 Es ermöglicht jedem Benutzer, die Quellcodes anzusehen und zu überprüfen, was zu mehr Vertrauen in die Technologie führt. 
