@@ -14,7 +14,7 @@ Aber wie wirkt sich diese Wahl auf den Datenschutz und die Transparenz aus?
 
 Datenschutz und Open Source sind zwei Konzepte, die oft miteinander in Konflikt stehen.
 Auf der einen Seite steht der Schutz der Privatsphäre und die Sicherung sensibler persönlicher Daten, 
-auf der anderen Seite die Freiheit und Transparenz von Open Source-Software.
+auf der anderen Seite die Freiheit und Transparenz von Open-Source-Software.
 
 ## Datenschutz als beschützendes Konzept
 
