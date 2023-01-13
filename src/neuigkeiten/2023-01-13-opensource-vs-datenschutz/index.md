@@ -56,5 +56,5 @@ Es wird immer verschlüsselt kommuniziert und Prozesse werden anhand der Frage d
 
 Open-Source-Software ist eine wesentliche Entwicklung, wenn es um Datenschutz, Transparenz und Sicherheit geht. 
 Es ermöglicht jedem Benutzer, die Quellcodes anzusehen und zu überprüfen, was zu mehr Vertrauen in die Technologie führt. 
-Open Source ist ein Schlüsselkonzept der Verbindung von Menschen in der digitalen Welt und verändert die Art und Weise, 
+Open-Source ist ein Schlüsselkonzept der Verbindung von Menschen in der digitalen Welt und verändert die Art und Weise, 
 wie wir unsere Daten schützen können. 
