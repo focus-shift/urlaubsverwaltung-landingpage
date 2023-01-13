@@ -37,7 +37,7 @@ Diese Offenheit und Kontrollierbarkeit bewirkt, dass Software mit einem hohen Mi
 
 Auf den ersten Blick könnte man denken, dass Open-Source-Software und Datenschutz unvereinbare Konzepte sind.
 Schließlich könnte jeder Nutzer den Quellcode einsehen und möglicherweise persönliche Daten ausspähen.
-Doch tatsächlich kann Open Source Software dazu beitragen, den Datenschutz zu stärken.
+Doch tatsächlich kann Open-Source-Software dazu beitragen, den Datenschutz zu stärken.
 
 Ein Missverständnis ist oft, dass der Quellcode keine Daten an sich offenbart, da sich diese in der Datenbank befinden, 
 sondern lediglich wie diese verarbeitet werden. 
