@@ -35,7 +35,7 @@ Diese Offenheit und Kontrollierbarkeit bewirkt, dass Software mit einem hohen Mi
 
 ## Wie sich beide Konzepte ergänzen
 
-Auf den ersten Blick könnte man denken, dass Open Source Software und Datenschutz unvereinbare Konzepte sind.
+Auf den ersten Blick könnte man denken, dass Open-Source-Software und Datenschutz unvereinbare Konzepte sind.
 Schließlich könnte jeder Nutzer den Quellcode einsehen und möglicherweise persönliche Daten ausspähen.
 Doch tatsächlich kann Open Source Software dazu beitragen, den Datenschutz zu stärken.
 
