@@ -54,9 +54,9 @@ Software mit einem hohen Mindest-Qualitätsstandard bereitgestellt wird.
     Doch tatsächlich kann Open-Source-Software dazu beitragen, den Datenschutz zu stärken.
 </p>
 <p class="mt-4 lg:mb-4">
-    Ein Missverständnis ist oft, dass der Quellcode keine Daten an sich offenbart, da sich diese in der Datenbank befinden,
-    sondern lediglich wie diese verarbeitet werden. Damit können die offensichtlichen datenverarbeitenden Prozesse auch in
-    das Datenschutzkonzept des Unternehmens übernommen werden.
+    Ein Missverständnis ist oft, dass der Quellcode Daten offenbart. Daten werden aber in der Datenbank gespeichert und der 
+    Quellcode beschreibt nur, wie diese verarbeitet werden. Damit können die offensichtlichen datenverarbeitenden Prozesse
+    auch in das Datenschutzkonzept des Unternehmens übernommen werden.
 </p>
 <p class="mt-4 lg:mb-4">
     Durch die Transparenz und Offenheit des Quellcodes können Sicherheitslücken und Schwachstellen leichter identifiziert
