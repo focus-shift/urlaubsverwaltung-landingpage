@@ -1,27 +1,29 @@
 ---
 draft: false
 layout: layout-neuigkeiten
-date: 2023-01-27
+date: 2023-03-08
 title: Warum Ruhepausen für Unternehmen wichtig sind.
 author: Andreas Weigel
 release-version: 1.1.0
+teaserImage: /static/pausenzeiten-teaser.png
 ---
 
 In unserem Büro herrscht immer Hochkonzentration. Wir arbeiten hart und versuchen, so viel wie möglich in kürzester Zeit zu erledigen.
 Doch ist das wirklich die beste Methode? Nein!
-Genauso wie unsere Körper in einer Pause neue Energie tankt, braucht auch unser Geist ab und an eine Auszeit,
-um wieder fit zu sein für neue Herausforderungen.
+Genauso wie unser Körper in einer Pause neue Energie tankt, braucht auch unser Geist ab und an eine Auszeit,
+um wieder fit zu werden für neue Herausforderungen.
 
 <!-- more -->
 
 ## Die Bedeutung von Ruhepausen für Unternehmen
 
 Ruhepausen sind ein wesentlicher Aspekt des Arbeitszeitgesetzes (ArbZG).
-Nach § 4 ArbZG müssen Arbeitnehmerinnen und Arbeitnehmer an jedem Arbeitstag mindestens eine ununterbrochene Ruhepause von mindestens 30 Minuten nehmen, wenn sie 6 bis 9 Stunden arbeiten und 45 Minuten bei einer Arbeitszeit von mehr als neun Stunden.
+Nach § 4 ArbZG müssen Arbeitnehmerinnen und Arbeitnehmer an jedem Arbeitstag mindestens eine ununterbrochene Ruhepause von
+mindestens 30 Minuten nehmen, wenn sie 6 bis 9 Stunden arbeiten und 45 Minuten bei einer Arbeitszeit von mehr als 9 Stunden.
 Diese Ruhepause kann in Teilpausen aufgeteilt werden. Die Teilpausen müssen aber zusammen mindestens 15 Minuten betragen.
 Diese Pause kann sowohl am Anfang als auch am Ende der täglichen Arbeitszeit genommen werden, aber sie muss ununterbrochen sein.
 Die Ruhepause muss unmittelbar nach der Arbeitszeit eingelegt werden, sie kann also nicht auf den folgenden Werktag verschoben werden.
-Wenn Ihr Unternehmen diese Pause ablehnt, dann verstößt es damit gegen das Arbeitszeitgesetz.
+Wenn dein Unternehmen diese Pause ablehnt, dann verstößt es damit gegen das Arbeitszeitgesetz.
 
 > Die Arbeit ist durch im voraus feststehende Ruhepausen von mindestens 30 Minuten bei einer Arbeitszeit von mehr als
 sechs bis zu neun Stunden und 45 Minuten bei einer Arbeitszeit von mehr als neun Stunden insgesamt zu unterbrechen.
@@ -41,8 +43,24 @@ Es ist wichtig, dass Arbeitnehmer in Deutschland die gesetzlichen Vorgaben beach
 aber Zusatzaufwände zu minimieren, können Unternehmen digitale Lösungen nutzen.
 
 Moderne Zeiterfassungssysteme können beispielsweise die Uhrzeit der Beginn- und Endzeit im System speichern und übersichtlich darstellen.
-Dadurch kann sichergestellt werden, dass alle Mitarbeiter ihre gesetzlich vorgeschriebene Pausendauer einhalten.
+Dadurch kann sichergestellt werden, dass alle Mitarbeitende ihre gesetzlich vorgeschriebene Pausendauer einhalten.
 Darüber hinaus bietet eine digitale Lösung für das Erfassen von Ruhepausen den Vorteil,
-dass sie auch für mobile Mitarbeiter mit unterschiedlichen Arbeitsorten geeignet ist.
+dass sie auch für mobile Mitarbeitende mit unterschiedlichen Arbeitsorten geeignet ist.
 
-Die neue Version (1.1.0) der Zeiterfassung auf urlaubsverwaltung.cloud bietet genau diese Möglichkeit.
+<div class="flex my-8">
+    <figure>
+        <picture>
+            <source srcset="pause-erfassen.avif" type="image/avif" />
+            <img
+              src="pause-erfassen.png"
+              alt="Pausen erfassen"
+              decoding="async"
+              loading="lazy"
+              class="rounded-lg"
+            />
+        </picture>
+        <figcaption class="text-sm text-center">Pausen direkt in der Zeiterfassung erfassen</figcaption>
+    </figure>
+</div>
+
+Die Zeiterfassung auf <a href="https://www.urlaubsverwaltung.cloud">urlaubsverwaltung.cloud</a> bietet genau diese Möglichkeit.
