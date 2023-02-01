@@ -28,7 +28,7 @@
 		"cssnano": "5.1.14",
 		"date-fns": "2.29.3",
 		"esbuild": "0.16.13",
-		"eslint": "8.31.0",
+		"eslint": "8.33.0",
 		"eslint-config-prettier": "8.5.0",
 		"eslint-plugin-prettier": "4.2.1",
 		"html-minifier": "4.0.0",
