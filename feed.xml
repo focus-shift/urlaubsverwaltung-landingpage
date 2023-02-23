@@ -4,8 +4,99 @@
   <subtitle></subtitle>
   <link rel="self" href="https://urlaubsverwaltung.cloud/feed.xml" />
   <link rel="alternate" type="text/html" href="https://urlaubsverwaltung.cloud" />
-  <updated>2023-01-20T00:00:00Z</updated>
+  <updated>2023-02-23T00:00:00Z</updated>
   <id>https://urlaubsverwaltung.cloud</id>
+  
+  
+  
+  <entry>
+    <title>Neues zur Zeiterfassung</title>
+    <link href="https://urlaubsverwaltung.cloud/neuigkeiten/2023-02-23-zeiterfassung-arbeitszeiten/" />
+    <updated>2023-02-23T00:00:00Z</updated>
+    <id>https://urlaubsverwaltung.cloud/neuigkeiten/2023-02-23-zeiterfassung-arbeitszeiten/</id>
+    <author>
+      <name>Andreas Weigel</name>
+    </author>
+    <content type="html">&lt;p&gt;Wir haben in der neuen Version der Zeiterfassung viel vom eurem Feedback umsetzen können.
+Mit dabei sind verbesserte Einsichten in die geleisteten Stunden deiner Mitarbeitenden und auch die Erfassung von Sollstunden
+bzw. die dazugehörige Pflege von Arbeitszeiten.&lt;/p&gt;
+&lt;h2 id=&quot;geleisteten-stunden-von-mitarbeitenden&quot;&gt;Geleisteten Stunden von Mitarbeitenden&lt;/h2&gt;
+&lt;p class=&quot;mt-4 lg:mb-4&quot;&gt;
+Unter Berichte konnten bereits die geleisteten Stunden pro Mitarbeitende eingesehen werden in Form einer Grafik sowie als CSV-Download. Diese Ansicht wurde nun erweitert, um die einzelnen Zeitbuchungen der Mitarbeitenden. Diese können nach Mitarbeitenden selektiert anzeigt werden. Auch die Auswahl von mehreren Mitarbeitenden ist möglich. Zusätzlich erhält mal durch die Auswahl des jeweiligen Tags schnell einen Überblick wann und wie tatsächlich gearbeitet wurde.
+&lt;/p&gt;
+&lt;div class=&quot;flex my-8&quot;&gt;
+    &lt;figure&gt;
+        &lt;picture&gt;
+            &lt;source srcset=&quot;https://urlaubsverwaltung.cloud/neuigkeiten/2023-02-23-zeiterfassung-arbeitszeiten/zeiterfassung-person-details.avif&quot; type=&quot;image/avif&quot; /&gt;
+            &lt;img src=&quot;https://urlaubsverwaltung.cloud/neuigkeiten/2023-02-23-zeiterfassung-arbeitszeiten/zeiterfassung-person-details.png&quot; alt=&quot;Auswahl einer Person zur Ansicht der gebuchten Zeiten&quot; decoding=&quot;async&quot; loading=&quot;lazy&quot; class=&quot;rounded-lg&quot; /&gt;
+        &lt;/picture&gt;
+        &lt;figcaption class=&quot;text-sm text-center&quot;&gt;Auswahl einer Person zur Ansicht der gebuchten Zeiten&lt;/figcaption&gt;
+    &lt;/figure&gt;
+&lt;/div&gt;
+&lt;h2 id=&quot;arbeitszeiten-festlegen&quot;&gt;Arbeitszeiten festlegen&lt;/h2&gt;
+&lt;p class=&quot;mt-4 lg:mb-4&quot;&gt;
+Die Zeiterfassung wurde um die Konfiguration von Arbeitszeiten erweitert. Diese können nun pro Mitarbeitende eingestellt werden. 
+Es ist möglich für die ganze Woche, als auch feingranular pro Tag die Arbeitszeiten festzulegen. 
+Diese Einstellung kann durch eine Person mit der entsprechenden Berechtigung vorgenommen werden.
+&lt;/p&gt;
+&lt;div class=&quot;flex my-8&quot;&gt;
+    &lt;figure&gt;
+        &lt;picture&gt;
+            &lt;source srcset=&quot;https://urlaubsverwaltung.cloud/neuigkeiten/2023-02-23-zeiterfassung-arbeitszeiten/zeiterfassung-workingtime.avif&quot; type=&quot;image/avif&quot; /&gt;
+            &lt;img src=&quot;https://urlaubsverwaltung.cloud/neuigkeiten/2023-02-23-zeiterfassung-arbeitszeiten/zeiterfassung-workingtime.png&quot; alt=&quot;Einstellung der Arbeitszeiten pro Mitarbeitenden&quot; decoding=&quot;async&quot; loading=&quot;lazy&quot; class=&quot;rounded-lg&quot; /&gt;
+        &lt;/picture&gt;
+        &lt;figcaption class=&quot;text-sm text-center&quot;&gt;Einstellung der Arbeitszeiten pro Mitarbeitenden&lt;/figcaption&gt;
+    &lt;/figure&gt;
+&lt;/div&gt;
+&lt;p class=&quot;mt-4 lg:mb-4&quot;&gt;
+Die gepflegten Arbeitszeiten fließen nach der Konfiguration in die Berechnung der Plan- und tatsächliche erfassten Arbeitszeiten mit ein.
+&lt;/p&gt;
+&lt;h2 id=&quot;wie-viel-habe-ich-diese-woche-schon-geschafft&quot;&gt;Wie viel habe ich diese Woche schon geschafft?&lt;/h2&gt;
+&lt;p class=&quot;mt-4 lg:mb-4&quot;&gt;
+Die Arbeitszeiten fliesen nun auch in die Zeiterfassung mit ein. So ist jetzt auf Tages- als auch auf Wochenebene einsehbar wie viel Zeit bereits von der geplanten Arbeizeit geleitest wurde. Auch Überstunden sind in der Darstellung direkt sichtbar.
+&lt;/p&gt;
+&lt;div class=&quot;flex my-8&quot;&gt;
+    &lt;figure&gt;
+        &lt;picture&gt;
+            &lt;source srcset=&quot;https://urlaubsverwaltung.cloud/neuigkeiten/2023-02-23-zeiterfassung-arbeitszeiten/zeiterfassung-new-timeslot.avif&quot; type=&quot;image/avif&quot; /&gt;
+            &lt;img src=&quot;https://urlaubsverwaltung.cloud/neuigkeiten/2023-02-23-zeiterfassung-arbeitszeiten/zeiterfassung-new-timeslot.png&quot; alt=&quot;Darstellung der geplanten Arbeitszeiten und der geleisteten Stunden&quot; decoding=&quot;async&quot; loading=&quot;lazy&quot; class=&quot;rounded-lg&quot; /&gt;
+        &lt;/picture&gt;
+        &lt;figcaption class=&quot;text-sm text-center&quot;&gt;Darstellung der geplanten Arbeitszeiten und der geleisteten Stunden&lt;/figcaption&gt;
+    &lt;/figure&gt;
+&lt;/div&gt;
+&lt;p class=&quot;mt-4 lg:mb-4&quot;&gt;
+In den Berichten ist ebenfalls der Vergleich von Planarbeitszeiten und tatsächlich geleisteten Stunden grafisch aufbereitet und können sowohl auf Wochen- als auch Monatsbasis aggregiert angezeigt werden.
+&lt;/p&gt;
+&lt;div class=&quot;flex my-8&quot;&gt;
+    &lt;figure&gt;
+        &lt;picture&gt;
+            &lt;source srcset=&quot;https://urlaubsverwaltung.cloud/neuigkeiten/2023-02-23-zeiterfassung-arbeitszeiten/zeiterfassung-report-week.avif&quot; type=&quot;image/avif&quot; /&gt;
+            &lt;img src=&quot;https://urlaubsverwaltung.cloud/neuigkeiten/2023-02-23-zeiterfassung-arbeitszeiten/zeiterfassung-report-week.png&quot; alt=&quot;Wöchtenliche Berichte mit grafischer Darstellung der geplanten Arbeitszeiten&quot; decoding=&quot;async&quot; loading=&quot;lazy&quot; class=&quot;rounded-lg&quot; /&gt;
+        &lt;/picture&gt;
+        &lt;figcaption class=&quot;text-sm text-center&quot;&gt;Wöchtenliche Berichte mit grafischer Darstellung der geplanten Arbeitszeiten&lt;/figcaption&gt;
+    &lt;/figure&gt;
+&lt;/div&gt;
+&lt;div class=&quot;flex my-8&quot;&gt;
+    &lt;figure&gt;
+        &lt;picture&gt;
+            &lt;source srcset=&quot;https://urlaubsverwaltung.cloud/neuigkeiten/2023-02-23-zeiterfassung-arbeitszeiten/zeiterfassung-report-month.avif&quot; type=&quot;image/avif&quot; /&gt;
+            &lt;img src=&quot;https://urlaubsverwaltung.cloud/neuigkeiten/2023-02-23-zeiterfassung-arbeitszeiten/zeiterfassung-report-month.png&quot; alt=&quot;Monatliche Berichte mit grafischer Darstellung der geplanten Arbeitszeiten&quot; decoding=&quot;async&quot; loading=&quot;lazy&quot; class=&quot;rounded-lg&quot; /&gt;
+        &lt;/picture&gt;
+        &lt;figcaption class=&quot;text-sm text-center&quot;&gt;Monatliche Berichte mit grafischer Darstellung der geplanten Arbeitszeiten&lt;/figcaption&gt;
+    &lt;/figure&gt;
+&lt;/div&gt;
+&lt;h2 id=&quot;roadmap-zur-zeiterfassung&quot;&gt;Roadmap zur Zeiterfassung&lt;/h2&gt;
+&lt;p class=&quot;mt-4 lg:mb-4&quot;&gt;
+Folgende Features sind außerdem geplant für die Zeiterfassung:
+&lt;/p&gt;&lt;ul&gt;
+&lt;li&gt;Automatische Synchronisation von Abwesenheiten aus der Urlaubsverwaltung&lt;/li&gt;
+&lt;li&gt;Automatische Synchronisation von Überstunden in die Urlaubsverwaltung&lt;/li&gt;
+&lt;li&gt;Automatisierte Berechnung der Pausenzeiten&lt;/li&gt;
+&lt;li&gt;Projektzeiterfassung&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;/p&gt;
+</content>
+  </entry>
   
   
   
