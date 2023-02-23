@@ -7,16 +7,19 @@ author: Andreas Weigel
 teaserImage: /static/zeiterfassung-multi-device.png
 ---
 
-Wir haben in der neuen Version der Zeiterfassung viel vom eurem Feedback umsetzen können. 
-Mit dabei sind verbesserte Einsichten in die geleisteten Stunden deiner Mitarbeitenden und auch die Erfassung von Sollstunden 
-bzw. die dazugehörige Pflege von Arbeitszeiten.
+Wir haben in der neuen Version der Zeiterfassung viel vom eurem Feedback umsetzen können.
+Mit dabei sind verbesserte Einsichten in die geleisteten Stunden deiner Mitarbeitenden und auch die Erfassung von
+Sollstunden bzw. die dazugehörige Pflege von Arbeitszeiten.
 
 <!-- more -->
 
 ## Geleisteten Stunden von Mitarbeitenden
 
 <p class="mt-4 lg:mb-4">
-Unter Berichte konnten bereits die geleisteten Stunden pro Mitarbeitende eingesehen werden in Form einer Grafik sowie als CSV-Download. Diese Ansicht wurde nun erweitert, um die einzelnen Zeitbuchungen der Mitarbeitenden. Diese können nach Mitarbeitenden selektiert anzeigt werden. Auch die Auswahl von mehreren Mitarbeitenden ist möglich. Zusätzlich erhält mal durch die Auswahl des jeweiligen Tags schnell einen Überblick wann und wie tatsächlich gearbeitet wurde.
+Unter Berichte konnten bereits die geleisteten Stunden pro Mitarbeitende eingesehen werden in Form einer Grafik sowie 
+als CSV-Download. Diese Ansicht wurde nun erweitert, um die einzelnen Zeitbuchungen der Mitarbeitenden. Diese können 
+nach Mitarbeitenden selektiert anzeigt werden. Auch die Auswahl von mehreren Mitarbeitenden ist möglich. Zusätzlich 
+erhält mal durch die Auswahl des jeweiligen Tags schnell einen Überblick wann und wie tatsächlich gearbeitet wurde.
 </p>
 
 <div class="flex my-8">
@@ -66,7 +69,8 @@ Die gepflegten Arbeitszeiten fließen nach der Konfiguration in die Berechnung d
 ## Wie viel habe ich diese Woche schon geschafft?
 
 <p class="mt-4 lg:mb-4">
-Die Arbeitszeiten fliesen nun auch in die Zeiterfassung mit ein. So ist jetzt auf Tages- als auch auf Wochenebene einsehbar wie viel Zeit bereits von der geplanten Arbeizeit geleitest wurde. Auch Überstunden sind in der Darstellung direkt sichtbar.
+Die Arbeitszeiten fliesen nun auch in die Zeiterfassung mit ein. So ist jetzt auf Tages- als auch auf Wochenebene einsehbar wie viel Zeit 
+bereits von der geplanten Arbeizeit geleitest wurde. Auch Überstunden sind in der Darstellung direkt sichtbar.
 </p>
 
 <div class="flex my-8">
@@ -86,7 +90,8 @@ Die Arbeitszeiten fliesen nun auch in die Zeiterfassung mit ein. So ist jetzt au
 </div>
 
 <p class="mt-4 lg:mb-4">
-In den Berichten ist ebenfalls der Vergleich von Planarbeitszeiten und tatsächlich geleisteten Stunden grafisch aufbereitet und können sowohl auf Wochen- als auch Monatsbasis aggregiert angezeigt werden.
+In den Berichten ist ebenfalls der Vergleich von Planarbeitszeiten und tatsächlich geleisteten Stunden grafisch aufbereitet 
+und können sowohl auf Wochen- als auch Monatsbasis aggregiert angezeigt werden.
 </p>
 
 <div class="flex my-8">
@@ -101,7 +106,7 @@ In den Berichten ist ebenfalls der Vergleich von Planarbeitszeiten und tatsächl
               class="rounded-lg"
             />
         </picture>
-        <figcaption class="text-sm text-center">Wöchtenliche Berichte mit grafischer Darstellung der geplanten Arbeitszeiten</figcaption>
+        <figcaption class="text-sm text-center">Wöchentliche Berichte mit grafischer Darstellung der geplanten Arbeitszeiten</figcaption>
     </figure>
 </div>
 
@@ -127,7 +132,8 @@ In den Berichten ist ebenfalls der Vergleich von Planarbeitszeiten und tatsächl
 Folgende Features sind außerdem geplant für die Zeiterfassung:
 
 * Automatische Synchronisation von Abwesenheiten aus der Urlaubsverwaltung
-* Automatische Synchronisation von Überstunden in die Urlaubsverwaltung 
+* Automatische Synchronisation von Überstunden in die Urlaubsverwaltung
 * Automatisierte Berechnung der Pausenzeiten
 * Projektzeiterfassung
+
 </p>
