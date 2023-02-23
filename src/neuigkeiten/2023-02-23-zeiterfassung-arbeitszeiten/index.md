@@ -70,7 +70,7 @@ Die gepflegten Arbeitszeiten fließen nach der Konfiguration in die Berechnung d
 
 <p class="mt-4 lg:mb-4">
 Die Arbeitszeiten fliesen nun auch in die Zeiterfassung mit ein. So ist jetzt auf Tages- als auch auf Wochenebene einsehbar wie viel Zeit 
-bereits von der geplanten Arbeizeit geleitest wurde. Auch Überstunden sind in der Darstellung direkt sichtbar.
+bereits von der geplanten Arbeitszeit geleistet wurde. Auch Überstunden sind in der Darstellung direkt sichtbar.
 </p>
 
 <div class="flex my-8">
@@ -100,7 +100,7 @@ und können sowohl auf Wochen- als auch Monatsbasis aggregiert angezeigt werden.
             <source srcset="zeiterfassung-report-week.avif" type="image/avif" />
             <img
               src="zeiterfassung-report-week.png"
-              alt="Wöchtenliche Berichte mit grafischer Darstellung der geplanten Arbeitszeiten"
+              alt="Wöchentliche Berichte mit grafischer Darstellung der geplanten Arbeitszeiten"
               decoding="async"
               loading="lazy"
               class="rounded-lg"
