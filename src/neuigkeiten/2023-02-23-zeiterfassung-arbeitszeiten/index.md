@@ -2,7 +2,7 @@
 draft: false
 layout: layout-neuigkeiten
 date: 2023-02-23
-title: Neues zur Zeiterfassung
+title: Zeiterfassung - Arbeitszeiten, neue Berichte und geleisteten Stunden
 author: Andreas Weigel
 teaserImage: /static/zeiterfassung-multi-device.png
 ---
