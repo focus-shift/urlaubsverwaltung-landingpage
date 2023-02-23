@@ -18,11 +18,14 @@
       <name>Andreas Weigel</name>
     </author>
     <content type="html">&lt;p&gt;Wir haben in der neuen Version der Zeiterfassung viel vom eurem Feedback umsetzen können.
-Mit dabei sind verbesserte Einsichten in die geleisteten Stunden deiner Mitarbeitenden und auch die Erfassung von Sollstunden
-bzw. die dazugehörige Pflege von Arbeitszeiten.&lt;/p&gt;
+Mit dabei sind verbesserte Einsichten in die geleisteten Stunden deiner Mitarbeitenden und auch die Erfassung von
+Sollstunden bzw. die dazugehörige Pflege von Arbeitszeiten.&lt;/p&gt;
 &lt;h2 id=&quot;geleisteten-stunden-von-mitarbeitenden&quot;&gt;Geleisteten Stunden von Mitarbeitenden&lt;/h2&gt;
 &lt;p class=&quot;mt-4 lg:mb-4&quot;&gt;
-Unter Berichte konnten bereits die geleisteten Stunden pro Mitarbeitende eingesehen werden in Form einer Grafik sowie als CSV-Download. Diese Ansicht wurde nun erweitert, um die einzelnen Zeitbuchungen der Mitarbeitenden. Diese können nach Mitarbeitenden selektiert anzeigt werden. Auch die Auswahl von mehreren Mitarbeitenden ist möglich. Zusätzlich erhält mal durch die Auswahl des jeweiligen Tags schnell einen Überblick wann und wie tatsächlich gearbeitet wurde.
+Unter Berichte konnten bereits die geleisteten Stunden pro Mitarbeitende eingesehen werden in Form einer Grafik sowie 
+als CSV-Download. Diese Ansicht wurde nun erweitert, um die einzelnen Zeitbuchungen der Mitarbeitenden. Diese können 
+nach Mitarbeitenden selektiert anzeigt werden. Auch die Auswahl von mehreren Mitarbeitenden ist möglich. Zusätzlich 
+erhält mal durch die Auswahl des jeweiligen Tags schnell einen Überblick wann und wie tatsächlich gearbeitet wurde.
 &lt;/p&gt;
 &lt;div class=&quot;flex my-8&quot;&gt;
     &lt;figure&gt;
@@ -53,7 +56,8 @@ Die gepflegten Arbeitszeiten fließen nach der Konfiguration in die Berechnung d
 &lt;/p&gt;
 &lt;h2 id=&quot;wie-viel-habe-ich-diese-woche-schon-geschafft&quot;&gt;Wie viel habe ich diese Woche schon geschafft?&lt;/h2&gt;
 &lt;p class=&quot;mt-4 lg:mb-4&quot;&gt;
-Die Arbeitszeiten fliesen nun auch in die Zeiterfassung mit ein. So ist jetzt auf Tages- als auch auf Wochenebene einsehbar wie viel Zeit bereits von der geplanten Arbeizeit geleitest wurde. Auch Überstunden sind in der Darstellung direkt sichtbar.
+Die Arbeitszeiten fliesen nun auch in die Zeiterfassung mit ein. So ist jetzt auf Tages- als auch auf Wochenebene einsehbar wie viel Zeit 
+bereits von der geplanten Arbeizeit geleitest wurde. Auch Überstunden sind in der Darstellung direkt sichtbar.
 &lt;/p&gt;
 &lt;div class=&quot;flex my-8&quot;&gt;
     &lt;figure&gt;
@@ -65,7 +69,8 @@ Die Arbeitszeiten fliesen nun auch in die Zeiterfassung mit ein. So ist jetzt au
     &lt;/figure&gt;
 &lt;/div&gt;
 &lt;p class=&quot;mt-4 lg:mb-4&quot;&gt;
-In den Berichten ist ebenfalls der Vergleich von Planarbeitszeiten und tatsächlich geleisteten Stunden grafisch aufbereitet und können sowohl auf Wochen- als auch Monatsbasis aggregiert angezeigt werden.
+In den Berichten ist ebenfalls der Vergleich von Planarbeitszeiten und tatsächlich geleisteten Stunden grafisch aufbereitet 
+und können sowohl auf Wochen- als auch Monatsbasis aggregiert angezeigt werden.
 &lt;/p&gt;
 &lt;div class=&quot;flex my-8&quot;&gt;
     &lt;figure&gt;
@@ -73,7 +78,7 @@ In den Berichten ist ebenfalls der Vergleich von Planarbeitszeiten und tatsächl
             &lt;source srcset=&quot;https://urlaubsverwaltung.cloud/neuigkeiten/2023-02-23-zeiterfassung-arbeitszeiten/zeiterfassung-report-week.avif&quot; type=&quot;image/avif&quot; /&gt;
             &lt;img src=&quot;https://urlaubsverwaltung.cloud/neuigkeiten/2023-02-23-zeiterfassung-arbeitszeiten/zeiterfassung-report-week.png&quot; alt=&quot;Wöchtenliche Berichte mit grafischer Darstellung der geplanten Arbeitszeiten&quot; decoding=&quot;async&quot; loading=&quot;lazy&quot; class=&quot;rounded-lg&quot; /&gt;
         &lt;/picture&gt;
-        &lt;figcaption class=&quot;text-sm text-center&quot;&gt;Wöchtenliche Berichte mit grafischer Darstellung der geplanten Arbeitszeiten&lt;/figcaption&gt;
+        &lt;figcaption class=&quot;text-sm text-center&quot;&gt;Wöchentliche Berichte mit grafischer Darstellung der geplanten Arbeitszeiten&lt;/figcaption&gt;
     &lt;/figure&gt;
 &lt;/div&gt;
 &lt;div class=&quot;flex my-8&quot;&gt;
