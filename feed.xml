@@ -74,12 +74,10 @@ dass sie auch für mobile Mitarbeitende mit unterschiedlichen Arbeitsorten geeig
 Mit dabei sind verbesserte Einsichten in die geleisteten Stunden deiner Mitarbeitenden und auch die Erfassung von
 Sollstunden bzw. die dazugehörige Pflege von Arbeitszeiten.&lt;/p&gt;
 &lt;h2 id=&quot;geleisteten-stunden-von-mitarbeitenden&quot;&gt;Geleisteten Stunden von Mitarbeitenden&lt;/h2&gt;
-&lt;p class=&quot;mt-4 lg:mb-4&quot;&gt;
-Unter Berichte konnten bereits die geleisteten Stunden pro Mitarbeitende eingesehen werden in Form einer Grafik sowie 
-als CSV-Download. Diese Ansicht wurde nun erweitert, um die einzelnen Zeitbuchungen der Mitarbeitenden. Diese können 
-nach Mitarbeitenden selektiert anzeigt werden. Auch die Auswahl von mehreren Mitarbeitenden ist möglich. Zusätzlich 
-erhält mal durch die Auswahl des jeweiligen Tags schnell einen Überblick wann und wie tatsächlich gearbeitet wurde.
-&lt;/p&gt;
+&lt;p&gt;Unter Berichte konnten bereits die geleisteten Stunden pro Mitarbeitende eingesehen werden in Form einer Grafik sowie
+als CSV-Download. Diese Ansicht wurde nun erweitert, um die einzelnen Zeitbuchungen der Mitarbeitenden. Diese können
+nach Mitarbeitenden selektiert anzeigt werden. Auch die Auswahl von mehreren Mitarbeitenden ist möglich. Zusätzlich
+erhält mal durch die Auswahl des jeweiligen Tags schnell einen Überblick wann und wie tatsächlich gearbeitet wurde.&lt;/p&gt;
 &lt;div class=&quot;flex my-8&quot;&gt;
     &lt;figure&gt;
         &lt;picture&gt;
@@ -90,11 +88,9 @@ erhält mal durch die Auswahl des jeweiligen Tags schnell einen Überblick wann 
     &lt;/figure&gt;
 &lt;/div&gt;
 &lt;h2 id=&quot;arbeitszeiten-festlegen&quot;&gt;Arbeitszeiten festlegen&lt;/h2&gt;
-&lt;p class=&quot;mt-4 lg:mb-4&quot;&gt;
-Die Zeiterfassung wurde um die Konfiguration von Arbeitszeiten erweitert. Diese können nun pro Mitarbeitende eingestellt werden. 
-Es ist möglich für die ganze Woche, als auch feingranular pro Tag die Arbeitszeiten festzulegen. 
-Diese Einstellung kann durch eine Person mit der entsprechenden Berechtigung vorgenommen werden.
-&lt;/p&gt;
+&lt;p&gt;Die Zeiterfassung wurde um die Konfiguration von Arbeitszeiten erweitert. Diese können nun pro Mitarbeitende eingestellt werden.
+Es ist möglich für die ganze Woche, als auch feingranular pro Tag die Arbeitszeiten festzulegen.
+Diese Einstellung kann durch eine Person mit der entsprechenden Berechtigung vorgenommen werden.&lt;/p&gt;
 &lt;div class=&quot;flex my-8&quot;&gt;
     &lt;figure&gt;
         &lt;picture&gt;
@@ -104,14 +100,10 @@ Diese Einstellung kann durch eine Person mit der entsprechenden Berechtigung vor
         &lt;figcaption class=&quot;text-sm text-center&quot;&gt;Einstellung der Arbeitszeiten pro Mitarbeitenden&lt;/figcaption&gt;
     &lt;/figure&gt;
 &lt;/div&gt;
-&lt;p class=&quot;mt-4 lg:mb-4&quot;&gt;
-Die gepflegten Arbeitszeiten fließen nach der Konfiguration in die Berechnung der Plan- und tatsächliche erfassten Arbeitszeiten mit ein.
-&lt;/p&gt;
+&lt;p&gt;Die gepflegten Arbeitszeiten fließen nach der Konfiguration in die Berechnung der Plan- und tatsächliche erfassten Arbeitszeiten mit ein.&lt;/p&gt;
 &lt;h2 id=&quot;wie-viel-habe-ich-diese-woche-schon-geschafft&quot;&gt;Wie viel habe ich diese Woche schon geschafft?&lt;/h2&gt;
-&lt;p class=&quot;mt-4 lg:mb-4&quot;&gt;
-Die Arbeitszeiten fliesen nun auch in die Zeiterfassung mit ein. So ist jetzt auf Tages- als auch auf Wochenebene einsehbar wie viel Zeit 
-bereits von der geplanten Arbeitszeit geleistet wurde. Auch Überstunden sind in der Darstellung direkt sichtbar.
-&lt;/p&gt;
+&lt;p&gt;Die Arbeitszeiten fliesen nun auch in die Zeiterfassung mit ein. So ist jetzt auf Tages- als auch auf Wochenebene einsehbar wie viel Zeit
+bereits von der geplanten Arbeitszeit geleistet wurde. Auch Überstunden sind in der Darstellung direkt sichtbar.&lt;/p&gt;
 &lt;div class=&quot;flex my-8&quot;&gt;
     &lt;figure&gt;
         &lt;picture&gt;
@@ -121,10 +113,8 @@ bereits von der geplanten Arbeitszeit geleistet wurde. Auch Überstunden sind in
         &lt;figcaption class=&quot;text-sm text-center&quot;&gt;Darstellung der geplanten Arbeitszeiten und der geleisteten Stunden&lt;/figcaption&gt;
     &lt;/figure&gt;
 &lt;/div&gt;
-&lt;p class=&quot;mt-4 lg:mb-4&quot;&gt;
-In den Berichten ist ebenfalls der Vergleich von Planarbeitszeiten und tatsächlich geleisteten Stunden grafisch aufbereitet 
-und können sowohl auf Wochen- als auch Monatsbasis aggregiert angezeigt werden.
-&lt;/p&gt;
+&lt;p&gt;In den Berichten ist ebenfalls der Vergleich von Planarbeitszeiten und tatsächlich geleisteten Stunden grafisch aufbereitet
+und können sowohl auf Wochen- als auch Monatsbasis aggregiert angezeigt werden.&lt;/p&gt;
 &lt;div class=&quot;flex my-8&quot;&gt;
     &lt;figure&gt;
         &lt;picture&gt;
@@ -144,15 +134,13 @@ und können sowohl auf Wochen- als auch Monatsbasis aggregiert angezeigt werden.
     &lt;/figure&gt;
 &lt;/div&gt;
 &lt;h2 id=&quot;roadmap-zur-zeiterfassung&quot;&gt;Roadmap zur Zeiterfassung&lt;/h2&gt;
-&lt;p class=&quot;mt-4 lg:mb-4&quot;&gt;
-Folgende Features sind außerdem geplant für die Zeiterfassung:
-&lt;/p&gt;&lt;ul&gt;
+&lt;p&gt;Folgende Features sind außerdem geplant für die Zeiterfassung:&lt;/p&gt;
+&lt;ul&gt;
 &lt;li&gt;Automatische Synchronisation von Abwesenheiten aus der Urlaubsverwaltung&lt;/li&gt;
 &lt;li&gt;Automatische Synchronisation von Überstunden in die Urlaubsverwaltung&lt;/li&gt;
 &lt;li&gt;Automatisierte Berechnung der Pausenzeiten&lt;/li&gt;
 &lt;li&gt;Projektzeiterfassung&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;/p&gt;
 </content>
   </entry>
   
@@ -190,33 +178,24 @@ ist, wie personenbezogene Daten verarbeitet werden.
   &lt;/div&gt;
 &lt;/div&gt;
 &lt;h2 id=&quot;open-source-als-offenes-konzept&quot;&gt;Open-Source als offenes Konzept&lt;/h2&gt;
-&lt;p class=&quot;mt-4 lg:mb-4&quot;&gt;
-Open-Source-Software hingegen basiert auf der Idee, dass der Quellcode der Software frei zugänglich ist. Versierte
+&lt;p&gt;Open-Source-Software hingegen basiert auf der Idee, dass der Quellcode der Software frei zugänglich ist. Versierte
 Softwareentwickler haben somit einen Einblick, sowohl in die Codequalität als auch in die Verarbeitungsprozesse der
 Daten.
 Diese Offenheit und Kontrollierbarkeit bewirkt, dass Kritik expliziter Teil der Softwareevolution ist und aus diesem
-Grund
-Software mit einem hohen Mindest-Qualitätsstandard bereitgestellt wird.
-&lt;/p&gt;
+Grund Software mit einem hohen Mindest-Qualitätsstandard bereitgestellt wird.&lt;/p&gt;
 &lt;h2 id=&quot;wie-sich-beide-konzepte-ergaenzen&quot;&gt;Wie sich beide Konzepte ergänzen&lt;/h2&gt;
-&lt;p class=&quot;mt-4 lg:mb-4&quot;&gt;
-    Auf den ersten Blick könnte man denken, dass Open-Source-Software und Datenschutz unvereinbare Konzepte sind.
-    Schließlich könnte jeder Nutzer den Quellcode einsehen und möglicherweise persönliche Daten ausspähen.
-    Doch tatsächlich kann Open-Source-Software dazu beitragen, den Datenschutz zu stärken.
-&lt;/p&gt;
-&lt;p class=&quot;mt-4 lg:mb-4&quot;&gt;
-    Ein Missverständnis ist oft, dass der Quellcode Anwendungsdaten der Benutzenden offenbart. 
-    Daten werden aber in der Datenbank gespeichert und der Quellcode beschreibt nur, wie diese verarbeitet werden. 
-    Damit können die offensichtlichen datenverarbeitenden Prozesse auch in das Datenschutzkonzept des Unternehmens übernommen werden.
-&lt;/p&gt;
-&lt;p class=&quot;mt-4 lg:mb-4&quot;&gt;
-    Durch die Transparenz und Offenheit des Quellcodes können Sicherheitslücken und Schwachstellen leichter identifiziert
-    und behoben werden.
-    Die vorhandene Feedbackkultur der aktiven Community hat dabei eine treibende Kraft, da sie die Software selbst im
-    Einsatz hat.
-    Dieser Umstand führt dazu, dass potentielle Ungereimtheiten schneller entdeckt und kompetent diskutiert und behoben
-    werden.
-&lt;/p&gt;
+&lt;p&gt;Auf den ersten Blick könnte man denken, dass Open-Source-Software und Datenschutz unvereinbare Konzepte sind.
+Schließlich könnte jeder Nutzer den Quellcode einsehen und möglicherweise persönliche Daten ausspähen.
+Doch tatsächlich kann Open-Source-Software dazu beitragen, den Datenschutz zu stärken.&lt;/p&gt;
+&lt;p&gt;Ein Missverständnis ist oft, dass der Quellcode Anwendungsdaten der Benutzenden offenbart.
+Daten werden aber in der Datenbank gespeichert und der Quellcode beschreibt nur, wie diese verarbeitet werden.
+Damit können die offensichtlichen datenverarbeitenden Prozesse auch in das Datenschutzkonzept des Unternehmens übernommen werden.&lt;/p&gt;
+&lt;p&gt;Durch die Transparenz und Offenheit des Quellcodes können Sicherheitslücken und Schwachstellen leichter identifiziert
+und behoben werden.
+Die vorhandene Feedbackkultur der aktiven Community hat dabei eine treibende Kraft, da sie die Software selbst im
+Einsatz hat.
+Dieser Umstand führt dazu, dass potentielle Ungereimtheiten schneller entdeckt und kompetent diskutiert und behoben
+werden.&lt;/p&gt;
 &lt;div class=&quot;flex flex-col justify-end lg:flex-row-reverse lg:space-x-8 lg:space-x-reverse lg:mt-8 lg:mb-8&quot;&gt;
   &lt;div&gt;
     &lt;img class=&quot;mx-auto mt-2 lg:max-w-md lg:h-80 border-none&quot; src=&quot;https://urlaubsverwaltung.cloud/neuigkeiten/2023-01-20-opensource-vs-datenschutz/OSIApproved_300X350_0.png&quot; alt=&quot;Open Source Initiative Logo&quot; /&gt;
