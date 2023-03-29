@@ -1,5 +1,5 @@
-<script defer src="/static/js/jquery.min.js"></script>
-<script defer src="https://support.apps.urlaubsverwaltung.cloud/assets/chat/chat.min.js"></script>
+<script src="/static/js/jquery.min.js"></script>
+<script src="https://support.apps.urlaubsverwaltung.cloud/assets/chat/chat.min.js"></script>
 <style>
   .zammad-chat-welcome {
     display: flex;
@@ -8,4 +8,14 @@
     margin-left: 3px;
   }
 </style>
-<script defer src="/static/js/zammad.js"></script>
+<script>
+$(function() {
+  new ZammadChat({
+    background: 'rgb(49, 130, 206)',
+    fontSize: '12px',
+    chatId: 1,
+    flat: true,
+    title: 'Hast du eine Frage?'
+  });
+});
+</script>
