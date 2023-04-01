@@ -7,11 +7,11 @@ title: Feiertage - Hilfe
 
 ## Wie kann ich die Feiertage für die Urlaubsverwaltung konfigurieren?
 
-In der Menüleiste gibt es einen Punkt "Einstellungen". Hier kann das Land sowie die Region (z.B. Bundesland für Deutschland)
-ausgewählt werden, dessen geltende Feiertage beim Beantragen von Urlaub als 0
-Arbeitstage gezählt werden. Außerdem kann konfiguriert werden, wie Heiligabend
-und Silvester behandelt werden: gelten diese als gar kein Arbeitstag, als
-halber Arbeitstag oder als voller Arbeitstag?
+In der Menüleiste befindet sich der Punkt "Einstellungen". Hier kann das Land und die Region 
+(z.B. das Bundesland in Deutschland) ausgewählt werden, dessen Feiertage nicht als Arbeitstage 
+beim Beantragen von Urlaub gezählt werden sollen. Außerdem kann festgelegt werden, wie 
+Heiligabend und Silvester behandelt werden sollen: gelten diese als Arbeitstag, 
+halber Arbeitstag oder kein Arbeitstag?
 
 <p>
   <picture>
@@ -32,8 +32,7 @@ halber Arbeitstag oder als voller Arbeitstag?
 
 Ja, im Konto des Mitarbeitenden kann unter dem Punkt "Feiertagsregelung" die systemweite eingestellte Feiertagsregelung
 durch eine persönliche Feiertagsregelung überschrieben werden. Die Feiertage für den Mitarbeitenden werden dann anhand
-des
-persönlichen Landes/Region berechnet.
+des persönlichen Landes bzw. der Region berechnet.
 
 <p>
   <picture>
@@ -52,6 +51,16 @@ persönlichen Landes/Region berechnet.
 
 ## Welche Feiertage sind vorhanden?
 
-Die Urlaubsverwaltung bietet alle geltenden Feiertage der DACH-Region, des Vereinigten Königreiches und Griechenlands
-und weiteren europäischen Länder an. Auch Besonderheiten wie z. B. das Augsburger Friedensfest ist mit dabei. Sollte uns
-ein Feiertag fehlen, gib uns gerne kurz Bescheid!
+Die Urlaubsverwaltung bietet alle geltenden Feiertage der Länder 
+
+* Deutschland
+* Österreich
+* Schweiz
+* des Vereinigten Königreiches
+* Griechenland
+* Italien
+* Malta 
+
+und weiteren europäischen Länder an. Auch Besonderheiten wie z. B. das Augsburger Friedensfest ist mit dabei.
+
+Sollte uns ein Feiertag fehlen, dann schreibe uns gerne eine [E-Mail](mailto:info@urlaubsverwaltung.cloud?subject=Feiertage)!
