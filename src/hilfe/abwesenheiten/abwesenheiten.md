@@ -180,10 +180,11 @@ mit der korrekten Art der Abwesenheit erstellt werden.
 
 ## Wie funktioniert der Übergang zwischen zwei Jahren?
 
-Der Erholungsurlaub, welcher im bisherigen Jahr noch nicht genommen wurde, wird in das folgende Jahr als Resturlaub mit Verfall zum Stichtag übernommen. Diese
-Übernahme passiert in den Standard-Einstellungen am 1.1. des Folgejahres um 05:00 Uhr.
+Der Erholungsurlaub, welcher im bisherigen Jahr noch nicht genommen wurde, wird in das folgende Jahr als Resturlaub mit 
+Verfall zum Stichtag übernommen. Diese Übernahme passiert in den Standard-Einstellungen am 1.1. des Folgejahres um 05:00 Uhr.
 Der übernommene Resturlaub beinhaltet alle bis zum 31.12. nicht genommenen Urlaubstage. Dieser Resturlaub kann dann bis
-zum Ende des Monats März genommen werden. Somit verfällt der Resturlaub in den Standardeinstellungen zum 1. April. Dieser Stichtag kann pro Benutzer konfiguriert werden, sodass der Resturlaub zu einem anderen Stichtag genommen werden muss.
+zum Ende des Monats März genommen werden. Somit verfällt der Resturlaub in den Standardeinstellungen zum 1. April. Dieser 
+Stichtag kann pro Benutzer konfiguriert werden, sodass der Resturlaub zu einem anderen Stichtag genommen werden muss.
 
 ## Workflow bei Abwesenheitsanträgen
 

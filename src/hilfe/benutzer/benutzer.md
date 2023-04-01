@@ -137,8 +137,26 @@ am 1. Januar automatisch überschrieben.
 
 ## Wann verfällt der Resturlaub eines Mitarbeitenden
 
-Das Datum für den Verfall des Resturlaubs eines Mitarbeitenden kann im Konto unter Urlaubsanspruch konfiguriert werden.
-Die Voreinstellung des Verfallsdatums ist auf den 1. April gesetzt.
+Der Verfall von Resturlaub kann global für die ganze Organisation, in den Einstellungen, aktiviert bzw. deaktiviert und 
+zusätzlich für jeden Benutzenden einzeln im Konto überschrieben werden. 
+
+<p>
+  <picture>
+    <source srcset="benutzer-resturlaub.avif" type="image/avif" />
+    <source srcset="benutzer-resturlaub.webp" type="image/webp" />
+    <img
+      src="benutzer-resturlaub.png"
+      alt="Überschreiben der Konfiguration des Resturlaubes pro Benutzenden"
+      decoding="async"
+      loading="lazy"
+      width="794"
+      height="478"
+    />
+  </picture>
+</p>
+
+Das Datum für den Verfall des Resturlaubs und ob dieser überhaupt Verfällt, kann im Konto eines Mitarbeitenden unter 
+'Urlaubsanspruch' individuell pro Jahr konfiguriert werden. Die Voreinstellung des Verfallsdatums ist auf den 1. April gesetzt.
 
 ## Gibt es eine Möglichkeit ein Profil-Bild zu hinterlegen?
 
