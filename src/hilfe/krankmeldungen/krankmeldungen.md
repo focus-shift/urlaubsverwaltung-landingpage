@@ -7,7 +7,9 @@ title: Krankmeldungen - Hilfe
 
 ## Kann eine Krankmeldung eingetragen werden?
 
-Ja, eine Krankmeldung kann als Benutzende mit der Berechtigung _Office_ oder mit der Berechtigung _Pflege von Krankmeldungen_ für andere Mitarbeitende eingetragen werden in dem die Krankmeldung über das "+"-Symbol _Neue Krankmeldung_ ausgewählt wird.
+Ja, eine Krankmeldung kann als Benutzende mit der Berechtigung _Office_ oder mit der Berechtigung
+_Pflege von Krankmeldungen_ für andere Mitarbeitende eingetragen werden in dem die Krankmeldung über
+das "+"-Symbol _Neue Krankmeldung_ ausgewählt wird.
 
 <p>
   <picture>
@@ -62,7 +64,9 @@ Ja, eine Kind-Krankmeldung kann erfasst werden indem der Typ von _Krankmeldung_ 
 
 ## Wird an das Ende der Lohnfortzahlung erinnert?
 
-Ja, die Urlaubsverwaltung erinnert sowohl den Mitarbeiter als auch Personen mit der Berechtigung _Office_ an das Ende der  Lohnfortzahlung sofern der zusammenhängende Zeitraum einer Krankmeldung sechs Wochen übersteigt.
+Ja, die Urlaubsverwaltung erinnert sowohl den Mitarbeiter als auch Personen mit der Berechtigung 
+_Office_ an das Ende der  Lohnfortzahlung sofern der zusammenhängende Zeitraum einer Krankmeldung
+sechs Wochen übersteigt.
 
 Hierzu können in den _Einstellungen_ unter _Abwesenheiten_ die entsprechenden Zeiten gepflegt werden:
 
