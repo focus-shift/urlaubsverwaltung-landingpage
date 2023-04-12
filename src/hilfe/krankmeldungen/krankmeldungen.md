@@ -18,8 +18,8 @@ Ja, eine Krankmeldung kann als Benutzende mit der Berechtigung _Office_ oder mit
       alt="Krankmeldung erstellen"
       decoding="async"
       loading="lazy"
-      width="1162"
-      height="259"
+      width="1296"
+      height="568"
     />
   </picture>
 </p>
@@ -35,8 +35,8 @@ Für eine Krankmeldung können alle relevanten Informationen wie z.B. den Zeitra
       alt="Krankmeldung erstellen"
       decoding="async"
       loading="lazy"
-      width="1162"
-      height="259"
+      width="1300"
+      height="1482"
     />
   </picture>
 </p>
@@ -54,8 +54,8 @@ Ja, eine Kind-Krankmeldung kann erfasst werden indem der Typ von _Krankmeldung_ 
       alt="Kindkrankmeldung erfassen"
       decoding="async"
       loading="lazy"
-      width="1162"
-      height="259"
+      width="1342"
+      height="962"
     />
   </picture>
 </p>
