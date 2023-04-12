@@ -5,9 +5,64 @@ breadcrumb:
 title: Krankmeldungen - Hilfe
 ---
 
+## Kann eine Krankmeldung eingetragen werden?
+
+Ja, eine Krankmeldung kann als Benutzende mit der Berechtigung _Office_ oder mit der Berechtigung _Pflege von Krankmeldungen_ für andere Mitarbeitende eingetragen werden in dem die Krankmeldung über das "+"-Symbol _Neue Krankmeldung_ ausgewählt wird.
+
+<p>
+  <picture>
+    <source srcset="krankmeldung-dialog-oeffnen.avif" type="image/avif" />
+    <source srcset="krankmeldung-dialog-oeffnen.webp" type="image/webp" />
+    <img
+      src="krankmeldung-dialog-oeffnen.png"
+      alt="Krankmeldung erstellen"
+      decoding="async"
+      loading="lazy"
+      width="1162"
+      height="259"
+    />
+  </picture>
+</p>
+
+Für eine Krankmeldung können alle relevanten Informationen wie z.B. den Zeitraum der AU-Bescheinigung erfasst werden.
+
+<p>
+  <picture>
+    <source srcset="krankmeldung-dialog.avif" type="image/avif" />
+    <source srcset="krankmeldung-dialog.webp" type="image/webp" />
+    <img
+      src="krankmeldung-dialog.png"
+      alt="Krankmeldung erstellen"
+      decoding="async"
+      loading="lazy"
+      width="1162"
+      height="259"
+    />
+  </picture>
+</p>
+
+## Ist es möglich eine Kind-Krankmeldung zu erfassen?
+
+Ja, eine Kind-Krankmeldung kann erfasst werden indem der Typ von _Krankmeldung_ auf _Kind-Krankmeldung_ umgestellt wird.
+
+<p>
+  <picture>
+    <source srcset="kindkrankmeldung.avif" type="image/avif" />
+    <source srcset="kindkrankmeldung.webp" type="image/webp" />
+    <img
+      src="kindkrankmeldung.png"
+      alt="Kindkrankmeldung erfassen"
+      decoding="async"
+      loading="lazy"
+      width="1162"
+      height="259"
+    />
+  </picture>
+</p>
+
 ## Wird an das Ende der Lohnfortzahlung erinnert?
 
-Ja, die Urlaubsverwaltung erinnert sowohl den Mitarbeiter als auch Personen mit der Berechtigung Office an das Ende der Lohnfortzahlung sofern der zusammenhängende Zeitraum einer Krankmeldung sechs Wochen übersteigt.
+Ja, die Urlaubsverwaltung erinnert sowohl den Mitarbeiter als auch Personen mit der Berechtigung _Office_ an das Ende der  Lohnfortzahlung sofern der zusammenhängende Zeitraum einer Krankmeldung sechs Wochen übersteigt.
 
 Hierzu können in den _Einstellungen_ unter _Abwesenheiten_ die entsprechenden Zeiten gepflegt werden:
 
