@@ -32,7 +32,7 @@ Die Mitarbeitenden erhalten darauf eine Einladung per E-Mail und können sich au
   </picture>
 </p>
 
-### Single Sing-On konfigurieren
+### Single Sign-On konfigurieren
 
 Die Urlaubsverwaltung nutzt zur Verwaltung von Benutzern einen konfigurierbaren Security Provider.
 Verwendet ihr Microsoft 365 oder einen anderen OpenID Connect Anbieter, dann
@@ -49,4 +49,4 @@ Details zur Konfiguration findest du unter [Single Sign-On](/hilfe/sso).
 
 <img alt="svgImg" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHg9IjBweCIgeT0iMHB4Igp3aWR0aD0iNDgiIGhlaWdodD0iNDgiCnZpZXdCb3g9IjAgMCA0OCA0OCIKc3R5bGU9IiBmaWxsOiMwMDAwMDA7Ij48cGF0aCBmaWxsPSIjNENBRjUwIiBkPSJNNDEsMTBIMjV2MjhoMTZjMC41NTMsMCwxLTAuNDQ3LDEtMVYxMUM0MiwxMC40NDcsNDEuNTUzLDEwLDQxLDEweiI+PC9wYXRoPjxwYXRoIGZpbGw9IiNGRkYiIGQ9Ik0zMiAxNUgzOVYxOEgzMnpNMzIgMjVIMzlWMjhIMzJ6TTMyIDMwSDM5VjMzSDMyek0zMiAyMEgzOVYyM0gzMnpNMjUgMTVIMzBWMThIMjV6TTI1IDI1SDMwVjI4SDI1ek0yNSAzMEgzMFYzM0gyNXpNMjUgMjBIMzBWMjNIMjV6Ij48L3BhdGg+PHBhdGggZmlsbD0iIzJFN0QzMiIgZD0iTTI3IDQyTDYgMzggNiAxMCAyNyA2eiI+PC9wYXRoPjxwYXRoIGZpbGw9IiNGRkYiIGQ9Ik0xOS4xMjksMzFsLTIuNDExLTQuNTYxYy0wLjA5Mi0wLjE3MS0wLjE4Ni0wLjQ4My0wLjI4NC0wLjkzOGgtMC4wMzdjLTAuMDQ2LDAuMjE1LTAuMTU0LDAuNTQxLTAuMzI0LDAuOTc5TDEzLjY1MiwzMUg5Ljg5NWw0LjQ2Mi03LjAwMUwxMC4yNzQsMTdoMy44MzdsMi4wMDEsNC4xOTZjMC4xNTYsMC4zMzEsMC4yOTYsMC43MjUsMC40MiwxLjE3OWgwLjA0YzAuMDc4LTAuMjcxLDAuMjI0LTAuNjgsMC40MzktMS4yMkwxOS4yMzcsMTdoMy41MTVsLTQuMTk5LDYuOTM5bDQuMzE2LDcuMDU5aC0zLjc0VjMxeiI+PC9wYXRoPjwvc3ZnPg=="/>
 
-Hast du viele Mitarbeitende, jedoch keinen Single Sing-On Provider, kannst du uns auch einfach eine [CSV-Datei](https://urlaubsverwaltung.cloud/neuigkeiten/2021-11-19-onboarding-csv/) zukommen lassen.
+Hast du viele Mitarbeitende, jedoch keinen Single Sign-On Provider, kannst du uns auch einfach eine [CSV-Datei](https://urlaubsverwaltung.cloud/neuigkeiten/2021-11-19-onboarding-csv/) zukommen lassen.

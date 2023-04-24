@@ -7,7 +7,7 @@ title: Single Sign-On (SSO) - Hilfe
 
 ## Welchen Vorteil habe ich durch die Verwendung von Single Sign-On?
 
-Wenn du einen der unterstützten Single Sing-On Provider in deinen Unternehmen verwendest, können alle
+Wenn du einen der unterstützten Single Sign-On Provider in deinen Unternehmen verwendest, können alle
 Personen deiner Organisation _ohne_ zusätzliche Anmeldedaten auf urlaubsverwaltung.cloud zugreifen.
 Ist eine Person gegenüber deinem Single Sign-On Provider authentifiziert, so muss sie sich nicht erneut bei
 urlaubsverwaltung.cloud authentifizieren.
