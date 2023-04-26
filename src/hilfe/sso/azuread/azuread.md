@@ -263,8 +263,9 @@ Nun ist die Konfiguration auf Seiten von Azure AD abgeschlossen.
 </aside>
 
 Nachdem die Konfiguration von Schritt 1 bis 3 erfolgreich durchgeführt wurde, kann nun die Anmeldung zu
-urlaubsverwaltung.cloud via Azure AD erfolgen. Dazu rufst du die Url _Mein Profil_ von urlaubsverwaltung.cloud
-auf. Nun wirst du zur Anmelde-Seite von Microsoft umgeleitet und musst dich mit deinem Microsoft Konto anmelden.
+urlaubsverwaltung.cloud via Azure AD erfolgen.
+Dazu öffnest du _[urlaubsverwaltung.cloud](https://urlaubsverwaltung.cloud)_ > _Login_, gibst deine E-Mail ein, klickst auf _Weiter_.
+Nun wirst du zur Anmelde-Seite von Microsoft umgeleitet und musst dich mit deinem Microsoft Konto anmelden.
 
 Es erscheint eine Meldung, dass der Zugriff auf die Angeforderten Berechtigungen (Details siehe [Schritt 2](#schritt-2:-auf-mein-kundenportal-die-anbindung-konfigurieren))
 akzeptiert werden muss.
@@ -305,7 +306,7 @@ dass es zu deiner E-Mail-Adresse schon ein Konto gibt.
   </picture>
 </p>
 
-1. Durch einen Klick auf _Zu einem bestehenden Benutzerkonto hinzufügen_ weißt du den
+1. Durch einen Klick auf _Zu einem bestehenden Benutzerkonto hinzufügen_ weist du den
    Authentifizierungsserver von urlaubsverwaltung.cloud an, dass du das Azure AD Konto mit dem
    urlaubsverwaltung.cloud Konto verknüpfen möchtest.
 
