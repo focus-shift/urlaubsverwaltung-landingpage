@@ -5,6 +5,7 @@ date: 2022-07-22
 title: Verfall von Resturlaub pro Mitarbeitenden konfigurieren
 author: Tobias Schneider
 release-version: 4.43.0
+description: Verfall von Resturlaub pro Mitarbeitenden konfigurieren
 ---
 
 Der Verfall des Resturlaubs aus dem Vorjahr kann ab sofort pro Mitarbeitenden konfiguriert werden und ist auf der

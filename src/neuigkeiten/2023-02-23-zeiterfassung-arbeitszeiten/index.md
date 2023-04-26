@@ -5,6 +5,7 @@ date: 2023-02-23
 title: Zeiterfassung - Arbeitszeiten, neue Berichte und geleistete Stunden
 author: Andreas Weigel
 teaserImage: /static/zeiterfassung-multi-device.png
+description: Zeiterfassung - Arbeitszeiten, neue Berichte und geleistete Stunden
 ---
 
 Wir haben in der neuen Version der Zeiterfassung viel vom eurem Feedback umsetzen können.

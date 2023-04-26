@@ -3,6 +3,7 @@ layout: layout-wissensbasis
 breadcrumb:
   title: Drucken
 title: Drucken - Hilfe
+description: Hier findest du Hilfe zu dem Thema Drucken
 ---
 
 ## Gibt es die Möglichkeit Ausdrucke zu erstellen?

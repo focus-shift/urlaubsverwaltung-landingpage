@@ -3,6 +3,7 @@ layout: layout-wissensbasis
 breadcrumb:
   title: Benachrichtigungen
 title: Benachrichtigungen - Hilfe
+description: Hier findest du Hilfe zu dem Thema Benachrichtigungen
 ---
 
 ## Wie kann ich den E-Mail-Versand für mich oder einer anderen Person aktivieren oder deaktivieren?

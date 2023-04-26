@@ -3,6 +3,7 @@ layout: layout-wissensbasis
 breadcrumb:
   title: Krankmeldungen
 title: Krankmeldungen - Hilfe
+description: Hier findest du Hilfe zu dem Thema Krankmeldungen
 ---
 
 ## Kann eine Krankmeldung eingetragen werden?

@@ -5,6 +5,7 @@ date: 2022-12-19
 title: 4 Gründe für die Digitalisierung deiner Urlaubsverwaltung zum Jahreswechsel 2023
 author: Andreas Weigel
 teaserImage: /static/2023.png
+description: 4 Gründe für die Digitalisierung deiner Urlaubsverwaltung zum Jahreswechsel 2023
 ---
 
 Es hat generell viele Vorteile die Urlaubsverwaltung zu digitalisieren.

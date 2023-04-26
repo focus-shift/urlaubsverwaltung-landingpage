@@ -6,6 +6,7 @@ title: Warum Ruhepausen für Unternehmen wichtig sind.
 author: Andreas Weigel
 release-version: 1.1.0
 teaserImage: /static/pausenzeiten-teaser.png
+description: Warum Ruhepausen für Unternehmen wichtig sind.
 ---
 
 In unserem Büro herrscht immer Hochkonzentration. Wir arbeiten hart und versuchen, so viel wie möglich in kürzester Zeit zu erledigen.

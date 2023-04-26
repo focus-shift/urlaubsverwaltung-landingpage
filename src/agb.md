@@ -2,6 +2,7 @@
 layout: layout-subpage
 title: AGB
 backgroundColor: bg-white
+description: Unsere Auftragsverarbeitung ist öffentlich zugänglich - behalte den Überblick über deine Daten.
 ---
 
 <article>

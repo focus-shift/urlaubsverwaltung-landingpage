@@ -4,6 +4,7 @@ layout: layout-neuigkeiten
 date: 2022-10-19
 title: Verfall von Resturlaub für alle und/oder für einzelne Mitarbeitenden deaktivieren
 author: Tobias Schneider
+description: Verfall von Resturlaub für alle und/oder für einzelne Mitarbeitenden deaktivieren
 ---
 
 Der Verfall des Resturlaubs aus dem Vorjahr kann ab sofort für alle in den Einstellungen oder im jeweiligen Urlaubsanspruch
