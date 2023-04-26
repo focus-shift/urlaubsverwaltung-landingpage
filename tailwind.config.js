@@ -27,6 +27,11 @@ module.exports = {
 			listStyleType: {
 				latin: "lower-latin",
 			},
+			scale: {
+				85: "0.85",
+				115: "1.15",
+				120: "1.20",
+			},
 			translate: (theme, { negative }) => ({
 				...theme("spacing"),
 				...negative(theme("spacing")),
