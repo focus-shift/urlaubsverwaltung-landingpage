@@ -5,20 +5,23 @@
 	<p class="text-xl mb-6 sm:mb-12">
 		Preisgestaltung so einfach wie die Urlaubsverwaltung.
 	</p>
-	<div class="mt-16 grid grid-cols-3">
-		<section class="bg-white p-8 border rounded-xl flex justify-center">
+	<div class="mt-8 grid gap-4 sm:grid-cols-3 sm:mt-16">
+		<section class="bg-white p-4 border rounded-xl sm:flex sm:justify-center sm:p-8">
 			<div>
 				<h3>Open-Source-Software</h3>
+				<p class="mt-4 text-sm">
+					Du willst alles selbst betreiben? Dann geht es hier direkt zu Github.
+				</p>
 				<ul class="mt-4">
 					<li class="flex gap-2">
-						{{> partials/icon-check-check class='w-6 h-6 text-cyan-500 translate-y-0.5'}}
+						{{> partials/icon-check-check class='w-6 h-6 text-cyan-500 translate-y-0.5 shrink-0'}}
 						Voller Funktionsumfang
 					</li>
 				</ul>
 				<div class="mt-4">
 					<a
 						href="https://github.com/urlaubsverwaltung/urlaubsverwaltung"
-						class="w-full text-center px-3 py-2 text-lg font-medium no-underline rounded whitespace-nowrap text-sky-900 text-opacity-90 hover:text-opacity-100 border border-sky-100 hover:border-blue-200 hover:shadow-md active:shadow"
+						class="block text-center px-3 py-2 font-medium no-underline rounded whitespace-nowrap text-sky-900 text-opacity-90 hover:text-opacity-100 border border-sky-100 hover:border-blue-200 hover:shadow-md active:shadow"
 					>
 						{{> partials/icon-github class='w-6 h-6 text-gray-400 inline align-sub'}}
 						GitHub
@@ -26,9 +29,9 @@
 				</div>
 			</div>
 		</section>
-		<section class="bg-white p-8 border rounded-xl scale-110 shadow-blue-100 shadow-lg">
-			<div class="scale-95 -translate-y-4">
-				<div class="flex flex-row gap-2">
+		<section class="bg-white p-4 border rounded-xl sm:p-8 sm:scale-110 sm:shadow-blue-100 sm:shadow-lg">
+			<div class="sm:scale-95 sm:-translate-y-4">
+				<div class="flex flex-row flex-wrap gap-2">
 					<h3>urlaubsverwaltung.cloud</h3>
 					<span
 						class="inline-flex items-center rounded-md bg-green-50 px-2 py-1 text-xs font-medium text-green-700 ring-1 ring-inset ring-green-600/20"
@@ -36,33 +39,36 @@
 						meistgewählt
 					</span>
 				</div>
+				<p class="mt-4 text-sm">
+					Anmelden und Starten!
+				</p>
 				<ul class="mt-4">
 					<li class="flex gap-2">
-						{{> partials/icon-check-check class='w-6 h-6 text-cyan-500 translate-y-0.5'}}
+						{{> partials/icon-check-check class='w-6 h-6 text-cyan-500 translate-y-0.5 shrink-0'}}
 						Voller Funktionsumfang
 					</li>
 					<li class="flex gap-2">
-						{{> partials/icon-check-check class='w-6 h-6 text-cyan-500 translate-y-0.5'}}
+						{{> partials/icon-check-check class='w-6 h-6 text-cyan-500 translate-y-0.5 shrink-0'}}
 						Sicherheitsupdates
 					</li>
 					<li class="flex gap-2">
-						{{> partials/icon-check-check class='w-6 h-6 text-cyan-500 translate-y-0.5'}}
+						{{> partials/icon-check-check class='w-6 h-6 text-cyan-500 translate-y-0.5 shrink-0'}}
 						Single Sign On
 					</li>
 					<li class="flex gap-2">
-						{{> partials/icon-check-check class='w-6 h-6 text-cyan-500 translate-y-0.5'}}
+						{{> partials/icon-check-check class='w-6 h-6 text-cyan-500 translate-y-0.5 shrink-0'}}
 						Backups
 					</li>
 					<li class="flex gap-2">
-						{{> partials/icon-check-check class='w-6 h-6 text-cyan-500 translate-y-0.5'}}
+						{{> partials/icon-check-check class='w-6 h-6 text-cyan-500 translate-y-0.5 shrink-0'}}
 						Support
 					</li>
 					<li class="flex gap-2">
-						{{> partials/icon-check-check class='w-6 h-6 text-cyan-500 translate-y-0.5'}}
+						{{> partials/icon-check-check class='w-6 h-6 text-cyan-500 translate-y-0.5 shrink-0'}}
 						Onboarding
 					</li>
 					<li class="flex gap-2">
-						{{> partials/icon-check-check class='w-6 h-6 text-cyan-500 translate-y-0.5'}}
+						{{> partials/icon-check-check class='w-6 h-6 text-cyan-500 translate-y-0.5 shrink-0'}}
 						GreenIT & optimierte Resourcennutzung
 					</li>
 				</ul>
@@ -75,32 +81,34 @@
 					</a>
 				</div>
 				<p class="mt-6 flex gap-2">
-					Nach 30 Tagen berechnen wir
-					1,80€ pro Monat pro registriertem Nutzer
+					Nach 30 Tagen berechnen wir 1,80 € pro Monat pro registriertem Nutzer
 				</p>
 			</div>
 		</section>
-		<section class="bg-white p-8 border rounded-xl flex justify-center">
+		<section class="bg-white p-4 border rounded-xl sm:flex sm:justify-center sm:p-8">
 			<div>
 				<h3>On Premise</h3>
+				<p class="mt-4 text-sm">
+					Wir unterstützen dich gerne beim Einrichten der Urlaubsverwaltung auf deinen eigenen Rechnern.
+				</p>
 				<ul class="mt-4">
 					<li class="flex gap-2">
-						{{> partials/icon-check-check class='w-6 h-6 text-cyan-500 translate-y-0.5'}}
+						{{> partials/icon-check-check class='w-6 h-6 text-cyan-500 translate-y-0.5 shrink-0'}}
 						Voller Funktionsumfang
 					</li>
 					<li class="flex gap-2">
-						{{> partials/icon-check-check class='w-6 h-6 text-cyan-500 translate-y-0.5'}}
+						{{> partials/icon-check-check class='w-6 h-6 text-cyan-500 translate-y-0.5 shrink-0'}}
 						Support
 					</li>
 					<li class="flex gap-2">
-						{{> partials/icon-check-check class='w-6 h-6 text-cyan-500 translate-y-0.5'}}
-						Onboarding Unterstützung
+						{{> partials/icon-check-check class='w-6 h-6 text-cyan-500 translate-y-0.5 shrink-0'}}
+						Onboarding
 					</li>
 				</ul>
 				<div class="mt-4">
 					<a
 						href="mailto:info@urlaubsverwaltung.cloud?subject=Anfrage"
-						class="w-full text-center px-3 py-2 text-lg font-medium no-underline rounded whitespace-nowrap  text-sky-900 text-opacity-90 hover:text-opacity-100 border border-sky-100 hover:border-blue-200 hover:shadow-md active:shadow">
+						class="block text-center px-3 py-2 font-medium no-underline rounded whitespace-nowrap text-sky-900 text-opacity-90 hover:text-opacity-100 border border-sky-100 hover:border-blue-200 hover:shadow-md active:shadow">
 						jetzt anfragen
 					</a>
 				</div>
