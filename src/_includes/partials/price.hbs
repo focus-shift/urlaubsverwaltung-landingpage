@@ -7,18 +7,20 @@
 	</p>
 	<div class="mt-8 grid gap-4 justify-center sm:mt-16 lg:grid-cols-3">
 		<section class="bg-white p-4 border rounded-xl max-w-sm xs:p-8 sm:flex sm:justify-center lg:rounded-r-none">
-			<div>
-				<h3>Open-Source-Software</h3>
-				<p class="mt-4 text-sm">
-					Du willst alles selbst betreiben? Dann geht es hier direkt zu Github.
-				</p>
-				<ul class="mt-4">
-					<li class="flex gap-2">
-						{{> partials/icon-check-check class='w-6 h-6 text-cyan-500 translate-y-0.5 shrink-0'}}
-						Voller Funktionsumfang
-					</li>
-				</ul>
-				<div class="mt-4">
+			<div class="flex flex-col gap-4">
+				<div class="flex-1">
+					<h3>Open-Source-Software</h3>
+					<p class="mt-4 text-sm">
+						Du willst alles selbst betreiben? Dann geht es hier direkt zu Github.
+					</p>
+					<ul class="mt-4">
+						<li class="flex gap-2">
+							{{> partials/icon-check-check class='w-6 h-6 text-cyan-500 translate-y-0.5 shrink-0'}}
+							Voller Funktionsumfang
+						</li>
+					</ul>
+				</div>
+				<div class="flex-1">
 					<a
 						href="https://github.com/urlaubsverwaltung/urlaubsverwaltung"
 						class="block text-center px-3 py-2 font-medium no-underline rounded whitespace-nowrap text-sky-900 text-opacity-90 hover:text-opacity-100 border border-sky-100 hover:border-blue-200 hover:shadow-md active:shadow"
@@ -86,26 +88,28 @@
 			</div>
 		</section>
 		<section class="bg-white p-4 border rounded-xl max-w-sm xs:p-8 lg:flex lg:justify-center lg:rounded-l-none">
-			<div>
-				<h3>On Premise</h3>
-				<p class="mt-4 text-sm">
-					Wir unterstützen dich gerne beim Einrichten der Urlaubsverwaltung auf deinen eigenen Rechnern.
-				</p>
-				<ul class="mt-4">
-					<li class="flex gap-2">
-						{{> partials/icon-check-check class='w-6 h-6 text-cyan-500 translate-y-0.5 shrink-0'}}
-						Voller Funktionsumfang
-					</li>
-					<li class="flex gap-2">
-						{{> partials/icon-check-check class='w-6 h-6 text-cyan-500 translate-y-0.5 shrink-0'}}
-						Support
-					</li>
-					<li class="flex gap-2">
-						{{> partials/icon-check-check class='w-6 h-6 text-cyan-500 translate-y-0.5 shrink-0'}}
-						Onboarding
-					</li>
-				</ul>
-				<div class="mt-4">
+			<div class="flex flex-col gap-4">
+				<div class="flex-1">
+					<h3>On Premise</h3>
+					<p class="mt-4 text-sm">
+						Wir unterstützen dich gerne beim Einrichten der Urlaubsverwaltung auf deinen eigenen Rechnern.
+					</p>
+					<ul class="mt-4">
+						<li class="flex gap-2">
+							{{> partials/icon-check-check class='w-6 h-6 text-cyan-500 translate-y-0.5 shrink-0'}}
+							Voller Funktionsumfang
+						</li>
+						<li class="flex gap-2">
+							{{> partials/icon-check-check class='w-6 h-6 text-cyan-500 translate-y-0.5 shrink-0'}}
+							Support
+						</li>
+						<li class="flex gap-2">
+							{{> partials/icon-check-check class='w-6 h-6 text-cyan-500 translate-y-0.5 shrink-0'}}
+							Onboarding
+						</li>
+					</ul>
+				</div>
+				<div class="flex-1">
 					<a
 						href="mailto:info@urlaubsverwaltung.cloud?subject=Anfrage"
 						class="block text-center px-3 py-2 font-medium no-underline rounded whitespace-nowrap text-sky-900 text-opacity-90 hover:text-opacity-100 border border-sky-100 hover:border-blue-200 hover:shadow-md active:shadow">
