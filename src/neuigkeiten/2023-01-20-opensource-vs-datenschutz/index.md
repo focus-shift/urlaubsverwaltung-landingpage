@@ -5,6 +5,7 @@ date: 2023-01-20
 title: Wie Open-Source-Software durch Transparenz den Datenschutz erhöht
 author: Andreas Weigel
 teaserImage: /static/lupe_code.png
+description: Wie Open-Source-Software durch Transparenz den Datenschutz erhöht
 ---
 
 Es gibt viele gute Gründe, warum Unternehmen sich für Open-Source-Software entscheiden.

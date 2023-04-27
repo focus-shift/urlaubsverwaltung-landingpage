@@ -3,6 +3,7 @@ layout: layout-wissensbasis
 breadcrumb:
   title: Abwesenheit
 title: Abwesenheit - Hilfe
+description: Hier findest du Hilfe zu dem Thema Abwesenheiten
 ---
 
 ## Wer genehmigt eine Abwesenheit?

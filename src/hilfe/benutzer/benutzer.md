@@ -3,6 +3,7 @@ layout: layout-wissensbasis
 breadcrumb:
   title: Benutzer
 title: Benutzer - Hilfe
+description: Hier findest du Hilfe zu dem Thema Benutzer
 ---
 
 ## Welche Berechtigungen gibt es?

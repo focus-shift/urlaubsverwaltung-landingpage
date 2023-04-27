@@ -2,6 +2,7 @@
 layout: layout-subpage
 title: Datenschutz UV
 backgroundColor: bg-white
+description: Data privacy by design - weil Transparenz uns wichtig ist. 
 ---
 
 <article>

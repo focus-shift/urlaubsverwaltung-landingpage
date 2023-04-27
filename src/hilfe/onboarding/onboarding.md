@@ -3,6 +3,7 @@ layout: layout-wissensbasis
 breadcrumb:
   title: Onboarding
 title: Onboarding - Hilfe
+description: Hier findest du Hilfe zu dem Thema Onboarding
 ---
 
 ## Onboarding deiner Mitarbeitenden in deine Urlaubsverwaltung

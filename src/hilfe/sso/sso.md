@@ -3,6 +3,7 @@ layout: layout-wissensbasis
 breadcrumb:
   title: Single Sign-On (SSO)
 title: Single Sign-On (SSO) - Hilfe
+description: Hier findest du Hilfe zu dem Thema Single Sign-On (SSO)
 ---
 
 ## Welchen Vorteil habe ich durch die Verwendung von Single Sign-On?

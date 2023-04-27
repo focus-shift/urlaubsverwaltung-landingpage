@@ -5,6 +5,7 @@ date: 2022-04-27
 title: Personalstammdaten immer im Blick
 author: Daniel Fuchs
 release-version: 4.35.0
+description: Personalstammdaten immer im Blick
 ---
 
 Erweiterung der Personalstammdaten um Personalnummer und Zusatzinformationen. Außerdem: Kalendereinladung für _Office_-Benutzende bei genehmigten Anträgen.
