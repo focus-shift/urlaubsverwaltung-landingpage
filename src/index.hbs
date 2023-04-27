@@ -319,37 +319,39 @@ title: Urlaubsplaner und Abwesenheitsverwaltung
         </div>
       </div>
     </div>
-    <div class="px-4 xl:px-2 my-24 md:my-32 md:text-center">
-      <div class="inline-block">
-        <p class="text-xl lg:text-2xl mb-6 md:mb-4">
-          Mache dir selbst ein Bild und sichere dir deine eigene Urlaubsverwaltung noch heute.
-        </p>
-        <div class="md:max-w-sm md:mx-auto text-lg sm:text-xl md:text-lg">
-          <a data-append-utm
-            href="https://registry.apps.urlaubsverwaltung.cloud/registration"
-            class="px-3 py-2 text-lg font-medium flex items-center justify-center no-underline rounded whitespace-nowrap bg-yellow-300 text-sky-900 text-opacity-90 hover:text-opacity-100 border border-sky-100 hover:border-blue-200 hover:shadow-md active:shadow"
-            data-goal="signup"
-            data-goal-trigger="eye-catcher"
-          >
-            <span class="mr-2">
-              30 Tage kostenlos testen
-            </span>
-            <span>
-              {{> partials/icon-cursor-click class='w-5 h-5'}}
-            </span>
-          </a>
-        </div>
-      </div>
-    </div>
   </div>
+	<div class="bg-gradient-to-tr from-cyan-100 via-teal-100 to-yellow-50 bg-cyan-50 my-24 py-24">
+		<div class="px-4 xl:px-2 md:text-center">
+			<div class="inline-block">
+				<p class="text-xl lg:text-2xl mb-6 md:mb-4">
+					Mache dir selbst ein Bild und sichere dir deine eigene Urlaubsverwaltung noch heute.
+				</p>
+				<div class="md:max-w-sm md:mx-auto text-lg sm:text-xl md:text-lg">
+					<a data-append-utm
+						href="https://registry.apps.urlaubsverwaltung.cloud/registration"
+						class="px-3 py-2 text-lg font-medium flex items-center justify-center no-underline rounded whitespace-nowrap bg-yellow-300 text-sky-900 text-opacity-90 hover:text-opacity-100 border border-sky-100 hover:border-blue-200 hover:shadow-md active:shadow"
+						data-goal="signup"
+						data-goal-trigger="eye-catcher"
+					>
+						<span class="mr-2">
+							30 Tage kostenlos testen
+						</span>
+						<span>
+							{{> partials/icon-cursor-click class='w-5 h-5'}}
+						</span>
+					</a>
+				</div>
+			</div>
+		</div>
+	</div>
 	<div class="mb-12 md:mb-24">
 		<div class="w-full max-w-screen-xl mx-auto">
 			<div class="px-4 xl:px-2 my-24 md:my-32 md:text-center">
 				<h2 id="open-source" class="mb-8 xs:px-8 md:px-0 text-2xl font-bold md:mb-12 md:ml-8 -mt-28 pt-28">
-					Open-Source
+					Open-Source-Software
 				</h2>
-				<ul class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-					<li class="p-8 my-auto bg-sky-50 text-center">
+				<ul class="grid grid-cols-1 md:grid-cols-2 gap-8 justify-items-center lg:grid-cols-3">
+					<li class="w-full max-w-sm p-8 my-auto bg-sky-50 text-center">
 						<svg
 							class="mx-auto text-sky-900"
 							xmlns="http://www.w3.org/2000/svg"
@@ -369,7 +371,7 @@ title: Urlaubsplaner und Abwesenheitsverwaltung
 						</svg>
 						offener Quellcode
 					</li>
-					<li class="p-8 my-auto bg-sky-50 text-center">
+					<li class="w-full max-w-sm p-8 my-auto bg-sky-50 text-center">
 						<svg
 							class="mx-auto text-sky-900"
 							xmlns="http://www.w3.org/2000/svg"
@@ -391,7 +393,7 @@ title: Urlaubsplaner und Abwesenheitsverwaltung
 						</svg>
 						aktive Community
 					</li>
-					<li class="p-8 my-auto bg-sky-50 text-center">
+					<li class="w-full max-w-sm p-8 my-auto bg-sky-50 text-center">
 						<svg
 							class="mx-auto text-sky-900"
 							xmlns="http://www.w3.org/2000/svg"
@@ -413,7 +415,7 @@ title: Urlaubsplaner und Abwesenheitsverwaltung
 						</svg>
 						stetige Transparenz
 					</li>
-					<li class="p-8 my-auto bg-sky-50 text-center">
+					<li class="w-full max-w-sm p-8 my-auto bg-sky-50 text-center">
 						<svg
 							class="mx-auto text-sky-900"
 							xmlns="http://www.w3.org/2000/svg"
@@ -432,7 +434,7 @@ title: Urlaubsplaner und Abwesenheitsverwaltung
 						</svg>
 						starker Datenschutz
 					</li>
-					<li class="p-8 my-auto bg-sky-50 text-center">
+					<li class="w-full max-w-sm p-8 my-auto bg-sky-50 text-center">
 						<svg
 							class="mx-auto text-sky-900"
 							xmlns="http://www.w3.org/2000/svg"
@@ -453,7 +455,7 @@ title: Urlaubsplaner und Abwesenheitsverwaltung
 						</svg>
 						offene Feedbackkultur
 					</li>
-					<li class="p-8 my-auto bg-sky-50 text-center m-0">
+					<li class="w-full max-w-sm p-8 my-auto bg-sky-50 text-center m-0">
 						<svg
 							class="mx-auto text-sky-900"
 							xmlns="http://www.w3.org/2000/svg"
@@ -480,6 +482,19 @@ title: Urlaubsplaner und Abwesenheitsverwaltung
 			</div>
 		</div>
 	</div>
+
+	<div class="mb-12 md:mb-40">
+		<div class="w-full max-w-screen-xl mx-auto relative pt-16">
+
+			{{> partials/price }}
+
+			<div
+				class="absolute top-0 w-full h-20 border-t-sky-100 border-t bg-gradient-to-b from-sky-50 to-transparent"
+				style="border-top-left-radius: 77vw 7vw; border-top-right-radius: 77vw 7vw;"
+			></div>
+		</div>
+	</div>
+
   <div>
     <div class="w-full max-w-screen-xl mx-auto">
       <h2 class="px-4 xs:px-12 md:px-0 text-2xl font-bold mb-12 md:ml-8 md:mb-16">
@@ -520,9 +535,4 @@ title: Urlaubsplaner und Abwesenheitsverwaltung
 
 	{{> partials/testimonials }}
 
-  <div class="bg-sky-100 pt-12 lg:pt-24 xl:pt-32 pb-12 sm:pb-32 md:pb-24">
-    <div class="w-full max-w-screen-xl mx-auto px-4 xl:px-2">
-      {{> partials/price }}
-    </div>
-  </div>
 </main>

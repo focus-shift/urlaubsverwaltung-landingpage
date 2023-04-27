@@ -8,14 +8,14 @@
 		"dev:eleventy": "NODE_ENV=development eleventy --serve --port 3000",
 		"dev:css": "NODE_ENV=development postcss src/static/css/*.css -d $npm_package_config_outdir/static/css --watch",
 		"dev:js": "NODE_ENV=development esbuild common=src/static/js/common/index.js toc=src/static/js/toc.js zammad=src/static/js/zammad.js --bundle --outdir=$npm_package_config_outdir/static/js --watch",
-    "dev:jquery": "mkdir -p $npm_package_config_outdir/static/js && cp node_modules/jquery/dist/jquery.min.js $npm_package_config_outdir/static/js",
-    "prebuild": "npm run clean",
+		"dev:jquery": "mkdir -p $npm_package_config_outdir/static/js && cp node_modules/jquery/dist/jquery.min.js $npm_package_config_outdir/static/js",
+		"prebuild": "npm run clean",
 		"build": "concurrently 'npm:build:*'",
 		"build:eleventy": "NODE_ENV=production eleventy",
 		"build:css": "NODE_ENV=production postcss src/static/css/*.css -d $npm_package_config_outdir/static/css",
 		"build:js": "NODE_ENV=production esbuild common=src/static/js/common/index.js toc=src/static/js/toc.js zammad=src/static/js/zammad.js --bundle --outdir=$npm_package_config_outdir/static/js --minify",
-    "build:jquery": "mkdir -p $npm_package_config_outdir/static/js && cp node_modules/jquery/dist/jquery.min.js $npm_package_config_outdir/static/js"
-  },
+		"build:jquery": "mkdir -p $npm_package_config_outdir/static/js && cp node_modules/jquery/dist/jquery.min.js $npm_package_config_outdir/static/js"
+	},
 	"config": {
 		"outdir": "dist"
 	},
