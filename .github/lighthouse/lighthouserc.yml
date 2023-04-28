@@ -1,0 +1,6 @@
+ci:
+  collect:
+    staticDistDir: './dist'
+    maxAutodiscoverUrls: 0
+  assert:
+    preset: lighthouse:recommended
