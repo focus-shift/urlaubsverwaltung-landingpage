@@ -165,3 +165,7 @@ Ja, aktuell unterstützen wir für Profilbilder die Lösung [Gravatar](https://d
 Gravatar ist ein kostenloser Dienst um Avatare zu hinterlegen.
 
 D.h. man muss dort einen Account mit der betreffenden E-Mail-Adresse erstellen und sein Bild hochladen, danach wird automatisch das Profilbild in der Urlaubsverwaltung angezeigt.
+
+## Gibt es die Möglichkeit Gravatar global zu deaktivieren?
+
+Ja, als Person mit Office-Berechtigung können Sie in den _Einstellungen_ der Urlaubsverwaltung unter _Avatare_ global festlegen, ob Avatare über Gravatar dargestellt werden sollen oder nicht.
