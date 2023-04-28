@@ -27,6 +27,12 @@ jobs:
           npm run build
           touch ./dist/.nojekyll
           echo "urlaubsverwaltung.cloud" > ./dist/CNAME
+      - name: Lighthouse
+        uses: treosh/lighthouse-ci-action@v10
+        with:
+          configPath: '.github/lighthouse/lighthouserc.yml'
+          uploadArtifacts: true # save results as an action artifacts
+          temporaryPublicStorage: true # upload lighthouse report to the temporary storage
       - name: Deploy
         if: github.ref == 'refs/heads/main'
         uses: JamesIves/github-pages-deploy-action@v4.4.1
