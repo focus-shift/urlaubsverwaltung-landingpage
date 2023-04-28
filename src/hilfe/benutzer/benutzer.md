@@ -167,4 +167,4 @@ D.h. man muss dort einen Account mit der betreffenden E-Mail-Adresse erstellen u
 
 ## Gibt es die Möglichkeit Gravatar global zu deaktivieren?
 
-Ja, als Benutzende mit Office Berechtigung kann in den _Einstellungen_ der Urlaubsverwaltung unter _Avatare_ global festgelegt werden, ob Avatare über Gravatar dargestellt werden oder nicht.
+Ja, als Person mit Office-Berechtigung können Sie in den _Einstellungen_ der Urlaubsverwaltung unter _Avatare_ global festlegen, ob Avatare über Gravatar dargestellt werden sollen oder nicht.
