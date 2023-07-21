@@ -2,7 +2,7 @@
 layout: layout-subpage
 title: AGB
 backgroundColor: bg-white
-description: Unsere Auftragsverarbeitung ist öffentlich zugänglich - behalte den Überblick über deine Daten.
+description: Faire allgemeine Geschäftsbedingungen als Basis der Partnerschaft
 ---
 
 <article>
