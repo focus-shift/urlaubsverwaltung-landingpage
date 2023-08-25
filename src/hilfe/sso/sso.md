@@ -6,6 +6,8 @@ title: Single Sign-On (SSO) - Hilfe
 description: Hier findest du Hilfe zu dem Thema Single Sign-On (SSO)
 ---
 
+# Single Sign-On in der urlaubsverwaltung.cloud
+
 ## Welchen Vorteil habe ich durch die Verwendung von Single Sign-On?
 
 Wenn du einen der unterstützten Single Sign-On Provider in deinen Unternehmen verwendest, können alle

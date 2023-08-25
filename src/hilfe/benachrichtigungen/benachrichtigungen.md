@@ -6,6 +6,12 @@ title: Benachrichtigungen - Hilfe
 description: Hier findest du Hilfe zu dem Thema Benachrichtigungen
 ---
 
+# E-Mail Benachrichtigungen in der urlaubsverwaltung.cloud
+
+Um auf dem Laufenden zu bleiben und die Prozesse zu beschleunigen werden Benachrichtigungen 
+und Erinnerungen versendet, für Ereignisse die eine Aktion benötigen. 
+
+
 ## Wie kann ich den E-Mail-Versand für mich oder einer anderen Person aktivieren oder deaktivieren?
 
 Als Benutzer kann ich jederzeit meine eigenen Benachrichtigungen bzw. mit der Berechtigung _Office_ die einer anderen

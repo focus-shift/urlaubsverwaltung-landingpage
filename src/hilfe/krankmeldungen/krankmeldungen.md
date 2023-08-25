@@ -6,6 +6,8 @@ title: Krankmeldungen - Hilfe
 description: Hier findest du Hilfe zu dem Thema Krankmeldungen
 ---
 
+# Krankmeldungen in der urlaubsverwaltung.cloud
+
 ## Kann eine Krankmeldung eingetragen werden?
 
 Ja, eine Krankmeldung kann als Benutzende mit der Berechtigung _Office_ oder mit der Berechtigung

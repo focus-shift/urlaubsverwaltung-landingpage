@@ -6,6 +6,8 @@ title: Drucken - Hilfe
 description: Hier findest du Hilfe zu dem Thema Drucken
 ---
 
+# Drucken in der urlaubsverwaltung.cloud
+
 ## Gibt es die Möglichkeit Ausdrucke zu erstellen?
 
 Ja, viele Ansichten der Urlaubsverwaltung bieten die Möglichkeit einen Ausdruck zu erstellen über ein "Drucken"-Symbol. Es ist außerdem möglich über die

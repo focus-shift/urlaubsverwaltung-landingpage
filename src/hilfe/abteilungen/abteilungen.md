@@ -6,6 +6,15 @@ title: Abteilungen - Hilfe
 description: Hier findest du Hilfe zu dem Thema Abteilungen
 ---
 
+# Die Bedeutung von Abteilungen in der urlaubsverwaltung.cloud
+
+Abteilungen sind eine gruppierung von Mitarbeitenden, 
+die in der Regel ein berechtigtes Interesse daran haben die Abwesenheiten anderer Abteilungsmitglieder zu sehen,
+um Urlaubsanträge untereinander abzustimmen. 
+Zusätzlich kommt mit einer Abteilung die Möglichkeit einher, einen Abteilungsleiter benennen zu können,
+der Abwesenheiten für die Mitglieder seiner Abteilungen einsehen, genehmigen und ablehnen darf.
+
+
 ## Wie kann eine Abteilung angelegt werden?
 
 In der Menüleiste gibt es einen Punkt "Abteilungen". Hier kann man die
