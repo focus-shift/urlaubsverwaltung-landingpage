@@ -1,0 +1,95 @@
+---
+layout: layout
+title: Apotheken
+description: Apotheken
+stylesheets:
+- /static/css/zeiterfassung.css
+---
+
+{{> partials/navigation active="funktionen" noMargin=true }}
+
+<div class="flex min-h-fit relative overflow-hidden">
+
+	<video autoplay muted playsinline class="" style="width:100%; position: absolute; z-index: -1">
+		<source src="/static/apo-hero.mp4" type="video/mp4">
+	</video>
+
+	<div >
+		<div class="z-10 px-2 lg:ml-32 ">
+			<div class="px-8 py-4 md:py-12 bg-black bg-opacity-50 w-6/12 ">
+				<h1 class="text-2xl md:text-5xl sm:text-l font-bold leading-tight text-white text-opacity-90 drop-shadow">
+							Digitale Urlaubsverwaltung für deine
+					<span class="text-2xl md:text-5xl font-bold leading-tight text-red-600">Apotheke</span>
+				</h1>
+			</div>
+
+			<div class="mt-2 mb-2 px-8 py-4 text-lg md:text-3xl font-bold text-white text-opacity-90 bg-black bg-opacity-50 w-6/12">
+						<span class="flex items-center">
+							Urlaub einfach planen
+						</span>
+			</div>
+			<div class="mb-2 px-8 py-4 text-lg md:text-3xl font-bold text-white text-opacity-90 bg-black bg-opacity-50 w-6/12">
+						<span class="flex items-center">
+							Krankmeldung schnell eintragen
+						</span>
+			</div>
+			<div class="px-8 py-4 text-lg md:text-3xl font-bold text-white text-opacity-90 bg-black bg-opacity-50 w-6/12">
+						<span class="flex items-center">
+							Überstunden immer im Blick
+						</span>
+			</div>
+		</div>
+	</div>
+</div>
+
+
+<div class="flex-3 mt-16">
+	<div class="mb-12 md:mb-24">
+		<div class="w-full max-w-screen-xl mx-auto">
+			<div class="px-4 xl:px-2  md:text-center">
+				<div class="grid grid-cols-1  md:grid-cols-2 gap-8  justify-items-center lg:grid-cols-3">
+					<div class="flex flex-col w-full max-w-sm p-8  bg-sky-50 text-center">
+						<h3 class="mb-4">Übersichtlich beantragen und freigeben</h3>
+						<ul class="text-left mx-auto block list-disc">
+							<li>Urlaub</li>
+							<li>Krankmeldung</li>
+							<li>Überstunden</li>
+						</ul>
+					</div>
+					<div class="flex flex-col w-full max-w-sm p-8  bg-sky-50 text-center">
+						<h3 class="mb-4">Schnelle Bereitstellung</h3>
+						<ul class="text-left mx-auto block list-decimal">
+							<li>Registrieren</li>
+							<li>Mitarbeitende einladen</li>
+							<li>Durchstarten</li>
+						</ul>
+					</div>
+					<div class="flex flex-col w-full max-w-sm p-8  bg-sky-50 text-center">
+						<h3 class="mb-4">Deine Vorteile</h3>
+						<ul class="text-left mx-auto block list-disc">
+							<li>Schnelle Einführung</li>
+							<li>Hoher Zeitgewinn</li>
+							<li>Einfache & effiziente Prozesse</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+</div>
+
+<main class="flex-1">
+	<div class="mb-12 md:mb-40">
+		<div class="w-full max-w-screen-xl mx-auto relative pt-16">
+
+			{{> partials/price }}
+
+			<div
+				class="absolute top-0 w-full h-20 border-t-sky-100 border-t bg-gradient-to-b from-sky-50 to-transparent"
+				style="border-top-left-radius: 77vw 7vw; border-top-right-radius: 77vw 7vw;"
+			></div>
+		</div>
+	</div>
+	
+</main>
