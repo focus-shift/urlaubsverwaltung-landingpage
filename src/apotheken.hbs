@@ -10,29 +10,32 @@ stylesheets:
 
 <div class="flex min-h-fit relative overflow-hidden">
 
-	<video autoplay muted playsinline class="" style="width:100%; position: absolute; z-index: -1">
-		<source src="/static/apo-hero.mp4" type="video/mp4">
-	</video>
-
-	<div>
-		<div class="z-10 p-2 py-4 w-6/12 bg-black bg-opacity-50 md:py-12 lg:ml-32">
-			<div class="px-8">
-				<h1 class="text-2xl font-bold leading-tight text-white text-opacity-90 drop-shadow sm:text-l md:text-5xl">
-					Digitale Urlaubsverwaltung für deine
-					<span class="text-2xl font-bold leading-tight md:text-5xl" style="color: #ff0000">Apotheke</span>
-				</h1>
+	<div class="mt-8 mx-auto w-full max-w-screen-xl md:mt-0">
+		<div class="md:bg-black md:bg-opacity-25 lg:py-0 lg:bg-opacity-0">
+			<h1
+				class="px-4 md:pt-8 text-2xl sm:text-3xl font-bold leading-tight md:text-white md:text-opacity-90 md:drop-shadow md:text-5xl md:w-4/6 lg:w-7/12 lg:px-10 lg:bg-black lg:bg-opacity-25 lg:pt-12 lg:max-w-[50%] xl:max-w-[44%]"
+			>
+				Digitale Urlaubsverwaltung für deine
+				<span style="color: #ff0000">Apotheke</span>
+			</h1>
+			<div class="sm:relative sm:mt-8 sm:overflow-hidden md:h-auto md:static md:mt-0">
+				<video autoplay muted playsinline class="mt-8 sm:mt-0 w-full sm:absolute sm:inset-0" style="z-index: -1">
+					<source src="/static/apo-hero.mp4" type="video/mp4">
+				</video>
+				<div class="mt-8 w-full h-full sm:flex sm:items-center md:static sm:bg-black sm:bg-opacity-25 sm:w-3/5 sm:mt-0 sm:py-12 md:mt-0 md:py-8 md:bg-opacity-0 lg:bg-opacity-25 lg:pb-28 md:h-auto lg:max-w-[50%] xl:max-w-[44%]">
+					<ul class="ml-10 list-disc space-y-2 pr-8 drop-shadow text-lg font-bold sm:text-3xl lg:ml-16">
+						<li class="sm:text-white md:text-opacity-90">
+							Urlaub einfach planen
+						</li>
+						<li class="sm:text-white md:text-opacity-90">
+							Krankmeldung schnell eintragen
+						</li>
+						<li class="sm:text-white md:text-opacity-90">
+							Überstunden immer im Blick
+						</li>
+					</ul>
+				</div>
 			</div>
-			<ul class="mt-4 ml-16 list-disc space-y-2 md:mt-12">
-				<li class="text-lg font-bold text-white text-opacity-90 md:text-3xl">
-					Urlaub einfach planen
-				</li>
-				<li class="text-lg font-bold text-white text-opacity-90 md:text-3xl">
-					Krankmeldung schnell eintragen
-				</li>
-				<li class="text-lg font-bold text-white text-opacity-90 md:text-3xl">
-					Überstunden immer im Blick
-				</li>
-			</ul>
 		</div>
 	</div>
 </div>
