@@ -22,7 +22,7 @@
 	"dependencies": {
 		"@11ty/eleventy": "2.0.1",
 		"@11ty/eleventy-plugin-rss": "1.2.0",
-		"autoprefixer": "10.4.15",
+		"autoprefixer": "10.4.16",
 		"cheerio": "1.0.0-rc.12",
 		"concurrently": "8.2.1",
 		"cssnano": "6.0.1",
