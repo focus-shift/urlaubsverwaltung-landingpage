@@ -223,7 +223,7 @@ werden.&lt;/p&gt;
   
   
   <entry>
-    <title>4 Gründe für die Digitalisierung deiner Urlaubsverwaltung zum Jahreswechsel 2023</title>
+    <title>4 Gründe für die Digitalisierung deiner HR zum Jahreswechsel 2023</title>
     <link href="https://urlaubsverwaltung.cloud/neuigkeiten/2022-12-19-jahreswechsel/" />
     <updated>2022-12-19T00:00:00Z</updated>
     <id>https://urlaubsverwaltung.cloud/neuigkeiten/2022-12-19-jahreswechsel/</id>
@@ -738,7 +738,7 @@ Wir freuen uns über dein Feedback an &lt;a href=&quot;mailto:info@urlaubsverwal
   
   
   <entry>
-    <title>Verfall von Resturlaub für alle und/oder für einzelne Mitarbeitenden deaktivieren</title>
+    <title>Verfall von Resturlaub für alle und individuell für einzelne Mitarbeitenden</title>
     <link href="https://urlaubsverwaltung.cloud/neuigkeiten/2022-10-19-verfall-resturlaub/" />
     <updated>2022-10-19T00:00:00Z</updated>
     <id>https://urlaubsverwaltung.cloud/neuigkeiten/2022-10-19-verfall-resturlaub/</id>
@@ -834,7 +834,7 @@ Wir freuen uns über dein Feedback an &lt;a href=&quot;mailto:info@urlaubsverwal
   
   
   <entry>
-    <title>🌈 Jetzt wirds bunt! Individuelle Farben und Sichtbarkeiten für deine Abwesenheitsarten</title>
+    <title>🌈 Jetzt wirds bunt! Neue Farben und Sichtbarkeiten der Abwesenheitsarten</title>
     <link href="https://urlaubsverwaltung.cloud/neuigkeiten/2022-06-01-release-4.39.0/" />
     <updated>2022-06-01T00:00:00Z</updated>
     <id>https://urlaubsverwaltung.cloud/neuigkeiten/2022-06-01-release-4.39.0/</id>
@@ -1246,7 +1246,7 @@ Außerdem gibt es auch ein paar Einblicke in die ersten Fehler und Erfolge.&lt;/
   
   
   <entry>
-    <title>Feiertagsregelungen für Österreich 🇦🇹, Schweiz 🇨🇭 und das Vereinigte Königreich 🇬🇧, Abwesenheiten an Feiertagen und neues Kalenderdesign</title>
+    <title>Feiertage für Österreich, Schweiz, UK, und Abwesenheiten an Feiertagen</title>
     <link href="https://urlaubsverwaltung.cloud/neuigkeiten/2022-01-12-release/" />
     <updated>2022-01-12T00:00:00Z</updated>
     <id>https://urlaubsverwaltung.cloud/neuigkeiten/2022-01-12-release/</id>
@@ -1416,7 +1416,7 @@ Direkt eins vorweg: Lehne dich zurück! Wir ermöglichen dir den passenden Einst
   &lt;picture&gt;
     &lt;source srcset=&quot;https://urlaubsverwaltung.cloud/static/img/onboarding.avif&quot; type=&quot;image/avif&quot; /&gt;
     &lt;source srcset=&quot;https://urlaubsverwaltung.cloud/static/img/onboarding.webp&quot; type=&quot;image/webp&quot; /&gt;
-    &lt;img class=&quot;mx-auto lg:max-w-md lg:h-72&quot; src=&quot;https://urlaubsverwaltung.cloud/static/img/onboarding.png&quot; alt=&quot;Herzlich Willkommen&quot; decoding=&quot;async&quot; loading=&quot;lazy&quot; width=&quot;640&quot; height=&quot;426&quot; /&gt;
+    &lt;img class=&quot;mx-auto lg:max-w-md lg:h-72&quot; src=&quot;https://urlaubsverwaltung.cloud/static/img/onboarding.jpg&quot; alt=&quot;Herzlich Willkommen&quot; decoding=&quot;async&quot; loading=&quot;lazy&quot; width=&quot;640&quot; height=&quot;426&quot; /&gt;
   &lt;/picture&gt;
   &lt;div class=&quot;max-w-none lg:max-w-screen&quot;&gt;
     &lt;p class=&quot;mt-4 lg:mb-4&quot;&gt;
@@ -1440,7 +1440,7 @@ Weitere Details zum Onboarding können wir im direkten Austausch klären. Schrei
   
   
   <entry>
-    <title>Verbesserte Berechtigungen, optische Verbesserungen und mehr Transparenz im Anlageprozess einer Person</title>
+    <title>Verbesserte Berechtigungen, UI-Update und Nachricht bei neuen User</title>
     <link href="https://urlaubsverwaltung.cloud/neuigkeiten/2021-11-16-release/" />
     <updated>2021-11-16T00:00:00Z</updated>
     <id>https://urlaubsverwaltung.cloud/neuigkeiten/2021-11-16-release/</id>
@@ -1488,7 +1488,7 @@ eines Antrages nicht angezeigt. Dies wurde behoben und die Anträge werden nun k
   
   
   <entry>
-    <title>Starte deine Digitalisierungsstrategie - Urlaub, Krankmeldungen und Überstunden digital abbilden</title>
+    <title>Starte deine Digitalisierung - Urlaub, Krankmeldungen, Überstunden digital</title>
     <link href="https://urlaubsverwaltung.cloud/neuigkeiten/2021-11-11-starte-deine-digitalisierungsstrategie/" />
     <updated>2021-11-11T00:00:00Z</updated>
     <id>https://urlaubsverwaltung.cloud/neuigkeiten/2021-11-11-starte-deine-digitalisierungsstrategie/</id>
@@ -1530,7 +1530,7 @@ Verwaltung in Richtung der Fachkompetenz stärken das Kerngeschäft.&lt;/p&gt;
   
   
   <entry>
-    <title>Verbesserte Urlaub-Übersichtsseite und Hilfe direkt aus der Urlaubsverwaltung</title>
+    <title>Verbesserte Urlaub-Übersichtsseite // Hilfe direkt aus der Urlaubsverwaltung</title>
     <link href="https://urlaubsverwaltung.cloud/neuigkeiten/2021-10-20-release/" />
     <updated>2021-10-20T00:00:00Z</updated>
     <id>https://urlaubsverwaltung.cloud/neuigkeiten/2021-10-20-release/</id>
