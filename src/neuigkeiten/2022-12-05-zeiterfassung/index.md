@@ -5,7 +5,7 @@ date: 2022-12-05
 title: Die einfachste Form der Zeiterfassung!
 author: Andreas Weigel
 teaserImage: /static/zeiterfassung-multi-device.png
-description: Die einfachste Form der Zeiterfassung!
+description: Die einfachste Form der Zeiterfassung! Open Source und erfüllt die Anforderungen des EuGH objektiv, verlässlich, zugänglich
 ---
 
 Unsere schlanke Lösung auf die Anforderung des Bundesarbeitsgerichts (BAG) einer 

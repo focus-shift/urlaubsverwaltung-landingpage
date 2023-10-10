@@ -19,7 +19,7 @@ Direkt eins vorweg: Lehne dich zurück! Wir ermöglichen dir den passenden Einst
     <source srcset="/static/img/onboarding.avif" type="image/avif" />
     <source srcset="/static/img/onboarding.webp" type="image/webp" />
     <img class="mx-auto lg:max-w-md lg:h-72"
-      src="/static/img/onboarding.png"
+      src="/static/img/onboarding.jpg"
       alt="Herzlich Willkommen"
       decoding="async"
       loading="lazy"

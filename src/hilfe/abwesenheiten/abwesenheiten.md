@@ -6,6 +6,12 @@ title: Abwesenheit - Hilfe
 description: Hier findest du Hilfe zu dem Thema Abwesenheiten
 ---
 
+# Abwesenheiten (Urlaub, Krankmeldung & Überstundenabbau) richtig pflegen
+
+Im gegensatz zur Pfelege der Anwesenheiten in der Zeiterfassung, können in der Urlaubsverwaltung
+drei Arten von Abwesenheiten gepflegt werden: Urlaub, Krankmeldungen und Überstundenabbau.
+Letzteres kann akti
+
 ## Wer genehmigt eine Abwesenheit?
 
 Der einfache Genehmigungsprozess für Abwesenheiten sieht vor, dass

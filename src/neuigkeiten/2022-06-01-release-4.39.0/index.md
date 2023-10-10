@@ -2,7 +2,7 @@
 draft: false
 layout: layout-neuigkeiten
 date: 2022-06-01
-title: 🌈 Jetzt wirds bunt! Individuelle Farben und Sichtbarkeiten für deine Abwesenheitsarten
+title: 🌈 Jetzt wirds bunt! Neue Farben und Sichtbarkeiten der Abwesenheitsarten
 author: Andreas Weigel
 release-version: 4.39.0
 description: 🌈 Jetzt wirds bunt! Individuelle Farben und Sichtbarkeiten für deine Abwesenheitsarten

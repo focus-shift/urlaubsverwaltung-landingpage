@@ -6,6 +6,11 @@ title: Benutzer - Hilfe
 description: Hier findest du Hilfe zu dem Thema Benutzer
 ---
 
+# Benutzer und ihre Berechtigungen in der urlaubsverwaltung.cloud
+
+Ohne Mitarbeitende, kein Unternehmen. Die Verwaltung der Mitarbeitenden und ihre Berechtigungen 
+sind zentraler Teil der Urlaubsverwaltung.
+
 ## Welche Berechtigungen gibt es?
 
 In der Urlaubsverwaltung gibt es aktuell folgende Arten von Berechtigungen:

@@ -2,7 +2,7 @@
 draft: false
 layout: layout-neuigkeiten
 date: 2021-11-16
-title: Verbesserte Berechtigungen, optische Verbesserungen und mehr Transparenz im Anlageprozess einer Person
+title: Verbesserte Berechtigungen, UI-Update und Nachricht bei neuen User
 author: Tobias Schneider
 release-version: 4.26.0
 ---

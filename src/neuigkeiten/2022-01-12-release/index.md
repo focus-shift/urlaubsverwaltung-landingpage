@@ -2,7 +2,7 @@
 draft: false
 layout: layout-neuigkeiten
 date: 2022-01-12
-title: Feiertagsregelungen für Österreich 🇦🇹, Schweiz 🇨🇭 und das Vereinigte Königreich 🇬🇧, Abwesenheiten an Feiertagen und neues Kalenderdesign
+title: Feiertage für Österreich, Schweiz, UK, und Abwesenheiten an Feiertagen
 author: Tobias Schneider
 release-version: 4.28.0
 ---

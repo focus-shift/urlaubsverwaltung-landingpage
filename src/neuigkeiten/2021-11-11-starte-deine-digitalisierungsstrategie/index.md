@@ -2,7 +2,7 @@
 draft: false
 layout: layout-neuigkeiten
 date: 2021-11-11
-title: Starte deine Digitalisierungsstrategie - Urlaub, Krankmeldungen und Überstunden digital abbilden
+title: Starte deine Digitalisierung - Urlaub, Krankmeldungen, Überstunden digital
 author: Tobias Schneider
 teaserImage: /static/urlaubsverwaltung.png
 description: Starte deine Digitalisierungsstrategie - Urlaub, Krankmeldungen und Überstunden digital abbilden
