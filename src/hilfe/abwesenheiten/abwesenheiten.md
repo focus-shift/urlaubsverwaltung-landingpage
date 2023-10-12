@@ -10,7 +10,7 @@ description: Hier findest du Hilfe zu dem Thema Abwesenheiten
 
 Im gegensatz zur Pflege der Anwesenheiten in der Zeiterfassung, können in der Urlaubsverwaltung
 drei Arten von Abwesenheiten gepflegt werden: Urlaub, Krankmeldungen und Überstundenabbau.
-Letzteres kann akti
+Letzteres kann in den Einstellungen aktiviert oder deaktiviert werden.
 
 ## Wer genehmigt eine Abwesenheit?
 
