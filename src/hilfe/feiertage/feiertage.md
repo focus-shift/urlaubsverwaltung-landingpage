@@ -62,7 +62,8 @@ Die Urlaubsverwaltung bietet alle geltenden Feiertage der Länder
 * des Vereinigten Königreiches
 * Griechenland
 * Italien
-* Malta 
+* Malta
+* Kroatien
 
 und weiteren europäischen Länder an. Auch Besonderheiten wie z. B. das Augsburger Friedensfest ist mit dabei.
 
