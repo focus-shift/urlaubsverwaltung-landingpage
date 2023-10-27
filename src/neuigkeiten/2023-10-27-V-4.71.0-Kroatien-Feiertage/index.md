@@ -1,7 +1,7 @@
 ---
 draft: false
 layout: layout-neuigkeiten
-date: 2023-27-10
+date: 2023-10-27
 title: Feiertagsregelung - Dobrodošla Hrvatska - Kroatische Feiertage hinzugefügt 🇭🇷
 author: Andreas Weigel
 release-version: 4.71.0
