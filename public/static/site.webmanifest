@@ -1,7 +1,7 @@
 {
   "name": "Urlaubsverwaltung",
   "short_name": "Urlaubsverwaltung",
-  "start_url": ".",
+  "start_url": "https://urlaubsverwaltung.cloud/",
   "icons": [
     {
       "src": "/static/favicons/android-chrome-192x192.png",
