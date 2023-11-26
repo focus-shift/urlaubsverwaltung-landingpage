@@ -1,6 +1,6 @@
 {
-  "name": "Urlaubsverwaltung",
-  "short_name": "Urlaubsverwaltung",
+  "name": "urlaubsverwaltung.cloud",
+  "short_name": "uv.cloud",
   "start_url": "https://urlaubsverwaltung.cloud/",
   "icons": [
     {
