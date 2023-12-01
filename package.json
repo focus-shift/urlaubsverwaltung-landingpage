@@ -24,7 +24,7 @@
 		"@11ty/eleventy-plugin-rss": "1.2.0",
 		"autoprefixer": "10.4.16",
 		"cheerio": "1.0.0-rc.12",
-		"concurrently": "8.2.1",
+		"concurrently": "8.2.2",
 		"cssnano": "6.0.1",
 		"date-fns": "2.30.0",
 		"esbuild": "0.19.5",
