@@ -57,13 +57,15 @@ des persönlichen Landes bzw. der Region berechnet.
 Die Urlaubsverwaltung bietet alle geltenden Feiertage der Länder 
 
 * Deutschland
-* Österreich
-* Schweiz
 * des Vereinigten Königreiches
 * Griechenland
 * Italien
-* Malta
 * Kroatien
+* Malta
+* Niederlande
+* Österreich
+* Schweiz
+* Spanien
 
 und weiteren europäischen Länder an. Auch Besonderheiten wie z. B. das Augsburger Friedensfest ist mit dabei.
 
