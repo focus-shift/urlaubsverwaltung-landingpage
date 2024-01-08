@@ -1,5 +1,5 @@
 ---
-draft: true
+draft: false
 layout: layout-neuigkeiten
 date: 2024-01-08
 title: Arbeitszeiten, Feiertagsregelung und mehr Berechtigungen in der Zeiterfassung
