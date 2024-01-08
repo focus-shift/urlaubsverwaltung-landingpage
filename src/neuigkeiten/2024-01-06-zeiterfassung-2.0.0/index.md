@@ -1,7 +1,7 @@
 ---
 draft: true
 layout: layout-neuigkeiten
-date: 2024-01-06
+date: 2024-01-08
 title: Arbeitszeiten, Feiertagsregelung und mehr Berechtigungen in der Zeiterfassung
 author: Benjamin Seber
 release-version: 2.0.0
