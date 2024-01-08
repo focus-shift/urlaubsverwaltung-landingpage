@@ -20,8 +20,9 @@ Zum Jahresstart gibt es spannende Aktualisierungen bei der Zeiterfassung:
 ## Flexible Arbeitszeiten abbilden
 
 Ab sofort könnt ihr mühelos mehrere Arbeitszeiten erstellen und verwalten. Sei es aufgrund von Teilzeitvereinbarungen,
-Vollzeitbeschäftigungen oder anderen Vertragsänderungen. Die Anwendung gibt euch auf der Personenübersichtseite eine
-kompakte Ansicht damit ihr stets den Überblick behaltet.
+Vollzeitbeschäftigungen oder wechselnden Schichtzeiten. Die Anwendung passt sich flexibel euren Bedürfnissen an, damit
+ihr stets den Überblick behaltet. Die Eingabe dieser Änderungen ist auch für die Zukunft möglich, sodass ihr eure
+Arbeitszeit langfristig planen könnt.
 
 <div class="my-8 flex flex-col gap-4 md:flex-row">
     <figure>
