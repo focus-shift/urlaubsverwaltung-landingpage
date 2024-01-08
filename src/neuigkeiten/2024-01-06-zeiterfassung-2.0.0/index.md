@@ -101,5 +101,5 @@ ganz bequem und sicher anzupassen, ohne die Anwendung verlassen zu müssen.
 </div>
 
 Probiert die neuen Funktionalitäten gleich aus und gestaltet eure Arbeitszeit so, wir es für euch am besten passt!
-Habt ihr weitere Anforderungen und Wünsche lasst es uns wissen. Urlaubsverwaltung.cloud ist euere Plattform! Schreibt
+Habt ihr weitere Anforderungen und Wünsche lasst es uns wissen. Die urlaubsverwaltung.cloud ist euere Plattform! Schreibt
 uns an <a href="mailto:info@urlaubsverwaltung.cloud">info@urlaubsverwaltung.cloud</a>
