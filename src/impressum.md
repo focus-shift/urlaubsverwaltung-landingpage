@@ -2,6 +2,7 @@
 layout: layout-subpage
 title: Impressum der urlaubsverwaltung.cloud
 backgroundColor: bg-white
+description: Impressum der urlaubsverwaltung.cloud
 ---
 
 <article>

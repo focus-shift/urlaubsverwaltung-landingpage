@@ -5,6 +5,7 @@ date: 2022-04-06
 title: Konfiguration von Sonderurlaubstagen und Bildungsurlaub
 author: Tobias Schneider
 release-version: 4.34.0
+description: Urlaubsverwaltung 4.34.0 veröffentlicht. Darin enthalten sind konfigurierbare Sonderurlaubstage und Bildungsurlaub.
 ---
 
 Sonderurlaube können individualisiert werden und Bildungsurlaub steht als neue Abwesenheitsart zur Verfügung

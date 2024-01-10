@@ -3,6 +3,7 @@ layout: layout-wissensbasis
 breadcrumb:
   title: SSO mit Azure AD
 title: Azure AD - Single Sign-On (SSO) - Hilfe
+description: Single Sign-On (SSO) mit Azure EntraID bzw. Azure Active Directory (Azure AD) für urlaubsverwaltung.cloud
 ---
 
 # Single Sign-On mit Azure Active Directory (Azure AD)

@@ -3,6 +3,7 @@ layout: layout-wissensbasis
 breadcrumb:
   title: SSO mit Google Workspace
 title: Google Workspace - Single Sign-On (SSO) - Hilfe
+description: Single Sign-On (SSO) mit Google Workspace (Cloud Identity) für urlaubsverwaltung.cloud
 ---
 
 # Single Sign-On mit Google Workspace (Cloud Identity)

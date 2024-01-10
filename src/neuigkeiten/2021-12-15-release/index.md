@@ -5,6 +5,7 @@ date: 2021-12-15
 title: Berechtigungskombinationen, Abwesenheitsübersicht und Logback
 author: Tobias Schneider
 release-version: 4.27.3
+description: Urlaubsverwaltung 4.27.3 veröffentlicht. Darin enthalten sind Korrekturen der angezeigten Personen bei Berechtigungskombinationen, eine Korrektur der Abwesenheitsübersicht und ein Update von Logback. 
 ---
 
 _Wir beheben Fehler für euch in den Versionen 4.27.1, 4.27.2 und 4.27.3_

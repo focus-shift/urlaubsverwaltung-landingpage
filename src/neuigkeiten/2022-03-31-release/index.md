@@ -5,6 +5,7 @@ date: 2022-03-31
 title: Benutzerspezifische Stammdaten
 author: Tobias Schneider
 release-version: 4.35.0
+description: Urlaubsverwaltung 4.35.0 veröffentlicht. Darin enthalten sind benutzerspezifische Stammdaten.
 ---
 
 Hinterlege eine Personalnummer und weitere Informationen für deine Mitarbeitende.
