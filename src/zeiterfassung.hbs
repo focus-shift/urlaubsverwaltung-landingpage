@@ -70,13 +70,19 @@ stylesheets:
 							<span class="mr-3">
 								{{> partials/icon-check class='w-6 h-6'}}
 							</span>
-							Abgleich mit geplanten Arbeitszeiten
+							Automatische Synchronisation von Abwesenheiten aus der Urlaubsverwaltung
 						</li>
 						<li class="flex items-start">
 							<span class="mr-3">
 								{{> partials/icon-check class='w-6 h-6'}}
 							</span>
-							Automatische Synchronisation von Abwesenheiten aus der Urlaubsverwaltung <span class="ml-1 inline-block px-2 py-0.5 bg-blue-600 text-white rounded-sm text-sm">Neu</span>
+							Flexible Arbeitszeitmodelle pro Mitarbeitende <span class="ml-1 inline-block px-2 py-0.5 bg-blue-600 text-white rounded-sm text-sm">Neu</span>
+						</li>
+						<li class="flex items-start">
+							<span class="mr-3">
+								{{> partials/icon-check class='w-6 h-6'}}
+							</span>
+							Individuelle Feiertagsregelung pro Bundesland <span class="ml-1 inline-block px-2 py-0.5 bg-blue-600 text-white rounded-sm text-sm">Neu</span>
 						</li>
 					</ul>
 					<p class="font-bold mt-12">Geplante Features</p>
@@ -269,6 +275,39 @@ stylesheets:
 				</div>
 			</div>
 
+			<div class="lg:mt-12 xl:mt-24 zeit-feature-card-border">
+				<div class="zeit-feature-card">
+					<div class="zeit-feature-card_description">
+						<h3>
+							Flexible Arbeitszeitmodelle
+						</h3>
+						<p>
+							Pflege individuelle Arbeitszeitmodelle pro Mitarbeitende. 
+							Es können Teilzeitvereinbarungen, Vollzeitbeschäftigungen oder wechselnden Schichtzeiten mit einen frei wählbaren Startdatum gepflegt werden.
+						</p>
+					</div>
+					<div class="zeit-feature-card_image">
+						<div class="zeit-feature-card_image-cover"></div>
+						<picture>
+							<source srcset="/static/zeiterfassung-arbeitszeiten_edit.webp" type="image/webp">
+							<img src="/static/zeiterfassung-arbeitszeiten_edit.png" style="object-position: 70% 60%;" width="1537" height="881" alt="">
+						</picture>
+					</div>
+				</div>
+			</div>
+
+			<div class="lg:mt-12 xl:mt-24 zeit-feature-card-border">
+				<div class="zeit-feature-card">
+					<div class="zeit-feature-card_description">
+						<h3>
+							Individuelle Feiertagsregelung pro Bundesland
+						</h3>
+						<p>
+							Bei verteilten Teams ist es nicht selten, dass unterschiedliche Anforderungen an Bundesländer und Feiertage existieren. Das Bundesland und die Feiertagsregelung kann für jede Person individuell angepasst werden. Die Zeiterfassung unterstützt dabei nicht nur deutsche Bundesländer, sondern auch viele andere Länder aus Europa.
+						</p>
+					</div>
+				</div>
+			</div>
 		</div>
 	</div>
 
