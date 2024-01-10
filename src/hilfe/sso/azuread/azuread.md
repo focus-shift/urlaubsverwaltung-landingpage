@@ -5,9 +5,9 @@ breadcrumb:
 title: Azure AD - Single Sign-On (SSO) - Hilfe
 ---
 
-## Single Sign-On mit Azure Active Directory (Azure AD)
+# Single Sign-On mit Azure Active Directory (Azure AD)
 
-### Welcher Benutzer darf die Azure AD Anbindung konfigurieren?
+## Welcher Benutzer darf die Azure AD Anbindung konfigurieren?
 
 Die Konfiguration kann nur von dem Benutzer durchgeführt werden, welcher die Registrierung zu
 urlaubsverwaltung.cloud durchgeführt hat. Dieser Benutzer hat die Berechtigung auf _Mein Kundenportal_, über
@@ -15,14 +15,14 @@ welches die Konfiguration durchgeführt werden kann.
 
 Zu _Mein Kundenportal_ gelangst du über _[urlaubsverwaltung.cloud](https://urlaubsverwaltung.cloud)_ > _Login_ und nach erfolgreichem Login über die Kachel _Mein Kundenportal_.
 
-### Wie können Benutzer aus Active Directory verwendet werden?
+## Wie können Benutzer aus Active Directory verwendet werden?
 
 Eine direkte Anbindung von einer lokalen Active Directory Instanz zu urlaubsverwaltung.cloud wird nicht
 unterstützt. Jedoch ist es möglich Benutzer aus deinem Active Directory zu verwenden, wenn dieses via Azure
 AD Connect mit Azure AD synchronisiert wird.
 Details dazu findest du bei Microsoft in der Dokumentation [Installation von Azure AD Connect](https://docs.microsoft.com/de-de/azure/active-directory/hybrid/how-to-connect-install-express).
 
-### Welche Daten eines Benutzers aus Azure AD werden verwendet?
+## Welche Daten eines Benutzers aus Azure AD werden verwendet?
 
 Bei der Anbindung von Azure AD erhalten wir über den _ID Token_ Zugriff auf folgende Attribute:
 
@@ -39,7 +39,7 @@ Durch die Ansprüche im _ID Token_ benötigt die registrierte App folgende Berec
 - _profile_
 - _User.Read_
 
-### Wie kann ich die Azure AD Anbindung konfigurieren?
+## Wie kann ich die Azure AD Anbindung konfigurieren?
 
 Dazu sind folgende Schritte notwendig:
 
@@ -48,7 +48,7 @@ Dazu sind folgende Schritte notwendig:
 - [Schritt 3: Für App-Registrierung Umleitungs-URI konfigurieren](#schritt-3-fuer-app-registrierung-umleitungs-uri-konfigurieren)
 - [Schritt 4: Anmelden via Azure AD](#schritt-4-anmeldung-via-azure-ad)
 
-#### Schritt 1: Neue App-Registrierung im Azure AD durchführen
+### Schritt 1: Neue App-Registrierung im Azure AD durchführen
 
 Zunächst musst du dich im [Azure-Portal](https://portal.azure.com/) mit deinem Azure-Konto anmelden. Danach
 wechselst du zu _Azure Active Directory_ > _App-Registrierungen_ > _Neue Registrierung_ und kannst mit der
@@ -179,7 +179,7 @@ entsprechende Microsoft Graph-Berechtigung aktiviert werden muss.
   </picture>
 </p>
 
-#### Schritt 2: Auf Mein Kundenportal die Anbindung konfigurieren
+### Schritt 2: Auf Mein Kundenportal die Anbindung konfigurieren
 
 Dazu muss man nun zu _Mein Kundenportal_ von [urlaubsverwaltung.cloud](https://urlaubsverwaltung.cloud) via _Login_ und über die Kachel
 _Mein Kundenportal_ wechseln. Unter _Single-Sign-On_ > _Azure AD_ gelangst du nun auf die Konfigurationsseite.
@@ -208,7 +208,7 @@ Nun brauchen wir die Werte aus der Textdatei von [Schritt 1](#schritt-1:-neue-ap
 3. Wert von _Verzeichnis-Id_
 4. Ein Klick auf _speichern_ konfiguriert nun die Anbindung von urlaubsverwaltung.cloud zu Azure AD
 
-#### Schritt 3: Für App-Registrierung Umleitungs-URI konfigurieren
+### Schritt 3: Für App-Registrierung Umleitungs-URI konfigurieren
 
 Bei der registrierten App im Azure AD wird nun eine neue Plattform hinzugefügt:
 
@@ -253,7 +253,7 @@ Zum Schluss muss noch die Umleitungs-URI konfiguriert werden:
 
 Nun ist die Konfiguration auf Seiten von Azure AD abgeschlossen.
 
-#### Schritt 4: Anmeldung via Azure AD
+### Schritt 4: Anmeldung via Azure AD
 
 <aside class="wissensbasis-info">
   <p class="font-bold uppercase">Achtung</p>

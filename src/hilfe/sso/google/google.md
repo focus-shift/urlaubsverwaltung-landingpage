@@ -5,9 +5,9 @@ breadcrumb:
 title: Google Workspace - Single Sign-On (SSO) - Hilfe
 ---
 
-## Single Sign-On mit Google Workspace (Cloud Identity)
+# Single Sign-On mit Google Workspace (Cloud Identity)
 
-### Welcher Benutzer darf die Google Workspace Anbindung konfigurieren?
+## Welcher Benutzer darf die Google Workspace Anbindung konfigurieren?
 
 Die Konfiguration kann nur von dem Benutzer durchgeführt werden, welcher die Registrierung zu
 urlaubsverwaltung.cloud durchgeführt hat. Dieser Benutzer hat die Berechtigung auf _Mein Kundenportal_, über
@@ -15,7 +15,7 @@ welches die Konfiguration durchgeführt werden kann.
 
 Zu _Mein Kundenportal_ gelangst du über _[urlaubsverwaltung.cloud](https://urlaubsverwaltung.cloud)_ > _Login_ und nach erfolgreichem Login über die Kachel _Mein Kundenportal_.
 
-### Welche Daten eines Benutzers aus Google Workspace werden verwendet?
+## Welche Daten eines Benutzers aus Google Workspace werden verwendet?
 
 Bei der Anbindung von Google Workspace erhalten wir über den _ID Token_ Zugriff auf folgende Attribute:
 
@@ -23,7 +23,7 @@ Bei der Anbindung von Google Workspace erhalten wir über den _ID Token_ Zugriff
 - _family_name_: Der Nachname des Benutzers
 - _given_name_: Der Vorname des Benutzers
 
-### Welche API Berechtigungen von Google werden verwendet?
+## Welche API Berechtigungen von Google werden verwendet?
 
 Durch die Ansprüche im _ID Token_ benötigt die registrierte Anwendung im OAuth-Zustimmungsbildschirm folgende Berechtigungen auf die Google_-API:
 
@@ -32,7 +32,7 @@ Durch die Ansprüche im _ID Token_ benötigt die registrierte Anwendung im OAuth
 - _openid_
 
 
-### Wie kann ich die Google Workspace Anbindung konfigurieren?
+## Wie kann ich die Google Workspace Anbindung konfigurieren?
 
 Dazu sind folgende Schritte notwendig:
 
@@ -41,7 +41,7 @@ Dazu sind folgende Schritte notwendig:
 - [Schritt 3: Für die Anwendung eine Weiterleitungs-URI konfigurieren](#schritt-3-fuer-die-anwendung-eine-weiterleitungs-uri-konfigurieren)
 - [Schritt 4: Anmelden via Google Workspace](#schritt-4-anmeldung-via-google-workspace)
 
-#### Schritt 1: Neue Anwendung in Google Cloud registrieren
+### Schritt 1: Neue Anwendung in Google Cloud registrieren
 
 Zunächst musst du dich im [Google Cloud Console](https://console.cloud.google.com/) mit deinem Google-Konto anmelden.
 Danach erstellst du am Besten ein neues Google Cloud Projekt.
@@ -65,7 +65,7 @@ vom Typ OAuth-Client-ID erstellen.
 Aus dem Popup die Werte von _Client-ID_ und _Clientschlüssel_ in eine Textdatei kopieren, welche wir später benötigen.
 
 
-#### Schritt 2: Auf Mein Kundenportal die Anbindung konfigurieren
+### Schritt 2: Auf Mein Kundenportal die Anbindung konfigurieren
 
 Dazu muss man nun zu _Mein Kundenportal_ von [urlaubsverwaltung.cloud](https://urlaubsverwaltung.cloud) via _Login_ und über die Kachel
 _Mein Kundenportal_ wechseln. Unter _Single-Sign-On_ > _Google Workspace_ gelangst du nun auf die Konfigurationsseite.
@@ -78,7 +78,7 @@ Nun brauchen wir die Werte aus der Textdatei von [Schritt 1](#schritt-1-neue-anw
 2. Wert von _Clientschlüssel_
 4. Ein Klick auf _speichern_ konfiguriert nun die Anbindung von urlaubsverwaltung.cloud zu Google Workspace.
 
-#### Schritt 3: Für die Anwendung eine Weiterleitungs-URI konfigurieren
+### Schritt 3: Für die Anwendung eine Weiterleitungs-URI konfigurieren
 
 Nun auf die Seite [Anmeldedaten](https://console.cloud.google.com/apis/credentials) wechseln und dort unter OAuth 2.0-Client-IDs
 den Eintrag _urlaubsverwaltung-cloud_ anklicken:
@@ -88,7 +88,7 @@ den Eintrag _urlaubsverwaltung-cloud_ anklicken:
 
 Nun ist die Konfiguration auf bei Google abgeschlossen.
 
-#### Schritt 4: Anmeldung via Google Workspace
+### Schritt 4: Anmeldung via Google Workspace
 
 <aside class="wissensbasis-info">
   <p class="font-bold uppercase">Achtung</p>
