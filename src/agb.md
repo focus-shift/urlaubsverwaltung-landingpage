@@ -1,6 +1,6 @@
 ---
 layout: layout-subpage
-title: AGB
+title: AGB der urlaubsverwaltung.cloud
 backgroundColor: bg-white
 description: Faire allgemeine Geschäftsbedingungen als Basis der Partnerschaft
 ---
