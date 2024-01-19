@@ -1,4 +1,4 @@
-const formatDate = require("date-fns/format");
+const { format } = require("date-fns/format");
 const localeDe = require("date-fns/locale/de");
 const markdown = require("markdown-it");
 const markdownIt = require("markdown-it")();
@@ -62,8 +62,8 @@ module.exports = function (eleventyConfig) {
 		console.log(...args);
 	});
 
-	eleventyConfig.addHandlebarsHelper("date", function (date, format) {
-		return formatDate(date, format, { locale: localeDe });
+	eleventyConfig.addHandlebarsHelper("date", function (date, formatString) {
+		return format(date, formatString, { locale: localeDe });
 	});
 
 	// check if a given value equals some of the following values
