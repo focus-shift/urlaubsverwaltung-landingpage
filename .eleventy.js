@@ -1,5 +1,5 @@
-const formatDate = require("date-fns/format");
-const localeDe = require("date-fns/locale/de");
+const { format } = require("date-fns/format");
+const { de } = require("date-fns/locale/de");
 const markdown = require("markdown-it");
 const markdownIt = require("markdown-it")();
 const markdownItAnchor = require("markdown-it-anchor");
@@ -16,15 +16,15 @@ const prod = process.env.NODE_ENV === "production";
 
 const not =
 	fn =>
-	(...args) =>
-		!fn(...args);
+		(...args) =>
+			!fn(...args);
 const isDraft = post =>
 	post.data.draft === "" ? true : Boolean(post.data.draft);
 
 module.exports = function (eleventyConfig) {
 	eleventyConfig.setTemplateFormats(["njk", "hbs", "md", "html", "txt"]);
 	eleventyConfig.addPassthroughCopy("./src/**/*.{png,jpg,jpeg,webp,avif,mp4,xml}");
-	eleventyConfig.addPassthroughCopy({ "./public/static": "static" });
+	eleventyConfig.addPassthroughCopy({"./public/static": "static"});
 
 	eleventyConfig.addPlugin(pluginRss);
 
@@ -62,8 +62,8 @@ module.exports = function (eleventyConfig) {
 		console.log(...args);
 	});
 
-	eleventyConfig.addHandlebarsHelper("date", function (date, format) {
-		return formatDate(date, format, { locale: localeDe });
+	eleventyConfig.addHandlebarsHelper("date", function (date, formatFunction) {
+		return format(date, formatFunction, {locale: de});
 	});
 
 	// check if a given value equals some of the following values
@@ -107,8 +107,8 @@ module.exports = function (eleventyConfig) {
 		return tree.length === 0
 			? ""
 			: `<ul class="toc-menu">${tree
-					.map(node => renderNode(node))
-					.join("")}</ul>`;
+				.map(node => renderNode(node))
+				.join("")}</ul>`;
 	});
 
 	eleventyConfig.addWatchTarget("src/static/js/**/*.js");
