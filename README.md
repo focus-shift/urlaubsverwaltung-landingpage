@@ -7,7 +7,7 @@ Landing Page für die [Open Source Urlaubsverwaltung](https://github.com/urlaubs
 Was du benötigst:
 
 - Spaß an der Arbeit :o)
-- NodeJS Version 16.x
+- NodeJS Version 20.x
   - die genaue Version findest du in der [.nvmrc](.nvmrc) Datei
   - am besten installierst du dir ein Tool zum Verwalten verschiedener NodeJS Versionen wie z. B. [node version manager (nvm)](https://github.com/creationix/nvm) oder [nodenv](https://github.com/nodenv/nodenv)
 
