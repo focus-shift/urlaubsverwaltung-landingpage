@@ -5,7 +5,7 @@ const markdownIt = require("markdown-it")();
 const markdownItAnchor = require("markdown-it-anchor");
 const cheerio = require("cheerio");
 const pluginRss = require("@11ty/eleventy-plugin-rss");
-const htmlmin = require("html-minifier");
+const htmlmin = require("html-minifier-terser");
 
 const paths = {
 	input: "src",
