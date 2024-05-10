@@ -32,7 +32,7 @@ Einen Einblick in die neuen Funktionen geben wir euch in diesem Blog.
     </figure>
 </div>
 
-Gibt es im Unternehmen besondere Abwesenheitsarten? Je nach Branche und Ausrichtung sind nicht nur die Arbeitsbereiche stark unterschiedlich sondern auch die Abwesenheitsarten können variieren. Daher bietet die Urlaubsverwaltung jetzt individuelle Abwesenheitsarten um die betrieblichen Abläufe besser abbilden zu können. Die individuellen Abwesenheitsarten können als Mitarbeitende mit der Berechtigung Office in den Einstellungen unter Abwesenheitsarten gepflegt werden. Mit den entsprechenden Übersetzungen in Deutsch, Österreichisch, Englisch und Griechisch bist du bestens auch für deine internationalen Kollegen aufgestellt.
+Gibt es im Unternehmen besondere Abwesenheitsarten? Je nach Branche und Ausrichtung sind nicht nur die Arbeitsbereiche stark unterschiedlich, sondern auch die Abwesenheitsarten können variieren. Daher bietet die Urlaubsverwaltung jetzt individuelle Abwesenheitsarten, um die betrieblichen Abläufe besser abbilden zu können. Die individuellen Abwesenheitsarten können als Mitarbeitende mit der Berechtigung Office in den Einstellungen unter Abwesenheitsarten gepflegt werden. Mit den entsprechenden Übersetzungen in Deutsch, Österreichisch, Englisch und Griechisch bist du bestens auch für deine internationalen Kollegen aufgestellt.
 
 <div class="my-8 flex flex-col gap-4 md:flex-row">
     <figure>
@@ -85,7 +85,7 @@ Die Kalenderintegration für Exchange (EWS) wurde von Microsoft abgekündigt und
 
 ## Vereinfachter Ablauf bei Korrektur von Anträgen
 
-Als Mitarbeitende mit der Berechtigung Office ist es nun möglich Anträge zu jeder Zeit zu editieren. Damit es nicht mehr nötig z.B. bei einer Anpassung auf Grund von Krankheit eine Stornierung des Antrags durchzuführen, um den korrigierten Zeitraum zu erfassen.
+Als Mitarbeitende mit der Berechtigung Office ist es nun möglich Anträge jeder Zeit zu editieren. Damit ist es nicht mehr nötig, z.B. bei einer Anpassung auf Grund von Krankheit, eine Stornierung des Antrags durchzuführen, um den korrigierten Zeitraum zu erfassen.
 
 ## Verbesserung Datenschutz: Avatare von Gravatar deaktivierbar
 
