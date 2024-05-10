@@ -87,10 +87,6 @@ Die Kalenderintegration für Exchange (EWS) wurde von Microsoft abgekündigt und
 
 Als Mitarbeitende mit der Berechtigung Office ist es nun möglich Anträge jeder Zeit zu editieren. Damit ist es nicht mehr nötig, z.B. bei einer Anpassung auf Grund von Krankheit, eine Stornierung des Antrags durchzuführen, um den korrigierten Zeitraum zu erfassen.
 
-## Verbesserung Datenschutz: Avatare von Gravatar deaktivierbar
-
-Aktuell bietet die Urlaubsverwaltung die Möglichkeit Avatare über den externen Dienst Gravatar darzustellen. Mit der neuen Version der Urlaubsverwaltung kann die Anbindung an Gravatar deaktiviert werden. Damit ist sichergestellt, dass keine zusätzlichen Daten für die Avatare von extern geladen werden und ermöglicht somit optimale Vorausetzungen für einen noch besseren Datenschutz.
-
 ## Mehr Durchblick beim Start!
 
 Gerade beim Loslegen mit der Urlaubsverwaltung kommt es vor, dass zur Datenübernahme die Pflege von vergangenen oder auch zukünftigen Abwesenheiten relevant wird. Wir haben hierfür die Standardwerte erhöht, sodass die Anzahl der Monate in die Vergangenheit als auch in die Zukunft höher ist. Diese Standardwerte können natürlich in den Einstellungen nach den Bedürfnissen der eigenen Organisation angepasst werden.
