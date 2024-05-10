@@ -2,14 +2,15 @@
 draft: false
 layout: layout-neuigkeiten
 date: 2024-05-10
-title: Urlaubsverwaltung Version 5
+title: Individuelle Abwesenheitsarten in der Urlaubsverwaltung
 author: Daniel Fuchs
 release-version: 5.0.0
-teaserImage: 
-description: Riesiges Update der Urlaubsverwaltung bringt individuelle Abwesenheitsarten und vieles mehr
+teaserImage: /static/teaser/2024-05-10/uv521.png
+description: Update der Urlaubsverwaltung bringt individuelle Abwesenheitsarten und vieles mehr
 ---
 
-Mit einem riesigen Update der Urlaubsverwaltung stehen nun viele neue Funktionen und Verbesserungen bereit.
+Mit einem Update der Urlaubsverwaltung stehen nun einige neue Funktionen und Verbesserungen bereit.
+Außerdem wurden viele Securityupdates durchgeführt, um die Sicherheit der Anwendung weiter zu gewährleisten.
 Einen Einblick in die neuen Funktionen geben wir euch in diesem Blog.
 
 <!-- more -->
