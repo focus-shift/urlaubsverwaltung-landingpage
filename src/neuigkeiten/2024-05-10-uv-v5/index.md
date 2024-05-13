@@ -10,7 +10,7 @@ description: Update der Urlaubsverwaltung bringt individuelle Abwesenheitsarten 
 ---
 
 Mit einem Update der Urlaubsverwaltung stehen nun einige neue Funktionen und Verbesserungen bereit.
-Außerdem wurden viele Securityupdates durchgeführt, um die Sicherheit der Anwendung weiter zu gewährleisten.
+Außerdem wurden viele Aktualisierungen durchgeführt, um die Sicherheit der Anwendung weiter zu verbessern.
 Einen Einblick in die neuen Funktionen geben wir euch in diesem Blog.
 
 <!-- more -->
