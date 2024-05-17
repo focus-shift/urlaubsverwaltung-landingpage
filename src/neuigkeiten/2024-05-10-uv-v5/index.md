@@ -1,7 +1,7 @@
 ---
 draft: false
 layout: layout-neuigkeiten
-date: 2024-05-10
+date: 2024-05-17
 title: Individuelle Abwesenheitsarten in der Urlaubsverwaltung
 author: Daniel Fuchs
 release-version: 5.0.0
@@ -34,6 +34,7 @@ Einen Einblick in die neuen Funktionen geben wir euch in diesem Blog.
 </div>
 
 Gibt es im Unternehmen besondere Abwesenheitsarten? Je nach Branche und Ausrichtung sind nicht nur die Arbeitsbereiche stark unterschiedlich, sondern auch die Abwesenheitsarten können variieren. Daher bietet die Urlaubsverwaltung jetzt individuelle Abwesenheitsarten, um die betrieblichen Abläufe besser abbilden zu können. Die individuellen Abwesenheitsarten können als Mitarbeitende mit der Berechtigung Office in den Einstellungen unter Abwesenheitsarten gepflegt werden. Mit den entsprechenden Übersetzungen in Deutsch, Österreichisch, Englisch und Griechisch bist du bestens auch für deine internationalen Kollegen aufgestellt.
+Die individuellen Abwesenheitsarten werden außerdem auch in der Zeiterfassung berücksichtigt, sodass die Sollstunden reduziert werden.
 
 <div class="my-8 flex flex-col gap-4 md:flex-row">
     <figure>
