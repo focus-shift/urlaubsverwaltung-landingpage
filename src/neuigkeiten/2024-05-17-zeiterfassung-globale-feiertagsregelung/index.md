@@ -21,7 +21,7 @@ Bisher musste für jede Person einzeln das Bundesland und die dazugehörige Feie
         <picture>
             <source srcset="globale-feiertagsregelung-konfiguration.avif" type="image/avif" />
             <img
-              src="globale-feiertagsregelung-konfiguration.png"
+              src="globale-feiertagsregelung-konfiguration.jpg"
               alt="Konfiguration der globalen Feiertagsregelung in der Zeiterfassung"
               decoding="async"
               loading="lazy"
