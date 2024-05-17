@@ -4,8 +4,34 @@
   <subtitle></subtitle>
   <link rel="self" href="https://urlaubsverwaltung.cloud/feed.xml" />
   <link rel="alternate" type="text/html" href="https://urlaubsverwaltung.cloud" />
-  <updated>2024-05-10T00:00:00Z</updated>
+  <updated>2024-05-17T00:00:00Z</updated>
   <id>https://urlaubsverwaltung.cloud</id>
+  
+  
+  
+  <entry>
+    <title>Globale Feiertagsregelung in der Zeiterfassung</title>
+    <link href="https://urlaubsverwaltung.cloud/neuigkeiten/2024-05-17-zeiterfassung-globale-feiertagsregelung/" />
+    <updated>2024-05-17T00:00:00Z</updated>
+    <id>https://urlaubsverwaltung.cloud/neuigkeiten/2024-05-17-zeiterfassung-globale-feiertagsregelung/</id>
+    <author>
+      <name>Tobias Schneider</name>
+    </author>
+    <content type="html">&lt;p&gt;Globale Feiertagsregelungen und Arbeitszeiten zentral für dein Unternehmen festlegen. Diese Einstellungen gelten als Standard für alle Mitarbeitenden und können bei Bedarf individuell angepasst werden.&lt;/p&gt;
+&lt;h2 id=&quot;globale-feiertagsregelung&quot;&gt;Globale Feiertagsregelung&lt;/h2&gt;
+&lt;p&gt;Bisher musste für jede Person einzeln das Bundesland und die dazugehörige Feiertagsregelung konfiguriert werden – eine mühsame Aufgabe bei einer größeren Anzahl von Mitarbeitern. Doch das ändert sich jetzt: Mit den neuen globalen Einstellungen kannst du ab sofort länderspezifische Feiertage und Arbeitsregelungen zentral für dein gesamtes Unternehmen festlegen.&lt;/p&gt;
+&lt;div class=&quot;flex my-8&quot;&gt;
+    &lt;figure&gt;
+        &lt;picture&gt;
+            &lt;source srcset=&quot;https://urlaubsverwaltung.cloud/neuigkeiten/2024-05-17-zeiterfassung-globale-feiertagsregelung/globale-feiertagsregelung-konfiguration.avif&quot; type=&quot;image/avif&quot; /&gt;
+            &lt;img src=&quot;https://urlaubsverwaltung.cloud/neuigkeiten/2024-05-17-zeiterfassung-globale-feiertagsregelung/globale-feiertagsregelung-konfiguration.jpg&quot; alt=&quot;Konfiguration der globalen Feiertagsregelung in der Zeiterfassung&quot; decoding=&quot;async&quot; loading=&quot;lazy&quot; class=&quot;rounded-lg&quot; /&gt;
+        &lt;/picture&gt;
+        &lt;figcaption class=&quot;text-sm text-center&quot;&gt;Konfiguration der globalen Feiertagsregelung in der Zeiterfassung&lt;/figcaption&gt;
+    &lt;/figure&gt;
+&lt;/div&gt;
+&lt;p&gt;Konfiguriere einmalig, ob an Feiertagen gearbeitet wird oder nicht, und lege das Bundesland für die Feiertagsregelung fest. Diese globalen Einstellungen gelten dann als Standard für alle Mitarbeitenden und können bei Bedarf individuell überschrieben werden. Spare Zeit und vereinfache die Zeiterfassung – ganz ohne Kompromisse bei der Genauigkeit.&lt;/p&gt;
+</content>
+  </entry>
   
   
   
