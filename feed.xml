@@ -38,7 +38,7 @@
   <entry>
     <title>Individuelle Abwesenheitsarten in der Urlaubsverwaltung</title>
     <link href="https://urlaubsverwaltung.cloud/neuigkeiten/2024-05-10-uv-v5/" />
-    <updated>2024-05-10T00:00:00Z</updated>
+    <updated>2024-05-17T00:00:00Z</updated>
     <id>https://urlaubsverwaltung.cloud/neuigkeiten/2024-05-10-uv-v5/</id>
     <author>
       <name>Daniel Fuchs</name>
@@ -56,7 +56,8 @@ Einen Einblick in die neuen Funktionen geben wir euch in diesem Blog.&lt;/p&gt;
         &lt;figcaption class=&quot;text-sm text-center&quot;&gt;Konfiguration von individuellen Abwesenheitsarten können nun in den Einstellungen hinterlegt werden&lt;/figcaption&gt;
     &lt;/figure&gt;
 &lt;/div&gt;
-&lt;p&gt;Gibt es im Unternehmen besondere Abwesenheitsarten? Je nach Branche und Ausrichtung sind nicht nur die Arbeitsbereiche stark unterschiedlich, sondern auch die Abwesenheitsarten können variieren. Daher bietet die Urlaubsverwaltung jetzt individuelle Abwesenheitsarten, um die betrieblichen Abläufe besser abbilden zu können. Die individuellen Abwesenheitsarten können als Mitarbeitende mit der Berechtigung Office in den Einstellungen unter Abwesenheitsarten gepflegt werden. Mit den entsprechenden Übersetzungen in Deutsch, Österreichisch, Englisch und Griechisch bist du bestens auch für deine internationalen Kollegen aufgestellt.&lt;/p&gt;
+&lt;p&gt;Gibt es im Unternehmen besondere Abwesenheitsarten? Je nach Branche und Ausrichtung sind nicht nur die Arbeitsbereiche stark unterschiedlich, sondern auch die Abwesenheitsarten können variieren. Daher bietet die Urlaubsverwaltung jetzt individuelle Abwesenheitsarten, um die betrieblichen Abläufe besser abbilden zu können. Die individuellen Abwesenheitsarten können als Mitarbeitende mit der Berechtigung Office in den Einstellungen unter Abwesenheitsarten gepflegt werden. Mit den entsprechenden Übersetzungen in Deutsch, Österreichisch, Englisch und Griechisch bist du bestens auch für deine internationalen Kollegen aufgestellt.
+Die individuellen Abwesenheitsarten werden außerdem auch in der Zeiterfassung berücksichtigt, sodass die Sollstunden reduziert werden.&lt;/p&gt;
 &lt;div class=&quot;my-8 flex flex-col gap-4 md:flex-row&quot;&gt;
     &lt;figure&gt;
         &lt;picture&gt;
