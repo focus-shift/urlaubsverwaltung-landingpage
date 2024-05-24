@@ -155,14 +155,13 @@ zusätzlich für jeden Benutzenden einzeln im Konto überschrieben werden.
       alt="Überschreiben der Konfiguration des Resturlaubes pro Benutzenden"
       decoding="async"
       loading="lazy"
-      width="794"
-      height="478"
+      width="777"
+      height="526"
     />
   </picture>
 </p>
 
-Das Datum für den Verfall des Resturlaubs und ob dieser überhaupt Verfällt, kann im Konto eines Mitarbeitenden unter 
-'Urlaubsanspruch' individuell pro Jahr konfiguriert werden. Die Voreinstellung des Verfallsdatums ist auf den 1. April gesetzt.
+Das Datum für den Verfall des Resturlaubs und ob dieser überhaupt verfällt, kann global oder im Konto eines Mitarbeitenden unter 'Urlaubsanspruch' individuell pro Jahr konfiguriert werden. Die Voreinstellung des Verfallsdatums ist auf den 1. April gesetzt.
 
 ## Gibt es eine Möglichkeit ein Profil-Bild zu hinterlegen?
 

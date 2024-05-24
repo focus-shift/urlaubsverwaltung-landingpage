@@ -38,54 +38,54 @@ Die Kalenderfreigabe kann pro Benutzer konfiguriert werden. Um die Konfiguration
 
 1. Klicke auf "Kalenderfreigabe" in der Übersichtsseite oberhalb des Kalenders
 
-<p>
-  <picture>
-    <source srcset="kalenderfreigabe.avif" type="image/avif" />
-    <source srcset="kalenderfreigabe.webp" type="image/webp" />
-    <img
-      src="kalenderfreigabe.png"
-      alt="Kalenderfreigabe"
-      decoding="async"
-      loading="lazy"
-      width="1186"
-      height="813"
-    />
-  </picture>
-</p>
+    <p>
+      <picture>
+        <source srcset="kalenderfreigabe.avif" type="image/avif" />
+        <source srcset="kalenderfreigabe.webp" type="image/webp" />
+        <img
+          src="kalenderfreigabe.png"
+          alt="Kalenderfreigabe"
+          decoding="async"
+          loading="lazy"
+          width="1186"
+          height="850"
+        />
+      </picture>
+    </p>
 
 2. Wähle z. B. "Meinen Kalender freigeben"
 
-<p>
-  <picture>
-    <source srcset="kalenderfreigabe-aktivieren.avif" type="image/avif" />
-    <source srcset="kalenderfreigabe-aktivieren.webp" type="image/webp" />
-    <img
-      src="kalenderfreigabe-aktivieren.png"
-      alt="Kalenderfreigabe aktivieren"
-      decoding="async"
-      loading="lazy"
-      width="1171"
-      height="404"
-    />
-  </picture>
-</p>
+    <p>
+      <picture>
+        <source srcset="kalenderfreigabe-aktivieren.avif" type="image/avif" />
+        <source srcset="kalenderfreigabe-aktivieren.webp" type="image/webp" />
+        <img
+          src="kalenderfreigabe-aktivieren.png"
+          alt="Kalenderfreigabe aktivieren"
+          decoding="async"
+          loading="lazy"
+          width="1171"
+          height="404"
+        />
+      </picture>
+    </p>
 
-3. Es wird ein geheimer Link generiert, welchen du jetzt zum Abonnieren verwenden kannst. Weitere Infos über das Abonnieren findest du [hier](#welche-moeglichkeiten-habe-ich-eine-ical-kalenderfreigabe-in-meinem-client-zu-verwenden).
+3. Es wird ein geheimer Link generiert, welchen du jetzt zum Abonnieren verwenden kannst. Weitere Informationen über das Abonnieren findest du [hier](#welche-moeglichkeiten-habe-ich-eine-ical-kalenderfreigabe-in-meinem-client-zu-verwenden).
 
-<p>
-  <picture>
-    <source srcset="kalenderfreigabe-link.avif" type="image/avif" />
-    <source srcset="kalenderfreigabe-link.webp" type="image/webp" />
-    <img
-      src="kalenderfreigabe-link.png"
-      alt="Kalenderfreigabe Link"
-      decoding="async"
-      loading="lazy"
-      width="1176"
-      height="401"
-    />
-  </picture>
-</p>
+    <p>
+      <picture>
+        <source srcset="kalenderfreigabe-link.avif" type="image/avif" />
+        <source srcset="kalenderfreigabe-link.webp" type="image/webp" />
+        <img
+          src="kalenderfreigabe-link.png"
+          alt="Kalenderfreigabe Link"
+          decoding="async"
+          loading="lazy"
+          width="1176"
+          height="401"
+        />
+      </picture>
+    </p>
 
 ### Wie kann ich eine Freigabe löschen?
 
@@ -93,37 +93,37 @@ Eine Freigabe kann über folgende Schritte gelöscht werden:
 
 1. Klicke auf "Kalenderfreigabe" in der Übersichtsseite oberhalb des Kalenders
 
-<p>
-  <picture>
-    <source srcset="kalenderfreigabe.avif" type="image/avif" />
-    <source srcset="kalenderfreigabe.webp" type="image/webp" />
-    <img
-      src="kalenderfreigabe.png"
-      alt="Kalenderfreigabe"
-      decoding="async"
-      loading="lazy"
-      width="1186"
-      height="813"
-    />
-  </picture>
-</p>
+    <p>
+      <picture>
+        <source srcset="kalenderfreigabe.avif" type="image/avif" />
+        <source srcset="kalenderfreigabe.webp" type="image/webp" />
+        <img
+          src="kalenderfreigabe.png"
+          alt="Kalenderfreigabe"
+          decoding="async"
+          loading="lazy"
+          width="1186"
+          height="850"
+        />
+      </picture>
+    </p>
 
 2. Wähle beim betreffenden Kalender "Freigabe löschen". Durch das Löschen ist der Zugriff über den geheimen Link nicht mehr möglich.
 
-<p>
-  <picture>
-    <source srcset="kalenderfreigabe-loeschen.avif" type="image/avif" />
-    <source srcset="kalenderfreigabe-loeschen.webp" type="image/webp" />
-    <img
-      src="kalenderfreigabe-loeschen.png"
-      alt="Kalenderfreigabe löschen"
-      decoding="async"
-      loading="lazy"
-      width="1162"
-      height="377"
-    />
-  </picture>
-</p>
+    <p>
+      <picture>
+        <source srcset="kalenderfreigabe-loeschen.avif" type="image/avif" />
+        <source srcset="kalenderfreigabe-loeschen.webp" type="image/webp" />
+        <img
+          src="kalenderfreigabe-loeschen.png"
+          alt="Kalenderfreigabe löschen"
+          decoding="async"
+          loading="lazy"
+          width="1162"
+          height="377"
+        />
+      </picture>
+    </p>
 
 ### Welche Möglichkeiten habe ich eine iCal Kalenderfreigabe in meinem Client zu verwenden?
 
@@ -144,44 +144,9 @@ Ja, wir haben die Kalenderintegration für Google Calendar und Exchange in Versi
 
 Durch die iCal Kalenderfreigabe können die Berechtigungen und Sichtbarkeiten feingranular konfiguriert werden, wodurch ein Datenschutz-konformer Einsatz möglich wird.
 
-## Microsoft Exchange
-
-<aside class="wissensbasis-info">
-  <p>
-    Die Kalender Integration mit Microsoft Exchange / Outlook Kalender ist von Microsoft <a target="_blank" href=https://devblogs.microsoft.com/microsoft365dev/upcoming-changes-to-exchange-web-services-ews-api-for-office-365/>abgekündigt</a> und wird daher nicht mehr gepflegt. Wir empfehlen daher die allgemeine <a href="#kalenderfreigabe">Kalenderfreigabe</a>. 
-  </p>
-</aside>
-
-### Welche Bedingungen muss der Exchange Benutzer erfüllen?
-
-Es wird die E-Mail-Adresse und das Passwort des Exchange / Outlook Benutzers angegeben,
-der automatisch Termine anlegen soll. Für diese Zugangsdaten muss der
-"auto discovery"-Dienst funktionieren - am Besten dies vorher separat testen.
-
-Außerdem muss der Benutzer über folgende Berechtigungen verfügen:
-
-- Kalender anlegen können
-- Termine im angegebenen Kalender anlegen können
-- beim Anlegen von Terminen die entsprechenden Benutzer einladen können
-  (E-Mail-Adresse der Benutzer wird hierzu verwendet)
-
-### Muss der konfigurierte Kalender existieren?
-
-Bei der Synchronisierung wird überprüft, ob es bereits einen Kalender mit dem
-angegebenen Namen gibt. Wenn kein Kalender mit diesem Namen existiert, wird
-automatisch ein neuer angelegt.
-
 ## Google Calendar
 
-<aside class="wissensbasis-info">
-  <p>
-    Die Google Kalender Integration wird nicht mehr gepflegt und wird demnächst ersetzt mit der 
-    allgemeinen <a href="#kalenderfreigabe">Kalenderfreigabe</a>.
-  </p>
-</aside>
-
-Die Urlaubsverwaltung bietet die Funktionalität Kalendereinträge in einen Kalender innerhalb von Google Calendar zu synchronisieren.
-Um die Synchronisation zu konfigurieren müssen folgende Voraussetzungen geschaffen werden:
+Die Urlaubsverwaltung bietet die Möglichkeit, Kalendereinträge in einen Google Calendar zu synchronisieren. Um die Synchronisation zu konfigurieren, müssen folgende Voraussetzungen erfüllt sein:
 
 1. **Google Calendar API** aktivieren ([Enable and disable APIs](https://cloud.google.com/apis/docs/enable-disable-apis))
 2. Die **OAuth2 Client Id** als Webanwendung konfigurieren (https://console.developers.google.com).
