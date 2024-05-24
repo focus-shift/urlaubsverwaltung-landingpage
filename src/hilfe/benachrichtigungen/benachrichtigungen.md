@@ -65,7 +65,7 @@ hat, wird nur Personen mit der Berechtigung _Office_ bzw. _Chef_ angezeigt.
 </picture>
 </p>
 
-## Welche Benachrichtigungen gibt es in der Urlaubsverwaltung die ich derzeit noch nicht deaktivieren kann?
+## Welche Benachrichtigungen gibt es in der Urlaubsverwaltung, die ich derzeit noch nicht deaktivieren kann?
 
 Bei folgenden Ereignissen werden Benachrichtigungen an die betreffenden Personen versendet:
 
