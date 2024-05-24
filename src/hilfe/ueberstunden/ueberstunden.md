@@ -107,7 +107,7 @@ Ja, ein Urlaubsantrag auf Überstundenabbau ist mit einer Minimalstundenanzahl k
 
 ## Können Überstunden abgebaut werden?
 
-Ja, dabei einfach Überstunden eintragen und dabei den Haken mit "Überstunden abbauen statt hinzufügen" setzen. Damit wird die eingetragene Zeit vom Überstundenkonto abgezogen.
+Ja, dabei einfach Überstunden eintragen und dabei den Haken mit "Überstunden abbauen statt hinzufügen" setzen. Damit wird die eingetragene Zeit vom Überstundenkonto abgezogen. Dafür muss die Überstundenerfassung aktiv sein, siehe dazu auch ["Eigenverantwortliche Erfassung"](#eigenverantwortliche-erfassung).
 
 <p>
   <picture>
