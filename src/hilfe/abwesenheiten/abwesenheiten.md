@@ -18,8 +18,7 @@ Der einfache Genehmigungsprozess für Abwesenheiten sieht vor, dass
 Abwesenheitsanträge von einem Abteilungsleiter oder Chef genehmigt werden.
 
 Außerdem gibt in der Urlaubsverwaltung auch
-einen [zweistufigen Genehmigungsprozess](#wie-funktioniert-der-zweistufige-genehmigungsprozess-von-abwesenheitsantraegen)
-.
+einen [zweistufigen Genehmigungsprozess](#wie-funktioniert-der-zweistufige-genehmigungsprozess-von-abwesenheiten).
 
 ## Wer wird informiert, wenn ein Abwesenheitsantrag gestellt wurde?
 
@@ -56,8 +55,8 @@ eine eigene Notiz hinterlegt werden. Die ausgewählten Personen werden über die
       alt="Übersicht zu aktuellen und zukünftigen Vertretungen"
       decoding="async"
       loading="lazy"
-      width="1179"
-      height="174"
+      width="798"
+      height="940"
     />
   </picture>
 </p>
@@ -74,8 +73,8 @@ eine Übersicht aller Vertretungen einsehbar.
       alt="Übersicht zu aktuellen und zukünftigen Vertretungen"
       decoding="async"
       loading="lazy"
-      width="1179"
-      height="174"
+      width="1183"
+      height="232"
     />
   </picture>
 </p>
@@ -110,14 +109,13 @@ Die Urlaubsverwaltung ist mit folgenden Abwesenheitsarten standardmäßig vorein
 - Unbezahlter Urlaub
 - Überstundenabbau
 
-Zusätzlich sind viele weitere Abwesenheitsarten in den globalen Einstellungen der Urlaubsverwaltung aktivierbar. Außerdem können auch individuelle Abwesenheitsarten angelegt werden.
+Zusätzlich können viele weitere Abwesenheitsarten in den globalen Einstellungen der Urlaubsverwaltung aktiviert werden. Ebenso können individuelle Abwesenheitsarten angelegt werden.
 
-Die Aktivierung und Deaktivierung ist zu jeder Zeit möglich, bitte beachte das durch eine Änderung der Einstellungen bereits vorhandene Abwesenheiten mit der betreffenden Abwesenheitsart nicht verändert werden.
+Die Aktivierung und Deaktivierung ist jederzeit möglich. Bitte beachte, dass durch eine Änderung der Einstellungen bereits vorhandene Abwesenheiten mit der betreffenden Abwesenheitsart nicht verändert werden.
 
 ## Wie können zusätzliche Abwesenheitsarten konfiguriert werden?
 
-Ja, es ist möglich weitere Abwesenheitsarten zu konfigurieren. Diese können in den globalen Einstellungen der
-Urlaubsverwaltung konfiguriert werden. Neben einem vordefinierten Set von Abwesenheitsarten können auch individuelle Abwesenheitsarten konfiguriert werden. Mit den entsprechenden Übersetzungen in Deutsch, Österreichisch, Englisch und Griechisch bist du bestens auch für deine internationalen Kollegen aufgestellt. Die individuellen Abwesenheitsarten werden außerdem auch in der Zeiterfassung berücksichtigt, sodass die Sollstunden reduziert werden.
+Ja, es ist möglich, weitere Abwesenheitsarten zu konfigurieren. Diese können in den globalen Einstellungen der Urlaubsverwaltung festgelegt werden. Neben einem vordefinierten Set von Abwesenheitsarten können auch individuelle Abwesenheitsarten hinzugefügt werden. Dank der entsprechenden Übersetzungen ins Deutsche, Österreichische, Englische und Griechische bist du auch für deine internationalen Kollegen bestens gerüstet. Die individuellen Abwesenheitsarten werden zudem in der Zeiterfassung berücksichtigt, sodass die Sollstunden entsprechend reduziert werden.
 
 <p>
   <picture>
@@ -128,8 +126,8 @@ Urlaubsverwaltung konfiguriert werden. Neben einem vordefinierten Set von Abwese
       alt="Konfiguration von Abwesenheitsarten"
       decoding="async"
       loading="lazy"
-      width="859"
-      height="754"
+      width="1185"
+      height="1131"
     />
   </picture>
 </p>
@@ -141,7 +139,7 @@ Ja, du kannst pro Abwesenheitsart festlegen, ob eine Genehmigung notwendig ist, 
 
 Bitte beachte zusätzlich, dass der für die Abteilung aktive Genehmigungsprozess verwendet wird.
 
-## Ist es möglich eine bestimmte Abwesenheitsarten für alle Mitarbeitenden sichtbar zu machen?
+## Ist es möglich eine bestimmte Abwesenheitsart für alle Mitarbeitenden sichtbar zu machen?
 
 Ja, du kannst pro Abwesenheitsart festlegen, ob diese für alle Mitarbeitenden sichtbar ist und ohne Informationsverlust
 dargestellt wird.  
@@ -159,7 +157,7 @@ Diese Farbe wird dann in allen Kalendern und in der Abwesenheitsübersicht verwe
 
 ## Wie kann ich einem Antrag bearbeiten?
 
-Ein selbst erstellter Antrag kann solange der Antrag noch nicht genehmigt wurde noch bearbeitet werden. Das Bearbeiten kann durch den Mitarbeiter selbst durchgeführt werden.
+Ein selbst erstellter Antrag kann bearbeitet werden, solange er noch nicht genehmigt wurde. Diese Bearbeitung kann vom Mitarbeiter selbst durchgeführt werden.
 
 <p>
   <picture>
