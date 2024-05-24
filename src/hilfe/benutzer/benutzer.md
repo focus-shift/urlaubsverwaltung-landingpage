@@ -155,8 +155,8 @@ zusätzlich für jeden Benutzenden einzeln im Konto überschrieben werden.
       alt="Überschreiben der Konfiguration des Resturlaubes pro Benutzenden"
       decoding="async"
       loading="lazy"
-      width="794"
-      height="478"
+      width="777"
+      height="526"
     />
   </picture>
 </p>
