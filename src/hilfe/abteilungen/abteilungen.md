@@ -44,12 +44,7 @@ entsprechende Berechtigung _Abteilungsleiter_ erhalten. Die Konfiguration von Be
   </picture>
 </p>
 
-Nun geht man über die Menüleiste zu den "Abteilungen". Hier bearbeitet man eine
-bestehende Abteilung oder legt eine neue an. Beim Zuordnen der Mitarbeiter zu
-einer Abteilung hat man nun bei den Benutzern, die die entsprechende
-Berechtigung haben, die zusätzliche Auswahlmöglichkeit "ist Abteilungsleiter".
-Wählt man diese aus und speichert die Zuordnung, ist der entsprechende Benutzer
-nun Abteilungsleiter dieser Abteilung.
+Nun geht man über die Menüleiste zu den "Abteilungen". Hier kann man eine bestehende Abteilung bearbeiten oder eine neue anlegen. Beim Zuordnen der Mitarbeiter zu einer Abteilung hat man bei Benutzern mit der entsprechenden Berechtigung die zusätzliche Auswahlmöglichkeit "ist Abteilungsleiter". Wählt man diese Option aus und speichert die Zuordnung, wird der entsprechende Benutzer zum Abteilungsleiter dieser Abteilung.
 
 <p>
   <picture>
