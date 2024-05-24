@@ -144,41 +144,7 @@ Ja, wir haben die Kalenderintegration für Google Calendar und Exchange in Versi
 
 Durch die iCal Kalenderfreigabe können die Berechtigungen und Sichtbarkeiten feingranular konfiguriert werden, wodurch ein Datenschutz-konformer Einsatz möglich wird.
 
-## Microsoft Exchange
-
-<aside class="wissensbasis-info">
-  <p>
-    Die Kalender Integration mit Microsoft Exchange / Outlook Kalender ist von Microsoft <a target="_blank" href=https://devblogs.microsoft.com/microsoft365dev/upcoming-changes-to-exchange-web-services-ews-api-for-office-365/>abgekündigt</a> und wird daher nicht mehr gepflegt. Wir empfehlen daher die allgemeine <a href="#kalenderfreigabe">Kalenderfreigabe</a>. 
-  </p>
-</aside>
-
-### Welche Bedingungen muss der Exchange Benutzer erfüllen?
-
-Es wird die E-Mail-Adresse und das Passwort des Exchange / Outlook Benutzers angegeben,
-der automatisch Termine anlegen soll. Für diese Zugangsdaten muss der
-"auto discovery"-Dienst funktionieren - am Besten dies vorher separat testen.
-
-Außerdem muss der Benutzer über folgende Berechtigungen verfügen:
-
-- Kalender anlegen können
-- Termine im angegebenen Kalender anlegen können
-- beim Anlegen von Terminen die entsprechenden Benutzer einladen können
-  (E-Mail-Adresse der Benutzer wird hierzu verwendet)
-
-### Muss der konfigurierte Kalender existieren?
-
-Bei der Synchronisierung wird überprüft, ob es bereits einen Kalender mit dem
-angegebenen Namen gibt. Wenn kein Kalender mit diesem Namen existiert, wird
-automatisch ein neuer angelegt.
-
 ## Google Calendar
-
-<aside class="wissensbasis-info">
-  <p>
-    Die Google Kalender Integration wird nicht mehr gepflegt und wird demnächst ersetzt mit der 
-    allgemeinen <a href="#kalenderfreigabe">Kalenderfreigabe</a>.
-  </p>
-</aside>
 
 Die Urlaubsverwaltung bietet die Funktionalität Kalendereinträge in einen Kalender innerhalb von Google Calendar zu synchronisieren.
 Um die Synchronisation zu konfigurieren müssen folgende Voraussetzungen geschaffen werden:

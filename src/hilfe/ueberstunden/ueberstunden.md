@@ -105,6 +105,25 @@ Ja, durch eine globale Konfiguration in den Einstellungen ist die Eintragung, An
 
 Ja, ein Urlaubsantrag auf Überstundenabbau ist mit einer Minimalstundenanzahl konfigurierbar. Damit müssen pro Antrag mindestens die konfigurierten Minimalstunden abgebaut werden. Diese Minimalstundenanzahl kann über die Einstellungen der Urlaubsverwaltung global konfiguriert werden. Die Konfiguration kann unter "Einstellungen" im Tab "Arbeitszeiten" unter "Einstellungen zu Überstunden" mit der Konfiguration "Minimale Anzahl an abgebauten Stunden pro Antrag" aktiviert werden.
 
+## Können Überstunden abgebaut werden?
+
+Ja, dabei einfach Überstunden eintragen und dabei den Haken mit "Überstunden abbauen statt hinzufügen" setzen. Damit wird die eingetragene Zeit vom Überstundenkonto abgezogen.
+
+<p>
+  <picture>
+    <source srcset="abbau-ohne-antrag.avif" type="image/avif" />
+    <source srcset="abbau-ohne-antrag.webp" type="image/webp" />
+    <img
+      src="abbau-ohne-antrag.png"
+      alt="Abbau von Überstunden erfassen"
+      decoding="async"
+      loading="lazy"
+      width="631"
+      height="227"
+    />
+  </picture>
+</p>
+
 ## Ist der Überstundenabbau deaktivierbar?
 
 Ja, die Funktionalität den Abbau von Überstunden direkt eintragen zu können, ist über eine globale Konfiguration in den Einstellungen deaktivierbar. Die Konfiguration kann in den "Einstellungen" im Tab "Arbeitszeiten" unter "Einstellungen zu Überstunden" mit der Konfiguration "Überstundenabbau ohne Urlaubsantrag aktivieren" aktiviert bzw. deaktiviert werden.

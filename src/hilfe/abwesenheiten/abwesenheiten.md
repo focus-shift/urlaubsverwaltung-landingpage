@@ -8,8 +8,8 @@ description: Hier findest du Hilfe zu dem Thema Abwesenheiten
 
 # Abwesenheiten (Urlaub, Krankmeldung & Überstundenabbau) richtig pflegen
 
-Im gegensatz zur Pflege der Anwesenheiten in der Zeiterfassung, können in der Urlaubsverwaltung
-drei Arten von Abwesenheiten gepflegt werden: Urlaub, Krankmeldungen und Überstundenabbau.
+Im Gegensatz zur Pflege der Anwesenheiten in der Zeiterfassung, können in der Urlaubsverwaltung
+unterschiedliche Arten von Abwesenheiten wie z.B. Urlaube, Krankmeldungen oder Überstundenabbau.
 Letzteres kann in den Einstellungen aktiviert oder deaktiviert werden.
 
 ## Wer genehmigt eine Abwesenheit?
@@ -110,16 +110,14 @@ Die Urlaubsverwaltung ist mit folgenden Abwesenheitsarten standardmäßig vorein
 - Unbezahlter Urlaub
 - Überstundenabbau
 
-Zusätzlich sind viele weitere Abwesenheitsarten in den globalen Einstellungen der Urlaubsverwaltung aktivierbar.
+Zusätzlich sind viele weitere Abwesenheitsarten in den globalen Einstellungen der Urlaubsverwaltung aktivierbar. Außerdem können auch individuelle Abwesenheitsarten angelegt werden.
 
-Die Aktivierung und Deaktivierung ist zu jeder Zeit möglich, bitte beachte das durch eine Änderung der Einstellungen
-bereits vorhandene Abwesenheiten nicht verändert werden.
+Die Aktivierung und Deaktivierung ist zu jeder Zeit möglich, bitte beachte das durch eine Änderung der Einstellungen bereits vorhandene Abwesenheiten mit der betreffenden Abwesenheitsart nicht verändert werden.
 
 ## Wie können zusätzliche Abwesenheitsarten konfiguriert werden?
 
 Ja, es ist möglich weitere Abwesenheitsarten zu konfigurieren. Diese können in den globalen Einstellungen der
-Urlaubsverwaltung konfiguriert werden. Fehlt dir eine Abwesenheitsart
-dann [schreib uns](mailto:info@urlaubsverwaltung.cloud?subject=Weitere%20Abwesenheitsart) einfach!
+Urlaubsverwaltung konfiguriert werden. Neben einem vordefinierten Set von Abwesenheitsarten können auch individuelle Abwesenheitsarten konfiguriert werden. Mit den entsprechenden Übersetzungen in Deutsch, Österreichisch, Englisch und Griechisch bist du bestens auch für deine internationalen Kollegen aufgestellt. Die individuellen Abwesenheitsarten werden außerdem auch in der Zeiterfassung berücksichtigt, sodass die Sollstunden reduziert werden.
 
 <p>
   <picture>
@@ -159,10 +157,9 @@ Ist die Checkbox aktiviert, erhalten alle Mitarbeitenden, welche die Anträge de
 Ja, du kannst bei den Einstellungen zu Abwesenheitsarten die Farbe pro Abwesenheitsart konfigurieren.
 Diese Farbe wird dann in allen Kalendern und in der Abwesenheitsübersicht verwendet.
 
-## Wie kann ich die Art der Abwesenheit bei einem Antrag bearbeiten?
+## Wie kann ich einem Antrag bearbeiten?
 
-Die Art der Abwesenheit kann noch angepasst werden, solange der Antrag noch nicht genehmigt wurde. Das Bearbeiten kann
-durch den Mitarbeiter selbst durchgeführt werden.
+Ein selbst erstellter Antrag kann solange der Antrag noch nicht genehmigt wurde noch bearbeitet werden. Das Bearbeiten kann durch den Mitarbeiter selbst durchgeführt werden.
 
 <p>
   <picture>
@@ -179,11 +176,7 @@ durch den Mitarbeiter selbst durchgeführt werden.
   </picture>
 </p>
 
-Um einen bereits genehmigten Antrag zu editieren, muss der bisherige Antrag storniert werden. Ein Benutzer mit der
-Berechtigung Office kann den Abwesenheitsantrag stornieren und einen neuen Abwesenheitsantrag mit der korrekten Art der
-Abwesenheit für den gleichen Zeitraum erstellen. Alternativ kann der Antragsteller zunächst die Stornierung seines
-Antrags anfragen. Sobald diese Stornierungsanfrage genehmigt wurde, kann für den betreffenden Zeitraum ein neuer Antrag
-mit der korrekten Art der Abwesenheit erstellt werden.
+Das Editieren eines bereits genehmigten Antrags, ist jederzeit durch einen Benutzer mit der Berechtigung Office möglich.
 
 ## Wie funktioniert der Übergang zwischen zwei Jahren?
 
