@@ -17,7 +17,7 @@ Um die Überstundenverwaltung nutzen zu können muss unter dem Menüpunkt "Einst
 ## Wer wird informiert, wenn ein Überstundeneintrag angelegt wurde?
 
 Wenn ein Überstundeneintrag erstellt wurde oder ein bereits bestehender editiert
-wurde, erhalten die Benutzer, die die Office Berechtigung haben und bei denen
+wurde, erhalten die Benutzer, welche die Office-Berechtigung haben und bei denen
 die entsprechende E-Mail-Benachrichtigung aktiv ist, eine E-Mail.
 
 ## Welche Arbeitsweisen sind möglich Überstunden im Unternehmen abzubilden?
@@ -118,8 +118,8 @@ Ja, dabei einfach Überstunden eintragen und dabei den Haken mit "Überstunden a
       alt="Abbau von Überstunden erfassen"
       decoding="async"
       loading="lazy"
-      width="631"
-      height="227"
+      width="1203"
+      height="523"
     />
   </picture>
 </p>

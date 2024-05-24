@@ -27,8 +27,8 @@ Die Mitarbeitenden erhalten darauf eine Einladung per E-Mail und können sich au
       alt="Mitarbeitende einladen"
       decoding="async"
       loading="lazy"
-      width="832"
-      height="411"
+      width="845"
+      height="489"
     />
   </picture>
 </p>
