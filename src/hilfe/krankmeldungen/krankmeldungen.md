@@ -65,6 +65,25 @@ Ja, eine Kind-Krankmeldung kann erfasst werden, indem der Typ von _Krankmeldung_
   </picture>
 </p>
 
+## Kann eine Mitarbeitende die Krankmeldung selbst einreichen?
+
+Ja, die Einreichung einer Krankmeldung durch die Mitarbeitende ist mit folgenden Einstellung unter "Abwesenheiten" im Abschnitt "Einstellungen zu Krankmeldungen" möglich:
+
+Weitere Informationen zur Verwendung finden sich in [diesem Blog-Beitrag](https://urlaubsverwaltung.cloud/neuigkeiten/2024-06-14-selbsteintragen-von-krankmeldungen/)
+<p>
+  <picture>
+    <source srcset="einstellungen-krankmeldung-selbsteintragen.avif" type="image/avif" />
+    <img
+      src="einstellungen-krankmeldung-selbsteintragen.png"
+      alt="Einstellung für selbstständige Krankmeldung durch Mitarbeitende aktivieren"
+      decoding="async"
+      loading="lazy"
+      width="1177"
+      height="451"
+    />
+  </picture>
+</p>
+
 ## Wird an das Ende der Lohnfortzahlung erinnert?
 
 Ja, die Urlaubsverwaltung erinnert sowohl den Mitarbeiter als auch Personen mit der Berechtigung 
