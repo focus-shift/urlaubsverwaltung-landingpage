@@ -8,7 +8,7 @@ release-version: 5.4.0
 description: Krankmeldung direkt als Mitarbeitende
 ---
 
-Krankmelden direkt über die Urlaubsverwaltung. Spar dir den Anruf bei deinem Chef und melde dich krank direkt über die urlaubsverwaltung.cloud.
+Krankmelden direkt über die Urlaubsverwaltung. Spar dir den Anruf bei deinem Chef und melde dich krank, direkt über die urlaubsverwaltung.cloud.
 
 <!-- more -->
 
@@ -18,7 +18,7 @@ Mit der neuen Version der Urlaubsverwaltung.cloud können jetzt auch die Mitarbe
 
 ### Der Ablauf der Einreichung
 
-Jetzt mal Schritt für Schritt. Wie kann ich die Krankmeldung selbst eintragen? Nach dem dein Office die Konfiguration vorgenommen hat, kannst du als Mitarbeitende einfach über das „+“-Zeichen neben einer Abwesenheit auch eine Krankmeldung eintragen. Mehr zur Konfiguration der urlaubsverwaltung.cloud findest du in unserer [Hilfe zu Krankmeldungen](https://urlaubsverwaltung.cloud/hilfe/krankmeldungen/#kann-eine-mitarbeitende-die-krankmeldung-selbst-einreichen).
+Jetzt mal Schritt für Schritt. Wie kann ich die Krankmeldung selbst eintragen? Nach dem dein Office die Konfiguration vorgenommen hat, kannst du als Mitarbeitende über das „+“-Zeichen neben einer Abwesenheit auch eine Krankmeldung eintragen. Mehr zur Konfiguration der urlaubsverwaltung.cloud findest du in unserer [Hilfe zu Krankmeldungen](https://urlaubsverwaltung.cloud/hilfe/krankmeldungen/#kann-eine-mitarbeitende-die-krankmeldung-selbst-einreichen).
 
 <div class="flex my-8">
     <figure>
@@ -36,7 +36,7 @@ Jetzt mal Schritt für Schritt. Wie kann ich die Krankmeldung selbst eintragen? 
     </figure>
 </div>
 
-Mitarbeitende mit der Berechtigung „Office” oder „Pflege von Krankmeldungen” bekommen jetzt eine Benachrichtigung, dass eine neue Krankmeldung eingereicht wurde. Sie können diese im Bereich „Abwesenheiten” unter „Eingereichte Krankmeldungen von Kolleg:innen” einsehen. Hier gibt es jetzt die Möglichkeit, die Einreichung direkt anzunehmen oder auch zu stornieren. Wenn du die Krankmeldung annimmst, dann wissen auch die Kollegen der erkrankten Person, dass sie abwesend ist. Außerdem kannst du jetzt nachgelagerte Prozesse in der Organisation anstoßen, zum Beispiel in der Lohnbuchhaltung.
+Mitarbeitende mit der Berechtigung „Office” oder „Pflege von Krankmeldungen” bekommen jetzt eine Benachrichtigung, dass eine neue Krankmeldung eingereicht wurde. Sie können diese im Bereich „Abwesenheiten” unter „Eingereichte Krankmeldungen von Kolleg:innen” einsehen. Hier gibt es jetzt die Möglichkeit, die Einreichung direkt anzunehmen oder auch zu stornieren. Wenn du die Krankmeldung annimmst, dann wissen auch alle Kollegen der erkrankten Person, dass sie abwesend ist. Außerdem kannst du jetzt nachgelagerte Prozesse in der Organisation anstoßen, zum Beispiel in der Lohnbuchhaltung.
 
 <div class="flex my-8">
     <figure>
@@ -72,11 +72,11 @@ An einer Krankmeldung ist für alle Beteiligte sichtbar, wer die Krankmeldung ei
     </figure>
 </div>
 
-In den nächsten Versionen der urlaubsverwaltung.cloud werden wir uns noch mehr ins Zeug legen und das Ganze weiter verbessern und ausbauen. Dabei wollen wir vor allem darauf achten, dass die Funktion einfacher zu bedienen ist und wir sie noch besser an eure Bedürfnisse anpassen.
+In den nächsten Versionen der urlaubsverwaltung.cloud werden wir uns noch mehr ins Zeug legen und das Ganze weiter verbessern und ausbauen. Dabei wollen wir vor allem darauf achten, dass die Funktion einfacher zu bedienen ist und wir sie noch besser an eure Bedürfnisse anpassen. Meldet euch gerne bei uns, wenn ihr mitgestalten wollt.
 
 ## Zusammenfassen und Verlängern
 
-Doch einen Tag länger krank gewesen? Mehrere Krankmeldungen hintereinander aus dem gleichen Grund? Dafür werden wir für den Mitarbeitenden die Möglichkeit schaffen, um eine bestehende Krankmeldung ohne viel Aufwand zu verlängern. Auch als Person mit der Berechtigung „Office” oder „Pflege von Krankmeldungen” werden wir in dem Zuge es ermöglichen Krankmeldungen zusammenzufassen.
+Doch einen Tag länger krank gewesen? Mehrere Krankmeldungen hintereinander aus dem gleichen Grund? Dafür werden wir für Mitarbeitende die Möglichkeit schaffen, eine bestehende Krankmeldung ohne viel Aufwand zu verlängern. Auch als Person mit der Berechtigung „Office” oder „Pflege von Krankmeldungen” werden wir in dem Zuge es ermöglichen, Krankmeldungen zusammenzufassen.
 
 ## Vereinfachte Krankmeldung
 
