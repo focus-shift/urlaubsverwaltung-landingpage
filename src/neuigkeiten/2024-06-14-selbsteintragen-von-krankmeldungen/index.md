@@ -74,6 +74,26 @@ An einer Krankmeldung ist für alle Beteiligte sichtbar, wer die Krankmeldung ei
 
 In den nächsten Versionen der urlaubsverwaltung.cloud werden wir uns noch mehr ins Zeug legen und das Ganze weiter verbessern und ausbauen. Dabei wollen wir vor allem darauf achten, dass die Funktion einfacher zu bedienen ist und wir sie noch besser an eure Bedürfnisse anpassen. Meldet euch gerne bei uns, wenn ihr mitgestalten wollt.
 
+## Benachrichtigungen
+
+Neben der bereits bestehenden Benachrichtigung über neu erfasste Krankmeldungen ist es nun auch möglich, sich als Mitarbeitende mit der Berechtigung „Office” oder „Pflege von Krankmeldungen" über eingereichte und angenommene Krankmeldungen benachrichtigen zu lassen.
+
+<div class="flex my-8">
+    <figure>
+        <picture>
+            <source srcset="verlauf-krankmeldung.avif" type="image/avif" />
+            <img
+              src="benachrichtigungen-krankmeldungen.png"
+              alt="Verlauf in einer Krankmeldung, die von einer Mitarbeitenden eingetragen wurde"
+              decoding="async"
+              loading="lazy"
+              class="rounded-lg"
+            />
+        </picture>
+        <figcaption class="text-sm text-center">Der Verlauf an einer Krankmeldung zeigt die Einreichung sowie das Akzeptieren einer Krankmeldung</figcaption>
+    </figure>
+</div>
+
 ## Zusammenfassen und Verlängern
 
 Doch einen Tag länger krank gewesen? Mehrere Krankmeldungen hintereinander aus dem gleichen Grund? Dafür werden wir für Mitarbeitende die Möglichkeit schaffen, eine bestehende Krankmeldung ohne viel Aufwand zu verlängern. Auch als Person mit der Berechtigung „Office” oder „Pflege von Krankmeldungen” werden wir in dem Zuge es ermöglichen, Krankmeldungen zusammenzufassen.
