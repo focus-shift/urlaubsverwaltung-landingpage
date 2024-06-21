@@ -86,7 +86,7 @@ An einer Krankmeldung ist für alle Berechtigten sichtbar, wann und wer die Kran
               class="rounded-lg"
             />
         </picture>
-        <figcaption class="text-sm text-center">Der Verlauf an einer Krankmeldung zeigt die Einreichung sowie das Akzeptieren einer Krankmeldung</figcaption>
+        <figcaption class="text-sm text-center">Der Verlauf an einer Krankmeldung zeigt die Einreichung sowie das Annehmen einer Krankmeldung</figcaption>
     </figure>
 </div>
 
@@ -102,13 +102,13 @@ Krankmeldungen benachrichtigen zu lassen.
             <source srcset="benachrichtigungen-krankmeldungen.avif" type="image/avif" />
             <img
               src="benachrichtigungen-krankmeldungen.png"
-              alt="Verlauf in einer Krankmeldung, die von einer Mitarbeitenden eingetragen wurde"
+              alt="Einstellung der Benachrichtigungen für eingereichte und angenommene Krankmeldungen"
               decoding="async"
               loading="lazy"
               class="rounded-lg"
             />
         </picture>
-        <figcaption class="text-sm text-center">Der Verlauf an einer Krankmeldung zeigt die Einreichung sowie das Akzeptieren einer Krankmeldung</figcaption>
+        <figcaption class="text-sm text-center">Einstellung der Benachrichtigungen für eingereichte und angenommene Krankmeldungen</figcaption>
     </figure>
 </div>
 
