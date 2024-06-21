@@ -18,7 +18,16 @@ Mit der neuen Version der Urlaubsverwaltung.cloud können jetzt auch die Mitarbe
 
 ### Der Ablauf der Einreichung
 
-Jetzt mal Schritt für Schritt. Wie kann ich die Krankmeldung selbst eintragen? Nach dem dein Office die Konfiguration vorgenommen hat, kannst du als Mitarbeitende über das „+“-Zeichen neben einer Abwesenheit auch eine Krankmeldung eintragen. Mehr zur Konfiguration der urlaubsverwaltung.cloud findest du in unserer [Hilfe zu Krankmeldungen](https://urlaubsverwaltung.cloud/hilfe/krankmeldungen/#kann-eine-mitarbeitende-die-krankmeldung-selbst-einreichen).
+Hier bekommst du eine Schritt-für-Schritt-Anleitung:
+
+#### 1. Funktion aktivieren
+
+Dein Office bzw. deine Personalabteilung kann die Funktion "Mitarbeiter-Krankmeldung" aktivieren/deaktivieren.
+Mehr zur Konfiguration der urlaubsverwaltung.cloud findest du in unserer [Hilfe zu Krankmeldungen](https://urlaubsverwaltung.cloud/hilfe/krankmeldungen/#kann-eine-mitarbeitende-die-krankmeldung-selbst-einreichen).
+
+#### 2. Krankmeldung eintragen
+
+Jetzt kannst du als Mitarbeitende über das „+“-Zeichen neben einer Abwesenheit auch eine Krankmeldung eintragen.
 
 <div class="flex my-8">
     <figure>
@@ -36,7 +45,16 @@ Jetzt mal Schritt für Schritt. Wie kann ich die Krankmeldung selbst eintragen? 
     </figure>
 </div>
 
-Mitarbeitende mit der Berechtigung „Office” oder „Pflege von Krankmeldungen” bekommen jetzt eine Benachrichtigung, dass eine neue Krankmeldung eingereicht wurde. Sie können diese im Bereich „Abwesenheiten” unter „Eingereichte Krankmeldungen von Kolleg:innen” einsehen. Hier gibt es jetzt die Möglichkeit, die Einreichung direkt anzunehmen oder auch zu stornieren. Wenn du die Krankmeldung annimmst, dann wissen auch alle Kollegen der erkrankten Person, dass sie abwesend ist. Außerdem kannst du jetzt nachgelagerte Prozesse in der Organisation anstoßen, zum Beispiel in der Lohnbuchhaltung.
+#### 3. Benachrichtigung über neue Krankmeldung
+
+Mitarbeitende mit der Berechtigung „Office” oder „Pflege von Krankmeldungen” bekommen jetzt eine Benachrichtigung, 
+dass eine neue Krankmeldung eingereicht wurde. Sie können diese im Bereich „Abwesenheiten” unter 
+„Eingereichte Krankmeldungen von Kolleg:innen” einsehen. Hier gibt es jetzt die Möglichkeit, 
+die Einreichung direkt anzunehmen oder auch zu stornieren (für eine fälschlich eingetragene Krankmeldung). 
+Wenn die Krankmeldung angenommen wird, bekommen auch alle Kollegen der erkrankten Person eine Benachrichtigung (konfigurierbar), 
+dass sie abwesend ist (ohne Grundangabe oder Abwesenheitsart), analog zu allen anderen Abwesenheiten. 
+Außerdem kann die Person aus dem Office jetzt nachgelagerte Prozesse in der Organisation anstoßen, 
+zum Beispiel in der Lohnbuchhaltung.
 
 <div class="flex my-8">
     <figure>
@@ -54,7 +72,7 @@ Mitarbeitende mit der Berechtigung „Office” oder „Pflege von Krankmeldunge
     </figure>
 </div>
 
-An einer Krankmeldung ist für alle Beteiligte sichtbar, wer die Krankmeldung eingereicht hat und wer sie danach angenommen hat.
+An einer Krankmeldung ist für alle Berechtigten sichtbar, wann und wer die Krankmeldung eingereicht hat und wann und wer sie danach angenommen hat.
 
 <div class="flex my-8">
     <figure>
@@ -72,16 +90,16 @@ An einer Krankmeldung ist für alle Beteiligte sichtbar, wer die Krankmeldung ei
     </figure>
 </div>
 
-In den nächsten Versionen der urlaubsverwaltung.cloud werden wir uns noch mehr ins Zeug legen und das Ganze weiter verbessern und ausbauen. Dabei wollen wir vor allem darauf achten, dass die Funktion einfacher zu bedienen ist und wir sie noch besser an eure Bedürfnisse anpassen. Meldet euch gerne bei uns, wenn ihr mitgestalten wollt.
-
 ## Benachrichtigungen
 
-Neben der bereits bestehenden Benachrichtigung über neu erfasste Krankmeldungen ist es nun auch möglich, sich als Mitarbeitende mit der Berechtigung „Office” oder „Pflege von Krankmeldungen" über eingereichte und angenommene Krankmeldungen benachrichtigen zu lassen.
+Neben der bereits bestehenden Benachrichtigung über neu erfasste Krankmeldungen durch pflegeberechtigte ist es nun auch möglich, 
+sich als Mitarbeitende mit der Berechtigung „Office” oder „Pflege von Krankmeldungen" über eingereichte und angenommene 
+Krankmeldungen benachrichtigen zu lassen.
 
 <div class="flex my-8">
     <figure>
         <picture>
-            <source srcset="verlauf-krankmeldung.avif" type="image/avif" />
+            <source srcset="benachrichtigungen-krankmeldungen.avif" type="image/avif" />
             <img
               src="benachrichtigungen-krankmeldungen.png"
               alt="Verlauf in einer Krankmeldung, die von einer Mitarbeitenden eingetragen wurde"
@@ -94,11 +112,18 @@ Neben der bereits bestehenden Benachrichtigung über neu erfasste Krankmeldungen
     </figure>
 </div>
 
-## Zusammenfassen und Verlängern
+
+## Ausblick
+
+In den nächsten Versionen der urlaubsverwaltung.cloud werden wir die Funktion verbessern und ausbauen.
+Dabei wollen wir vor allem darauf achten, dass die Funktion einfacher zu bedienen ist und wir
+sie noch besser an eure Bedürfnisse anpassen. Meldet euch gerne bei uns, wenn ihr Feedback habt oder mitgestalten wollt.
+
+### Zusammenfassen und Verlängern
 
 Doch einen Tag länger krank gewesen? Mehrere Krankmeldungen hintereinander aus dem gleichen Grund? Dafür werden wir für Mitarbeitende die Möglichkeit schaffen, eine bestehende Krankmeldung ohne viel Aufwand zu verlängern. Auch als Person mit der Berechtigung „Office” oder „Pflege von Krankmeldungen” werden wir in dem Zuge es ermöglichen, Krankmeldungen zusammenzufassen.
 
-## Vereinfachte Krankmeldung
+### Vereinfachte Krankmeldung
 
 Wenn ich krank im Bett liege, möchte ich so einfach wie möglich die Krankmeldung loswerden, ohne 1000 Fragen beantworten zu müssen. Deshalb werden wir die Krankmeldung weiter vereinfachen, damit ich mich auf das Wesentliche konzentrieren kann: Gesund werden. 😊
 
