@@ -4,8 +4,90 @@
   <subtitle></subtitle>
   <link rel="self" href="https://urlaubsverwaltung.cloud/feed.xml" />
   <link rel="alternate" type="text/html" href="https://urlaubsverwaltung.cloud" />
-  <updated>2024-05-17T00:00:00Z</updated>
+  <updated>2024-06-21T00:00:00Z</updated>
   <id>https://urlaubsverwaltung.cloud</id>
+  
+  
+  
+  <entry>
+    <title>Einfach, digital und nachvollziehbar Krankmelden durch Mitarbeitende</title>
+    <link href="https://urlaubsverwaltung.cloud/neuigkeiten/2024-06-21-selbsteintragen-von-krankmeldungen/" />
+    <updated>2024-06-21T00:00:00Z</updated>
+    <id>https://urlaubsverwaltung.cloud/neuigkeiten/2024-06-21-selbsteintragen-von-krankmeldungen/</id>
+    <author>
+      <name>Daniel Fuchs</name>
+    </author>
+    <content type="html">&lt;p&gt;Krankmelden direkt über die Urlaubsverwaltung. Spar dir den Anruf bei deinem Chef und melde dich krank, direkt über die urlaubsverwaltung.cloud.&lt;/p&gt;
+&lt;h2 id=&quot;krankmeldung-selbst-eintragen&quot;&gt;Krankmeldung selbst eintragen&lt;/h2&gt;
+&lt;p&gt;Mit der neuen Version der Urlaubsverwaltung.cloud können jetzt auch die Mitarbeitenden selbst ihre Krankmeldung eintragen. Sobald eine Krankmeldung eingereicht wurde, werden alle Personen mit der Berechtigung „Office” oder „Pflege von Krankmeldungen” benachrichtigt. Sie können die Krankmeldung dann für die Organisation annehmen und z. B. in nachgelagerten Prozessen einfließen lassen.&lt;/p&gt;
+&lt;h3 id=&quot;der-ablauf-der-einreichung&quot;&gt;Der Ablauf der Einreichung&lt;/h3&gt;
+&lt;p&gt;Hier bekommst du eine Schritt-für-Schritt-Anleitung:&lt;/p&gt;
+&lt;h4 id=&quot;1-funktion-aktivieren&quot;&gt;1. Funktion aktivieren&lt;/h4&gt;
+&lt;p&gt;Dein Office bzw. deine Personalabteilung kann die Funktion &amp;quot;Mitarbeiter-Krankmeldung&amp;quot; aktivieren/deaktivieren.
+Mehr zur Konfiguration der urlaubsverwaltung.cloud findest du in unserer &lt;a href=&quot;https://urlaubsverwaltung.cloud/hilfe/krankmeldungen/#kann-eine-mitarbeitende-die-krankmeldung-selbst-einreichen&quot;&gt;Hilfe zu Krankmeldungen&lt;/a&gt;.&lt;/p&gt;
+&lt;h4 id=&quot;2-krankmeldung-eintragen&quot;&gt;2. Krankmeldung eintragen&lt;/h4&gt;
+&lt;p&gt;Jetzt kannst du als Mitarbeitende über das „+“-Zeichen neben einer Abwesenheit auch eine Krankmeldung eintragen.&lt;/p&gt;
+&lt;div class=&quot;flex my-8&quot;&gt;
+    &lt;figure&gt;
+        &lt;picture&gt;
+            &lt;source srcset=&quot;https://urlaubsverwaltung.cloud/neuigkeiten/2024-06-21-selbsteintragen-von-krankmeldungen/user-neue-krankmeldung.avif&quot; type=&quot;image/avif&quot; /&gt;
+            &lt;img src=&quot;https://urlaubsverwaltung.cloud/neuigkeiten/2024-06-21-selbsteintragen-von-krankmeldungen/user-neue-krankmeldung.png&quot; alt=&quot;Krankmeldung erstellen als Mitarbeitende&quot; decoding=&quot;async&quot; loading=&quot;lazy&quot; class=&quot;rounded-lg&quot; /&gt;
+        &lt;/picture&gt;
+        &lt;figcaption class=&quot;text-sm text-center&quot;&gt;Krankmeldung erstellen als Mitarbeitende&lt;/figcaption&gt;
+    &lt;/figure&gt;
+&lt;/div&gt;
+&lt;h4 id=&quot;3-benachrichtigung-ueber-neue-krankmeldung&quot;&gt;3. Benachrichtigung über neue Krankmeldung&lt;/h4&gt;
+&lt;p&gt;Mitarbeitende mit der Berechtigung „Office” oder „Pflege von Krankmeldungen” bekommen jetzt eine Benachrichtigung,
+dass eine neue Krankmeldung eingereicht wurde. Sie können diese im Bereich „Abwesenheiten” unter
+„Eingereichte Krankmeldungen von Kolleg:innen” einsehen. Hier gibt es jetzt die Möglichkeit,
+die Einreichung direkt anzunehmen oder auch zu stornieren (für eine fälschlich eingetragene Krankmeldung).
+Wenn die Krankmeldung angenommen wird, bekommen auch alle Kollegen der erkrankten Person eine Benachrichtigung (konfigurierbar),
+dass sie abwesend ist (ohne Grundangabe oder Abwesenheitsart), analog zu allen anderen Abwesenheiten.
+Außerdem kann die Person aus dem Office jetzt nachgelagerte Prozesse in der Organisation anstoßen,
+zum Beispiel in der Lohnbuchhaltung.&lt;/p&gt;
+&lt;div class=&quot;flex my-8&quot;&gt;
+    &lt;figure&gt;
+        &lt;picture&gt;
+            &lt;source srcset=&quot;https://urlaubsverwaltung.cloud/neuigkeiten/2024-06-21-selbsteintragen-von-krankmeldungen/office-eingereichte-krankmeldungen.avif&quot; type=&quot;image/avif&quot; /&gt;
+            &lt;img src=&quot;https://urlaubsverwaltung.cloud/neuigkeiten/2024-06-21-selbsteintragen-von-krankmeldungen/office-eingereichte-krankmeldungen.png&quot; alt=&quot;Mitarbeitende mit der Berechtigung „Office” oder „Pflege von Krankmeldungen” bekommen eingereichte Krankmeldungen angezeigt&quot; decoding=&quot;async&quot; loading=&quot;lazy&quot; class=&quot;rounded-lg&quot; /&gt;
+        &lt;/picture&gt;
+        &lt;figcaption class=&quot;text-sm text-center&quot;&gt;Mitarbeitende mit der Berechtigung „Office” oder „Pflege von Krankmeldungen” bekommen eingereichte Krankmeldungen angezeigt&lt;/figcaption&gt;
+    &lt;/figure&gt;
+&lt;/div&gt;
+&lt;p&gt;An einer Krankmeldung ist für alle Berechtigten sichtbar, wann und wer die Krankmeldung eingereicht hat und wann und wer sie danach angenommen hat.&lt;/p&gt;
+&lt;div class=&quot;flex my-8&quot;&gt;
+    &lt;figure&gt;
+        &lt;picture&gt;
+            &lt;source srcset=&quot;https://urlaubsverwaltung.cloud/neuigkeiten/2024-06-21-selbsteintragen-von-krankmeldungen/verlauf-krankmeldung.avif&quot; type=&quot;image/avif&quot; /&gt;
+            &lt;img src=&quot;https://urlaubsverwaltung.cloud/neuigkeiten/2024-06-21-selbsteintragen-von-krankmeldungen/verlauf-krankmeldung.png&quot; alt=&quot;Verlauf in einer Krankmeldung, die von einer Mitarbeitenden eingetragen wurde&quot; decoding=&quot;async&quot; loading=&quot;lazy&quot; class=&quot;rounded-lg&quot; /&gt;
+        &lt;/picture&gt;
+        &lt;figcaption class=&quot;text-sm text-center&quot;&gt;Der Verlauf an einer Krankmeldung zeigt die Einreichung sowie das Annehmen einer Krankmeldung&lt;/figcaption&gt;
+    &lt;/figure&gt;
+&lt;/div&gt;
+&lt;h2 id=&quot;benachrichtigungen&quot;&gt;Benachrichtigungen&lt;/h2&gt;
+&lt;p&gt;Neben der bereits bestehenden Benachrichtigung über neu erfasste Krankmeldungen durch pflegeberechtigte ist es nun auch möglich,
+sich als Mitarbeitende mit der Berechtigung „Office” oder „Pflege von Krankmeldungen&amp;quot; über eingereichte und angenommene
+Krankmeldungen benachrichtigen zu lassen.&lt;/p&gt;
+&lt;div class=&quot;flex my-8&quot;&gt;
+    &lt;figure&gt;
+        &lt;picture&gt;
+            &lt;source srcset=&quot;https://urlaubsverwaltung.cloud/neuigkeiten/2024-06-21-selbsteintragen-von-krankmeldungen/benachrichtigungen-krankmeldungen.avif&quot; type=&quot;image/avif&quot; /&gt;
+            &lt;img src=&quot;https://urlaubsverwaltung.cloud/neuigkeiten/2024-06-21-selbsteintragen-von-krankmeldungen/benachrichtigungen-krankmeldungen.png&quot; alt=&quot;Einstellung der Benachrichtigungen für eingereichte und angenommene Krankmeldungen&quot; decoding=&quot;async&quot; loading=&quot;lazy&quot; class=&quot;rounded-lg&quot; /&gt;
+        &lt;/picture&gt;
+        &lt;figcaption class=&quot;text-sm text-center&quot;&gt;Einstellung der Benachrichtigungen für eingereichte und angenommene Krankmeldungen&lt;/figcaption&gt;
+    &lt;/figure&gt;
+&lt;/div&gt;
+&lt;h2 id=&quot;ausblick&quot;&gt;Ausblick&lt;/h2&gt;
+&lt;p&gt;In den nächsten Versionen der urlaubsverwaltung.cloud werden wir die Funktion verbessern und ausbauen.
+Dabei wollen wir vor allem darauf achten, dass die Funktion einfacher zu bedienen ist und wir
+sie noch besser an eure Bedürfnisse anpassen. Meldet euch gerne bei uns, wenn ihr Feedback habt oder mitgestalten wollt.&lt;/p&gt;
+&lt;h3 id=&quot;zusammenfassen-und-verlaengern&quot;&gt;Zusammenfassen und Verlängern&lt;/h3&gt;
+&lt;p&gt;Doch einen Tag länger krank gewesen? Mehrere Krankmeldungen hintereinander aus dem gleichen Grund? Dafür werden wir für Mitarbeitende die Möglichkeit schaffen, eine bestehende Krankmeldung ohne viel Aufwand zu verlängern. Auch als Person mit der Berechtigung „Office” oder „Pflege von Krankmeldungen” werden wir in dem Zuge es ermöglichen, Krankmeldungen zusammenzufassen.&lt;/p&gt;
+&lt;h3 id=&quot;vereinfachte-krankmeldung&quot;&gt;Vereinfachte Krankmeldung&lt;/h3&gt;
+&lt;p&gt;Wenn ich krank im Bett liege, möchte ich so einfach wie möglich die Krankmeldung loswerden, ohne 1000 Fragen beantworten zu müssen. Deshalb werden wir die Krankmeldung weiter vereinfachen, damit du dich auf das Wesentliche konzentrieren kann: Gesund werden. 😊&lt;/p&gt;
+&lt;p&gt;Wir freuen uns über dein Feedback an &lt;a href=&quot;mailto:info@urlaubsverwaltung.cloud?subject=Feedback%20Krankmeldung%20durch%20Mitarbeitende&quot;&gt;info@urlaubsverwaltung.cloud&lt;/a&gt;.&lt;/p&gt;
+</content>
+  </entry>
   
   
   
