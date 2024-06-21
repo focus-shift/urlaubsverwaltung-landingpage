@@ -2,10 +2,11 @@
 draft: false
 layout: layout-neuigkeiten
 date: 2024-06-21
-title: Selbst Krankmelden
+title: Einfach, digital und nachvollziehbar Krankmelden durch Mitarbeitende
 author: Daniel Fuchs
 release-version: 5.4.0
-description: Krankmeldung direkt als Mitarbeitende
+teaserImage: /static/teaser/sicknote-by-user.png
+description: Einfach, digital und nachvollziehbar Krankmelden durch Mitarbeitende
 ---
 
 Krankmelden direkt über die Urlaubsverwaltung. Spar dir den Anruf bei deinem Chef und melde dich krank, direkt über die urlaubsverwaltung.cloud.
