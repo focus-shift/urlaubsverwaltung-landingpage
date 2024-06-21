@@ -1,7 +1,7 @@
 ---
 draft: false
 layout: layout-neuigkeiten
-date: 2024-06-14
+date: 2024-06-21
 title: Selbst Krankmelden
 author: Daniel Fuchs
 release-version: 5.4.0
