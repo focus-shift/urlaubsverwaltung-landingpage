@@ -69,7 +69,7 @@ Ja, eine Kind-Krankmeldung kann erfasst werden, indem der Typ von _Krankmeldung_
 
 Ja, die Einreichung einer Krankmeldung durch die Mitarbeitende ist mit folgenden Einstellung unter "Abwesenheiten" im Abschnitt "Einstellungen zu Krankmeldungen" möglich:
 
-Weitere Informationen zur Verwendung finden sich in [diesem Blog-Beitrag](https://urlaubsverwaltung.cloud/neuigkeiten/2024-06-14-selbsteintragen-von-krankmeldungen/)
+Weitere Informationen zur Verwendung finden sich in [diesem Blog-Beitrag](https://urlaubsverwaltung.cloud/neuigkeiten/2024-06-21-selbsteintragen-von-krankmeldungen/)
 <p>
   <picture>
     <source srcset="einstellungen-krankmeldung-selbsteintragen.avif" type="image/avif" />
