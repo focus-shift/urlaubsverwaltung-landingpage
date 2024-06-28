@@ -22,10 +22,10 @@
 &lt;p&gt;Mit der neuen Version der Urlaubsverwaltung.cloud können jetzt auch die Mitarbeitenden selbst ihre Krankmeldung eintragen. Sobald eine Krankmeldung eingereicht wurde, werden alle Personen mit der Berechtigung „Office” oder „Pflege von Krankmeldungen” benachrichtigt. Sie können die Krankmeldung dann für die Organisation annehmen und z. B. in nachgelagerten Prozessen einfließen lassen.&lt;/p&gt;
 &lt;h3 id=&quot;der-ablauf-der-einreichung&quot;&gt;Der Ablauf der Einreichung&lt;/h3&gt;
 &lt;p&gt;Hier bekommst du eine Schritt-für-Schritt-Anleitung:&lt;/p&gt;
-&lt;h4 id=&quot;1-funktion-aktivieren&quot;&gt;1. Funktion aktivieren&lt;/h4&gt;
+&lt;h4 id=&quot;vorab-funktion-aktivieren&quot;&gt;Vorab: Funktion aktivieren&lt;/h4&gt;
 &lt;p&gt;Dein Office bzw. deine Personalabteilung kann die Funktion &amp;quot;Mitarbeiter-Krankmeldung&amp;quot; aktivieren/deaktivieren.
 Mehr zur Konfiguration der urlaubsverwaltung.cloud findest du in unserer &lt;a href=&quot;https://urlaubsverwaltung.cloud/hilfe/krankmeldungen/#kann-eine-mitarbeitende-die-krankmeldung-selbst-einreichen&quot;&gt;Hilfe zu Krankmeldungen&lt;/a&gt;.&lt;/p&gt;
-&lt;h4 id=&quot;2-krankmeldung-eintragen&quot;&gt;2. Krankmeldung eintragen&lt;/h4&gt;
+&lt;h4 id=&quot;1-krankmeldung-eintragen&quot;&gt;1. Krankmeldung eintragen&lt;/h4&gt;
 &lt;p&gt;Jetzt kannst du als Mitarbeitende über das „+“-Zeichen neben einer Abwesenheit auch eine Krankmeldung eintragen.&lt;/p&gt;
 &lt;div class=&quot;flex my-8&quot;&gt;
     &lt;figure&gt;
@@ -36,7 +36,7 @@ Mehr zur Konfiguration der urlaubsverwaltung.cloud findest du in unserer &lt;a h
         &lt;figcaption class=&quot;text-sm text-center&quot;&gt;Krankmeldung erstellen als Mitarbeitende&lt;/figcaption&gt;
     &lt;/figure&gt;
 &lt;/div&gt;
-&lt;h4 id=&quot;3-benachrichtigung-ueber-neue-krankmeldung&quot;&gt;3. Benachrichtigung über neue Krankmeldung&lt;/h4&gt;
+&lt;h4 id=&quot;2-benachrichtigung-ueber-neue-krankmeldung&quot;&gt;2. Benachrichtigung über neue Krankmeldung&lt;/h4&gt;
 &lt;p&gt;Mitarbeitende mit der Berechtigung „Office” oder „Pflege von Krankmeldungen” bekommen jetzt eine Benachrichtigung,
 dass eine neue Krankmeldung eingereicht wurde. Sie können diese im Bereich „Abwesenheiten” unter
 „Eingereichte Krankmeldungen von Kolleg:innen” einsehen. Hier gibt es jetzt die Möglichkeit,
