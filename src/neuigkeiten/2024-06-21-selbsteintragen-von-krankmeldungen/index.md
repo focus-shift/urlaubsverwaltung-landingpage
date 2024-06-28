@@ -9,7 +9,7 @@ teaserImage: /static/teaser/sicknote-by-user.png
 description: Einfach, digital und nachvollziehbar Krankmelden durch Mitarbeitende
 ---
 
-Krankmelden direkt über die Urlaubsverwaltung. Spar dir den Anruf bei deinem Chef und melde dich krank, direkt über die urlaubsverwaltung.cloud.
+Krankmelden direkt über die Urlaubsverwaltung: Wenige Klicks statt aufwendiger Kommunikation, direkt über die urlaubsverwaltung.cloud.
 
 <!-- more -->
 
