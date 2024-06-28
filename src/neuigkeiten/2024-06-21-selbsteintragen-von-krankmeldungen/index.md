@@ -21,12 +21,12 @@ Mit der neuen Version der Urlaubsverwaltung.cloud können jetzt auch die Mitarbe
 
 Hier bekommst du eine Schritt-für-Schritt-Anleitung:
 
-#### 1. Funktion aktivieren
+#### Vorab: Funktion aktivieren
 
 Dein Office bzw. deine Personalabteilung kann die Funktion "Mitarbeiter-Krankmeldung" aktivieren/deaktivieren.
 Mehr zur Konfiguration der urlaubsverwaltung.cloud findest du in unserer [Hilfe zu Krankmeldungen](https://urlaubsverwaltung.cloud/hilfe/krankmeldungen/#kann-eine-mitarbeitende-die-krankmeldung-selbst-einreichen).
 
-#### 2. Krankmeldung eintragen
+#### 1. Krankmeldung eintragen
 
 Jetzt kannst du als Mitarbeitende über das „+“-Zeichen neben einer Abwesenheit auch eine Krankmeldung eintragen.
 
@@ -46,7 +46,7 @@ Jetzt kannst du als Mitarbeitende über das „+“-Zeichen neben einer Abwesenh
     </figure>
 </div>
 
-#### 3. Benachrichtigung über neue Krankmeldung
+#### 2. Benachrichtigung über neue Krankmeldung
 
 Mitarbeitende mit der Berechtigung „Office” oder „Pflege von Krankmeldungen” bekommen jetzt eine Benachrichtigung, 
 dass eine neue Krankmeldung eingereicht wurde. Sie können diese im Bereich „Abwesenheiten” unter 
