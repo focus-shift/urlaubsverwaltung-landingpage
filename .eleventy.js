@@ -16,29 +16,30 @@ const prod = process.env.NODE_ENV === "production";
 
 const not =
 	fn =>
-		(...args) =>
-			!fn(...args);
+	(...args) =>
+		!fn(...args);
 const isDraft = post =>
 	post.data.draft === "" ? true : Boolean(post.data.draft);
 
 module.exports = function (eleventyConfig) {
 	eleventyConfig.setTemplateFormats(["njk", "hbs", "md", "html", "txt"]);
-	eleventyConfig.addPassthroughCopy("./src/**/*.{png,jpg,jpeg,webp,avif,mp4,xml}");
-	eleventyConfig.addPassthroughCopy({"./public/static": "static"});
+	eleventyConfig.addPassthroughCopy(
+		"./src/**/*.{png,jpg,jpeg,webp,avif,mp4,xml}",
+	);
+	eleventyConfig.addPassthroughCopy({ "./public/static": "static" });
 
 	eleventyConfig.addPlugin(pluginRss);
 
 	eleventyConfig.addTransform("htmlmin", function (content, outputPath) {
 		if (outputPath && outputPath.endsWith(".html")) {
-			let minified = htmlmin.minify(content, {
+			return htmlmin.minify(content, {
 				useShortDoctype: true,
 				removeComments: true,
 				collapseWhitespace: true,
-			})
-			return minified
+			});
 		}
-		return content
-	})
+		return content;
+	});
 
 	eleventyConfig.setFrontMatterParsingOptions({
 		excerpt: true,
@@ -63,7 +64,7 @@ module.exports = function (eleventyConfig) {
 	});
 
 	eleventyConfig.addHandlebarsHelper("date", function (date, formatFunction) {
-		return format(date, formatFunction, {locale: de});
+		return format(date, formatFunction, { locale: de });
 	});
 
 	// check if a given value equals some of the following values
@@ -107,8 +108,8 @@ module.exports = function (eleventyConfig) {
 		return tree.length === 0
 			? ""
 			: `<ul class="toc-menu">${tree
-				.map(node => renderNode(node))
-				.join("")}</ul>`;
+					.map(node => renderNode(node))
+					.join("")}</ul>`;
 	});
 
 	eleventyConfig.addWatchTarget("src/static/js/**/*.js");
