@@ -1,7 +1,7 @@
 ---
 layout: layout
 title: Mentale Gesundheit am Arbeitsplatz
-description: Schnell und einfach Abwesenheiten beantragen oder Zeiten erfassen - mit der Android Mitarbeiter App
+description:
 stylesheets:
   - /static/css/android.css
 ---
@@ -13,76 +13,29 @@ stylesheets:
 	<div class="w-full max-w-screen-xl mx-auto">
 		<div class="px-12 sm:px-20 xl:px-12 2xl:px-4">
 
-			<h1 class="text-2xl font-bold" id="zeiterfassung">
-			Das Konzept: mentale Gesundheit als integraler Teil der Zeitwirtschaft #mentalHealthAtWork
+			<h1 class="text-2xl text-center font-bold my-2" id="zeiterfassung">
+			Das Konzept:Prävention statt Reaktion
+
+			Mentale Gesundheit als integraler Teil der Zeitwirtschaft #mentalHealthAtWork
 			</h1>
-			<p class="mt-4">
-				Mentale Gesundheit - eine stetig steigende Herausforderung
-			</p>
 
 			<div class="mt-12 flex flex-col md:flex-row gap-8">
 				<div class="flex-1 flex flex-col">
-					<p class="font-bold">Vorteile</p>
-					<ul class="mt-4 flex flex-col gap-3">
-						<li class="flex items-start">
-							<span class="mr-3 mb-2">
-								{{> partials/icon-check class='w-6 h-6'}}
-							</span>
-							Alle Funktionen und Daten wie im Browser
-						</li>
-						<li class="flex items-start">
-							<span class="mr-3 mb-2">
-								{{> partials/icon-check class='w-6 h-6'}}
-							</span>
-							Stoppuhr unterwegs starten und stoppen
-						</li>
-						<li class="flex items-start">
-							<span class="mr-3 mb-2">
-								{{> partials/icon-check class='w-6 h-6'}}
-							</span>
-							Synchronisation by Design - Keine Daten auf dem Handy gespeichert
-						</li>
-						<li class="flex items-start">
-							<span class="mr-3 mb-2">
-								{{> partials/icon-check class='w-6 h-6'}}
-							</span>
-							Eigene App, eigener Prozess
-						</li>
-						<li class="flex items-start">
-							<span class="mr-3 mb-2">
-								{{> partials/icon-check class='w-6 h-6'}}
-							</span>
-							Anträge schnell freigeben
-						</li>
-						<li class="flex items-start">
-							<span class="mr-3 mb-2">
-								{{> partials/icon-check class='w-6 h-6'}}
-							</span>
-							Abwesenheiten einfach beantragen
-						</li>
-						<li class="flex items-start">
-							<span class="mr-3 mb-2">
-								{{> partials/icon-check class='w-6 h-6'}}
-							</span>
-							Schnelle Übersicht über den Urlaubsstand
-						</li>
-						<li class="flex items-start">
-							<span class="mr-3 mb-2">
-								{{> partials/icon-check class='w-6 h-6'}}
-							</span>
-							Schnelle Übersicht über die Arbeitszeiten
-						</li>
-					</ul>
+						<picture>
+{{!-- 							<source srcset="/static/img/android/zeiterfassung_statistik.avif" type="image/avif"> --}}
+{{!-- 							<source srcset="/static/img/android/zeiterfassung_statistik.webp" type="image/webp"> --}}
+							<img src="/static/img/mental-health/1.png" alt="Überblick der erfassten Arbeitszeiten.">
+						</picture>
 				</div>
 				<div class="md:w-1/2">
-				<a href="https://play.google.com/store/apps/details?id=cloud.urlaubsverwaltung.mobile.urlaubsverwaltung&gl=DE">
+
 					<picture>
-						<source srcset="/static/img/android/android-hero.avif" type="image/avif">
-						<source srcset="/static/img/android/android-hero.webp" type="image/webp">
-						<img src="/static/img/android/android-hero.png"
+{{!-- 						<source srcset="/static/img/mental-health/2.avif" type="image/avif"> --}}
+{{!-- 						<source srcset="/static/img/android/android-hero.webp" type="image/webp"> --}}
+						<img src="/static/img/mental-health/2.png"
 						alt="urlaubsverwaltung.cloud jetzt auch als android app für deine Mitarbeitenden.">
 					</picture>
-					</a>
+
 				</div>
 			</div>
 		</div>
@@ -98,23 +51,46 @@ stylesheets:
 				<div class="android-feature-card">
 					<div class="android-feature-card_description">
 						<h3>
-							Steigene Zahlen
+							Die Herausforderung: Mentale Gesundheit - ein akutes Problem
 						</h3>
 
-						<p>
-							Steigende Fall Zahlen belegen es. ....
+					<p>
+						Mentale Gesundheit am Arbeitsplatz ist ein dringendes Problem, da immer mehr Arbeitnehmer unter Stress, Burnout und psychischen Belastungen leiden. Laut einer Umfrage des Mental Health Foundation aus dem Jahr 2021 gaben 74 % der Befragten an, dass sie sich in den letzten 12 Monaten gestresst fühlten. Weitere Studien zeigen, dass der wirtschaftliche Verlust aufgrund psychischer Erkrankungen in Deutschland jährlich rund 103 Milliarden Euro beträgt, was die Dringlichkeit des Themas unterstreicht.
+						Neuer Studien zeigen einen stetig wachsenden negativen Trend.
 						</p>
+					<p>
+						Unzureichende Unterstützung von Arbeitgebern und das Stigma um psychische Gesundheit verschärfen das Problem. Laut der WHO haben 1 von 5 Arbeitnehmern in ihrem Leben mit psychischen Erkrankungen zu kämpfen, doch nur 50 % suchen tatsächlich Hilfe. Fehlende Präventionsmaßnahmen und mangelnde Bewältigungsstrategien führen oft zu krankheitsbedingten Ausfällen; so berichten Unternehmen, dass psychische Erkrankungen für etwa 40 % der krankheitsbedingten Fehltage verantwortlich sind. Dies mindert nicht nur die Produktivität, sondern beeinträchtigt auch die Lebensqualität der Betroffenen erheblich.
+						</p>
+{{!-- 						<p> --}}
+{{!-- 							Psychische Erkrankungen rangieren mit 15,1 Prozent auf Platz drei der häufigsten Gründe für Fehlzeiten (DAK/Statista 2023), --}}
+{{!-- 							Aktuell sind 32% der Menschen von einer psychischen Erkrankung betroffen. --}}
+{{!--               Psychische Erkrankungen sind der Hauptgrund für Krankheitstage in Deutschland. --}}
+{{!--               Fehlzeiten aufgrund von psychischen Erkrankungen sind seit 2000 um 146% gestiegen. --}}
+{{!--               75% der Menschen geben an, dass ihre Arbeit ihre psychische Gesundheit beeinflusst. --}}
+{{!--               23% haben sich wegen mentaler Herausforderungen krankgemeldet. --}}
+
+
+{{!-- 							https://persoblogger.de/2024/07/01/psychische-gesundheit-am-arbeitsplatz-die-unterschaetzte-zeitbombe --}}
+{{!--               https://www.tk.de/resource/blob/2081662/46b8286c8e8698f5856d8d6814d87c37/gesundheitsreport-au-2020-data.pdf --}}
+{{!--               https://www.axa.de/presse/mediathek/studien-und-forschung/mental-health-report-2024 --}}
+{{!-- 						</p> --}}
+{{!-- 						<p> --}}
+{{!-- 							Der Google Trend Barometer spricht auch eine deutliche Sprache. --}}
+{{!-- 						</p> --}}
 						<p>
-							Der Google Trend Barometer spricht auch eine deutliche Sprache.
+							<a href="/mental-health/akutes-problem-mentale-gesundheit" class="text-black hover:underline">
+								{{> partials/icon-chevron-double-right class='w-4 h-4 -mt-0.5 inline-block'}}
+								mehr Informationen
+							</a>
 						</p>
 					</div>
-					<div class="android-feature-card_image">
-						<div class="android-feature-card_image-cover"></div>
-						<picture>
-							<source srcset="/static/img/android/urlaubsverwaltung_uebersicht.avif" type="image/avif">
-							<source srcset="/static/img/android/urlaubsverwaltung_uebersicht.webp" type="image/webp">
-							<img src="/static/img/android/urlaubsverwaltung_uebersicht.png" alt="Übersicht über den eigenen aktuellen Urlaubsstand.">
-						</picture>
+					<div class="my-auto">
+					<picture>
+{{!-- 						<source srcset="/static/img/mental-health/2.avif" type="image/avif"> --}}
+{{!-- 						<source srcset="/static/img/android/android-hero.webp" type="image/webp"> --}}
+						<img src="/static/img/mental-health/mh1.png"
+						alt="urlaubsverwaltung.cloud jetzt auch als android app für deine Mitarbeitenden.">
+					</picture>
 					</div>
 				</div>
 			</div>
@@ -127,7 +103,7 @@ stylesheets:
 				<div class="android-feature-card">
 					<div class="android-feature-card_description">
 						<h3>
-							Arbeitsalltag als Auslöser
+							Die Ursache: Arbeitsalltag als Auslöser
 						</h3>
 						<p>
 							Die Gründe für eine mentale Erkrankung sind vielfältig und können sowohl im privaten als auch im beruflichen Umfeld liegen.
@@ -138,14 +114,20 @@ stylesheets:
 							Obwohl wir diesen Alltag selbst erleben und wissen, dass er uns belastet, fällt es uns oft schwer,
 							die Verbindung zu unserer Stimmung zu erkennen, geschweige denn die richtigen Rückschlüsse zu ziehen.
 						</p>
+						<p>
+							<a href="/mental-health/arbeitszeiten-mentale-gesundheit" class="text-black hover:underline">
+								{{> partials/icon-chevron-double-right class='w-4 h-4 -mt-0.5 inline-block'}}
+								mehr Informationen
+							</a>
+						</p>
 					</div>
-					<div class="android-feature-card_image">
-						<div class="android-feature-card_image-cover"></div>
-						<picture>
-							<source srcset="/static/img/android/urlaubsverwaltung_abwesenheitsuebersicht.avif" type="image/avif">
-							<source srcset="/static/img/android/urlaubsverwaltung_abwesenheitsuebersicht.webp" type="image/webp">
-							<img src="/static/img/android/urlaubsverwaltung_abwesenheitsuebersicht.png" alt="Übersicht über die Abwesenheiten der Mitarbeitenden.">
-						</picture>
+					<div class="my-auto">
+					<picture>
+{{!-- 						<source srcset="/static/img/mental-health/2.avif" type="image/avif"> --}}
+{{!-- 						<source srcset="/static/img/android/android-hero.webp" type="image/webp"> --}}
+						<img src="/static/img/mental-health/mh3.png"
+						alt="urlaubsverwaltung.cloud jetzt auch als android app für deine Mitarbeitenden.">
+					</picture>
 					</div>
 				</div>
 			</div>
@@ -159,25 +141,35 @@ stylesheets:
 				<div class="android-feature-card">
 					<div class="android-feature-card_description">
 						<h3>
-							Krankmeldungen und Fehlzeiten als Folge
+							Die Folge: Krankmeldungen und Fehlzeiten
 						</h3>
 						<p>
-							Die Folgen eines anhaltend belastenden Arbeitsalltags können sich vielfältig äußern.
-							Nachlassende Konzentration und Leistungsfähigkeit führen zu Fehlern und Unzufriedenheit.
-							Steigende Überstunden zur vermeintlichen Kompensation führen zu Überlastung und Erschöpfung.
-							Ein Teufelskreis beginnt, der gerne in Krankmeldungen und Fehlzeiten mündet.
+							Krankmeldungen und Fehlzeiten sind direkte Folgen mangelnder mentaler Gesundheit am Arbeitsplatz. Laut einer Studie des Instituts für Arbeitsmarkt- und Berufsforschung (IAB) sind psychische Erkrankungen, wie Depressionen und Angststörungen, mittlerweile die häufigste Ursache für Arbeitsunfähigkeit in Deutschland. Im Jahr 2022 machten sie etwa 30 % der gesamten Krankmeldungen aus, was auf die signifikanten Auswirkungen von psychischen Belastungen hinweist.
+
 						</p>
 						<p>
-							...
+							Zusätzlich zeigen Daten der Techniker Krankenkasse, dass Arbeitnehmer mit psychischen Erkrankungen durchschnittlich 23 Tage im Jahr krankgeschrieben sind, während der Durchschnitt bei anderen Erkrankungen nur 14 Tage beträgt. Diese hohen Fehlzeiten belasten nicht nur die Gesundheit der Betroffenen, sondern auch die Unternehmen, die mit Produktivitätsverlusten und erhöhten Kosten für Vertretungen und Krankheitsmanagement konfrontiert sind.
+						</p>
+{{!-- 					<p> --}}
+{{!-- 							Die Folgen eines anhaltend belastenden Arbeitsalltags können sich vielfältig äußern. --}}
+{{!--               							Nachlassende Konzentration und Leistungsfähigkeit führen zu Fehlern und Unzufriedenheit. --}}
+{{!--               							Steigende Überstunden zur vermeintlichen Kompensation führen zu Überlastung und Erschöpfung. --}}
+{{!--               							Ein Teufelskreis beginnt, der gerne in Krankmeldungen und Fehlzeiten mündet. --}}
+{{!-- 						</p> --}}
+						<p>
+							<a href="/mental-health/fehlzeiten-mentale-gesundheit" class="text-black hover:underline">
+								{{> partials/icon-chevron-double-right class='w-4 h-4 -mt-0.5 inline-block'}}
+								mehr Informationen
+							</a>
 						</p>
 					</div>
-					<div class="android-feature-card_image">
-						<div class="android-feature-card_image-cover"></div>
-						<picture>
-							<source srcset="/static/img/android/urlaubsverwaltung_antraege.avif" type="image/avif">
-							<source srcset="/static/img/android/urlaubsverwaltung_antraege.webp" type="image/webp">
-							<img src="/static/img/android/urlaubsverwaltung_antraege.png" alt="Anträge schnell und einfach unterwegs bearbeiten.">
-						</picture>
+					<div class="my-auto">
+					<picture>
+{{!-- 						<source srcset="/static/img/mental-health/2.avif" type="image/avif"> --}}
+{{!-- 						<source srcset="/static/img/android/android-hero.webp" type="image/webp"> --}}
+						<img src="/static/img/mental-health/mh4.png"
+						alt="urlaubsverwaltung.cloud jetzt auch als android app für deine Mitarbeitenden.">
+					</picture>
 					</div>
 				</div>
 			</div>
@@ -186,23 +178,33 @@ stylesheets:
 				<div class="android-feature-card">
 					<div class="android-feature-card_description">
 						<h3>
-							Selbstwahrnehmung als erster Schritt zur Sensibilisierung
+							Unsere Lösung: Selbskontrolle und Selbstwahrnehmung als erster Schritt zur Sensibilisierung
 						</h3>
+{{!-- 						<p> --}}
+{{!-- 							Ein Blick auf die selbsterfassten Daten der Zeitwirtschaft hilft bei der Wahrnehmung von ungewöhnlichen Mustern --}}
+{{!-- 							und ermöglicht es, die eigene Situation besser einzuschätzen und Gegenmaßnahmen zu ergreifen. --}}
+{{!-- 						</p> --}}
 						<p>
-							Ein Blick auf die selbsterfassten Daten der Zeitwirtschaft hilft bei der Wahrnehmung von ungewöhnlichen Mustern
-							und ermöglicht es, die eigene Situation besser einzuschätzen und Gegenmaßnahmen zu ergreifen.
+							Die Selbstwahrnehmung in Bezug auf die Zeitwirtschaft am Arbeitsplatz ist ein entscheidender erster Schritt zur Sensibilisierung für mentale Gesundheit. Wenn Mitarbeiter ihre eigenen Arbeitsgewohnheiten, Stressoren und Zeitmanagement-Techniken reflektieren, können sie frühzeitig erkennen, wann sie überlastet sind oder in ungesunde Muster verfallen. Eine Umfrage von Mind zeigt, dass 60 % der Befragten, die regelmäßig Zeit für Selbstreflexion einplanen, signifikant weniger Stress und ein höheres allgemeines Wohlbefinden berichten.
+						</p>
+					<p>
+							Darüber hinaus fördert die Selbstwahrnehmung das Bewusstsein für individuelle Grenzen und die Notwendigkeit von Pausen. Wenn Mitarbeiter verstehen, wie sich übermäßiger Zeitdruck auf ihre mentale Gesundheit auswirkt, sind sie besser in der Lage, proaktive Schritte zu unternehmen, um ihre Work-Life-Balance zu verbessern. Studien belegen, dass Unternehmen, die Schulungen zur Selbstwahrnehmung anbieten, eine höhere Mitarbeiterzufriedenheit und niedrigere Fehlzeiten verzeichnen, was die Notwendigkeit dieser Sensibilisierung unterstreicht.
 						</p>
 						<p>
-							...
+							<a href="/mental-health/selbstwahrnehmung-mentale-gesundheit" class="text-black hover:underline">
+								{{> partials/icon-chevron-double-right class='w-4 h-4 -mt-0.5 inline-block'}}
+								mehr Informationen
+							</a>
 						</p>
 					</div>
-					<div class="android-feature-card_image">
-						<div class="android-feature-card_image-cover"></div>
-						<picture>
-							<source srcset="/static/img/android/zeiterfassung_eintrag.avif" type="image/avif">
-							<source srcset="/static/img/android/zeiterfassung_eintrag.webp" type="image/webp">
-							<img src="/static/img/android/zeiterfassung_eintrag.png" alt="Arbeitszeiten unterwegs schnell und einfach erfassen.">
-						</picture>
+					<div class="my-auto max-w-[50%]">
+
+					<picture >
+{{!-- 						<source srcset="/static/img/mental-health/2.avif" type="image/avif"> --}}
+{{!-- 						<source srcset="/static/img/android/android-hero.webp" type="image/webp"> --}}
+						<img src="/static/img/mental-health/selbstreflektion.png"
+						alt="urlaubsverwaltung.cloud jetzt auch als android app für deine Mitarbeitenden.">
+					</picture>
 					</div>
 				</div>
 			</div>
@@ -211,20 +213,43 @@ stylesheets:
 				<div class="android-feature-card">
 					<div class="android-feature-card_description">
 						<h3>
-							Handlungsempfehlungen zur Selbsfürsorge
+							Das Ergebnis: Handlungsempfehlungen zur Selbstfürsorge
 						</h3>
 						<p>
-							
+Handlungsempfehlungen zur Selbstfürsorge für mentale Gesundheit am Arbeitsplatz umfassen die Etablierung gesunder Arbeitsgewohnheiten und regelmäßige Pausen. Arbeitnehmer sollten gezielt Zeiten für Erholung und Entspannung einplanen, um Überlastung zu vermeiden. Eine Studie von Gallup zeigt, dass Mitarbeiter, die regelmäßig Pausen einlegen, ihre Produktivität um bis zu 30 % steigern können. Darüber hinaus ist es wichtig, das Bewusstsein für Stressauslöser zu schärfen und Techniken zur Stressbewältigung, wie Meditation oder Atemübungen, zu praktizieren.
+						</p>
+					<p>
+Ein weiterer wichtiger Aspekt der Selbstfürsorge ist die Förderung der sozialen Unterstützung am Arbeitsplatz. Der Austausch mit Kollegen und das Teilen von Erfahrungen können das Gefühl der Isolation verringern und zu einem besseren emotionalen Wohlbefinden beitragen. Unternehmen sollten zudem eine offene Kommunikation über mentale Gesundheit fördern und Mitarbeiter ermutigen, Hilfe in Anspruch zu nehmen, wenn sie diese benötigen. Laut der World Health Organization (WHO) haben Organisationen, die auf die mentale Gesundheit ihrer Mitarbeiter achten, niedrigere Fluktuationsraten und eine höhere Mitarbeitermotivation.
+						</p>
+						<p>
+							<a href="/mental-health/handlungsempfehlungen-mentale-gesundheit" class="text-black hover:underline">
+								{{> partials/icon-chevron-double-right class='w-4 h-4 -mt-0.5 inline-block'}}
+								mehr Informationen
+							</a>
 						</p>
 					</div>
-					<div class="android-feature-card_image">
-						<div class="android-feature-card_image-cover"></div>
+					<div class="my-auto">
 						<picture>
-							<source srcset="/static/img/android/zeiterfassung_statistik.avif" type="image/avif">
-							<source srcset="/static/img/android/zeiterfassung_statistik.webp" type="image/webp">
-							<img src="/static/img/android/zeiterfassung_statistik.png" alt="Überblick der erfassten Arbeitszeiten.">
+{{!-- 							<source srcset="/static/img/android/zeiterfassung_statistik.avif" type="image/avif"> --}}
+{{!-- 							<source srcset="/static/img/android/zeiterfassung_statistik.webp" type="image/webp"> --}}
+							<img src="/static/img/mental-health/mh6.png" alt="Überblick der erfassten Arbeitszeiten.">
 						</picture>
 					</div>
+				</div>
+			</div>
+
+
+			<div class="lg:mt-12 xl:mt-24 android-feature-card-border">
+				<div class="android-feature-card">
+					<div class="android-feature-card_description">
+						<h3>
+							Das Konzept ist aktuell in der Umsetzung, bleib auf dem Laufenden
+						</h3>
+						<p>
+						Newsletter anmeldung
+						</p>
+					</div>
+
 				</div>
 			</div>
 
