@@ -4,8 +4,57 @@
   <subtitle></subtitle>
   <link rel="self" href="https://urlaubsverwaltung.cloud/feed.xml" />
   <link rel="alternate" type="text/html" href="https://urlaubsverwaltung.cloud" />
-  <updated>2024-06-21T00:00:00Z</updated>
+  <updated>2024-09-20T00:00:00Z</updated>
   <id>https://urlaubsverwaltung.cloud</id>
+  
+  
+  
+  <entry>
+    <title>AU Validierung Erweitert und Überstunden via API</title>
+    <link href="https://urlaubsverwaltung.cloud/neuigkeiten/2024-09-20-release-5.7.0/" />
+    <updated>2024-09-20T00:00:00Z</updated>
+    <id>https://urlaubsverwaltung.cloud/neuigkeiten/2024-09-20-release-5.7.0/</id>
+    <author>
+      <name>Andreas Weigel</name>
+    </author>
+    <content type="html">&lt;p&gt;Der Zeitraum der AU Bescheinigung darf ab jetzt den Zeitraum der Krankmeldung überschreiten.
+Außerdem können abgebaute Überstunden über die API abgerufen werden.&lt;/p&gt;
+&lt;h2 id=&quot;au-bescheinigung-zeitraumvalidierung-erweitert&quot;&gt;AU-Bescheinigung Zeitraumvalidierung erweitert&lt;/h2&gt;
+&lt;p&gt;In der Urlaubsverwaltung ist es möglich einer Krankmeldung die Informationen einer AU-Bescheinigung wie zum Beispiel den Zeitraum hinzuzufügen.
+Wir haben dieser Funktion eine Validierung verpasst, um sicherzustellen, dass der Zeitraum der AU nicht den Zeitraum der Krankmeldung überschreitet,
+da es üblich ist, dass die AU-Bescheinigung sowie die Krankmeldung zum gleichen Zeitpunkt endet.&lt;/p&gt;
+&lt;h3 id=&quot;feedback-und-anforderung-von-kunden&quot;&gt;Feedback und Anforderung von Kunden&lt;/h3&gt;
+&lt;p&gt;Kürzlich haben wir Feedback von einem Kunden bekommen, dass diese Validierung bei ihnen zu einer Herausforderung führt,
+da es bei ihnen nicht unüblich ist, dass Mitarbeitende früher aus dem Krankenstand zurückkehren, wenn sie wieder arbeitsfähig sind.
+In diesem Fall muss die Krankmeldung in der Urlaubsverwaltung gekürzt werden, die AU-Bescheinigung bleibt jedoch gleich.&lt;/p&gt;
+&lt;p&gt;Warum ist das so?&lt;/p&gt;
+&lt;p&gt;Eine AU-Bescheinigung ist ein offizielles Dokument, welches von einem Arzt ausgestellt wird und die Arbeitsunfähigkeit
+eines Mitarbeitenden beurteilt und den Zeitraum bis zur Genesung einschätzt. Anhand dieser Informationen
+kann die Buchhaltung eine eAU abrufen. Der Zeitraum einer Krankmeldung kann an der AU-Bescheinigung ausgerichtet sein, ist aber nicht zwingend.&lt;/p&gt;
+&lt;h3 id=&quot;erweiterung-der-funktion&quot;&gt;Erweiterung der Funktion&lt;/h3&gt;
+&lt;p&gt;Diese Anforderung entspricht einem validen Anwendungsfall, daher haben wir die Validierung angepasst.&lt;/p&gt;
+&lt;div class=&quot;flex my-8&quot;&gt;
+    &lt;figure&gt;
+        &lt;picture&gt;
+            &lt;source srcset=&quot;https://urlaubsverwaltung.cloud/neuigkeiten/2024-09-20-release-5.7.0/AU-Zeitraum.avif&quot; type=&quot;image/avif&quot; /&gt;
+            &lt;source srcset=&quot;https://urlaubsverwaltung.cloud/neuigkeiten/2024-09-20-release-5.7.0/AU-Zeitraum.webp&quot; type=&quot;image/webp&quot; /&gt;
+            &lt;img src=&quot;https://urlaubsverwaltung.cloud/neuigkeiten/2024-09-20-release-5.7.0/AU-Zeitraum.png&quot; alt=&quot;Der Zeitraum der AU überschreitet den Zeitraum der Krankmeldung&quot; decoding=&quot;async&quot; loading=&quot;lazy&quot; class=&quot;rounded-lg&quot; /&gt;
+        &lt;/picture&gt;
+        &lt;figcaption class=&quot;text-sm text-center&quot;&gt;Der Zeitraum der AU überschreitet den Zeitraum der Krankmeldung&lt;/figcaption&gt;
+    &lt;/figure&gt;
+&lt;/div&gt;
+&lt;p&gt;Ab jetzt kann der Zeitraum der AU-Bescheinigung, den Zeitraum der Krankmeldung überschreiten.&lt;/p&gt;
+&lt;h2 id=&quot;ueberstundenabbau-via-api&quot;&gt;Überstundenabbau via API&lt;/h2&gt;
+&lt;h3 id=&quot;anforderung-aus-der-opensource-community&quot;&gt;Anforderung aus der OpenSource Community&lt;/h3&gt;
+&lt;p&gt;Anwender unserer Software binden die Urlaubsverwaltung an, um die erhobenen Daten in anderen Systemen zu verwenden.
+Eine Anfrage aus der OpenSource Community war es, abgebaute Überstunden über die API abrufbar zu machen, um in einem
+ügergreifenden Controlling Tool anzuzeigen.&lt;/p&gt;
+&lt;h3 id=&quot;implementierung-durch-opensource-community&quot;&gt;Implementierung durch OpenSource Community&lt;/h3&gt;
+&lt;p&gt;Diesem Thema hat sich ein Entwickler aus der OpenSource Community angenommen und die Funktion implementiert,
+sodass wir sie direkt in der letzten Version der Urlaubsverwaltung veröffentlichen konnten.
+Vielen Dank für Contribution!&lt;/p&gt;
+</content>
+  </entry>
   
   
   
