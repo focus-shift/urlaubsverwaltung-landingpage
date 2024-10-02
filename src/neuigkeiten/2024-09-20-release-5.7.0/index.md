@@ -5,6 +5,7 @@ date: 2024-09-20
 title: AU Validierung Erweitert und Überstunden via API
 author: Andreas Weigel
 release-version: 5.7.0
+teaserImage: /static/teaser/2024-09-20/Release-5.7.0.png
 description: AU Bescheinigung darf Krankmeldung überschreiten
 ---
 
