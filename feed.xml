@@ -4,8 +4,50 @@
   <subtitle></subtitle>
   <link rel="self" href="https://urlaubsverwaltung.cloud/feed.xml" />
   <link rel="alternate" type="text/html" href="https://urlaubsverwaltung.cloud" />
-  <updated>2024-09-20T00:00:00Z</updated>
+  <updated>2024-10-02T00:00:00Z</updated>
   <id>https://urlaubsverwaltung.cloud</id>
+  
+  
+  
+  <entry>
+    <title>Konsistente Darstellung von erfassten Zeiten und Uhrzeiten im CSV Export</title>
+    <link href="https://urlaubsverwaltung.cloud/neuigkeiten/2024-10-02-release-2.8.0/" />
+    <updated>2024-10-02T00:00:00Z</updated>
+    <id>https://urlaubsverwaltung.cloud/neuigkeiten/2024-10-02-release-2.8.0/</id>
+    <author>
+      <name>Andreas Weigel</name>
+    </author>
+    <content type="html">&lt;p&gt;In der Berichtübersicht werden die Summen nicht mehr in Industriestunden, sondern lesbar dargestellt.
+Der CSV Export enthält jetzt auch die konkreten Arbeitszeiten.&lt;/p&gt;
+&lt;h2 id=&quot;verbesserte-darstellung-in-der-berichtuebersicht&quot;&gt;Verbesserte Darstellung in der Berichtübersicht&lt;/h2&gt;
+&lt;p&gt;In der Zeiterfassung werden unter dem Menüpunkt &amp;quot;Berichte&amp;quot; die erfassten Zeiten sowohl grafisch als auch tabellarisch dargestellt.
+Die Summen der erfassten Zeiten wurden bisher in Industriestunden dargestellt, was für viele Anwender nicht intuitiv war.
+Ab jetzt werden die Summen in Stunden und Minuten dargestellt, konsistent zu den Einträgen des ausgewählten Zeitraumes,
+was die Lesbarkeit deutlich verbessert.&lt;/p&gt;
+&lt;div class=&quot;flex my-8&quot;&gt;
+    &lt;figure&gt;
+        &lt;picture&gt;
+            &lt;source srcset=&quot;https://urlaubsverwaltung.cloud/neuigkeiten/2024-10-02-release-2.8.0/reformat-time.avif&quot; type=&quot;image/avif&quot; /&gt;
+            &lt;source srcset=&quot;https://urlaubsverwaltung.cloud/neuigkeiten/2024-10-02-release-2.8.0/reformat-time.webp&quot; type=&quot;image/webp&quot; /&gt;
+            &lt;img src=&quot;https://urlaubsverwaltung.cloud/neuigkeiten/2024-10-02-release-2.8.0/reformat-time.png&quot; alt=&quot;Die Summer der Arbeitszeiten wird jetzt in Stunden und Minuten dargestellt&quot; decoding=&quot;async&quot; loading=&quot;lazy&quot; class=&quot;rounded-lg&quot; /&gt;
+        &lt;/picture&gt;
+        &lt;figcaption class=&quot;text-sm text-center&quot;&gt;Die Summer der Arbeitszeiten wird jetzt in Stunden und Minuten dargestellt&lt;/figcaption&gt;
+    &lt;/figure&gt;
+&lt;/div&gt;
+&lt;h2 id=&quot;csv-export-mit-arbeitszeiten&quot;&gt;CSV Export mit Arbeitszeiten&lt;/h2&gt;
+&lt;p&gt;Der CSV Export enthält jetzt auch die konkreten Arbeitszeiten, die in der Zeiterfassung erfasst wurden.&lt;/p&gt;
+&lt;div class=&quot;flex my-8&quot;&gt;
+    &lt;figure&gt;
+        &lt;picture&gt;
+            &lt;source srcset=&quot;https://urlaubsverwaltung.cloud/neuigkeiten/2024-10-02-release-2.8.0/CSV-Export.avif&quot; type=&quot;image/avif&quot; /&gt;
+            &lt;source srcset=&quot;https://urlaubsverwaltung.cloud/neuigkeiten/2024-10-02-release-2.8.0/CSV-Export.webp&quot; type=&quot;image/webp&quot; /&gt;
+            &lt;img src=&quot;https://urlaubsverwaltung.cloud/neuigkeiten/2024-10-02-release-2.8.0/CSV-Export.png&quot; alt=&quot;Der CSV Export enthält jetzt auch die konkreten Arbeitszeiten&quot; decoding=&quot;async&quot; loading=&quot;lazy&quot; class=&quot;rounded-lg&quot; /&gt;
+        &lt;/picture&gt;
+        &lt;figcaption class=&quot;text-sm text-center&quot;&gt;Der CSV Export enthält jetzt auch die konkreten Arbeitszeiten&lt;/figcaption&gt;
+    &lt;/figure&gt;
+&lt;/div&gt;
+</content>
+  </entry>
   
   
   
