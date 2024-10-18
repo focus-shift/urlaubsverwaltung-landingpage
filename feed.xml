@@ -4,8 +4,72 @@
   <subtitle></subtitle>
   <link rel="self" href="https://urlaubsverwaltung.cloud/feed.xml" />
   <link rel="alternate" type="text/html" href="https://urlaubsverwaltung.cloud" />
-  <updated>2024-10-02T00:00:00Z</updated>
+  <updated>2024-10-18T00:00:00Z</updated>
   <id>https://urlaubsverwaltung.cloud</id>
+  
+  
+  
+  <entry>
+    <title>Neue Icons für Pausen und Kommentare in der Berichtübersicht</title>
+    <link href="https://urlaubsverwaltung.cloud/neuigkeiten/2024-10-18-release-2.10.0/" />
+    <updated>2024-10-18T00:00:00Z</updated>
+    <id>https://urlaubsverwaltung.cloud/neuigkeiten/2024-10-18-release-2.10.0/</id>
+    <author>
+      <name>Andreas Weigel</name>
+    </author>
+    <content type="html">&lt;p&gt;Im Release 2.10.0 der Zeiterfassung wurden kleine Veränderung in der Darstellung der Einträge im Bericht vorgenommen.
+Neue Icons verdeutlichen ob es sich um eine Pause handelt und ob es einen Kommentar gibt.&lt;/p&gt;
+&lt;h2 id=&quot;neue-icons-fuer-die-beschreibung-der-zeiteintraege-in-der-berichtuebersicht&quot;&gt;Neue Icons für die Beschreibung der Zeiteinträge in der Berichtübersicht&lt;/h2&gt;
+&lt;p&gt;m Release 2.10.0 der Zeiterfassungssoftware wurden kleinere Anpassungen in der Darstellung der Berichte vorgenommen,
+um die Benutzerfreundlichkeit zu verbessern. Besonders hervorzuheben ist die Einführung neuer Icons, die zusätzliche Informationen zu den Einträgen visuell unterstützen.&lt;/p&gt;
+&lt;p&gt;Zwei neue Icons bieten dabei mehr Klarheit:&lt;/p&gt;
+&lt;p&gt;Ein Pause-Icon zeigt auf einen Blick, wenn eine erfasste Zeit eine Pause darstellt.
+Ein weiteres Kommentar-Icon macht deutlich, ob zu einem Zeiteintrag ein Kommentar hinterlegt wurde.
+Durch diese visuellen Hinweise können Benutzer schneller erkennen, welche Einträge besondere Merkmale haben, was die Übersichtlichkeit der Berichte weiter steigert.&lt;/p&gt;
+&lt;div class=&quot;flex my-8&quot;&gt;
+    &lt;figure&gt;
+        &lt;picture&gt;
+            &lt;source srcset=&quot;https://urlaubsverwaltung.cloud/neuigkeiten/2024-10-18-release-2.10.0/KommentarPause.avif&quot; type=&quot;image/avif&quot; /&gt;
+            &lt;source srcset=&quot;https://urlaubsverwaltung.cloud/neuigkeiten/2024-10-18-release-2.10.0/KommentarPause.webp&quot; type=&quot;image/webp&quot; /&gt;
+            &lt;img src=&quot;https://urlaubsverwaltung.cloud/neuigkeiten/2024-10-18-release-2.10.0/KommentarPause.png&quot; alt=&quot;Zeiteinträge mit neuen Icons für Pausen und Kommentare&quot; decoding=&quot;async&quot; loading=&quot;lazy&quot; class=&quot;rounded-lg&quot; /&gt;
+        &lt;/picture&gt;
+        &lt;figcaption class=&quot;text-sm text-center&quot;&gt;Zeiteinträge mit neuen Icons für Pausen und Kommentare&lt;/figcaption&gt;
+    &lt;/figure&gt;
+&lt;/div&gt;
+</content>
+  </entry>
+  
+  
+  
+  <entry>
+    <title>Soll und Ist Arbeitszeit in der Berichtübersicht</title>
+    <link href="https://urlaubsverwaltung.cloud/neuigkeiten/2024-10-14-release-2.9.0/" />
+    <updated>2024-10-14T00:00:00Z</updated>
+    <id>https://urlaubsverwaltung.cloud/neuigkeiten/2024-10-14-release-2.9.0/</id>
+    <author>
+      <name>Andreas Weigel</name>
+    </author>
+    <content type="html">&lt;p&gt;Im Release 2.9.0 der Zeiterfassung wurden wichtige neue Werte in die Berichte aufgenommen,
+die den Anwendern eine detailliertere Übersicht über ihre Arbeitszeiten bieten.&lt;/p&gt;
+&lt;h2 id=&quot;neue-zeitwerte-in-der-berichtuebersicht&quot;&gt;Neue Zeitwerte in der Berichtübersicht&lt;/h2&gt;
+&lt;p&gt;Neu hinzugefügt wurden:&lt;/p&gt;
+&lt;p&gt;Soll-Tageszeit: Diese zeigt die vorgesehene Arbeitszeit pro Tag an.
+Ist-Tageszeit: Dieser Wert gibt die tatsächlich geleistete Arbeitszeit an.
+Tages-Über-/Unterstunden: Diese Kennzahl zeigt an, ob an einem Tag Überstunden geleistet oder weniger Stunden als vorgesehen gearbeitet wurden.
+Zusätzlich werden die Summen dieser Werte nun auch auf Wochen- und Monatsbasis dargestellt, was den Nutzern eine umfassende Analyse ihrer Arbeitszeit über längere Zeiträume ermöglicht.
+Diese Verbesserungen unterstützen eine präzisere Übersicht und Planung der Arbeitszeit.&lt;/p&gt;
+&lt;div class=&quot;flex my-8&quot;&gt;
+    &lt;figure&gt;
+        &lt;picture&gt;
+            &lt;source srcset=&quot;https://urlaubsverwaltung.cloud/neuigkeiten/2024-10-14-release-2.9.0/Stunden%C3%BCbersicht.avif&quot; type=&quot;image/avif&quot; /&gt;
+            &lt;source srcset=&quot;https://urlaubsverwaltung.cloud/neuigkeiten/2024-10-14-release-2.9.0/Stunden%C3%BCbersicht.webp&quot; type=&quot;image/webp&quot; /&gt;
+            &lt;img src=&quot;https://urlaubsverwaltung.cloud/neuigkeiten/2024-10-14-release-2.9.0/Stunden%C3%BCbersicht.png&quot; alt=&quot;Soll- und Ist-Werte, sowie Überstunden in der Berichtübersicht&quot; decoding=&quot;async&quot; loading=&quot;lazy&quot; class=&quot;rounded-lg&quot; /&gt;
+        &lt;/picture&gt;
+        &lt;figcaption class=&quot;text-sm text-center&quot;&gt;Soll- und Ist-Werte, sowie Überstunden in der Berichtübersicht&lt;/figcaption&gt;
+    &lt;/figure&gt;
+&lt;/div&gt;
+</content>
+  </entry>
   
   
   
