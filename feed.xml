@@ -4,8 +4,42 @@
   <subtitle></subtitle>
   <link rel="self" href="https://urlaubsverwaltung.cloud/feed.xml" />
   <link rel="alternate" type="text/html" href="https://urlaubsverwaltung.cloud" />
-  <updated>2024-10-18T00:00:00Z</updated>
+  <updated>2024-10-30T00:00:00Z</updated>
   <id>https://urlaubsverwaltung.cloud</id>
+  
+  
+  
+  <entry>
+    <title>Optimierung der UI in den Berichten und Eintrag über Mitternacht</title>
+    <link href="https://urlaubsverwaltung.cloud/neuigkeiten/2024-10-30-release-2.11.0/" />
+    <updated>2024-10-30T00:00:00Z</updated>
+    <id>https://urlaubsverwaltung.cloud/neuigkeiten/2024-10-30-release-2.11.0/</id>
+    <author>
+      <name>Andreas Weigel</name>
+    </author>
+    <content type="html">&lt;p&gt;🕒 Neue Features in der Zeiterfassung Version 2.11.0! Jetzt mit Avatar-Icons für eine bessere Übersicht, präziser Monatsansicht und exakten Summen bei Nachteinträgen.&lt;/p&gt;
+&lt;p&gt;Die neueste Version 2.11.0 unserer Zeiterfassungssoftware ist jetzt verfügbar und bringt gleich mehrere nützliche Verbesserungen für ein noch effizienteres Zeitmanagement und eine verbesserte Benutzererfahrung. Besonders im Fokus stehen dabei präzisere Darstellungen und benutzerfreundliche Anpassungen, die die tägliche Arbeit erleichtern. Hier sind die wichtigsten Neuerungen:&lt;/p&gt;
+&lt;h2 id=&quot;1-avatar-icons-in-der-berichtsuebersicht-fuer-bessere-team-uebersicht&quot;&gt;1. Avatar-Icons in der Berichtsübersicht für bessere Team-Übersicht&lt;/h2&gt;
+&lt;p&gt;Für alle, die täglich mit mehreren Teammitgliedern und Projekten arbeiten, haben wir die Berichtsübersicht optimiert. Ab sofort werden auf dieser Seite Avatare angezeigt, die die ausgewählten Personen repräsentieren. Dies vereinfacht die Identifizierung der Teammitglieder und bringt eine verbesserte visuelle Übersicht für Manager und Teamleiter.&lt;/p&gt;
+&lt;div class=&quot;flex my-8&quot;&gt;
+    &lt;figure&gt;
+        &lt;picture&gt;
+            &lt;source srcset=&quot;https://urlaubsverwaltung.cloud/neuigkeiten/2024-10-30-release-2.11.0/MAIcons.avif&quot; type=&quot;image/avif&quot; /&gt;
+            &lt;source srcset=&quot;https://urlaubsverwaltung.cloud/neuigkeiten/2024-10-30-release-2.11.0/MAIcons.webp&quot; type=&quot;image/webp&quot; /&gt;
+            &lt;img src=&quot;https://urlaubsverwaltung.cloud/neuigkeiten/2024-10-30-release-2.11.0/MAIcons.png&quot; alt=&quot;Zeiteinträge mit neuen Icons für Pausen und Kommentare&quot; decoding=&quot;async&quot; loading=&quot;lazy&quot; class=&quot;rounded-lg&quot; /&gt;
+        &lt;/picture&gt;
+        &lt;figcaption class=&quot;text-sm text-center&quot;&gt;Zeiteinträge mit neuen Icons für Pausen und Kommentare&lt;/figcaption&gt;
+    &lt;/figure&gt;
+&lt;/div&gt;
+&lt;h2 id=&quot;2-verbesserte-darstellung-von-8-stunden-eintraegen-in-der-monatsansicht&quot;&gt;2. Verbesserte Darstellung von 8-Stunden-Einträgen in der Monatsansicht&lt;/h2&gt;
+&lt;p&gt;Unsere Kunden haben uns wertvolles Feedback zur Monatsansicht gegeben. In der neuen Version wird jetzt eine korrekte Anzeige der 8-Stunden-Einträge gewährleistet. Das erleichtert die Monatsübersicht und die genaue Planung des Arbeitspensums.&lt;/p&gt;
+&lt;h2 id=&quot;3-korrekte-zeitsummen-bei-eintraegen-ueber-mitternacht-hinaus&quot;&gt;3. Korrekte Zeitsummen bei Einträgen über Mitternacht hinaus&lt;/h2&gt;
+&lt;p&gt;Ein Problem der bisherigen Version war die fehlerhafte Berechnung von Zeiteinträgen, die über Mitternacht hinausgehen. Dieses Feature ist jetzt optimiert und zeigt die genaue Summe der Stunden an. Damit verbessern wir nicht nur die Genauigkeit der Arbeitszeitdaten, sondern auch die Verlässlichkeit der Abrechnung.&lt;/p&gt;
+&lt;h2 id=&quot;fazit&quot;&gt;Fazit&lt;/h2&gt;
+&lt;p&gt;Die Version 2.11.0 ist ein weiterer Schritt in Richtung Effizienz und Benutzerfreundlichkeit für die Zeiterfassung. Durch diese kleinen, aber wirkungsvollen Anpassungen wird die tägliche Arbeit für Nutzer noch unkomplizierter und präziser. Wir freuen uns auf Ihr Feedback und stehen bei Fragen wie immer gern zur Verfügung!
+Einfach E-Mail an &lt;a href=&quot;mailto:info@urlaubsverwaltung.cloud&quot; class=&quot;underline&quot;&gt;info@urlaubsverwaltung.cloud&lt;/a&gt;&lt;/p&gt;
+</content>
+  </entry>
   
   
   
