@@ -2,6 +2,9 @@
 <html lang="de">
 
 <head>
+  {{> google-tag-manager-head}}
+	{{> meta}}
+	{{#if description}}
   {{> meta}}
 	{{#if description}}
 	<meta
@@ -30,6 +33,7 @@
 </head>
 
 <body class="flex flex-col min-h-full {{backgroundColor}}">
+	{{> google-tag-manager-body}}
 	{{> partials/top-anchor }}
 	<div class="flex-1">
 		{{{ content }}}

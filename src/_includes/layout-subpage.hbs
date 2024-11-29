@@ -2,6 +2,7 @@
 <html lang="de">
 
 <head>
+	{{> google-tag-manager-head}}
   {{> meta}}
 	{{#if description}}
 		<meta
@@ -30,6 +31,7 @@
 </head>
 
 <body class="flex flex-col min-h-full {{backgroundColor}}">
+	{{> google-tag-manager-body}}
 	{{> partials/top-anchor }}
 	{{> partials/navigation active=navigation.activeItem }}
 	<main class="flex-1 pb-12 sm:pb-32 md:pb-24">
