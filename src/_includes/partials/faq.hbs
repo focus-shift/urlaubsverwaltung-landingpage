@@ -21,9 +21,10 @@
 			<input type="checkbox" name="noop" id="faq-checkbox-sepa">
 			<input type="checkbox" name="noop" id="faq-checkbox-kuendigen">
 			<input type="checkbox" name="noop" id="faq-checkbox-kosten">
+			<input type="checkbox" name="noop" id="faq-checkbox-jahresvertrag">
 			<input type="checkbox" name="noop" id="faq-checkbox-dsgvo">
 			<input type="checkbox" name="noop" id="faq-checkbox-mitarbeiter-anlegen">
-			<input type="checkbox" ta4e="noop" id="faq-checkbox-kalenderintegration">
+			<input type="checkbox" name="noop" id="faq-checkbox-kalenderintegration">
 			<input type="checkbox" name="noop" id="faq-checkbox-app">
 			<input type="checkbox" name="noop" id="faq-checkbox-feedback">
 			<dl>
@@ -125,6 +126,27 @@
 					Jeder registrierte Benutzer der den Status aktiv hat, kostet 2,00€ (zzgl.MwSt) pro Monat. Kommt ein neuer
 					Benutzer während des Leistungszeitraumes hinzu, wird er für diesen Zeitraum nur anteilig abgerechnet.
 					Wird ein Benutzer auf den Status inaktiv gesetzt, findet er keine Beachtung in der Rechnung ab dem darauf folgenden Leistungszeitraum.
+				</dd>
+				{{/eq}}
+				{{#eq category "price" "all"}}
+				<dt class="group text-lg md:text-xl mt-8 md:mt-4 text-black font-semibold">
+					<label tabindex="0" for="faq-checkbox-jahresvertrag" class="cursor-pointer flex md:items-center text-black text-opacity-90">
+							<span class="mr-4 md:mr-6 text-sky-400 text-opacity-70 group-hover:text-opacity-100 mt-1">
+								{{> partials/icon-plus-circle class='w-6 h-6 md:w-7 md:h-7'}}
+							</span>
+						Gibt es einen Jahresvertrag und was kostet dieser?
+					</label>
+				</dt>
+				<dd data-id="faq-p-jahresvertrag" class="mt-4 ml-10 md:ml-13 text-lg text-black text-opacity-80">
+					Ja, es besteht die Möglichkeit, einen Jahresvertrag abzuschließen.
+					In diesem Fall gewähren wir einen Rabatt von 10%.
+					Ein Jahresvertrag wird im Voraus auf Basis der zu erwartenden Nutzerzahl abgeschlossen.
+					Benutzer, die während des Leistungszeitraumes hinzukommen, werden anteilig bis zum regulären Abrechnungszeitraum des Hauptvertrages abgerechnet.
+					Hierfür wird eine Nachberechnung erstellt. Wird ein Benutzer auf den Status inaktiv gesetzt oder gelöscht, wird die Änderung ab dem folgenden Leistungszeitraum in der Rechnung berücksichtigt.
+					Für einen Jahresvertrag wende dich bitte
+					<a href="mailto:info@urlaubsverwaltung.cloud?subject=Anfrage%20Jahresvertrag"
+						class="underline">
+					direkt an uns</a>.
 				</dd>
 				{{/eq}}
 				{{#eq category "all"}}
