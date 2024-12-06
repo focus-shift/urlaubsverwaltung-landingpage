@@ -9,7 +9,7 @@ input[type=checkbox],input[type=checkbox]~dl dd{display:none}input[type=checkbox
 	dt>label[for=faq-checkbox-sepa]>span>svg,#faq-checkbox-teilnehmen:checked~dl
 	dt>label[for=faq-checkbox-teilnehmen]>span>svg,#faq-checkbox-wirklich-kostenlos:checked~dl
 	dt>label[for=faq-checkbox-wirklich-kostenlos]>span>svg,#faq-checkbox-zahlungsarten:checked~dl
-	dt>label[for=faq-checkbox-zahlungsarten]>span>svg{color:rgba(14,165,233,var(--tw-text-opacity));transform:rotate(45deg)}#faq-checkbox-app:checked~dl dd[data-id=faq-p-app],#faq-checkbox-dsgvo:checked~dl dd[data-id=faq-p-dsgvo],#faq-checkbox-feedback:checked~dl dd[data-id=faq-p-feedback],#faq-checkbox-kalenderintegration:checked~dl
+	dt>label[for=faq-checkbox-zahlungsarten]>span>svg{color:rgba(14,165,233,var(--tw-text-opacity));transform:rotate(45deg)}#faq-checkbox-app:checked~dl dd[data-id=faq-p-app],#faq-checkbox-dsgvo:checked~dl dd[data-id=faq-p-dsgvo],#faq-checkbox-feedback:checked~dl dd[data-id=faq-p-feedback],#faq-checkbox-jahresvertrag:checked~dl dd[data-id=faq-p-jahresvertrag],#faq-checkbox-kalenderintegration:checked~dl
 	dd[data-id=faq-p-kalenderintegration],#faq-checkbox-kosten:checked~dl dd[data-id=faq-p-kosten],#faq-checkbox-kuendigen:checked~dl dd[data-id=faq-p-kuendigen],#faq-checkbox-mitarbeiter-anlegen:checked~dl
 	dd[data-id=faq-p-mitarbeiter-anlegen],#faq-checkbox-nach-testphase:checked~dl dd[data-id=faq-p-nach-testphase],#faq-checkbox-sepa:checked~dl dd[data-id=faq-p-sepa],#faq-checkbox-teilnehmen:checked~dl dd[data-id=faq-p-teilnehmen],#faq-checkbox-wirklich-kostenlos:checked~dl
 	dd[data-id=faq-p-wirklich-kostenlos],#faq-checkbox-zahlungsarten:checked~dl dd[data-id=faq-p-zahlungsarten]{display:block}
