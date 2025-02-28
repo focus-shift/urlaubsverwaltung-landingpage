@@ -51,7 +51,7 @@ description: Starte heute mit der Digitalisierung deines Unternehmens. Urlaubsve
 						</span>
 						<span class="flex items-center">
               <a href="/mental-health" class="text-black hover:underline">
-              #MentalHealth als integraler Bestandteil
+              <b>#MentalHealth</b> als integraler Bestandteil
             </span>
 					</li>
 					<li class="flex items-center">
@@ -60,7 +60,7 @@ description: Starte heute mit der Digitalisierung deines Unternehmens. Urlaubsve
 						</span>
 						<span class="flex items-center">
               <a href="/uebersicht" class="text-black hover:underline">
-              	Alle Anwesenheiten und Abwesenheiten übersichtlich erfassen
+              	Alle <b>Anwesenheiten</b> und <b>Abwesenheiten</b> übersichtlich erfassen
               </a>
             </span>
 					</li>
@@ -70,24 +70,41 @@ description: Starte heute mit der Digitalisierung deines Unternehmens. Urlaubsve
 						</span>
 						<span>
 							<a href="/individuell" class="text-black hover:underline">
-              	Individuell und vielfältig wie deine Mitarbeitenden
+              	<b>Individuell</b> und <b>vielfältig</b> wie deine Mitarbeitenden
 							</a>
             </span>
 					</li>
-					<li class="flex items-start">
-						<span class="mr-3">
-							{{> partials/icon-check-check class='w-6 h-6'}}
-						</span>
-						<span>
-							<a href="/funktionen" class="text-black hover:underline">
-								Alle Funktionen im Überblick
-							</a>
-						</span>
-					</li>
+{{!-- 					<li class="flex items-start"> --}}
+{{!-- 						<span class="mr-3"> --}}
+{{!-- 							{{> partials/icon-check class='w-6 h-6'}} --}}
+{{!-- 						</span> --}}
+{{!-- 						<span> --}}
+{{!-- 							<a href="/individuell1" class="text-black hover:underline"> --}}
+{{!-- 								<b>Datenschutz</b> by Design und by Default --}}
+{{!-- 							</a> --}}
+{{!-- 						</span> --}}
+{{!-- 					</li> --}}
+{{!-- 					<li class="flex items-start"> --}}
+{{!-- 						<span class="mr-3"> --}}
+{{!-- 							{{> partials/icon-check-check class='w-6 h-6'}} --}}
+{{!-- 						</span> --}}
+{{!-- 						<span> --}}
+{{!-- 							<a href="/funktionen" class="text-black hover:underline"> --}}
+{{!-- 								Alle Funktionen im Überblick --}}
+{{!-- 							</a> --}}
+{{!-- 						</span> --}}
+{{!-- 					</li> --}}
 				</ul>
 				<div>
 					<p class="mb-2 xs:text-lg md:text-base">
-						Sichere dir jetzt deine eigene Urlaubsverwaltung.
+						Starte heute noch durch
+						<picture class="inline-flex h-6 ml-2">
+							<img
+								src="/static/img/rocket.svg"
+								alt="Notariat Bonin"
+								class="w-full max-w-[230px]"
+							/>
+						</picture>
 					</p>
 					<div>
 						<a data-append-utm
@@ -108,23 +125,20 @@ description: Starte heute mit der Digitalisierung deines Unternehmens. Urlaubsve
 			</div>
 			<div class="flex-1 mb-8 md:mb-0 lg:ml-8 pt-16 lg:pt-0">
 				<div class=" lg:-translate-y-24">
-{{!-- 					{{> partials/browser-head width='860' height='39' }} --}}
-{{!-- 					<div class="border-l-2 border-r-2 border-b-2 border-zinc-700 rounded-b md:rounded-b-lg xl:rounded-b-2xl"> --}}
 						<picture>
-{{!-- 							<source srcset="/static/uv-startseite_sm.avif" media="(max-width: 639px)" type="image/avif"> --}}
-{{!-- 							<source srcset="/static/uv-startseite_sm.webp" media="(max-width: 639px)" type="image/webp"> --}}
-{{!-- 							<source srcset="/static/uv-startseite_sm.png" media="(max-width: 639px)"> --}}
-{{!-- 							<source srcset="/static/uv-startseite.avif" type="image/avif"> --}}
-{{!-- 							<source srcset="/static/uv-startseite.webp" type="image/webp"> --}}
+							<source srcset="/static/img/multi-device-image_sm.avif" media="(max-width: 639px)" type="image/avif">
+							<source srcset="/static/img/multi-device-image_sm.webp" media="(max-width: 639px)" type="image/webp">
+							<source srcset="/static/img/multi-device-image_sm.png" media="(max-width: 639px)">
+							<source srcset="/static/img/multi-device-image.avif" type="image/avif">
+							<source srcset="/static/img/multi-device-image.webp" type="image/webp">
 							<img
-								src="/static/multi-device-image.png"
+								src="/static/img/multi-device-image.png"
 								alt="Startseite der Urlaubsverwaltung mit kalenderischer Abwesenheitsübersicht"
 								class="rounded-b md:rounded-b-lg xl:rounded-b-2xl"
 								width="1440"
 								height="1206"
 							>
 						</picture>
-{{!-- 					</div> --}}
 				</div>
 			</div>
 		</div>
@@ -561,43 +575,10 @@ Cal("init",  {origin:"https://cal.com"});
 	</div>
 
 	<div>
-		<div class="w-full max-w-screen-xl mx-auto">
-			<h2 class="px-4 xs:px-12 md:px-0 text-2xl font-bold mb-12 md:ml-8 md:mb-16">
-				Deine eigene Urlaubsverwaltung <span class="sm:ml-8 sm:block">nutzen, wann und wo du willst</span>
-			</h2>
-		</div>
 		<div class="bg-gradient-to-b from-white to-sky-100 pb-8">
-			<div class="w-full max-w-screen-xl mx-auto flex flex-col-reverse md:flex-row">
-				<div class="md:w-1/3 md:ml-8 px-4 xs:px-12 md:px-0">
-					<p class="flex flex-col text-xl mb-8 sm:mb-12">
-						<span>Ob unterwegs am Smartphone,</span> <span>im Home Office am Laptop,</span> <span>oder am Desktop-Computer im Büro.</span>
-					</p>
-					<p class="text-xl mb-8 sm:mb-12">
-						urlaubsverwaltung.cloud ist auf jedem Gerät, von überall nutzbar. <span class="text-sm">*</span>
-					</p>
-					<aside class="text-sm">
-						<ul>
-							<li>* Internetverbindung vorausgesetzt</li>
-							<li>* Smartwatches werden noch nicht unterstützt</li>
-						</ul>
-					</aside>
-				</div>
-				<div class="px-4 mb-8 xs:mb-12 sm:px-12 md:px-8 md:mb-0 md:w-2/3">
-					<picture>
-						<source srcset="/static/uv-multidevice_sm.avif" media="(max-width: 639px)" type="image/avif">
-						<source srcset="/static/uv-multidevice_sm.webp" media="(max-width: 639px)" type="image/webp">
-						<source srcset="/static/uv-multidevice_sm.png" media="(max-width: 639px)">
-						<source srcset="/static/uv-multidevice.avif" type="image/avif">
-						<source srcset="/static/uv-multidevice.webp" type="image/webp">
-						<img src="/static/uv-multidevice.png" width="1061" height="691" loading="lazy"
-								 alt="urlaubsverwaltung auf Smartphone, Tablet, Laptop und PC nutzen">
-					</picture>
-				</div>
-			</div>
 		</div>
+			{{> partials/testimonials }}
 	</div>
-
-	{{> partials/testimonials }}
 
 	<div class="mb-12 md:mb-24">
 		<div class="w-full max-w-screen-xl mx-auto">
