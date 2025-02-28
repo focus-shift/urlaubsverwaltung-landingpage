@@ -31,7 +31,7 @@
 		"date-fns": "4.1.0",
 		"esbuild": "0.25.0",
     "eslint": "9.21.0",
-		"eslint-config-prettier": "9.1.0",
+		"eslint-config-prettier": "10.0.2",
 		"eslint-plugin-prettier": "5.2.1",
     "globals": "15.9.0",
 		"html-minifier-terser": "7.2.0",
