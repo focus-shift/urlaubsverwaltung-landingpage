@@ -92,6 +92,30 @@
 	.to-top-button:focus {
 		@apply shadow-xl;
 	}
+
+	.keyword {
+		@apply inline-block;
+		@apply underline;
+		@apply underline-offset-2;
+		@apply decoration-4;
+		@apply transition-all;
+		&.keyword--cyan {
+			@apply decoration-cyan-200;
+		}
+		&.keyword--yellow {
+			@apply decoration-yellow-200;
+		}
+	}
+	a > .keyword:hover {
+		@apply decoration-4;
+		@apply -skew-x-12;
+		&.keyword--yellow {
+			@apply decoration-yellow-300;
+		}
+		&.keyword--cyan {
+			@apply decoration-cyan-300;
+		}
+	}
 }
 
 @layer utilities {
@@ -164,7 +188,9 @@
 
 	#menu-toggle-checkbox + div > label > span > span:nth-child(1) {
 		top: 0;
-		transition: all 0.4s ease-in-out, transform 0.4s ease-in-out 0.4s;
+		transition:
+			all 0.4s ease-in-out,
+			transform 0.4s ease-in-out 0.4s;
 	}
 
 	#menu-toggle-checkbox + div > label > span > span:nth-child(2) {
