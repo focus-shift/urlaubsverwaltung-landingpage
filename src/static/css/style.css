@@ -75,6 +75,27 @@
 }
 
 @layer components {
+	.external-link {
+		display: inline-flex;
+		align-items: center;
+		text-decoration: underline;
+		&::before {
+			content: "";
+			width: 0.8em;
+			height: 0.8em;
+			@apply bg-gray-500;
+			mask-image: url("data:image/svg+xml;base64,PHN2ZwoJdmlld0JveD0iMCAwIDI0IDI0IgoJeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIgoJd2lkdGg9IjE2IgoJaGVpZ2h0PSIxNiIKCWZpbGw9Im5vbmUiCglzdHJva2U9ImN1cnJlbnRDb2xvciIKCXN0cm9rZS13aWR0aD0iMiIKCXN0cm9rZS1saW5lY2FwPSJyb3VuZCIKCXN0cm9rZS1saW5lam9pbj0icm91bmQiCgljbGFzcz0ie3tjbGFzc319Igo+Cgk8cGF0aCBkPSJNMTUgM2g2djYiLz4KCTxwYXRoIGQ9Ik0xMCAxNCAyMSAzIi8+Cgk8cGF0aCBkPSJNMTggMTN2NmEyIDIgMCAwIDEtMiAySDVhMiAyIDAgMCAxLTItMlY4YTIgMiAwIDAgMSAyLTJoNiIvPgo8L3N2Zz4K");
+			mask-size: contain;
+			margin-right: 0.125em;
+			@apply transition-colors;
+		}
+		&:hover {
+			&::before {
+				@apply bg-black;
+			}
+		}
+	}
+
 	.top-anchor {
 		margin-top: calc(
 			-1 * var(--scroll-padding-top) + 4rem
