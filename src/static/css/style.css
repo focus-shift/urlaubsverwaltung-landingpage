@@ -75,6 +75,27 @@
 }
 
 @layer components {
+	.external-link {
+		display: inline-flex;
+		align-items: center;
+		text-decoration: underline;
+		&::before {
+			content: "";
+			width: 0.8em;
+			height: 0.8em;
+			@apply bg-gray-500;
+			mask-image: url("data:image/svg+xml;base64,PHN2ZwoJdmlld0JveD0iMCAwIDI0IDI0IgoJeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIgoJd2lkdGg9IjE2IgoJaGVpZ2h0PSIxNiIKCWZpbGw9Im5vbmUiCglzdHJva2U9ImN1cnJlbnRDb2xvciIKCXN0cm9rZS13aWR0aD0iMiIKCXN0cm9rZS1saW5lY2FwPSJyb3VuZCIKCXN0cm9rZS1saW5lam9pbj0icm91bmQiCgljbGFzcz0ie3tjbGFzc319Igo+Cgk8cGF0aCBkPSJNMTUgM2g2djYiLz4KCTxwYXRoIGQ9Ik0xMCAxNCAyMSAzIi8+Cgk8cGF0aCBkPSJNMTggMTN2NmEyIDIgMCAwIDEtMiAySDVhMiAyIDAgMCAxLTItMlY4YTIgMiAwIDAgMSAyLTJoNiIvPgo8L3N2Zz4K");
+			mask-size: contain;
+			margin-right: 0.125em;
+			@apply transition-colors;
+		}
+		&:hover {
+			&::before {
+				@apply bg-black;
+			}
+		}
+	}
+
 	.top-anchor {
 		margin-top: calc(
 			-1 * var(--scroll-padding-top) + 4rem
@@ -91,6 +112,159 @@
 	.to-top-button:hover,
 	.to-top-button:focus {
 		@apply shadow-xl;
+	}
+
+	.keyword {
+		@apply inline-block;
+		@apply underline;
+		@apply underline-offset-2;
+		@apply decoration-4;
+		@apply transition-all;
+		&.keyword--cyan {
+			@apply decoration-cyan-200;
+		}
+		&.keyword--yellow {
+			@apply decoration-yellow-200;
+		}
+	}
+	a > .keyword:hover {
+		@apply decoration-4;
+		@apply -skew-x-12;
+		&.keyword--yellow {
+			@apply decoration-yellow-300;
+		}
+		&.keyword--cyan {
+			@apply decoration-cyan-300;
+		}
+	}
+
+	.android-feature-card-border {
+		@apply md:bg-gradient-to-b;
+		@apply from-gray-50;
+		@apply to-sky-50;
+		padding: 1.125rem;
+	}
+
+	.android-feature-card {
+		@apply bg-white;
+		@apply flex;
+		@apply flex-row;
+		border-radius: 1.125rem;
+	}
+
+	.android-feature-card_description {
+		@apply flex-1;
+		@apply p-8;
+	}
+
+	.android-feature-card_description h3 {
+		@apply font-bold;
+		@apply text-xl;
+	}
+
+	.android-feature-card_description p {
+		@apply mt-4;
+	}
+
+	.android-feature-card_image {
+		@apply relative;
+		@apply flex-1;
+		@apply p-4;
+	}
+
+	.android-feature-card_image-cover {
+		@apply hidden;
+	}
+
+	.android-feature-card_image img {
+		/*@apply w-full;*/
+		@apply border;
+		@apply border-gray-100;
+		@apply rounded-xl;
+		margin: 0 auto;
+	}
+
+	@screen sm {
+		.android-feature-card_image {
+			@apply p-8;
+		}
+
+		.android-feature-card_description h3 {
+			@apply text-2xl;
+		}
+
+		.android-feature-card_description p {
+			@apply text-lg;
+		}
+	}
+
+	@screen md {
+		.android-feature-card-border {
+			border-radius: 1.375rem;
+		}
+
+		.android-feature-card {
+			@apply flex-row;
+			@apply gap-4;
+		}
+
+		.android-feature-card_description {
+			@apply py-24;
+			@apply px-12;
+		}
+
+		.android-feature-card_description h3 {
+			@apply text-3xl;
+		}
+
+		.android-feature-card_description p {
+			@apply mt-8;
+		}
+
+		.android-feature-card_image {
+			/*@apply p-0;*/
+			/*@apply w-1/2;*/
+		}
+
+		.android-feature-card_image-cover {
+			@apply block;
+			@apply w-1/2;
+			@apply absolute;
+			@apply left-0;
+			@apply top-0;
+			@apply bottom-0;
+			@apply bg-gradient-to-r;
+			@apply from-white;
+		}
+
+		.android-feature-card_image img {
+			@apply rounded-r-2xl;
+			object-fit: cover;
+			object-position: 25%;
+		}
+	}
+
+	@screen lg {
+		.android-feature-card_image {
+			/*@apply w-3/5;*/
+		}
+
+		.android-feature-card_image-cover {
+			/*@apply w-full;*/
+		}
+
+		.android-feature-card_image img {
+			height: 500px;
+			/*object-fit: none;*/
+			/*object-position: 50% 50%;*/
+		}
+	}
+
+	@screen xl {
+		.android-feature-card_description {
+			@apply py-32;
+			@apply px-16;
+		}
 	}
 }
 
@@ -164,7 +338,9 @@
 
 	#menu-toggle-checkbox + div > label > span > span:nth-child(1) {
 		top: 0;
-		transition: all 0.4s ease-in-out, transform 0.4s ease-in-out 0.4s;
+		transition:
+			all 0.4s ease-in-out,
+			transform 0.4s ease-in-out 0.4s;
 	}
 
 	#menu-toggle-checkbox + div > label > span > span:nth-child(2) {
