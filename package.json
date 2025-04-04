@@ -24,7 +24,7 @@
 		"@11ty/eleventy": "2.0.1",
 		"@11ty/eleventy-plugin-rss": "1.2.0",
     "@eslint/js": "9.21.0",
-		"autoprefixer": "10.4.20",
+		"autoprefixer": "10.4.21",
 		"cheerio": "1.0.0",
 		"concurrently": "9.1.2",
 		"cssnano": "7.0.6",
