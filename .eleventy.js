@@ -6,7 +6,6 @@ import { load } from "cheerio";
 import pluginRss from "@11ty/eleventy-plugin-rss";
 import handlebarsPlugin from "@11ty/eleventy-plugin-handlebars";
 import htmlmin from "html-minifier-terser";
-import UpgradeHelper from "@11ty/eleventy-upgrade-help";
 
 const markdownIt = markdown();
 
@@ -46,7 +45,6 @@ export default function (eleventyConfig) {
 	eleventyConfig.addPassthroughCopy({ "./public/static": "static" });
 
 	eleventyConfig.addPlugin(pluginRss);
-	eleventyConfig.addPlugin(UpgradeHelper);
 
 	eleventyConfig.addTransform("htmlmin", function (content, outputPath) {
 		if (outputPath && outputPath.endsWith(".html")) {
