@@ -1,6 +1,6 @@
 ---
 draft: false
-layout: layout-neuigkeiten
+layout: layout-neuigkeiten.hbs
 date: 2022-01-12
 title: Feiertage für Österreich, Schweiz, UK, und Abwesenheiten an Feiertagen
 author: Tobias Schneider

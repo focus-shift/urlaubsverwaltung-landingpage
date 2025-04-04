@@ -1,6 +1,6 @@
 ---
 draft: false
-layout: layout-neuigkeiten
+layout: layout-neuigkeiten.hbs
 date: 2023-03-08
 title: Warum Ruhepausen für Unternehmen wichtig sind.
 author: Andreas Weigel

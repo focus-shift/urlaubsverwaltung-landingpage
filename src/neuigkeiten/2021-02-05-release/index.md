@@ -1,6 +1,6 @@
 ---
 draft: true
-layout: layout-neuigkeiten
+layout: layout-neuigkeiten.hbs
 date: 2021-02-05
 title: Version 4.10.0 veröffentlicht
 author: Benjamin Seber

@@ -1,5 +1,5 @@
 ---
-layout: layout-subpage
+layout: layout-subpage.hbs
 title: Auftragsverarbeitung
 backgroundColor: bg-white
 description: Unsere Auftragsverarbeitung ist öffentlich zugänglich - behalte den Überblick über deine Daten.
