@@ -19,8 +19,8 @@ urlaubsverwaltung.cloud authentifizieren.
 
 Aktuell unterstützen wir folgende Single Sign-On Provider:
 
-- [Azure Active Directory (Azure AD)](/hilfe/sso/azuread/)
-- [Google Workspace (Cloud Identity)](/hilfe/sso/google/)
+- [Azure Active Directory (Azure AD)](/hilfe/kundenportal/sso/azuread/)
+- [Google Workspace (Cloud Identity)](/hilfe/kundenportal/sso/google/)
 
 ## Warum wird mein Single Sign-On Provider (noch) nicht unterstützt?
 
