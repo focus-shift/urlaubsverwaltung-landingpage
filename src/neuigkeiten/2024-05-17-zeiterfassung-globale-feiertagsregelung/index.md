@@ -1,6 +1,6 @@
 ---
 draft: false
-layout: layout-neuigkeiten
+layout: layout-neuigkeiten.hbs
 date: 2024-05-17
 title: Globale Feiertagsregelung in der Zeiterfassung
 author: Tobias Schneider

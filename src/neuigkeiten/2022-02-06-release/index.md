@@ -1,6 +1,6 @@
 ---
 draft: false
-layout: layout-neuigkeiten
+layout: layout-neuigkeiten.hbs
 date: 2022-02-06
 title: Willkommen auf der dunklen Seite
 author: Benjamin Seber

@@ -1,6 +1,6 @@
 ---
 draft: false
-layout: layout-neuigkeiten
+layout: layout-neuigkeiten.hbs
 date: 2022-12-19
 title: 4 Gründe für die Digitalisierung deiner HR zum Jahreswechsel 2023
 author: Andreas Weigel

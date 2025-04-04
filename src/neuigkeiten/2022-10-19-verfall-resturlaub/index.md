@@ -1,6 +1,6 @@
 ---
 draft: false
-layout: layout-neuigkeiten
+layout: layout-neuigkeiten.hbs
 date: 2022-10-19
 title: Verfall von Resturlaub für alle und individuell für einzelne Mitarbeitenden
 author: Tobias Schneider

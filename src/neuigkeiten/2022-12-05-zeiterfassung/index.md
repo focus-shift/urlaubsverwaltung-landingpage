@@ -1,6 +1,6 @@
 ---
 draft: false
-layout: layout-neuigkeiten
+layout: layout-neuigkeiten.hbs
 date: 2022-12-05
 title: Die einfachste Form der Zeiterfassung!
 author: Andreas Weigel

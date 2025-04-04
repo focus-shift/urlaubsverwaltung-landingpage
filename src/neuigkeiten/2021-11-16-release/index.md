@@ -1,6 +1,6 @@
 ---
 draft: false
-layout: layout-neuigkeiten
+layout: layout-neuigkeiten.hbs
 date: 2021-11-16
 title: Verbesserte Berechtigungen, UI-Update und Nachricht bei neuen User
 author: Tobias Schneider

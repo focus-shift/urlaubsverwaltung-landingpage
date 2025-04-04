@@ -1,6 +1,6 @@
 ---
 draft: false
-layout: layout-neuigkeiten
+layout: layout-neuigkeiten.hbs
 date: 2022-07-22
 title: Verfall von Resturlaub pro Mitarbeitenden konfigurieren
 author: Tobias Schneider

@@ -1,6 +1,6 @@
 ---
 draft: false
-layout: layout-neuigkeiten
+layout: layout-neuigkeiten.hbs
 date: 2022-03-24
 title: Überarbeitung der Überstundenübersicht
 author: Tobias Schneider

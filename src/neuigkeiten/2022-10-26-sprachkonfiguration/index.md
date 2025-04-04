@@ -1,6 +1,6 @@
 ---
 draft: false
-layout: layout-neuigkeiten
+layout: layout-neuigkeiten.hbs
 date: 2022-10-26
 title: Überschreiben der Browsersprache in den Personalisierungen
 author: Tobias Schneider

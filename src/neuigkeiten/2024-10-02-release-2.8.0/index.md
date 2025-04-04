@@ -1,6 +1,6 @@
 ---
 draft: false
-layout: layout-neuigkeiten
+layout: layout-neuigkeiten.hbs
 date: 2024-10-02
 title: Konsistente Darstellung von erfassten Zeiten und Uhrzeiten im CSV Export
 author: Andreas Weigel

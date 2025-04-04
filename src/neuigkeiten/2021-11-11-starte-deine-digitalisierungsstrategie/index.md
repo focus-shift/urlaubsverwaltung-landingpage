@@ -1,6 +1,6 @@
 ---
 draft: false
-layout: layout-neuigkeiten
+layout: layout-neuigkeiten.hbs
 date: 2021-11-11
 title: Starte deine Digitalisierung - Urlaub, Krankmeldungen, Überstunden digital
 author: Tobias Schneider

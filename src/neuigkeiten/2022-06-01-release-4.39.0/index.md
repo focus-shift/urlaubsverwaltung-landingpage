@@ -1,6 +1,6 @@
 ---
 draft: false
-layout: layout-neuigkeiten
+layout: layout-neuigkeiten.hbs
 date: 2022-06-01
 title: 🌈 Jetzt wirds bunt! Neue Farben und Sichtbarkeiten der Abwesenheitsarten
 author: Andreas Weigel

@@ -1,6 +1,6 @@
 ---
 draft: false
-layout: layout-neuigkeiten
+layout: layout-neuigkeiten.hbs
 date: 2021-12-15
 title: Berechtigungskombinationen, Abwesenheitsübersicht und Logback
 author: Tobias Schneider

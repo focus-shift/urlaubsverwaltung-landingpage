@@ -1,6 +1,6 @@
 ---
 draft: false
-layout: layout-neuigkeiten
+layout: layout-neuigkeiten.hbs
 date: 2024-01-08
 title: Arbeitszeiten, Feiertagsregelung und mehr Berechtigungen in der Zeiterfassung
 author: Benjamin Seber
