@@ -1,6 +1,6 @@
 ---
 draft: false
-layout: layout-neuigkeiten
+layout: layout-neuigkeiten.hbs
 date: 2025-04-30
 title: Urlaubsverwaltung 5.11.0 – Neue Rollen-Zuweisung via Full-Scope Claim Mapping
 author: Andreas Weigel
@@ -22,11 +22,13 @@ In der Version **5.11.0** der Urlaubsverwaltung steht alles im Zeichen der **Int
 Mit diesem Release wird ein **neuer Mapper für Rollen aus Claims** eingeführt, der besonders für Setups mit zentraler Rollensteuerung über einen Identity Provider (z.B. Keycloak, Auth0, Azure AD) relevant ist.
 
 **Was macht der Mapper?**
+
 - Er liest Rolleninformationen direkt aus einem **Claim im Token** (z.B. `realm_access.roles`)
 - Unterstützt das **Full-Scope-Mapping**, also die systemweite Berechtigung auf Grundlage externer Rollen
 - Ermöglicht die **automatische Zuweisung von Urlaubsverwaltungs-Rollen** wie `OFFICE`, `BOSS`, `DEPARTMENT_HEAD` etc.
 
 **Vorteile:**
+
 - Zentrale Verwaltung aller Rollen in einem externen IdP
 - Kein manuelles Rollenmapping in der Urlaubsverwaltung notwendig
 - Ideal für große Organisationen mit Single Sign-On und rollenbasierter Zugriffskontrolle
@@ -36,6 +38,7 @@ Mit diesem Release wird ein **neuer Mapper für Rollen aus Claims** eingeführt,
 ## ⚙️ Für wen ist das interessant?
 
 Dieses Feature richtet sich vor allem an:
+
 - Admins, die **SSO über OAuth2/OpenID Connect** integriert haben
 - Unternehmen mit **zentralem Rollen- und Berechtigungsmanagement**
 - Nutzer:innen, die die Urlaubsverwaltung in eine bestehende IT-Infrastruktur einbetten

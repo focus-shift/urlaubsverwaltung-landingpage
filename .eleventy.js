@@ -1,11 +1,14 @@
-const { format } = require("date-fns/format");
-const { de } = require("date-fns/locale/de");
-const markdown = require("markdown-it");
-const markdownIt = require("markdown-it")();
-const markdownItAnchor = require("markdown-it-anchor");
-const cheerio = require("cheerio");
-const pluginRss = require("@11ty/eleventy-plugin-rss");
-const htmlmin = require("html-minifier-terser");
+import { format } from "date-fns/format";
+import { de } from "date-fns/locale/de";
+import markdown from "markdown-it";
+import markdownItAnchor from "markdown-it-anchor";
+import { load } from "cheerio";
+import pluginRss from "@11ty/eleventy-plugin-rss";
+import handlebarsPlugin from "@11ty/eleventy-plugin-handlebars";
+import htmlmin from "html-minifier-terser";
+import UpgradeHelper from "@11ty/eleventy-upgrade-help";
+
+const markdownIt = markdown();
 
 const paths = {
 	input: "src",
@@ -35,7 +38,7 @@ const isPublicationDateReached = publicationDate => {
 const isPublished = post =>
 	not(isDraft(post)) && isPublicationDateReached(post.date);
 
-module.exports = function (eleventyConfig) {
+export default function (eleventyConfig) {
 	eleventyConfig.setTemplateFormats(["njk", "hbs", "md", "html", "txt"]);
 	eleventyConfig.addPassthroughCopy(
 		"./src/**/*.{png,jpg,jpeg,webp,avif,mp4,xml}",
@@ -43,6 +46,7 @@ module.exports = function (eleventyConfig) {
 	eleventyConfig.addPassthroughCopy({ "./public/static": "static" });
 
 	eleventyConfig.addPlugin(pluginRss);
+	eleventyConfig.addPlugin(UpgradeHelper);
 
 	eleventyConfig.addTransform("htmlmin", function (content, outputPath) {
 		if (outputPath && outputPath.endsWith(".html")) {
@@ -73,24 +77,26 @@ module.exports = function (eleventyConfig) {
 		}),
 	);
 
-	eleventyConfig.addHandlebarsHelper("debug", function (...args) {
+	eleventyConfig.addPlugin(handlebarsPlugin);
+
+	eleventyConfig.addShortcode("debug", function (...args) {
 		console.log(...args);
 	});
 
-	eleventyConfig.addHandlebarsHelper("date", function (date, formatFunction) {
+	eleventyConfig.addShortcode("date", function (date, formatFunction) {
 		return format(date, formatFunction, { locale: de });
 	});
 
 	// check if a given value equals some of the following values
 	// e.g. ` {{#eq somethingToCheck "batman" "joker"}} ... {{/eq}}`
-	eleventyConfig.addHandlebarsHelper("eq", function (...args) {
+	eleventyConfig.addShortcode("eq", function (...args) {
 		const [first, ...rest] = args;
 		const [options] = rest.splice(-1);
 		const equalsAtLeastOne = Array.from(rest).some(value => first === value);
 		return equalsAtLeastOne ? options.fn(this) : null;
 	});
 
-	eleventyConfig.addHandlebarsHelper("markdownToHtml", function (text) {
+	eleventyConfig.addShortcode("markdownToHtml", function (text) {
 		return markdownIt.render(text);
 	});
 
@@ -102,7 +108,7 @@ module.exports = function (eleventyConfig) {
 		return prod ? allBlogPosts.filter(isPublished) : allBlogPosts;
 	});
 
-	eleventyConfig.addHandlebarsHelper("toc", function (data) {
+	eleventyConfig.addShortcode("toc", function (data) {
 		function renderNode(node) {
 			let childrenHtml = "";
 			if (node.children.length > 0) {
@@ -115,7 +121,7 @@ module.exports = function (eleventyConfig) {
 			return html;
 		}
 
-		const $ = cheerio.load(data.content);
+		const $ = load(data.content);
 		const headings = [...$("h2, h3")];
 		const tree = tocTree(headings, 1, $);
 
@@ -126,7 +132,7 @@ module.exports = function (eleventyConfig) {
 					.join("")}</ul>`;
 	});
 
-	eleventyConfig.addHandlebarsHelper(
+	eleventyConfig.addShortcode(
 		"isPublicationDateNotReached",
 		function (dateString, options) {
 			if (isPublicationDateReached(dateString)) {
@@ -141,7 +147,7 @@ module.exports = function (eleventyConfig) {
 		return isPublicationDateReached(dateString);
 	});
 
-	eleventyConfig.addHandlebarsHelper("daysFromNow", function (dateString) {
+	eleventyConfig.addShortcode("daysFromNow", function (dateString) {
 		const targetDate = new Date(dateString);
 		const today = new Date();
 
@@ -161,7 +167,7 @@ module.exports = function (eleventyConfig) {
 			output: paths.output,
 		},
 	};
-};
+}
 
 function tocTree(headings, parentLevel, $) {
 	let nodes = [];

@@ -1,6 +1,6 @@
 ---
 draft: false
-layout: layout-neuigkeiten
+layout: layout-neuigkeiten.hbs
 date: 2023-02-23
 title: Zeiterfassung - Arbeitszeiten, neue Berichte und geleistete Stunden
 author: Andreas Weigel

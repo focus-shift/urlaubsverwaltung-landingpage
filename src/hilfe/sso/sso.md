@@ -1,5 +1,5 @@
 ---
-layout: layout-wissensbasis
+layout: layout-wissensbasis.hbs
 breadcrumb:
   title: Single Sign-On (SSO)
 title: Single Sign-On (SSO) - Hilfe

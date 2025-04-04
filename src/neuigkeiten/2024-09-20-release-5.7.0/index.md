@@ -1,6 +1,6 @@
 ---
 draft: false
-layout: layout-neuigkeiten
+layout: layout-neuigkeiten.hbs
 date: 2024-09-20
 title: AU Validierung Erweitert und Überstunden via API
 author: Andreas Weigel

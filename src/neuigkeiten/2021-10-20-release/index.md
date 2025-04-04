@@ -1,6 +1,6 @@
 ---
 draft: false
-layout: layout-neuigkeiten
+layout: layout-neuigkeiten.hbs
 date: 2021-10-20
 title: Verbesserte Urlaubs-Übersicht // Hilfe direkt aus der Urlaubsverwaltung
 author: Tobias Schneider

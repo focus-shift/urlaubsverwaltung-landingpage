@@ -1,5 +1,5 @@
 ---
-layout: layout-wissensbasis
+layout: layout-wissensbasis.hbs
 breadcrumb:
   title: SSO mit Azure AD
 title: Azure AD - Single Sign-On (SSO) - Hilfe

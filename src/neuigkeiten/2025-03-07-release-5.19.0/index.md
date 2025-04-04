@@ -1,6 +1,6 @@
 ---
 draft: false
-layout: layout-neuigkeiten
+layout: layout-neuigkeiten.hbs
 date: 2025-06-04
 title: Urlaubsverwaltung 5.19.0 veröffentlicht – verbesserte Benachrichtigungen und neue Antwortfunktionen
 author: Andreas Weigel
@@ -12,7 +12,6 @@ description: Das Update 5.19.0 verbessert die **Benachrichtigungen** in der Urla
 Mit der neuen Version **5.19.0** der Urlaubsverwaltung werden gleich zwei wichtige Verbesserungen eingeführt, die den **Kommunikationsfluss** und die **Transparenz** im Urlaubs- und Krankheitsmanagement verbessern. Diese neuen Funktionen sorgen für eine klarere Kommunikation zwischen **Antragsstellern**, **Vorgesetzten** und **privilegierten Personen**. Hier die Details:
 
 <!-- more -->
-
 
 ## 📩 Antwort-An auf Antragssteller setzen bei Benachrichtigungen an vorgesetzte Person
 

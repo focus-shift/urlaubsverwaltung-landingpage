@@ -1,6 +1,6 @@
 ---
 draft: false
-layout: layout-neuigkeiten
+layout: layout-neuigkeiten.hbs
 date: 2025-05-23
 title: Zeiterfassung 2.16.0 – Änderungshistorie für Zeiteinträge
 author: Andreas Weigel
@@ -22,7 +22,7 @@ Das **Release 2.16.0** bietet eine wichtige Neuerung: die Einführung der **Änd
 Mit diesem Release können nun alle **Änderungen an Zeiteinträgen** nachverfolgt werden. Jede Änderung wird in einer übersichtlichen Historie gespeichert, die den **Verlauf** der Zeiteinträge dokumentiert. Dies ist besonders nützlich, um **Fehler** zu korrigieren und nachzuvollziehen, wer wann eine Änderung vorgenommen hat.
 
 > **Warum ist das wichtig?**  
-Die **Nachverfolgbarkeit** von Änderungen an Zeiteinträgen ist für Unternehmen und Teams von großer Bedeutung. Sie ermöglicht eine **größere Transparenz** und eine verbesserte **Datenintegrität**. Durch die Änderungshistorie können **Fehlerquellen** schneller identifiziert und behoben werden. Auch für Audits oder **Compliance-Anforderungen** kann diese Funktion von großer Bedeutung sein.
+> Die **Nachverfolgbarkeit** von Änderungen an Zeiteinträgen ist für Unternehmen und Teams von großer Bedeutung. Sie ermöglicht eine **größere Transparenz** und eine verbesserte **Datenintegrität**. Durch die Änderungshistorie können **Fehlerquellen** schneller identifiziert und behoben werden. Auch für Audits oder **Compliance-Anforderungen** kann diese Funktion von großer Bedeutung sein.
 
 ---
 

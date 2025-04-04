@@ -1,6 +1,6 @@
 ---
 draft: false
-layout: layout-neuigkeiten
+layout: layout-neuigkeiten.hbs
 date: 2022-04-27
 title: Personalstammdaten immer im Blick
 author: Daniel Fuchs

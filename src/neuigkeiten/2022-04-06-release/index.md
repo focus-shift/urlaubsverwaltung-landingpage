@@ -1,6 +1,6 @@
 ---
 draft: false
-layout: layout-neuigkeiten
+layout: layout-neuigkeiten.hbs
 date: 2022-04-06
 title: Konfiguration von Sonderurlaubstagen und Bildungsurlaub
 author: Tobias Schneider

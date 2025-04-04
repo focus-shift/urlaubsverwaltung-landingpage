@@ -1,6 +1,6 @@
 ---
 draft: false
-layout: layout-neuigkeiten
+layout: layout-neuigkeiten.hbs
 date: 2025-04-06
 title: Urlaubsverwaltung 5.8.0 – Kubernetes-Upgrade & Verbesserte Krankmeldungsverwaltung
 author: Andreas Weigel
@@ -25,7 +25,7 @@ Die Kubernetes-Unterstützung wird auf die Version **1.19** und höher fokussier
 - **Kompatibilität mit Kubernetes <= 1.18 entfernt**: In dieser Version wird die Unterstützung für ältere Kubernetes-Versionen (<= 1.18) nicht mehr gewahrt, um mit neueren Versionen und deren Funktionen kompatibel zu bleiben.
 
 > **Warum ist das wichtig?**  
-Die aktuelle Kubernetes-Version unterstützt mehr moderne Features und Sicherheitsupdates, und diese Änderungen helfen dabei, die Urlaubsverwaltung auf einer stabileren und leistungsfähigeren Grundlage auszuführen.
+> Die aktuelle Kubernetes-Version unterstützt mehr moderne Features und Sicherheitsupdates, und diese Änderungen helfen dabei, die Urlaubsverwaltung auf einer stabileren und leistungsfähigeren Grundlage auszuführen.
 
 ---
 
@@ -39,7 +39,7 @@ Diese Erweiterung erlaubt es, **bestehende Krankmeldungen zu bearbeiten** und fl
 - Bessere Anpassungsmöglichkeiten, wenn sich etwa der Zeitraum oder der Status einer Krankmeldung ändert.
 
 > **Warum ist das wichtig?**  
-Diese Funktion ermöglicht eine flexiblere Handhabung von Krankmeldungen und ist besonders hilfreich, wenn Änderungen nachträglich erforderlich sind, z. B. bei einer Verlängerung der Krankheitsdauer oder der Anpassung der Entgeltfortzahlung.
+> Diese Funktion ermöglicht eine flexiblere Handhabung von Krankmeldungen und ist besonders hilfreich, wenn Änderungen nachträglich erforderlich sind, z. B. bei einer Verlängerung der Krankheitsdauer oder der Anpassung der Entgeltfortzahlung.
 
 ---
 

@@ -1,6 +1,6 @@
 ---
 draft: false
-layout: layout-neuigkeiten
+layout: layout-neuigkeiten.hbs
 date: 2021-11-19
 title: Neue Abwesenheitsarten braucht die Urlaubsverwaltung!
 author: Tobias Schneider

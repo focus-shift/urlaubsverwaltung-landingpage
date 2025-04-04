@@ -1,6 +1,6 @@
 ---
 draft: false
-layout: layout-neuigkeiten
+layout: layout-neuigkeiten.hbs
 date: 2025-05-09
 title: Urlaubsverwaltung 5.14.0 – Mehr Performance & gepflegter Code
 author: Andreas Weigel
@@ -22,6 +22,7 @@ description: Mit Version 5.14.0 wird die Benutzerübersicht deutlich schneller g
 Die Benutzerübersicht ist häufig der Einstiegspunkt für viele Administrierende und Vorgesetzte – umso wichtiger, dass sie **schnell und performant** lädt. In diesem Update wurde genau daran gearbeitet.
 
 **Was wurde verbessert?**
+
 - Datenbankzugriffe optimiert
 - Reduzierung unnötiger Berechnungen und Objektinstanzen
 - Verbesserte Ladezeiten insbesondere bei vielen Nutzer:innen
@@ -39,6 +40,7 @@ Die Benutzerübersicht ist häufig der Einstiegspunkt für viele Administrierend
 Die README-Datei wurde überarbeitet, um Informationen klarer und aktueller darzustellen. Neue Nutzer:innen erhalten dadurch einen besseren Einstieg in die Anwendung.
 
 **Highlights:**
+
 - Aufgeräumte Struktur
 - Korrekturen und konsistente Begrifflichkeiten
 - Technische Hinweise aktualisiert
@@ -52,6 +54,7 @@ Die README-Datei wurde überarbeitet, um Informationen klarer und aktueller darz
 Die veraltete Methode `vacationDays()` wurde entfernt. Damit wird der Quellcode weiter bereinigt und modernisiert – ein kleiner, aber wichtiger Schritt in Richtung langfristiger Wartbarkeit.
 
 **Nutzen:**
+
 - Weniger Legacy-Code
 - Klare Verantwortlichkeiten in der Codebasis
 - Reduzierte Komplexität für Entwickler:innen

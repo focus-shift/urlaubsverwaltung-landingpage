@@ -1,5 +1,5 @@
 ---
-layout: layout-subpage
+layout: layout-subpage.hbs
 title: AGB der urlaubsverwaltung.cloud
 backgroundColor: bg-white
 description: Faire allgemeine Geschäftsbedingungen als Basis der Partnerschaft

@@ -1,6 +1,6 @@
 ---
 draft: false
-layout: layout-neuigkeiten
+layout: layout-neuigkeiten.hbs
 date: 2025-05-16
 title: Urlaubsverwaltung 5.16.0 – Neue API-Funktionen und stabilere Hintergrundprozesse
 author: Andreas Weigel
@@ -22,6 +22,7 @@ Mit **Release 5.16.0** legt die Urlaubsverwaltung den Schwerpunkt auf **erweiter
 Die API wurde erweitert: Es ist nun möglich, **alle Benutzer:innen** im System über einen API-Endpunkt abzufragen.
 
 **Was ist neu?**
+
 - Neuer API-Endpunkt `/api/persons`
 - Zugriff auf alle im System registrierten Personen (je nach Berechtigung)
 
@@ -38,6 +39,7 @@ Die API wurde erweitert: Es ist nun möglich, **alle Benutzer:innen** im System 
 Zusätzlich zum Zugriff auf alle Personen kann über die API jetzt auch der **Aktivitätsstatus (active/inactive)** jeder Person abgefragt werden.
 
 **Nutzen:**
+
 - Übersicht über aktive Benutzer:innen
 - Grundlage für automatisierte Bereinigungen oder Reports
 

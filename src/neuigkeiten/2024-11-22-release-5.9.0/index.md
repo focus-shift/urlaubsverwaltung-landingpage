@@ -1,6 +1,6 @@
 ---
 draft: false
-layout: layout-neuigkeiten
+layout: layout-neuigkeiten.hbs
 date: 2025-04-16
 title: Urlaubsverwaltung 5.9.0 – Verbesserte UI-Testabdeckung & optimierte Feiertagsberechnung
 author: Andreas Weigel
@@ -26,6 +26,7 @@ Um die Qualität der Benutzeroberfläche weiter zu sichern, laufen nun sämtlich
 - Verbesserte Sicherheit bei Rollouts neuer Funktionen
 
 🧪 Unterstützt werden z. B.:
+
 - Chromium
 - Firefox
 - WebKit (Safari)
@@ -41,6 +42,7 @@ Um die Qualität der Benutzeroberfläche weiter zu sichern, laufen nun sämtlich
 Die Berechnung von gesetzlichen Feiertagen wurde auf eine neue Grundlage gestellt: Die Urlaubsverwaltung nutzt nun die etablierte Open-Source-Bibliothek [Jollyday](https://github.com/svendiedrichsen/jollyday).
 
 **Vorteile:**
+
 - Zuverlässige und aktuelle Feiertagsdaten für viele Länder und Regionen
 - Keine manuelle Pflege mehr nötig
 - Bessere Zukunftssicherheit und Wartbarkeit

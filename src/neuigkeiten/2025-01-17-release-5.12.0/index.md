@@ -1,6 +1,6 @@
 ---
 draft: false
-layout: layout-neuigkeiten
+layout: layout-neuigkeiten.hbs
 date: 2025-05-02
 title: Urlaubsverwaltung 5.12.0 – Backup und Wiederherstellung erstmals möglich
 author: Andreas Weigel
@@ -22,11 +22,13 @@ Die Version **5.12.0** bringt ein besonders spannendes neues Feature für alle, 
 Mit diesem Release wird ein neues Beta-Feature eingeführt, das es ermöglicht, **Daten zu sichern und im Bedarfsfall wiederherzustellen**. Das betrifft u.a. Urlaubsanträge, Krankmeldungen und Personaldaten in der Urlaubsverwaltung.
 
 **Was ist neu?**
+
 - Möglichkeit, ein vollständiges **Backup** der Datenbankinhalte zu erstellen
 - Unterstützung für das **Wiederherstellen** der Daten aus einem gespeicherten Backup
 - Erste Version als Beta: ideal für Tests, Feedback und Weiterentwicklung
 
 **Warum ist das wichtig?**
+
 - Schutz vor versehentlichem Datenverlust
 - Vorbereitung auf Migrations- oder Update-Szenarien
 - Grundlage für zukünftige Admin-Funktionen zur Datensicherung

@@ -1,6 +1,6 @@
 ---
 draft: false
-layout: layout-neuigkeiten
+layout: layout-neuigkeiten.hbs
 date: 2025-06-06
 title: Urlaubsverwaltung 5.20.0 veröffentlicht – präzisere Kalenderangaben und optimierte Bestätigungs-Mails
 author: Andreas Weigel
@@ -12,7 +12,6 @@ description: Das Update 5.20.0 bietet spannende Verbesserungen, darunter eine ge
 Mit **Version 5.20.0** der Urlaubsverwaltung werden gleich mehrere wichtige Verbesserungen eingeführt, die den Arbeitsalltag in der Personalverwaltung deutlich erleichtern. Dabei stehen vor allem der **Kalender**, die **Bestätigungs-Mails** und die **Weiterleitungen** an verantwortliche Abteilungsleiter im Fokus. Hier die Details zu den wichtigsten Neuerungen:
 
 <!-- more -->
-
 
 ## ⏰ Kalender: Arbeitsstartzeit und Arbeitsendzeit präziser
 

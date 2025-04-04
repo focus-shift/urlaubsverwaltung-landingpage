@@ -1,6 +1,6 @@
 ---
 draft: false
-layout: layout-neuigkeiten
+layout: layout-neuigkeiten.hbs
 date: 2022-03-31
 title: Benutzerspezifische Stammdaten
 author: Tobias Schneider

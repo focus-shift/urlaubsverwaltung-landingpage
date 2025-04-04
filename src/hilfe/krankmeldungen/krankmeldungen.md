@@ -1,5 +1,5 @@
 ---
-layout: layout-wissensbasis
+layout: layout-wissensbasis.hbs
 breadcrumb:
   title: Krankmeldungen
 title: Krankmeldungen - Hilfe
