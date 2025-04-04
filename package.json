@@ -21,7 +21,7 @@
 		"outdir": "dist"
 	},
 	"dependencies": {
-		"@11ty/eleventy": "2.0.1",
+		"@11ty/eleventy": "3.0.0",
 		"@11ty/eleventy-plugin-rss": "1.2.0",
     "@eslint/js": "9.23.0",
 		"autoprefixer": "10.4.21",
