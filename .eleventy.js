@@ -28,7 +28,7 @@ const isPublished = post => {
 	const input = inputDate.toISOString().split("T")[0];
 	const now = today.toISOString().split("T")[0];
 
-	return now < input;
+	return now <= input;
 };
 
 module.exports = function (eleventyConfig) {
