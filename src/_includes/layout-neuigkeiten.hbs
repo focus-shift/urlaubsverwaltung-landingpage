@@ -28,7 +28,11 @@ navigation:
 		</div>
 		<div>
 			<small class="text-black text-opacity-50 italic">
-				{{date date 'dd. MMMM yyyy'}}
+				{{#isBeforeToday date}}
+					<span class="rounded-full px-2 py-0.5 bg-yellow-300 text-blue-900 text-xs">Publication date in {{daysFromNow date}} day(s) on {{date date 'dd. MMMM yyyy'}}</span>
+				{{else}}
+					{{date date 'dd. MMMM yyyy'}}
+				{{/isBeforeToday}}
 			</small>
 		</div>
 		<h1 class="text-4xl">

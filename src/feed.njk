@@ -17,6 +17,7 @@ metadata:
   <id>{{ metadata.url }}</id>
   {% for post in collections.blogposts %}
   {% if post.data.draft == false %}
+  {% if post.date | isBeforeTodayBoolean %}
   {% set absolutePostUrl %}{{ post.url | url | absoluteUrl(metadata.url) }}{% endset %}
   <entry>
     <title>{{ post.data.title }}</title>
@@ -28,6 +29,7 @@ metadata:
     </author>
     <content type="html">{{ post.templateContent | htmlToAbsoluteUrls(absolutePostUrl) }}</content>
   </entry>
+  {% endif %}
   {% endif %}
   {%- endfor %}
 </feed>

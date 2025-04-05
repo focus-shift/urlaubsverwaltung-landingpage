@@ -8,11 +8,13 @@ baseUrl: https://urlaubsverwaltung.cloud
   {%- for page in collections.all -%}
   {%- set isDraft = ('page.data.draft' if page.data.draft === true else false) -%}
   {%- if isDraft === false -%}
+  {% if page.date | isBeforeTodayBoolean %}
     <url>
       <loc>{{ baseUrl }}{{ page.url | url }}</loc>
       <lastmod>{{ page.date.toISOString() }}</lastmod>
       <changefreq>{{ page.data.changeFreq if page.data.changeFreq else "monthly" }}</changefreq>
     </url>
+  {%- endif -%}
   {%- endif -%}
   {%- endfor -%}
 </urlset>
