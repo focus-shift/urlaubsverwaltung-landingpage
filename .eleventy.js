@@ -125,7 +125,7 @@ module.exports = function (eleventyConfig) {
 	});
 
 	eleventyConfig.addHandlebarsHelper(
-		"isBeforeToday",
+		"IsNotPublished",
 		function (dateString, options) {
 			const inputDate = new Date(dateString);
 			const today = new Date();
@@ -142,7 +142,7 @@ module.exports = function (eleventyConfig) {
 		},
 	);
 
-	eleventyConfig.addFilter("isBeforeTodayBoolean", function (dateString) {
+	eleventyConfig.addFilter("IsNotPublishedBoolean", function (dateString) {
 		const now = new Date();
 		const inputDate = new Date(dateString);
 		return inputDate < now;
