@@ -1,7 +1,7 @@
 ---
 draft: false
 layout: layout-neuigkeiten
-date: 2024-10-02
+date: 2025-04-06
 title: Urlaubsverwaltung 5.8.0 – Kubernetes-Upgrade & Verbesserte Krankmeldungsverwaltung
 author: Andreas Weigel
 release-version: 5.8.0

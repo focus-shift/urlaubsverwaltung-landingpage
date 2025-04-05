@@ -1,7 +1,7 @@
 ---
 draft: false
 layout: layout-neuigkeiten
-date: 2025-01-10
+date: 2025-04-25
 title: Zeiterfassung 2.15.0 – Neuer 'RolesFromClaimMapper' für Berechtigungsmanagement
 author: Andreas Weigel
 release-version: 2.15.0

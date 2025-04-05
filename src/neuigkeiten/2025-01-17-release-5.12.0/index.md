@@ -1,7 +1,7 @@
 ---
 draft: false
 layout: layout-neuigkeiten
-date: 2025-01-17
+date: 2025-05-02
 title: Urlaubsverwaltung 5.12.0 – Backup und Wiederherstellung erstmals möglich
 author: Andreas Weigel
 release-version: 5.12.0

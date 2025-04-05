@@ -1,7 +1,7 @@
 ---
 draft: false
 layout: layout-neuigkeiten
-date: 2025-02-25
+date: 2025-05-28
 title: Urlaubsverwaltung 5.18.0 veröffentlicht – mit Demo-Banner, stabilerem Dark Mode und Zeitzonen-Fix
 author: Andreas Weigel
 release-version: 5.18.0

@@ -1,7 +1,7 @@
 ---
 draft: false
 layout: layout-neuigkeiten
-date: 2025-03-07
+date: 2025-06-04
 title: Urlaubsverwaltung 5.19.0 veröffentlicht – verbesserte Benachrichtigungen und neue Antwortfunktionen
 author: Andreas Weigel
 release-version: 5.19.0

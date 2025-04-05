@@ -1,7 +1,7 @@
 ---
 draft: false
 layout: layout-neuigkeiten
-date: 2025-03-11
+date: 2025-06-06
 title: Urlaubsverwaltung 5.20.0 veröffentlicht – präzisere Kalenderangaben und optimierte Bestätigungs-Mails
 author: Andreas Weigel
 release-version: 5.20.0

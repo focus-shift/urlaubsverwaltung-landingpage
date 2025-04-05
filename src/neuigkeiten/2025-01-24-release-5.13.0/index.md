@@ -1,7 +1,7 @@
 ---
 draft: false
 layout: layout-neuigkeiten
-date: 2025-01-24
+date: 2025-05-07
 title: Urlaubsverwaltung 5.13.0 – Einfachere API-Abfrage für Überstundenabbau
 author: Andreas Weigel
 release-version: 5.13.0

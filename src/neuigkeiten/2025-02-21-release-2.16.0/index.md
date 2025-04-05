@@ -1,7 +1,7 @@
 ---
 draft: false
 layout: layout-neuigkeiten
-date: 2025-02-21
+date: 2025-05-23
 title: Zeiterfassung 2.16.0 – Änderungshistorie für Zeiteinträge
 author: Andreas Weigel
 release-version: 2.16.0

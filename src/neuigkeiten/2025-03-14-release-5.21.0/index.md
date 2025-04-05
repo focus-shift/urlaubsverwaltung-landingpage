@@ -1,7 +1,7 @@
 ---
 draft: false
 layout: layout-neuigkeiten
-date: 2025-03-14
+date: 2025-06-13
 title: Urlaubsverwaltung 5.21.0 – Neue Features & Bugfixes!
 author: Andreas Weigel
 release-version: 5.21.0

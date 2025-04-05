@@ -1,7 +1,7 @@
 ---
 draft: false
 layout: layout-neuigkeiten
-date: 2024-12-06
+date: 2025-04-18
 title: Zeiterfassung 2.14.0 – Neue Feiertage und Bugfixes
 author: Andreas Weigel
 release-version: 2.14.0

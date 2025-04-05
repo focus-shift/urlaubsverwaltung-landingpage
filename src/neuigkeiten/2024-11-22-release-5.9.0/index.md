@@ -1,7 +1,7 @@
 ---
 draft: false
 layout: layout-neuigkeiten
-date: 2024-11-22
+date: 2025-04-16
 title: Urlaubsverwaltung 5.9.0 – Verbesserte UI-Testabdeckung & optimierte Feiertagsberechnung
 author: Andreas Weigel
 release-version: 5.9.0

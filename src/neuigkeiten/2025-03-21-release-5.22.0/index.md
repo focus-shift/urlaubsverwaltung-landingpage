@@ -1,7 +1,7 @@
 ---
 draft: false
 layout: layout-neuigkeiten
-date: 2025-03-21
+date: 2025-06-20
 title: 📢 Urlaubsverwaltung 5.22.0 veröffentlicht – neue Features für transparente Urlaubs- und Krankheitsverwaltung
 author: Andreas Weigel
 release-version: 5.22.0

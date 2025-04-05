@@ -1,7 +1,7 @@
 ---
 draft: false
 layout: layout-neuigkeiten
-date: 2024-12-09
+date: 2025-04-23
 title: Urlaubsverwaltung 5.10.0 – Regionale US-Feiertage erweitert
 author: Andreas Weigel
 release-version: 5.10.0

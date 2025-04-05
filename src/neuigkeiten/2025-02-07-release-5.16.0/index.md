@@ -1,7 +1,7 @@
 ---
 draft: false
 layout: layout-neuigkeiten
-date: 2025-02-07
+date: 2025-05-16
 title: Urlaubsverwaltung 5.16.0 – Neue API-Funktionen und stabilere Hintergrundprozesse
 author: Andreas Weigel
 release-version: 5.16.0

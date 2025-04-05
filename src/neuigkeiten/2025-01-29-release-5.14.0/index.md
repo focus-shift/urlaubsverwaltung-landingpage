@@ -1,7 +1,7 @@
 ---
 draft: false
 layout: layout-neuigkeiten
-date: 2025-01-29
+date: 2025-05-09
 title: Urlaubsverwaltung 5.14.0 – Mehr Performance & gepflegter Code
 author: Andreas Weigel
 release-version: 5.14.0

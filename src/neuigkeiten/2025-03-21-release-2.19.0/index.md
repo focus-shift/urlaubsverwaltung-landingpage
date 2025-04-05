@@ -1,7 +1,7 @@
 ---
 draft: false
 layout: layout-neuigkeiten
-date: 2025-03-21
+date: 2025-06-18
 title: Zeiterfassung 2.19.0 – Verbesserte Arbeitszeiteinstellungen & privilegierte Benutzeransicht
 author: Andreas Weigel
 release-version: 2.19.0

@@ -1,7 +1,7 @@
 ---
 draft: false
 layout: layout-neuigkeiten
-date: 2025-01-30
+date: 2025-05-14
 title: Urlaubsverwaltung 5.15.0 – Performance-Optimierung für PostgreSQL-Datenbanken
 author: Andreas Weigel
 release-version: 5.15.0

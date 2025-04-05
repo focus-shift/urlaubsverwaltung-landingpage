@@ -1,7 +1,7 @@
 ---
 draft: false
 layout: layout-neuigkeiten
-date: 2024-11-15
+date: 2025-04-11
 title: Zeiterfassung 2.13.0 – Verbesserungen bei Berichten und Bugfixes
 author: Andreas Weigel
 release-version: 2.13.0
