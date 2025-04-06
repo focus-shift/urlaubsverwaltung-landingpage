@@ -15,10 +15,10 @@ metadata:
   <link rel="alternate" type="text/html" href="{{ metadata.url }}" />
   <updated>{{ collections.blogposts | getNewestCollectionItemDate | dateToRfc3339 }}</updated>
   <id>{{ metadata.url }}</id>
-  {% for post in collections.blogposts %}
-  {% if post.data.draft == false %}
-  {% if post.date | IsNotPublishedBoolean %}
-  {% set absolutePostUrl %}{{ post.url | url | absoluteUrl(metadata.url) }}{% endset %}
+  {%- for post in collections.blogposts -%}
+  {%- if post.data.draft == false -%}
+  {%- if post.date | IsPublishedBoolean -%}
+  {%- set absolutePostUrl %}{{ post.url | url | absoluteUrl(metadata.url) }}{% endset -%}
   <entry>
     <title>{{ post.data.title }}</title>
     <link href="{{ absolutePostUrl }}" />
@@ -29,7 +29,7 @@ metadata:
     </author>
     <content type="html">{{ post.templateContent | htmlToAbsoluteUrls(absolutePostUrl) }}</content>
   </entry>
-  {% endif %}
-  {% endif %}
-  {%- endfor %}
+  {%- endif -%}
+  {%- endif -%}
+  {%- endfor -%}
 </feed>

@@ -142,10 +142,10 @@ module.exports = function (eleventyConfig) {
 		},
 	);
 
-	eleventyConfig.addFilter("IsNotPublishedBoolean", function (dateString) {
+	eleventyConfig.addFilter("IsPublishedBoolean", function (dateString) {
 		const now = new Date();
 		const inputDate = new Date(dateString);
-		return inputDate < now;
+		return now <= inputDate;
 	});
 
 	eleventyConfig.addHandlebarsHelper("daysFromNow", function (dateString) {
