@@ -5,4 +5,2134 @@
   <link rel="self" href="https://urlaubsverwaltung.cloud/feed.xml" />
   <link rel="alternate" type="text/html" href="https://urlaubsverwaltung.cloud" />
   <updated>2024-10-30T00:00:00Z</updated>
-  <id>https://urlaubsverwaltung.cloud</id></feed>
+  <id>https://urlaubsverwaltung.cloud</id>
+  
+  
+  
+  
+  <entry>
+    <title>Optimierung der UI in den Berichten und Eintrag über Mitternacht</title>
+    <link href="https://urlaubsverwaltung.cloud/neuigkeiten/2024-10-30-release-2.11.0/" />
+    <updated>2024-10-30T00:00:00Z</updated>
+    <id>https://urlaubsverwaltung.cloud/neuigkeiten/2024-10-30-release-2.11.0/</id>
+    <author>
+      <name>Andreas Weigel</name>
+    </author>
+    <content type="html">&lt;p&gt;🕒 Neue Features in der Zeiterfassung Version 2.11.0! Jetzt mit Avatar-Icons für eine bessere Übersicht, präziser Monatsansicht und exakten Summen bei Nachteinträgen.&lt;/p&gt;
+&lt;p&gt;Die neueste Version 2.11.0 unserer Zeiterfassungssoftware ist jetzt verfügbar und bringt gleich mehrere nützliche Verbesserungen für ein noch effizienteres Zeitmanagement und eine verbesserte Benutzererfahrung. Besonders im Fokus stehen dabei präzisere Darstellungen und benutzerfreundliche Anpassungen, die die tägliche Arbeit erleichtern. Hier sind die wichtigsten Neuerungen:&lt;/p&gt;
+&lt;h2 id=&quot;1-avatar-icons-in-der-berichtsuebersicht-fuer-bessere-team-uebersicht&quot;&gt;1. Avatar-Icons in der Berichtsübersicht für bessere Team-Übersicht&lt;/h2&gt;
+&lt;p&gt;Für alle, die täglich mit mehreren Teammitgliedern und Projekten arbeiten, haben wir die Berichtsübersicht optimiert. Ab sofort werden auf dieser Seite Avatare angezeigt, die die ausgewählten Personen repräsentieren. Dies vereinfacht die Identifizierung der Teammitglieder und bringt eine verbesserte visuelle Übersicht für Manager und Teamleiter.&lt;/p&gt;
+&lt;div class=&quot;flex my-8&quot;&gt;
+    &lt;figure&gt;
+        &lt;picture&gt;
+            &lt;source srcset=&quot;https://urlaubsverwaltung.cloud/neuigkeiten/2024-10-30-release-2.11.0/MAIcons.avif&quot; type=&quot;image/avif&quot; /&gt;
+            &lt;source srcset=&quot;https://urlaubsverwaltung.cloud/neuigkeiten/2024-10-30-release-2.11.0/MAIcons.webp&quot; type=&quot;image/webp&quot; /&gt;
+            &lt;img src=&quot;https://urlaubsverwaltung.cloud/neuigkeiten/2024-10-30-release-2.11.0/MAIcons.png&quot; alt=&quot;Zeiteinträge mit neuen Icons für Pausen und Kommentare&quot; decoding=&quot;async&quot; loading=&quot;lazy&quot; class=&quot;rounded-lg&quot; /&gt;
+        &lt;/picture&gt;
+        &lt;figcaption class=&quot;text-sm text-center&quot;&gt;Zeiteinträge mit neuen Icons für Pausen und Kommentare&lt;/figcaption&gt;
+    &lt;/figure&gt;
+&lt;/div&gt;
+&lt;h2 id=&quot;2-verbesserte-darstellung-von-8-stunden-eintraegen-in-der-monatsansicht&quot;&gt;2. Verbesserte Darstellung von 8-Stunden-Einträgen in der Monatsansicht&lt;/h2&gt;
+&lt;p&gt;Unsere Kunden haben uns wertvolles Feedback zur Monatsansicht gegeben. In der neuen Version wird jetzt eine korrekte Anzeige der 8-Stunden-Einträge gewährleistet. Das erleichtert die Monatsübersicht und die genaue Planung des Arbeitspensums.&lt;/p&gt;
+&lt;h2 id=&quot;3-korrekte-zeitsummen-bei-eintraegen-ueber-mitternacht-hinaus&quot;&gt;3. Korrekte Zeitsummen bei Einträgen über Mitternacht hinaus&lt;/h2&gt;
+&lt;p&gt;Ein Problem der bisherigen Version war die fehlerhafte Berechnung von Zeiteinträgen, die über Mitternacht hinausgehen. Dieses Feature ist jetzt optimiert und zeigt die genaue Summe der Stunden an. Damit verbessern wir nicht nur die Genauigkeit der Arbeitszeitdaten, sondern auch die Verlässlichkeit der Abrechnung.&lt;/p&gt;
+&lt;h2 id=&quot;fazit&quot;&gt;Fazit&lt;/h2&gt;
+&lt;p&gt;Die Version 2.11.0 ist ein weiterer Schritt in Richtung Effizienz und Benutzerfreundlichkeit für die Zeiterfassung. Durch diese kleinen, aber wirkungsvollen Anpassungen wird die tägliche Arbeit für Nutzer noch unkomplizierter und präziser. Wir freuen uns auf Ihr Feedback und stehen bei Fragen wie immer gern zur Verfügung!
+Einfach E-Mail an &lt;a href=&quot;mailto:info@urlaubsverwaltung.cloud&quot; class=&quot;underline&quot;&gt;info@urlaubsverwaltung.cloud&lt;/a&gt;&lt;/p&gt;
+</content>
+  </entry>
+  
+  
+  
+  
+  
+  <entry>
+    <title>Neue Icons für Pausen und Kommentare in der Berichtübersicht</title>
+    <link href="https://urlaubsverwaltung.cloud/neuigkeiten/2024-10-18-release-2.10.0/" />
+    <updated>2024-10-18T00:00:00Z</updated>
+    <id>https://urlaubsverwaltung.cloud/neuigkeiten/2024-10-18-release-2.10.0/</id>
+    <author>
+      <name>Andreas Weigel</name>
+    </author>
+    <content type="html">&lt;p&gt;Im Release 2.10.0 der Zeiterfassung wurden kleine Veränderung in der Darstellung der Einträge im Bericht vorgenommen.
+Neue Icons verdeutlichen ob es sich um eine Pause handelt und ob es einen Kommentar gibt.&lt;/p&gt;
+&lt;h2 id=&quot;neue-icons-fuer-die-beschreibung-der-zeiteintraege-in-der-berichtuebersicht&quot;&gt;Neue Icons für die Beschreibung der Zeiteinträge in der Berichtübersicht&lt;/h2&gt;
+&lt;p&gt;m Release 2.10.0 der Zeiterfassungssoftware wurden kleinere Anpassungen in der Darstellung der Berichte vorgenommen,
+um die Benutzerfreundlichkeit zu verbessern. Besonders hervorzuheben ist die Einführung neuer Icons, die zusätzliche Informationen zu den Einträgen visuell unterstützen.&lt;/p&gt;
+&lt;p&gt;Zwei neue Icons bieten dabei mehr Klarheit:&lt;/p&gt;
+&lt;p&gt;Ein Pause-Icon zeigt auf einen Blick, wenn eine erfasste Zeit eine Pause darstellt.
+Ein weiteres Kommentar-Icon macht deutlich, ob zu einem Zeiteintrag ein Kommentar hinterlegt wurde.
+Durch diese visuellen Hinweise können Benutzer schneller erkennen, welche Einträge besondere Merkmale haben, was die Übersichtlichkeit der Berichte weiter steigert.&lt;/p&gt;
+&lt;div class=&quot;flex my-8&quot;&gt;
+    &lt;figure&gt;
+        &lt;picture&gt;
+            &lt;source srcset=&quot;https://urlaubsverwaltung.cloud/neuigkeiten/2024-10-18-release-2.10.0/KommentarPause.avif&quot; type=&quot;image/avif&quot; /&gt;
+            &lt;source srcset=&quot;https://urlaubsverwaltung.cloud/neuigkeiten/2024-10-18-release-2.10.0/KommentarPause.webp&quot; type=&quot;image/webp&quot; /&gt;
+            &lt;img src=&quot;https://urlaubsverwaltung.cloud/neuigkeiten/2024-10-18-release-2.10.0/KommentarPause.png&quot; alt=&quot;Zeiteinträge mit neuen Icons für Pausen und Kommentare&quot; decoding=&quot;async&quot; loading=&quot;lazy&quot; class=&quot;rounded-lg&quot; /&gt;
+        &lt;/picture&gt;
+        &lt;figcaption class=&quot;text-sm text-center&quot;&gt;Zeiteinträge mit neuen Icons für Pausen und Kommentare&lt;/figcaption&gt;
+    &lt;/figure&gt;
+&lt;/div&gt;
+</content>
+  </entry>
+  
+  
+  
+  
+  
+  <entry>
+    <title>Soll und Ist Arbeitszeit in der Berichtübersicht</title>
+    <link href="https://urlaubsverwaltung.cloud/neuigkeiten/2024-10-14-release-2.9.0/" />
+    <updated>2024-10-14T00:00:00Z</updated>
+    <id>https://urlaubsverwaltung.cloud/neuigkeiten/2024-10-14-release-2.9.0/</id>
+    <author>
+      <name>Andreas Weigel</name>
+    </author>
+    <content type="html">&lt;p&gt;Im Release 2.9.0 der Zeiterfassung wurden wichtige neue Werte in die Berichte aufgenommen,
+die den Anwendern eine detailliertere Übersicht über ihre Arbeitszeiten bieten.&lt;/p&gt;
+&lt;h2 id=&quot;neue-zeitwerte-in-der-berichtuebersicht&quot;&gt;Neue Zeitwerte in der Berichtübersicht&lt;/h2&gt;
+&lt;p&gt;Neu hinzugefügt wurden:&lt;/p&gt;
+&lt;p&gt;Soll-Tageszeit: Diese zeigt die vorgesehene Arbeitszeit pro Tag an.
+Ist-Tageszeit: Dieser Wert gibt die tatsächlich geleistete Arbeitszeit an.
+Tages-Über-/Unterstunden: Diese Kennzahl zeigt an, ob an einem Tag Überstunden geleistet oder weniger Stunden als vorgesehen gearbeitet wurden.
+Zusätzlich werden die Summen dieser Werte nun auch auf Wochen- und Monatsbasis dargestellt, was den Nutzern eine umfassende Analyse ihrer Arbeitszeit über längere Zeiträume ermöglicht.
+Diese Verbesserungen unterstützen eine präzisere Übersicht und Planung der Arbeitszeit.&lt;/p&gt;
+&lt;div class=&quot;flex my-8&quot;&gt;
+    &lt;figure&gt;
+        &lt;picture&gt;
+            &lt;source srcset=&quot;https://urlaubsverwaltung.cloud/neuigkeiten/2024-10-14-release-2.9.0/Stunden%C3%BCbersicht.avif&quot; type=&quot;image/avif&quot; /&gt;
+            &lt;source srcset=&quot;https://urlaubsverwaltung.cloud/neuigkeiten/2024-10-14-release-2.9.0/Stunden%C3%BCbersicht.webp&quot; type=&quot;image/webp&quot; /&gt;
+            &lt;img src=&quot;https://urlaubsverwaltung.cloud/neuigkeiten/2024-10-14-release-2.9.0/Stunden%C3%BCbersicht.png&quot; alt=&quot;Soll- und Ist-Werte, sowie Überstunden in der Berichtübersicht&quot; decoding=&quot;async&quot; loading=&quot;lazy&quot; class=&quot;rounded-lg&quot; /&gt;
+        &lt;/picture&gt;
+        &lt;figcaption class=&quot;text-sm text-center&quot;&gt;Soll- und Ist-Werte, sowie Überstunden in der Berichtübersicht&lt;/figcaption&gt;
+    &lt;/figure&gt;
+&lt;/div&gt;
+</content>
+  </entry>
+  
+  
+  
+  
+  
+  <entry>
+    <title>Konsistente Darstellung von erfassten Zeiten und Uhrzeiten im CSV Export</title>
+    <link href="https://urlaubsverwaltung.cloud/neuigkeiten/2024-10-02-release-2.8.0/" />
+    <updated>2024-10-02T00:00:00Z</updated>
+    <id>https://urlaubsverwaltung.cloud/neuigkeiten/2024-10-02-release-2.8.0/</id>
+    <author>
+      <name>Andreas Weigel</name>
+    </author>
+    <content type="html">&lt;p&gt;In der Berichtübersicht werden die Summen nicht mehr in Industriestunden, sondern lesbar dargestellt.
+Der CSV Export enthält jetzt auch die konkreten Arbeitszeiten.&lt;/p&gt;
+&lt;h2 id=&quot;verbesserte-darstellung-in-der-berichtuebersicht&quot;&gt;Verbesserte Darstellung in der Berichtübersicht&lt;/h2&gt;
+&lt;p&gt;In der Zeiterfassung werden unter dem Menüpunkt &amp;quot;Berichte&amp;quot; die erfassten Zeiten sowohl grafisch als auch tabellarisch dargestellt.
+Die Summen der erfassten Zeiten wurden bisher in Industriestunden dargestellt, was für viele Anwender nicht intuitiv war.
+Ab jetzt werden die Summen in Stunden und Minuten dargestellt, konsistent zu den Einträgen des ausgewählten Zeitraumes,
+was die Lesbarkeit deutlich verbessert.&lt;/p&gt;
+&lt;div class=&quot;flex my-8&quot;&gt;
+    &lt;figure&gt;
+        &lt;picture&gt;
+            &lt;source srcset=&quot;https://urlaubsverwaltung.cloud/neuigkeiten/2024-10-02-release-2.8.0/reformat-time.avif&quot; type=&quot;image/avif&quot; /&gt;
+            &lt;source srcset=&quot;https://urlaubsverwaltung.cloud/neuigkeiten/2024-10-02-release-2.8.0/reformat-time.webp&quot; type=&quot;image/webp&quot; /&gt;
+            &lt;img src=&quot;https://urlaubsverwaltung.cloud/neuigkeiten/2024-10-02-release-2.8.0/reformat-time.png&quot; alt=&quot;Die Summer der Arbeitszeiten wird jetzt in Stunden und Minuten dargestellt&quot; decoding=&quot;async&quot; loading=&quot;lazy&quot; class=&quot;rounded-lg&quot; /&gt;
+        &lt;/picture&gt;
+        &lt;figcaption class=&quot;text-sm text-center&quot;&gt;Die Summer der Arbeitszeiten wird jetzt in Stunden und Minuten dargestellt&lt;/figcaption&gt;
+    &lt;/figure&gt;
+&lt;/div&gt;
+&lt;h2 id=&quot;csv-export-mit-arbeitszeiten&quot;&gt;CSV Export mit Arbeitszeiten&lt;/h2&gt;
+&lt;p&gt;Der CSV Export enthält jetzt auch die konkreten Arbeitszeiten, die in der Zeiterfassung erfasst wurden.&lt;/p&gt;
+&lt;div class=&quot;flex my-8&quot;&gt;
+    &lt;figure&gt;
+        &lt;picture&gt;
+            &lt;source srcset=&quot;https://urlaubsverwaltung.cloud/neuigkeiten/2024-10-02-release-2.8.0/CSV-Export.avif&quot; type=&quot;image/avif&quot; /&gt;
+            &lt;source srcset=&quot;https://urlaubsverwaltung.cloud/neuigkeiten/2024-10-02-release-2.8.0/CSV-Export.webp&quot; type=&quot;image/webp&quot; /&gt;
+            &lt;img src=&quot;https://urlaubsverwaltung.cloud/neuigkeiten/2024-10-02-release-2.8.0/CSV-Export.png&quot; alt=&quot;Der CSV Export enthält jetzt auch die konkreten Arbeitszeiten&quot; decoding=&quot;async&quot; loading=&quot;lazy&quot; class=&quot;rounded-lg&quot; /&gt;
+        &lt;/picture&gt;
+        &lt;figcaption class=&quot;text-sm text-center&quot;&gt;Der CSV Export enthält jetzt auch die konkreten Arbeitszeiten&lt;/figcaption&gt;
+    &lt;/figure&gt;
+&lt;/div&gt;
+</content>
+  </entry>
+  
+  
+  
+  
+  
+  <entry>
+    <title>AU Validierung Erweitert und Überstunden via API</title>
+    <link href="https://urlaubsverwaltung.cloud/neuigkeiten/2024-09-20-release-5.7.0/" />
+    <updated>2024-09-20T00:00:00Z</updated>
+    <id>https://urlaubsverwaltung.cloud/neuigkeiten/2024-09-20-release-5.7.0/</id>
+    <author>
+      <name>Andreas Weigel</name>
+    </author>
+    <content type="html">&lt;p&gt;Der Zeitraum der AU Bescheinigung darf ab jetzt den Zeitraum der Krankmeldung überschreiten.
+Außerdem können abgebaute Überstunden über die API abgerufen werden.&lt;/p&gt;
+&lt;h2 id=&quot;au-bescheinigung-zeitraumvalidierung-erweitert&quot;&gt;AU-Bescheinigung Zeitraumvalidierung erweitert&lt;/h2&gt;
+&lt;p&gt;In der Urlaubsverwaltung ist es möglich einer Krankmeldung die Informationen einer AU-Bescheinigung wie zum Beispiel den Zeitraum hinzuzufügen.
+Wir haben dieser Funktion eine Validierung verpasst, um sicherzustellen, dass der Zeitraum der AU nicht den Zeitraum der Krankmeldung überschreitet,
+da es üblich ist, dass die AU-Bescheinigung sowie die Krankmeldung zum gleichen Zeitpunkt endet.&lt;/p&gt;
+&lt;h3 id=&quot;feedback-und-anforderung-von-kunden&quot;&gt;Feedback und Anforderung von Kunden&lt;/h3&gt;
+&lt;p&gt;Kürzlich haben wir Feedback von einem Kunden bekommen, dass diese Validierung bei ihnen zu einer Herausforderung führt,
+da es bei ihnen nicht unüblich ist, dass Mitarbeitende früher aus dem Krankenstand zurückkehren, wenn sie wieder arbeitsfähig sind.
+In diesem Fall muss die Krankmeldung in der Urlaubsverwaltung gekürzt werden, die AU-Bescheinigung bleibt jedoch gleich.&lt;/p&gt;
+&lt;p&gt;Warum ist das so?&lt;/p&gt;
+&lt;p&gt;Eine AU-Bescheinigung ist ein offizielles Dokument, welches von einem Arzt ausgestellt wird und die Arbeitsunfähigkeit
+eines Mitarbeitenden beurteilt und den Zeitraum bis zur Genesung einschätzt. Anhand dieser Informationen
+kann die Buchhaltung eine eAU abrufen. Der Zeitraum einer Krankmeldung kann an der AU-Bescheinigung ausgerichtet sein, ist aber nicht zwingend.&lt;/p&gt;
+&lt;h3 id=&quot;erweiterung-der-funktion&quot;&gt;Erweiterung der Funktion&lt;/h3&gt;
+&lt;p&gt;Diese Anforderung entspricht einem validen Anwendungsfall, daher haben wir die Validierung angepasst.&lt;/p&gt;
+&lt;div class=&quot;flex my-8&quot;&gt;
+    &lt;figure&gt;
+        &lt;picture&gt;
+            &lt;source srcset=&quot;https://urlaubsverwaltung.cloud/neuigkeiten/2024-09-20-release-5.7.0/AU-Zeitraum.avif&quot; type=&quot;image/avif&quot; /&gt;
+            &lt;source srcset=&quot;https://urlaubsverwaltung.cloud/neuigkeiten/2024-09-20-release-5.7.0/AU-Zeitraum.webp&quot; type=&quot;image/webp&quot; /&gt;
+            &lt;img src=&quot;https://urlaubsverwaltung.cloud/neuigkeiten/2024-09-20-release-5.7.0/AU-Zeitraum.png&quot; alt=&quot;Der Zeitraum der AU überschreitet den Zeitraum der Krankmeldung&quot; decoding=&quot;async&quot; loading=&quot;lazy&quot; class=&quot;rounded-lg&quot; /&gt;
+        &lt;/picture&gt;
+        &lt;figcaption class=&quot;text-sm text-center&quot;&gt;Der Zeitraum der AU überschreitet den Zeitraum der Krankmeldung&lt;/figcaption&gt;
+    &lt;/figure&gt;
+&lt;/div&gt;
+&lt;p&gt;Ab jetzt kann der Zeitraum der AU-Bescheinigung, den Zeitraum der Krankmeldung überschreiten.&lt;/p&gt;
+&lt;h2 id=&quot;ueberstundenabbau-via-api&quot;&gt;Überstundenabbau via API&lt;/h2&gt;
+&lt;h3 id=&quot;anforderung-aus-der-opensource-community&quot;&gt;Anforderung aus der OpenSource Community&lt;/h3&gt;
+&lt;p&gt;Anwender unserer Software binden die Urlaubsverwaltung an, um die erhobenen Daten in anderen Systemen zu verwenden.
+Eine Anfrage aus der OpenSource Community war es, abgebaute Überstunden über die API abrufbar zu machen, um in einem
+ügergreifenden Controlling Tool anzuzeigen.&lt;/p&gt;
+&lt;h3 id=&quot;implementierung-durch-opensource-community&quot;&gt;Implementierung durch OpenSource Community&lt;/h3&gt;
+&lt;p&gt;Diesem Thema hat sich ein Entwickler aus der OpenSource Community angenommen und die Funktion implementiert,
+sodass wir sie direkt in der letzten Version der Urlaubsverwaltung veröffentlichen konnten.
+Vielen Dank für Contribution!&lt;/p&gt;
+</content>
+  </entry>
+  
+  
+  
+  
+  
+  <entry>
+    <title>Einfach, digital und nachvollziehbar Krankmelden durch Mitarbeitende</title>
+    <link href="https://urlaubsverwaltung.cloud/neuigkeiten/2024-06-21-selbsteintragen-von-krankmeldungen/" />
+    <updated>2024-06-21T00:00:00Z</updated>
+    <id>https://urlaubsverwaltung.cloud/neuigkeiten/2024-06-21-selbsteintragen-von-krankmeldungen/</id>
+    <author>
+      <name>Daniel Fuchs</name>
+    </author>
+    <content type="html">&lt;p&gt;Krankmelden direkt über die Urlaubsverwaltung: Wenige Klicks statt aufwendiger Kommunikation, direkt über die urlaubsverwaltung.cloud.&lt;/p&gt;
+&lt;h2 id=&quot;krankmeldung-selbst-eintragen&quot;&gt;Krankmeldung selbst eintragen&lt;/h2&gt;
+&lt;p&gt;Mit der neuen Version der Urlaubsverwaltung.cloud können jetzt auch die Mitarbeitenden selbst ihre Krankmeldung eintragen. Sobald eine Krankmeldung eingereicht wurde, werden alle Personen mit der Berechtigung „Office” oder „Pflege von Krankmeldungen” benachrichtigt. Sie können die Krankmeldung dann für die Organisation annehmen und z. B. in nachgelagerten Prozessen einfließen lassen.&lt;/p&gt;
+&lt;h3 id=&quot;der-ablauf-der-einreichung&quot;&gt;Der Ablauf der Einreichung&lt;/h3&gt;
+&lt;p&gt;Hier bekommst du eine Schritt-für-Schritt-Anleitung:&lt;/p&gt;
+&lt;h4 id=&quot;vorab-funktion-aktivieren&quot;&gt;Vorab: Funktion aktivieren&lt;/h4&gt;
+&lt;p&gt;Dein Office bzw. deine Personalabteilung kann die Funktion &amp;quot;Mitarbeiter-Krankmeldung&amp;quot; aktivieren/deaktivieren.
+Mehr zur Konfiguration der urlaubsverwaltung.cloud findest du in unserer &lt;a href=&quot;https://urlaubsverwaltung.cloud/hilfe/krankmeldungen/#kann-eine-mitarbeitende-die-krankmeldung-selbst-einreichen&quot;&gt;Hilfe zu Krankmeldungen&lt;/a&gt;.&lt;/p&gt;
+&lt;h4 id=&quot;1-krankmeldung-eintragen&quot;&gt;1. Krankmeldung eintragen&lt;/h4&gt;
+&lt;p&gt;Jetzt kannst du als Mitarbeitende über das „+“-Zeichen neben einer Abwesenheit auch eine Krankmeldung eintragen.&lt;/p&gt;
+&lt;div class=&quot;flex my-8&quot;&gt;
+    &lt;figure&gt;
+        &lt;picture&gt;
+            &lt;source srcset=&quot;https://urlaubsverwaltung.cloud/neuigkeiten/2024-06-21-selbsteintragen-von-krankmeldungen/user-neue-krankmeldung.avif&quot; type=&quot;image/avif&quot; /&gt;
+            &lt;img src=&quot;https://urlaubsverwaltung.cloud/neuigkeiten/2024-06-21-selbsteintragen-von-krankmeldungen/user-neue-krankmeldung.png&quot; alt=&quot;Krankmeldung erstellen als Mitarbeitende&quot; decoding=&quot;async&quot; loading=&quot;lazy&quot; class=&quot;rounded-lg&quot; /&gt;
+        &lt;/picture&gt;
+        &lt;figcaption class=&quot;text-sm text-center&quot;&gt;Krankmeldung erstellen als Mitarbeitende&lt;/figcaption&gt;
+    &lt;/figure&gt;
+&lt;/div&gt;
+&lt;h4 id=&quot;2-benachrichtigung-ueber-neue-krankmeldung&quot;&gt;2. Benachrichtigung über neue Krankmeldung&lt;/h4&gt;
+&lt;p&gt;Mitarbeitende mit der Berechtigung „Office” oder „Pflege von Krankmeldungen” bekommen jetzt eine Benachrichtigung,
+dass eine neue Krankmeldung eingereicht wurde. Sie können diese im Bereich „Abwesenheiten” unter
+„Eingereichte Krankmeldungen von Kolleg:innen” einsehen. Hier gibt es jetzt die Möglichkeit,
+die Einreichung direkt anzunehmen oder auch zu stornieren (für eine fälschlich eingetragene Krankmeldung).
+Wenn die Krankmeldung angenommen wird, bekommen auch alle Kollegen der erkrankten Person eine Benachrichtigung (konfigurierbar),
+dass sie abwesend ist (ohne Grundangabe oder Abwesenheitsart), analog zu allen anderen Abwesenheiten.
+Außerdem kann die Person aus dem Office jetzt nachgelagerte Prozesse in der Organisation anstoßen,
+zum Beispiel in der Lohnbuchhaltung.&lt;/p&gt;
+&lt;div class=&quot;flex my-8&quot;&gt;
+    &lt;figure&gt;
+        &lt;picture&gt;
+            &lt;source srcset=&quot;https://urlaubsverwaltung.cloud/neuigkeiten/2024-06-21-selbsteintragen-von-krankmeldungen/office-eingereichte-krankmeldungen.avif&quot; type=&quot;image/avif&quot; /&gt;
+            &lt;img src=&quot;https://urlaubsverwaltung.cloud/neuigkeiten/2024-06-21-selbsteintragen-von-krankmeldungen/office-eingereichte-krankmeldungen.png&quot; alt=&quot;Mitarbeitende mit der Berechtigung „Office” oder „Pflege von Krankmeldungen” bekommen eingereichte Krankmeldungen angezeigt&quot; decoding=&quot;async&quot; loading=&quot;lazy&quot; class=&quot;rounded-lg&quot; /&gt;
+        &lt;/picture&gt;
+        &lt;figcaption class=&quot;text-sm text-center&quot;&gt;Mitarbeitende mit der Berechtigung „Office” oder „Pflege von Krankmeldungen” bekommen eingereichte Krankmeldungen angezeigt&lt;/figcaption&gt;
+    &lt;/figure&gt;
+&lt;/div&gt;
+&lt;p&gt;An einer Krankmeldung ist für alle Berechtigten sichtbar, wann und wer die Krankmeldung eingereicht hat und wann und wer sie danach angenommen hat.&lt;/p&gt;
+&lt;div class=&quot;flex my-8&quot;&gt;
+    &lt;figure&gt;
+        &lt;picture&gt;
+            &lt;source srcset=&quot;https://urlaubsverwaltung.cloud/neuigkeiten/2024-06-21-selbsteintragen-von-krankmeldungen/verlauf-krankmeldung.avif&quot; type=&quot;image/avif&quot; /&gt;
+            &lt;img src=&quot;https://urlaubsverwaltung.cloud/neuigkeiten/2024-06-21-selbsteintragen-von-krankmeldungen/verlauf-krankmeldung.png&quot; alt=&quot;Verlauf in einer Krankmeldung, die von einer Mitarbeitenden eingetragen wurde&quot; decoding=&quot;async&quot; loading=&quot;lazy&quot; class=&quot;rounded-lg&quot; /&gt;
+        &lt;/picture&gt;
+        &lt;figcaption class=&quot;text-sm text-center&quot;&gt;Der Verlauf an einer Krankmeldung zeigt die Einreichung sowie das Annehmen einer Krankmeldung&lt;/figcaption&gt;
+    &lt;/figure&gt;
+&lt;/div&gt;
+&lt;h2 id=&quot;benachrichtigungen&quot;&gt;Benachrichtigungen&lt;/h2&gt;
+&lt;p&gt;Neben der bereits bestehenden Benachrichtigung über neu erfasste Krankmeldungen durch pflegeberechtigte ist es nun auch möglich,
+sich als Mitarbeitende mit der Berechtigung „Office” oder „Pflege von Krankmeldungen&amp;quot; über eingereichte und angenommene
+Krankmeldungen benachrichtigen zu lassen.&lt;/p&gt;
+&lt;div class=&quot;flex my-8&quot;&gt;
+    &lt;figure&gt;
+        &lt;picture&gt;
+            &lt;source srcset=&quot;https://urlaubsverwaltung.cloud/neuigkeiten/2024-06-21-selbsteintragen-von-krankmeldungen/benachrichtigungen-krankmeldungen.avif&quot; type=&quot;image/avif&quot; /&gt;
+            &lt;img src=&quot;https://urlaubsverwaltung.cloud/neuigkeiten/2024-06-21-selbsteintragen-von-krankmeldungen/benachrichtigungen-krankmeldungen.png&quot; alt=&quot;Einstellung der Benachrichtigungen für eingereichte und angenommene Krankmeldungen&quot; decoding=&quot;async&quot; loading=&quot;lazy&quot; class=&quot;rounded-lg&quot; /&gt;
+        &lt;/picture&gt;
+        &lt;figcaption class=&quot;text-sm text-center&quot;&gt;Einstellung der Benachrichtigungen für eingereichte und angenommene Krankmeldungen&lt;/figcaption&gt;
+    &lt;/figure&gt;
+&lt;/div&gt;
+&lt;h2 id=&quot;ausblick&quot;&gt;Ausblick&lt;/h2&gt;
+&lt;p&gt;In den nächsten Versionen der urlaubsverwaltung.cloud werden wir die Funktion verbessern und ausbauen.
+Dabei wollen wir vor allem darauf achten, dass die Funktion einfacher zu bedienen ist und wir
+sie noch besser an eure Bedürfnisse anpassen. Meldet euch gerne bei uns, wenn ihr Feedback habt oder mitgestalten wollt.&lt;/p&gt;
+&lt;h3 id=&quot;zusammenfassen-und-verlaengern&quot;&gt;Zusammenfassen und Verlängern&lt;/h3&gt;
+&lt;p&gt;Doch einen Tag länger krank gewesen? Mehrere Krankmeldungen hintereinander aus dem gleichen Grund? Dafür werden wir für Mitarbeitende die Möglichkeit schaffen, eine bestehende Krankmeldung ohne viel Aufwand zu verlängern. Auch als Person mit der Berechtigung „Office” oder „Pflege von Krankmeldungen” werden wir in dem Zuge es ermöglichen, Krankmeldungen zusammenzufassen.&lt;/p&gt;
+&lt;h3 id=&quot;vereinfachte-krankmeldung&quot;&gt;Vereinfachte Krankmeldung&lt;/h3&gt;
+&lt;p&gt;Wenn ich krank im Bett liege, möchte ich so einfach wie möglich die Krankmeldung loswerden, ohne 1000 Fragen beantworten zu müssen. Deshalb werden wir die Krankmeldung weiter vereinfachen, damit du dich auf das Wesentliche konzentrieren kann: Gesund werden. 😊&lt;/p&gt;
+&lt;p&gt;Wir freuen uns über dein Feedback an &lt;a href=&quot;mailto:info@urlaubsverwaltung.cloud?subject=Feedback%20Krankmeldung%20durch%20Mitarbeitende&quot;&gt;info@urlaubsverwaltung.cloud&lt;/a&gt;.&lt;/p&gt;
+</content>
+  </entry>
+  
+  
+  
+  
+  
+  <entry>
+    <title>Globale Feiertagsregelung in der Zeiterfassung</title>
+    <link href="https://urlaubsverwaltung.cloud/neuigkeiten/2024-05-17-zeiterfassung-globale-feiertagsregelung/" />
+    <updated>2024-05-17T00:00:00Z</updated>
+    <id>https://urlaubsverwaltung.cloud/neuigkeiten/2024-05-17-zeiterfassung-globale-feiertagsregelung/</id>
+    <author>
+      <name>Tobias Schneider</name>
+    </author>
+    <content type="html">&lt;p&gt;Globale Feiertagsregelungen und Arbeitszeiten zentral für dein Unternehmen festlegen. Diese Einstellungen gelten als Standard für alle Mitarbeitenden und können bei Bedarf individuell angepasst werden.&lt;/p&gt;
+&lt;h2 id=&quot;globale-feiertagsregelung&quot;&gt;Globale Feiertagsregelung&lt;/h2&gt;
+&lt;p&gt;Bisher musste für jede Person einzeln das Bundesland und die dazugehörige Feiertagsregelung konfiguriert werden – eine mühsame Aufgabe bei einer größeren Anzahl von Mitarbeitern. Doch das ändert sich jetzt: Mit den neuen globalen Einstellungen kannst du ab sofort länderspezifische Feiertage und Arbeitsregelungen zentral für dein gesamtes Unternehmen festlegen.&lt;/p&gt;
+&lt;div class=&quot;flex my-8&quot;&gt;
+    &lt;figure&gt;
+        &lt;picture&gt;
+            &lt;source srcset=&quot;https://urlaubsverwaltung.cloud/neuigkeiten/2024-05-17-zeiterfassung-globale-feiertagsregelung/globale-feiertagsregelung-konfiguration.avif&quot; type=&quot;image/avif&quot; /&gt;
+            &lt;img src=&quot;https://urlaubsverwaltung.cloud/neuigkeiten/2024-05-17-zeiterfassung-globale-feiertagsregelung/globale-feiertagsregelung-konfiguration.jpg&quot; alt=&quot;Konfiguration der globalen Feiertagsregelung in der Zeiterfassung&quot; decoding=&quot;async&quot; loading=&quot;lazy&quot; class=&quot;rounded-lg&quot; /&gt;
+        &lt;/picture&gt;
+        &lt;figcaption class=&quot;text-sm text-center&quot;&gt;Konfiguration der globalen Feiertagsregelung in der Zeiterfassung&lt;/figcaption&gt;
+    &lt;/figure&gt;
+&lt;/div&gt;
+&lt;p&gt;Konfiguriere einmalig, ob an Feiertagen gearbeitet wird oder nicht, und lege das Bundesland für die Feiertagsregelung fest. Diese globalen Einstellungen gelten dann als Standard für alle Mitarbeitenden und können bei Bedarf individuell überschrieben werden. Spare Zeit und vereinfache die Zeiterfassung – ganz ohne Kompromisse bei der Genauigkeit.&lt;/p&gt;
+</content>
+  </entry>
+  
+  
+  
+  
+  
+  <entry>
+    <title>Individuelle Abwesenheitsarten in der Urlaubsverwaltung</title>
+    <link href="https://urlaubsverwaltung.cloud/neuigkeiten/2024-05-10-uv-v5/" />
+    <updated>2024-05-17T00:00:00Z</updated>
+    <id>https://urlaubsverwaltung.cloud/neuigkeiten/2024-05-10-uv-v5/</id>
+    <author>
+      <name>Daniel Fuchs</name>
+    </author>
+    <content type="html">&lt;p&gt;Mit einem Update der Urlaubsverwaltung stehen nun einige neue Funktionen und Verbesserungen bereit.
+Außerdem wurden viele Aktualisierungen durchgeführt, um die Sicherheit der Anwendung weiter zu verbessern.
+Einen Einblick in die neuen Funktionen geben wir euch in diesem Blog.&lt;/p&gt;
+&lt;h2 id=&quot;individuelle-abwesenheitsarten&quot;&gt;Individuelle Abwesenheitsarten&lt;/h2&gt;
+&lt;div class=&quot;flex my-8&quot;&gt;
+    &lt;figure&gt;
+        &lt;picture&gt;
+            &lt;source srcset=&quot;https://urlaubsverwaltung.cloud/neuigkeiten/2024-05-10-uv-v5/individuelle-abwesenheitsarten-einstellungen.avif&quot; type=&quot;image/avif&quot; /&gt;
+            &lt;img src=&quot;https://urlaubsverwaltung.cloud/neuigkeiten/2024-05-10-uv-v5/individuelle-abwesenheitsarten-einstellungen.png&quot; alt=&quot;Konfiguration von individuellen Abwesenheitsarten&quot; decoding=&quot;async&quot; loading=&quot;lazy&quot; class=&quot;rounded-lg&quot; /&gt;
+        &lt;/picture&gt;
+        &lt;figcaption class=&quot;text-sm text-center&quot;&gt;Konfiguration von individuellen Abwesenheitsarten können nun in den Einstellungen hinterlegt werden&lt;/figcaption&gt;
+    &lt;/figure&gt;
+&lt;/div&gt;
+&lt;p&gt;Gibt es im Unternehmen besondere Abwesenheitsarten? Je nach Branche und Ausrichtung sind nicht nur die Arbeitsbereiche stark unterschiedlich, sondern auch die Abwesenheitsarten können variieren. Daher bietet die Urlaubsverwaltung jetzt individuelle Abwesenheitsarten, um die betrieblichen Abläufe besser abbilden zu können. Die individuellen Abwesenheitsarten können als Mitarbeitende mit der Berechtigung Office in den Einstellungen unter Abwesenheitsarten gepflegt werden. Mit den entsprechenden Übersetzungen in Deutsch, Österreichisch, Englisch und Griechisch bist du bestens auch für deine internationalen Kollegen aufgestellt.
+Die individuellen Abwesenheitsarten werden außerdem auch in der Zeiterfassung berücksichtigt, sodass die Sollstunden reduziert werden.&lt;/p&gt;
+&lt;div class=&quot;my-8 flex flex-col gap-4 md:flex-row&quot;&gt;
+    &lt;figure&gt;
+        &lt;picture&gt;
+            &lt;source srcset=&quot;https://urlaubsverwaltung.cloud/neuigkeiten/2024-05-10-uv-v5/individuelle-abwesenheitsarten-kalender.avif&quot; type=&quot;image/avif&quot; /&gt;
+            &lt;img src=&quot;https://urlaubsverwaltung.cloud/neuigkeiten/2024-05-10-uv-v5/individuelle-abwesenheitsarten-kalender.png&quot; alt=&quot;Kalender enthalten ebenfalls die individuellen Abwesenheitsarten&quot; width=&quot;1440&quot; height=&quot;1157&quot; decoding=&quot;async&quot; loading=&quot;lazy&quot; class=&quot;rounded-lg&quot; /&gt;
+        &lt;/picture&gt;
+        &lt;figcaption class=&quot;text-sm text-center&quot;&gt;Der Kalender enthält die individuellen Abwesenheitsarten&lt;/figcaption&gt;
+    &lt;/figure&gt;
+        &lt;figure&gt;
+        &lt;picture&gt;
+            &lt;source srcset=&quot;https://urlaubsverwaltung.cloud/neuigkeiten/2024-05-10-uv-v5/individuelle-abwesenheitsarten-abwesenheitsuebersicht.avif&quot; type=&quot;image/avif&quot; /&gt;
+            &lt;img src=&quot;https://urlaubsverwaltung.cloud/neuigkeiten/2024-05-10-uv-v5/individuelle-abwesenheitsarten-abwesenheitsuebersicht.png&quot; alt=&quot;Beispiel für eine individuelle Abwesenheitsarte in der Abwesenheitsübersicht&quot; width=&quot;1440&quot; height=&quot;1156&quot; decoding=&quot;async&quot; loading=&quot;lazy&quot; class=&quot;rounded-lg&quot; /&gt;
+        &lt;/picture&gt;
+        &lt;figcaption class=&quot;text-sm text-center&quot;&gt;Beispiel für eine individuelle Abwesenheitsart in der Abwesenheitsübersicht&lt;/figcaption&gt;
+    &lt;/figure&gt;
+&lt;/div&gt;
+&lt;h2 id=&quot;verbesserung-der-menue-struktur&quot;&gt;Verbesserung der Menü-Struktur&lt;/h2&gt;
+&lt;p&gt;Der Einstieg für das Erstellen von Anträgen, das Eintragen von Überstunden sowie die Krankmeldung erfolgt über den gleichen Einstieg oben rechts mit dem &amp;quot;+&amp;quot;-Zeichen. Im Zuge der neuen Version ist der Menü-Eintrag &amp;quot;Antrag stellen&amp;quot; entfernt worden, wodurch das Menü übersichtlicher wird.&lt;/p&gt;
+&lt;h2 id=&quot;verfallsdatum-des-resturlaubs-fuer-ganzes-unternehmen&quot;&gt;Verfallsdatum des Resturlaubs für ganzes Unternehmen&lt;/h2&gt;
+&lt;p&gt;Es ist nun möglich das Verfallsdatum des Resturlaubs für das ganze Unternehmen festzulegen. Davon unabhängig können auch für einzelne Mitarbeitende individuelle Regelungen hinterlegt werden.&lt;/p&gt;
+&lt;h2 id=&quot;anlage-von-abteilungen&quot;&gt;Anlage von Abteilungen&lt;/h2&gt;
+&lt;p&gt;Abteilungen können nun nicht mehr mit gleichen Namen doppelt angelegt werden, um Missverständnisse zu vermeiden.&lt;/p&gt;
+&lt;h2 id=&quot;exchange-kalenderintegration-entfernt&quot;&gt;Exchange Kalenderintegration entfernt&lt;/h2&gt;
+&lt;p&gt;Die Kalenderintegration für Exchange (EWS) wurde von Microsoft abgekündigt und im Zuge dessen aus der Urlaubsverwaltung entfernt. Zur Synchronisation von Abwesenheiten kann die Kalenderintegration via &lt;a href=&quot;https://urlaubsverwaltung.cloud/hilfe/kalender/&quot;&gt;abonnierten ICal-Kalender&lt;/a&gt; genutzt werden.&lt;/p&gt;
+&lt;h2 id=&quot;vereinfachter-ablauf-bei-korrektur-von-antraegen&quot;&gt;Vereinfachter Ablauf bei Korrektur von Anträgen&lt;/h2&gt;
+&lt;p&gt;Als Mitarbeitende mit der Berechtigung Office ist es nun möglich Anträge jeder Zeit zu editieren. Damit ist es nicht mehr nötig, z.B. bei einer Anpassung auf Grund von Krankheit, eine Stornierung des Antrags durchzuführen, um den korrigierten Zeitraum zu erfassen.&lt;/p&gt;
+&lt;h2 id=&quot;mehr-durchblick-beim-start&quot;&gt;Mehr Durchblick beim Start!&lt;/h2&gt;
+&lt;p&gt;Gerade beim Loslegen mit der Urlaubsverwaltung kommt es vor, dass zur Datenübernahme die Pflege von vergangenen oder auch zukünftigen Abwesenheiten relevant wird. Wir haben hierfür die Standardwerte erhöht, sodass die Anzahl der Monate in die Vergangenheit als auch in die Zukunft höher ist. Diese Standardwerte können natürlich in den Einstellungen nach den Bedürfnissen der eigenen Organisation angepasst werden.&lt;/p&gt;
+</content>
+  </entry>
+  
+  
+  
+  
+  
+  <entry>
+    <title>Arbeitszeiten, Feiertagsregelung und mehr Berechtigungen in der Zeiterfassung</title>
+    <link href="https://urlaubsverwaltung.cloud/neuigkeiten/2024-01-06-zeiterfassung-2.0.0/" />
+    <updated>2024-01-08T00:00:00Z</updated>
+    <id>https://urlaubsverwaltung.cloud/neuigkeiten/2024-01-06-zeiterfassung-2.0.0/</id>
+    <author>
+      <name>Benjamin Seber</name>
+    </author>
+    <content type="html">&lt;p&gt;Zum Jahresstart gibt es spannende Aktualisierungen bei der Zeiterfassung:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;flexible Arbeitszeiten für Vertragsänderungen&lt;/li&gt;
+&lt;li&gt;Bundesländer und Feiertagsregelungen individuell anpassen&lt;/li&gt;
+&lt;li&gt;Berechtigungen direkt in der Anwendung vergeben&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;flexible-arbeitszeiten-abbilden&quot;&gt;Flexible Arbeitszeiten abbilden&lt;/h2&gt;
+&lt;p&gt;Ab sofort könnt ihr mühelos mehrere Arbeitszeiten erstellen und verwalten. Sei es aufgrund von Teilzeitvereinbarungen,
+Vollzeitbeschäftigungen oder wechselnden Schichtzeiten. Die Anwendung passt sich flexibel euren Bedürfnissen an, damit
+ihr stets den Überblick behaltet. Die Eingabe dieser Änderungen ist auch für die Zukunft möglich, sodass ihr eure
+Arbeitszeit langfristig planen könnt.&lt;/p&gt;
+&lt;div class=&quot;my-8 flex flex-col gap-4 md:flex-row&quot;&gt;
+    &lt;figure&gt;
+        &lt;picture&gt;
+            &lt;source srcset=&quot;https://urlaubsverwaltung.cloud/neuigkeiten/2024-01-06-zeiterfassung-2.0.0/arbeitszeiten.avif&quot; type=&quot;image/avif&quot; /&gt;
+            &lt;img src=&quot;https://urlaubsverwaltung.cloud/neuigkeiten/2024-01-06-zeiterfassung-2.0.0/arbeitszeiten.png&quot; alt=&quot;Weitere Arbeitszeiten erstellen und verwalten für Vertragsänderungen.&quot; width=&quot;1440&quot; height=&quot;1156&quot; decoding=&quot;async&quot; loading=&quot;lazy&quot; class=&quot;rounded-lg&quot; /&gt;
+        &lt;/picture&gt;
+        &lt;figcaption class=&quot;text-sm text-center&quot;&gt;Weitere Arbeitszeiten erstellen und verwalten für Vertragsänderungen.&lt;/figcaption&gt;
+    &lt;/figure&gt;
+    &lt;figure&gt;
+        &lt;picture&gt;
+            &lt;source srcset=&quot;https://urlaubsverwaltung.cloud/neuigkeiten/2024-01-06-zeiterfassung-2.0.0/arbeitszeiten_edit.avif&quot; type=&quot;image/avif&quot; /&gt;
+            &lt;img src=&quot;https://urlaubsverwaltung.cloud/neuigkeiten/2024-01-06-zeiterfassung-2.0.0/arbeitszeiten_edit.png&quot; alt=&quot;Weitere Arbeitszeiten erstellen und verwalten für Vertragsänderungen.&quot; width=&quot;1440&quot; height=&quot;1157&quot; decoding=&quot;async&quot; loading=&quot;lazy&quot; class=&quot;rounded-lg&quot; /&gt;
+        &lt;/picture&gt;
+        &lt;figcaption class=&quot;text-sm text-center&quot;&gt;Bundesland und Feiertagsregelung individuell pflegen.&lt;/figcaption&gt;
+    &lt;/figure&gt;
+&lt;/div&gt;
+&lt;h2 id=&quot;individuelle-feiertagsregelung-pro-bundesland&quot;&gt;Individuelle Feiertagsregelung pro Bundesland&lt;/h2&gt;
+&lt;p&gt;Bei verteilten Teams ist es nicht selten, dass unterschiedliche Anforderungen an Bundesländer und Feiertage existieren.
+Für Personen, die in Baden-Württemberg angestellt sind, gelten andere Feiertage als z. B. in Hessen. Daher könnt ihr ab
+sofort das Bundesland und die Feiertagsregelung für jede Person individuell anpassen.&lt;/p&gt;
+&lt;p&gt;Die Zeiterfassung unterstützt dabei nicht nur deutsche Bundesländer, sondern auch viele andere Länder aus Europa.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;🇩🇪 Deutschland&lt;/li&gt;
+&lt;li&gt;🇦🇹 Österreich&lt;/li&gt;
+&lt;li&gt;🇨🇭 Schweiz&lt;/li&gt;
+&lt;li&gt;🇲🇹 Malta&lt;/li&gt;
+&lt;li&gt;🇭🇷 Kroatien&lt;/li&gt;
+&lt;li&gt;🇮🇹 Italien&lt;/li&gt;
+&lt;li&gt;🇬🇧 Vereinigtes Königreich&lt;/li&gt;
+&lt;li&gt;🇬🇷 Griechenland&lt;/li&gt;
+&lt;li&gt;🇳🇱 Niederlande&lt;/li&gt;
+&lt;li&gt;🇪🇸 Spanien&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Dir fehlen Feiertage für ein bestimmtes Land? Dann melde dich bei uns am einfachsten
+&lt;a href=&quot;mailto:info@urlaubsverwaltung.cloud?subject=Feiertage&quot;&gt;per E-Mail&lt;/a&gt;, wir freuen uns über dein Feedback!&lt;/p&gt;
+&lt;h2 id=&quot;berechtigungen-ueber-die-anwendung-vergeben&quot;&gt;Berechtigungen über die Anwendung vergeben&lt;/h2&gt;
+&lt;p&gt;Wir freuen uns, euch ab sofort die Möglichkeit zu geben, direkt in der Anwendung die Berechtigungen von Personen
+pflegen zu können. Egal ob Teamleiter, Mitarbeiter oder Administrator - ihr habt die Möglichkeit, die Zugriffsrechte
+ganz bequem und sicher anzupassen, ohne die Anwendung verlassen zu müssen.&lt;/p&gt;
+&lt;div class=&quot;flex my-8&quot;&gt;
+    &lt;figure&gt;
+        &lt;picture&gt;
+            &lt;source srcset=&quot;https://urlaubsverwaltung.cloud/neuigkeiten/2024-01-06-zeiterfassung-2.0.0/berechtigungen.avif&quot; type=&quot;image/avif&quot; /&gt;
+            &lt;img src=&quot;https://urlaubsverwaltung.cloud/neuigkeiten/2024-01-06-zeiterfassung-2.0.0/berechtigungen.png&quot; alt=&quot;Berechtigungen einer Person pflegen&quot; decoding=&quot;async&quot; loading=&quot;lazy&quot; class=&quot;rounded-lg&quot; /&gt;
+        &lt;/picture&gt;
+        &lt;figcaption class=&quot;text-sm text-center&quot;&gt;Berechtigungen einer Person direkt in der Anwendung pflegen.&lt;/figcaption&gt;
+    &lt;/figure&gt;
+&lt;/div&gt;
+&lt;p&gt;Probiert die neuen Funktionalitäten gleich aus und gestaltet eure Arbeitszeit so, wir es für euch am besten passt!
+Habt ihr weitere Anforderungen und Wünsche lasst es uns wissen. Die urlaubsverwaltung.cloud ist euere Plattform! Schreibt
+uns an &lt;a href=&quot;mailto:info@urlaubsverwaltung.cloud&quot;&gt;info@urlaubsverwaltung.cloud&lt;/a&gt;&lt;/p&gt;
+</content>
+  </entry>
+  
+  
+  
+  
+  
+  <entry>
+    <title>Dobrodošla Hrvatska - Kroatische Feiertage hinzugefügt 🇭🇷</title>
+    <link href="https://urlaubsverwaltung.cloud/neuigkeiten/2023-10-27-V-4.71.0-Kroatien-Feiertage/" />
+    <updated>2023-10-27T00:00:00Z</updated>
+    <id>https://urlaubsverwaltung.cloud/neuigkeiten/2023-10-27-V-4.71.0-Kroatien-Feiertage/</id>
+    <author>
+      <name>Andreas Weigel</name>
+    </author>
+    <content type="html">&lt;p&gt;Homeoffice im Ausland? Workation? Oder einfach nur Urlaub? Die Urlaubsverwaltung bietet nun auch Feiertage für Kroatien an.&lt;/p&gt;
+&lt;h2 id=&quot;herausforderungen-bei-laenderuebergreifender-zusammenarbeit-im-unternehmen&quot;&gt;Herausforderungen bei länderübergreifender Zusammenarbeit im Unternehmen&lt;/h2&gt;
+&lt;p&gt;Nicht zuletzt aufgrund der Pandemie hat sich die Arbeitswelt stark verändert. Neue Modelle mit Fokus auf verteilte Arbeit
+wie Homeoffice im Ausland und Workation sind in den Fokus gerückt.
+Somit arbeiten Mitarbeitende nicht erst nach einer Expansion ins Ausland verteilt, sondern schon deutlich früher je nach Organisationsmodell.
+Eine große Herausforderung dabei ist die Kommunikation und Koordination der Mitarbeitenden hinsichtlich ihrer Verfügbarkeit,
+Arbeitszeiten und Urlaubszeiten, die sich je nach Land unterscheiden.&lt;/p&gt;
+&lt;p&gt;Urlaubsansprüche müssen individuell berechnet werden, da sie von den gesetzlichen Feiertagen abhängen.
+Eine Übersicht muss die individuellen Abwesenheiten im Kontext der Mitarbeitenden DSGVO-konform darstellen,
+um nicht nur eine aktuelle Übersicht für die nächste Abwesenheit zu bieten, sondern auch die langfristige Planung von
+Projekten und Aufgaben zu ermöglichen.&lt;/p&gt;
+&lt;p&gt;Die Urlaubsverwaltung.cloud hat sich diesen Herausforderungen gestellt und bietet sowohl automatisierte Berechnungen
+der Urlaubsansprüche als auch eine übersichtliche Darstellung der Abwesenheiten der Mitarbeitenden.&lt;/p&gt;
+&lt;div class=&quot;flex my-8&quot;&gt;
+    &lt;figure&gt;
+        &lt;picture&gt;
+            &lt;source srcset=&quot;https://urlaubsverwaltung.cloud/neuigkeiten/2023-10-27-V-4.71.0-Kroatien-Feiertage/kalenderuebersicht_Feiertage.avif&quot; type=&quot;image/avif&quot; /&gt;
+            &lt;img src=&quot;https://urlaubsverwaltung.cloud/neuigkeiten/2023-10-27-V-4.71.0-Kroatien-Feiertage/kalenderuebersicht_Feiertage.png&quot; alt=&quot;Pausen erfassen&quot; decoding=&quot;async&quot; loading=&quot;lazy&quot; class=&quot;rounded-lg&quot; /&gt;
+        &lt;/picture&gt;
+        &lt;figcaption class=&quot;text-sm text-center&quot;&gt;Individuelle Feiertage pro Mitarbeitenden in der Kalenderübersicht&lt;/figcaption&gt;
+    &lt;/figure&gt;
+&lt;/div&gt;
+&lt;h2 id=&quot;jetzt-auch-fuer-kroatien-🇭🇷&quot;&gt;Jetzt auch für Kroatien 🇭🇷&lt;/h2&gt;
+&lt;p&gt;Neben allen Bundesländern aus Deutschland und Österreich, den Kantonen aus der Schweiz, den Regionen aus dem vereiningten Königreich,
+Malta, Italien und Griechenland sind nun auch die Feiertage aus Kroatien verfügbar. Dobrodošla Hrvatska!&lt;/p&gt;
+&lt;div class=&quot;flex my-8&quot;&gt;
+    &lt;figure&gt;
+        &lt;picture&gt;
+            &lt;source srcset=&quot;https://urlaubsverwaltung.cloud/neuigkeiten/2023-10-27-V-4.71.0-Kroatien-Feiertage/arbeitszeiten_Kroatien.avif&quot; type=&quot;image/avif&quot; /&gt;
+            &lt;img src=&quot;https://urlaubsverwaltung.cloud/neuigkeiten/2023-10-27-V-4.71.0-Kroatien-Feiertage/arbeitszeiten_Kroatien.png&quot; alt=&quot;Pausen erfassen&quot; decoding=&quot;async&quot; loading=&quot;lazy&quot; class=&quot;rounded-lg&quot; /&gt;
+        &lt;/picture&gt;
+        &lt;figcaption class=&quot;text-sm text-center&quot;&gt;Feiertagsregelung in den Arbeitszeiten: jetzt mit Kroatien&lt;/figcaption&gt;
+    &lt;/figure&gt;
+&lt;/div&gt;
+&lt;p&gt;Dir Fehlen Feiertage für ein bestimmtes Land? Dann &lt;a href=&quot;mailto:info@urlaubsverwaltung.cloud?subject=Feiertage&quot;&gt;melde&lt;/a&gt; dich bei uns, wir freuen uns über dein Feedback!&lt;/p&gt;
+</content>
+  </entry>
+  
+  
+  
+  
+  
+  <entry>
+    <title>Warum Ruhepausen für Unternehmen wichtig sind.</title>
+    <link href="https://urlaubsverwaltung.cloud/neuigkeiten/2023-03-08-zeiterfassung-pausenzeiten/" />
+    <updated>2023-03-08T00:00:00Z</updated>
+    <id>https://urlaubsverwaltung.cloud/neuigkeiten/2023-03-08-zeiterfassung-pausenzeiten/</id>
+    <author>
+      <name>Andreas Weigel</name>
+    </author>
+    <content type="html">&lt;p&gt;In unserem Büro herrscht immer Hochkonzentration. Wir arbeiten hart und versuchen, so viel wie möglich in kürzester Zeit zu erledigen.
+Doch ist das wirklich die beste Methode? Nein!
+Genauso wie unser Körper in einer Pause neue Energie tankt, braucht auch unser Geist ab und an eine Auszeit,
+um wieder fit zu werden für neue Herausforderungen.&lt;/p&gt;
+&lt;h2 id=&quot;die-bedeutung-von-ruhepausen-fuer-unternehmen&quot;&gt;Die Bedeutung von Ruhepausen für Unternehmen&lt;/h2&gt;
+&lt;p&gt;Ruhepausen sind ein wesentlicher Aspekt des Arbeitszeitgesetzes (ArbZG).
+Nach § 4 ArbZG müssen Arbeitnehmerinnen und Arbeitnehmer an jedem Arbeitstag mindestens eine ununterbrochene Ruhepause von
+mindestens 30 Minuten nehmen, wenn sie 6 bis 9 Stunden arbeiten und 45 Minuten bei einer Arbeitszeit von mehr als 9 Stunden.
+Diese Ruhepause kann in Teilpausen aufgeteilt werden. Die Teilpausen müssen aber zusammen mindestens 15 Minuten betragen.
+Diese Pause kann sowohl am Anfang als auch am Ende der täglichen Arbeitszeit genommen werden, aber sie muss ununterbrochen sein.
+Die Ruhepause muss unmittelbar nach der Arbeitszeit eingelegt werden, sie kann also nicht auf den folgenden Werktag verschoben werden.
+Wenn dein Unternehmen diese Pause ablehnt, dann verstößt es damit gegen das Arbeitszeitgesetz.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Die Arbeit ist durch im voraus feststehende Ruhepausen von mindestens 30 Minuten bei einer Arbeitszeit von mehr als
+sechs bis zu neun Stunden und 45 Minuten bei einer Arbeitszeit von mehr als neun Stunden insgesamt zu unterbrechen.
+Die Ruhepausen nach Satz 1 können in Zeitabschnitte von jeweils mindestens 15 Minuten aufgeteilt werden.
+Länger als sechs Stunden hintereinander dürfen Arbeitnehmer nicht ohne Ruhepause beschäftigt werden.&lt;/p&gt;
+&lt;p&gt;-- &lt;a href=&quot;https://www.gesetze-im-internet.de/arbzg/__4.html&quot;&gt;Arbeitszeitgesetz (ArbZG) § 4 Ruhepausen&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Ruhepausen sollten nicht heruntergespielt werden. Sie sind ein wichtiger Bestandteil des Arbeitslebens.
+Sie dienen dem Erholungs- und Regenerationsbedürfnis der Arbeitnehmerinnen und Arbeitnehmer.
+Ohne diese Pausen droht demnach eine Überlastung und dadurch auch Fehlverhalten am Arbeitsplatz.
+Unternehmen sollten auf die Einhaltung der Ruhepausen achten und diese in ihr Gesundheitsmanagement mit einbinden.&lt;/p&gt;
+&lt;h2 id=&quot;ruhepausen-digital-erfassen&quot;&gt;Ruhepausen digital erfassen&lt;/h2&gt;
+&lt;p&gt;Es ist wichtig, dass Arbeitnehmer in Deutschland die gesetzlichen Vorgaben beachten. Um diese Vorschriften einzuhalten,
+aber Zusatzaufwände zu minimieren, können Unternehmen digitale Lösungen nutzen.&lt;/p&gt;
+&lt;p&gt;Moderne Zeiterfassungssysteme können beispielsweise die Uhrzeit der Beginn- und Endzeit im System speichern und übersichtlich darstellen.
+Dadurch kann sichergestellt werden, dass alle Mitarbeitende ihre gesetzlich vorgeschriebene Pausendauer einhalten.
+Darüber hinaus bietet eine digitale Lösung für das Erfassen von Ruhepausen den Vorteil,
+dass sie auch für mobile Mitarbeitende mit unterschiedlichen Arbeitsorten geeignet ist.&lt;/p&gt;
+&lt;div class=&quot;flex my-8&quot;&gt;
+    &lt;figure&gt;
+        &lt;picture&gt;
+            &lt;source srcset=&quot;https://urlaubsverwaltung.cloud/neuigkeiten/2023-03-08-zeiterfassung-pausenzeiten/pause-erfassen.avif&quot; type=&quot;image/avif&quot; /&gt;
+            &lt;img src=&quot;https://urlaubsverwaltung.cloud/neuigkeiten/2023-03-08-zeiterfassung-pausenzeiten/pause-erfassen.png&quot; alt=&quot;Pausen erfassen&quot; decoding=&quot;async&quot; loading=&quot;lazy&quot; class=&quot;rounded-lg&quot; /&gt;
+        &lt;/picture&gt;
+        &lt;figcaption class=&quot;text-sm text-center&quot;&gt;Pausen direkt in der Zeiterfassung erfassen&lt;/figcaption&gt;
+    &lt;/figure&gt;
+&lt;/div&gt;
+&lt;p&gt;Die Zeiterfassung auf &lt;a href=&quot;https://www.urlaubsverwaltung.cloud/&quot;&gt;urlaubsverwaltung.cloud&lt;/a&gt; bietet genau diese Möglichkeit.&lt;/p&gt;
+</content>
+  </entry>
+  
+  
+  
+  
+  
+  <entry>
+    <title>Zeiterfassung - Arbeitszeiten, neue Berichte und geleistete Stunden</title>
+    <link href="https://urlaubsverwaltung.cloud/neuigkeiten/2023-02-23-zeiterfassung-arbeitszeiten/" />
+    <updated>2023-02-23T00:00:00Z</updated>
+    <id>https://urlaubsverwaltung.cloud/neuigkeiten/2023-02-23-zeiterfassung-arbeitszeiten/</id>
+    <author>
+      <name>Andreas Weigel</name>
+    </author>
+    <content type="html">&lt;p&gt;Wir haben in der neuen Version der Zeiterfassung viel vom eurem Feedback umsetzen können.
+Mit dabei sind verbesserte Einsichten in die geleisteten Stunden deiner Mitarbeitenden und auch die Erfassung von
+Sollstunden bzw. die dazugehörige Pflege von Arbeitszeiten.&lt;/p&gt;
+&lt;h2 id=&quot;geleisteten-stunden-von-mitarbeitenden&quot;&gt;Geleisteten Stunden von Mitarbeitenden&lt;/h2&gt;
+&lt;p&gt;Unter Berichte konnten bereits die geleisteten Stunden pro Mitarbeitende eingesehen werden in Form einer Grafik sowie
+als CSV-Download. Diese Ansicht wurde nun erweitert, um die einzelnen Zeitbuchungen der Mitarbeitenden. Diese können
+nach Mitarbeitenden selektiert anzeigt werden. Auch die Auswahl von mehreren Mitarbeitenden ist möglich. Zusätzlich
+erhält mal durch die Auswahl des jeweiligen Tags schnell einen Überblick wann und wie tatsächlich gearbeitet wurde.&lt;/p&gt;
+&lt;div class=&quot;flex my-8&quot;&gt;
+    &lt;figure&gt;
+        &lt;picture&gt;
+            &lt;source srcset=&quot;https://urlaubsverwaltung.cloud/neuigkeiten/2023-02-23-zeiterfassung-arbeitszeiten/zeiterfassung-person-details.avif&quot; type=&quot;image/avif&quot; /&gt;
+            &lt;img src=&quot;https://urlaubsverwaltung.cloud/neuigkeiten/2023-02-23-zeiterfassung-arbeitszeiten/zeiterfassung-person-details.png&quot; alt=&quot;Auswahl einer Person zur Ansicht der gebuchten Zeiten&quot; decoding=&quot;async&quot; loading=&quot;lazy&quot; class=&quot;rounded-lg&quot; /&gt;
+        &lt;/picture&gt;
+        &lt;figcaption class=&quot;text-sm text-center&quot;&gt;Auswahl einer Person zur Ansicht der gebuchten Zeiten&lt;/figcaption&gt;
+    &lt;/figure&gt;
+&lt;/div&gt;
+&lt;h2 id=&quot;arbeitszeiten-festlegen&quot;&gt;Arbeitszeiten festlegen&lt;/h2&gt;
+&lt;p&gt;Die Zeiterfassung wurde um die Konfiguration von Arbeitszeiten erweitert. Diese können nun pro Mitarbeitende eingestellt werden.
+Es ist möglich für die ganze Woche, als auch feingranular pro Tag die Arbeitszeiten festzulegen.
+Diese Einstellung kann durch eine Person mit der entsprechenden Berechtigung vorgenommen werden.&lt;/p&gt;
+&lt;div class=&quot;flex my-8&quot;&gt;
+    &lt;figure&gt;
+        &lt;picture&gt;
+            &lt;source srcset=&quot;https://urlaubsverwaltung.cloud/neuigkeiten/2023-02-23-zeiterfassung-arbeitszeiten/zeiterfassung-workingtime.avif&quot; type=&quot;image/avif&quot; /&gt;
+            &lt;img src=&quot;https://urlaubsverwaltung.cloud/neuigkeiten/2023-02-23-zeiterfassung-arbeitszeiten/zeiterfassung-workingtime.png&quot; alt=&quot;Einstellung der Arbeitszeiten pro Mitarbeitenden&quot; decoding=&quot;async&quot; loading=&quot;lazy&quot; class=&quot;rounded-lg&quot; /&gt;
+        &lt;/picture&gt;
+        &lt;figcaption class=&quot;text-sm text-center&quot;&gt;Einstellung der Arbeitszeiten pro Mitarbeitenden&lt;/figcaption&gt;
+    &lt;/figure&gt;
+&lt;/div&gt;
+&lt;p&gt;Die gepflegten Arbeitszeiten fließen nach der Konfiguration in die Berechnung der Plan- und tatsächliche erfassten Arbeitszeiten mit ein.&lt;/p&gt;
+&lt;h2 id=&quot;wie-viel-habe-ich-diese-woche-schon-geschafft&quot;&gt;Wie viel habe ich diese Woche schon geschafft?&lt;/h2&gt;
+&lt;p&gt;Die Arbeitszeiten fliesen nun auch in die Zeiterfassung mit ein. So ist jetzt auf Tages- als auch auf Wochenebene einsehbar wie viel Zeit
+bereits von der geplanten Arbeitszeit geleistet wurde. Auch Überstunden sind in der Darstellung direkt sichtbar.&lt;/p&gt;
+&lt;div class=&quot;flex my-8&quot;&gt;
+    &lt;figure&gt;
+        &lt;picture&gt;
+            &lt;source srcset=&quot;https://urlaubsverwaltung.cloud/neuigkeiten/2023-02-23-zeiterfassung-arbeitszeiten/zeiterfassung-new-timeslot.avif&quot; type=&quot;image/avif&quot; /&gt;
+            &lt;img src=&quot;https://urlaubsverwaltung.cloud/neuigkeiten/2023-02-23-zeiterfassung-arbeitszeiten/zeiterfassung-new-timeslot.png&quot; alt=&quot;Darstellung der geplanten Arbeitszeiten und der geleisteten Stunden&quot; decoding=&quot;async&quot; loading=&quot;lazy&quot; class=&quot;rounded-lg&quot; /&gt;
+        &lt;/picture&gt;
+        &lt;figcaption class=&quot;text-sm text-center&quot;&gt;Darstellung der geplanten Arbeitszeiten und der geleisteten Stunden&lt;/figcaption&gt;
+    &lt;/figure&gt;
+&lt;/div&gt;
+&lt;p&gt;In den Berichten ist ebenfalls der Vergleich von Planarbeitszeiten und tatsächlich geleisteten Stunden grafisch aufbereitet
+und können sowohl auf Wochen- als auch Monatsbasis aggregiert angezeigt werden.&lt;/p&gt;
+&lt;div class=&quot;flex my-8&quot;&gt;
+    &lt;figure&gt;
+        &lt;picture&gt;
+            &lt;source srcset=&quot;https://urlaubsverwaltung.cloud/neuigkeiten/2023-02-23-zeiterfassung-arbeitszeiten/zeiterfassung-report-week.avif&quot; type=&quot;image/avif&quot; /&gt;
+            &lt;img src=&quot;https://urlaubsverwaltung.cloud/neuigkeiten/2023-02-23-zeiterfassung-arbeitszeiten/zeiterfassung-report-week.png&quot; alt=&quot;Wöchentliche Berichte mit grafischer Darstellung der geplanten Arbeitszeiten&quot; decoding=&quot;async&quot; loading=&quot;lazy&quot; class=&quot;rounded-lg&quot; /&gt;
+        &lt;/picture&gt;
+        &lt;figcaption class=&quot;text-sm text-center&quot;&gt;Wöchentliche Berichte mit grafischer Darstellung der geplanten Arbeitszeiten&lt;/figcaption&gt;
+    &lt;/figure&gt;
+&lt;/div&gt;
+&lt;div class=&quot;flex my-8&quot;&gt;
+    &lt;figure&gt;
+        &lt;picture&gt;
+            &lt;source srcset=&quot;https://urlaubsverwaltung.cloud/neuigkeiten/2023-02-23-zeiterfassung-arbeitszeiten/zeiterfassung-report-month.avif&quot; type=&quot;image/avif&quot; /&gt;
+            &lt;img src=&quot;https://urlaubsverwaltung.cloud/neuigkeiten/2023-02-23-zeiterfassung-arbeitszeiten/zeiterfassung-report-month.png&quot; alt=&quot;Monatliche Berichte mit grafischer Darstellung der geplanten Arbeitszeiten&quot; decoding=&quot;async&quot; loading=&quot;lazy&quot; class=&quot;rounded-lg&quot; /&gt;
+        &lt;/picture&gt;
+        &lt;figcaption class=&quot;text-sm text-center&quot;&gt;Monatliche Berichte mit grafischer Darstellung der geplanten Arbeitszeiten&lt;/figcaption&gt;
+    &lt;/figure&gt;
+&lt;/div&gt;
+&lt;h2 id=&quot;roadmap-zur-zeiterfassung&quot;&gt;Roadmap zur Zeiterfassung&lt;/h2&gt;
+&lt;p&gt;Folgende Features sind außerdem geplant für die Zeiterfassung:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Automatische Synchronisation von Abwesenheiten aus der Urlaubsverwaltung&lt;/li&gt;
+&lt;li&gt;Automatische Synchronisation von Überstunden in die Urlaubsverwaltung&lt;/li&gt;
+&lt;li&gt;Automatisierte Berechnung der Pausenzeiten&lt;/li&gt;
+&lt;li&gt;Projektzeiterfassung&lt;/li&gt;
+&lt;/ul&gt;
+</content>
+  </entry>
+  
+  
+  
+  
+  
+  <entry>
+    <title>Wie Open-Source-Software durch Transparenz den Datenschutz erhöht</title>
+    <link href="https://urlaubsverwaltung.cloud/neuigkeiten/2023-01-20-opensource-vs-datenschutz/" />
+    <updated>2023-01-20T00:00:00Z</updated>
+    <id>https://urlaubsverwaltung.cloud/neuigkeiten/2023-01-20-opensource-vs-datenschutz/</id>
+    <author>
+      <name>Andreas Weigel</name>
+    </author>
+    <content type="html">&lt;p&gt;Es gibt viele gute Gründe, warum Unternehmen sich für Open-Source-Software entscheiden.
+Aber wie wirkt sich diese Wahl auf den Datenschutz und die Transparenz aus?&lt;/p&gt;
+&lt;p&gt;Datenschutz und Open-Source sind zwei Konzepte, die oft miteinander in Konflikt stehen.
+Auf der einen Seite steht der Schutz der Privatsphäre und die Sicherung sensibler persönlicher Daten,
+auf der anderen Seite die Freiheit und Transparenz von Open-Source-Software.&lt;/p&gt;
+&lt;div class=&quot;flex flex-col items-center mt-2 lg:flex-row lg:space-x-8 lg:mb-8&quot;&gt;
+  &lt;div&gt;
+    &lt;img class=&quot;mx-auto lg:max-w-md lg:h-72&quot; src=&quot;https://urlaubsverwaltung.cloud/static/lupe_code.png&quot; alt=&quot;Hilfe über das Avatarmenü&quot; /&gt;
+  &lt;/div&gt;
+  &lt;div class=&quot;max-w-none lg:max-w-screen&quot;&gt;
+    &lt;h2&gt;Datenschutz als beschützendes Konzept&lt;/h2&gt;
+    &lt;p class=&quot;mt-4 lg:mb-4&quot;&gt;
+      Der Schutz insbesondere von persönlichen Daten ist ein wichtiges Anliegen,
+das in den letzten Jahren immer stärker in den Fokus der Öffentlichkeit gerückt ist.
+Nicht zuletzt wegen der Anforderungen der Datenschutz-Grundverordnung.
+Durch die zunehmende Digitalisierung und den stetig wachsenden Datenfluss ist es für Unternehmen und Organisationen
+immer wichtiger geworden, Datenschutzmaßnahmen zu implementieren und zu dokumentieren, um die Privatsphäre der
+Mitarbeitenden zu schützen.
+Gleichzeitig stellt sie diese Anforderung vor große Herausforderungen, da nicht bei jedem digitalen Prozess ersichtlich
+ist, wie personenbezogene Daten verarbeitet werden.
+    &lt;/p&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;h2 id=&quot;open-source-als-offenes-konzept&quot;&gt;Open-Source als offenes Konzept&lt;/h2&gt;
+&lt;p&gt;Open-Source-Software hingegen basiert auf der Idee, dass der Quellcode der Software frei zugänglich ist. Versierte
+Softwareentwickler haben somit einen Einblick, sowohl in die Codequalität als auch in die Verarbeitungsprozesse der
+Daten.
+Diese Offenheit und Kontrollierbarkeit bewirkt, dass Kritik expliziter Teil der Softwareevolution ist und aus diesem
+Grund Software mit einem hohen Mindest-Qualitätsstandard bereitgestellt wird.&lt;/p&gt;
+&lt;h2 id=&quot;wie-sich-beide-konzepte-ergaenzen&quot;&gt;Wie sich beide Konzepte ergänzen&lt;/h2&gt;
+&lt;p&gt;Auf den ersten Blick könnte man denken, dass Open-Source-Software und Datenschutz unvereinbare Konzepte sind.
+Schließlich könnte jeder Nutzer den Quellcode einsehen und möglicherweise persönliche Daten ausspähen.
+Doch tatsächlich kann Open-Source-Software dazu beitragen, den Datenschutz zu stärken.&lt;/p&gt;
+&lt;p&gt;Ein Missverständnis ist oft, dass der Quellcode Anwendungsdaten der Benutzenden offenbart.
+Daten werden aber in der Datenbank gespeichert und der Quellcode beschreibt nur, wie diese verarbeitet werden.
+Damit können die offensichtlichen datenverarbeitenden Prozesse auch in das Datenschutzkonzept des Unternehmens übernommen werden.&lt;/p&gt;
+&lt;p&gt;Durch die Transparenz und Offenheit des Quellcodes können Sicherheitslücken und Schwachstellen leichter identifiziert
+und behoben werden.
+Die vorhandene Feedbackkultur der aktiven Community hat dabei eine treibende Kraft, da sie die Software selbst im
+Einsatz hat.
+Dieser Umstand führt dazu, dass potentielle Ungereimtheiten schneller entdeckt und kompetent diskutiert und behoben
+werden.&lt;/p&gt;
+&lt;div class=&quot;flex flex-col justify-end lg:flex-row-reverse lg:space-x-8 lg:space-x-reverse lg:mt-8 lg:mb-8&quot;&gt;
+  &lt;div&gt;
+    &lt;img class=&quot;mx-auto mt-2 lg:max-w-md lg:h-80 border-none&quot; src=&quot;https://urlaubsverwaltung.cloud/neuigkeiten/2023-01-20-opensource-vs-datenschutz/OSIApproved_300X350_0.png&quot; alt=&quot;Open Source Initiative Logo&quot; /&gt;
+  &lt;/div&gt;
+  &lt;div class=&quot;max-w-none lg:max-w-screen&quot;&gt;
+    &lt;h2&gt; Datenschutz der Open-Source-Software urlaubsverwaltung.cloud&lt;/h2&gt;
+    &lt;p class=&quot;mt-4 lg:mb-4&quot;&gt;
+        In der Urlaubsverwaltung werden sensible personenbezogene Daten verarbeitet. Schon aus diesem Grund sind Datenschutz und 
+        Sicherheit ein inhärenter Bestandteil bei der Konzeption und Umsetzung von Software und Architektur der Urlaubsverwaltung.
+        Die verwendeten Open-Source-Lizenzen sind von der Open-Source-Software Initiative verifiziert.
+        Es wird immer verschlüsselt kommuniziert und Prozesse werden anhand der Frage des &quot;berechtigten Interesse&quot; validiert.
+    &lt;/p&gt;
+        &lt;h2&gt; Open-Source-Software als Entscheidungskriterium &lt;/h2&gt;
+        &lt;p class=&quot;mt-4 lg:mb-4&quot;&gt;
+            Open-Source-Software ist eine wesentliche Entwicklung, wenn es um Datenschutz, Transparenz und Sicherheit geht. 
+            Es ermöglicht jedem Benutzer, die Quellcodes anzusehen und zu überprüfen, was zu mehr Vertrauen in die Technologie führt. 
+            Open-Source ist ein Schlüsselkonzept der Verbindung von Menschen in der digitalen Welt und verändert die Art und Weise, 
+            wie wir unsere Daten schützen können. 
+        &lt;/p&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+</content>
+  </entry>
+  
+  
+  
+  
+  
+  <entry>
+    <title>4 Gründe für die Digitalisierung deiner HR zum Jahreswechsel 2023</title>
+    <link href="https://urlaubsverwaltung.cloud/neuigkeiten/2022-12-19-jahreswechsel/" />
+    <updated>2022-12-19T00:00:00Z</updated>
+    <id>https://urlaubsverwaltung.cloud/neuigkeiten/2022-12-19-jahreswechsel/</id>
+    <author>
+      <name>Andreas Weigel</name>
+    </author>
+    <content type="html">&lt;p&gt;Es hat generell viele Vorteile die Urlaubsverwaltung zu digitalisieren.
+Vor allem der Jahreswechsel ist ein sehr guter Zeitpunkt damit zu starten.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Hier kommen 4 Gründe warum es sinnvoll ist jetzt damit zu starten!&lt;/strong&gt;&lt;/p&gt;
+&lt;h2 id=&quot;1-neuberechnung-des-urlaubsanspruchs&quot;&gt;1. Neuberechnung des Urlaubsanspruchs&lt;/h2&gt;
+&lt;p&gt;Der Jahreswechsel ist ein guter Zeitpunkt, um die Urlaubsverwaltung zu digitalisieren,
+da zu diesem Zeitpunkt die Urlaubstage für das kommende Jahr festgelegt werden. Einflussfaktoren sind
+Änderungen in der Arbeitszeit oder z.B. Resturlaub. Diese Kalkulation wird durch eine digitale Urlaubsverwaltung vereinfacht.
+Rechnungsfehler werden vermieden.&lt;/p&gt;
+ &lt;div class=&quot;flex my-8&quot;&gt;
+    &lt;figure&gt;
+        &lt;picture&gt;
+            &lt;source srcset=&quot;https://urlaubsverwaltung.cloud/neuigkeiten/2022-12-19-jahreswechsel/%C3%BCbersicht.avif&quot; type=&quot;image/avif&quot; /&gt;
+            &lt;img src=&quot;https://urlaubsverwaltung.cloud/neuigkeiten/2022-12-19-jahreswechsel/%C3%BCbersicht.png&quot; alt=&quot;Übersicht des Urlaubsanspruchs&quot; decoding=&quot;async&quot; loading=&quot;lazy&quot; class=&quot;rounded-lg&quot; /&gt;
+        &lt;/picture&gt;
+        &lt;figcaption class=&quot;text-sm text-center&quot;&gt;Überblick des Urlaubsanspruchs sowie des Resturlaubs&lt;/figcaption&gt;
+    &lt;/figure&gt;
+&lt;/div&gt;
+&lt;h2 id=&quot;2-jahresurlaub-planen&quot;&gt;2. Jahresurlaub planen&lt;/h2&gt;
+&lt;p&gt;Eine digitale Urlaubsverwaltung unterstützt dich dabei, die Planung und Verwaltung der Urlaubstage zu vereinfachen, zu verbessern und schafft transparenz.
+Mit dem kalkulierten Urlaubsanspruch können Mitarbeitende direkt den Jahresurlaub ins Auge fassen
+und im Hinblick auf der Verteilung der Feiertage die optimale Urlaubsverteilung planen.
+Außerdem können mit Hilfe der Abwesenheitsübersicht die Urlaubstage anderer Personen im Team berücksichtigt werden.&lt;/p&gt;
+&lt;div class=&quot;flex my-8&quot;&gt;
+    &lt;figure&gt;
+        &lt;picture&gt;
+            &lt;source srcset=&quot;https://urlaubsverwaltung.cloud/neuigkeiten/2022-12-19-jahreswechsel/Abwesenheits%C3%BCbersicht.avif&quot; type=&quot;image/avif&quot; /&gt;
+            &lt;img src=&quot;https://urlaubsverwaltung.cloud/neuigkeiten/2022-12-19-jahreswechsel/Abwesenheits%C3%BCbersicht.png&quot; alt=&quot;Abwesenheitsübersicht der Mitarbeitenden einer Abteilung&quot; decoding=&quot;async&quot; loading=&quot;lazy&quot; class=&quot;rounded-lg&quot; /&gt;
+        &lt;/picture&gt;
+        &lt;figcaption class=&quot;text-sm text-center&quot;&gt;Abwesenheitsübersicht der Mitarbeitenden einer Abteilung&lt;/figcaption&gt;
+    &lt;/figure&gt;
+&lt;/div&gt;
+&lt;h2 id=&quot;3-zeit-zur-reflektion&quot;&gt;3. Zeit zur Reflektion&lt;/h2&gt;
+&lt;p&gt;Das Jahresende wird meist durch eine stürmische und stressige Endjahresstimmung eingeleitet,
+bis sie in eine besinnliche und ruhige Phase übergeht. Gerade wenn die ersten
+Mitarbeitenden im Urlaub sind, öffnet sich der Raum (vor allem mental), um das vergangene Jahr zu reflektieren.
+Dabei können alte Systeme und Verfahren neu gedacht und aufgeräumen werden, um Platz für verbesserte Lösungen zu schaffen.&lt;/p&gt;
+&lt;h2 id=&quot;4-jahreswechselaktion&quot;&gt;4. Jahreswechselaktion&lt;/h2&gt;
+&lt;p&gt;Um die Digitalisierung voranzubringen, haben wir aktuell die Aktion &amp;quot;Starte digital in das Jahr 2023&amp;quot;. Damit habt ihr
+noch mehr Zeit die Urlaubsverwaltung anzuschauen und auszuprobieren, wie eure Prozesse und Organisationsstruktur abgebildet werden können.
+Wir helfen euch beim Onboarding und stehen für Fragen gerne zur Verfügung.&lt;/p&gt;
+ &lt;div class=&quot;flex my-8&quot;&gt;
+    &lt;figure&gt;
+        &lt;picture&gt;
+            &lt;source srcset=&quot;https://urlaubsverwaltung.cloud/neuigkeiten/2022-12-19-jahreswechsel/aktion.avif&quot; type=&quot;image/avif&quot; /&gt;
+            &lt;img src=&quot;https://urlaubsverwaltung.cloud/neuigkeiten/2022-12-19-jahreswechsel/aktion2023.png&quot; alt=&quot;Aktionsbanner Starte digital in das Jahr 2023&quot; decoding=&quot;async&quot; loading=&quot;lazy&quot; class=&quot;rounded-lg&quot; /&gt;
+        &lt;/picture&gt;
+        &lt;figcaption class=&quot;text-sm text-center&quot;&gt;Aktion Starte digital in das Jahr 2023&lt;/figcaption&gt;
+    &lt;/figure&gt;
+&lt;/div&gt;
+&lt;p&gt;Alles in allem kann der Jahreswechsel ein guter Anlass sein,
+um die Urlaubsverwaltung zu digitalisieren und damit die Effizienz und Produktivität im Unternehmen zu steigern.&lt;/p&gt;
+&lt;div class=&quot;px-4 xl:px-2 my-24 md:my-32 md:text-center&quot;&gt;
+	&lt;div class=&quot;inline-block&quot;&gt;
+		&lt;p class=&quot;text-xl lg:text-2xl mb-6 md:mb-4&quot;&gt;
+			Mache dir selbst ein Bild und starte mit deiner eigene Urlaubsverwaltung noch heute.
+		&lt;/p&gt;
+		&lt;div class=&quot;md:max-w-sm md:mx-auto text-lg sm:text-xl md:text-lg&quot;&gt;
+			&lt;a data-append-utm=&quot;&quot; href=&quot;https://registry.apps.urlaubsverwaltung.cloud/registration&quot; class=&quot;px-3 py-2 text-lg font-medium flex items-center justify-center no-underline rounded whitespace-nowrap bg-yellow-300 text-sky-900 text-opacity-90 hover:text-opacity-100 border border-sky-100 hover:border-blue-200 hover:shadow-md active:shadow&quot; data-goal=&quot;signup&quot; data-goal-trigger=&quot;eye-catcher&quot;&gt;
+            &lt;span class=&quot;mr-2&quot;&gt;
+              30 Tage kostenlos testen
+            &lt;/span&gt;
+			&lt;/a&gt;
+		&lt;/div&gt;
+	&lt;/div&gt;
+&lt;/div&gt;
+</content>
+  </entry>
+  
+  
+  
+  
+  
+  <entry>
+    <title>In diesen Wochen sind 2023 deine Mitarbeitenden im Urlaub!</title>
+    <link href="https://urlaubsverwaltung.cloud/neuigkeiten/2022-12-16-brueckentage-2023/" />
+    <updated>2022-12-16T00:00:00Z</updated>
+    <id>https://urlaubsverwaltung.cloud/neuigkeiten/2022-12-16-brueckentage-2023/</id>
+    <author>
+      <name>Andreas Weigel</name>
+    </author>
+    <content type="html">&lt;p&gt;Die Brückentage liegen 2023 günstig um sich viel zu erholen.
+Aus 8 Feiertagen werden 61 Tage Erholung!&lt;/p&gt;
+&lt;h2 id=&quot;die-ueblichen-verdaechtigen-ballungszeitraeume-weihnachten-und-ostern&quot;&gt;Die üblichen verdächtigen Ballungszeiträume Weihnachten und Ostern&lt;/h2&gt;
+&lt;p&gt;Wenig überraschend verlängern Karfreitag und Ostersonntag das Osterwochenende und ermöglichen auch dieses Jahr nur mit 8
+Urlaubstagen 16 freie Erholungstage. Um es an dieser Stelle korrekt einzuordnen sei vorweggenommen, dass auch nächstes Jahr die
+Weihnachtsfeiertage
+sowie der Neujahrstag an einem Werktag liegen und sogar mit nur 7 Urlaubstagen die 16 freien Erholungstage erreicht werden
+können.&lt;/p&gt;
+&lt;div class=&quot;flex my-8&quot;&gt;
+    &lt;figure&gt;
+        &lt;picture&gt;
+            &lt;source srcset=&quot;https://urlaubsverwaltung.cloud/neuigkeiten/2022-12-16-brueckentage-2023/apr-jun.avif&quot; type=&quot;image/avif&quot; /&gt;
+            &lt;img src=&quot;https://urlaubsverwaltung.cloud/neuigkeiten/2022-12-16-brueckentage-2023/apr-jun.png&quot; alt=&quot;Brückentage im April bis Juni (Kalenderdarstellung)&quot; decoding=&quot;async&quot; loading=&quot;lazy&quot; class=&quot;rounded-lg&quot; /&gt;
+        &lt;/picture&gt;
+        &lt;figcaption class=&quot;text-sm text-center&quot;&gt;Mögliche Urlaubsplanung für die Brückentage im April bis Juni&lt;/figcaption&gt;
+    &lt;/figure&gt;
+&lt;/div&gt;
+&lt;h2 id=&quot;aus-8-feiertagen-werden-61-tage-erholung&quot;&gt;Aus 8 Feiertagen werden 61 Tage Erholung&lt;/h2&gt;
+&lt;p&gt;Wir wollen an dieser Stelle natürlich nicht unterschlagen, dass Familien vor allem von den Schulferien abhängig sind,
+sodass auch im Jahr 2023 die klassischen wirtschaftlichen Flauten zu den Schulferienzeiten zu erwarten sind.
+Vor allem in den Sommerferien, die vom Bundesland abhängig zwischen dem 06. Juli und dem 11. September liegen.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;„Urlaub ist wie Medizin: man muss ihn regelmäßig nehmen, um gesund zu bleiben.“&lt;/p&gt;
+&lt;p&gt;-- Unbekannt&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Im Jahr 2023 fallen nur noch 3 der 20 deutschen Feiertage auf ein Wochenende. Im Vergleich waren es 2022 noch 8.
+Ein spektakulärer Monat ist der Mai. Anfang (1. Mai, Tag der Arbeit), Mitte (18. Mai, Christi Himmelfahrt) und Ende
+(29. Mai, Pfingstmontag) Mai befinden sich für ganz Deutschland 3 Feiertage auf einem Werktag.
+Unterschiedlichen Kombinationen machen es möglich, dass&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;aus 4 Urlaubstagen 9 freie Tage werden (2 Mal möglich)&lt;/li&gt;
+&lt;li&gt;aus 6 Urlaubstagen 12 freie Tage werden&lt;/li&gt;
+&lt;li&gt;aus 9 Urlaubstagen 17 freie Tage werden&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;oder die lange ersehnte Reise durch 13 Urlaubstagen und ganzen 23 Tagen Urlaub möglich wird.
+Das ist wahlweise sowohl für die erste Monatshälfte im Mai, als auch für die zweite Hälfte realisierbar.&lt;/p&gt;
+&lt;p&gt;Zusätzlich kann sich ganz Deutschland auf den Tag der deutschen Einheit freuen, der am 03.10. auf einen Dienstag fällt,
+sodass auch hier mit nur 4 Urlaubstagen 9 freie Tage möglich sind.&lt;/p&gt;
+&lt;div class=&quot;flex my-8&quot;&gt;
+    &lt;figure&gt;
+        &lt;picture&gt;
+            &lt;source srcset=&quot;https://urlaubsverwaltung.cloud/neuigkeiten/2022-12-16-brueckentage-2023/okt-dez.avif&quot; type=&quot;image/avif&quot; /&gt;
+            &lt;img src=&quot;https://urlaubsverwaltung.cloud/neuigkeiten/2022-12-16-brueckentage-2023/okt-dez.png&quot; alt=&quot;Kalenderdarstellung der Monate Oktober bis Dezember&quot; decoding=&quot;async&quot; loading=&quot;lazy&quot; class=&quot;rounded-lg&quot; /&gt;
+        &lt;/picture&gt;
+        &lt;figcaption class=&quot;text-sm text-center&quot;&gt;Mögliche Urlaubsplanung für den Tag der deutschen Einheit sowie für Weihnachten&lt;/figcaption&gt;
+    &lt;/figure&gt;
+&lt;/div&gt;
+&lt;p&gt;&lt;strong&gt;In ganz Deutschland kann man diese 8 Feiertage ausnutzen und sich mit 27 Urlaubstagen 61 Tage lang erholen.&lt;/strong&gt;&lt;/p&gt;
+&lt;h2 id=&quot;weitere-feiertage-der-bundeslaender&quot;&gt;Weitere Feiertage der Bundesländer&lt;/h2&gt;
+&lt;p&gt;Da jedes Bundesland individuell Feiertage festgelegt hat, sind auch weitere Kombinationen denkbar.&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;&lt;!-- --&gt;&lt;/th&gt;
+&lt;th&gt;&lt;!-- --&gt;&lt;/th&gt;
+&lt;th&gt;&lt;!-- --&gt;&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;strong&gt;Feiertage Baden-Württemberg&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Heilige Drei Könige&lt;/td&gt;
+&lt;td&gt;06.01.2023&lt;/td&gt;
+&lt;td&gt;Freitag&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Fronleichnam&lt;/td&gt;
+&lt;td&gt;08.06.2023&lt;/td&gt;
+&lt;td&gt;Donnerstag&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Allerheiligen&lt;/td&gt;
+&lt;td&gt;01.11.2023&lt;/td&gt;
+&lt;td&gt;Mittwoch&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;strong&gt;Feiertage Bayern&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Heilige Drei Könige&lt;/td&gt;
+&lt;td&gt;06.01.2023&lt;/td&gt;
+&lt;td&gt;Freitag&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Fronleichnam&lt;/td&gt;
+&lt;td&gt;08.06.2023&lt;/td&gt;
+&lt;td&gt;Donnerstag&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Mariä Himmelfahrt&lt;/td&gt;
+&lt;td&gt;15.08.2023&lt;/td&gt;
+&lt;td&gt;Dienstag&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Allerheiligen&lt;/td&gt;
+&lt;td&gt;01.11.2023&lt;/td&gt;
+&lt;td&gt;Mittwoch&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;strong&gt;Feiertage Berlin&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Internationaler Frauentag&lt;/td&gt;
+&lt;td&gt;08.03.2023&lt;/td&gt;
+&lt;td&gt;Mittwoch&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;strong&gt;Feiertage Brandenburg&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Reformationstag&lt;/td&gt;
+&lt;td&gt;31.10.2023&lt;/td&gt;
+&lt;td&gt;Dienstag&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;strong&gt;Feiertage Bremen&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Reformationstag&lt;/td&gt;
+&lt;td&gt;31.10.2023&lt;/td&gt;
+&lt;td&gt;Dienstag&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;strong&gt;Feiertage Hamburg&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Reformationstag&lt;/td&gt;
+&lt;td&gt;31.10.2023&lt;/td&gt;
+&lt;td&gt;Dienstag&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;strong&gt;Feiertage Hessen&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Fronleichnam&lt;/td&gt;
+&lt;td&gt;08.06.2023&lt;/td&gt;
+&lt;td&gt;Donnerstag&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;strong&gt;Feiertage Mecklenburg-Vorpommern&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Reformationstag&lt;/td&gt;
+&lt;td&gt;31.10.2023&lt;/td&gt;
+&lt;td&gt;Dienstag&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;strong&gt;Feiertage Niedersachsen&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Reformationstag&lt;/td&gt;
+&lt;td&gt;31.10.2023&lt;/td&gt;
+&lt;td&gt;Dienstag&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;strong&gt;Feiertage Nordrhein-Westfalen&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Fronleichnam&lt;/td&gt;
+&lt;td&gt;08.06.2023&lt;/td&gt;
+&lt;td&gt;Donnerstag&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Allerheiligen&lt;/td&gt;
+&lt;td&gt;01.11.2023&lt;/td&gt;
+&lt;td&gt;Mittwoch&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;strong&gt;Feiertage Rheinland-Pfalz&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Fronleichnam&lt;/td&gt;
+&lt;td&gt;08.06.2023&lt;/td&gt;
+&lt;td&gt;Donnerstag&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Allerheiligen&lt;/td&gt;
+&lt;td&gt;01.11.2023&lt;/td&gt;
+&lt;td&gt;Mittwoch&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;strong&gt;Feiertage Saarland&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Fronleichnam&lt;/td&gt;
+&lt;td&gt;08.06.2023&lt;/td&gt;
+&lt;td&gt;Donnerstag&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Mariä Himmelfahrt&lt;/td&gt;
+&lt;td&gt;15.08.2023&lt;/td&gt;
+&lt;td&gt;Dienstag&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Allerheiligen&lt;/td&gt;
+&lt;td&gt;01.11.2023&lt;/td&gt;
+&lt;td&gt;Mittwoch&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;strong&gt;Feiertage Sachsen&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Reformationstag&lt;/td&gt;
+&lt;td&gt;31.10.2023&lt;/td&gt;
+&lt;td&gt;Dienstag&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Buß- und Bettag&lt;/td&gt;
+&lt;td&gt;22.11.2023&lt;/td&gt;
+&lt;td&gt;Mittwoch&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;strong&gt;Feiertage Sachsen-Anhalt&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Heilige Drei Könige&lt;/td&gt;
+&lt;td&gt;06.01.2023&lt;/td&gt;
+&lt;td&gt;Freitag&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Reformationstag&lt;/td&gt;
+&lt;td&gt;31.10.2023&lt;/td&gt;
+&lt;td&gt;Dienstag&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;strong&gt;Feiertage Schleswig-Holstein&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Reformationstag&lt;/td&gt;
+&lt;td&gt;31.10.2023&lt;/td&gt;
+&lt;td&gt;Dienstag&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;strong&gt;Feiertage Thüringen&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Weltkindertag&lt;/td&gt;
+&lt;td&gt;20.09.2023&lt;/td&gt;
+&lt;td&gt;Mittwoch&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Reformationstag&lt;/td&gt;
+&lt;td&gt;31.10.2023&lt;/td&gt;
+&lt;td&gt;Dienstag&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h2 id=&quot;aus-8-feiertagen-werden-61-tage-erholung-1&quot;&gt;Aus 8 Feiertagen werden 61 Tage Erholung&lt;/h2&gt;
+&lt;div class=&quot;flex flex-col justify-end lg:flex-row-reverse lg:space-x-8 lg:space-x-reverse lg:mt-8 lg:mb-8&quot;&gt;
+  &lt;div class=&quot;w-full&quot;&gt;
+    &lt;figure&gt;
+        &lt;picture&gt;
+            &lt;source srcset=&quot;https://urlaubsverwaltung.cloud/neuigkeiten/2022-12-16-brueckentage-2023/einstellungen.avif&quot; type=&quot;image/avif&quot; /&gt;
+            &lt;img src=&quot;https://urlaubsverwaltung.cloud/neuigkeiten/2022-12-16-brueckentage-2023/einstellungen.png&quot; alt=&quot;Einstellungen von Bundesland und Arbeitstagen&quot; decoding=&quot;async&quot; loading=&quot;lazy&quot; class=&quot;rounded-lg&quot; /&gt;
+        &lt;/picture&gt;
+        &lt;figcaption class=&quot;text-sm text-center&quot;&gt;Einstellungen von Bundesland und Arbeitstagen&lt;/figcaption&gt;
+    &lt;/figure&gt;
+  &lt;/div&gt;
+  &lt;div class=&quot;max-w-none lg:max-w-screen&quot;&gt;
+    &lt;p class=&quot;mt-4 lg:mb-4&quot;&gt;
+      An dieser Stelle müssen wir relativieren, dass die oben beschriebenen Fakten
+      nur für diejenigen gelten, die Montag bis Freitag ihrem Beruf nachgehen.
+      Arbeitet jemand am Wochenende sieht die Statistik entsprechend anders aus.
+    &lt;/p&gt;
+    &lt;p&gt;
+      Unter Berücksichtigung des Bundeslandes, der Arbeitstage und der Abwesenheiten anderer Mitarbeitenden,
+      kann es relativ kompliziert werden den Überblick zu behalten und den korrekten Urlaubsanspruch zu berechnen.
+      Hier kann die Urlaubsverwaltung perfekt unterstützen, welche genau diese Faktoren einbezieht.
+    &lt;/p&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;px-4 xl:px-2 my-24 md:my-32 md:text-center&quot;&gt;
+	&lt;div class=&quot;inline-block&quot;&gt;
+		&lt;p class=&quot;text-xl lg:text-2xl mb-6 md:mb-4&quot;&gt;
+			Mache dir selbst ein Bild und starte mit deiner eigene Urlaubsverwaltung noch heute.
+		&lt;/p&gt;
+		&lt;div class=&quot;md:max-w-sm md:mx-auto text-lg sm:text-xl md:text-lg&quot;&gt;
+			&lt;a data-append-utm=&quot;&quot; href=&quot;https://registry.apps.urlaubsverwaltung.cloud/registration&quot; class=&quot;px-3 py-2 text-lg font-medium flex items-center justify-center no-underline rounded whitespace-nowrap bg-yellow-300 text-sky-900 text-opacity-90 hover:text-opacity-100 border border-sky-100 hover:border-blue-200 hover:shadow-md active:shadow&quot; data-goal=&quot;signup&quot; data-goal-trigger=&quot;eye-catcher&quot;&gt;
+            &lt;span class=&quot;mr-2&quot;&gt;
+              30 Tage kostenlos testen
+            &lt;/span&gt;
+			&lt;/a&gt;
+		&lt;/div&gt;
+	&lt;/div&gt;
+&lt;/div&gt;
+</content>
+  </entry>
+  
+  
+  
+  
+  
+  <entry>
+    <title>Die einfachste Form der Zeiterfassung!</title>
+    <link href="https://urlaubsverwaltung.cloud/neuigkeiten/2022-12-05-zeiterfassung/" />
+    <updated>2022-12-05T00:00:00Z</updated>
+    <id>https://urlaubsverwaltung.cloud/neuigkeiten/2022-12-05-zeiterfassung/</id>
+    <author>
+      <name>Andreas Weigel</name>
+    </author>
+    <content type="html">&lt;p&gt;Unsere schlanke Lösung auf die Anforderung des Bundesarbeitsgerichts (BAG) einer
+objektiven, verlässlichen und zugänglichen Zeiterfassung ist jetzt da!&lt;/p&gt;
+&lt;h2 id=&quot;brauche-ich-eine-zeiterfassung&quot;&gt;Brauche ich eine Zeiterfassung?&lt;/h2&gt;
+&lt;p&gt;Sind wir mal ehrlich, Vertrauensarbeitszeit hin oder her, die eigene Arbeitszeit in irgendeiner Art und Weise festzuhalten
+hat viele Vorteile und sollte jeder Arbeitnehmer machen. Nicht zuletzt als Selbstschutz um nachvollziehen zu können,
+ab wann zu viel gearbeitet wird. Vor allem im Homeoffice, wo z.B. der Arbeitsweg wegfällt,
+&lt;a target=&quot;_blank&quot; href=&quot;https://www.forbes.com/sites/zakdoffman/2020/03/24/coronavirus-work-from-home-longer-hours-more-distractions-and-this-surprising-privacy-threat/&quot;&gt;
+arbeiten viele Arbeitnehmer deutlich mehr &lt;/a&gt; als im Büro.&lt;/p&gt;
+&lt;p&gt;Seit dem EuGH Urteil aus dem Mai 2019 steht fest, dass in Europa die Pflicht für Arbeitgeber eine Zeiterfassung einzuführen
+unumgänglich ist. Da jedoch ein zeitlicher Rahmen bisher fehlte, sahen sich die Unternehmen nicht im Zugzwang.
+Dies änderte sich am 13.09.2022 mit dem Gerichtsurteil des Bundesarbeitsgerichts.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&amp;quot;Der Arbeitgeber ist nach §3 Abs. 2 Nr. 1 ArbSchG verpflichtet, ein System einzuführen, mit dem die von den Arbeitnehmern geleistete Arbeitszeit erfasst werden kann.&amp;quot;&lt;/p&gt;
+&lt;p&gt;-- &lt;a href=&quot;https://www.bundesarbeitsgericht.de/presse/einfuehrung-elektronischer-zeiterfassung-initiativrecht-des-betriebsrats/&quot;&gt;Bundesarbeitsgericht&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;a target=&quot;_blank&quot; href=&quot;https://dup-magazin.de/management/strategie/so-kommen-sie-der-pflicht-zur-arbeitszeiterfassung-nach/&quot;&gt;
+49% der KMUs erfassen bereits die Arbeitszeit. 50% davon erfassen ihre Arbeitszeit jedoch mit Stift und Papier und 24% verwenden eine
+elektronische Tabelle, also wahrscheinlich Excel. &lt;/a&gt;
+So ganz wird das dem EuGH Urteil nach einer objektiven, verlässlichen und zugänglichen Zeiterfassung nicht gerecht. 
+&lt;h2 id=&quot;aber-was-genau-heisst-objektiv-verlaesslich-und-zugaenglich&quot;&gt;Aber was genau heißt objektiv, verlässlich und zugänglich?&lt;/h2&gt;
+&lt;p&gt;Jeder Mitarbeitende sollte auf der gleichen Art seine Arbeitszeit erfassen, damit die erhobenen Zahlen keine
+Unstimmigkeiten vorweisen und wenig Interpretationsfreiheit zulassen. Nicht auf unterschiedliche Systeme oder Exceltabellen
+schauen zu müssen, ermöglicht eine &lt;strong&gt;objektive&lt;/strong&gt; Sicht und ein einfaches Verständnis.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;„Ich glaube keiner Statistik, die ich nicht selbst gefälscht habe“.&lt;/p&gt;
+&lt;p&gt;-- Sir Winston Churchill&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Sowohl Arbeitnehmer als auch Arbeitgeber müssen sich darauf verlassen können, dass Kalkulationen einheitlich und idempotent
+sind. Für jeden Mitarbeitenden muss also gelten, dass für die gleichen eingegebenen Zahlen auch die gleiche und korrekte
+Statistik &lt;strong&gt;verlässlich&lt;/strong&gt; berechnet wird.&lt;/p&gt;
+&lt;div class=&quot;flex my-8&quot;&gt;
+    &lt;figure&gt;
+        &lt;picture&gt;
+            &lt;source srcset=&quot;https://urlaubsverwaltung.cloud/neuigkeiten/2022-12-05-zeiterfassung/stats.avif&quot; type=&quot;image/avif&quot; /&gt;
+            &lt;img src=&quot;https://urlaubsverwaltung.cloud/neuigkeiten/2022-12-05-zeiterfassung/stats.png&quot; alt=&quot;Foo&quot; decoding=&quot;async&quot; loading=&quot;lazy&quot; class=&quot;rounded-lg&quot; /&gt;
+        &lt;/picture&gt;
+        &lt;figcaption class=&quot;text-sm text-center&quot;&gt;Statistik der Zeiterfassung bei urlaubsverwaltung.cloud&lt;/figcaption&gt;
+    &lt;/figure&gt;
+&lt;/div&gt;
+&lt;p&gt;Eine Lösung die als &lt;strong&gt;zugänglich&lt;/strong&gt; bezeichnet wird sollte nicht nur gleichermaßen aus dem HomeOffice sowie aus dem Büro
+verwendet werden können, sondern auch inklusiv bedienbar sein und nie.&lt;/p&gt;
+&lt;div class=&quot;flex my-8&quot;&gt;
+    &lt;figure&gt;
+        &lt;picture&gt;
+            &lt;source srcset=&quot;https://urlaubsverwaltung.cloud/neuigkeiten/2022-12-05-zeiterfassung/enterslot.avif&quot; type=&quot;image/avif&quot; /&gt;
+            &lt;img src=&quot;https://urlaubsverwaltung.cloud/neuigkeiten/2022-12-05-zeiterfassung/enterslot.png&quot; alt=&quot;Foo&quot; decoding=&quot;async&quot; loading=&quot;lazy&quot; class=&quot;rounded-lg&quot; /&gt;
+        &lt;/picture&gt;
+        &lt;figcaption class=&quot;text-sm text-center&quot;&gt;Formular zur Erfassung eines Zeitabschnitts&lt;/figcaption&gt;
+    &lt;/figure&gt;
+&lt;/div&gt;
+&lt;h2 id=&quot;unsere-open-source-software-as-a-service&quot;&gt;Unsere Open Source Software as a Service&lt;/h2&gt;
+&lt;p&gt;Um den Anforderungen gerecht zu werden stellen wir eine Open Source Software as a Service zur Verfügung.
+Für eine Open Source Zeiterfassung gilt, dass alle Interessierten bei Bedarf nachvollziehen können wie Daten verarbeitet werden,
+da der Sourcecode öffentlich zugänglich ist. Viel mehr gewinnt die Software an Stabilität und profitiert von der
+Mitarbeit einer aktiven Community und dem konstruktiven Feedback.&lt;/p&gt;
+&lt;p&gt;Mit dem Fokus auf User Experience und Accessibility verfolgen wir stetig das Ziel die Software allen Menschen gleichermaßen
+zur Verfügung zu stellen.&lt;/p&gt;
+&lt;p&gt;Als Reaktion auf das oben genannte Urteil stellen wir unsere Lösung den urlaubsverwaltung.cloud Kunden zunächst kostenlos zur Verfügung.&lt;/p&gt;
+</content>
+  </entry>
+  
+  
+  
+  
+  
+  <entry>
+    <title>Überschreiben der Browsersprache in den Personalisierungen</title>
+    <link href="https://urlaubsverwaltung.cloud/neuigkeiten/2022-10-26-sprachkonfiguration/" />
+    <updated>2022-10-26T00:00:00Z</updated>
+    <id>https://urlaubsverwaltung.cloud/neuigkeiten/2022-10-26-sprachkonfiguration/</id>
+    <author>
+      <name>Tobias Schneider</name>
+    </author>
+    <content type="html">&lt;p&gt;Wir erweitern für euch die Personalisierung, sodass ihr die Sprache unabhängig der Browsersprache konfigurieren könnt.&lt;/p&gt;
+&lt;h2 id=&quot;browsersprache-in-der-personalisierung-ueberschreiben&quot;&gt;Browsersprache in der Personalisierung überschreiben&lt;/h2&gt;
+&lt;p&gt;Bisher war es in der Urlaubsverwaltung ausschließlich so, dass die Browsersprache bestimmt hat, in welcher Sprache die
+Urlaubsverwaltung dargestellt wird. Dies ist weiterhin der Standardfall, jedoch gehen wir nun einen Schritt weiter und
+ermöglichen es in der Personalisierung einzustellen, welche Sprache verwendet werden soll.&lt;/p&gt;
+&lt;div class=&quot;flex my-8&quot;&gt;
+    &lt;figure&gt;
+        &lt;picture&gt;
+            &lt;source srcset=&quot;https://urlaubsverwaltung.cloud/neuigkeiten/2022-10-26-sprachkonfiguration/language-personalisation.avif&quot; type=&quot;image/avif&quot; /&gt;
+            &lt;img src=&quot;https://urlaubsverwaltung.cloud/neuigkeiten/2022-10-26-sprachkonfiguration/language-personalisation.png&quot; alt=&quot;Konfiguration zum Überschreiben der Browsersprache in den Personalisierungen&quot; decoding=&quot;async&quot; loading=&quot;lazy&quot; class=&quot;rounded-lg&quot; /&gt;
+        &lt;/picture&gt;
+        &lt;figcaption class=&quot;text-sm text-center&quot;&gt;Konfiguration zum Überschreiben der Browsersprache in den Personalisierungen&lt;/figcaption&gt;
+    &lt;/figure&gt;
+&lt;/div&gt;
+&lt;p&gt;Warum tun wir das? Weil wir euer Feedback ernst nehmen und mit euch die Urlaubsverwaltung weiterentwickeln! Es wurde mehrfach an uns
+herangetragen, dass Personen ihren Browser z.B. auf die englische Sprache eingestellt haben, jedoch mit den fachlichen und
+rechtlichen Bezeichnungen der Urlaubsverwaltung für Urlaub und Abwesenheiten auf Englisch ihre Probleme haben. Verständlich!
+Wer kennt schon die englischen Bezeichnungen für Resturlaub oder anteilige Urlaubstage.
+Nun könnt ihr euren Browser auf eurer Wunschsprache eingestellt haben und die Urlaubsverwaltung z.B. auf Deutsch genießen!&lt;/p&gt;
+&lt;br /&gt;
+Wir freuen uns über dein Feedback an &lt;a href=&quot;mailto:info@urlaubsverwaltung.cloud?subject=Feedback&quot;&gt;info@urlaubsverwaltung.cloud&lt;/a&gt;.
+</content>
+  </entry>
+  
+  
+  
+  
+  
+  <entry>
+    <title>Verfall von Resturlaub für alle und individuell für einzelne Mitarbeitenden</title>
+    <link href="https://urlaubsverwaltung.cloud/neuigkeiten/2022-10-19-verfall-resturlaub/" />
+    <updated>2022-10-19T00:00:00Z</updated>
+    <id>https://urlaubsverwaltung.cloud/neuigkeiten/2022-10-19-verfall-resturlaub/</id>
+    <author>
+      <name>Tobias Schneider</name>
+    </author>
+    <content type="html">&lt;p&gt;Der Verfall des Resturlaubs aus dem Vorjahr kann ab sofort für alle in den Einstellungen oder im jeweiligen Urlaubsanspruch
+des Mitarbeitenden deaktiviert bzw. aktiviert werden.&lt;/p&gt;
+&lt;h2 id=&quot;verfall-von-resturlaub-fuer-alle-mitarbeitenden-deaktivieren&quot;&gt;Verfall von Resturlaub für alle Mitarbeitenden deaktivieren&lt;/h2&gt;
+&lt;p&gt;Der Verfall des Resturlaubes kann, seit der Version 4.50.0 der Urlaubsverwaltung, in den Einstellungen unter
+&#39;Einstellungen zu Urlaub&#39; global deaktiviert bzw. aktiviert werden. Durch das Deaktivieren des Verfalls werden die
+nicht genommenen Urlaubstage komplett in das kommende Jahr als Resturlaub übernommen.&lt;/p&gt;
+&lt;div class=&quot;flex my-8&quot;&gt;
+    &lt;figure&gt;
+        &lt;picture&gt;
+            &lt;source srcset=&quot;https://urlaubsverwaltung.cloud/neuigkeiten/2022-10-19-verfall-resturlaub/residual-leave-configuration.avif&quot; type=&quot;image/avif&quot; /&gt;
+            &lt;img src=&quot;https://urlaubsverwaltung.cloud/neuigkeiten/2022-10-19-verfall-resturlaub/residual-leave-configuration.png&quot; alt=&quot;Konfiguration zum Deaktivieren/Aktivieren des Verfalls von Resturlaubs für alle Mitarbeitenden&quot; decoding=&quot;async&quot; loading=&quot;lazy&quot; class=&quot;rounded-lg&quot; /&gt;
+        &lt;/picture&gt;
+        &lt;figcaption class=&quot;text-sm text-center&quot;&gt;Konfiguration zum Deaktivieren/Aktivieren des Verfalls von Resturlaubs für alle Mitarbeitenden&lt;/figcaption&gt;
+    &lt;/figure&gt;
+&lt;/div&gt;
+&lt;h2 id=&quot;verfall-von-resturlaub-pro-mitarbeitenden-individuell-deaktivieren&quot;&gt;Verfall von Resturlaub pro Mitarbeitenden individuell deaktivieren&lt;/h2&gt;
+&lt;p&gt;Der Verfall von Resturlaub kann nicht nur für alle Mitarbeitenden, sondern zusätzlich auch pro Mitarbeitenden im Konto
+unter Urlaubsanspruch deaktiviert bzw. aktiviert werden. Hiermit hat man die Möglichkeit z.B. den Verfall für alle Mitarbeitenden
+zu deaktivieren und für bestimmte Mitarbeitenden individuell zu aktivieren.&lt;/p&gt;
+&lt;div class=&quot;flex my-8&quot;&gt;
+    &lt;figure&gt;
+        &lt;picture&gt;
+            &lt;source srcset=&quot;https://urlaubsverwaltung.cloud/neuigkeiten/2022-10-19-verfall-resturlaub/residual-leave-configuration-employee.avif&quot; type=&quot;image/avif&quot; /&gt;
+            &lt;img src=&quot;https://urlaubsverwaltung.cloud/neuigkeiten/2022-10-19-verfall-resturlaub/residual-leave-configuration-employee.png&quot; alt=&quot;Konfiguration des individuellen Verfalls von Resturlaub pro Mitarbeitenden&quot; decoding=&quot;async&quot; loading=&quot;lazy&quot; class=&quot;rounded-lg&quot; /&gt;
+        &lt;/picture&gt;
+        &lt;figcaption class=&quot;text-sm text-center&quot;&gt;Konfiguration des individuellen Verfalls von Resturlaub pro Mitarbeitenden&lt;/figcaption&gt;
+    &lt;/figure&gt;
+&lt;/div&gt;
+&lt;p&gt;Wir freuen uns über dein Feedback an &lt;a href=&quot;mailto:info@urlaubsverwaltung.cloud?subject=Feedback&quot;&gt;info@urlaubsverwaltung.cloud&lt;/a&gt;.
+&lt;br /&gt;&lt;/p&gt;
+</content>
+  </entry>
+  
+  
+  
+  
+  
+  <entry>
+    <title>Verfall von Resturlaub pro Mitarbeitenden konfigurieren</title>
+    <link href="https://urlaubsverwaltung.cloud/neuigkeiten/2022-07-22-release-4.43.0/" />
+    <updated>2022-07-22T00:00:00Z</updated>
+    <id>https://urlaubsverwaltung.cloud/neuigkeiten/2022-07-22-release-4.43.0/</id>
+    <author>
+      <name>Tobias Schneider</name>
+    </author>
+    <content type="html">&lt;p&gt;Der Verfall des Resturlaubs aus dem Vorjahr kann ab sofort pro Mitarbeitenden konfiguriert werden und ist auf der
+Übersichtseite einsehbar.&lt;/p&gt;
+&lt;h2 id=&quot;informationen-ueber-den-verfallenen-resturlaub&quot;&gt;Informationen über den verfallenen Resturlaub&lt;/h2&gt;
+&lt;p&gt;Der Verfall von Resturlaub wird auf deiner Übersichtseite dargestellt. Hast du zum Beispiel 5 Tage Resturlaub nicht rechtzeitig genommen, steht rechts bei den verbleibenden Urlaubstagen &amp;quot;und 5 Tage Resturlaub sind verfallen&amp;quot;.
+Dies schafft mehr Transparenz über die Berechnung deiner verbleibenden Urlaubstage und erklärt, warum sich dein anteiliger Urlaubsanspruch ggf. reduziert hat.&lt;/p&gt;
+&lt;div class=&quot;flex my-8&quot;&gt;
+    &lt;figure&gt;
+        &lt;picture&gt;
+            &lt;source srcset=&quot;https://urlaubsverwaltung.cloud/neuigkeiten/2022-07-22-release-4.43.0/residual-leave-top.avif&quot; type=&quot;image/avif&quot; /&gt;
+            &lt;img src=&quot;https://urlaubsverwaltung.cloud/neuigkeiten/2022-07-22-release-4.43.0/residual-leave-top.png&quot; alt=&quot;Information über den verfallenen Resturlaub am Start der Übersichtsseite&quot; decoding=&quot;async&quot; loading=&quot;lazy&quot; class=&quot;rounded-lg&quot; /&gt;
+        &lt;/picture&gt;
+        &lt;figcaption class=&quot;text-sm text-center&quot;&gt;Information über den verfallenen Resturlaub am Start der Übersichtsseite&lt;/figcaption&gt;
+    &lt;/figure&gt;
+&lt;/div&gt;
+&lt;p&gt;Der verfallene Resturlaub wird dir nicht nur bei den verbleibenden Urlaubstagen, sondern auch bei der Auflistung deiner Abwesenheiten dargestellt.&lt;/p&gt;
+&lt;div class=&quot;flex my-8&quot;&gt;
+    &lt;figure&gt;
+        &lt;picture&gt;
+            &lt;source srcset=&quot;https://urlaubsverwaltung.cloud/neuigkeiten/2022-07-22-release-4.43.0/residual-leave-bottom.avif&quot; type=&quot;image/avif&quot; /&gt;
+            &lt;img src=&quot;https://urlaubsverwaltung.cloud/neuigkeiten/2022-07-22-release-4.43.0/residual-leave-top.png&quot; alt=&quot;Information über den verfallenen Resturlaub bei den Abwesenheiten auf der Übersichtsseite&quot; decoding=&quot;async&quot; loading=&quot;lazy&quot; class=&quot;rounded-lg&quot; /&gt;
+        &lt;/picture&gt;
+        &lt;figcaption class=&quot;text-sm text-center&quot;&gt;Information über den verfallenen Resturlaub bei den Abwesenheiten auf der Übersichtsseite&lt;/figcaption&gt;
+    &lt;/figure&gt;
+&lt;/div&gt;
+&lt;h2 id=&quot;verfall-von-resturlaub-pro-mitarbeitenden-konfigurieren&quot;&gt;Verfall von Resturlaub pro Mitarbeitenden konfigurieren&lt;/h2&gt;
+&lt;p&gt;Der Verfall von Resturlaub ist ab sofort pro Mitarbeitenden im Konto unter Urlaubsanspruch konfigurierbar. Bisher war
+das Verfallsdatum des Resturlaubes fest auf den 1. April des Folgejahres definiert. Dieses Datum entspricht zwar einer breiten
+Masse der Mitarbeitenden, war jedoch sehr starr und hat nicht jeden Anwendungsfall befriedigt. Seit der Version 4.43.0 der
+Urlaubsverwaltung ist es nun möglich das Verfallsdatum im Konto jedes einzelnen Mitarbeitenden unter Urlaubsanspruch individuell zu konfigurieren.&lt;/p&gt;
+&lt;div class=&quot;flex my-8&quot;&gt;
+    &lt;figure&gt;
+        &lt;picture&gt;
+            &lt;source srcset=&quot;https://urlaubsverwaltung.cloud/neuigkeiten/2022-07-22-release-4.43.0/residual-leave-configuration.avif&quot; type=&quot;image/avif&quot; /&gt;
+            &lt;img src=&quot;https://urlaubsverwaltung.cloud/neuigkeiten/2022-07-22-release-4.43.0/residual-leave-configuration.png&quot; alt=&quot;Konfiguration des Urlaubsanspruchs einer Person mit anpassbarem Datum zum Verfall des Resturlaubes&quot; decoding=&quot;async&quot; loading=&quot;lazy&quot; class=&quot;rounded-lg&quot; /&gt;
+        &lt;/picture&gt;
+        &lt;figcaption class=&quot;text-sm text-center&quot;&gt;Konfiguration des Urlaubsanspruchs einer Person mit anpassbarem Datum zum Verfall des Resturlaubes&lt;/figcaption&gt;
+    &lt;/figure&gt;
+&lt;/div&gt;
+&lt;br /&gt;
+Wir freuen uns über dein Feedback an &lt;a href=&quot;mailto:info@urlaubsverwaltung.cloud?subject=Feedback&quot;&gt;info@urlaubsverwaltung.cloud&lt;/a&gt;.
+</content>
+  </entry>
+  
+  
+  
+  
+  
+  <entry>
+    <title>🌈 Jetzt wirds bunt! Neue Farben und Sichtbarkeiten der Abwesenheitsarten</title>
+    <link href="https://urlaubsverwaltung.cloud/neuigkeiten/2022-06-01-release-4.39.0/" />
+    <updated>2022-06-01T00:00:00Z</updated>
+    <id>https://urlaubsverwaltung.cloud/neuigkeiten/2022-06-01-release-4.39.0/</id>
+    <author>
+      <name>Andreas Weigel</name>
+    </author>
+    <content type="html">&lt;p&gt;Die Farbe und Sichtbarkeit einer Abwesenheitsart können ab sofort individuell konfiguriert werden.&lt;/p&gt;
+&lt;p&gt;Mit der Einführung weiterer Abwesenheitsarten wie &lt;em&gt;Home-Office&lt;/em&gt;, &lt;em&gt;Außer Haus&lt;/em&gt; oder &lt;em&gt;Ausbildung&lt;/em&gt; können auch Abwesenheiten erfasst werden, bei denen
+Mitarbeitende zwar nicht vor Ort, aber dennoch beschäftigt und erreichbar sind. Um einen umfassenden Überblick der Abwesenheiten zu erhalten kannst du, seit der neuen Version der Urlaubsverwaltung, die Abwesenheitsarten in den vorhandenen Übersichten und Kalendern farblich anpassen und gruppieren! 🎉&lt;/p&gt;
+&lt;h2 id=&quot;abwesenheitsuebersicht&quot;&gt;Abwesenheitsübersicht&lt;/h2&gt;
+&lt;div class=&quot;flex my-8&quot;&gt;
+    &lt;figure&gt;
+        &lt;picture&gt;
+            &lt;source srcset=&quot;https://urlaubsverwaltung.cloud/neuigkeiten/2022-06-01-release-4.39.0/allAbsencesVisibleForOffice.avif&quot; type=&quot;image/avif&quot; /&gt;
+            &lt;img src=&quot;https://urlaubsverwaltung.cloud/neuigkeiten/2022-06-01-release-4.39.0/allAbsencesVisibleForOffice.png&quot; alt=&quot;Farbliche Darstellung der Abwesenheitsarten mit entsprechender Legende in der Abwesenheitsübersicht&quot; decoding=&quot;async&quot; loading=&quot;lazy&quot; class=&quot;rounded-lg&quot; /&gt;
+        &lt;/picture&gt;
+        &lt;figcaption class=&quot;text-sm text-center&quot;&gt;Farbliche Darstellung der Abwesenheitsarten mit entsprechender Legende in der Abwesenheitsübersicht&lt;/figcaption&gt;
+    &lt;/figure&gt;
+&lt;/div&gt;
+&lt;p&gt;Zusätzlich wurde im Rahmen der Änderung eine eindeutigere Unterscheidbarkeit zwischen genehmigten und noch offenen Anträgen geschaffen.
+Noch nicht genehmigte Abwesenheiten werden als leerer Rahmen in der betreffenden Farbe angezeigt. Für genehmigte Anträge wird dieser Rahmen ausgefüllt dargestellt.&lt;/p&gt;
+&lt;h2 id=&quot;kalender-auf-der-persoenlichen-startseite&quot;&gt;Kalender auf der persönlichen Startseite&lt;/h2&gt;
+&lt;div class=&quot;flex my-8&quot;&gt;
+    &lt;figure&gt;
+        &lt;picture&gt;
+            &lt;source srcset=&quot;https://urlaubsverwaltung.cloud/neuigkeiten/2022-06-01-release-4.39.0/overviewCalendar.avif&quot; type=&quot;image/avif&quot; /&gt;
+            &lt;img src=&quot;https://urlaubsverwaltung.cloud/neuigkeiten/2022-06-01-release-4.39.0/overviewCalendar.png&quot; alt=&quot;Kalender auf der persönlichen Startseite mit farblicher Unterscheidung der Abwesenheitsarten&quot; decoding=&quot;async&quot; loading=&quot;lazy&quot; class=&quot;rounded-lg&quot; /&gt;
+        &lt;/picture&gt;
+        &lt;figcaption class=&quot;text-sm text-center&quot;&gt;Kalender auf der persönlichen Startseite mit farblicher Unterscheidung der Abwesenheitsarten&lt;/figcaption&gt;
+    &lt;/figure&gt;
+&lt;/div&gt;
+&lt;h2 id=&quot;datumsauswahl&quot;&gt;Datumsauswahl&lt;/h2&gt;
+&lt;div class=&quot;flex my-8&quot;&gt;
+    &lt;figure&gt;
+        &lt;picture&gt;
+            &lt;source srcset=&quot;https://urlaubsverwaltung.cloud/neuigkeiten/2022-06-01-release-4.39.0/calendarPicker.avif&quot; type=&quot;image/avif&quot; /&gt;
+            &lt;img src=&quot;https://urlaubsverwaltung.cloud/neuigkeiten/2022-06-01-release-4.39.0/calendarPicker.png&quot; alt=&quot;Datumsauswahl mit farblicher Unterscheidung der Abwesenheitsarten&quot; decoding=&quot;async&quot; loading=&quot;lazy&quot; class=&quot;rounded-lg&quot; /&gt;
+        &lt;/picture&gt;
+        &lt;figcaption class=&quot;text-sm text-center&quot;&gt;Datumsauswahl mit farblicher Unterscheidung der Abwesenheitsarten&lt;/figcaption&gt;
+    &lt;/figure&gt;
+&lt;/div&gt;
+&lt;h2 id=&quot;einstellung-der-farbe-der-abwesenheitsarten&quot;&gt;Einstellung der Farbe der Abwesenheitsarten&lt;/h2&gt;
+&lt;p&gt;Die Farben der Abwesenheitsarten können durch Benutzende mit der Berechtigung Office unter &lt;em&gt;Einstellungen&lt;/em&gt; » &lt;em&gt;Abwesenheitsarten&lt;/em&gt; konfiguriert werden:&lt;/p&gt;
+&lt;div class=&quot;flex my-8&quot;&gt;
+    &lt;figure&gt;
+        &lt;picture&gt;
+            &lt;source srcset=&quot;https://urlaubsverwaltung.cloud/neuigkeiten/2022-06-01-release-4.39.0/colorConfiguration.avif&quot; type=&quot;image/avif&quot; /&gt;
+            &lt;img src=&quot;https://urlaubsverwaltung.cloud/neuigkeiten/2022-06-01-release-4.39.0/colorConfiguration.png&quot; alt=&quot;Neue Farbkonfiguration für Abwesenheitsarten&quot; decoding=&quot;async&quot; loading=&quot;lazy&quot; class=&quot;rounded-lg&quot; /&gt;
+        &lt;/picture&gt;
+        &lt;figcaption class=&quot;text-sm text-center&quot;&gt;Neue Farbkonfiguration für Abwesenheitsarten&lt;/figcaption&gt;
+    &lt;/figure&gt;
+&lt;/div&gt;
+&lt;p&gt;Die Farben der Abwesenheitsarten werden in allen oben genannten Übersichten entsprechend verwendet.&lt;/p&gt;
+&lt;h2 id=&quot;einstellung-der-sichtbarkeit&quot;&gt;Einstellung der Sichtbarkeit&lt;/h2&gt;
+&lt;p&gt;Neben der neuen Farbkonfiguration ist es nun auch möglich die Sichtbarkeit der Abwesenheitsarten in der Abwesenheitsübersicht einzustellen.&lt;/p&gt;
+&lt;div class=&quot;flex my-8&quot;&gt;
+    &lt;figure&gt;
+        &lt;picture&gt;
+            &lt;source srcset=&quot;https://urlaubsverwaltung.cloud/neuigkeiten/2022-06-01-release-4.39.0/visibilityConfiguration.avif&quot; type=&quot;image/avif&quot; /&gt;
+            &lt;img src=&quot;https://urlaubsverwaltung.cloud/neuigkeiten/2022-06-01-release-4.39.0/visibilityConfiguration.png&quot; alt=&quot;Einstellung der Sichtbarkeit von Abwesenheitsarten&quot; decoding=&quot;async&quot; loading=&quot;lazy&quot; class=&quot;rounded-lg&quot; /&gt;
+        &lt;/picture&gt;
+        &lt;figcaption class=&quot;text-sm text-center&quot;&gt;Einstellung der Sichtbarkeit von Abwesenheitsarten&lt;/figcaption&gt;
+    &lt;/figure&gt;
+&lt;/div&gt;
+&lt;p&gt;Bisher war die Sichtbarkeit anhand der Berechtigungen eingeschränkt. Normale Benutzende konnten bisher nur die generische Information &lt;em&gt;Abwesend&lt;/em&gt; für die Kolleg:innen der Abteilung einsehen. Dies macht vor allem im Hinblick auf Datenschutz-Aspekte Sinn, da den Kolleg:innen aus der Abteilung z.B. nicht mitgeteilt werden muss, warum eine Person nicht anwesend ist. Im nachfolgenden Beispiel sind für den normalen Benutzer Klaus Müller nur eigenen Abwesenheiten mit Abwesenheitsart sichtbar. Die Abwesenheiten der Kolleg:innen sind mit der generischen Information &lt;em&gt;Abwesen&lt;/em&gt; dargestellt.&lt;/p&gt;
+&lt;div class=&quot;flex my-8&quot;&gt;
+    &lt;figure&gt;
+        &lt;picture&gt;
+            &lt;source srcset=&quot;https://urlaubsverwaltung.cloud/neuigkeiten/2022-06-01-release-4.39.0/onlyOwnVisible.avif&quot; type=&quot;image/avif&quot; /&gt;
+            &lt;img src=&quot;https://urlaubsverwaltung.cloud/neuigkeiten/2022-06-01-release-4.39.0/colorConfiguration.png&quot; alt=&quot;Unterscheidung nur der eigenen Abwesenheitsarten&quot; decoding=&quot;async&quot; loading=&quot;lazy&quot; class=&quot;rounded-lg&quot; /&gt;
+        &lt;/picture&gt;
+        &lt;figcaption class=&quot;text-sm text-center&quot;&gt;Unterscheidung nur der eigenen Abwesenheitsarten, Abwesenheiten von Kolleg:innen werden als &lt;i&gt;Abwesend&lt;/i&gt; dargestellt.&lt;/figcaption&gt;
+    &lt;/figure&gt;
+&lt;/div&gt;
+&lt;p&gt;Dagegen ist z.B. die Abwesenheitsart &lt;em&gt;Home-Office&lt;/em&gt; oder &lt;em&gt;Außer Haus&lt;/em&gt; ein Fall bei dem es sinnvoll sein kann die Information in der Abteilung zu teilen, da die Person in Arbeitsabläufe eingebunden sein kann oder zumindest telefonisch erreichbar ist. Für diesen Fall ist es nun möglich, dass die Abwesenheitsart für alle sichtbar gemacht wird. Die Einstellung hat zur Folge, dass die Abwesenheitsart nicht mehr durch die generische Information &amp;quot;Abwesend&amp;quot; für normale Benutzende dargestellt wird, sondern die konkrete Abwesenheitsart sichtbar ist. Als Beispiel ist im folgenden Bild ist die &lt;i&gt;Home-Office&lt;/i&gt;-Abwesenheit von Niko Schmitt am 27.-30.06 für Klaus Müller als normaler Benutzer sichtbar. Abwesenheitsarten für die, die Sichtbarkeit nicht freigegeben wurde, werden weiterhin als &lt;em&gt;Abwesend&lt;/em&gt; angezeigt.&lt;/p&gt;
+&lt;div class=&quot;flex my-8&quot;&gt;
+    &lt;figure&gt;
+        &lt;picture&gt;
+            &lt;source srcset=&quot;https://urlaubsverwaltung.cloud/neuigkeiten/2022-06-01-release-4.39.0/differentVisibilities.avif&quot; type=&quot;image/avif&quot; /&gt;
+            &lt;img src=&quot;https://urlaubsverwaltung.cloud/neuigkeiten/2022-06-01-release-4.39.0/visibilityConfiguration.png&quot; alt=&quot;Differenzierung von Abwesenheitsarten der Mitarbeitenden&quot; decoding=&quot;async&quot; loading=&quot;lazy&quot; class=&quot;rounded-lg&quot; /&gt;
+        &lt;/picture&gt;
+        &lt;figcaption class=&quot;text-sm text-center&quot;&gt;Differenzierung von Abwesenheitsarten der Mitarbeitenden, im Beispiel wird &lt;i&gt;Home-Office&lt;/i&gt; für alle Mitarbeitenden der Abteilung sichtbar&lt;/figcaption&gt;
+    &lt;/figure&gt;
+&lt;/div&gt;
+&lt;br /&gt;
+Wir freuen uns über dein Feedback an &lt;a href=&quot;mailto:info@urlaubsverwaltung.cloud?subject=Feedback&quot;&gt;info@urlaubsverwaltung.cloud&lt;/a&gt;.
+</content>
+  </entry>
+  
+  
+  
+  
+  
+  <entry>
+    <title>Personalstammdaten immer im Blick</title>
+    <link href="https://urlaubsverwaltung.cloud/neuigkeiten/2022-04-27-release-4.35.0/" />
+    <updated>2022-04-27T00:00:00Z</updated>
+    <id>https://urlaubsverwaltung.cloud/neuigkeiten/2022-04-27-release-4.35.0/</id>
+    <author>
+      <name>Daniel Fuchs</name>
+    </author>
+    <content type="html">&lt;p&gt;Erweiterung der Personalstammdaten um Personalnummer und Zusatzinformationen. Außerdem: Kalendereinladung für &lt;em&gt;Office&lt;/em&gt;-Benutzende bei genehmigten Anträgen.&lt;/p&gt;
+&lt;h2 id=&quot;pflege-von-personalstammdaten&quot;&gt;Pflege von Personalstammdaten&lt;/h2&gt;
+&lt;p&gt;Mit der Version 4.35.0 der Urlaubsverwaltung ist es nun möglich Stammdaten einer Person zu pflegen.
+Benutzende mit der Berechtigung &lt;em&gt;Office&lt;/em&gt; können nun ganz bequem für Mitarbeitende die Personalnummer sowie weitere Zusatzinformation in der Urlaubsverwaltung speichern. Die Personalstammdaten können im Konto der betreffenden Person gepflegt werden.
+Die Personalnummern und Zusatzinformationen sind in den bereits vorhandenen CSV-Exporten für Abwesenheiten und Krankmeldungen enthalten und können somit zur weiteren Verarbeitung in nachgelagerten Prozessen berücksichtigt werden.&lt;/p&gt;
+&lt;div class=&quot;flex my-8 gap-4 flex-col md:flex-row&quot;&gt;
+    &lt;figure&gt;
+        &lt;picture&gt;
+            &lt;source srcset=&quot;https://urlaubsverwaltung.cloud/neuigkeiten/2022-04-27-release-4.35.0/basedata-view.avif&quot; type=&quot;image/avif&quot; /&gt;
+            &lt;img src=&quot;https://urlaubsverwaltung.cloud/neuigkeiten/2022-04-27-release-4.35.0/basedata-view.png&quot; alt=&quot;Hinzufügen von Personalstammdaten&quot; decoding=&quot;async&quot; loading=&quot;lazy&quot; class=&quot;rounded-lg&quot; /&gt;
+        &lt;/picture&gt;
+        &lt;figcaption class=&quot;text-sm text-center&quot;&gt;Hinzufügen von Personalstammdaten&lt;/figcaption&gt;
+    &lt;/figure&gt;
+    &lt;figure&gt;
+        &lt;picture&gt;
+            &lt;source srcset=&quot;https://urlaubsverwaltung.cloud/neuigkeiten/2022-04-27-release-4.35.0/basedata-edit.avif&quot; type=&quot;image/avif&quot; /&gt;
+            &lt;img src=&quot;https://urlaubsverwaltung.cloud/neuigkeiten/2022-04-27-release-4.35.0/basedata-edit.png&quot; alt=&quot;Editieren von Personalstammdaten&quot; decoding=&quot;async&quot; loading=&quot;lazy&quot; class=&quot;rounded-lg&quot; /&gt;
+        &lt;/picture&gt;
+        &lt;figcaption class=&quot;text-sm text-center&quot;&gt;Editieren von Personalstammdaten&lt;/figcaption&gt;
+    &lt;/figure&gt;
+&lt;/div&gt;
+&lt;p&gt;Sofern mindestens eine Personalnummer gepflegt ist, werden diese in allen Übersichten von Mitarbeitenden angezeigt und kann zur Sortierung sowie auch zur Suche verwendet werden. Folgende Ansichten sind um die Personalnummer erweitert:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Übersicht der Benutzenden&lt;/li&gt;
+&lt;li&gt;Abwesenheitsstatistik&lt;/li&gt;
+&lt;li&gt;Übersicht der Krankmeldungen&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&quot;flex my-8&quot;&gt;
+    &lt;figure&gt;
+        &lt;picture&gt;
+            &lt;source srcset=&quot;https://urlaubsverwaltung.cloud/neuigkeiten/2022-04-27-release-4.35.0/user-overview-with-personnel-number.avif&quot; type=&quot;image/avif&quot; /&gt;
+            &lt;img src=&quot;https://urlaubsverwaltung.cloud/neuigkeiten/2022-04-27-release-4.35.0/user-overview-with-personnel-number.png&quot; alt=&quot;Personalnummer in der Übersicht von Benutzenden&quot; decoding=&quot;async&quot; loading=&quot;lazy&quot; class=&quot;rounded-lg&quot; /&gt;
+        &lt;/picture&gt;
+        &lt;figcaption class=&quot;text-sm text-center&quot;&gt;Personalnummer in der Übersicht von Benutzenden&lt;/figcaption&gt;
+    &lt;/figure&gt;
+&lt;/div&gt;
+&lt;h2 id=&quot;kalendereinladung-fuer-office-benutzende&quot;&gt;Kalendereinladung für Office-Benutzende&lt;/h2&gt;
+&lt;p&gt;Die E-Mail-Benachrichtigung einer genehmigten Abwesenheit wurde für die Benutzenden mit der Berechtigung &lt;em&gt;Office&lt;/em&gt; um die Kalendereinladung der Abwesenheit erweitert. Diese kann z.B. für einen externen Kalender zur einfacheren Koordination verwendet werden.&lt;/p&gt;
+&lt;br /&gt;
+Wir freuen uns über dein Feedback an &lt;a href=&quot;mailto:info@urlaubsverwaltung.cloud?subject=Feedback&quot;&gt;info@urlaubsverwaltung.cloud&lt;/a&gt;.
+</content>
+  </entry>
+  
+  
+  
+  
+  
+  <entry>
+    <title>Konfiguration von Sonderurlaubstagen und Bildungsurlaub</title>
+    <link href="https://urlaubsverwaltung.cloud/neuigkeiten/2022-04-06-release/" />
+    <updated>2022-04-06T00:00:00Z</updated>
+    <id>https://urlaubsverwaltung.cloud/neuigkeiten/2022-04-06-release/</id>
+    <author>
+      <name>Tobias Schneider</name>
+    </author>
+    <content type="html">&lt;p&gt;Sonderurlaube können individualisiert werden und Bildungsurlaub steht als neue Abwesenheitsart zur Verfügung&lt;/p&gt;
+&lt;h2 id=&quot;konfiguration-der-sonderurlaubstage&quot;&gt;Konfiguration der Sonderurlaubstage&lt;/h2&gt;
+&lt;p&gt;Mit der Version 4.34.0 zieht die neue Konfiguration &lt;strong&gt;Einstellungen zu Sonderurlaub&lt;/strong&gt; in die Urlaubsverwaltung ein.
+Ihr findet diese als Person mit der Berechtigung &lt;em&gt;Office&lt;/em&gt; unter &lt;em&gt;Einstellungen &amp;gt; Abwesenheitsarten&lt;/em&gt;. An dieser Stelle
+könnt ihr nun die Anzeige der bei euch in der Organisation möglichen Sonderurlaube sowie die Anzahl der Tage konfigurieren.&lt;/p&gt;
+&lt;p&gt;Diese Einstellung wird beim Beantragen eines Sonderurlaubes direkt angezeigt und unterstützt den Antragstellenden.&lt;/p&gt;
+&lt;div class=&quot;flex my-8 gap-4 flex-col md:flex-row&quot;&gt;
+    &lt;figure&gt;
+        &lt;picture&gt;
+            &lt;source srcset=&quot;https://urlaubsverwaltung.cloud/neuigkeiten/2022-04-06-release/configuration-special-holiday.avif&quot; type=&quot;image/avif&quot; /&gt;
+            &lt;img src=&quot;https://urlaubsverwaltung.cloud/neuigkeiten/2022-04-06-release/configuration-special-holiday.png&quot; alt=&quot;Einstellungen zu Sonderurlaub&quot; decoding=&quot;async&quot; loading=&quot;lazy&quot; class=&quot;rounded-lg&quot; /&gt;
+        &lt;/picture&gt;
+        &lt;figcaption class=&quot;text-sm text-center&quot;&gt;Einstellungen zu Sonderurlaub&lt;/figcaption&gt;
+    &lt;/figure&gt;
+    &lt;figure&gt;
+        &lt;picture&gt;
+            &lt;source srcset=&quot;https://urlaubsverwaltung.cloud/neuigkeiten/2022-04-06-release/absence-request.png&quot; type=&quot;image/avif&quot; /&gt;
+            &lt;img src=&quot;https://urlaubsverwaltung.cloud/neuigkeiten/2022-04-06-release/absence-request.png&quot; alt=&quot;Antrag eines Sonderurlaubes&quot; decoding=&quot;async&quot; loading=&quot;lazy&quot; class=&quot;rounded-lg&quot; /&gt;
+        &lt;/picture&gt;
+        &lt;figcaption class=&quot;text-sm text-center&quot;&gt;Antrag eines Sonderurlaubes&lt;/figcaption&gt;
+    &lt;/figure&gt;
+&lt;/div&gt;
+&lt;h2 id=&quot;bildungsurlaub&quot;&gt;Bildungsurlaub&lt;/h2&gt;
+&lt;p&gt;Eine neue Abwesenheitsart hat es in die Urlaubsverwaltung geschafft. Der &lt;strong&gt;Bildungsurlaub&lt;/strong&gt;. Ihr könnt ihn, wie gewohnt,
+in den Einstellungen unter Abwesenheitsarten aktivieren.&lt;/p&gt;
+&lt;br /&gt;
+Wir freuen uns über dein Feedback an &lt;a href=&quot;mailto:info@urlaubsverwaltung.cloud?subject=Feedback&quot;&gt;info@urlaubsverwaltung.cloud&lt;/a&gt;.
+</content>
+  </entry>
+  
+  
+  
+  
+  
+  <entry>
+    <title>Benutzerspezifische Stammdaten</title>
+    <link href="https://urlaubsverwaltung.cloud/neuigkeiten/2022-03-31-release/" />
+    <updated>2022-03-31T00:00:00Z</updated>
+    <id>https://urlaubsverwaltung.cloud/neuigkeiten/2022-03-31-release/</id>
+    <author>
+      <name>Tobias Schneider</name>
+    </author>
+    <content type="html">&lt;p&gt;Hinterlege eine Personalnummer und weitere Informationen für deine Mitarbeitende.&lt;/p&gt;
+&lt;p&gt;Die Urlaubsverwaltung kann nun Stammdaten! Was bedeutet das genau? Es ist im Konto einer Person möglich zusätzliche Informationen
+wie die &lt;strong&gt;Personalnummer&lt;/strong&gt; und &lt;strong&gt;Zusatzinformation&lt;/strong&gt; zu hinterlegen. Zum Hinzufügen oder Bearbeiten einer dieser Informationen,
+könnt ihr über das Konto einer Person bei den &lt;strong&gt;Stammdaten&lt;/strong&gt; auf den Stift klicken und schon kann es losgehen.&lt;/p&gt;
+&lt;video controls=&quot;&quot; width=&quot;720&quot; height=&quot;515&quot; class=&quot;my-8 border-2 rounded-lg&quot; poster=&quot;https://urlaubsverwaltung.cloud/neuigkeiten/2022-03-31-release/stammdaten-bearbeiten-poster.png&quot;&gt;
+  &lt;source src=&quot;https://urlaubsverwaltung.cloud/neuigkeiten/2022-03-31-release/stammdaten-bearbeiten.mp4&quot; type=&quot;video/mp4&quot; /&gt;
+&lt;/video&gt;
+&lt;p&gt;Nachdem ihr die Informationen gespeichert habt, werden diese angezeigt&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;im Konto,&lt;/li&gt;
+&lt;li&gt;in der Benutzerübersicht,&lt;/li&gt;
+&lt;li&gt;bei den Krankmeldungen,&lt;/li&gt;
+&lt;li&gt;in der Abwesenheitsstatistik und dessen CSV-Export&lt;/li&gt;
+&lt;li&gt;sowie in anderen Übersichten.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&quot;flex my-8 gap-4 flex-col md:flex-row&quot;&gt;
+    &lt;figure&gt;
+        &lt;picture&gt;
+            &lt;source srcset=&quot;https://urlaubsverwaltung.cloud/neuigkeiten/2022-03-31-release/benutzeruebersicht.avif&quot; type=&quot;image/avif&quot; /&gt;
+            &lt;img src=&quot;https://urlaubsverwaltung.cloud/neuigkeiten/2022-03-31-release/benutzeruebersicht.png&quot; alt=&quot;Benutzeruebersicht mit Personalnummer&quot; decoding=&quot;async&quot; loading=&quot;lazy&quot; class=&quot;rounded-lg&quot; /&gt;
+        &lt;/picture&gt;
+        &lt;figcaption class=&quot;text-sm text-center&quot;&gt;Benutzerübersicht mit Personalnummer.&lt;/figcaption&gt;
+    &lt;/figure&gt;
+    &lt;figure&gt;
+        &lt;picture&gt;
+            &lt;source srcset=&quot;https://urlaubsverwaltung.cloud/neuigkeiten/2022-03-31-release/krankmeldungen.avif&quot; type=&quot;image/avif&quot; /&gt;
+            &lt;img src=&quot;https://urlaubsverwaltung.cloud/neuigkeiten/2022-03-31-release/krankmeldungen.png&quot; alt=&quot;Krankmeldungen mit Personalnummer&quot; decoding=&quot;async&quot; loading=&quot;lazy&quot; class=&quot;rounded-lg&quot; /&gt;
+        &lt;/picture&gt;
+      &lt;figcaption class=&quot;text-sm text-center&quot;&gt;Krankmeldungen mit Personalnummer.&lt;/figcaption&gt;
+    &lt;/figure&gt;
+    &lt;figure&gt;
+        &lt;picture&gt;
+            &lt;source srcset=&quot;https://urlaubsverwaltung.cloud/neuigkeiten/2022-03-31-release/abwesenheitsstatistik.avif&quot; type=&quot;image/avif&quot; /&gt;
+            &lt;img src=&quot;https://urlaubsverwaltung.cloud/neuigkeiten/2022-03-31-release/abwesenheitsstatistik.png&quot; alt=&quot;Abwesenheitsstatistik mit Personalnummer&quot; decoding=&quot;async&quot; loading=&quot;lazy&quot; class=&quot;rounded-lg&quot; /&gt;
+        &lt;/picture&gt;
+        &lt;figcaption class=&quot;text-sm text-center&quot;&gt;Abwesenheitsstatistik mit Personalnummer.&lt;/figcaption&gt;
+    &lt;/figure&gt;
+&lt;/div&gt;
+&lt;p&gt;Wir freuen uns über dein Feedback an &lt;a href=&quot;mailto:info@urlaubsverwaltung.cloud?subject=Feedback&quot;&gt;info@urlaubsverwaltung.cloud&lt;/a&gt;.&lt;/p&gt;
+</content>
+  </entry>
+  
+  
+  
+  
+  
+  <entry>
+    <title>Überarbeitung der Überstundenübersicht</title>
+    <link href="https://urlaubsverwaltung.cloud/neuigkeiten/2022-03-24-release/" />
+    <updated>2022-03-24T00:00:00Z</updated>
+    <id>https://urlaubsverwaltung.cloud/neuigkeiten/2022-03-24-release/</id>
+    <author>
+      <name>Tobias Schneider</name>
+    </author>
+    <content type="html">&lt;p&gt;Bessere Nachvollziehbarkeit und Übersicht deiner Überstunden&lt;/p&gt;
+&lt;h2 id=&quot;ueberstundenuebersicht-mit-flair&quot;&gt;Überstundenübersicht mit flair&lt;/h2&gt;
+&lt;p&gt;Wir haben für euch die Überstundenübersicht erweitert, sodass ihr nicht nur die eingetragenen Überstunden, sondern auch
+die &lt;strong&gt;beantragten und genehmigten Abwesenheiten&lt;/strong&gt; mit der Art &#39;Überstundenabbau&#39; angezeigt bekommt. Mit dieser zusätzlichen
+Information erhaltet ihr ein &lt;strong&gt;komplettes Bild eurer Überstunden&lt;/strong&gt; und wie diese aufgebaut bzw. abgebaut wurden.
+Zudem wird euch auf der untersten Zeile der &lt;strong&gt;Übertrag&lt;/strong&gt; eurer Überstunden aus dem vorherigen Jahr angezeigt,
+ein &lt;strong&gt;Schnelleinstieg zum Bearbeiten&lt;/strong&gt; bereitgestellt sowie die &lt;strong&gt;Summe&lt;/strong&gt; der Überstunden pro Eintrag angezeigt.&lt;/p&gt;
+&lt;picture&gt;
+    &lt;source srcset=&quot;https://urlaubsverwaltung.cloud/neuigkeiten/2022-03-24-release/overtime-overview.avif&quot; type=&quot;image/avif&quot; /&gt;
+    &lt;img src=&quot;https://urlaubsverwaltung.cloud/neuigkeiten/2022-03-24-release/overtime-overview.png&quot; alt=&quot;Urlaubsverwaltung neue Überstundenübersicht&quot; decoding=&quot;async&quot; loading=&quot;lazy&quot; class=&quot;rounded-lg&quot; /&gt;
+&lt;/picture&gt;
+&lt;p&gt;Wir freuen uns über dein Feedback an &lt;a href=&quot;mailto:info@urlaubsverwaltung.cloud?subject=Feedback&quot;&gt;info@urlaubsverwaltung.cloud&lt;/a&gt;.&lt;/p&gt;
+</content>
+  </entry>
+  
+  
+  
+  
+  
+  <entry>
+    <title>Freie Tage in der Abwesenheitsübersicht und den Kalendern</title>
+    <link href="https://urlaubsverwaltung.cloud/neuigkeiten/2022-03-23-release/" />
+    <updated>2022-03-23T00:00:00Z</updated>
+    <id>https://urlaubsverwaltung.cloud/neuigkeiten/2022-03-23-release/</id>
+    <author>
+      <name>Tobias Schneider</name>
+    </author>
+    <content type="html">&lt;p&gt;Bessere Übersicht deiner freien Tage in der Abwesenheitsübersicht und in den Kalendern&lt;/p&gt;
+&lt;h2 id=&quot;freie-tage&quot;&gt;Freie Tage&lt;/h2&gt;
+&lt;p&gt;Bestimmt ist es jedem von euch schonmal so ergangen. Man möchte einen Urlaubsantrag genehmigen und schaut davor noch kurz in die
+Abwesenheitsübersicht und wundert sich, warum der Kollege nur am Montag und Dienstag und dann wieder am Donnerstag und Freitag eine Abwesenheit eingetragen hat,
+obwohl der Abwesenheitsantrag über die ganze Woche gestellt wurde.&lt;/p&gt;
+&lt;p&gt;Genau so erging es uns immer mal wieder. Zunächst wunderte man sich, dann schaute man in das Konto der Person und merkte,
+das diese eine vier Tage Woche hat und das der freie Tag am Mittwoch ist. Ok. Verstanden. Man konnte den Antrag genehmigen.
+Drei Monate später wunderte man sich wieder und das Spiel ging von vorne los.&lt;/p&gt;
+&lt;p&gt;Um dieser Herausforderung zu begegnen, zeigen die Abwesenheitsübersicht und die Kalender ab sofort die freien Tage einer Person an.&lt;/p&gt;
+&lt;picture&gt;
+  &lt;source srcset=&quot;https://urlaubsverwaltung.cloud/neuigkeiten/2022-03-23-release/vier-tage-woche.avif&quot; type=&quot;image/avif&quot; /&gt;
+  &lt;source srcset=&quot;https://urlaubsverwaltung.cloud/neuigkeiten/2022-03-23-release/vier-tage-woche.webp&quot; type=&quot;image/webp&quot; /&gt;
+  &lt;img src=&quot;https://urlaubsverwaltung.cloud/neuigkeiten/2022-03-23-release/vier-tage-woche.png&quot; alt=&quot;Urlaubsverwaltung Abwesenheitsübersicht mit einer 4-Tage-Woche&quot; decoding=&quot;async&quot; loading=&quot;lazy&quot; class=&quot;rounded-lg&quot; /&gt;
+&lt;/picture&gt;
+&lt;p&gt;Die Abwesenheitsübersicht zeigt jetzt auf den ersten Blick, dass Brigitte Händel an jedem Mittwoch und den Wochenenden freie Tage hat und an den restlichen anwesend ist. Mit dieser Information ist direkt erkenntlich, weshalb im Antrag von Brigitte Händel am 9. März keine Abwesenheit eingetragen ist.&lt;/p&gt;
+&lt;picture&gt;
+  &lt;source srcset=&quot;https://urlaubsverwaltung.cloud/neuigkeiten/2022-03-23-release/vier-tage-woche-kalender.avif&quot; type=&quot;image/avif&quot; /&gt;
+  &lt;source srcset=&quot;https://urlaubsverwaltung.cloud/neuigkeiten/2022-03-23-release/vier-tage-woche-kalender.webp&quot; type=&quot;image/webp&quot; /&gt;
+  &lt;img src=&quot;https://urlaubsverwaltung.cloud/neuigkeiten/2022-03-23-release/vier-tage-woche-kalender.png&quot; alt=&quot;Urlaubsverwaltung Kalender mit einer 4-Tage-Woche&quot; decoding=&quot;async&quot; loading=&quot;lazy&quot; class=&quot;rounded-lg&quot; /&gt;
+&lt;/picture&gt;
+&lt;p&gt;Diese Informationen sind auch im persönlichen Kalender sowie in der Datumsauswahl verfügbar.&lt;/p&gt;
+&lt;p&gt;Wir freuen uns über dein Feedback an &lt;a href=&quot;mailto:info@urlaubsverwaltung.cloud?subject=Feedback&quot;&gt;info@urlaubsverwaltung.cloud&lt;/a&gt;.&lt;/p&gt;
+</content>
+  </entry>
+  
+  
+  
+  
+  
+  <entry>
+    <title>Kalimera Griechenland - Griechische Feiertage und Übersetzung</title>
+    <link href="https://urlaubsverwaltung.cloud/neuigkeiten/2022-03-11-release/" />
+    <updated>2022-03-11T00:00:00Z</updated>
+    <id>https://urlaubsverwaltung.cloud/neuigkeiten/2022-03-11-release/</id>
+    <author>
+      <name>Tobias Schneider</name>
+    </author>
+    <content type="html">&lt;p&gt;Die Urlaubsverwaltung nun auch in Griechenland!&lt;/p&gt;
+&lt;h2 id=&quot;griechische-feiertage-&amp;amp;-uebersetzung&quot;&gt;Griechische Feiertage &amp;amp; Übersetzung&lt;/h2&gt;
+&lt;p&gt;Wir freuen uns sehr darüber, dass Nikos Zagkanas auf uns zukam und die Urlaubsverwaltung für Griechenland einsetzbar gemacht hat!&lt;/p&gt;
+&lt;p&gt;Die Urlaubsverwaltung verfügt nun über eine vollständige griechische Übersetzung, welche durch die Browsersprache gesteuert wird. Des Weiteren wurden auch griechische Feiertage integriert.&lt;/p&gt;
+&lt;p&gt;Wir empfanden die Kooperation als sehr angenehm und wir freuen uns darüber, auch in Griechenland einen Mehrwert bei der Abwesenheitsplanung beisteuern zu können.&lt;/p&gt;
+&lt;picture&gt;
+    &lt;source srcset=&quot;https://urlaubsverwaltung.cloud/neuigkeiten/2022-03-11-release/greek.avif&quot; type=&quot;image/avif&quot; /&gt;
+    &lt;source srcset=&quot;https://urlaubsverwaltung.cloud/neuigkeiten/2022-03-11-release/greek.webp&quot; type=&quot;image/webp&quot; /&gt;
+    &lt;img src=&quot;https://urlaubsverwaltung.cloud/neuigkeiten/2022-03-11-release/greek.png&quot; alt=&quot;Urlaubsverwaltung auf griechisch&quot; decoding=&quot;async&quot; loading=&quot;lazy&quot; class=&quot;rounded-lg&quot; /&gt;
+&lt;/picture&gt;
+&lt;br /&gt;
+&lt;p&gt;Wir freuen uns über dein Feedback an &lt;a href=&quot;mailto:info@urlaubsverwaltung.cloud?subject=Feedback&quot;&gt;info@urlaubsverwaltung.cloud&lt;/a&gt;.&lt;/p&gt;
+</content>
+  </entry>
+  
+  
+  
+  
+  
+  <entry>
+    <title>Willkommen auf der dunklen Seite</title>
+    <link href="https://urlaubsverwaltung.cloud/neuigkeiten/2022-02-06-release/" />
+    <updated>2022-02-06T00:00:00Z</updated>
+    <id>https://urlaubsverwaltung.cloud/neuigkeiten/2022-02-06-release/</id>
+    <author>
+      <name>Benjamin Seber</name>
+    </author>
+    <content type="html">&lt;p&gt;Mit Version 4.30.0 macht die Urlaubsverwaltung den Schritt zur dunklen Seite. Machst du ihn mit?&lt;/p&gt;
+&lt;h2 id=&quot;dunkelmodus&quot;&gt;Dunkelmodus&lt;/h2&gt;
+&lt;p&gt;Der Dunkelmodus (Dark Mode oder auch Dark Theme) ist eine Einstellung für das Erscheinungsbild der Benutzeroberfläche auf Smartphones und Desktop Computer bzw. Laptops.
+Im Gegensatz zum Light Mode (Light Theme), der dunklen Text auf hellem Hintergrund darstellt, wird im Dark Mode ein heller Text auf dunklem Hintergrund verwendet.
+Standardmäßig ist bei Windows, Android und MacOS das Light Theme aktiviert. Mittlerweile wird allerdings direkt beim Einrichten
+des Gerätes die Präferenz nachgefragt und eingestellt.&lt;/p&gt;
+&lt;p&gt;Neu in der Urlaubsverwaltung ab Version 4.30.0 ist, dass sie sich an der Systemeinstellung orientiert und
+sich mit hellem oder dunklem Hintergrund präsentiert. Sollte die Urlaubsverwaltung bereits im Einsatz sein,
+wird sie weiterhin im Light Mode dargestellt und muss vom Nutzer selbst auf Dark Mode umgestellt werden.&lt;/p&gt;
+&lt;p&gt;Die Idee hinter dem Dunkelmodus ist, dass er das vom Bildschirm emittierte Licht reduziert und damit die Augen entlasten soll.
+Des Weiteren hat eine Studie herausgefunden, dass heller Text auf dunklem Hintergrund sogar das Entstehen von Kurzsichtigkeit verhindern kann
+(&lt;a href=&quot;https://www.geo.de/wissen/gesundheit/19282-rtkl-kurzsichtigkeit-warum-wir-zukuenftig-mehr-weiss-auf-schwarz-lesen&quot;&gt;https://www.geo.de/wissen/gesundheit/19282-rtkl-kurzsichtigkeit-warum-wir-zukuenftig-mehr-weiss-auf-schwarz-lesen&lt;/a&gt;).&lt;/p&gt;
+&lt;p&gt;Warum wir uns freuen, dir endlich einen Dunkelmodus anzubieten:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Es ist cool und trendy. Mal im Ernst, wer findet die dunkle Seite nicht verlockend? 😎&lt;/li&gt;
+&lt;li&gt;Es verbessert die Accessibility für Personen die sensibel auf helles Licht reagieren&lt;/li&gt;
+&lt;li&gt;Die Akkulaufzeit auf Geräten mit OLED Display wird verbessert&lt;/li&gt;
+&lt;li&gt;Die Urlaubsverwaltung sticht endlich nicht mehr aus dem mittlerweile sehr populär und weit verbreiteten Erscheinungsbild heraus&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&quot;flex my-8 gap-4 flex-col md:flex-row&quot;&gt;
+    &lt;div&gt;
+      &lt;picture&gt;
+          &lt;source srcset=&quot;https://urlaubsverwaltung.cloud/neuigkeiten/2022-02-06-release/uv-theme-light.avif&quot; type=&quot;image/avif&quot; /&gt;
+          &lt;source srcset=&quot;https://urlaubsverwaltung.cloud/neuigkeiten/2022-02-06-release/uv-theme-light.webp&quot; type=&quot;image/webp&quot; /&gt;
+          &lt;img src=&quot;https://urlaubsverwaltung.cloud/neuigkeiten/2022-02-06-release/uv-theme-light.png&quot; alt=&quot;Urlaubsverwaltung Übersichtseite im Light Theme&quot; decoding=&quot;async&quot; loading=&quot;lazy&quot; class=&quot;rounded-lg&quot; /&gt;
+      &lt;/picture&gt;
+      &lt;p class=&quot;text-sm text-center&quot;&gt;Übersichtseite im Light Theme.&lt;/p&gt;
+    &lt;/div&gt;
+    &lt;div&gt;
+      &lt;picture&gt;
+          &lt;source srcset=&quot;https://urlaubsverwaltung.cloud/neuigkeiten/2022-02-06-release/uv-theme-dark.avif&quot; type=&quot;image/avif&quot; /&gt;
+          &lt;source srcset=&quot;https://urlaubsverwaltung.cloud/neuigkeiten/2022-02-06-release/uv-theme-dark.webp&quot; type=&quot;image/webp&quot; /&gt;
+          &lt;img src=&quot;https://urlaubsverwaltung.cloud/neuigkeiten/2022-02-06-release/uv-theme-dark.png&quot; alt=&quot;Urlaubsverwatlung Übersichtseite im Dark Theme&quot; decoding=&quot;async&quot; class=&quot;rounded-lg&quot; /&gt;
+      &lt;/picture&gt;
+      &lt;p class=&quot;text-sm text-center&quot;&gt;Übersichtseite im Dark Theme.&lt;/p&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;h2 id=&quot;dunkelmodus-einstellen&quot;&gt;Dunkelmodus einstellen&lt;/h2&gt;
+&lt;p&gt;Möchtest du in der Urlaubsverwaltung den Schritt auf die dunkle Seite mit gehen, ist das ganz einfach getan.&lt;/p&gt;
+&lt;p&gt;Wähle hierfür deinen Avatar rechts oben aus und wähle &amp;quot;Personalisierung&amp;quot;. Dort kannst du dich zwischen drei Möglichkeiten entscheiden:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;System&lt;/strong&gt;&lt;br /&gt;
+die Urlaubsverwaltung passt sich deinen Systemeinstellungen an (dunkel oder hell)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Hell&lt;/strong&gt;&lt;br /&gt;
+die Urlaubsverwaltung wird immer mit dunklem Text auf hellem Hintergrund dargestellt&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Dunkel&lt;/strong&gt;&lt;br /&gt;
+die Urlaubsverwaltung wird immer mit hellem Txt auf dunklem Hintergrund dargestellt&lt;/li&gt;
+&lt;/ul&gt;
+&lt;video controls=&quot;&quot; width=&quot;720&quot; height=&quot;515&quot; class=&quot;my-8&quot;&gt;
+  &lt;source src=&quot;https://urlaubsverwaltung.cloud/neuigkeiten/2022-02-06-release/uv-theme-configuration.mp4&quot; type=&quot;video/mp4&quot; /&gt;
+&lt;/video&gt;
+&lt;p&gt;Du hast Verbesserungsvorschläge?&lt;br /&gt;
+Wünschst du dir weitere Themes wie z. B. erhöhter Kontrast?&lt;br /&gt;
+Oder dir gefällt das neue Theme einfach nur sehr gut?&lt;/p&gt;
+&lt;p&gt;Wir freuen uns über dein Feedback an &lt;a href=&quot;mailto:info@urlaubsverwaltung.cloud?subject=Feedback&quot;&gt;info@urlaubsverwaltung.cloud&lt;/a&gt;.&lt;/p&gt;
+</content>
+  </entry>
+  
+  
+  
+  
+  
+  <entry>
+    <title>Focus Shift im Interview - wie alles begann</title>
+    <link href="https://urlaubsverwaltung.cloud/neuigkeiten/2022-01-20-interview-startup-stuttgart/" />
+    <updated>2022-01-20T00:00:00Z</updated>
+    <id>https://urlaubsverwaltung.cloud/neuigkeiten/2022-01-20-interview-startup-stuttgart/</id>
+    <author>
+      <name>Andreas Weigel</name>
+    </author>
+    <content type="html">&lt;p&gt;Wer ist das Unternehmen hinter der Urlaubsverwaltung? Spannende Einblicke in die Anfangszeit der Focus Shift Software GmbH&lt;/p&gt;
+&lt;p&gt;Die erste Zeit nach einer Gründung eines Unternehmens ist ziemlich turbulent. Etwas ganz Besonders ist es, wenn andere
+Webseiten über das eigene Unternehmen berichten. Im September wurden wir bei &lt;a href=&quot;https://www.deutsche-startups.de/2021/09/16/5-neue-startups-swa&quot;&gt;deutsche-startups&lt;/a&gt;
+erwähnt. Vielleicht wurde aufgrund dessen Stuttgart Startups auf uns aufmerksam.&lt;/p&gt;
+&lt;h2 id=&quot;interview-mit-stuttgart-startups&quot;&gt;Interview mit Stuttgart Startups&lt;/h2&gt;
+&lt;p&gt;Neben der Vision und dem Geschäftsmodell erfährt man im Interview auch, wie die Reise begann und wo sie hin geht.
+Außerdem gibt es auch ein paar Einblicke in die ersten Fehler und Erfolge.&lt;/p&gt;
+&lt;p&gt;Hier geht es zum &lt;a href=&quot;https://www.stuttgart-startups.de/andreas-weigel-von-focus-shift-software-aus-karlsruhe-im-interview/&quot;&gt;Interview&lt;/a&gt;&lt;/p&gt;
+</content>
+  </entry>
+  
+  
+  
+  
+  
+  <entry>
+    <title>Feiertage für Österreich, Schweiz, UK, und Abwesenheiten an Feiertagen</title>
+    <link href="https://urlaubsverwaltung.cloud/neuigkeiten/2022-01-12-release/" />
+    <updated>2022-01-12T00:00:00Z</updated>
+    <id>https://urlaubsverwaltung.cloud/neuigkeiten/2022-01-12-release/</id>
+    <author>
+      <name>Tobias Schneider</name>
+    </author>
+    <content type="html">&lt;p&gt;&lt;em&gt;Feiertagsregelung für Österreich, die Schweiz und das Vereinigtes Königreich, Abwesenheiten an Feiertagen und ein neues Kalenderdesign&lt;/em&gt;&lt;/p&gt;
+&lt;h2 id=&quot;feiertagsregelungen-fuer-oesterreich-🇦🇹-schweiz-🇨🇭-und-das-vereinigte-koenigreich-🇬🇧&quot;&gt;Feiertagsregelungen für Österreich 🇦🇹, Schweiz 🇨🇭 und das Vereinigte Königreich 🇬🇧&lt;/h2&gt;
+&lt;p&gt;Ab sofort kann die Feiertagsregelung, neben den Bundesländern für Deutschland, auch mit den österreichischen Bundesländern,
+den Schweizer Kantonen sowie mit den Landesteilen des Vereinigtes Königreiches konfiguriert werden. Diese Einstellung ist, wie gewohnt,
+global in den Einstellungen der Urlaubsverwaltung konfigurierbar und steht zusätzlich im Konto einer Person zur Auswahl bereit.
+Der Name der Einstellung hat sich von &#39;Bundesland&#39; zu &#39;Feiertagsregelung&#39; geändert.&lt;/p&gt;
+&lt;div class=&quot;flex gap-4 flex-col md:flex-row&quot;&gt;
+    &lt;picture&gt;
+        &lt;source srcset=&quot;https://urlaubsverwaltung.cloud/neuigkeiten/2022-01-12-release/public_holiday_person.avif&quot; type=&quot;image/avif&quot; /&gt;
+        &lt;source srcset=&quot;https://urlaubsverwaltung.cloud/neuigkeiten/2022-01-12-release/public_holiday_person.webp&quot; type=&quot;image/webp&quot; /&gt;
+        &lt;img src=&quot;https://urlaubsverwaltung.cloud/neuigkeiten/2022-01-12-release/public_holiday_person.png&quot; alt=&quot;Personübersicht mit Feiertagregelungauswahl&quot; decoding=&quot;async&quot; loading=&quot;lazy&quot; /&gt;
+    &lt;/picture&gt;
+    &lt;picture&gt;
+        &lt;source srcset=&quot;https://urlaubsverwaltung.cloud/neuigkeiten/2022-01-12-release/public_holiday_person_change.avif&quot; type=&quot;image/avif&quot; /&gt;
+        &lt;source srcset=&quot;https://urlaubsverwaltung.cloud/neuigkeiten/2022-01-12-release/public_holiday_person_change.webp&quot; type=&quot;image/webp&quot; /&gt;
+        &lt;img src=&quot;https://urlaubsverwaltung.cloud/neuigkeiten/2022-01-12-release/public_holiday_person_change.png&quot; alt=&quot;Feiertagregelungauswahl einer Person&quot; decoding=&quot;async&quot; /&gt;
+    &lt;/picture&gt;
+&lt;/div&gt;
+&lt;h2 id=&quot;abwesenheiten-an-feiertagen&quot;&gt;Abwesenheiten an Feiertagen&lt;/h2&gt;
+&lt;p&gt;Die &lt;a href=&quot;https://urlaubsverwaltung.cloud/neuigkeiten/2022-01-12-release/#feiertagsregelung&quot;&gt;Feiertagsregelung&lt;/a&gt; wurde zudem um den Eintrag &lt;em&gt;Keine Feiertagsregelung&lt;/em&gt; erweitert. Mit dieser Einstellung
+ist es für die gesamte Urlaubsverwaltung sowie für bestimmte Personen möglich die Feiertagsregelung außer Kraft zu setzen und
+Abwesenheiten auch an Feiertagen einzutragen.&lt;/p&gt;
+&lt;picture&gt;
+    &lt;source srcset=&quot;https://urlaubsverwaltung.cloud/neuigkeiten/2022-01-12-release/public_holiday_person_no.avif&quot; type=&quot;image/avif&quot; /&gt;
+    &lt;source srcset=&quot;https://urlaubsverwaltung.cloud/neuigkeiten/2022-01-12-release/public_holiday_person_no.webp&quot; type=&quot;image/webp&quot; /&gt;
+    &lt;img src=&quot;https://urlaubsverwaltung.cloud/neuigkeiten/2022-01-12-release/public_holiday_person_no.png&quot; alt=&quot;Neues Kalenderdesign&quot; decoding=&quot;async&quot; /&gt;
+&lt;/picture&gt;
+&lt;h2 id=&quot;neues-kalenderdesign&quot;&gt;Neues Kalenderdesign&lt;/h2&gt;
+&lt;p&gt;Das Kalenderdesign wurde überarbeitet und bietet nun mehr Platz um zukünftig noch weitere Informationen für einen Tag anzuzeigen.
+Die Urlaubsverwaltung unterliegt einem ständigen Verbesserungsprozess, welcher Wert auf eine intuitive Bedienung legt.
+Mit dem neuen Kalenderdesign stellen wir die Weichen für mehr Flexibilität und einen höheren Informationsgehalt. Wir freuen uns auf dein Feedback!&lt;/p&gt;
+&lt;picture&gt;
+    &lt;source srcset=&quot;https://urlaubsverwaltung.cloud/neuigkeiten/2022-01-12-release/new_calendar_design_overview.avif&quot; type=&quot;image/avif&quot; /&gt;
+    &lt;source srcset=&quot;https://urlaubsverwaltung.cloud/neuigkeiten/2022-01-12-release/new_calendar_design_overview.webp&quot; type=&quot;image/webp&quot; /&gt;
+    &lt;img src=&quot;https://urlaubsverwaltung.cloud/neuigkeiten/2022-01-12-release/new_calendar_design_overview.png&quot; alt=&quot;Neues Kalenderdesign&quot; decoding=&quot;async&quot; /&gt;
+&lt;/picture&gt;
+</content>
+  </entry>
+  
+  
+  
+  
+  
+  <entry>
+    <title>Berechtigungskombinationen, Abwesenheitsübersicht und Logback</title>
+    <link href="https://urlaubsverwaltung.cloud/neuigkeiten/2021-12-15-release/" />
+    <updated>2021-12-15T00:00:00Z</updated>
+    <id>https://urlaubsverwaltung.cloud/neuigkeiten/2021-12-15-release/</id>
+    <author>
+      <name>Tobias Schneider</name>
+    </author>
+    <content type="html">&lt;p&gt;&lt;em&gt;Wir beheben Fehler für euch in den Versionen 4.27.1, 4.27.2 und 4.27.3&lt;/em&gt;&lt;/p&gt;
+&lt;h2 id=&quot;abwesenheitsuebersicht&quot;&gt;Abwesenheitsübersicht&lt;/h2&gt;
+&lt;p&gt;In der Abwesenheitsübersicht hatte sich ein kleiner Fehler eingeschlichen, sodass Feiertage nicht anhand der angezeigten Person,
+sondern anhand der globalen Einstellung unter &#39;Einstellungen zu Feiertagen&#39; angezeigt wurde. Diesen Fehler haben wir für euch
+in der Version 4.27.2 behoben und allen Mandaten zur Verfügung gestellt.&lt;/p&gt;
+&lt;h2 id=&quot;apache-log4j2-&amp;amp;-logback&quot;&gt;Apache Log4j2 &amp;amp; Logback&lt;/h2&gt;
+&lt;p&gt;Nachdem eine kritische Sicherheitslücke in Apache Log4j2 entdeckt wurde, hält diese die IT-Welt auf trapp. Es werden nach und nach alle
+Systeme identifiziert und Log4j2 aktualisiert.&lt;/p&gt;
+&lt;p&gt;Die Urlaubsverwaltung setzt diese Bibliothek &lt;strong&gt;nicht&lt;/strong&gt; ein und war von dieser Lücke zu keinem Zeitpunkt betroffen.&lt;/p&gt;
+&lt;p&gt;Jedoch wurde kurz darauf eine deutlich schwächere Sicherheitslücke in dem Logging Framework &lt;em&gt;Logback&lt;/em&gt; entdeckt,
+welche nur unter ganz bestimmten Voraussetzungen ausgenutzt werden kann. Die Urlaubsverwaltung war auch von dieser
+Lücke nicht betroffen. Trotzdem haben wir, um einfach auf Nummer sicher zu gehen, für euch direkt die Urlaubsverwaltung
+(4.27.3) mit der neusten Logback Version aktualisiert und allen Mandanten zur Verfügung gestellt.&lt;/p&gt;
+&lt;h2 id=&quot;korrektur-der-angezeigten-personen-bei-berechtigungskombinationen&quot;&gt;Korrektur der angezeigten Personen bei Berechtigungskombinationen&lt;/h2&gt;
+&lt;p&gt;Nachdem die Urlaubsverwaltung, seit der Version 4.26.0, die Kombinationen von Berechtigungen &lt;em&gt;Office&lt;/em&gt; bzw. &lt;em&gt;Chef&lt;/em&gt; mit
+&lt;em&gt;Abteilungsleiter&lt;/em&gt; bzw. &lt;em&gt;Freigabe-Verantwortlicher&lt;/em&gt; erlaubt, haben wir die Darstellung der &lt;em&gt;Personenübersicht&lt;/em&gt;
+sowie die &lt;em&gt;Abwesenheitsstatistik&lt;/em&gt; auf die verschiedenen Kombinationsmöglichkeiten angepasst, sodass du immer genau das siehst,
+was du auch sehen darfst.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Wenn du eine der Berechtigung &lt;em&gt;Office&lt;/em&gt; oder &lt;em&gt;Chef&lt;/em&gt; hast, werden dir alle Personen der Urlaubsverwaltung angezeigt.&lt;/li&gt;
+&lt;li&gt;Wenn du lediglich die Berechtigung &lt;em&gt;Abteilungsleiter&lt;/em&gt; bzw. &lt;em&gt;Freigabe-Verantwortlicher&lt;/em&gt; hast, werden dir die Personen der Abteilungen angezeigt, in denen du diese Tätigkeit ausübst.&lt;/li&gt;
+&lt;/ul&gt;
+</content>
+  </entry>
+  
+  
+  
+  
+  
+  <entry>
+    <title>Neue Abwesenheitsarten braucht die Urlaubsverwaltung!</title>
+    <link href="https://urlaubsverwaltung.cloud/neuigkeiten/2021-11-19-release/" />
+    <updated>2021-11-19T00:00:00Z</updated>
+    <id>https://urlaubsverwaltung.cloud/neuigkeiten/2021-11-19-release/</id>
+    <author>
+      <name>Tobias Schneider</name>
+    </author>
+    <content type="html">&lt;p&gt;&lt;em&gt;Version 4.27.0 veröffentlicht&lt;/em&gt;&lt;/p&gt;
+&lt;h2 id=&quot;neue-abwesenheitsarten&quot;&gt;Neue Abwesenheitsarten&lt;/h2&gt;
+&lt;p&gt;Deine Urlaubsverwaltung kann nun weitere Abwesenheiten und du hast die Möglichkeit diese freizuschalten!&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Bisher&lt;/em&gt; gab es in der Urlaubsverwaltung vier Abwesenheitsarten:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Erholungsurlaub&lt;/li&gt;
+&lt;li&gt;Sonderurlaub&lt;/li&gt;
+&lt;li&gt;Unbezahlter Urlaub und&lt;/li&gt;
+&lt;li&gt;Überstundenabbau&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&quot;flex flex-col justify-end lg:flex-row-reverse lg:space-x-8 lg:space-x-reverse mt-8 mb-4 lg:mt-4&quot;&gt;
+  &lt;div class=&quot;mb-8 lg:mb-0&quot;&gt;
+    &lt;img src=&quot;https://urlaubsverwaltung.cloud/neuigkeiten/2021-11-19-release/abwesenheitsarten.png&quot; alt=&quot;Neue Abwesenheitsarten der Urlaubsverwaltung&quot; decoding=&quot;async&quot; loading=&quot;lazy&quot; width=&quot;1280&quot; /&gt;
+  &lt;/div&gt;
+  &lt;div class=&quot;lg:max-w-xl&quot;&gt;
+    &lt;p&gt;
+        Diese sind in vielen Fällen ausreichend um deine täglichen Abwesenheiten abzubilden, aber für uns ist ausreichend nicht gut genug.
+        Darum spendieren wir der Urlaubsverwaltung weitere Abwesenheitsarten und den Begriff &quot;Urlaub&quot; wird in einigen
+        Fällen durch &quot;Abwesenheiten&quot; ersetzt, sodass auch der Weg der Urlaubsverwaltung zur Abwesenheitsverwaltung deutlicher wird.
+        Natürlich bleiben wir unserem Namen zunächst treu und die Urlaubsverwaltung wird weiterhin die Urlaubsverwaltung sein. 
+        Aber man weiß ja nie was uns die Zukunft bringt.
+    &lt;/p&gt;
+    &lt;p&gt;
+        Die neuen Abwesenheitsarten lassen sich in den Einstellungen mit der Berechtigung &#39;Office&#39; aktivieren bzw deaktivieren.
+        Zusätzlich kann konfiguriert werden, ob für diese Abwesenheitsart der Antrag durch einen Genehmigungsprozess (Einstufig bzw. Zweistufig) abgebildet wird.
+        Neu ist, dass jede Abwesenheit auch ohne Genehmigungsprozess konfiguriert werden kann.
+    &lt;/p&gt;  
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;Die Kategorie zeigt auf, von welchem Abwesenheitskonto die Abwesenheit abgezogen wird. Wenn es ein &lt;em&gt;Erholungsurlaub&lt;/em&gt;
+ist, wird die Abwesenheit von diesem Abwesenheitskonto abgezogen. Wenn es die Kategorie &lt;em&gt;Überstunden&lt;/em&gt; ist, wird die
+Abwesenheit von dem Überstundenkonto abgezogen.
+&lt;em&gt;Sonderurlaub&lt;/em&gt;, &lt;em&gt;Unbezahlter Urlaub&lt;/em&gt; und &lt;em&gt;Sonstiges&lt;/em&gt; werden von keinem Abwesenheitskonto abgezogen und dienen lediglich
+der Statistik.&lt;/p&gt;
+&lt;p&gt;Wir möchten zudem in einer kommenden Version der Urlaubsverwaltung die Möglichkeit bieten, dass eine Person mit der
+Berechtigung &#39;Office&#39; die Kategorie bzw. das Abwesenheitskonto pro Abwesenheitsart anpassen kann und damit individuell
+das Abwesenheitskonto für eine Abwesenheitsart anzupassen.&lt;/p&gt;
+&lt;p&gt;Die aktivierten Abwesenheitsarten fließen nicht nur beim Erstellen einer Abwesenheit in die Urlaubsverwaltung ein,
+sondern werden auch in den Abwesenheitsstatistik (frühere Urlaubsstatistik) separat ausgewertet, sowie über den
+CSV-Export herausgegeben.&lt;/p&gt;
+&lt;div class=&quot;flex flex-col items-start md:flex-row my-8 md:space-x-8&quot;&gt;
+  &lt;div class=&quot;md:w-1/2&quot;&gt;
+    &lt;picture&gt;
+        &lt;source srcset=&quot;https://urlaubsverwaltung.cloud/neuigkeiten/2021-11-19-release/antrag.avif&quot; type=&quot;image/avif&quot; /&gt;
+        &lt;source srcset=&quot;https://urlaubsverwaltung.cloud/neuigkeiten/2021-11-19-release/antrag.webp&quot; type=&quot;image/webp&quot; /&gt;
+        &lt;img src=&quot;https://urlaubsverwaltung.cloud/neuigkeiten/2021-11-19-release/antrag.png&quot; alt=&quot;Erstellen einer Abwesenheit&quot; decoding=&quot;async&quot; loading=&quot;lazy&quot; width=&quot;1280&quot; /&gt;
+    &lt;/picture&gt;
+  &lt;/div&gt;
+  &lt;div class=&quot;md:w-1/2 mt-4 md:mt-0&quot;&gt;
+    &lt;picture&gt;
+        &lt;source srcset=&quot;https://urlaubsverwaltung.cloud/neuigkeiten/2021-11-19-release/abwesenheitsstatistik.webp&quot; type=&quot;image/webp&quot; /&gt;
+        &lt;img src=&quot;https://urlaubsverwaltung.cloud/neuigkeiten/2021-11-19-release/abwesenheitsstatistik.png&quot; alt=&quot;Abwesenheitsstatistik mit neuen Abwesenheitsarten&quot; decoding=&quot;async&quot; loading=&quot;lazy&quot; width=&quot;1280&quot; /&gt;
+    &lt;/picture&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;Wir hoffen, dass ihr eure Organisation noch besser abbilden könnt, und wünschen viel Spaß mit den neuen
+Abwesenheitsarten.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;mailto:info@urlaubsverwaltung.cloud?subject=Weitere%20Abwesenheitsart&quot;&gt;Fehlt dir eine Abwesenheitsart dann
+schreib uns einfach!&lt;/a&gt;&lt;/p&gt;
+</content>
+  </entry>
+  
+  
+  
+  
+  
+  <entry>
+    <title>Onboarding bei der urlaubsverwaltung.cloud</title>
+    <link href="https://urlaubsverwaltung.cloud/neuigkeiten/2021-11-19-onboarding-csv/" />
+    <updated>2021-11-19T00:00:00Z</updated>
+    <id>https://urlaubsverwaltung.cloud/neuigkeiten/2021-11-19-onboarding-csv/</id>
+    <author>
+      <name>Daniel Fuchs</name>
+    </author>
+    <content type="html">&lt;p&gt;Damit der Einstieg reibungslos verläuft, haben wir eine kleine Artikelserie zusammengestellt, die die verschiedenen Möglichkeiten zum Onboarding beschreibt.
+Direkt eins vorweg: Lehne dich zurück! Wir ermöglichen dir den passenden Einstieg.&lt;/p&gt;
+&lt;h2 id=&quot;los-gehts&quot;&gt;Los gehts!&lt;/h2&gt;
+&lt;div class=&quot;flex flex-col items-center mt-2 lg:flex-row lg:space-x-8 lg:mb-8&quot;&gt;
+  &lt;picture&gt;
+    &lt;source srcset=&quot;https://urlaubsverwaltung.cloud/static/img/onboarding.avif&quot; type=&quot;image/avif&quot; /&gt;
+    &lt;source srcset=&quot;https://urlaubsverwaltung.cloud/static/img/onboarding.webp&quot; type=&quot;image/webp&quot; /&gt;
+    &lt;img class=&quot;mx-auto lg:max-w-md lg:h-72&quot; src=&quot;https://urlaubsverwaltung.cloud/static/img/onboarding.jpg&quot; alt=&quot;Herzlich Willkommen&quot; decoding=&quot;async&quot; loading=&quot;lazy&quot; width=&quot;640&quot; height=&quot;426&quot; /&gt;
+  &lt;/picture&gt;
+  &lt;div class=&quot;max-w-none lg:max-w-screen&quot;&gt;
+    &lt;p class=&quot;mt-4 lg:mb-4&quot;&gt;
+      Ein neuer Anfang, bedeutet natürlich auch immer eine gewisse Vorbereitung. Zum einen müssen die Mitarbeiter:innen in der Organisation über die neue Software informiert werden, zum anderen sollen die Abläufe von Genehmigungsprozessen passend abgebildet werden. Natürlich sind auch die Daten wie zum Beispiel Urlaubsansprüche aus dem laufenden Jahr oder die erbrachten Überstunden wichtig für einen erfolgreichen Start. In dieser Artikelserie wollen wir drei mögliche Wege des Onboardings vorstellen, die einen reibungslosen Einstieg ermöglichen.
+    &lt;/p&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;h2 id=&quot;csv-basiertes-onboarding&quot;&gt;CSV-basiertes Onboarding&lt;/h2&gt;
+&lt;p&gt;Das Onboarding deiner Organisation kann mit einer Import-Datei im CSV-Format durchgeführt werden. Wichtig hierfür ist, dass die Namen deiner Mitarbeiter:innen und ihre E-Mail-Adressen vorliegen. Zusätzlich können Informationen wie die Abteilungszugehörigkeit und der Urlaubsanspruch angegeben werden.
+Eine Beispiel-Datei zur Orientierung haben wir dir &lt;a href=&quot;https://urlaubsverwaltung.cloud/static/import-beispiel.csv&quot; class=&quot;underline&quot;&gt;hier&lt;/a&gt; bereitgestellt.&lt;/p&gt;
+&lt;picture&gt;
+  &lt;source srcset=&quot;https://urlaubsverwaltung.cloud/neuigkeiten/2021-11-19-onboarding-csv/import-beispiel.avif&quot; type=&quot;image/avif&quot; /&gt;
+  &lt;source srcset=&quot;https://urlaubsverwaltung.cloud/neuigkeiten/2021-11-19-onboarding-csv/import-beispiel.webp&quot; type=&quot;image/webp&quot; /&gt;
+  &lt;img src=&quot;https://urlaubsverwaltung.cloud/neuigkeiten/2021-11-19-onboarding-csv/import-beispiel.png&quot; alt=&quot;Beispiel für einen Import&quot; decoding=&quot;async&quot; loading=&quot;lazy&quot; width=&quot;1209&quot; height=&quot;185&quot; /&gt;
+&lt;/picture&gt;
+&lt;p&gt;Die Informationen können dann in verschlüsselter Form an uns übermittelt werden.
+Weitere Details zum Onboarding können wir im direkten Austausch klären. Schreibe uns dazu eine kurze E-Mail an &lt;a href=&quot;mailto:info@urlaubsverwaltung.cloud?subject=Onboarding%20meiner%20Organisation&quot; class=&quot;underline&quot;&gt;info@urlaubsverwaltung.cloud&lt;/a&gt;&lt;/p&gt;
+</content>
+  </entry>
+  
+  
+  
+  
+  
+  <entry>
+    <title>Verbesserte Berechtigungen, UI-Update und Nachricht bei neuen User</title>
+    <link href="https://urlaubsverwaltung.cloud/neuigkeiten/2021-11-16-release/" />
+    <updated>2021-11-16T00:00:00Z</updated>
+    <id>https://urlaubsverwaltung.cloud/neuigkeiten/2021-11-16-release/</id>
+    <author>
+      <name>Tobias Schneider</name>
+    </author>
+    <content type="html">&lt;p&gt;&lt;em&gt;Version 4.26.0 veröffentlicht&lt;/em&gt;&lt;/p&gt;
+&lt;h2 id=&quot;verbesserte-berechtigungen&quot;&gt;Verbesserte Berechtigungen&lt;/h2&gt;
+&lt;p&gt;Seit dieser Version können die Berechtigungen &lt;em&gt;Chef&lt;/em&gt; und &lt;em&gt;Office&lt;/em&gt; mit den Berechtigungen &lt;em&gt;Abteilungsleiter&lt;/em&gt; bzw.
+&lt;em&gt;Freigabe-Verantwortlicher&lt;/em&gt; kombiniert werden. Wir bieten dir damit die Möglichkeit deine Organisationsstruktur noch besser abbilden zu können.&lt;/p&gt;
+&lt;picture&gt;
+    &lt;source srcset=&quot;https://urlaubsverwaltung.cloud/neuigkeiten/2021-11-16-release/berechtigungen.avif&quot; type=&quot;image/avif&quot; /&gt;
+    &lt;source srcset=&quot;https://urlaubsverwaltung.cloud/neuigkeiten/2021-11-16-release/berechtigungen.webp&quot; type=&quot;image/webp&quot; /&gt;
+    &lt;img src=&quot;https://urlaubsverwaltung.cloud/neuigkeiten/2021-11-16-release/berechtigungen.png&quot; alt=&quot;Berechtigungen einer Person mit Abteilungsleiter und Chef bzw. Office&quot; decoding=&quot;async&quot; loading=&quot;lazy&quot; width=&quot;585&quot; /&gt;
+&lt;/picture&gt;
+&lt;h2 id=&quot;e-mail-benachrichtigung-bei-neuanlage-einer-person&quot;&gt;E-Mail-Benachrichtigung bei Neuanlage einer Person&lt;/h2&gt;
+&lt;p&gt;Personen mit der Berechtigung &lt;em&gt;Office&lt;/em&gt; erhalten eine E-Mail-Benachrichtigung, sobald eine neue Person in der
+Urlaubsverwaltung angelegt wurde. Diese Benachrichtigung soll dazu dienen, einen Überblick über Neuanlagen zu behalten
+und die Person direkt mit einem individuellen Urlaubsanspruch oder Arbeitszeiten zu konfiguriert.&lt;/p&gt;
+&lt;h2 id=&quot;weitere-anpassungen-und-fehlerbehebungen&quot;&gt;Weitere Anpassungen und Fehlerbehebungen&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Wir haben für euch aus dem technischen Begriff &lt;strong&gt;Editieren&lt;/strong&gt; den verständlicheren und wundervollen Begriff &lt;em&gt;Bearbeiten&lt;/em&gt; gezaubert.
+In der Urlaubsverwaltung wird nun nicht mehr langweilig editiert, sondern mit Spaß bearbeitet.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Das verschickten der &lt;strong&gt;Erinnerungen für bevorstehende Urlaube&lt;/strong&gt; konnte in bestimmten Konstellation nicht durchgeführt werden.
+Dieser Fehler wurde behoben und es wird sichergestellt, dass die Erinnerungen korrekt versendet werden.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Bei aktivierten &lt;strong&gt;halben Urlaubstagen&lt;/strong&gt; in den Einstellungen ist es möglich den jährlichen Urlaubsanspruch
+einer Person auf einen halben Tag zu setzen.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Vorläufig genehmigte Urlaube&lt;/strong&gt; wurden sowohl im Kalender auf der Übersichtsseite als auch in der Datumsauswahl
+eines Antrages nicht angezeigt. Dies wurde behoben und die Anträge werden nun korrekt eingeblendet.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Fehlerhafte Links&lt;/strong&gt; in den E-Mails zu &lt;em&gt;meine anstehenden Vertretungen&lt;/em&gt; wurden angepasst.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+</content>
+  </entry>
+  
+  
+  
+  
+  
+  <entry>
+    <title>Starte deine Digitalisierung - Urlaub, Krankmeldungen, Überstunden digital</title>
+    <link href="https://urlaubsverwaltung.cloud/neuigkeiten/2021-11-11-starte-deine-digitalisierungsstrategie/" />
+    <updated>2021-11-11T00:00:00Z</updated>
+    <id>https://urlaubsverwaltung.cloud/neuigkeiten/2021-11-11-starte-deine-digitalisierungsstrategie/</id>
+    <author>
+      <name>Tobias Schneider</name>
+    </author>
+    <content type="html">&lt;p&gt;&lt;em&gt;Abwesenheitsverwaltung als Software as a Service (Saas) erleichtert kleinen und mittelständischen Unternehmen die
+Digitalisierung im Personalmanagement und reduziert Prozesskosten.&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;Der Jahreswechsel bietet eine optimale Gelegenheit für einen Schritt in Richtung unternehmensweiter Digitalisierung.
+Die Verwaltung von Abwesenheiten und Vertretungen ist mit einem hohen Administrationsaufwand verbunden, auch wenn die
+Prozesse standardisiert sind. Mit dem Produkt urlaubsverwaltung.cloud bietet die Focus Shift Software GmbH eine
+intuitive Lösung für die Herausforderung, Abwesenheiten digital zu verwalten. Um insbesondere kleinen und
+mittelständischen Unternehmen den wichtigen Schritt in das digitale Personalmanagement zu erleichtern, erhalten
+Neukunden, die sich bis zum 31.12.2021 registrieren, die ersten 3 Monate kostenlos - zusätzlich zu der 30-tägigen
+Testphase.&lt;/p&gt;
+&lt;p&gt;Der Prozess der Abwesenheitsverwaltung ist in sich abgeschlossen und damit optimal dafür geeignet, firmeninterne
+Prozesse digital abzubilden. &amp;quot;Die relevante Datengrundlage im Bereich der betrieblichen Abwesenheiten unterliegt einem
+jährlichen Turnus, sodass sich vor allem Jahreswechsel dazu eignen, eine Urlaubsverwaltung zu konfigurieren,
+insbesondere bei vielen Angestellten. Somit profitiert ein Kunde direkt von reduzierten Prozesskosten der
+Abwesenheitsverwaltung im neuen Jahr.&amp;quot;, so Andreas Weigel Geschäftsführer der Focus Shift Software GmbH.&lt;/p&gt;
+&lt;h2 id=&quot;urlaubsverwaltungcloud&quot;&gt;urlaubsverwaltung.cloud&lt;/h2&gt;
+&lt;p&gt;Neben Urlaub und Krankmeldungen lassen sich in der SaaS-Lösung auch Überstunden DSGVO-konform verwalten.
+Um die bestehenden Prozesse des Kunden bestmöglich abzubilden, existieren ein- oder zweistufige Freigabeverfahren.
+Eine Aufbauorganisation kann durch Abteilungen und deren verantwortliche Personen abgebildet werden. Schnittstellen zu
+Kalender- oder Single Sign-On Systemen bieten eine nahtlose Integration in bestehende Infrastruktur.&lt;/p&gt;
+&lt;picture&gt;
+    &lt;source srcset=&quot;https://urlaubsverwaltung.cloud/neuigkeiten/2021-11-11-starte-deine-digitalisierungsstrategie/urlaubsverwaltung.avif&quot; type=&quot;image/avif&quot; /&gt;
+    &lt;source srcset=&quot;https://urlaubsverwaltung.cloud/neuigkeiten/2021-11-11-starte-deine-digitalisierungsstrategie/urlaubsverwaltung.webp&quot; type=&quot;image/webp&quot; /&gt;
+    &lt;img src=&quot;https://urlaubsverwaltung.cloud/neuigkeiten/2021-11-11-starte-deine-digitalisierungsstrategie/urlaubsverwaltung.png&quot; alt=&quot;Urlaubsverwaltung Landingpage&quot; decoding=&quot;async&quot; loading=&quot;lazy&quot; width=&quot;850&quot; /&gt;
+&lt;/picture&gt;
+&lt;br /&gt;
+&lt;h2 id=&quot;focus-shift-software-gmbh&quot;&gt;Focus Shift Software GmbH&lt;/h2&gt;
+&lt;p&gt;Die Focus Shift Software GmbH stellt kleinen und mittelständischen Unternehmen aller Branchen Software-as-a-Service-Produkte
+zur Verfügung, die das administrative Rückgrat der Unternehmen digital abbilden. Die Verlagerung der Kompetenzen aus der
+Verwaltung in Richtung der Fachkompetenz stärken das Kerngeschäft.&lt;/p&gt;
+</content>
+  </entry>
+  
+  
+  
+  
+  
+  <entry>
+    <title>Verbesserte Urlaubs-Übersicht // Hilfe direkt aus der Urlaubsverwaltung</title>
+    <link href="https://urlaubsverwaltung.cloud/neuigkeiten/2021-10-20-release/" />
+    <updated>2021-10-20T00:00:00Z</updated>
+    <id>https://urlaubsverwaltung.cloud/neuigkeiten/2021-10-20-release/</id>
+    <author>
+      <name>Tobias Schneider</name>
+    </author>
+    <content type="html">&lt;p&gt;&lt;em&gt;Version 4.25.0 veröffentlicht&lt;/em&gt;&lt;/p&gt;
+&lt;h2 id=&quot;hilfe-direkt-aus-der-urlaubsverwaltung&quot;&gt;Hilfe direkt aus der Urlaubsverwaltung&lt;/h2&gt;
+&lt;div class=&quot;flex flex-col items-center mt-2 lg:flex-row lg:space-x-8 lg:mb-8&quot;&gt;
+  &lt;div&gt;
+    &lt;img class=&quot;mx-auto lg:max-w-md lg:h-72&quot; src=&quot;https://urlaubsverwaltung.cloud/neuigkeiten/2021-10-20-release/hilfe.png&quot; alt=&quot;Hilfe über das Avatarmenü&quot; /&gt;
+  &lt;/div&gt;
+  &lt;div class=&quot;max-w-none lg:max-w-screen&quot;&gt;
+    &lt;p class=&quot;mt-4 lg:mb-4&quot;&gt;
+      Unsere Philosophie mit der Urlaubsverwaltung ist es, eine mächtige Applikation zu entwickeln, die sich
+      sehr leichtgewichtig anfühlt, sodass sich jeder Benutzer direkt wohlfühlt und das Anliegen einfach und
+      bequem erledigen kann. Es kommt jedoch ab und an vor, dass man Fragen zu einem bestimmten Feature
+      hat und die Antworten auf eigene Faust finden möchte. Deshalb haben wir für euch die &lt;a href=&quot;https://urlaubsverwaltung.cloud/hilfe&quot;&gt;Hilfe&lt;/a&gt; auf
+      &lt;a href=&quot;https://urlaubsverwaltung.cloud/hilfe&quot;&gt;urlaubsverwaltung.cloud&lt;/a&gt; erstellt und in der Urlaubsverwaltung im Avatar-Menü verlinkt.
+    &lt;/p&gt;
+    &lt;p&gt;
+      Helfe dir selbst und sei dein eigener Held!
+    &lt;/p&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;h2 id=&quot;verbesserte-urlaub-uebersichtsseite&quot;&gt;Verbesserte Urlaub-Übersichtsseite&lt;/h2&gt;
+&lt;div class=&quot;flex flex-col justify-end lg:flex-row-reverse lg:space-x-8 lg:space-x-reverse lg:mt-8 lg:mb-8&quot;&gt;
+  &lt;div&gt;
+    &lt;img class=&quot;mx-auto mt-2 lg:max-w-md lg:h-80&quot; src=&quot;https://urlaubsverwaltung.cloud/neuigkeiten/2021-10-20-release/vertretung.png&quot; alt=&quot;Anstehende Vertretung mit Notiz&quot; /&gt;
+  &lt;/div&gt;
+  &lt;div class=&quot;max-w-none lg:max-w-screen&quot;&gt;
+    &lt;p class=&quot;mt-4 lg:mb-4&quot;&gt;
+      In dieser Version wurde die &lt;strong&gt;Urlaub-Übersichtsseite&lt;/strong&gt; unter &lt;em&gt;Urlaub&lt;/em&gt; verbessert, sodass diese noch schneller und
+      intuitiver auf kleinen Endgeräten zu bedienen ist. Mehr Informationen über deine Urlaubsanträge sowie direkter Zugriff zum
+      Genehmigen, Ablehnen und Editieren ersparen umständliche Klicks über das Öffnen des Antrags.
+    &lt;/p&gt;
+    &lt;p&gt;
+      Zudem wurden deine &lt;em&gt;noch offenen Urlaubsanträge&lt;/em&gt; sowie &lt;em&gt;anstehende Vertretungen&lt;/em&gt; zusammengefasst, sodass
+      du auf einen Blick den aktuellen Stand deiner Anträge erkennst und immer auf dem Laufenden bist.
+    &lt;/p&gt;
+    &lt;p class=&quot;mt-4 lg:mb-4&quot;&gt;
+        Mit der neuen Ansicht &lt;em&gt;anstehende Vertretungen&lt;/em&gt;, wird auf übersichtliche Weise aufgezeigt, wann eine
+        Vertretung für wie lange geplant ist und ob eine Notiz an die Vertretung hinterlassen wurde. Zum Glück hatte
+        Juliane eine Notiz an Marlene hinterlassen, sonst wäre dieser Artikel wohl erst deutlich später veröffentlicht worden.
+    &lt;/p&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;img class=&quot;mb-4 lg:mb-8&quot; src=&quot;https://urlaubsverwaltung.cloud/neuigkeiten/2021-10-20-release/vacation-overview.png&quot; alt=&quot;Neue Urlaub-Übersichtsseite auf dem Desktop&quot; /&gt;
+&lt;h2 id=&quot;weitere-anpassungen&quot;&gt;Weitere Anpassungen&lt;/h2&gt;
+&lt;div class=&quot;flex space-x-8 mt-2&quot;&gt;
+    &lt;p class=&quot;mb-4&quot;&gt;
+      Damit du immer weißt, welche &lt;strong&gt;Version&lt;/strong&gt; der Urlaubsverwaltung du verwendest,
+      wird diese nun am Seitenende in den &lt;em&gt;Einstellungen&lt;/em&gt; angezeigt.
+    &lt;/p&gt;
+&lt;/div&gt;
+</content>
+  </entry>
+  
+  
+</feed>
