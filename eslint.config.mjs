@@ -2,23 +2,22 @@ import globals from "globals";
 import pluginJs from "@eslint/js";
 import eslintPluginPrettierRecommended from "eslint-plugin-prettier/recommended";
 
-
 export default [
 	{
-		ignores: ["dist/*", "build/*"]
+		ignores: ["dist/*", "build/*"],
 	},
-  pluginJs.configs.recommended,
+	pluginJs.configs.recommended,
 	eslintPluginPrettierRecommended,
 	{
 		files: ["src/**", "static/**"],
 		languageOptions: {
-			globals: globals.browser
-		}
+			globals: globals.browser,
+		},
 	},
 	{
 		files: ["!src/**", "!static/**"],
 		languageOptions: {
-			globals: globals.node
-		}
-	}
-]
+			globals: globals.node,
+		},
+	},
+];
