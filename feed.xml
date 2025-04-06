@@ -9,6 +9,7 @@
   
   
   
+  
   <entry>
     <title>Optimierung der UI in den Berichten und Eintrag über Mitternacht</title>
     <link href="https://urlaubsverwaltung.cloud/neuigkeiten/2024-10-30-release-2.11.0/" />
@@ -40,6 +41,8 @@
 Einfach E-Mail an &lt;a href=&quot;mailto:info@urlaubsverwaltung.cloud&quot; class=&quot;underline&quot;&gt;info@urlaubsverwaltung.cloud&lt;/a&gt;&lt;/p&gt;
 </content>
   </entry>
+  
+  
   
   
   
@@ -75,6 +78,8 @@ Durch diese visuellen Hinweise können Benutzer schneller erkennen, welche Eintr
   
   
   
+  
+  
   <entry>
     <title>Soll und Ist Arbeitszeit in der Berichtübersicht</title>
     <link href="https://urlaubsverwaltung.cloud/neuigkeiten/2024-10-14-release-2.9.0/" />
@@ -104,6 +109,8 @@ Diese Verbesserungen unterstützen eine präzisere Übersicht und Planung der Ar
 &lt;/div&gt;
 </content>
   </entry>
+  
+  
   
   
   
@@ -146,6 +153,8 @@ was die Lesbarkeit deutlich verbessert.&lt;/p&gt;
 &lt;/div&gt;
 </content>
   </entry>
+  
+  
   
   
   
@@ -195,6 +204,8 @@ sodass wir sie direkt in der letzten Version der Urlaubsverwaltung veröffentlic
 Vielen Dank für Contribution!&lt;/p&gt;
 </content>
   </entry>
+  
+  
   
   
   
@@ -280,6 +291,8 @@ sie noch besser an eure Bedürfnisse anpassen. Meldet euch gerne bei uns, wenn i
   
   
   
+  
+  
   <entry>
     <title>Globale Feiertagsregelung in der Zeiterfassung</title>
     <link href="https://urlaubsverwaltung.cloud/neuigkeiten/2024-05-17-zeiterfassung-globale-feiertagsregelung/" />
@@ -303,6 +316,8 @@ sie noch besser an eure Bedürfnisse anpassen. Meldet euch gerne bei uns, wenn i
 &lt;p&gt;Konfiguriere einmalig, ob an Feiertagen gearbeitet wird oder nicht, und lege das Bundesland für die Feiertagsregelung fest. Diese globalen Einstellungen gelten dann als Standard für alle Mitarbeitenden und können bei Bedarf individuell überschrieben werden. Spare Zeit und vereinfache die Zeiterfassung – ganz ohne Kompromisse bei der Genauigkeit.&lt;/p&gt;
 </content>
   </entry>
+  
+  
   
   
   
@@ -359,6 +374,8 @@ Die individuellen Abwesenheitsarten werden außerdem auch in der Zeiterfassung b
 &lt;p&gt;Gerade beim Loslegen mit der Urlaubsverwaltung kommt es vor, dass zur Datenübernahme die Pflege von vergangenen oder auch zukünftigen Abwesenheiten relevant wird. Wir haben hierfür die Standardwerte erhöht, sodass die Anzahl der Monate in die Vergangenheit als auch in die Zukunft höher ist. Diese Standardwerte können natürlich in den Einstellungen nach den Bedürfnissen der eigenen Organisation angepasst werden.&lt;/p&gt;
 </content>
   </entry>
+  
+  
   
   
   
@@ -437,6 +454,8 @@ uns an &lt;a href=&quot;mailto:info@urlaubsverwaltung.cloud&quot;&gt;info@urlaub
   
   
   
+  
+  
   <entry>
     <title>Dobrodošla Hrvatska - Kroatische Feiertage hinzugefügt 🇭🇷</title>
     <link href="https://urlaubsverwaltung.cloud/neuigkeiten/2023-10-27-V-4.71.0-Kroatien-Feiertage/" />
@@ -482,6 +501,8 @@ Malta, Italien und Griechenland sind nun auch die Feiertage aus Kroatien verfüg
 &lt;p&gt;Dir Fehlen Feiertage für ein bestimmtes Land? Dann &lt;a href=&quot;mailto:info@urlaubsverwaltung.cloud?subject=Feiertage&quot;&gt;melde&lt;/a&gt; dich bei uns, wir freuen uns über dein Feedback!&lt;/p&gt;
 </content>
   </entry>
+  
+  
   
   
   
@@ -535,6 +556,8 @@ dass sie auch für mobile Mitarbeitende mit unterschiedlichen Arbeitsorten geeig
 &lt;p&gt;Die Zeiterfassung auf &lt;a href=&quot;https://www.urlaubsverwaltung.cloud/&quot;&gt;urlaubsverwaltung.cloud&lt;/a&gt; bietet genau diese Möglichkeit.&lt;/p&gt;
 </content>
   </entry>
+  
+  
   
   
   
@@ -622,6 +645,8 @@ und können sowohl auf Wochen- als auch Monatsbasis aggregiert angezeigt werden.
   
   
   
+  
+  
   <entry>
     <title>Wie Open-Source-Software durch Transparenz den Datenschutz erhöht</title>
     <link href="https://urlaubsverwaltung.cloud/neuigkeiten/2023-01-20-opensource-vs-datenschutz/" />
@@ -695,6 +720,8 @@ werden.&lt;/p&gt;
 &lt;/div&gt;
 </content>
   </entry>
+  
+  
   
   
   
@@ -773,6 +800,8 @@ um die Urlaubsverwaltung zu digitalisieren und damit die Effizienz und Produktiv
 &lt;/div&gt;
 </content>
   </entry>
+  
+  
   
   
   
@@ -1108,6 +1137,8 @@ sodass auch hier mit nur 4 Urlaubstagen 9 freie Tage möglich sind.&lt;/p&gt;
   
   
   
+  
+  
   <entry>
     <title>Die einfachste Form der Zeiterfassung!</title>
     <link href="https://urlaubsverwaltung.cloud/neuigkeiten/2022-12-05-zeiterfassung/" />
@@ -1179,6 +1210,8 @@ zur Verfügung zu stellen.&lt;/p&gt;
   
   
   
+  
+  
   <entry>
     <title>Überschreiben der Browsersprache in den Personalisierungen</title>
     <link href="https://urlaubsverwaltung.cloud/neuigkeiten/2022-10-26-sprachkonfiguration/" />
@@ -1210,6 +1243,8 @@ Nun könnt ihr euren Browser auf eurer Wunschsprache eingestellt haben und die U
 Wir freuen uns über dein Feedback an &lt;a href=&quot;mailto:info@urlaubsverwaltung.cloud?subject=Feedback&quot;&gt;info@urlaubsverwaltung.cloud&lt;/a&gt;.
 </content>
   </entry>
+  
+  
   
   
   
@@ -1253,6 +1288,8 @@ zu deaktivieren und für bestimmte Mitarbeitenden individuell zu aktivieren.&lt;
 &lt;br /&gt;&lt;/p&gt;
 </content>
   </entry>
+  
+  
   
   
   
@@ -1306,6 +1343,8 @@ Urlaubsverwaltung ist es nun möglich das Verfallsdatum im Konto jedes einzelnen
 Wir freuen uns über dein Feedback an &lt;a href=&quot;mailto:info@urlaubsverwaltung.cloud?subject=Feedback&quot;&gt;info@urlaubsverwaltung.cloud&lt;/a&gt;.
 </content>
   </entry>
+  
+  
   
   
   
@@ -1402,6 +1441,8 @@ Wir freuen uns über dein Feedback an &lt;a href=&quot;mailto:info@urlaubsverwal
   
   
   
+  
+  
   <entry>
     <title>Personalstammdaten immer im Blick</title>
     <link href="https://urlaubsverwaltung.cloud/neuigkeiten/2022-04-27-release-4.35.0/" />
@@ -1455,6 +1496,8 @@ Wir freuen uns über dein Feedback an &lt;a href=&quot;mailto:info@urlaubsverwal
   
   
   
+  
+  
   <entry>
     <title>Konfiguration von Sonderurlaubstagen und Bildungsurlaub</title>
     <link href="https://urlaubsverwaltung.cloud/neuigkeiten/2022-04-06-release/" />
@@ -1492,6 +1535,8 @@ in den Einstellungen unter Abwesenheitsarten aktivieren.&lt;/p&gt;
 Wir freuen uns über dein Feedback an &lt;a href=&quot;mailto:info@urlaubsverwaltung.cloud?subject=Feedback&quot;&gt;info@urlaubsverwaltung.cloud&lt;/a&gt;.
 </content>
   </entry>
+  
+  
   
   
   
@@ -1547,6 +1592,8 @@ könnt ihr über das Konto einer Person bei den &lt;strong&gt;Stammdaten&lt;/str
   
   
   
+  
+  
   <entry>
     <title>Überarbeitung der Überstundenübersicht</title>
     <link href="https://urlaubsverwaltung.cloud/neuigkeiten/2022-03-24-release/" />
@@ -1569,6 +1616,8 @@ ein &lt;strong&gt;Schnelleinstieg zum Bearbeiten&lt;/strong&gt; bereitgestellt s
 &lt;p&gt;Wir freuen uns über dein Feedback an &lt;a href=&quot;mailto:info@urlaubsverwaltung.cloud?subject=Feedback&quot;&gt;info@urlaubsverwaltung.cloud&lt;/a&gt;.&lt;/p&gt;
 </content>
   </entry>
+  
+  
   
   
   
@@ -1607,6 +1656,8 @@ Drei Monate später wunderte man sich wieder und das Spiel ging von vorne los.&l
   
   
   
+  
+  
   <entry>
     <title>Kalimera Griechenland - Griechische Feiertage und Übersetzung</title>
     <link href="https://urlaubsverwaltung.cloud/neuigkeiten/2022-03-11-release/" />
@@ -1629,6 +1680,8 @@ Drei Monate später wunderte man sich wieder und das Spiel ging von vorne los.&l
 &lt;p&gt;Wir freuen uns über dein Feedback an &lt;a href=&quot;mailto:info@urlaubsverwaltung.cloud?subject=Feedback&quot;&gt;info@urlaubsverwaltung.cloud&lt;/a&gt;.&lt;/p&gt;
 </content>
   </entry>
+  
+  
   
   
   
@@ -1700,6 +1753,8 @@ Oder dir gefällt das neue Theme einfach nur sehr gut?&lt;/p&gt;
   
   
   
+  
+  
   <entry>
     <title>Focus Shift im Interview - wie alles begann</title>
     <link href="https://urlaubsverwaltung.cloud/neuigkeiten/2022-01-20-interview-startup-stuttgart/" />
@@ -1718,6 +1773,8 @@ Außerdem gibt es auch ein paar Einblicke in die ersten Fehler und Erfolge.&lt;/
 &lt;p&gt;Hier geht es zum &lt;a href=&quot;https://www.stuttgart-startups.de/andreas-weigel-von-focus-shift-software-aus-karlsruhe-im-interview/&quot;&gt;Interview&lt;/a&gt;&lt;/p&gt;
 </content>
   </entry>
+  
+  
   
   
   
@@ -1770,6 +1827,8 @@ Mit dem neuen Kalenderdesign stellen wir die Weichen für mehr Flexibilität und
   
   
   
+  
+  
   <entry>
     <title>Berechtigungskombinationen, Abwesenheitsübersicht und Logback</title>
     <link href="https://urlaubsverwaltung.cloud/neuigkeiten/2021-12-15-release/" />
@@ -1802,6 +1861,8 @@ was du auch sehen darfst.&lt;/p&gt;
 &lt;/ul&gt;
 </content>
   </entry>
+  
+  
   
   
   
@@ -1877,6 +1938,8 @@ schreib uns einfach!&lt;/a&gt;&lt;/p&gt;
   
   
   
+  
+  
   <entry>
     <title>Onboarding bei der urlaubsverwaltung.cloud</title>
     <link href="https://urlaubsverwaltung.cloud/neuigkeiten/2021-11-19-onboarding-csv/" />
@@ -1912,6 +1975,8 @@ Eine Beispiel-Datei zur Orientierung haben wir dir &lt;a href=&quot;https://urla
 Weitere Details zum Onboarding können wir im direkten Austausch klären. Schreibe uns dazu eine kurze E-Mail an &lt;a href=&quot;mailto:info@urlaubsverwaltung.cloud?subject=Onboarding%20meiner%20Organisation&quot; class=&quot;underline&quot;&gt;info@urlaubsverwaltung.cloud&lt;/a&gt;&lt;/p&gt;
 </content>
   </entry>
+  
+  
   
   
   
@@ -1963,6 +2028,8 @@ eines Antrages nicht angezeigt. Dies wurde behoben und die Anträge werden nun k
   
   
   
+  
+  
   <entry>
     <title>Starte deine Digitalisierung - Urlaub, Krankmeldungen, Überstunden digital</title>
     <link href="https://urlaubsverwaltung.cloud/neuigkeiten/2021-11-11-starte-deine-digitalisierungsstrategie/" />
@@ -2002,6 +2069,8 @@ zur Verfügung, die das administrative Rückgrat der Unternehmen digital abbilde
 Verwaltung in Richtung der Fachkompetenz stärken das Kerngeschäft.&lt;/p&gt;
 </content>
   </entry>
+  
+  
   
   
   
@@ -2064,5 +2133,6 @@ Verwaltung in Richtung der Fachkompetenz stärken das Kerngeschäft.&lt;/p&gt;
 &lt;/div&gt;
 </content>
   </entry>
+  
   
 </feed>
