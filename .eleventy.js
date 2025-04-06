@@ -96,7 +96,7 @@ module.exports = function (eleventyConfig) {
 			.reverse();
 
 		return prod
-			? allBlogPosts.filter(not(isDraft)).filter(not(isPublished))
+			? allBlogPosts.filter(not(isDraft)).filter(isPublished)
 			: allBlogPosts;
 	});
 
