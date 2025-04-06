@@ -8,7 +8,7 @@ baseUrl: https://urlaubsverwaltung.cloud
   {%- for page in collections.all -%}
   {%- set isDraft = ('page.data.draft' if page.data.draft === true else false) -%}
   {%- if isDraft === false -%}
-  {% if page.date | IsNotPublishedBoolean %}
+  {%- if page.date | IsPublished %}
     <url>
       <loc>{{ baseUrl }}{{ page.url | url }}</loc>
       <lastmod>{{ page.date.toISOString() }}</lastmod>
@@ -16,5 +16,5 @@ baseUrl: https://urlaubsverwaltung.cloud
     </url>
   {%- endif -%}
   {%- endif -%}
-  {%- endfor -%}
+  {%- endfor %}
 </urlset>

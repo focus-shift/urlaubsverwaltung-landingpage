@@ -28,7 +28,7 @@ const isPublished = post => {
 	const input = inputDate.toISOString().split("T")[0];
 	const now = today.toISOString().split("T")[0];
 
-	return now <= input;
+	return input <= now;
 };
 
 module.exports = function (eleventyConfig) {
@@ -142,10 +142,14 @@ module.exports = function (eleventyConfig) {
 		},
 	);
 
-	eleventyConfig.addFilter("IsNotPublishedBoolean", function (dateString) {
-		const now = new Date();
+	eleventyConfig.addFilter("IsPublished", function (dateString) {
+		const today = new Date();
 		const inputDate = new Date(dateString);
-		return inputDate < now;
+
+		const input = inputDate.toISOString().split("T")[0];
+		const now = today.toISOString().split("T")[0];
+
+		return input <= now;
 	});
 
 	eleventyConfig.addHandlebarsHelper("daysFromNow", function (dateString) {

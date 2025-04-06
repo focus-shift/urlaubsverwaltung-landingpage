@@ -17,7 +17,7 @@ metadata:
   <id>{{ metadata.url }}</id>
   {% for post in collections.blogposts %}
   {% if post.data.draft == false %}
-  {% if post.date | IsNotPublishedBoolean %}
+  {% if post.data.date | IsPublished %}
   {% set absolutePostUrl %}{{ post.url | url | absoluteUrl(metadata.url) }}{% endset %}
   <entry>
     <title>{{ post.data.title }}</title>
