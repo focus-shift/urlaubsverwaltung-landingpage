@@ -21,6 +21,16 @@ const not =
 const isDraft = post =>
 	post.data.draft === "" ? true : Boolean(post.data.draft);
 
+const isPublished = post => {
+	const inputDate = new Date(post.date);
+	const today = new Date();
+
+	const input = inputDate.toISOString().split("T")[0];
+	const now = today.toISOString().split("T")[0];
+
+	return now <= input;
+};
+
 module.exports = function (eleventyConfig) {
 	eleventyConfig.setTemplateFormats(["njk", "hbs", "md", "html", "txt"]);
 	eleventyConfig.addPassthroughCopy(
@@ -85,7 +95,9 @@ module.exports = function (eleventyConfig) {
 			.getFilteredByGlob("./src/neuigkeiten/**/*.md")
 			.reverse();
 
-		return prod ? allBlogPosts.filter(not(isDraft)) : allBlogPosts;
+		return prod
+			? allBlogPosts.filter(not(isDraft)).filter(not(isPublished))
+			: allBlogPosts;
 	});
 
 	eleventyConfig.addHandlebarsHelper("toc", function (data) {
@@ -110,6 +122,41 @@ module.exports = function (eleventyConfig) {
 			: `<ul class="toc-menu">${tree
 					.map(node => renderNode(node))
 					.join("")}</ul>`;
+	});
+
+	eleventyConfig.addHandlebarsHelper(
+		"IsNotPublished",
+		function (dateString, options) {
+			const inputDate = new Date(dateString);
+			const today = new Date();
+
+			// Normalize to YYYY-MM-DD
+			const input = inputDate.toISOString().split("T")[0];
+			const now = today.toISOString().split("T")[0];
+
+			if (now < input) {
+				return options.fn(this);
+			} else {
+				return options.inverse(this);
+			}
+		},
+	);
+
+	eleventyConfig.addFilter("IsNotPublishedBoolean", function (dateString) {
+		const now = new Date();
+		const inputDate = new Date(dateString);
+		return inputDate < now;
+	});
+
+	eleventyConfig.addHandlebarsHelper("daysFromNow", function (dateString) {
+		const targetDate = new Date(dateString);
+		const today = new Date();
+
+		// Strip the time to ensure full-day comparison
+		const oneDay = 1000 * 60 * 60 * 24;
+		const diffTime =
+			targetDate.setHours(0, 0, 0, 0) - today.setHours(0, 0, 0, 0);
+		return Math.round(diffTime / oneDay);
 	});
 
 	eleventyConfig.addWatchTarget("src/static/js/**/*.js");
