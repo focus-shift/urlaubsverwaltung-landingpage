@@ -25,7 +25,7 @@ Der Name der Einstellung hat sich von 'Bundesland' zu 'Feiertagsregelung' geänd
         <source srcset="public_holiday_person.webp" type="image/webp" />
         <img
           src="public_holiday_person.png"
-          alt="Personübersicht mit Feiertagregelungauswahl"
+          alt="Personübersicht mit Feiertagsregelung Auswahl"
           decoding="async"
           loading="lazy"
         />
@@ -35,7 +35,7 @@ Der Name der Einstellung hat sich von 'Bundesland' zu 'Feiertagsregelung' geänd
         <source srcset="public_holiday_person_change.webp" type="image/webp" />
         <img
           src="public_holiday_person_change.png"
-          alt="Feiertagregelungauswahl einer Person"
+          alt="Feiertagsregelung Auswahl einer Person"
           decoding="async"
         />
     </picture>
