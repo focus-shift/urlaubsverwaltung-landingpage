@@ -72,7 +72,7 @@ Registrierung starten.
 
 1. Als _Name_ der Anwendung kann z. B. _urlaubsverwaltung.cloud_ verwendet werden
 2. Für den Punkt _Unterstütze Kontotypen_ muss _Nur Konten in diesem Organisationsverzeichnis_ ausgewählt werden
-3. Umleitungs-URI überspringen und wird in [Schritt 3](#schritt-3:-fuer-app-registrierung-umleitungs-uri-konfigurieren) konfiguriert
+3. Umleitungs-URI überspringen und wird in [Schritt 3](#schritt-3-fuer-app-registrierung-umleitungs-uri-konfigurieren) konfiguriert
 4. Nun auf _Registrieren_ klicken
 
 Nach erfolgreicher Registrierung kommst du auf die Übersichtsseite der App-Registrierung.
@@ -92,7 +92,7 @@ Nach erfolgreicher Registrierung kommst du auf die Übersichtsseite der App-Regi
   </picture>
 </p>
 
-Auf dieser Seite findest du zwei wichtige Informationen, welche in [Schritt 2](#schritt-2:-auf-mein-kundenportal-die-anbindung-konfigurieren) benötigt werden.
+Auf dieser Seite findest du zwei wichtige Informationen, welche in [Schritt 2](#schritt-2-auf-mein-kundenportal-die-anbindung-konfigurieren) benötigt werden.
 Am besten erstellt man eine Datei über einen Texteditor (z.B. Notepad) und kopiert die Werte dort hinein.
 
 1. Wert von _Anwendungs-Id_ kopieren und in Textdatei einfügen
@@ -185,9 +185,9 @@ entsprechende Microsoft Graph-Berechtigung aktiviert werden muss.
 Dazu muss man nun zu _Mein Kundenportal_ von [urlaubsverwaltung.cloud](https://urlaubsverwaltung.cloud) via _Login_ und über die Kachel
 _Mein Kundenportal_ wechseln. Unter _Single-Sign-On_ > _Azure AD_ gelangst du nun auf die Konfigurationsseite.
 
-Zuerst kopierst du die hervorgehobene URI in die Textdatei, welche in [Schritt 3](#schritt-3:-fuer-app-registrierung-umleitungs-uri-konfigurieren) als Umleitungs-URI konfiguriert wird.
+Zuerst kopierst du die hervorgehobene URI in die Textdatei, welche in [Schritt 3](#schritt-3-fuer-app-registrierung-umleitungs-uri-konfigurieren) als Umleitungs-URI konfiguriert wird.
 
-Nun brauchen wir die Werte aus der Textdatei von [Schritt 1](#schritt-1:-neue-app-registrierung-im-azure-ad-durchfuehren):
+Nun brauchen wir die Werte aus der Textdatei von [Schritt 1](#schritt-1-neue-app-registrierung-im-azure-ad-durchfuehren):
 
 <p>
   <picture>
@@ -268,7 +268,7 @@ urlaubsverwaltung.cloud via Azure AD erfolgen.
 Dazu öffnest du _[urlaubsverwaltung.cloud](https://urlaubsverwaltung.cloud)_ > _Login_, gibst deine E-Mail ein, klickst auf _Weiter_.
 Nun wirst du zur Anmelde-Seite von Microsoft umgeleitet und musst dich mit deinem Microsoft Konto anmelden.
 
-Es erscheint eine Meldung, dass der Zugriff auf die Angeforderten Berechtigungen (Details siehe [Schritt 2](#schritt-2:-auf-mein-kundenportal-die-anbindung-konfigurieren))
+Es erscheint eine Meldung, dass der Zugriff auf die angeforderten Berechtigungen (Details siehe [Schritt 2](#schritt-2-auf-mein-kundenportal-die-anbindung-konfigurieren))
 akzeptiert werden muss.
 
 <p>
