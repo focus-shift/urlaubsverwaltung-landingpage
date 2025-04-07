@@ -16,7 +16,7 @@ metadata:
   <updated>{{ collections.blogposts | getNewestCollectionItemDate | dateToRfc3339 }}</updated>
   <id>{{ metadata.url }}</id>
   {%- for post in collections.blogposts -%}
-  {%- if post.data.draft == false -%}
+  {%- if post.data.draft | isNoDraft -%}
   {%- if post.data.date | isPublicationDateReached -%}
   {%- set absolutePostUrl %}{{ post.url | url | absoluteUrl(metadata.url) }}{% endset %}
   <entry>

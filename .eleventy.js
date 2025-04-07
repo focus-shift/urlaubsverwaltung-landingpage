@@ -21,8 +21,7 @@ const not =
 	(...args) =>
 		!fn(...args);
 
-const isDraft = post =>
-	post.data.draft === "" ? true : Boolean(post.data.draft);
+const isDraft = draft => (draft === "" ? true : Boolean(draft));
 
 const isPublicationDateReached = publicationDate => {
 	const inputDate = new Date(publicationDate);
@@ -35,7 +34,7 @@ const isPublicationDateReached = publicationDate => {
 };
 
 const isPublished = post =>
-	not(isDraft(post)) && isPublicationDateReached(post.date);
+	not(isDraft(post.data.draft)) && isPublicationDateReached(post.date);
 
 export default function (eleventyConfig) {
 	eleventyConfig.setTemplateFormats(["njk", "hbs", "md", "html", "txt"]);
@@ -133,13 +132,17 @@ export default function (eleventyConfig) {
 	eleventyConfig.addShortcode(
 		"isPublicationDateNotReached",
 		function (dateString, options) {
-			if (isPublicationDateReached(dateString)) {
-				return options.inverse(this);
-			} else {
+			if (!isPublicationDateReached(dateString)) {
 				return options.fn(this);
+			} else {
+				return options.inverse(this);
 			}
 		},
 	);
+
+	eleventyConfig.addFilter("isNoDraft", function (draft) {
+		return !isDraft(draft);
+	});
 
 	eleventyConfig.addFilter("isPublicationDateReached", function (dateString) {
 		return isPublicationDateReached(dateString);
