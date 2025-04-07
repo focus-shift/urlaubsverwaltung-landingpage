@@ -25,7 +25,7 @@ Für alle, die täglich mit mehreren Teammitgliedern und Projekten arbeiten, hab
             <source srcset="MAIcons.avif" type="image/avif" />
             <source srcset="MAIcons.webp" type="image/webp" />
             <img
-              src="MAIcons.png"
+              src="MAIcons.jpg"
               alt="Zeiteinträge mit neuen Icons für Pausen und Kommentare"
               decoding="async"
               loading="lazy"
