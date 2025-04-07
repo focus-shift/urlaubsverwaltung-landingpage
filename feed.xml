@@ -1692,16 +1692,16 @@ Der Name der Einstellung hat sich von &#39;Bundesland&#39; zu &#39;Feiertagsrege
     &lt;picture&gt;
         &lt;source srcset=&quot;https://urlaubsverwaltung.cloud/neuigkeiten/2022-01-12-release/public_holiday_person.avif&quot; type=&quot;image/avif&quot; /&gt;
         &lt;source srcset=&quot;https://urlaubsverwaltung.cloud/neuigkeiten/2022-01-12-release/public_holiday_person.webp&quot; type=&quot;image/webp&quot; /&gt;
-        &lt;img src=&quot;https://urlaubsverwaltung.cloud/neuigkeiten/2022-01-12-release/public_holiday_person.png&quot; alt=&quot;Personübersicht mit Feiertagregelungauswahl&quot; decoding=&quot;async&quot; loading=&quot;lazy&quot; /&gt;
+        &lt;img src=&quot;https://urlaubsverwaltung.cloud/neuigkeiten/2022-01-12-release/public_holiday_person.png&quot; alt=&quot;Personübersicht mit Feiertagsregelung Auswahl&quot; decoding=&quot;async&quot; loading=&quot;lazy&quot; /&gt;
     &lt;/picture&gt;
     &lt;picture&gt;
         &lt;source srcset=&quot;https://urlaubsverwaltung.cloud/neuigkeiten/2022-01-12-release/public_holiday_person_change.avif&quot; type=&quot;image/avif&quot; /&gt;
         &lt;source srcset=&quot;https://urlaubsverwaltung.cloud/neuigkeiten/2022-01-12-release/public_holiday_person_change.webp&quot; type=&quot;image/webp&quot; /&gt;
-        &lt;img src=&quot;https://urlaubsverwaltung.cloud/neuigkeiten/2022-01-12-release/public_holiday_person_change.png&quot; alt=&quot;Feiertagregelungauswahl einer Person&quot; decoding=&quot;async&quot; /&gt;
+        &lt;img src=&quot;https://urlaubsverwaltung.cloud/neuigkeiten/2022-01-12-release/public_holiday_person_change.png&quot; alt=&quot;Feiertagsregelung Auswahl einer Person&quot; decoding=&quot;async&quot; /&gt;
     &lt;/picture&gt;
 &lt;/div&gt;
 &lt;h2 id=&quot;abwesenheiten-an-feiertagen&quot;&gt;Abwesenheiten an Feiertagen&lt;/h2&gt;
-&lt;p&gt;Die &lt;a href=&quot;https://urlaubsverwaltung.cloud/neuigkeiten/2022-01-12-release/#feiertagsregelung&quot;&gt;Feiertagsregelung&lt;/a&gt; wurde zudem um den Eintrag &lt;em&gt;Keine Feiertagsregelung&lt;/em&gt; erweitert. Mit dieser Einstellung
+&lt;p&gt;Die &lt;a href=&quot;https://urlaubsverwaltung.cloud/hilfe/feiertage/&quot;&gt;Feiertagsregelung&lt;/a&gt; wurde zudem um den Eintrag &lt;em&gt;Keine Feiertagsregelung&lt;/em&gt; erweitert. Mit dieser Einstellung
 ist es für die gesamte Urlaubsverwaltung sowie für bestimmte Personen möglich die Feiertagsregelung außer Kraft zu setzen und
 Abwesenheiten auch an Feiertagen einzutragen.&lt;/p&gt;
 &lt;picture&gt;
