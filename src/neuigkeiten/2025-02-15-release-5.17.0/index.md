@@ -1,6 +1,6 @@
 ---
 draft: false
-layout: layout-neuigkeiten
+layout: layout-neuigkeiten.hbs
 date: 2025-05-21
 title: Urlaubsverwaltung 5.17.0 – bessere Testdoku und Bugfixes für stabileres Verhalten
 author: Andreas Weigel
@@ -22,6 +22,7 @@ Mit **Release 5.17.0** liefert die Urlaubsverwaltung ein kleines, aber wichtiges
 Die README wurde aktualisiert und enthält nun eine überarbeitete Anleitung zur **Ausführung und Pflege von UI-Tests**. Diese Dokumentation ist besonders hilfreich für neue Mitwirkende sowie beim Onboarding neuer Entwickler:innen.
 
 **Was ist neu?**
+
 - Klarere Struktur
 - Konkrete Hinweise zur Testausführung
 - Bessere Lesbarkeit und Verständlichkeit
@@ -53,6 +54,7 @@ Ein seltener Fall, bei dem eine Person mit der Berechtigung **"INACTIVE"** als S
 Die Annotation `@Async` war im Code zwar vorhanden, jedoch nicht korrekt aktiviert – die notwendige Konfiguration (`@EnableAsync`) fehlte. Dadurch wurden asynchrone Prozesse nicht wie erwartet parallel ausgeführt.
 
 **Was wurde korrigiert?**
+
 - Aktivierung von `@EnableAsync`
 - Verbesserung der **Performance** und **Responsiveness** bei Hintergrundprozessen
 

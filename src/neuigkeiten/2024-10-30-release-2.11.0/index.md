@@ -1,6 +1,6 @@
 ---
 draft: false
-layout: layout-neuigkeiten
+layout: layout-neuigkeiten.hbs
 date: 2024-10-30
 title: Optimierung der UI in den Berichten und Eintrag über Mitternacht
 author: Andreas Weigel

@@ -1,6 +1,6 @@
 ---
 draft: false
-layout: layout-neuigkeiten
+layout: layout-neuigkeiten.hbs
 date: 2025-06-18
 title: Zeiterfassung 2.19.0 – Verbesserte Arbeitszeiteinstellungen & privilegierte Benutzeransicht
 author: Andreas Weigel
@@ -22,7 +22,7 @@ Release **2.19.0** der Zeiterfassung bringt spannende Neuerungen für die **Arbe
 Ab sofort können Nutzer ihre **Arbeitszeit auf 0 Stunden setzen**. Diese Funktion ist besonders nützlich, wenn eine Person an einem bestimmten Tag nicht arbeitet, beispielsweise bei einem **freien Tag** oder **Urlaub**. Statt manuell mit Stunden zu arbeiten, kann nun einfach „0 Stunden“ eingetragen werden.
 
 > **Warum ist das wichtig?**  
-Die Möglichkeit, Arbeitszeiten auf 0 Stunden zu setzen, vereinfacht die Zeiterfassung und macht die Anwendung flexibler bei der Verwaltung von Abwesenheiten.
+> Die Möglichkeit, Arbeitszeiten auf 0 Stunden zu setzen, vereinfacht die Zeiterfassung und macht die Anwendung flexibler bei der Verwaltung von Abwesenheiten.
 
 ---
 
@@ -33,7 +33,7 @@ Die Möglichkeit, Arbeitszeiten auf 0 Stunden zu setzen, vereinfacht die Zeiterf
 Privilegierte Nutzer haben jetzt die Möglichkeit, die **Startseitenansicht** einer anderen Person zu sehen. Dies ist besonders für **Vorgesetzte** oder **HR-Administratoren** nützlich, die die **Arbeitszeiten** ihrer Mitarbeiter:innen überwachen und verwalten müssen.
 
 > **Warum ist das wichtig?**  
-Diese Erweiterung verbessert die **Benutzerverwaltung** und ermöglicht es den verantwortlichen Personen, schnell einen Überblick über die Arbeitszeiterfassung ihrer Mitarbeiter zu bekommen.
+> Diese Erweiterung verbessert die **Benutzerverwaltung** und ermöglicht es den verantwortlichen Personen, schnell einen Überblick über die Arbeitszeiterfassung ihrer Mitarbeiter zu bekommen.
 
 ---
 
@@ -46,7 +46,7 @@ Diese Erweiterung verbessert die **Benutzerverwaltung** und ermöglicht es den v
 Ein Fehler, der beim Ändern von Berechtigungen auftrat, wurde behoben. Obwohl die Berechtigung tatsächlich geändert wurde, zeigte die Anwendung einen **Fehler** an, was zu Verwirrung bei den Nutzern führte. Dieser Bug wurde nun behoben, sodass Berechtigungsänderungen korrekt angezeigt werden.
 
 > **Warum ist das wichtig?**  
-Fehler bei der Berechtigungsverwaltung können zu Unsicherheit führen, besonders in sicherheitskritischen Bereichen wie der **Zeiterfassung**. Die Behebung dieses Bugs sorgt für eine verlässliche und transparente Benutzererfahrung.
+> Fehler bei der Berechtigungsverwaltung können zu Unsicherheit führen, besonders in sicherheitskritischen Bereichen wie der **Zeiterfassung**. Die Behebung dieses Bugs sorgt für eine verlässliche und transparente Benutzererfahrung.
 
 ---
 

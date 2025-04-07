@@ -1,6 +1,6 @@
 ---
 draft: false
-layout: layout-neuigkeiten
+layout: layout-neuigkeiten.hbs
 date: 2025-05-14
 title: Urlaubsverwaltung 5.15.0 – Performance-Optimierung für PostgreSQL-Datenbanken
 author: Andreas Weigel
@@ -22,6 +22,7 @@ Mit dem **Release 5.15.0** legt die Urlaubsverwaltung den Fokus auf eine technis
 In dieser Version wurde gezielt die **Indexierung von Fremdschlüsseln** in der Datenbankstruktur überprüft und angepasst. Das Ziel: **schnellere Datenbankabfragen**, vor allem bei komplexen Joins und hoher Datenlast.
 
 **Was wurde gemacht?**
+
 - Analyse bestehender Foreign Keys
 - Ergänzung fehlender Indizes
 - Optimierung für PostgreSQL-spezifisches Verhalten

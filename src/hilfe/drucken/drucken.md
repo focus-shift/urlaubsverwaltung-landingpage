@@ -1,5 +1,5 @@
 ---
-layout: layout-wissensbasis
+layout: layout-wissensbasis.hbs
 breadcrumb:
   title: Drucken
 title: Drucken - Hilfe

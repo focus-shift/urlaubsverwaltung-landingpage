@@ -1,6 +1,6 @@
 ---
 draft: false
-layout: layout-neuigkeiten
+layout: layout-neuigkeiten.hbs
 date: 2022-12-16
 title: In diesen Wochen sind 2023 deine Mitarbeitenden im Urlaub!
 author: Andreas Weigel

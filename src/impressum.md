@@ -1,5 +1,5 @@
 ---
-layout: layout-subpage
+layout: layout-subpage.hbs
 title: Impressum der urlaubsverwaltung.cloud
 backgroundColor: bg-white
 description: Impressum der urlaubsverwaltung.cloud

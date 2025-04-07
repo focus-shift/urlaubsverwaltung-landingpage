@@ -1,6 +1,6 @@
 ---
 draft: false
-layout: layout-neuigkeiten
+layout: layout-neuigkeiten.hbs
 date: 2023-10-27
 title: Dobrodošla Hrvatska - Kroatische Feiertage hinzugefügt 🇭🇷
 author: Andreas Weigel

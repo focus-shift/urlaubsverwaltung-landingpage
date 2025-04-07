@@ -1,6 +1,6 @@
 ---
 draft: false
-layout: layout-neuigkeiten
+layout: layout-neuigkeiten.hbs
 date: 2025-04-23
 title: Urlaubsverwaltung 5.10.0 – Regionale US-Feiertage erweitert
 author: Andreas Weigel
@@ -26,11 +26,13 @@ Mit dieser Erweiterung können nun Feiertage für die folgenden US-Regionen auto
 - **Maryland**
 
 **Was ist neu?**
+
 - Alle staatlich anerkannten Feiertage für die genannten Regionen sind jetzt im System verfügbar
 - Lokale Feiertage werden automatisch im Kalender reflektiert
 - Die Auswahl kann für einzelne Personen oder Teams individuell getroffen werden
 
 **Warum ist das wichtig?**
+
 - Bessere Unterstützung für **internationale oder US-basierte Teams**
 - Genauere Abbildung regionaler Arbeitszeitregelungen
 - Grundlage für eine skalierbare globale Nutzung der Urlaubsverwaltung

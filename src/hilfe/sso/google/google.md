@@ -1,5 +1,5 @@
 ---
-layout: layout-wissensbasis
+layout: layout-wissensbasis.hbs
 breadcrumb:
   title: SSO mit Google Workspace
 title: Google Workspace - Single Sign-On (SSO) - Hilfe

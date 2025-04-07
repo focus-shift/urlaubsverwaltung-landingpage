@@ -1,6 +1,6 @@
 ---
 draft: false
-layout: layout-neuigkeiten
+layout: layout-neuigkeiten.hbs
 date: 2025-04-25
 title: Zeiterfassung 2.15.0 – Neuer 'RolesFromClaimMapper' für Berechtigungsmanagement
 author: Andreas Weigel
@@ -22,7 +22,7 @@ Das **Release 2.15.0** der Zeiterfassung bringt eine wesentliche Verbesserung im
 In diesem Release wurde ein neuer **'RolesFromClaimMapper'** eingeführt, der es ermöglicht, **Querschnitts-Berechtigungen** für Benutzer effizient zu verwalten. Diese Funktion arbeitet mit einem **Full-Scope**-Ansatz, was bedeutet, dass die Berechtigungen für unterschiedliche **Benutzerrollen** und **Ansichten** übergreifend und präzise gesteuert werden können. Der 'RolesFromClaimMapper' verbessert somit die Handhabung von Berechtigungen und sorgt für eine verbesserte **Zugriffssteuerung** in komplexeren Anwendungen.
 
 > **Warum ist das wichtig?**  
-Der **'RolesFromClaimMapper'** vereinfacht die Verwaltung von Berechtigungen in größeren Systemen. Wenn Unternehmen **fein abgestufte** Berechtigungsanforderungen haben, können sie durch diese neue Funktion die **Zugriffsrechte** für ihre Mitarbeiter auf einer detaillierteren Ebene konfigurieren. Dies führt zu **mehr Flexibilität** und einer **besseren Anpassung** der Berechtigungen an spezifische Geschäftsanforderungen.
+> Der **'RolesFromClaimMapper'** vereinfacht die Verwaltung von Berechtigungen in größeren Systemen. Wenn Unternehmen **fein abgestufte** Berechtigungsanforderungen haben, können sie durch diese neue Funktion die **Zugriffsrechte** für ihre Mitarbeiter auf einer detaillierteren Ebene konfigurieren. Dies führt zu **mehr Flexibilität** und einer **besseren Anpassung** der Berechtigungen an spezifische Geschäftsanforderungen.
 
 ---
 

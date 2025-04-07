@@ -1,6 +1,6 @@
 ---
 draft: false
-layout: layout-neuigkeiten
+layout: layout-neuigkeiten.hbs
 date: 2025-06-11
 title: Zeiterfassung 2.18.0 – Verbesserte PostgreSQL-Performance & Bugfixes
 author: Andreas Weigel
@@ -22,7 +22,7 @@ Das **Release 2.18.0** bringt wichtige Verbesserungen für die **Performance** d
 Im Rahmen dieses Updates wurde die **PostgreSQL-Datenbankoptimierung** weiter vorangetrieben. Speziell wurde der **Foreign Key Indexing** verbessert, was zu einer höheren Datenbankleistung und schnelleren Abfragen führt.
 
 > **Warum ist das wichtig?**  
-Die Performance von **PostgreSQL** wird durch die Indizierung von Fremdschlüsseln erheblich gesteigert. Dies führt zu schnelleren Datenbankabfragen, besonders in größeren Systemen mit vielen Verknüpfungen zwischen Tabellen. Die Optimierung sorgt für eine **flüssigere Benutzererfahrung** bei der Arbeit mit großen Datenmengen.
+> Die Performance von **PostgreSQL** wird durch die Indizierung von Fremdschlüsseln erheblich gesteigert. Dies führt zu schnelleren Datenbankabfragen, besonders in größeren Systemen mit vielen Verknüpfungen zwischen Tabellen. Die Optimierung sorgt für eine **flüssigere Benutzererfahrung** bei der Arbeit mit großen Datenmengen.
 
 ---
 
@@ -35,7 +35,7 @@ Die Performance von **PostgreSQL** wird durch die Indizierung von Fremdschlüsse
 Ein Problem bei der **Personensuche** wurde behoben. Bisher war es nicht möglich, eine Person korrekt zu finden, wenn man sowohl den **Vornamen** als auch den **Nachnamen** eingab. Dieser Fehler führte dazu, dass keine Treffer angezeigt wurden, obwohl die Person in der Datenbank existierte.
 
 > **Warum ist das wichtig?**  
-Die Korrektur dieses Bugs stellt sicher, dass die **Suche nach Mitarbeitern** oder Nutzern nun wie erwartet funktioniert. Gerade bei großen Teams ist eine **schnelle und präzise Personensuche** entscheidend für die effiziente Zeiterfassung.
+> Die Korrektur dieses Bugs stellt sicher, dass die **Suche nach Mitarbeitern** oder Nutzern nun wie erwartet funktioniert. Gerade bei großen Teams ist eine **schnelle und präzise Personensuche** entscheidend für die effiziente Zeiterfassung.
 
 ---
 
@@ -46,7 +46,7 @@ Die Korrektur dieses Bugs stellt sicher, dass die **Suche nach Mitarbeitern** od
 Ein weiterer Fehler, der in der Anwendung auftrat, wurde ebenfalls behoben. Der **SyntaxError** im `turbo.js`-Skript verhinderte, dass die Anwendung korrekt geladen wurde. Der Fehler trat auf, wenn der Browser den Export-Befehl nicht korrekt verarbeitete.
 
 > **Warum ist das wichtig?**  
-Die Behebung dieses Syntaxfehlers stellt sicher, dass die **Benutzeroberfläche** ohne Probleme funktioniert und die Anwendung nun in allen gängigen Browsern korrekt dargestellt wird.
+> Die Behebung dieses Syntaxfehlers stellt sicher, dass die **Benutzeroberfläche** ohne Probleme funktioniert und die Anwendung nun in allen gängigen Browsern korrekt dargestellt wird.
 
 ---
 

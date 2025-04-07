@@ -1,6 +1,6 @@
 ---
 draft: false
-layout: layout-neuigkeiten
+layout: layout-neuigkeiten.hbs
 date: 2023-01-20
 title: Wie Open-Source-Software durch Transparenz den Datenschutz erhöht
 author: Andreas Weigel

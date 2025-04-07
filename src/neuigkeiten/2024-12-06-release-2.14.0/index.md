@@ -1,6 +1,6 @@
 ---
 draft: false
-layout: layout-neuigkeiten
+layout: layout-neuigkeiten.hbs
 date: 2025-04-18
 title: Zeiterfassung 2.14.0 – Neue Feiertage und Bugfixes
 author: Andreas Weigel
@@ -22,7 +22,7 @@ Das **Release 2.14.0** der Zeiterfassung bringt spannende neue Funktionen und wi
 Mit diesem Release wurden die **USA Feiertage** für **Washington, D.C., Virginia und Maryland** in die Zeiterfassung integriert. Nutzer aus diesen Regionen können nun problemlos ihre **Feiertage** in der Zeiterfassungssoftware eintragen und verwalten. Dies sorgt für eine verbesserte Anpassung der Anwendung an die regionalen Gegebenheiten und ermöglicht eine genauere Erfassung der Arbeitszeiten in diesen Gebieten.
 
 > **Warum ist das wichtig?**  
-Durch die Berücksichtigung regionaler Feiertage können Unternehmen und Mitarbeiter nun ihre **Urlaubs- und Arbeitszeiterfassung** genau und konform zu den gesetzlichen Vorgaben in diesen Regionen durchführen.
+> Durch die Berücksichtigung regionaler Feiertage können Unternehmen und Mitarbeiter nun ihre **Urlaubs- und Arbeitszeiterfassung** genau und konform zu den gesetzlichen Vorgaben in diesen Regionen durchführen.
 
 ---
 
@@ -41,7 +41,7 @@ Ein Fehler im **CI/CD-Workflow** wurde behoben, der dazu führte, dass der Schri
 Ein weiterer Bug wurde behoben, der dazu führte, dass der **Avatar** eines Nutzers nicht angezeigt wurde, wenn der **Name des Nutzers** mit einem Leerzeichen begann oder endete. Dieser Fehler wurde korrigiert, sodass Avatare jetzt auch bei Leerzeichen korrekt dargestellt werden.
 
 > **Warum ist das wichtig?**  
-Ein funktionierender Avatar ist nicht nur für die Benutzererfahrung wichtig, sondern trägt auch zur **Visibilität** und **Zugehörigkeit** der Nutzer innerhalb der Software bei. Mit diesem Fix wird die Anzeige von Avataren jetzt zuverlässig und korrekt gewährleistet.
+> Ein funktionierender Avatar ist nicht nur für die Benutzererfahrung wichtig, sondern trägt auch zur **Visibilität** und **Zugehörigkeit** der Nutzer innerhalb der Software bei. Mit diesem Fix wird die Anzeige von Avataren jetzt zuverlässig und korrekt gewährleistet.
 
 ---
 

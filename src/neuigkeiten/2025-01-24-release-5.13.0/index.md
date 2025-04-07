@@ -1,6 +1,6 @@
 ---
 draft: false
-layout: layout-neuigkeiten
+layout: layout-neuigkeiten.hbs
 date: 2025-05-07
 title: Urlaubsverwaltung 5.13.0 – Einfachere API-Abfrage für Überstundenabbau
 author: Andreas Weigel
@@ -22,11 +22,13 @@ Das neue **Release 5.13.0** der Urlaubsverwaltung bringt eine gezielte, aber wir
 In vielen Fällen wollen externe Tools oder Dienste Informationen über **Überstundenabbau** auslesen – insbesondere, wenn dieser über **mehrere Tage hinweg** erfolgt. Vor diesem Release war die Abfrage solcher Vorgänge technisch umständlich und teilweise uneinheitlich.
 
 **Was wurde verbessert?**
+
 - Vereinfachung der API-Struktur bei der Rückgabe von mehrtägigem Überstundenabbau
 - Einheitliche Darstellung im JSON-Format
 - Klarere Trennung von Urlaub und Überstundenabbau
 
 **Vorteile für Entwickler:innen:**
+
 - Weniger manuelle Nachbearbeitung der Daten
 - Bessere Integration in externe Anwendungen oder Reportingsysteme
 - Solide Grundlage für Automatisierungen und Statistiken

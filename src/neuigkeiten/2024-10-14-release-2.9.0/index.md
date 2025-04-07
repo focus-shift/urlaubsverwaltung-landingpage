@@ -1,6 +1,6 @@
 ---
 draft: false
-layout: layout-neuigkeiten
+layout: layout-neuigkeiten.hbs
 date: 2024-10-14
 title: Soll und Ist Arbeitszeit in der Berichtübersicht
 author: Andreas Weigel
