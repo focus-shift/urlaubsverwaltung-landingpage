@@ -63,7 +63,7 @@ Diese Funktion ermöglicht eine flexiblere Handhabung von Krankmeldungen und ist
         &lt;picture&gt;
             &lt;source srcset=&quot;https://urlaubsverwaltung.cloud/neuigkeiten/2024-10-30-release-2.11.0/MAIcons.avif&quot; type=&quot;image/avif&quot; /&gt;
             &lt;source srcset=&quot;https://urlaubsverwaltung.cloud/neuigkeiten/2024-10-30-release-2.11.0/MAIcons.webp&quot; type=&quot;image/webp&quot; /&gt;
-            &lt;img src=&quot;https://urlaubsverwaltung.cloud/neuigkeiten/2024-10-30-release-2.11.0/MAIcons.png&quot; alt=&quot;Zeiteinträge mit neuen Icons für Pausen und Kommentare&quot; decoding=&quot;async&quot; loading=&quot;lazy&quot; class=&quot;rounded-lg&quot; /&gt;
+            &lt;img src=&quot;https://urlaubsverwaltung.cloud/neuigkeiten/2024-10-30-release-2.11.0/MAIcons.jpg&quot; alt=&quot;Zeiteinträge mit neuen Icons für Pausen und Kommentare&quot; decoding=&quot;async&quot; loading=&quot;lazy&quot; class=&quot;rounded-lg&quot; /&gt;
         &lt;/picture&gt;
         &lt;figcaption class=&quot;text-sm text-center&quot;&gt;Zeiteinträge mit neuen Icons für Pausen und Kommentare&lt;/figcaption&gt;
     &lt;/figure&gt;
