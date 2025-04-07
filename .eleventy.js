@@ -18,11 +18,12 @@ const not =
 	fn =>
 	(...args) =>
 		!fn(...args);
+
 const isDraft = post =>
 	post.data.draft === "" ? true : Boolean(post.data.draft);
 
-const isPublished = post => {
-	const inputDate = new Date(post.date);
+const isPublicationDateReached = publicationDate => {
+	const inputDate = new Date(publicationDate);
 	const today = new Date();
 
 	const input = inputDate.toISOString().split("T")[0];
@@ -30,6 +31,9 @@ const isPublished = post => {
 
 	return input <= now;
 };
+
+const isPublished = post =>
+	not(isDraft(post)) && isPublicationDateReached(post.date);
 
 module.exports = function (eleventyConfig) {
 	eleventyConfig.setTemplateFormats(["njk", "hbs", "md", "html", "txt"]);
@@ -95,9 +99,7 @@ module.exports = function (eleventyConfig) {
 			.getFilteredByGlob("./src/neuigkeiten/**/*.md")
 			.reverse();
 
-		return prod
-			? allBlogPosts.filter(not(isDraft)).filter(isPublished)
-			: allBlogPosts;
+		return prod ? allBlogPosts.filter(isPublished) : allBlogPosts;
 	});
 
 	eleventyConfig.addHandlebarsHelper("toc", function (data) {
@@ -125,31 +127,18 @@ module.exports = function (eleventyConfig) {
 	});
 
 	eleventyConfig.addHandlebarsHelper(
-		"IsNotPublished",
+		"isPublicationDateNotReached",
 		function (dateString, options) {
-			const inputDate = new Date(dateString);
-			const today = new Date();
-
-			// Normalize to YYYY-MM-DD
-			const input = inputDate.toISOString().split("T")[0];
-			const now = today.toISOString().split("T")[0];
-
-			if (now < input) {
-				return options.fn(this);
-			} else {
+			if (isPublicationDateReached(dateString)) {
 				return options.inverse(this);
+			} else {
+				return options.fn(this);
 			}
 		},
 	);
 
-	eleventyConfig.addFilter("IsPublished", function (dateString) {
-		const today = new Date();
-		const inputDate = new Date(dateString);
-
-		const input = inputDate.toISOString().split("T")[0];
-		const now = today.toISOString().split("T")[0];
-
-		return input <= now;
+	eleventyConfig.addFilter("isPublicationDateReached", function (dateString) {
+		return isPublicationDateReached(dateString);
 	});
 
 	eleventyConfig.addHandlebarsHelper("daysFromNow", function (dateString) {
