@@ -1999,4 +1999,57 @@ Verwaltung in Richtung der Fachkompetenz stärken das Kerngeschäft.&lt;/p&gt;
 &lt;/div&gt;
 </content>
   </entry>
+  <entry>
+    <title>Version 4.15.0 veröffentlicht</title>
+    <link href="https://urlaubsverwaltung.cloud/neuigkeiten/2021-04-09-release/" />
+    <updated>2021-04-09T00:00:00Z</updated>
+    <id>https://urlaubsverwaltung.cloud/neuigkeiten/2021-04-09-release/</id>
+    <author>
+      <name>Benjamin Seber</name>
+    </author>
+    <content type="html">&lt;p&gt;Neue Features und Verbesserungen.&lt;/p&gt;
+&lt;h2 id=&quot;erinnerung-an-urlaubsbeginn&quot;&gt;Erinnerung an Urlaubsbeginn&lt;/h2&gt;
+&lt;div class=&quot;flex space-x-8&quot;&gt;
+  &lt;div class=&quot;max-w-2xl&quot;&gt;
+    &lt;p&gt;
+      Mit der neuen Version bringen wir dir die &lt;em class=&quot;font-bold&quot;&gt;Automatische Erinnerungsfunktion&lt;/em&gt;.
+    &lt;/p&gt;
+    &lt;p class=&quot;mb-4&quot;&gt;
+      In den Einstellungen kannst du ab sofort konfigurieren, ob deine Mitarbeiter:innen drei Tage vor Urlaubsbeginn automatisch per E-Mail informiert werden sollen oder nicht. So wird hoffentlich nicht mehr all zu oft vergessen die E-Mail Abwesenheitsnachricht einzurichten, oder noch rechtzeitig eine Übergabe zu planen.
+    &lt;/p&gt;
+    &lt;p&gt;
+      Natürlich kannst du auch einstellen wie viele Tage im voraus die Benachrichtigung versendet werden soll. Dir reicht ein Tag? Du willst eine Woche vorher die Information bekommen? Trage einfach die Tagesanzahl ein, die dir am besten passt.
+    &lt;/p&gt;
+    &lt;p&gt;
+      Aktuell gilt diese Einstellung für alle Anwender:innen der Urlaubsverwaltung. Noch ist es nicht möglich diese Einstellung für sich persönlich vorzunehmen.
+      Melde dich gerne bei uns falls dir die Funktion wichtig ist. Wir schauen dann wie wir das schneller umsetzen werden.
+    &lt;/p&gt;
+  &lt;/div&gt;
+  &lt;div class=&quot;flex-1&quot;&gt;
+    &lt;img src=&quot;https://urlaubsverwaltung.cloud/neuigkeiten/2021-04-09-release/einstellung-urlaubsbenachrichtigung.png&quot; alt=&quot;Einstellen der automatischen Benachrichtigung X Tage vor Urlaubsbeginn.&quot; class=&quot;mx-auto&quot; /&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;h2 id=&quot;halbe-urlaubstage-erlauben-oder-unterbinden&quot;&gt;Halbe Urlaubstage erlauben oder unterbinden&lt;/h2&gt;
+&lt;div class=&quot;flex space-x-8&quot;&gt;
+  &lt;div class=&quot;mr-8&quot;&gt;
+    &lt;img src=&quot;https://urlaubsverwaltung.cloud/neuigkeiten/2021-04-09-release/einstellung-halbe-urlaubstage.png&quot; alt=&quot;Einstellen ob halbe Urlaubstage erlaubt sind oder nicht.&quot; class=&quot;mx-auto&quot; /&gt;
+  &lt;/div&gt;
+  &lt;div class=&quot;max-w-2xl&quot;&gt;
+    &lt;p&gt;
+      Nach § 7 BUrlG hat die Arbeitgeberin die Urlaubswünsche des Arbeitnehmers zu berücksichtigen. Das gilt aber nur, wenn dem Urlaubswunsch
+    &lt;/p&gt;
+    &lt;ul&gt;
+      &lt;li&gt;weder dringende betriebliche Belange&lt;/li&gt;
+      &lt;li&gt;noch Urlaubswünsche anderer Arbeitnehmer, die unter sozialen Gesichtspunkten Vorrang haben,&lt;/li&gt;
+    &lt;/ul&gt;
+    &lt;p&gt;
+      nicht entgegenstehen.
+    &lt;/p&gt;
+    &lt;p&gt;
+      Das unterstützen wir ab sofort auch in der Urlaubsverwaltung. Bisher konnten &lt;em&gt;immer&lt;/em&gt; halbe &lt;em&gt;oder&lt;/em&gt; ganze Urlaubstage beantragt werden. Jetzt kannst du einstellen, ob halbe Urlaubstage in deinem Unternehmen erlaubt sind oder nicht.
+    &lt;/p&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+</content>
+  </entry>
 </feed>
