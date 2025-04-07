@@ -21,7 +21,7 @@ const not =
 const isDraft = post =>
 	post.data.draft === "" ? true : Boolean(post.data.draft);
 
-const isPublished = post => {
+const isPublicationDateReached = post => {
 	const inputDate = new Date(post.date);
 	const today = new Date();
 
@@ -96,7 +96,7 @@ module.exports = function (eleventyConfig) {
 			.reverse();
 
 		return prod
-			? allBlogPosts.filter(not(isDraft)).filter(isPublished)
+			? allBlogPosts.filter(not(isDraft)).filter(isPublicationDateReached)
 			: allBlogPosts;
 	});
 
@@ -125,7 +125,7 @@ module.exports = function (eleventyConfig) {
 	});
 
 	eleventyConfig.addHandlebarsHelper(
-		"IsNotPublished",
+		"isPublicationDateNotReached",
 		function (dateString, options) {
 			const inputDate = new Date(dateString);
 			const today = new Date();
@@ -142,7 +142,7 @@ module.exports = function (eleventyConfig) {
 		},
 	);
 
-	eleventyConfig.addFilter("IsPublished", function (dateString) {
+	eleventyConfig.addFilter("isPublicationDateReached", function (dateString) {
 		const today = new Date();
 		const inputDate = new Date(dateString);
 
