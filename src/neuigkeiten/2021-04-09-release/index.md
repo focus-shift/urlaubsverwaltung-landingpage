@@ -1,5 +1,5 @@
 ---
-draft: true
+draft: false
 layout: layout-neuigkeiten
 date: 2021-04-09
 title: Version 4.15.0 veröffentlicht
@@ -66,11 +66,3 @@ Neue Features und Verbesserungen.
   </div>
 </div>
 
-## Verschicke abgelehnten Kalendereintrag, wenn eine Abwesenheit zurückgenommen wird
-
-<div class="flex space-x-8">
-  <img src="cancelled.png" class="w-1/5 border-none" alt="per E-Mail ical Anhang einen Kalendereintrag mit einem Klick löschen lassen.">
-  <p class="max-w-lg">
-    Lorem ipsum
-  </p>
-</div>
