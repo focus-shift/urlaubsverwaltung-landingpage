@@ -1,0 +1,88 @@
+name: Build and deploy github pages
+
+on:
+  schedule:
+    - cron: "2 4 * * *"
+  push:
+    branches:
+      - main
+  pull_request:
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-20.04
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+      - name: setup nodejs
+        uses: actions/setup-node@v4
+        with:
+          node-version-file: ".tool-versions"
+          cache: 'npm'
+      - name: Install dependencies
+        run: npm ci
+      - name: Build
+        run: npm run build
+
+  link-check:
+    runs-on: ubuntu-20.04
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+      - name: setup nodejs
+        uses: actions/setup-node@v4
+        with:
+          node-version-file: ".tool-versions"
+          cache: 'npm'
+      - name: Install dependencies
+        run: npm ci
+      - name: Run Eleventy server
+        run: npm run dev & echo $! > eleventy.pid
+      - name: Wait for Eleventy server
+        run: |
+          for i in {1..20}; do
+            if curl -s -o /dev/null -w "%{http_code}" http://localhost:3000/; then
+              echo "Eleventy is running!"
+              break
+            fi
+            echo "Waiting for Eleventy..."
+            sleep 2
+          done
+      - name: Check internal links
+        run: docker run --rm --network host tennox/linkcheck:3.0.0 http://localhost:3000
+      - name: Shutdown Eleventy server
+        run: |
+          if [ -f eleventy.pid ]; then
+            kill $(cat eleventy.pid)
+            rm eleventy.pid
+            echo "Eleventy Server was shut down."
+          else
+            echo "No PID file found, skipping kill."
+          fi
+
+  deploy:
+    if: github.ref == 'refs/heads/main'
+    needs:
+      - build
+      - link-check
+    runs-on: ubuntu-20.04
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+      - name: Install dependencies
+        run: npm ci
+      - name: Build
+        run: |
+          npm run build
+          touch ./dist/.nojekyll
+          echo "urlaubsverwaltung.cloud" > ./dist/CNAME
+      - name: Deploy
+        uses: JamesIves/github-pages-deploy-action@v4.7.3
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          branch: gh-pages
+          folder: dist
