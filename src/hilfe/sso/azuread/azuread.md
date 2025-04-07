@@ -64,7 +64,7 @@ Registrierung starten.
       alt="App-Registrierung durchführen"
       decoding="async"
       loading="lazy"
-      width="1026"
+      width="1025"
       height="761"
     />
   </picture>
@@ -86,8 +86,8 @@ Nach erfolgreicher Registrierung kommst du auf die Übersichtsseite der App-Regi
       alt="Anwendungs-Id und Verzeichnis-Id kopieren"
       decoding="async"
       loading="lazy"
-      width="1024"
-      height="763"
+      width="1022"
+      height="764"
     />
   </picture>
 </p>
@@ -109,7 +109,7 @@ Neuer geheimer Clientschlüssel erstellen
       alt="Neuer geheimer Clientschlüssel hinzufügen"
       decoding="async"
       loading="lazy"
-      width="1027"
+      width="1024"
       height="768"
     />
   </picture>
@@ -174,8 +174,8 @@ entsprechende Microsoft Graph-Berechtigung aktiviert werden muss.
       alt="API-Berechtigung für registrierte App konfigurieren"
       decoding="async"
       loading="lazy"
-      width="1029"
-      height="502"
+      width="1022"
+      height="505"
     />
   </picture>
 </p>
@@ -198,8 +198,8 @@ Nun brauchen wir die Werte aus der Textdatei von [Schritt 1](#schritt-1:-neue-ap
       alt=""
       decoding="async"
       loading="lazy"
-      width="1022"
-      height="770"
+      width="1024"
+      height="768"
     />
   </picture>
 </p>
@@ -341,8 +341,8 @@ E-Mail mit Link zum Bestätigen der Benutzerkonto-Verknüpfung
       alt="E-Mail mit Link zum Konto verknüpfen"
       decoding="async"
       loading="lazy"
-      width="1022"
-      height="769"
+      width="1021"
+      height="767"
     />
   </picture>
 </p>
