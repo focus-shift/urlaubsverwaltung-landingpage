@@ -13,11 +13,11 @@ Das **Release 2.14.0** der Zeiterfassung bringt spannende neue Funktionen und wi
 
 <!-- more -->
 
-## ✨ Enhancements
+## Verbesserungen
 
-### 📅 USA Feiertage – Washington, D.C., Virginia und Maryland
+### USA Feiertage – Washington, D.C., Virginia und Maryland
 
-🔗 [#987 – USA Feiertage: Washington, D.C., Virginia und Maryland](https://github.com/urlaubsverwaltung/zeiterfassung/pull/987)
+[#987 – USA Feiertage: Washington, D.C., Virginia und Maryland](https://github.com/urlaubsverwaltung/zeiterfassung/pull/987)
 
 Mit diesem Release wurden die **USA Feiertage** für **Washington, D.C., Virginia und Maryland** in die Zeiterfassung integriert. Nutzer aus diesen Regionen können nun problemlos ihre **Feiertage** in der Zeiterfassungssoftware eintragen und verwalten. Dies sorgt für eine verbesserte Anpassung der Anwendung an die regionalen Gegebenheiten und ermöglicht eine genauere Erfassung der Arbeitszeiten in diesen Gebieten.
 
@@ -26,17 +26,17 @@ Mit diesem Release wurden die **USA Feiertage** für **Washington, D.C., Virgini
 
 ---
 
-## 🐞 Bugs
+## Fehlerbehebungen
 
-### 🚧 [Workflow] "Upload artifacts of failed tests" nur ausführen, wenn Dateien vorhanden sind
+### [Workflow] "Upload artifacts of failed tests" nur ausführen, wenn Dateien vorhanden sind
 
-🔗 [#963 – Workflow Bugfix: Upload artifacts of failed tests nur ausführen, wenn Dateien vorhanden sind](https://github.com/urlaubsverwaltung/zeiterfassung/pull/963)
+[#963 – Workflow Bugfix: Upload artifacts of failed tests nur ausführen, wenn Dateien vorhanden sind](https://github.com/urlaubsverwaltung/zeiterfassung/pull/963)
 
 Ein Fehler im **CI/CD-Workflow** wurde behoben, der dazu führte, dass der Schritt "Upload artifacts of failed tests" auch dann ausgeführt wurde, wenn keine Dateien vorhanden waren. Jetzt wird dieser Schritt nur noch ausgelöst, wenn tatsächlich **Fehlerdateien** vorhanden sind, was den Prozess optimiert und Ressourcen spart.
 
-### 🚧 Avatar nicht verfügbar, wenn Name mit Leerzeichen beginnt/endet
+### Avatar nicht verfügbar, wenn Name mit Leerzeichen beginnt/endet
 
-🔗 [#970 – Avatar Bugfix: Fehler bei Leerzeichen im Avatar-Namen](https://github.com/urlaubsverwaltung/zeiterfassung/pull/970)
+[#970 – Avatar Bugfix: Fehler bei Leerzeichen im Avatar-Namen](https://github.com/urlaubsverwaltung/zeiterfassung/pull/970)
 
 Ein weiterer Bug wurde behoben, der dazu führte, dass der **Avatar** eines Nutzers nicht angezeigt wurde, wenn der **Name des Nutzers** mit einem Leerzeichen begann oder endete. Dieser Fehler wurde korrigiert, sodass Avatare jetzt auch bei Leerzeichen korrekt dargestellt werden.
 
@@ -45,9 +45,9 @@ Ein weiterer Bug wurde behoben, der dazu führte, dass der **Avatar** eines Nutz
 
 ---
 
-## ✅ Fazit
+## Fazit
 
 **Release 2.14.0** bringt mit der Integration der **USA Feiertage** für Washington, D.C., Virginia und Maryland eine wichtige Anpassung für Nutzer aus diesen Regionen. Dazu wurden auch mehrere **Bugfixes** durchgeführt, die die Stabilität und Benutzerfreundlichkeit der Zeiterfassung weiter verbessern.
 
 👉 Zur vollständigen Release-Übersicht:  
-🔗 [Release 2.14.0 auf GitHub ansehen](https://github.com/urlaubsverwaltung/zeiterfassung/releases/tag/zeiterfassung-2.14.0)
+[Release 2.14.0 auf GitHub ansehen](https://github.com/urlaubsverwaltung/zeiterfassung/releases/tag/zeiterfassung-2.14.0)

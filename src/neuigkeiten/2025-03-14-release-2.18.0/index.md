@@ -13,11 +13,11 @@ Das **Release 2.18.0** bringt wichtige Verbesserungen für die **Performance** d
 
 <!-- more -->
 
-## ✨ Enhancements
+## Verbesserungen
 
-### ⚙️ Foreign Key Indexing und Performance-Optimierung in PostgreSQL
+### Foreign Key Indexing und Performance-Optimierung in PostgreSQL
 
-🔗 [#1144 – Foreign Key Indexing and Performance in PostgreSQL](https://github.com/urlaubsverwaltung/zeiterfassung/pull/1144)
+[#1144 – Foreign Key Indexing and Performance in PostgreSQL](https://github.com/urlaubsverwaltung/zeiterfassung/pull/1144)
 
 Im Rahmen dieses Updates wurde die **PostgreSQL-Datenbankoptimierung** weiter vorangetrieben. Speziell wurde der **Foreign Key Indexing** verbessert, was zu einer höheren Datenbankleistung und schnelleren Abfragen führt.
 
@@ -26,11 +26,11 @@ Im Rahmen dieses Updates wurde die **PostgreSQL-Datenbankoptimierung** weiter vo
 
 ---
 
-## 🐞 Bugs
+## Fehlerbehebungen
 
-### 🔍 Suche nach einer Person mit Vorname und Nachname ergibt keine Treffer
+### Suche nach einer Person mit Vorname und Nachname ergibt keine Treffer
 
-🔗 [#1142 – Suche nach einer Person mit Vorname und Nachname ergibt keine Treffer](https://github.com/urlaubsverwaltung/zeiterfassung/pull/1142)
+[#1142 – Suche nach einer Person mit Vorname und Nachname ergibt keine Treffer](https://github.com/urlaubsverwaltung/zeiterfassung/pull/1142)
 
 Ein Problem bei der **Personensuche** wurde behoben. Bisher war es nicht möglich, eine Person korrekt zu finden, wenn man sowohl den **Vornamen** als auch den **Nachnamen** eingab. Dieser Fehler führte dazu, dass keine Treffer angezeigt wurden, obwohl die Person in der Datenbank existierte.
 
@@ -39,9 +39,9 @@ Ein Problem bei der **Personensuche** wurde behoben. Bisher war es nicht möglic
 
 ---
 
-### ⚠️ Uncaught SyntaxError: Unexpected token 'export' bei turbo.js
+### Uncaught SyntaxError: Unexpected token 'export' bei turbo.js
 
-🔗 [#1140 – Uncaught SyntaxError: Unexpected token 'export' at turbo.js](https://github.com/urlaubsverwaltung/zeiterfassung/pull/1140)
+[#1140 – Uncaught SyntaxError: Unexpected token 'export' at turbo.js](https://github.com/urlaubsverwaltung/zeiterfassung/pull/1140)
 
 Ein weiterer Fehler, der in der Anwendung auftrat, wurde ebenfalls behoben. Der **SyntaxError** im `turbo.js`-Skript verhinderte, dass die Anwendung korrekt geladen wurde. Der Fehler trat auf, wenn der Browser den Export-Befehl nicht korrekt verarbeitete.
 
@@ -50,9 +50,9 @@ Ein weiterer Fehler, der in der Anwendung auftrat, wurde ebenfalls behoben. Der 
 
 ---
 
-## ✅ Fazit
+## Fazit
 
 **Release 2.18.0** bringt mit der Verbesserung des **PostgreSQL-Indexing** eine wichtige **Performance-Steigerung**, die die Anwendung schneller und effizienter macht. Die behobenen **Bugs** sorgen für eine verbesserte Benutzererfahrung, insbesondere bei der **Personensuche** und der **Fehlerbehebung im JavaScript**.
 
 👉 Zur vollständigen Release-Übersicht:  
-🔗 [Release 2.18.0 auf GitHub ansehen](https://github.com/urlaubsverwaltung/zeiterfassung/releases/tag/zeiterfassung-2.18.0)
+[Release 2.18.0 auf GitHub ansehen](https://github.com/urlaubsverwaltung/zeiterfassung/releases/tag/zeiterfassung-2.18.0)

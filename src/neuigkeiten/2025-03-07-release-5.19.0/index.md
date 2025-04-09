@@ -13,9 +13,9 @@ Mit der neuen Version **5.19.0** der Urlaubsverwaltung werden gleich zwei wichti
 
 <!-- more -->
 
-## 📩 Antwort-An auf Antragssteller setzen bei Benachrichtigungen an vorgesetzte Person
+## Antwort-An auf Antragssteller setzen bei Benachrichtigungen an vorgesetzte Person
 
-🔗 [#5055 – Antwort-An auf Antragssteller setzen bei Benachrichtigungen an vorgesetzte Person](https://github.com/urlaubsverwaltung/urlaubsverwaltung/pull/5055)
+[#5055 – Antwort-An auf Antragssteller setzen bei Benachrichtigungen an vorgesetzte Person](https://github.com/urlaubsverwaltung/urlaubsverwaltung/pull/5055)
 
 Ab sofort wird bei Benachrichtigungen über Urlaubsanträge an die **vorgesetzte Person** der **Antwort-An** direkt auf den **Antragssteller** gesetzt. Dies erleichtert den Kommunikationsprozess, da die vorgesetzte Person direkt auf die Anfrage des Mitarbeiters oder der Mitarbeiterin antworten kann, ohne manuell die E-Mail-Adresse des Antragsstellers hinzufügen zu müssen.
 
@@ -23,9 +23,9 @@ Ab sofort wird bei Benachrichtigungen über Urlaubsanträge an die **vorgesetzte
 
 ---
 
-## ⚠️ Benachrichtigung an privilegierte Personen bei Änderung einer Krankmeldung
+## Benachrichtigung an privilegierte Personen bei Änderung einer Krankmeldung
 
-🔗 [#4768 – Benachrichtigung an privilegierte Personen bei Änderung einer Krankmeldung](https://github.com/urlaubsverwaltung/urlaubsverwaltung/pull/4768)
+[#4768 – Benachrichtigung an privilegierte Personen bei Änderung einer Krankmeldung](https://github.com/urlaubsverwaltung/urlaubsverwaltung/pull/4768)
 
 Änderungen an einer **Krankmeldung** lösen nun eine **Benachrichtigung** an die **privilegierten Personen** aus, wie z. B. den **Vorgesetzten** oder den **HR-Verantwortlichen**. Diese Funktion stellt sicher, dass alle relevanten Personen sofort informiert werden, wenn es Änderungen an Krankmeldungen gibt.
 
@@ -33,9 +33,9 @@ Ab sofort wird bei Benachrichtigungen über Urlaubsanträge an die **vorgesetzte
 
 ---
 
-## 🚀 Fazit
+## Fazit
 
 Mit dem **Release 5.19.0** hat die Urlaubsverwaltung zwei bedeutende **Verbesserungen** im Bereich der **Kommunikation** und **Benachrichtigung** eingeführt. Diese Änderungen optimieren den Arbeitsablauf und sorgen für mehr **Effizienz** und **Transparenz** im Umgang mit Urlaubs- und Krankheitsanträgen.
 
 👉 Zur vollständigen Release-Übersicht:  
-🔗 [Release 5.19.0 auf GitHub ansehen](https://github.com/urlaubsverwaltung/urlaubsverwaltung/releases/tag/urlaubsverwaltung-5.19.0)
+[Release 5.19.0 auf GitHub ansehen](https://github.com/urlaubsverwaltung/urlaubsverwaltung/releases/tag/urlaubsverwaltung-5.19.0)

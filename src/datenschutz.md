@@ -2,7 +2,7 @@
 layout: layout-subpage.hbs
 title: Datenschutz UV
 backgroundColor: bg-white
-description: Data privacy by design - weil Transparenz uns wichtig ist. 
+description: Data privacy by design - weil Transparenz uns wichtig ist.
 ---
 
 <article>
@@ -183,7 +183,7 @@ gestattet ist.
 #### 4.2.1.
 
 Soweit wir für Verarbeitungsvorgänge personenbezogener Daten eine Einwilligung der
-betroffenen Person einholen, dient Art. 6 Abs. 1 S. 1 lit. a EU-Datenschutzgrundverordnung
+betroffenen Person einholen, dient Art. 6 Abs. 1 S. 1 lit. a EU-Datenschutzgrundverordnung
 (DSGVO) als Rechtsgrundlage.
 
 #### 4.2.2.

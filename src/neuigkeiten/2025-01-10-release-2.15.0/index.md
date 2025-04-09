@@ -13,11 +13,11 @@ Das **Release 2.15.0** der Zeiterfassung bringt eine wesentliche Verbesserung im
 
 <!-- more -->
 
-## ✨ Enhancements
+## Verbesserungen
 
-### 🛠️ Neuer 'RolesFromClaimMapper'
+### Neuer 'RolesFromClaimMapper'
 
-🔗 [#1030 – Neuer 'RolesFromClaimMapper' für Querschnitts-Berechtigungen](https://github.com/urlaubsverwaltung/zeiterfassung/pull/1030)
+[#1030 – Neuer 'RolesFromClaimMapper' für Querschnitts-Berechtigungen](https://github.com/urlaubsverwaltung/zeiterfassung/pull/1030)
 
 In diesem Release wurde ein neuer **'RolesFromClaimMapper'** eingeführt, der es ermöglicht, **Querschnitts-Berechtigungen** für Benutzer effizient zu verwalten. Diese Funktion arbeitet mit einem **Full-Scope**-Ansatz, was bedeutet, dass die Berechtigungen für unterschiedliche **Benutzerrollen** und **Ansichten** übergreifend und präzise gesteuert werden können. Der 'RolesFromClaimMapper' verbessert somit die Handhabung von Berechtigungen und sorgt für eine verbesserte **Zugriffssteuerung** in komplexeren Anwendungen.
 
@@ -26,9 +26,9 @@ In diesem Release wurde ein neuer **'RolesFromClaimMapper'** eingeführt, der es
 
 ---
 
-## ✅ Fazit
+## Fazit
 
 **Release 2.15.0** bringt mit dem neuen **'RolesFromClaimMapper'** eine bedeutende **Erweiterung** im Bereich der Berechtigungsverwaltung. Mit dieser Funktion wird die Zuweisung von Rollen und Rechten für Benutzer viel präziser und effizienter, was besonders für Unternehmen mit komplexen Berechtigungsanforderungen von großer Bedeutung ist.
 
 👉 Zur vollständigen Release-Übersicht:  
-🔗 [Release 2.15.0 auf GitHub ansehen](https://github.com/urlaubsverwaltung/zeiterfassung/releases/tag/zeiterfassung-2.15.0)
+[Release 2.15.0 auf GitHub ansehen](https://github.com/urlaubsverwaltung/zeiterfassung/releases/tag/zeiterfassung-2.15.0)

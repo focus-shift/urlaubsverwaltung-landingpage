@@ -13,11 +13,11 @@ Release **5.9.0** der Urlaubsverwaltung bringt Verbesserungen in zwei zentralen 
 
 <!-- more -->
 
-## ✨ Enhancements
+## Verbesserungen
 
-### 🌐 [Workflows] UI-Tests jetzt in allen gängigen Browsern
+### [Workflows] UI-Tests jetzt in allen gängigen Browsern
 
-🔗 [#4969 – run all UI tests with all browsers](https://github.com/urlaubsverwaltung/urlaubsverwaltung/pull/4969)
+[#4969 – run all UI tests with all browsers](https://github.com/urlaubsverwaltung/urlaubsverwaltung/pull/4969)
 
 Um die Qualität der Benutzeroberfläche weiter zu sichern, laufen nun sämtliche **UI-Tests in allen unterstützten Browsern**. Das bedeutet:
 
@@ -25,7 +25,7 @@ Um die Qualität der Benutzeroberfläche weiter zu sichern, laufen nun sämtlich
 - Schnellere Fehlererkennung bei Layout oder Verhalten
 - Verbesserte Sicherheit bei Rollouts neuer Funktionen
 
-🧪 Unterstützt werden z. B.:
+Unterstützt werden z. B.:
 
 - Chromium
 - Firefox
@@ -35,9 +35,9 @@ Um die Qualität der Benutzeroberfläche weiter zu sichern, laufen nun sämtlich
 
 ---
 
-### 📅 Feiertage automatisch via Jollyday verwaltet
+### Feiertage automatisch via Jollyday verwaltet
 
-🔗 [#4959 – use public holidays from Jollyday instead of custom logic](https://github.com/urlaubsverwaltung/urlaubsverwaltung/pull/4959)
+[#4959 – use public holidays from Jollyday instead of custom logic](https://github.com/urlaubsverwaltung/urlaubsverwaltung/pull/4959)
 
 Die Berechnung von gesetzlichen Feiertagen wurde auf eine neue Grundlage gestellt: Die Urlaubsverwaltung nutzt nun die etablierte Open-Source-Bibliothek [Jollyday](https://github.com/svendiedrichsen/jollyday).
 
@@ -51,9 +51,9 @@ Die Berechnung von gesetzlichen Feiertagen wurde auf eine neue Grundlage gestell
 
 ---
 
-## ✅ Fazit
+## Fazit
 
 **Release 5.9.0** ist ein weiterer Qualitätsschritt: Die Anwendung wird durch umfassende **automatisierte UI-Tests** robuster und gleichzeitig durch **Jollyday**-Integration deutlich wartungsärmer in der Feiertagsverwaltung. Das freut sowohl Entwickler:innen als auch Administrator:innen.
 
 👉 Zur vollständigen Release-Übersicht:  
-🔗 [Release 5.9.0 auf GitHub ansehen](https://github.com/urlaubsverwaltung/urlaubsverwaltung/releases/tag/urlaubsverwaltung-5.9.0)
+[Release 5.9.0 auf GitHub ansehen](https://github.com/urlaubsverwaltung/urlaubsverwaltung/releases/tag/urlaubsverwaltung-5.9.0)

@@ -13,11 +13,11 @@ description: Mit Version 5.14.0 wird die Benutzerübersicht deutlich schneller g
 
 <!-- more -->
 
-## ✨ Enhancements
+## Verbesserungen
 
-### ⚡️ Optimierung beim Laden der Benutzerübersicht
+### Optimierung beim Laden der Benutzerübersicht
 
-🔗 [#4753 – Laden der Benutzerübersicht optimiert](https://github.com/urlaubsverwaltung/urlaubsverwaltung/pull/4753)
+[#4753 – Laden der Benutzerübersicht optimiert](https://github.com/urlaubsverwaltung/urlaubsverwaltung/pull/4753)
 
 Die Benutzerübersicht ist häufig der Einstiegspunkt für viele Administrierende und Vorgesetzte – umso wichtiger, dass sie **schnell und performant** lädt. In diesem Update wurde genau daran gearbeitet.
 
@@ -33,9 +33,9 @@ Die Benutzerübersicht ist häufig der Einstiegspunkt für viele Administrierend
 
 ---
 
-### 📘 Überarbeitung der README
+### Überarbeitung der README
 
-🔗 [#5105 – Readme operations](https://github.com/urlaubsverwaltung/urlaubsverwaltung/pull/5105)
+[#5105 – Readme operations](https://github.com/urlaubsverwaltung/urlaubsverwaltung/pull/5105)
 
 Die README-Datei wurde überarbeitet, um Informationen klarer und aktueller darzustellen. Neue Nutzer:innen erhalten dadurch einen besseren Einstieg in die Anwendung.
 
@@ -47,9 +47,9 @@ Die README-Datei wurde überarbeitet, um Informationen klarer und aktueller darz
 
 ---
 
-### 🧹 Entfernung veralteter `vacationDays()`-Methode
+### Entfernung veralteter `vacationDays()`-Methode
 
-🔗 [#4752 – Remove deprecated vacationdays method](https://github.com/urlaubsverwaltung/urlaubsverwaltung/pull/4752)
+[#4752 – Remove deprecated vacationdays method](https://github.com/urlaubsverwaltung/urlaubsverwaltung/pull/4752)
 
 Die veraltete Methode `vacationDays()` wurde entfernt. Damit wird der Quellcode weiter bereinigt und modernisiert – ein kleiner, aber wichtiger Schritt in Richtung langfristiger Wartbarkeit.
 
@@ -61,9 +61,9 @@ Die veraltete Methode `vacationDays()` wurde entfernt. Damit wird der Quellcode 
 
 ---
 
-## ✅ Fazit
+## Fazit
 
 Mit **Version 5.14.0** wird die Urlaubsverwaltung wieder ein Stück **schneller**, **aufgeräumter** und **besser dokumentiert**. Wer viele Benutzer:innen verwaltet oder die Software weiterentwickelt, profitiert besonders von diesem Update.
 
 👉 Zur vollständigen Release-Übersicht:  
-🔗 [Release 5.14.0 auf GitHub ansehen](https://github.com/urlaubsverwaltung/urlaubsverwaltung/releases/tag/urlaubsverwaltung-5.14.0)
+[Release 5.14.0 auf GitHub ansehen](https://github.com/urlaubsverwaltung/urlaubsverwaltung/releases/tag/urlaubsverwaltung-5.14.0)

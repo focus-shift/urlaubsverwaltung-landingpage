@@ -13,11 +13,11 @@ In der Version **5.11.0** der Urlaubsverwaltung steht alles im Zeichen der **Int
 
 <!-- more -->
 
-## ✨ Enhancement
+## Verbesserungen
 
-### 🆕 Neuer `RolesFromClaimMapper` für Full-Scope-Rollen aus Claims
+### Neuer `RolesFromClaimMapper` für Full-Scope-Rollen aus Claims
 
-🔗 [#5067 – Neuer 'RolesFromClaimMapper' um Querschnitts-Berechtigungen via Full-Scope zu erhalten](https://github.com/urlaubsverwaltung/urlaubsverwaltung/pull/5067)
+[#5067 – Neuer 'RolesFromClaimMapper' um Querschnitts-Berechtigungen via Full-Scope zu erhalten](https://github.com/urlaubsverwaltung/urlaubsverwaltung/pull/5067)
 
 Mit diesem Release wird ein **neuer Mapper für Rollen aus Claims** eingeführt, der besonders für Setups mit zentraler Rollensteuerung über einen Identity Provider (z.B. Keycloak, Auth0, Azure AD) relevant ist.
 
@@ -35,7 +35,7 @@ Mit diesem Release wird ein **neuer Mapper für Rollen aus Claims** eingeführt,
 
 ---
 
-## ⚙️ Für wen ist das interessant?
+## Für wen ist das interessant?
 
 Dieses Feature richtet sich vor allem an:
 
@@ -45,9 +45,9 @@ Dieses Feature richtet sich vor allem an:
 
 ---
 
-## ✅ Fazit
+## Fazit
 
 **Release 5.11.0** erweitert die Authentifizierungs- und Autorisierungsoptionen erheblich. Der neue `RolesFromClaimMapper` bringt die Flexibilität, **Rollen automatisiert und zentral** zu steuern – ein wichtiger Schritt für den professionellen und sicheren Einsatz in Unternehmen.
 
 👉 Zur vollständigen Release-Übersicht:  
-🔗 [Release 5.11.0 auf GitHub ansehen](https://github.com/urlaubsverwaltung/urlaubsverwaltung/releases/tag/urlaubsverwaltung-5.11.0)
+[Release 5.11.0 auf GitHub ansehen](https://github.com/urlaubsverwaltung/urlaubsverwaltung/releases/tag/urlaubsverwaltung-5.11.0)

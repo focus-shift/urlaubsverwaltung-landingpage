@@ -13,11 +13,11 @@ In der neuen Version **5.10.0** erweitert die Urlaubsverwaltung ihre Unterstütz
 
 <!-- more -->
 
-## ✨ Enhancement
+## Verbesserungen
 
-### 🇺🇸 Neue Feiertagskalender für US-Bundesstaaten
+### Neue Feiertagsregelungen für US-Bundesstaaten
 
-🔗 [#5009 – USA Feiertage – Washington, D.C., Virginia und Maryland](https://github.com/urlaubsverwaltung/urlaubsverwaltung/pull/5009)
+[#5009 – USA Feiertage – Washington, D.C., Virginia und Maryland](https://github.com/urlaubsverwaltung/urlaubsverwaltung/pull/5009)
 
 Mit dieser Erweiterung können nun Feiertage für die folgenden US-Regionen automatisch berücksichtigt werden:
 
@@ -39,15 +39,15 @@ Mit dieser Erweiterung können nun Feiertage für die folgenden US-Regionen auto
 
 ---
 
-## 🌍 Internationalisierung im Fokus
+## Internationalisierung im Fokus
 
 Diese Erweiterung ist Teil der kontinuierlichen Bemühungen, die Urlaubsverwaltung für **multinationale Organisationen** nutzbar zu machen. Mit jeder neuen Region wird das Tool vielseitiger – und gerechter im Umgang mit Urlaubstagen und Feiertagsregelungen.
 
 ---
 
-## ✅ Fazit
+## Fazit
 
 Mit Release **5.10.0** wird die Urlaubsverwaltung erneut internationaler. Unternehmen mit Standorten in Washington, D.C., Virginia oder Maryland profitieren von der genauen Feiertagsberechnung – ein weiterer Schritt Richtung globaler Einsatzfähigkeit.
 
 👉 Zur vollständigen Release-Übersicht:  
-🔗 [Release 5.10.0 auf GitHub ansehen](https://github.com/urlaubsverwaltung/urlaubsverwaltung/releases/tag/urlaubsverwaltung-5.10.0)
+[Release 5.10.0 auf GitHub ansehen](https://github.com/urlaubsverwaltung/urlaubsverwaltung/releases/tag/urlaubsverwaltung-5.10.0)

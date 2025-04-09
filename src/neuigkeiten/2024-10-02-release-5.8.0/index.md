@@ -13,11 +13,11 @@ Das **Release 5.8.0** bringt bedeutende Verbesserungen in zwei Bereichen: **Kube
 
 <!-- more -->
 
-## ✨ Enhancements
+## Verbesserungen
 
-### ⚙️ Kubernetes-Upgrade: Startprobe und Unterstützung für ältere Versionen entfernt
+### Kubernetes-Upgrade: Startprobe und Unterstützung für ältere Versionen entfernt
 
-🔗 [#4919 – Add startup probe and remove support for k8s <= 1.18 in chart from 6.0.0](https://github.com/urlaubsverwaltung/urlaubsverwaltung/pull/4919)
+[#4919 – Add startup probe and remove support for k8s <= 1.18 in chart from 6.0.0](https://github.com/urlaubsverwaltung/urlaubsverwaltung/pull/4919)
 
 Die Kubernetes-Unterstützung wird auf die Version **1.19** und höher fokussiert. Wichtige Änderungen:
 
@@ -29,9 +29,9 @@ Die Kubernetes-Unterstützung wird auf die Version **1.19** und höher fokussier
 
 ---
 
-### 🏥 Erweiterung der Krankmeldung: Mehr Flexibilität für bestehende Krankmeldungen
+### Erweiterung der Krankmeldung: Mehr Flexibilität für bestehende Krankmeldungen
 
-🔗 [#4313 – Eigene bestehende Krankmeldung erweitern](https://github.com/urlaubsverwaltung/urlaubsverwaltung/pull/4313)
+[#4313 – Eigene bestehende Krankmeldung erweitern](https://github.com/urlaubsverwaltung/urlaubsverwaltung/pull/4313)
 
 Diese Erweiterung erlaubt es, **bestehende Krankmeldungen zu bearbeiten** und flexibel anzupassen. Die wichtigsten Neuerungen:
 
@@ -39,13 +39,13 @@ Diese Erweiterung erlaubt es, **bestehende Krankmeldungen zu bearbeiten** und fl
 - Bessere Anpassungsmöglichkeiten, wenn sich etwa der Zeitraum oder der Status einer Krankmeldung ändert.
 
 > **Warum ist das wichtig?**  
-> Diese Funktion ermöglicht eine flexiblere Handhabung von Krankmeldungen und ist besonders hilfreich, wenn Änderungen nachträglich erforderlich sind, z. B. bei einer Verlängerung der Krankheitsdauer oder der Anpassung der Entgeltfortzahlung.
+> Diese Funktion ermöglicht eine flexiblere Handhabung von Krankmeldungen und ist besonders hilfreich, wenn Änderungen nachträglich erforderlich sind, z. B. bei einer Verlängerung der Krankheitsdauer oder der Anpassung der Entgeltfortzahlung.
 
 ---
 
-## ✅ Fazit
+## Fazit
 
 Release **5.8.0** liefert zwei große Neuerungen: Mit der **Kubernetes-Upgrade**-Anpassung bleibt die Urlaubsverwaltung auf dem neuesten Stand und bietet **verbesserte Betriebsstabilität**. Gleichzeitig sorgt die **Erweiterung der Krankmeldung** für eine noch **benutzerfreundlichere Verwaltung von Krankheitsfällen**.
 
 👉 Zur vollständigen Release-Übersicht:  
-🔗 [Release 5.8.0 auf GitHub ansehen](https://github.com/urlaubsverwaltung/urlaubsverwaltung/releases/tag/urlaubsverwaltung-5.8.0)
+[Release 5.8.0 auf GitHub ansehen](https://github.com/urlaubsverwaltung/urlaubsverwaltung/releases/tag/urlaubsverwaltung-5.8.0)

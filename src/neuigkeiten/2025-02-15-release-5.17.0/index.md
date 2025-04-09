@@ -13,11 +13,11 @@ Mit **Release 5.17.0** liefert die Urlaubsverwaltung ein kleines, aber wichtiges
 
 <!-- more -->
 
-## ✨ Enhancements
+## Verbesserungen
 
-### 🧪 Dokumentation der UI-Tests aktualisiert
+### Dokumentation der UI-Tests aktualisiert
 
-🔗 [#5162 – UI Test Doku in README aktualisieren](https://github.com/urlaubsverwaltung/urlaubsverwaltung/pull/5162)
+[#5162 – UI Test Doku in README aktualisieren](https://github.com/urlaubsverwaltung/urlaubsverwaltung/pull/5162)
 
 Die README wurde aktualisiert und enthält nun eine überarbeitete Anleitung zur **Ausführung und Pflege von UI-Tests**. Diese Dokumentation ist besonders hilfreich für neue Mitwirkende sowie beim Onboarding neuer Entwickler:innen.
 
@@ -34,22 +34,22 @@ Die README wurde aktualisiert und enthält nun eine überarbeitete Anleitung zur
 
 ---
 
-## 🐞 Bugfixes
+## Fehlerbehebungen
 
-### 🙈 Inaktive Stellvertretung führte zu Fehlern
+### Inaktive Stellvertretung führte zu Fehlern
 
-🔗 [#5143 – Backup an inactive person with permission "INACTIVE"](https://github.com/urlaubsverwaltung/urlaubsverwaltung/pull/5143)
+[#5143 – Backup an inactive person with permission "INACTIVE"](https://github.com/urlaubsverwaltung/urlaubsverwaltung/pull/5143)
 
 Ein seltener Fall, bei dem eine Person mit der Berechtigung **"INACTIVE"** als Stellvertretung (Backup) eingetragen war, führte zu inkonsistentem Verhalten. Dies wurde behoben – inaktive Personen werden nun korrekt behandelt.
 
 **Ergebnis:**  
-✅ Kein Versand oder Fehler mehr durch inaktive Accounts in Stellvertreterrollen.
+Kein Versand oder Fehler mehr durch inaktive Accounts in Stellvertreterrollen.
 
 ---
 
-### ⚙️ Asynchrone Verarbeitung funktionierte nicht zuverlässig
+### Asynchrone Verarbeitung funktionierte nicht zuverlässig
 
-🔗 [#5131 – Enable @Async with @EnableAsync](https://github.com/urlaubsverwaltung/urlaubsverwaltung/pull/5131)
+[#5131 – Enable @Async with @EnableAsync](https://github.com/urlaubsverwaltung/urlaubsverwaltung/pull/5131)
 
 Die Annotation `@Async` war im Code zwar vorhanden, jedoch nicht korrekt aktiviert – die notwendige Konfiguration (`@EnableAsync`) fehlte. Dadurch wurden asynchrone Prozesse nicht wie erwartet parallel ausgeführt.
 
@@ -60,9 +60,9 @@ Die Annotation `@Async` war im Code zwar vorhanden, jedoch nicht korrekt aktivie
 
 ---
 
-## ✅ Fazit
+## Fazit
 
 Mit Release **5.17.0** wird die Urlaubsverwaltung wieder ein Stück robuster: Die **Dokumentation der UI-Tests** wurde auf Vordermann gebracht, und zwei wichtige Bugs im Bereich **Benutzerverwaltung** und **asynchrone Ausführung** wurden beseitigt. Gerade in Teams mit vielen Accounts und parallelen Prozessen macht sich dieses Update bemerkbar.
 
 👉 Zur vollständigen Release-Übersicht:  
-🔗 [Release 5.17.0 auf GitHub ansehen](https://github.com/urlaubsverwaltung/urlaubsverwaltung/releases/tag/urlaubsverwaltung-5.17.0)
+[Release 5.17.0 auf GitHub ansehen](https://github.com/urlaubsverwaltung/urlaubsverwaltung/releases/tag/urlaubsverwaltung-5.17.0)

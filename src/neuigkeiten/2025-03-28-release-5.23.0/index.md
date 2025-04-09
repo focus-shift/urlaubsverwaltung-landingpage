@@ -13,20 +13,20 @@ Das **Release 5.23.0** der **Urlaubsverwaltung** bringt spannende neue **Funktio
 
 <!-- more -->
 
-## ✨ Enhancements
+## Verbesserungen
 
-### 📊 Abwesenheitsstatistik für Benutzer einsehbar
+### Abwesenheitsstatistik für Benutzer einsehbar
 
-🔗 [#3106 – Benutzer können nun ihre Abwesenheitsstatistik einsehen](https://github.com/urlaubsverwaltung/urlaubsverwaltung/pull/3106)
+[#3106 – Benutzer können nun ihre Abwesenheitsstatistik einsehen](https://github.com/urlaubsverwaltung/urlaubsverwaltung/pull/3106)
 
 Mit diesem Update können Benutzer nun eine **Abwesenheitsstatistik** einsehen, die es ihnen ermöglicht, ihre vergangenen und geplanten Abwesenheiten schnell zu überprüfen. Diese Funktion bietet eine Übersicht über **Urlaubstage**, **Krankmeldungen** und andere relevante Abwesenheiten und hilft dabei, eine bessere Übersicht und Planung zu gewährleisten.
 
 > **Warum ist das wichtig?**  
 > Diese Funktion erleichtert Benutzern die **Selbstkontrolle** über ihre **Abwesenheitszeiten** und fördert eine transparentere Verwaltung von Urlaub und Krankheitstagen. Besonders nützlich für **Personalabteilungen** und **Mitarbeiter**, die ihre Abwesenheiten genau im Blick behalten müssen.
 
-### 📄 Beispiel docker-compose.yaml aktuell halten
+### Beispiel docker-compose.yaml aktuell halten
 
-🔗 [#5267 – Docker-Compose-Konfiguration wurde aktualisiert](https://github.com/urlaubsverwaltung/urlaubsverwaltung/pull/5267)
+[#5267 – Docker-Compose-Konfiguration wurde aktualisiert](https://github.com/urlaubsverwaltung/urlaubsverwaltung/pull/5267)
 
 Ein weiteres wichtiges Update betrifft die **docker-compose.yaml**. Die Konfiguration wurde auf den neuesten Stand gebracht, um eine **aktuelle** und **optimierte** Bereitstellung der Urlaubsverwaltung zu gewährleisten. Dieses Update ist besonders für Administratoren und Entwickler von Bedeutung, die die Urlaubsverwaltung mit **Docker** betreiben.
 
@@ -35,20 +35,20 @@ Ein weiteres wichtiges Update betrifft die **docker-compose.yaml**. Die Konfigur
 
 ---
 
-## 🐞 Bugs
+## Fehlerbehebungen
 
-### 🚧 Demodaten werden dupliziert für einen Benutzer angelegt
+### Demodaten werden dupliziert für einen Benutzer angelegt
 
-🔗 [#4738 – Fehlerhafte Duplikation von Demodaten](https://github.com/urlaubsverwaltung/urlaubsverwaltung/pull/4738)
+[#4738 – Fehlerhafte Duplikation von Demodaten](https://github.com/urlaubsverwaltung/urlaubsverwaltung/pull/4738)
 
 Ein kritischer Fehler in der vorherigen Version führte dazu, dass für Benutzer **Demodaten** dupliziert angelegt wurden. Mit diesem Fix wird sichergestellt, dass die **Demodaten** korrekt und ohne Duplikate angelegt werden, um Verwirrung und mögliche Fehlerquellen zu vermeiden.
 
 > **Warum ist das wichtig?**  
 > Demodaten dienen dazu, eine **Beispielkonfiguration** zu zeigen, aber **Duplikate** können zu Problemen führen und den **Überblick** erschweren. Dieser Fix sorgt dafür, dass Benutzer nur einmalige und korrekte Demodaten erhalten.
 
-### 🚧 Initiales Anlegen von negativen Überstunden mit Minus (-10 z.B) nicht möglich
+### Initiales Anlegen von negativen Überstunden mit Minus (-10 z.B) nicht möglich
 
-🔗 [#4528 – Fehler beim Anlegen von negativen Überstunden behoben](https://github.com/urlaubsverwaltung/urlaubsverwaltung/pull/4528)
+[#4528 – Fehler beim Anlegen von negativen Überstunden behoben](https://github.com/urlaubsverwaltung/urlaubsverwaltung/pull/4528)
 
 Mit diesem Update wird der Fehler behoben, der es unmöglich machte, **negative Überstunden** zu erstellen (z.B. -10 Stunden). Jetzt können **negative Überstunden** korrekt angelegt werden, was für **Überstundenabbau** oder **Guthaben** von Bedeutung ist.
 
@@ -57,9 +57,9 @@ Mit diesem Update wird der Fehler behoben, der es unmöglich machte, **negative 
 
 ---
 
-## ✅ Fazit
+## Fazit
 
 Das **Release 5.23.0** bietet einige nützliche **Erweiterungen**, insbesondere die Möglichkeit für Benutzer, ihre **Abwesenheitsstatistik** einzusehen, und verbessert die **docker-compose.yaml** für Entwickler und Administratoren. Zudem wurden zwei wichtige **Bugs** behoben: die **Duplikation von Demodaten** und die **Anlage von negativen Überstunden**.
 
 👉 Zur vollständigen Release-Übersicht:  
-🔗 [Release 5.23.0 auf GitHub ansehen](https://github.com/urlaubsverwaltung/urlaubsverwaltung/releases/tag/urlaubsverwaltung-5.23.0)
+[Release 5.23.0 auf GitHub ansehen](https://github.com/urlaubsverwaltung/urlaubsverwaltung/releases/tag/urlaubsverwaltung-5.23.0)

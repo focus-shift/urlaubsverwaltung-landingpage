@@ -13,9 +13,9 @@ Die Urlaubsverwaltung hat ein neues Update erhalten – und das bringt einige si
 
 <!-- more -->
 
-## 🗓️ Hinweis auf Verfall von Urlaub
+## Hinweis auf Verfall von Urlaub
 
-🔗 [#3571 – Hinweis auf Verfall von Urlaub ergänzen](https://github.com/urlaubsverwaltung/urlaubsverwaltung/pull/3571)
+[#3571 – Hinweis auf Verfall von Urlaub ergänzen](https://github.com/urlaubsverwaltung/urlaubsverwaltung/pull/3571)
 
 Endlich Klarheit: Ab sofort wird **direkt in der Urlaubsliste angezeigt**, ob ein **Resturlaub bald verfällt**. So behalten Mitarbeitende den Überblick und verpassen keine Fristen mehr – und die HR-Abteilung spart sich Rückfragen.
 
@@ -23,27 +23,27 @@ Endlich Klarheit: Ab sofort wird **direkt in der Urlaubsliste angezeigt**, ob ei
 
 ---
 
-## 🤒 Verbesserte Anzeige bei Krankmeldungen
+## Verbesserte Anzeige bei Krankmeldungen
 
 ### 1. Kalendertage und Lohnfortzahlung einsehen
 
-🔗 [#2823 – Information der Kalendertage und Lohnfortzahlung in einer Krankmeldung anzeigen](https://github.com/urlaubsverwaltung/urlaubsverwaltung/pull/2823)
+[#2823 – Information der Kalendertage und Lohnfortzahlung in einer Krankmeldung anzeigen](https://github.com/urlaubsverwaltung/urlaubsverwaltung/pull/2823)
 
 In der Detailansicht einer Krankmeldung werden nun **Kalendertage** und **Zeiträume mit Lohnfortzahlung** sichtbar dargestellt. Das schafft mehr Transparenz über den Verlauf einer Krankheitsphase.
 
 ### 2. Krankheit ohne Entgeltfortzahlung markieren
 
-🔗 [#2904 – Krankheit ohne Entgeltfortzahlung kenntlich machen](https://github.com/urlaubsverwaltung/urlaubsverwaltung/pull/2904)
+[#2904 – Krankheit ohne Entgeltfortzahlung kenntlich machen](https://github.com/urlaubsverwaltung/urlaubsverwaltung/pull/2904)
 
-Zusätzlich kann jetzt explizit gekennzeichnet werden, wenn es **keine Entgeltfortzahlung** während der Krankheitszeit gibt – z. B. bei längerer Krankheit über die gesetzlichen sechs Wochen hinaus.
+Zusätzlich kann jetzt explizit gekennzeichnet werden, wenn es **keine Entgeltfortzahlung** während der Krankheitszeit gibt – z. B. bei längerer Krankheit über die gesetzlichen sechs Wochen hinaus.
 
 **Vorteil:** Arbeitgeber und Arbeitnehmer erkennen sofort, wie sich die Krankmeldung auf Gehalt und Abwesenheit auswirkt.
 
 ---
 
-## 🎉 Neuer Sonderurlaub: Betriebsjubiläen
+## Neuer Sonderurlaub: Betriebsjubiläen
 
-🔗 [#3201 – Neuer Sonderurlaub 'Betriebsjubiläen'](https://github.com/urlaubsverwaltung/urlaubsverwaltung/pull/3201)
+[#3201 – Neuer Sonderurlaub 'Betriebsjubiläen'](https://github.com/urlaubsverwaltung/urlaubsverwaltung/pull/3201)
 
 Ein Meilenstein im Unternehmen verdient auch Anerkennung: Mit diesem Release ist es möglich, für **Betriebsjubiläen** ganz einfach einen **Sonderurlaub** zu erfassen. Diese neue Abwesenheitsart ist nun standardmäßig verfügbar.
 
@@ -51,9 +51,9 @@ Ein Meilenstein im Unternehmen verdient auch Anerkennung: Mit diesem Release ist
 
 ---
 
-## 🚀 Fazit
+## Fazit
 
 Mit Version 5.22.0 zeigt die Urlaubsverwaltung, wie kleine Verbesserungen große Wirkung entfalten: **Mehr Übersicht**, **mehr Fairness**, **mehr Effizienz**. Egal ob Urlaub, Krankheit oder Jubiläum – der Umgang mit Abwesenheiten wird für alle Beteiligten einfacher und transparenter.
 
 👉 Zur vollständigen Release-Übersicht:  
-🔗 [Release 5.22.0 auf GitHub ansehen](https://github.com/urlaubsverwaltung/urlaubsverwaltung/releases/tag/urlaubsverwaltung-5.22.0)
+[Release 5.22.0 auf GitHub ansehen](https://github.com/urlaubsverwaltung/urlaubsverwaltung/releases/tag/urlaubsverwaltung-5.22.0)

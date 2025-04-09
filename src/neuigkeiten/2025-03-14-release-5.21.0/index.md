@@ -15,9 +15,9 @@ Mit dem **Release 5.21.0** der Urlaubsverwaltung wird ein weiteres nützliches F
 
 ---
 
-## 🕰️ Singular / Plural bei den Tagen und Stunden
+## Singular / Plural bei den Tagen und Stunden
 
-🔗 [#2062 – Singular / Plural bei den Tagen und Stunden](https://github.com/urlaubsverwaltung/urlaubsverwaltung/pull/2062)
+[#2062 – Singular / Plural bei den Tagen und Stunden](https://github.com/urlaubsverwaltung/urlaubsverwaltung/pull/2062)
 
 Eine kleine, aber feine Verbesserung: In der Urlaubsverwaltung wird nun korrekt zwischen **Singular** und **Plural** unterschieden, wenn es um die Angabe von **Tagen** und **Stunden** geht. Diese Änderung sorgt für mehr Klarheit und eine präzisere Darstellung der Abwesenheiten. Das bedeutet, dass beispielsweise bei einem **einzelnen Tag** als Abwesenheit "1 Tag" und bei mehreren Tagen korrekt "X Tage" angezeigt wird.
 
@@ -25,9 +25,9 @@ Eine kleine, aber feine Verbesserung: In der Urlaubsverwaltung wird nun korrekt 
 
 ---
 
-## 🚀 Fazit
+## Fazit
 
 Die **Version 5.21.0** der Urlaubsverwaltung mag auf den ersten Blick eine kleine Veränderung sein, aber sie macht die Anwendung deutlich **präziser und benutzerfreundlicher**. Besonders im täglichen Umgang mit Urlaubs- und Krankheitsmeldungen sorgt die Verbesserung der Anzeige von Tagen und Stunden für mehr Klarheit.
 
 👉 Zur vollständigen Release-Übersicht:  
-🔗 [Release 5.21.0 auf GitHub ansehen](https://github.com/urlaubsverwaltung/urlaubsverwaltung/releases/tag/urlaubsverwaltung-5.21.0)
+[Release 5.21.0 auf GitHub ansehen](https://github.com/urlaubsverwaltung/urlaubsverwaltung/releases/tag/urlaubsverwaltung-5.21.0)
