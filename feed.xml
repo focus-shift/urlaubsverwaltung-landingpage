@@ -4,8 +4,48 @@
   <subtitle></subtitle>
   <link rel="self" href="https://urlaubsverwaltung.cloud/feed.xml" />
   <link rel="alternate" type="text/html" href="https://urlaubsverwaltung.cloud" />
-  <updated>2025-04-06T00:00:00Z</updated>
+  <updated>2025-04-09T00:00:00Z</updated>
   <id>https://urlaubsverwaltung.cloud</id>
+  <entry>
+    <title>Zeiterfassung 2.12.0 – Verbesserungen bei Berichten und Fehlerbehebungen</title>
+    <link href="https://urlaubsverwaltung.cloud/neuigkeiten/2024-10-31-release-2.12.0/" />
+    <updated>2025-04-09T00:00:00Z</updated>
+    <id>https://urlaubsverwaltung.cloud/neuigkeiten/2024-10-31-release-2.12.0/</id>
+    <author>
+      <name>Andreas Weigel</name>
+    </author>
+    <content type="html">&lt;p&gt;Das &lt;strong&gt;Release 2.12.0&lt;/strong&gt; der Zeiterfassung bringt &lt;strong&gt;wichtige Verbesserungen&lt;/strong&gt; in Bezug auf die &lt;strong&gt;Berichtsfunktionen&lt;/strong&gt; und behebt mehrere &lt;strong&gt;Bugs&lt;/strong&gt;, die die korrekte Anzeige von Soll-Stunden und Übersetzungen betrafen. Diese Version stellt sicher, dass Berichte noch benutzerfreundlicher sind und genauer arbeiten.&lt;/p&gt;
+&lt;h2 id=&quot;✨-enhancements&quot;&gt;✨ Enhancements&lt;/h2&gt;
+&lt;h3 id=&quot;📊-berichte-beim-wechsel-zwischen-woche-und-monat-sollen-die-ausgewaehlten-personen-uebernommen-werden&quot;&gt;📊 Berichte: Beim Wechsel zwischen Woche und Monat sollen die ausgewählten Personen übernommen werden&lt;/h3&gt;
+&lt;p&gt;🔗 &lt;a href=&quot;https://github.com/urlaubsverwaltung/zeiterfassung/pull/920&quot;&gt;#920 – Verbesserte Auswahl von Personen beim Wechsel zwischen Woche und Monat in Berichten&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Mit diesem Update wird beim Wechsel zwischen &lt;strong&gt;Wochen-&lt;/strong&gt; und &lt;strong&gt;Monatsansicht&lt;/strong&gt; in den &lt;strong&gt;Berichten&lt;/strong&gt; die Auswahl der &lt;strong&gt;Personen&lt;/strong&gt; nun &lt;strong&gt;beibehalten&lt;/strong&gt;. Das bedeutet, dass Anwender beim Wechsel der Ansicht nicht erneut Personen auswählen müssen, was die Bedienbarkeit und Effizienz beim Arbeiten mit Berichten erheblich verbessert.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;Warum ist das wichtig?&lt;/strong&gt;&lt;br /&gt;
+Durch die Übernahme der &lt;strong&gt;Personenwahl&lt;/strong&gt; wird der Arbeitsablauf effizienter, besonders für Nutzer, die regelmäßig Berichte über mehrere Zeiträume hinweg auswerten müssen. Dies spart Zeit und reduziert die Notwendigkeit zur wiederholten Auswahl von Personen.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;hr /&gt;
+&lt;h2 id=&quot;🐞-bugs&quot;&gt;🐞 Bugs&lt;/h2&gt;
+&lt;h3 id=&quot;🚧-berichte-bei-auswahl-von-mehreren-personen-werden-die-&amp;quot;soll-stunden&amp;quot;-nicht-korrekt-angezeigt-wenn-eine-person-abwesend-war&quot;&gt;🚧 Berichte: Bei Auswahl von mehreren Personen werden die &amp;quot;Soll-Stunden&amp;quot; nicht korrekt angezeigt, wenn eine Person abwesend war&lt;/h3&gt;
+&lt;p&gt;🔗 &lt;a href=&quot;https://github.com/urlaubsverwaltung/zeiterfassung/pull/905&quot;&gt;#905 – Fehlerhafte Soll-Stunden-Anzeige bei Abwesenheit von Personen&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;In dieser Version wurde ein Fehler behoben, der dazu führte, dass die &lt;strong&gt;Soll-Stunden&lt;/strong&gt; in den &lt;strong&gt;Berichten&lt;/strong&gt; bei der Auswahl von mehreren Personen nicht korrekt angezeigt wurden, wenn eine der ausgewählten Personen abwesend war. Mit diesem Fix wird die Sollzeit nun korrekt berechnet und angezeigt, selbst wenn eine Person an den betreffenden Tagen abwesend war.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;Warum ist das wichtig?&lt;/strong&gt;&lt;br /&gt;
+Die korrekte Anzeige der &lt;strong&gt;Soll-Stunden&lt;/strong&gt; ist für die genaue Arbeitszeiterfassung und Abrechnung von entscheidender Bedeutung. Mit diesem Fix können Anwender sicher sein, dass ihre Berichte auch bei abwesenden Mitarbeitern präzise sind.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h3 id=&quot;🚧-berichte-fehlende-uebersetzungen&quot;&gt;🚧 Berichte: Fehlende Übersetzungen&lt;/h3&gt;
+&lt;p&gt;🔗 &lt;a href=&quot;https://github.com/urlaubsverwaltung/zeiterfassung/pull/914&quot;&gt;#914 – Fehlerhafte oder fehlende Übersetzungen in den Berichten&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Ein weiterer Bugfix betrifft &lt;strong&gt;fehlende Übersetzungen&lt;/strong&gt; in den Berichten. Bei bestimmten Sprachen wurden Texte nicht korrekt angezeigt. Dieser Fehler wurde behoben, sodass nun alle wichtigen Elemente in den Berichten auch in den entsprechenden Sprachen korrekt übersetzt erscheinen.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;Warum ist das wichtig?&lt;/strong&gt;&lt;br /&gt;
+Die Unterstützung für mehrere Sprachen ist entscheidend, um eine breite Nutzerbasis zu bedienen. Dieser Fix stellt sicher, dass die Zeiterfassungssoftware für alle Benutzer weltweit zugänglich und benutzerfreundlich bleibt.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;hr /&gt;
+&lt;h2 id=&quot;✅-fazit&quot;&gt;✅ Fazit&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;Release 2.12.0&lt;/strong&gt; verbessert mit der &lt;strong&gt;übernommenen Personenauswahl&lt;/strong&gt; zwischen den Zeitansichten von Berichten die Benutzerfreundlichkeit erheblich. Außerdem wurden kritische &lt;strong&gt;Bugs&lt;/strong&gt; behoben, die die Anzeige von &lt;strong&gt;Soll-Stunden&lt;/strong&gt; bei Abwesenheiten sowie &lt;strong&gt;fehlende Übersetzungen&lt;/strong&gt; betrafen. Mit diesen Verbesserungen und Fehlerbehebungen wird das Arbeiten mit Berichten noch präziser und komfortabler.&lt;/p&gt;
+&lt;p&gt;👉 Zur vollständigen Release-Übersicht:&lt;br /&gt;
+🔗 &lt;a href=&quot;https://github.com/urlaubsverwaltung/zeiterfassung/releases/tag/zeiterfassung-2.12.0&quot;&gt;Release 2.12.0 auf GitHub ansehen&lt;/a&gt;&lt;/p&gt;
+</content>
+  </entry>
   <entry>
     <title>Urlaubsverwaltung 5.8.0 – Kubernetes-Upgrade &amp; Verbesserte Krankmeldungsverwaltung</title>
     <link href="https://urlaubsverwaltung.cloud/neuigkeiten/2024-10-02-release-5.8.0/" />
