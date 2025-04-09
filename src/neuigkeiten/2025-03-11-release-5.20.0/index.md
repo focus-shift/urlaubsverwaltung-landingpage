@@ -13,19 +13,17 @@ Mit **Version 5.20.0** der Urlaubsverwaltung werden gleich mehrere wichtige Verb
 
 <!-- more -->
 
-## ⏰ Kalender: Arbeitsstartzeit und Arbeitsendzeit präziser
+## Verbesserungen
 
-🔗 [#4976 – Kalendar: Arbeitsstartzeit und Arbeitsendzeit präziser, einschließlich der Minutenangabe](https://github.com/urlaubsverwaltung/urlaubsverwaltung/pull/4976)
+### Kalender: Arbeitsstartzeit und Arbeitsendzeit präziser einstellen
 
-In der **Kalenderansicht** können nun die **Arbeitsstartzeit** und **Arbeitsendzeit** präziser angegeben werden – einschließlich der **Minutenangabe**. Dies ermöglicht eine genauere Planung und Übersicht über die Arbeitszeiten, was insbesondere bei flexiblen Arbeitsmodellen oder Gleitzeitregelungen von großer Bedeutung ist.
+Für die **Kalenderfreigabe** kann nun die **Arbeitsstartzeit** und **Arbeitsendzeit** präziser angegeben werden – einschließlich der **Minutenangabe**. Dies ermöglicht eine genauere Planung und Übersicht über die Arbeitszeiten, was insbesondere bei flexiblen Arbeitsmodellen oder Gleitzeitregelungen von großer Bedeutung ist.
 
 **Vorteil:** Die **Zeitgenauigkeit** sorgt für eine genauere Abbildung der Arbeitszeiten und hilft, Missverständnisse bei der Urlaubs- und Arbeitszeitberechnung zu vermeiden.
 
 ---
 
-## 📧 Kein ics-Anhang in der Bestätigungs-Mail bei Urlauben ohne Genehmigungsprozess
-
-🔗 [#4016 – Kein ics-Anhang in der Bestätigungs-Mail bei Urlauben ohne Genehmigungsprozess](https://github.com/urlaubsverwaltung/urlaubsverwaltung/pull/4016)
+### Kein ics-Anhang in der Bestätigungs-Mail bei Urlauben ohne Genehmigungsprozess
 
 Ein weiteres nützliches Feature: Ab sofort wird in der **Bestätigungs-E-Mail** für Urlaubsanträge, die keinen **Genehmigungsprozess** durchlaufen (z. B. in Unternehmen ohne Genehmigungsworkflow), kein **ICS-Anhang** mehr hinzugefügt. Dadurch entfällt der unnötige Schritt, der in solchen Fällen oft zu Verwirrung führen kann.
 
@@ -33,9 +31,7 @@ Ein weiteres nützliches Feature: Ab sofort wird in der **Bestätigungs-E-Mail**
 
 ---
 
-## 🔄 Weiterleitungen an Abteilungsleiter und Freigabe-Verantwortliche
-
-🔗 [#3009 – Weiterleitungen an entsprechenden Abteilungsleiter und Freigabe-Verantwortlicher](https://github.com/urlaubsverwaltung/urlaubsverwaltung/pull/3009)
+### Weiterleitungen an Abteilungsleiter und Freigabe-Verantwortliche
 
 Die Weiterleitungen von Urlaubsanträgen und Anfragen werden nun gezielt an die **Abteilungsleiter** und **Freigabe-Verantwortlichen** weitergeleitet. Damit wird sichergestellt, dass der Urlaubsantrag immer bei der richtigen Person landet, um den Genehmigungsprozess schnell und effizient abzuschließen.
 
@@ -43,9 +39,9 @@ Die Weiterleitungen von Urlaubsanträgen und Anfragen werden nun gezielt an die 
 
 ---
 
-## 🚀 Fazit
+## Fazit
 
 Mit der **Version 5.20.0** bringt die Urlaubsverwaltung spannende **Verbesserungen** für eine genauere **Arbeitszeitplanung**, vereinfachte **Bestätigungs-E-Mails** und eine **optimierte Weiterleitung** von Anträgen. Diese Neuerungen erhöhen die **Effizienz** und **Transparenz** für alle Beteiligten und machen die Urlaubsverwaltung noch benutzerfreundlicher.
 
 👉 Zur vollständigen Release-Übersicht:  
-🔗 [Release 5.20.0 auf GitHub ansehen](https://github.com/urlaubsverwaltung/urlaubsverwaltung/releases/tag/urlaubsverwaltung-5.20.0)
+[Release 5.20.0 auf GitHub ansehen](https://github.com/urlaubsverwaltung/urlaubsverwaltung/releases/tag/urlaubsverwaltung-5.20.0)

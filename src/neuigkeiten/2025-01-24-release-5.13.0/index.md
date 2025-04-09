@@ -13,11 +13,9 @@ Das neue **Release 5.13.0** der Urlaubsverwaltung bringt eine gezielte, aber wir
 
 <!-- more -->
 
-## ✨ Enhancement
+## Verbesserungen
 
-### 🔄 Überstundenabbau über mehrere Tage per API leichter abfragen
-
-🔗 [#4931 – Abfrage von mehrtägiger Überstundenabbau über API vereinfachen](https://github.com/urlaubsverwaltung/urlaubsverwaltung/pull/4931)
+### Überstundenabbau über mehrere Tage per API leichter abfragen
 
 In vielen Fällen wollen externe Tools oder Dienste Informationen über **Überstundenabbau** auslesen – insbesondere, wenn dieser über **mehrere Tage hinweg** erfolgt. Vor diesem Release war die Abfrage solcher Vorgänge technisch umständlich und teilweise uneinheitlich.
 
@@ -35,9 +33,9 @@ In vielen Fällen wollen externe Tools oder Dienste Informationen über **Übers
 
 ---
 
-## ✅ Fazit
+## Fazit
 
 **Release 5.13.0** richtet sich insbesondere an **Entwickler:innen** und **API-Nutzer:innen**: Die überarbeitete API erleichtert die Arbeit mit **mehrtägigem Überstundenabbau** und sorgt für mehr Konsistenz und Effizienz.
 
 👉 Zur vollständigen Release-Übersicht:  
-🔗 [Release 5.13.0 auf GitHub ansehen](https://github.com/urlaubsverwaltung/urlaubsverwaltung/releases/tag/urlaubsverwaltung-5.13.0)
+[Release 5.13.0 auf GitHub ansehen](https://github.com/urlaubsverwaltung/urlaubsverwaltung/releases/tag/urlaubsverwaltung-5.13.0)
