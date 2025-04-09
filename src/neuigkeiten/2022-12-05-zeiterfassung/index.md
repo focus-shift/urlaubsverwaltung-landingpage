@@ -21,7 +21,7 @@ ab wann zu viel gearbeitet wird. Vor allem im Homeoffice, wo z.B. der Arbeitsweg
 <a target="_blank" href="https://www.forbes.com/sites/zakdoffman/2020/03/24/coronavirus-work-from-home-longer-hours-more-distractions-and-this-surprising-privacy-threat/">
 arbeiten viele Arbeitnehmer deutlich mehr </a> als im Büro.
 
-Seit dem EuGH Urteil aus dem Mai 2019 steht fest, dass in Europa die Pflicht für Arbeitgeber eine Zeiterfassung einzuführen
+Seit dem EuGH-Urteil aus dem Mai 2019 steht fest, dass in Europa die Pflicht für Arbeitgeber eine Zeiterfassung einzuführen
 unumgänglich ist. Da jedoch ein zeitlicher Rahmen bisher fehlte, sahen sich die Unternehmen nicht im Zugzwang.
 Dies änderte sich am 13.09.2022 mit dem Gerichtsurteil des Bundesarbeitsgerichts.
 
@@ -33,7 +33,7 @@ Dies änderte sich am 13.09.2022 mit dem Gerichtsurteil des Bundesarbeitsgericht
 <a target="_blank" href="https://dup-magazin.de/management/strategie/so-kommen-sie-der-pflicht-zur-arbeitszeiterfassung-nach/">
 49% der KMUs erfassen bereits die Arbeitszeit. 50% davon erfassen ihre Arbeitszeit jedoch mit Stift und Papier und 24% verwenden eine
 elektronische Tabelle, also wahrscheinlich Excel. </a>
-So ganz wird das dem EuGH Urteil nach einer objektiven, verlässlichen und zugänglichen Zeiterfassung nicht gerecht. 
+So ganz wird das dem EuGH-Urteil nach einer objektiven, verlässlichen und zugänglichen Zeiterfassung nicht gerecht. 
 
 ## Aber was genau heißt objektiv, verlässlich und zugänglich?
 
@@ -65,7 +65,7 @@ Statistik **verlässlich** berechnet wird.
     </figure>
 </div>
 
-Eine Lösung die als **zugänglich** bezeichnet wird sollte nicht nur gleichermaßen aus dem HomeOffice sowie aus dem Büro 
+Eine Lösung, die als **zugänglich** bezeichnet wird, sollte nicht nur gleichermaßen aus dem HomeOffice sowie aus dem Büro 
 verwendet werden können, sondern auch inklusiv bedienbar sein und nie.
 
 <div class="flex my-8">
@@ -87,7 +87,7 @@ verwendet werden können, sondern auch inklusiv bedienbar sein und nie.
 
 ## Unsere Open Source Software as a Service
 
-Um den Anforderungen gerecht zu werden stellen wir eine Open Source Software as a Service zur Verfügung.
+Um den Anforderungen gerecht zu werden, stellen wir eine Open-Source-Software as a Service zur Verfügung.
 Für eine Open Source Zeiterfassung gilt, dass alle Interessierten bei Bedarf nachvollziehen können wie Daten verarbeitet werden, 
 da der Sourcecode öffentlich zugänglich ist. Viel mehr gewinnt die Software an Stabilität und profitiert von der
 Mitarbeit einer aktiven Community und dem konstruktiven Feedback.
