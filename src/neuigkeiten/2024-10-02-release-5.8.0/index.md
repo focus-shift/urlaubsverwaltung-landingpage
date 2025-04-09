@@ -2,7 +2,7 @@
 draft: false
 layout: layout-neuigkeiten.hbs
 date: 2025-04-06
-title: Urlaubsverwaltung 5.8.0 – Kubernetes-Upgrade & Verbesserte Krankmeldungsverwaltung
+title: Urlaubsverwaltung 5.8.0 – Verbesserte Krankmeldungsverwaltung
 author: Andreas Weigel
 release-version: 5.8.0
 teaserImage: /static/teaser/2024-10-02/UV-Release-5.8.0.png
