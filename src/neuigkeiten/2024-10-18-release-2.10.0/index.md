@@ -16,7 +16,7 @@ Neue Icons verdeutlichen, ob es sich um eine Pause handelt und ob es einen Komme
 
 ## Neue Icons für die Beschreibung der Zeiteinträge in der Berichtübersicht
 
-m Release 2.10.0 der Zeiterfassungssoftware wurden kleinere Anpassungen in der Darstellung der Berichte vorgenommen,
+Im Release 2.10.0 der Zeiterfassungssoftware wurden kleinere Anpassungen in der Darstellung der Berichte vorgenommen,
 um die Benutzerfreundlichkeit zu verbessern. Besonders hervorzuheben ist die Einführung neuer Icons, die zusätzliche Informationen zu den Einträgen visuell unterstützen.
 
 Zwei neue Icons bieten dabei mehr Klarheit:
