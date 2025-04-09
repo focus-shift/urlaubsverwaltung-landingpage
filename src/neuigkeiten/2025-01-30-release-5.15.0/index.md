@@ -9,15 +9,13 @@ teaserImage: /static/teaser/2025-01-30/UV-Release-5.15.0.png
 description: Version 5.15.0 verbessert die Datenbankabfragen in PostgreSQL durch gezielte Foreign Key Indexierung – ein wichtiger Schritt zu besserer Skalierbarkeit und Geschwindigkeit.
 ---
 
-Mit dem **Release 5.15.0** legt die Urlaubsverwaltung den Fokus auf eine technische Optimierung im Hintergrund: Durch verbesserte **Indexierung von Foreign Keys** wird die Performance in PostgreSQL-Datenbanken deutlich gesteigert.
+Mit dem **Release 5.15.0** legt die Urlaubsverwaltung den Fokus auf eine technische Optimierung im Hintergrund.
 
 <!-- more -->
 
 ## Verbesserungen
 
 ### Verbesserte Foreign Key Indexierung in PostgreSQL
-
-[#5119 – Foreign Key Indexing and Performance in PostgreSQL](https://github.com/urlaubsverwaltung/urlaubsverwaltung/pull/5119)
 
 In dieser Version wurde gezielt die **Indexierung von Fremdschlüsseln** in der Datenbankstruktur überprüft und angepasst. Das Ziel: **schnellere Datenbankabfragen**, vor allem bei komplexen Joins und hoher Datenlast.
 

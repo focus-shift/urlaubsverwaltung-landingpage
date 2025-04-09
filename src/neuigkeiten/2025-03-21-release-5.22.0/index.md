@@ -15,8 +15,6 @@ Die Urlaubsverwaltung hat ein neues Update erhalten – und das bringt einige si
 
 ## Hinweis auf Verfall von Urlaub
 
-[#3571 – Hinweis auf Verfall von Urlaub ergänzen](https://github.com/urlaubsverwaltung/urlaubsverwaltung/pull/3571)
-
 Endlich Klarheit: Ab sofort wird **direkt in der Urlaubsliste angezeigt**, ob ein **Resturlaub bald verfällt**. So behalten Mitarbeitende den Überblick und verpassen keine Fristen mehr – und die HR-Abteilung spart sich Rückfragen.
 
 **Vorteil:** Frühzeitige Planung wird gefördert und unerwarteter Urlaubsverlust verhindert.
@@ -27,13 +25,9 @@ Endlich Klarheit: Ab sofort wird **direkt in der Urlaubsliste angezeigt**, ob ei
 
 ### 1. Kalendertage und Lohnfortzahlung einsehen
 
-[#2823 – Information der Kalendertage und Lohnfortzahlung in einer Krankmeldung anzeigen](https://github.com/urlaubsverwaltung/urlaubsverwaltung/pull/2823)
-
 In der Detailansicht einer Krankmeldung werden nun **Kalendertage** und **Zeiträume mit Lohnfortzahlung** sichtbar dargestellt. Das schafft mehr Transparenz über den Verlauf einer Krankheitsphase.
 
 ### 2. Krankheit ohne Entgeltfortzahlung markieren
-
-[#2904 – Krankheit ohne Entgeltfortzahlung kenntlich machen](https://github.com/urlaubsverwaltung/urlaubsverwaltung/pull/2904)
 
 Zusätzlich kann jetzt explizit gekennzeichnet werden, wenn es **keine Entgeltfortzahlung** während der Krankheitszeit gibt – z. B. bei längerer Krankheit über die gesetzlichen sechs Wochen hinaus.
 
@@ -42,8 +36,6 @@ Zusätzlich kann jetzt explizit gekennzeichnet werden, wenn es **keine Entgeltfo
 ---
 
 ## Neuer Sonderurlaub: Betriebsjubiläen
-
-[#3201 – Neuer Sonderurlaub 'Betriebsjubiläen'](https://github.com/urlaubsverwaltung/urlaubsverwaltung/pull/3201)
 
 Ein Meilenstein im Unternehmen verdient auch Anerkennung: Mit diesem Release ist es möglich, für **Betriebsjubiläen** ganz einfach einen **Sonderurlaub** zu erfassen. Diese neue Abwesenheitsart ist nun standardmäßig verfügbar.
 

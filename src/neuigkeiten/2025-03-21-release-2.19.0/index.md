@@ -17,8 +17,6 @@ Release **2.19.0** der Zeiterfassung bringt spannende Neuerungen für die **Arbe
 
 ### Arbeitszeit auf 0 Stunden setzen
 
-[#1146 – Arbeitszeit auf 0 Stunden setzen können](https://github.com/urlaubsverwaltung/zeiterfassung/pull/1146)
-
 Ab sofort können Nutzer ihre **Arbeitszeit auf 0 Stunden setzen**. Diese Funktion ist besonders nützlich, wenn eine Person an einem bestimmten Tag nicht arbeitet, beispielsweise bei einem **freien Tag** oder **Urlaub**. Statt manuell mit Stunden zu arbeiten, kann nun einfach „0 Stunden“ eingetragen werden.
 
 > **Warum ist das wichtig?**  
@@ -27,8 +25,6 @@ Ab sofort können Nutzer ihre **Arbeitszeit auf 0 Stunden setzen**. Diese Funkti
 ---
 
 ### Startseitenansicht einer anderen Person für privilegierte Nutzer
-
-[#1119 – Startseitenansicht anderer Person für privilegierte Person](https://github.com/urlaubsverwaltung/zeiterfassung/pull/1119)
 
 Privilegierte Nutzer haben jetzt die Möglichkeit, die **Startseitenansicht** einer anderen Person zu sehen. Dies ist besonders für **Vorgesetzte** oder **HR-Administratoren** nützlich, die die **Arbeitszeiten** ihrer Mitarbeiter:innen überwachen und verwalten müssen.
 
@@ -40,8 +36,6 @@ Privilegierte Nutzer haben jetzt die Möglichkeit, die **Startseitenansicht** ei
 ## Fehlerbehebungen
 
 ### Fehler bei der Berechtigungsänderung
-
-[#1153 – Ändern von Berechtigungen zeigt Fehler an obwohl Berechtigung geändert wird](https://github.com/urlaubsverwaltung/zeiterfassung/pull/1153)
 
 Ein Fehler, der beim Ändern von Berechtigungen auftrat, wurde behoben. Obwohl die Berechtigung tatsächlich geändert wurde, zeigte die Anwendung einen **Fehler** an, was zu Verwirrung bei den Nutzern führte. Dieser Bug wurde nun behoben, sodass Berechtigungsänderungen korrekt angezeigt werden.
 

@@ -17,8 +17,6 @@ Das **Release 2.17.0** bringt wichtige Erweiterungen zur **Zeiterfassung und Ben
 
 ### Sortierung von Personen (z.B. auf der Personen-Seite)
 
-[#218 – Sortierung von Personen](https://github.com/urlaubsverwaltung/zeiterfassung/pull/218)
-
 Ab sofort können die **Personen auf der Personen-Seite** nun sortiert werden. Diese Funktion macht es deutlich einfacher, schnell die benötigte Person in einer großen Liste zu finden und optimiert somit die Benutzererfahrung, besonders in größeren Teams.
 
 > **Warum ist das wichtig?**  
@@ -27,8 +25,6 @@ Ab sofort können die **Personen auf der Personen-Seite** nun sortiert werden. D
 ---
 
 ### Sortierung von Zeiteinträgen anhand der Startzeit
-
-[#1026 – Sortierung von Zeiteinträgen anhand der Startzeit](https://github.com/urlaubsverwaltung/zeiterfassung/pull/1026)
 
 Zeiteinträge können nun nach der **Startzeit** anstatt der **Erfassungszeit** sortiert werden. Diese neue Sortierungsoption erleichtert es, die Zeiteinträge nach ihrer tatsächlichen **Arbeitszeit** und nicht nach dem Zeitpunkt der Erfassung zu ordnen.
 
@@ -39,8 +35,6 @@ Zeiteinträge können nun nach der **Startzeit** anstatt der **Erfassungszeit** 
 
 ### Zeiteintrag bei Berichten bearbeiten können als privilegierte Person
 
-[#1118 – Zeiteintrag bei Berichten bearbeiten](https://github.com/urlaubsverwaltung/zeiterfassung/pull/1118)
-
 Jetzt können **privilegierte Personen**, wie Vorgesetzte oder Administratoren, **Zeiteinträge bei Berichten bearbeiten**. Dies ermöglicht eine einfache Korrektur von fehlerhaften oder ungenauen Zeiteinträgen, ohne dass die betroffenen Mitarbeiter:innen die Änderung vornehmen müssen.
 
 > **Warum ist das wichtig?**  
@@ -49,8 +43,6 @@ Jetzt können **privilegierte Personen**, wie Vorgesetzte oder Administratoren, 
 ---
 
 ### Zeiterfassung für Mitarbeitende als privilegierte Benutzende
-
-[#206 – Zeiterfassung für Mitarbeitende als privilegierte Benutzende](https://github.com/urlaubsverwaltung/zeiterfassung/pull/206)
 
 Mitarbeitende können nun als **privilegierte Benutzende** **Zeiterfassungen** verwalten. Diese Erweiterung bietet den Nutzern zusätzliche Rechte, die es ihnen ermöglichen, ihre eigenen Zeiteinträge zu bearbeiten und zu verwalten, was besonders für **freiberufliche Mitarbeitende** oder **Teamleiter** von Bedeutung ist.
 
@@ -62,8 +54,6 @@ Mitarbeitende können nun als **privilegierte Benutzende** **Zeiterfassungen** v
 ## Fehlerbehebungen
 
 ### Bearbeiteter, noch nicht gespeicherter Zeitslot wird nicht mehr hervorgehoben
-
-[#1106 – Bearbeiteter, noch nicht gespeicherter Zeitslot wird nicht mehr hervorgehoben](https://github.com/urlaubsverwaltung/zeiterfassung/pull/1106)
 
 Ein Fehler, bei dem **bearbeitete, aber noch nicht gespeicherte Zeitslots** nicht mehr hervorgehoben wurden, wurde behoben. Zuvor war es schwierig, Änderungen an Zeitslots zu erkennen, bevor sie gespeichert wurden. Dieser Bugfix sorgt dafür, dass bearbeitete Zeitslots weiterhin visuell hervorgehoben bleiben.
 

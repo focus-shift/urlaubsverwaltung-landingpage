@@ -17,8 +17,6 @@ Das **Release 2.13.0** der Zeiterfassung bringt wichtige **Verbesserungen** bei 
 
 ### Berichte: Noch zu leistende Arbeitszeit / Mehr geleistete Arbeitszeit zu ausgewählten Personen anzeigen
 
-[#878 – Verbesserte Anzeige der Arbeitszeiten in Berichten](https://github.com/urlaubsverwaltung/zeiterfassung/pull/878)
-
 Eine der wichtigsten Verbesserungen in diesem Release ist die erweiterte Funktionalität für **Berichte**. Nun können für **ausgewählte Personen** sowohl die **noch zu leistende Arbeitszeit** als auch die **mehr geleistete Arbeitszeit** angezeigt werden. Diese Erweiterung sorgt dafür, dass Nutzer und Administratoren eine präzisere Übersicht über die Arbeitszeiten erhalten, was die Planung und Verwaltung von Arbeitsstunden noch einfacher und effizienter macht.
 
 > **Warum ist das wichtig?**  
@@ -29,8 +27,6 @@ Eine der wichtigsten Verbesserungen in diesem Release ist die erweiterte Funktio
 ## Fehlerbehebungen
 
 ### Falsche Sollzeiten in Berichten bei Tagen mit halben Abwesenheiten
-
-[#930 – Fehler bei Sollzeiten in Berichten bei halben Abwesenheiten](https://github.com/urlaubsverwaltung/zeiterfassung/pull/930)
 
 Ein **Bug** in der Berechnung der **Sollzeiten** in Berichten wurde behoben. Zuvor trat der Fehler auf, dass bei Tagen mit **halben Abwesenheiten** die Sollzeiten nicht korrekt angezeigt wurden. Mit diesem Fix wird nun sichergestellt, dass **halbe Abwesenheiten** korrekt berücksichtigt werden und die Sollzeiten in den Berichten präzise sind.
 

@@ -17,8 +17,6 @@ Das **Release 2.12.0** der Zeiterfassung bringt **wichtige Verbesserungen** in B
 
 ### Berichte: Beim Wechsel zwischen Woche und Monat sollen die ausgewählten Personen übernommen werden
 
-[#920 – Verbesserte Auswahl von Personen beim Wechsel zwischen Woche und Monat in Berichten](https://github.com/urlaubsverwaltung/zeiterfassung/pull/920)
-
 Mit diesem Update wird beim Wechsel zwischen **Wochen-** und **Monatsansicht** in den **Berichten** die Auswahl der **Personen** nun **beibehalten**. Das bedeutet, dass Anwender beim Wechsel der Ansicht nicht erneut Personen auswählen müssen, was die Bedienbarkeit und Effizienz beim Arbeiten mit Berichten erheblich verbessert.
 
 > **Warum ist das wichtig?**  
@@ -30,16 +28,12 @@ Mit diesem Update wird beim Wechsel zwischen **Wochen-** und **Monatsansicht** i
 
 ### Berichte: Bei Auswahl von mehreren Personen werden die "Soll-Stunden" nicht korrekt angezeigt, wenn eine Person abwesend war
 
-[#905 – Fehlerhafte Soll-Stunden-Anzeige bei Abwesenheit von Personen](https://github.com/urlaubsverwaltung/zeiterfassung/pull/905)
-
 In dieser Version wurde ein Fehler behoben, der dazu führte, dass die **Soll-Stunden** in den **Berichten** bei der Auswahl von mehreren Personen nicht korrekt angezeigt wurden, wenn eine der ausgewählten Personen abwesend war. Mit diesem Fix wird die Sollzeit nun korrekt berechnet und angezeigt, selbst wenn eine Person an den betreffenden Tagen abwesend war.
 
 > **Warum ist das wichtig?**  
 > Die korrekte Anzeige der **Soll-Stunden** ist für die genaue Arbeitszeiterfassung und Abrechnung von entscheidender Bedeutung. Mit diesem Fix können Anwender sicher sein, dass ihre Berichte auch bei abwesenden Mitarbeitern präzise sind.
 
 ### Berichte: Fehlende Übersetzungen
-
-[#914 – Fehlerhafte oder fehlende Übersetzungen in den Berichten](https://github.com/urlaubsverwaltung/zeiterfassung/pull/914)
 
 Ein weiterer Bugfix betrifft **fehlende Übersetzungen** in den Berichten. Bei bestimmten Sprachen wurden Texte nicht korrekt angezeigt. Dieser Fehler wurde behoben, sodass nun alle wichtigen Elemente in den Berichten auch in den entsprechenden Sprachen korrekt übersetzt erscheinen.
 

@@ -17,8 +17,6 @@ Die Version **5.12.0** bringt ein besonders spannendes neues Feature für alle, 
 
 ### Backup- und Restore-Service (Beta)
 
-[#5054 – Beta feature: introduce backup / restore service](https://github.com/urlaubsverwaltung/urlaubsverwaltung/pull/5054)
-
 Mit diesem Release wird ein neues Beta-Feature eingeführt, das es ermöglicht, **Daten zu sichern und im Bedarfsfall wiederherzustellen**. Das betrifft u.a. Urlaubsanträge, Krankmeldungen und Personaldaten in der Urlaubsverwaltung.
 
 **Was ist neu?**

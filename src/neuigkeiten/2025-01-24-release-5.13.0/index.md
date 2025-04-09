@@ -17,8 +17,6 @@ Das neue **Release 5.13.0** der Urlaubsverwaltung bringt eine gezielte, aber wir
 
 ### Überstundenabbau über mehrere Tage per API leichter abfragen
 
-[#4931 – Abfrage von mehrtägiger Überstundenabbau über API vereinfachen](https://github.com/urlaubsverwaltung/urlaubsverwaltung/pull/4931)
-
 In vielen Fällen wollen externe Tools oder Dienste Informationen über **Überstundenabbau** auslesen – insbesondere, wenn dieser über **mehrere Tage hinweg** erfolgt. Vor diesem Release war die Abfrage solcher Vorgänge technisch umständlich und teilweise uneinheitlich.
 
 **Was wurde verbessert?**

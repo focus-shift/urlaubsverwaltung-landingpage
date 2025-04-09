@@ -17,8 +17,6 @@ In der neuen Version **5.10.0** erweitert die Urlaubsverwaltung ihre Unterstütz
 
 ### Neue Feiertagsregelungen für US-Bundesstaaten
 
-[#5009 – USA Feiertage – Washington, D.C., Virginia und Maryland](https://github.com/urlaubsverwaltung/urlaubsverwaltung/pull/5009)
-
 Mit dieser Erweiterung können nun Feiertage für die folgenden US-Regionen automatisch berücksichtigt werden:
 
 - **Washington, D.C.**

@@ -17,8 +17,6 @@ Mit **Release 5.16.0** legt die Urlaubsverwaltung den Schwerpunkt auf **erweiter
 
 ### [API|Persons] Abruf aller Personen via API
 
-[#5125 – Ability to retrieve all persons via the Api](https://github.com/urlaubsverwaltung/urlaubsverwaltung/pull/5125)
-
 Die API wurde erweitert: Es ist nun möglich, **alle Benutzer:innen** im System über einen API-Endpunkt abzufragen.
 
 **Was ist neu?**
@@ -34,8 +32,6 @@ Die API wurde erweitert: Es ist nun möglich, **alle Benutzer:innen** im System 
 
 ### [API|Persons] Abruf des Aktiv-Status einer Person
 
-[#5126 – Ability to retrieve person active status via API](https://github.com/urlaubsverwaltung/urlaubsverwaltung/pull/5126)
-
 Zusätzlich zum Zugriff auf alle Personen kann über die API jetzt auch der **Aktivitätsstatus (active/inactive)** jeder Person abgefragt werden.
 
 **Nutzen:**
@@ -46,8 +42,6 @@ Zusätzlich zum Zugriff auf alle Personen kann über die API jetzt auch der **Ak
 ---
 
 ### 🧵 Verwendung des Spring `TaskScheduler` Interfaces
-
-[#5132 – Use TaskScheduler interface to get the default TaskScheduler](https://github.com/urlaubsverwaltung/urlaubsverwaltung/pull/5132)
 
 Die Anwendung verwendet nun explizit das `TaskScheduler`-Interface von Spring, um standardkonforme und flexible Hintergrundverarbeitung zu ermöglichen.
 
@@ -61,8 +55,6 @@ Die Anwendung verwendet nun explizit das `TaskScheduler`-Interface von Spring, u
 ## Fehlerbehebungen
 
 ### HATEOAS-Links im Absence-Endpoint repariert
-
-[#5121 – Fix: Absence endpoint HATEOAS links](https://github.com/urlaubsverwaltung/urlaubsverwaltung/pull/5121)
 
 Ein Fehler im **Abwesenheitsendpunkt (`/api/absences`)** wurde behoben: Die generierten **HATEOAS-Links** waren unvollständig bzw. fehlerhaft. Dadurch konnten manche Clients die Verlinkung nicht korrekt interpretieren.
 
