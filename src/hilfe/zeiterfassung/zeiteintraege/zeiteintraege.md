@@ -33,7 +33,6 @@ Wenn du nur die Startzeit und die Dauer angibst, wird die Endzeit automatisch ge
 
 <p class="content-center">
     <video width="640" height="480" autoplay>
-      <source src="neuen_zeiteintrag.webm" type="video/webm" />
       <source src="neuen_zeiteintrag.mp4" type="video/mp4" />
     </video>
 </p>
