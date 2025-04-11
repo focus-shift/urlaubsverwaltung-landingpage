@@ -14,7 +14,7 @@ description: Hier findest du Hilfe zu dem Thema Feiertage
 ### Neuen Zeiteintrag erfassen
 
 Auf der Startseite unter "Zeit" kannst du für dich selbst Zeiteinträge erfassen.
-Du kannst den Tag auswählen, einen Kommentar sowie eine Startzeit und Endzeit angeben, die Dauer wird automatisch berechnet.
+Du kannst den Tag auswählen, einen Kommentar sowie eine Start- und Endzeit eingeben, die Dauer wird automatisch berechnet.
 
 <p>
   <picture>
@@ -29,7 +29,7 @@ Du kannst den Tag auswählen, einen Kommentar sowie eine Startzeit und Endzeit a
   </picture>
 </p>
 
-Wenn du nur die Startzeit und die Dauer angibst, wird die Endzeit automatisch gesetzt.
+Wenn nur Startzeit und Dauer angegeben werden, wird die Endzeit automatisch gesetzt.
 
 <p class="content-center">
     <video width="640" height="480" autoplay>
@@ -39,11 +39,10 @@ Wenn du nur die Startzeit und die Dauer angibst, wird die Endzeit automatisch ge
 
 ### Zeiteintrag mit der Stoppuhr erfassen
 
-Zeiteinträge können auch durch ein Klick auf den Stoppuhr-Start-Button erfasst werden. Die Stoppuhr läuft im
-Hintergrund weiter, auch wenn du die Seite wechselst. Du kannst die Stoppuhr jederzeit anhalten und dadurch den Zeiteintrag speichern.
+Zeiteinträge können auch durch Anklicken des Start-Buttons der Stoppuhr erfasst werden. Die Stoppuhr läuft im Hintergrund weiter, auch wenn du die Seite wechselst. Du kannst die Stoppuhr jederzeit anhalten und so den Zeiteintrag speichern.
 
-Wenn du die Stoppuhr startest, kannst du auch einen Kommentar hinzufügen oder die Startzeit nachträglich anpassen.
-Der Kommentar wird dann automatisch dem Zeiteintrag hinzugefügt.
+Wenn du die Stoppuhr startest, kannst du auch einen Kommentar hinzufügen oder die Startzeit nachträglich ändern.
+Der Kommentar wird dann automatisch zum Zeiteintrag hinzugefügt.
 
 <p>
   <picture>
@@ -62,10 +61,9 @@ Der Kommentar wird dann automatisch dem Zeiteintrag hinzugefügt.
 
 ### Zeiterfassung für andere Mitarbeitende
 
-Mitarbeitende, welche die Berechtigung "darf die Berechtigungen aller Personen bearbeiten" haben, haben die Möglichkeit
-die Startseitenansicht einer anderen Mitarbeitenden zu sehen und Zeiteinträge für diese Person zu erfassen.
+Mitarbeitende mit der Berechtigung "darf die Berechtigungen aller Personen bearbeiten" haben die Möglichkeit, die Startseitenansicht eines anderen Mitarbeitenden einzusehen und für diese Person Zeiteinträge zu erfassen.
 
-Mit einem Klick auf den Avatar eines Mitarbeitenden kannst du die Startseitenansicht für diese Person aufrufen.
+Mit einem Klick auf den Avatar eines Mitarbeitenden kann die Startseitenansicht für diese Person aufgerufen werden.
 
 <p>
   <picture>
