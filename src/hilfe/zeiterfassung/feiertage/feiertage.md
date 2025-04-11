@@ -8,35 +8,61 @@ description: Hier findest du Hilfe zu dem Thema Feiertage
 
 # Feiertage in der Zeiterfassung
 
-## Wie kann ich die Feiertage für die Zeiterfassung konfigurieren?
+## Wie kann ich die globale Feiertagsregelung für die Zeiterfassung konfigurieren?
 
-Bisher musste für jede Person einzeln das Bundesland und die dazugehörige Feiertagsregelung konfiguriert werden – eine mühsame Aufgabe bei einer größeren Anzahl von Mitarbeitern. Doch das ändert sich jetzt: Mit den neuen globalen Einstellungen kannst du ab sofort länderspezifische Feiertage und Arbeitsregelungen zentral für dein gesamtes Unternehmen festlegen.
+In den Einstellungen der Zeiterfassung ist es möglich eine globale Feiertagsregelung zu konfigurieren.
+Diese Regelung gilt für alle Mitarbeitenden, die in der Zeiterfassung erfasst sind.
 
-Konfiguriere einmalig, ob an Feiertagen gearbeitet wird oder nicht, und lege das Bundesland für die Feiertagsregelung fest. Diese globalen Einstellungen gelten dann als Standard für alle Mitarbeitenden und können bei Bedarf individuell überschrieben werden. Spare Zeit und vereinfache die Zeiterfassung – ganz ohne Kompromisse bei der Genauigkeit.
+<p>
+  <picture>
+    <img
+      src="globale_feiertage.png"
+      alt="Einstellungen der globalen Feiertagsregelung"
+      decoding="async"
+      loading="lazy"
+      width="938"
+      height="453"
+    />
+  </picture>
+</p>
 
-## Kann ich für einen bestimmten Mitarbeitenden die geltenden Feiertage konfigurieren?
+Falls du für einen bestimmten Mitarbeitenden eine individuelle Feiertagsregelung benötigst,
+kannst du diese in den Einstellungen eines Mitarbeitenden überschreiben.
 
-Individuelle Feiertagsregelung pro Bundesland
+## Kann ich für einen bestimmten Mitarbeitenden eine individuelle Feiertagsregelung konfigurieren?
 
-Bei verteilten Teams ist es nicht selten, dass unterschiedliche Anforderungen an Bundesländer und Feiertage existieren. Für Personen, die in Baden-Württemberg angestellt sind, gelten andere Feiertage als z. B. in Hessen. Daher könnt ihr ab sofort das Bundesland und die Feiertagsregelung für jede Person individuell anpassen.
+Bei verteilten Teams ist es nicht selten, dass unterschiedliche Anforderungen an Feiertagsregelungen existieren.
+Für Mitarbeitende, die in Baden-Württemberg angestellt sind, gelten andere Feiertagsregelungen als z. B. in Hessen.
+Daher kannst du die Feiertagsregelung für jeden Mitarbeitenden individuell anpassen.
 
-Die Zeiterfassung unterstützt dabei nicht nur deutsche Bundesländer, sondern auch viele andere Länder aus Europa.
+<p>
+  <picture>
+    <img
+      src="individuelle_feiertage.png"
+      alt="Einstellungen der Feiertagsregelung pro Mitarbeitenden"
+      decoding="async"
+      loading="lazy"
+      width="1906"
+      height="700"
+    />
+  </picture>
+</p>
 
-## Welche Feiertage sind vorhanden?
+## Welche Feiertagsregelungen sind vorhanden?
 
-Die Zeiterfassung bietet alle geltenden Feiertage der Länder 
+Die Zeiterfassung bietet alle geltenden Feiertagsregelungen der Länder
 
-* 🇩🇪 Deutschland
-* 🇦🇹 Österreich
-* 🇨🇭 Schweiz
-* 🇲🇹 Malta
-* 🇭🇷 Kroatien
-* 🇮🇹 Italien
-* 🇬🇧 Vereinigtes Königreich
-* 🇬🇷 Griechenland
-* 🇳🇱 Niederlande
-* 🇪🇸 Spanien
-* 🇺🇸 USA – Washington, D.C., Virginia und Maryland
+- 🇩🇪 Deutschland
+- 🇦🇹 Österreich
+- 🇨🇭 Schweiz
+- 🇲🇹 Malta
+- 🇭🇷 Kroatien
+- 🇮🇹 Italien
+- 🇬🇧 Vereinigtes Königreich
+- 🇬🇷 Griechenland
+- 🇳🇱 Niederlande
+- 🇪🇸 Spanien
+- 🇺🇸 USA – Washington, D.C., Virginia und Maryland
 
 und weiteren europäischen Länder an. Auch Besonderheiten wie z. B. das Augsburger Friedensfest ist mit dabei.
 
