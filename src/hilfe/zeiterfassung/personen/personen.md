@@ -7,16 +7,13 @@ title: Personen - Hilfe
 description: Hier findest du Hilfe zu dem Thema Personen
 ---
 
-# Personen und ihre Berechtigungen, Arbeitszeiten und deren Überstundenregelung in der Zeiterfassung
+# Personen und deren Berechtigungen, Arbeitszeiten und Überstundenregelung in der Zeiterfassung
 
-Ohne Mitarbeitende, kein Unternehmen. Die Verwaltung der Mitarbeitenden und ihre Berechtigungen
-sind zentraler Teil der Zeiterfassung.
+Ohne Mitarbeitende kein Unternehmen. Die Verwaltung der Mitarbeitenden und ihrer Berechtigungen ist ein zentraler Bestandteil der Zeiterfassung.
 
 ## Arbeitszeiten pro Mitarbeitenden festlegen
 
-Arbeitszeiten können individuell pro Mitarbeitende festgelegt werden – sowohl für die gesamte Woche als auch
-detailliert pro Wochentag. Diese Einstellungen können von Mitarbeitenden mit der Berechtigung
-"darf die Arbeitszeiten aller Personen bearbeiten" vorgenommen werden.
+Die Arbeitszeiten können pro Mitarbeitenden individuell festgelegt werden - sowohl für die ganze Woche als auch detailliert pro Wochentag. Diese Einstellungen können von Mitarbeitenden mit der Berechtigung "darf Arbeitszeiten aller Personen bearbeiten" vorgenommen werden.
 
 <p>
   <picture>
@@ -35,8 +32,7 @@ detailliert pro Wochentag. Diese Einstellungen können von Mitarbeitenden mit de
 
 ### Wie stelle ich die Berechtigungen eines Mitarbeitenden ein?
 
-Berechtigungen von Mitarbeitenden können unter Personen angepasst werden. Du hast die Möglichkeit, die Berechtigungen
-ganz bequem und sicher anzupassen, ohne die Anwendung verlassen zu müssen.
+Die Berechtigungen der Mitarbeitenden können unter Personen angepasst werden. Berechtigungen können bequem und sicher angepasst werden, ohne die Anwendung zu verlassen. Alle Änderungen werden direkt aktiv ohne weiteres Zutun.
 
 <p>
   <picture>
@@ -53,5 +49,5 @@ ganz bequem und sicher anzupassen, ohne die Anwendung verlassen zu müssen.
 
 ### Wann greifen neue Berechtigungen für einen Benutzer?
 
-Die Berechtigungen eines Mitarbeitenden werden sofort aktiv, wenn ihr diese ändert.
-Du musst also nicht warten, bis der Mitarbeitende sich erneut anmeldet oder die Seite aktualisiert.
+Die Berechtigungen eines Mitarbeitenden werden sofort wirksam, wenn sie geändert werden.
+Es muss also nicht gewartet werden, bis sich der Mitarbeitende erneut anmeldet oder die Seite aktualisiert.
