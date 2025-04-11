@@ -746,7 +746,7 @@ Die Weitergabe der Daten dient der Zahlungsabwicklung.
 
 Die Datenschutzerklärung von GoCardless finden Sie hier: https://gocardless.com/privacy/.
 Weitere Informationen zu GoCardless und die DSGVO sind hier zu finden:
-https://support.gocardless.com/hc/de/articles/360000281005-GoCardless-und-die-DSGVO
+https://gocardless.com/de-de/rechtliches/gdpr/
 
 ### 12.4. Dauer der Speicherung
 
