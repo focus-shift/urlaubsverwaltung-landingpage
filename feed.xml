@@ -4,8 +4,40 @@
   <subtitle></subtitle>
   <link rel="self" href="https://urlaubsverwaltung.cloud/feed.xml" />
   <link rel="alternate" type="text/html" href="https://urlaubsverwaltung.cloud" />
-  <updated>2025-04-09T00:00:00Z</updated>
+  <updated>2025-04-11T00:00:00Z</updated>
   <id>https://urlaubsverwaltung.cloud</id>
+  <entry>
+    <title>Zeiterfassung 2.13.0 – Verbesserungen bei Berichten und Bugfixes</title>
+    <link href="https://urlaubsverwaltung.cloud/neuigkeiten/2024-11-15-release-2.13.0/" />
+    <updated>2025-04-11T00:00:00Z</updated>
+    <id>https://urlaubsverwaltung.cloud/neuigkeiten/2024-11-15-release-2.13.0/</id>
+    <author>
+      <name>Andreas Weigel</name>
+    </author>
+    <content type="html">&lt;p&gt;Das &lt;strong&gt;Release 2.13.0&lt;/strong&gt; der Zeiterfassung bringt wichtige &lt;strong&gt;Verbesserungen&lt;/strong&gt; bei der Darstellung von Arbeitszeiten und behebt einen Fehler, der die Sollzeiten in Berichten betraf. Mit dieser Version werden Berichte nun noch genauer und nützlicher, was die Nutzung für alle Anwender optimiert.&lt;/p&gt;
+&lt;h2 id=&quot;verbesserungen&quot;&gt;Verbesserungen&lt;/h2&gt;
+&lt;h3 id=&quot;berichte-noch-zu-leistende-arbeitszeit-/-mehr-geleistete-arbeitszeit-zu-ausgewaehlten-personen-anzeigen&quot;&gt;Berichte: Noch zu leistende Arbeitszeit / Mehr geleistete Arbeitszeit zu ausgewählten Personen anzeigen&lt;/h3&gt;
+&lt;p&gt;Eine der wichtigsten Verbesserungen in diesem Release ist die erweiterte Funktionalität für &lt;strong&gt;Berichte&lt;/strong&gt;. Nun können für &lt;strong&gt;ausgewählte Personen&lt;/strong&gt; sowohl die &lt;strong&gt;noch zu leistende Arbeitszeit&lt;/strong&gt; als auch die &lt;strong&gt;mehr geleistete Arbeitszeit&lt;/strong&gt; angezeigt werden. Diese Erweiterung sorgt dafür, dass Nutzer und Administratoren eine präzisere Übersicht über die Arbeitszeiten erhalten, was die Planung und Verwaltung von Arbeitsstunden noch einfacher und effizienter macht.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;Warum ist das wichtig?&lt;/strong&gt;&lt;br /&gt;
+Die präzise Anzeige von Arbeitszeiten ist ein entscheidender Faktor für das &lt;strong&gt;Zeitmanagement&lt;/strong&gt; und die &lt;strong&gt;Effizienz&lt;/strong&gt; in Unternehmen. Mit dieser Funktion können nun auch detailliertere Analysen der Arbeitszeit durchgeführt werden.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;hr /&gt;
+&lt;h2 id=&quot;fehlerbehebungen&quot;&gt;Fehlerbehebungen&lt;/h2&gt;
+&lt;h3 id=&quot;falsche-sollzeiten-in-berichten-bei-tagen-mit-halben-abwesenheiten&quot;&gt;Falsche Sollzeiten in Berichten bei Tagen mit halben Abwesenheiten&lt;/h3&gt;
+&lt;p&gt;Ein &lt;strong&gt;Bug&lt;/strong&gt; in der Berechnung der &lt;strong&gt;Sollzeiten&lt;/strong&gt; in Berichten wurde behoben. Zuvor trat der Fehler auf, dass bei Tagen mit &lt;strong&gt;halben Abwesenheiten&lt;/strong&gt; die Sollzeiten nicht korrekt angezeigt wurden. Mit diesem Fix wird nun sichergestellt, dass &lt;strong&gt;halbe Abwesenheiten&lt;/strong&gt; korrekt berücksichtigt werden und die Sollzeiten in den Berichten präzise sind.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;Warum ist das wichtig?&lt;/strong&gt;&lt;br /&gt;
+Die korrekte Darstellung von &lt;strong&gt;Sollzeiten&lt;/strong&gt; ist essenziell für die &lt;strong&gt;Arbeitszeitabrechnung&lt;/strong&gt; und die Planung von Abwesenheiten. Dieser Fix sorgt dafür, dass keine &lt;strong&gt;Ungenauigkeiten&lt;/strong&gt; mehr auftreten, die zu Fehlern in der Abrechnung führen könnten.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;hr /&gt;
+&lt;h2 id=&quot;fazit&quot;&gt;Fazit&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;Release 2.13.0&lt;/strong&gt; bringt mit der verbesserten Darstellung der &lt;strong&gt;noch zu leistenden&lt;/strong&gt; und &lt;strong&gt;mehr geleisteten Arbeitszeiten&lt;/strong&gt; in Berichten eine nützliche Erweiterung für die Zeiterfassung. Darüber hinaus wurde ein Bug behoben, der die Sollzeiten in Berichten bei &lt;strong&gt;halben Abwesenheiten&lt;/strong&gt; fehlerhaft anzeigte.&lt;/p&gt;
+&lt;p&gt;Die neue Version sorgt somit für noch genauere Berichte und eine verbesserte Benutzererfahrung.&lt;/p&gt;
+&lt;p&gt;👉 Zur vollständigen Release-Übersicht:&lt;br /&gt;
+&lt;a href=&quot;https://github.com/urlaubsverwaltung/zeiterfassung/releases/tag/zeiterfassung-2.13.0&quot;&gt;Release 2.13.0 auf GitHub ansehen&lt;/a&gt;&lt;/p&gt;
+</content>
+  </entry>
   <entry>
     <title>Zeiterfassung 2.12.0 – Verbesserungen bei Berichten und Fehlerbehebungen</title>
     <link href="https://urlaubsverwaltung.cloud/neuigkeiten/2024-10-31-release-2.12.0/" />
