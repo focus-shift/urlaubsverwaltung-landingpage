@@ -1,7 +1,8 @@
 ---
 layout: layout-wissensbasis
 breadcrumb:
-  title: Berichte
+  - <a href="/hilfe#dokumentation-zeiterfassung">Zeiterfassung</a>
+  - Berichte
 title: Berichte - Hilfe
 description: Hier findest du Hilfe zu dem Thema Feiertage
 ---
