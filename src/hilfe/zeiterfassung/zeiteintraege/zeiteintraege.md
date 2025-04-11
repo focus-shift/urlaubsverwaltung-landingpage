@@ -39,7 +39,7 @@ Wenn du nur die Startzeit und die Dauer angibst, wird die Endzeit automatisch ge
 
 ### Zeiteintrag mit der Stoppuhr erfassen
 
-Zeiteinträge können auch durch ein klick auf den Stoppuhr-Start-Button erfasst werden. Die Stoppuhr läuft im
+Zeiteinträge können auch durch ein Klick auf den Stoppuhr-Start-Button erfasst werden. Die Stoppuhr läuft im
 Hintergrund weiter, auch wenn du die Seite wechselst. Du kannst die Stoppuhr jederzeit anhalten und dadurch den Zeiteintrag speichern.
 
 Wenn du die Stoppuhr startest, kannst du auch einen Kommentar hinzufügen oder die Startzeit nachträglich anpassen.
