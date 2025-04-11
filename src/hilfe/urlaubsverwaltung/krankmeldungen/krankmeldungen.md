@@ -19,6 +19,7 @@ das "+"-Symbol _Neue Krankmeldung_ ausgewählt wird.
 <p>
   <picture>
     <img
+      data-magnifiable
       src="krankmeldung-dialog-oeffnen.png"
       alt="Krankmeldung erstellen"
       decoding="async"
@@ -34,6 +35,7 @@ Für eine Krankmeldung können alle relevanten Informationen, wie z.B. den Zeitr
 <p>
   <picture>
     <img
+      data-magnifiable
       src="krankmeldung-dialog.png"
       alt="Krankmeldung erstellen"
       decoding="async"
@@ -51,6 +53,7 @@ Ja, eine Kind-Krankmeldung kann erfasst werden, indem der Typ von _Krankmeldung_
 <p>
   <picture>
     <img
+      data-magnifiable
       src="kindkrankmeldung.png"
       alt="Kindkrankmeldung erfassen"
       decoding="async"
@@ -70,6 +73,7 @@ Weitere Informationen zur Verwendung finden sich in [diesem Blog-Beitrag](https:
 <p>
   <picture>
     <img
+      data-magnifiable
       src="einstellungen-krankmeldung-selbsteintragen.png"
       alt="Einstellung für selbstständige Krankmeldung durch Mitarbeitende aktivieren"
       decoding="async"
@@ -91,6 +95,7 @@ Hierzu können in den _Einstellungen_ unter _Abwesenheiten_ die entsprechenden Z
 <p>
   <picture>
     <img
+      data-magnifiable
       src="krankmeldung-einstellungen.png"
       alt="Einstellungen Krankmeldung"
       decoding="async"
@@ -106,6 +111,7 @@ Hierzu können in den _Einstellungen_ unter _Abwesenheiten_ die entsprechenden Z
 <p>
   <picture>
     <img
+      data-magnifiable
       src="krankmeldung.png"
       alt="Workflow bei Krankmeldungen"
       decoding="async"
