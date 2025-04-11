@@ -18,11 +18,13 @@ navigation:
 					Doku
 				</a>
 			</li>
-			<li class="breadcrumb-item">
-				<span class="font-header text-2xl font-bold transition-colors text-zinc-900 hover:text-black">
-					{{breadcrumb.title}}
-				</span>
-			</li>
+			{{#each breadcrumb}}
+				<li class="breadcrumb-item">
+				  <span class="font-header text-2xl font-bold transition-colors text-zinc-900 hover:text-black">
+						{{{this}}}
+				  </span>
+				</li>
+			{{/each}}
 		</ul>
 		<div class="hidden lg:block flex-1 overflow-y-auto w-full pb-16" style="max-height: calc(100vh - 10rem);">
 			<div class="mb-8">
