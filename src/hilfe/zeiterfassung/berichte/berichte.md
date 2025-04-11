@@ -28,7 +28,7 @@ die nach Mitarbeitenden selektiert werden können. Es können auch mehrere Mitar
   </picture>
 </p>
 
-Die Ansicht eines Tags gibt einen schnellen Überblick darüber, wann und wie tatsächlich gearbeitet wurde.
+Die Ansicht eines Tages gibt einen schnellen Überblick darüber, wann und wie tatsächlich gearbeitet wurde.
 
 ## Abweichung zu den geleisteten Arbeitsstunden
 
