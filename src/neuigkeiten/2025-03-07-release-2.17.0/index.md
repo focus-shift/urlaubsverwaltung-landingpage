@@ -29,7 +29,7 @@ Ab sofort können die **Personen auf der Personen-Seite** nun sortiert werden. D
 Zeiteinträge können nun nach der **Startzeit** anstatt der **Erfassungszeit** sortiert werden. Diese neue Sortierungsoption erleichtert es, die Zeiteinträge nach ihrer tatsächlichen **Arbeitszeit** und nicht nach dem Zeitpunkt der Erfassung zu ordnen.
 
 > **Warum ist das wichtig?**  
-> Die **Startzeit** ist oft relevanter für die **Projekt- und Arbeitszeiterfassung** als die Zeit der Erfassung. Diese Änderung hilft dabei, einen genaueren Überblick über den Verlauf des Arbeitstags und die geleisteten Stunden zu erhalten.
+> Die **Startzeit** ist oft relevanter für die **Projekt- und Arbeitszeiterfassung** als die Zeit der Erfassung. Diese Änderung hilft dabei, einen genaueren Überblick über den Verlauf des Arbeitstages und die geleisteten Stunden zu erhalten.
 
 ---
 

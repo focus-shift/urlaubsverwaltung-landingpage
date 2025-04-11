@@ -43,7 +43,7 @@ Der Name der Einstellung hat sich von 'Bundesland' zu 'Feiertagsregelung' geänd
 
 ## Abwesenheiten an Feiertagen
 
-Die [Feiertagsregelung](/hilfe/feiertage/) wurde zudem um den Eintrag _Keine Feiertagsregelung_ erweitert. Mit dieser Einstellung
+Die [Feiertagsregelung](/hilfe/urlaubsverwaltung/feiertage/) wurde zudem um den Eintrag _Keine Feiertagsregelung_ erweitert. Mit dieser Einstellung
 ist es für die gesamte Urlaubsverwaltung sowie für bestimmte Personen möglich die Feiertagsregelung außer Kraft zu setzen und
 Abwesenheiten auch an Feiertagen einzutragen.
 
