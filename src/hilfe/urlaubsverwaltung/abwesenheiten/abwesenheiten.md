@@ -1,7 +1,8 @@
 ---
 layout: layout-wissensbasis.hbs
 breadcrumb:
-  title: Abwesenheit
+  - <a href="/hilfe#dokumentation-urlaubsverwaltung">Urlaubsverwaltung</a>
+  - Abwesenheit
 title: Abwesenheit - Hilfe
 description: Hier findest du Hilfe zu dem Thema Abwesenheiten
 ---

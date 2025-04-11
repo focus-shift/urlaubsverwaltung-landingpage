@@ -1,14 +1,15 @@
 ---
 layout: layout-wissensbasis.hbs
 breadcrumb:
-  title: Benutzer
+  - <a href="/hilfe#dokumentation-urlaubsverwaltung">Urlaubsverwaltung</a>
+  - Benutzer
 title: Benutzer - Hilfe
 description: Hier findest du Hilfe zu dem Thema Benutzer
 ---
 
 # Benutzer und ihre Berechtigungen in der urlaubsverwaltung.cloud
 
-Ohne Mitarbeitende, kein Unternehmen. Die Verwaltung der Mitarbeitenden und ihre Berechtigungen 
+Ohne Mitarbeitende, kein Unternehmen. Die Verwaltung der Mitarbeitenden und ihre Berechtigungen
 sind zentraler Teil der Urlaubsverwaltung.
 
 ## Welche Berechtigungen gibt es?
@@ -143,8 +144,8 @@ am 1. Januar automatisch überschrieben.
 
 ## Wann verfällt der Resturlaub eines Mitarbeitenden
 
-Der Verfall von Resturlaub kann global für die ganze Organisation, in den Einstellungen, aktiviert bzw. deaktiviert und 
-zusätzlich für jeden Benutzenden einzeln im Konto überschrieben werden. 
+Der Verfall von Resturlaub kann global für die ganze Organisation, in den Einstellungen, aktiviert bzw. deaktiviert und
+zusätzlich für jeden Benutzenden einzeln im Konto überschrieben werden.
 
 <p>
   <picture>

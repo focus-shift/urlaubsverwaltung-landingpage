@@ -1,16 +1,17 @@
 ---
 layout: layout-wissensbasis.hbs
 breadcrumb:
-  title: Abteilungen
+  - <a href="/hilfe#dokumentation-urlaubsverwaltung">Urlaubsverwaltung</a>
+  - Abteilungen
 title: Abteilungen - Hilfe
 description: Hier findest du Hilfe zu dem Thema Abteilungen
 ---
 
 # Die Bedeutung von Abteilungen in der urlaubsverwaltung.cloud
 
-Abteilungen sind eine Gruppierung von Mitarbeitenden, 
+Abteilungen sind eine Gruppierung von Mitarbeitenden,
 die in der Regel ein berechtigtes Interesse daran haben die Abwesenheiten anderer Abteilungsmitglieder zu sehen,
-um Urlaubsanträge untereinander abzustimmen. 
+um Urlaubsanträge untereinander abzustimmen.
 Zusätzlich kommt mit einer Abteilung die Möglichkeit einher, einen Abteilungsleiter benennen zu können,
 der Abwesenheiten für die Mitglieder seiner Abteilungen einsehen, genehmigen und ablehnen darf.
 

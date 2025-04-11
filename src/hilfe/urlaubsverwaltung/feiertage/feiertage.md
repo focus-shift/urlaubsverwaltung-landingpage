@@ -1,7 +1,8 @@
 ---
 layout: layout-wissensbasis.hbs
 breadcrumb:
-  title: Feiertage
+  - <a href="/hilfe#dokumentation-urlaubsverwaltung">Urlaubsverwaltung</a>
+  - Feiertage
 title: Feiertage - Hilfe
 description: Hier findest du Hilfe zu dem Thema Feiertage
 ---
@@ -10,10 +11,10 @@ description: Hier findest du Hilfe zu dem Thema Feiertage
 
 ## Wie kann ich die Feiertage für die Urlaubsverwaltung konfigurieren?
 
-In der Menüleiste befindet sich der Punkt "Einstellungen". Hier kann das Land und die Region 
-(z.B. das Bundesland in Deutschland) ausgewählt werden, dessen Feiertage nicht als Arbeitstage 
-beim Beantragen von Urlaub gezählt werden sollen. Außerdem kann festgelegt werden, wie 
-Heiligabend und Silvester behandelt werden sollen: gelten diese als Arbeitstag, 
+In der Menüleiste befindet sich der Punkt "Einstellungen". Hier kann das Land und die Region
+(z.B. das Bundesland in Deutschland) ausgewählt werden, dessen Feiertage nicht als Arbeitstage
+beim Beantragen von Urlaub gezählt werden sollen. Außerdem kann festgelegt werden, wie
+Heiligabend und Silvester behandelt werden sollen: gelten diese als Arbeitstag,
 halber Arbeitstag oder kein Arbeitstag?
 
 <p>
@@ -54,18 +55,18 @@ des persönlichen Landes bzw. der Region berechnet.
 
 ## Welche Feiertage sind vorhanden?
 
-Die Urlaubsverwaltung bietet alle geltenden Feiertage der Länder 
+Die Urlaubsverwaltung bietet alle geltenden Feiertage der Länder
 
-* Deutschland
-* des Vereinigten Königreiches
-* Griechenland
-* Italien
-* Kroatien
-* Malta
-* Niederlande
-* Österreich
-* Schweiz
-* Spanien
+- Deutschland
+- des Vereinigten Königreiches
+- Griechenland
+- Italien
+- Kroatien
+- Malta
+- Niederlande
+- Österreich
+- Schweiz
+- Spanien
 
 und weiteren europäischen Länder an. Auch Besonderheiten wie z. B. das Augsburger Friedensfest ist mit dabei.
 

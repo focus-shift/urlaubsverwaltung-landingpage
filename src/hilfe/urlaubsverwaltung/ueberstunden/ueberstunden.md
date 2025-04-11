@@ -1,7 +1,8 @@
 ---
 layout: layout-wissensbasis.hbs
 breadcrumb:
-  title: Überstunden
+  - <a href="/hilfe#dokumentation-urlaubsverwaltung">Urlaubsverwaltung</a>
+  - Überstunden
 title: Überstunden - Hilfe
 description: Hier findest du Hilfe zu dem Thema Überstunden
 ---
