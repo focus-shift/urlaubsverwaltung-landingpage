@@ -11,7 +11,7 @@ description: Hier findest du Hilfe zu dem Thema Feiertage
 
 ## Wie kann ich die globale Feiertagsregelung für die Zeiterfassung konfigurieren?
 
-In den Einstellungen der Zeiterfassung ist es möglich eine globale Feiertagsregelung zu konfigurieren.
+In den Einstellungen der Zeiterfassung kann eine globale Feiertagsregelung konfiguriert werden.
 Diese Regelung gilt für alle Mitarbeitenden, die in der Zeiterfassung erfasst sind.
 
 <p>
@@ -28,11 +28,12 @@ Diese Regelung gilt für alle Mitarbeitenden, die in der Zeiterfassung erfasst s
 </p>
 
 Falls du für einen bestimmten Mitarbeitenden eine individuelle Feiertagsregelung benötigst,
-kannst du diese in den Einstellungen eines Mitarbeitenden überschreiben.
+kannst du diese in den Einstellungen eines Mitarbeitenden konfigurieren. 
+Das überschreibt die globale Einstellung
 
 ## Kann ich für einen bestimmten Mitarbeitenden eine individuelle Feiertagsregelung konfigurieren?
 
-Bei verteilten Teams ist es nicht selten, dass unterschiedliche Anforderungen an Feiertagsregelungen existieren.
+Ja, bei verteilten Teams ist es nicht selten, dass unterschiedliche Anforderungen an Feiertagsregelungen existieren.
 Für Mitarbeitende, die in Baden-Württemberg angestellt sind, gelten andere Feiertagsregelungen als z. B. in Hessen.
 Daher kannst du die Feiertagsregelung für jeden Mitarbeitenden individuell anpassen.
 
@@ -65,7 +66,7 @@ Die Zeiterfassung bietet alle geltenden Feiertagsregelungen der Länder
 - 🇪🇸 Spanien
 - 🇺🇸 USA – Washington, D.C., Virginia und Maryland
 
-und weiteren europäischen Länder an. Auch Besonderheiten wie z. B. das Augsburger Friedensfest ist mit dabei.
+und anderen europäischen Ländern. Auch Besonderheiten wie das Augsburger Friedensfest sind dabei.
 
-Dir fehlen Feiertage für ein bestimmtes Land? Dann melde dich bei uns am einfachsten per E-Mail, wir freuen uns über dein Feedback!
+Dir fehlen Feiertage für ein bestimmtes Land? Dann kontaktiere uns am einfachsten per E-Mail, wir freuen uns über dein Feedback!
 Sollte uns ein Feiertag fehlen, dann schreibe uns gerne eine [E-Mail](mailto:info@urlaubsverwaltung.cloud?subject=Feiertage)!
