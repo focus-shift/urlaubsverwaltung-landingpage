@@ -55,20 +55,3 @@ ganz bequem und sicher anzupassen, ohne die Anwendung verlassen zu müssen.
 
 Die Berechtigungen eines Mitarbeitenden werden sofort aktiv, wenn ihr diese ändert.
 Du musst also nicht warten, bis der Mitarbeitende sich erneut anmeldet oder die Seite aktualisiert.
-
-## Überstundenregelung
-
-TODO
-
-<p>
-  <picture>
-    <img
-      src="ueberstundenregelung_pro_mitarbeitenden.png"
-      alt="Überstundenregelung pro Mitarbeitenden"
-      decoding="async"
-      loading="lazy"
-      width="1906"
-      height="995"
-    />
-  </picture>
-</p>
