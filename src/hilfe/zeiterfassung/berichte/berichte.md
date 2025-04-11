@@ -43,10 +43,10 @@ präzisere Übersicht sowie bessere Planung der Arbeitszeit unterstützt.
 
 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
 stroke-width="2" stroke-linecap="round" stroke-linejoin="round" role="img" aria-hidden="true" focusable="false">
-  <path d="M10 2v2" />
-  <path d="M14 2v2" />
-  <path d="M16 8a1 1 0 0 1 1 1v8a4 4 0 0 1-4 4H7a4 4 0 0 1-4-4V9a1 1 0 0 1 1-1h14a4 4 0 1 1 0 8h-1" />
-  <path d="M6 2v2" />
+<path d="M10 2v2" />
+<path d="M14 2v2" />
+<path d="M16 8a1 1 0 0 1 1 1v8a4 4 0 0 1-4 4H7a4 4 0 0 1-4-4V9a1 1 0 0 1 1-1h14a4 4 0 1 1 0 8h-1" />
+<path d="M6 2v2" />
 </svg>
 
 Ein Pause-Icon zeigt auf einen Blick, wenn eine erfasste Zeit eine Pause darstellt. Dieser visuellen Hinweise ermöglichen es den Mitarbeitenden,
@@ -86,12 +86,10 @@ Dies ermöglicht es, Fehler zu korrigieren und nachzuvollziehen, wer wann eine �
   </picture>
 </p>
 
-
 Die Nachverfolgbarkeit von Änderungen ist besonders für Unternehmen und Teams von großer Bedeutung,
 da sie zu mehr Transparenz und einer verbesserten Datenintegrität führt. Durch die Änderungshistorie
 können Fehlerquellen schneller identifiziert und behoben werden.
 Diese Funktion ist auch für Audits oder Compliance-Anforderungen von großer Relevanz.
-
 
 <p>
   <picture>
@@ -106,15 +104,13 @@ Diese Funktion ist auch für Audits oder Compliance-Anforderungen von großer Re
   </picture>
 </p>
 
+## Zeiteinträge über Berichte bearbeiten
 
+Mitarbeitenden mit der Berechtigung "darf die Berechtigungen aller Personen bearbeiten" können Zeiteinträge über die Berichte direkt
+bearbeiten. So lassen sich fehlerhafte oder ungenaue Einträge ganz einfach korrigieren – ohne dass die betroffenen Mitarbeitenden
+selbst aktiv werden müssen.
+Die Zeiteinträge können über die [Änderungshistorie für Zeiteinträge](#aenderungshistorie-fuer-zeiteintraege)
+angepasst werden und sind dadurch für alle Beteiligten nachvollziehbar und transparent ist.
 
-
-TODO
-
-Zeiteintrag bei Berichten bearbeiten können als privilegierte Person
-
-Jetzt können privilegierte Personen, wie Vorgesetzte oder Administratoren, Zeiteinträge bei Berichten bearbeiten. Dies ermöglicht eine einfache Korrektur von fehlerhaften oder ungenauen Zeiteinträgen, ohne dass die betroffenen Mitarbeiter:innen die Änderung vornehmen müssen.
-
-    Warum ist das wichtig?
-    Für HR-Abteilungen und Vorgesetzte ist es wichtig, die Berichte zu überprüfen und gegebenenfalls Anpassungen vorzunehmen. Diese Funktion ermöglicht es, Zeiteinträge zentral zu korrigieren und die Genauigkeit der Daten sicherzustellen.
-
+Gerade für HR-Abteilungen und Führungskräfte ist es entscheidend, Berichte auf Richtigkeit zu prüfen und bei Bedarf
+zentral anzupassen. Durch diese Funktion wird sichergestellt, dass alle Zeiteinträge korrekt und vollständig sind – für eine verlässliche Datengrundlage.
