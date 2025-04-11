@@ -1,6 +1,6 @@
 const prod = process.env.NODE_ENV === "production";
 
-module.exports = {
+export default {
 	eleventyComputed: {
 		draft: data => {
 			return data.draft === "" ? true : Boolean(data.draft);
