@@ -1,7 +1,8 @@
 ---
 layout: layout-wissensbasis.hbs
 breadcrumb:
-  title: Kalender
+  - <a href="/hilfe#dokumentation-urlaubsverwaltung">Urlaubsverwaltung</a>
+  - Kalender
 title: Kalender - Hilfe
 description: Hier findest du Hilfe zu dem Thema Kalender
 ---
@@ -38,54 +39,54 @@ Die Kalenderfreigabe kann pro Benutzer konfiguriert werden. Um die Konfiguration
 
 1. Klicke auf "Kalenderfreigabe" in der Übersichtsseite oberhalb des Kalenders
 
-    <p>
-      <picture>
-        <source srcset="kalenderfreigabe.avif" type="image/avif" />
-        <source srcset="kalenderfreigabe.webp" type="image/webp" />
-        <img
-          src="kalenderfreigabe.png"
-          alt="Kalenderfreigabe"
-          decoding="async"
-          loading="lazy"
-          width="1186"
-          height="850"
-        />
-      </picture>
-    </p>
+<p>
+  <picture>
+    <source srcset="kalenderfreigabe.avif" type="image/avif" />
+    <source srcset="kalenderfreigabe.webp" type="image/webp" />
+    <img
+      src="kalenderfreigabe.png"
+      alt="Kalenderfreigabe"
+      decoding="async"
+      loading="lazy"
+      width="1186"
+      height="850"
+    />
+  </picture>
+</p>
 
 2. Wähle z. B. "Meinen Kalender freigeben"
 
-    <p>
-      <picture>
-        <source srcset="kalenderfreigabe-aktivieren.avif" type="image/avif" />
-        <source srcset="kalenderfreigabe-aktivieren.webp" type="image/webp" />
-        <img
-          src="kalenderfreigabe-aktivieren.png"
-          alt="Kalenderfreigabe aktivieren"
-          decoding="async"
-          loading="lazy"
-          width="1171"
-          height="404"
-        />
-      </picture>
-    </p>
+<p>
+  <picture>
+    <source srcset="kalenderfreigabe-aktivieren.avif" type="image/avif" />
+    <source srcset="kalenderfreigabe-aktivieren.webp" type="image/webp" />
+    <img
+      src="kalenderfreigabe-aktivieren.png"
+      alt="Kalenderfreigabe aktivieren"
+      decoding="async"
+      loading="lazy"
+      width="1171"
+      height="404"
+    />
+  </picture>
+</p>
 
 3. Es wird ein geheimer Link generiert, welchen du jetzt zum Abonnieren verwenden kannst. Weitere Informationen über das Abonnieren findest du [hier](#welche-moeglichkeiten-habe-ich-eine-ical-kalenderfreigabe-in-meinem-client-zu-verwenden).
 
-    <p>
-      <picture>
-        <source srcset="kalenderfreigabe-link.avif" type="image/avif" />
-        <source srcset="kalenderfreigabe-link.webp" type="image/webp" />
-        <img
-          src="kalenderfreigabe-link.png"
-          alt="Kalenderfreigabe Link"
-          decoding="async"
-          loading="lazy"
-          width="1176"
-          height="401"
-        />
-      </picture>
-    </p>
+<p>
+  <picture>
+    <source srcset="kalenderfreigabe-link.avif" type="image/avif" />
+    <source srcset="kalenderfreigabe-link.webp" type="image/webp" />
+    <img
+      src="kalenderfreigabe-link.png"
+      alt="Kalenderfreigabe Link"
+      decoding="async"
+      loading="lazy"
+      width="1176"
+      height="401"
+    />
+  </picture>
+</p>
 
 ### Wie kann ich eine Freigabe löschen?
 
@@ -93,37 +94,37 @@ Eine Freigabe kann über folgende Schritte gelöscht werden:
 
 1. Klicke auf "Kalenderfreigabe" in der Übersichtsseite oberhalb des Kalenders
 
-    <p>
-      <picture>
-        <source srcset="kalenderfreigabe.avif" type="image/avif" />
-        <source srcset="kalenderfreigabe.webp" type="image/webp" />
-        <img
-          src="kalenderfreigabe.png"
-          alt="Kalenderfreigabe"
-          decoding="async"
-          loading="lazy"
-          width="1186"
-          height="850"
-        />
-      </picture>
-    </p>
+<p>
+  <picture>
+    <source srcset="kalenderfreigabe.avif" type="image/avif" />
+    <source srcset="kalenderfreigabe.webp" type="image/webp" />
+    <img
+      src="kalenderfreigabe.png"
+      alt="Kalenderfreigabe"
+      decoding="async"
+      loading="lazy"
+      width="1186"
+      height="850"
+    />
+  </picture>
+</p>
 
 2. Wähle beim betreffenden Kalender "Freigabe löschen". Durch das Löschen ist der Zugriff über den geheimen Link nicht mehr möglich.
 
-    <p>
-      <picture>
-        <source srcset="kalenderfreigabe-loeschen.avif" type="image/avif" />
-        <source srcset="kalenderfreigabe-loeschen.webp" type="image/webp" />
-        <img
-          src="kalenderfreigabe-loeschen.png"
-          alt="Kalenderfreigabe löschen"
-          decoding="async"
-          loading="lazy"
-          width="1162"
-          height="377"
-        />
-      </picture>
-    </p>
+<p>
+  <picture>
+    <source srcset="kalenderfreigabe-loeschen.avif" type="image/avif" />
+    <source srcset="kalenderfreigabe-loeschen.webp" type="image/webp" />
+    <img
+      src="kalenderfreigabe-loeschen.png"
+      alt="Kalenderfreigabe löschen"
+      decoding="async"
+      loading="lazy"
+      width="1162"
+      height="377"
+    />
+  </picture>
+</p>
 
 ### Welche Möglichkeiten habe ich eine iCal Kalenderfreigabe in meinem Client zu verwenden?
 

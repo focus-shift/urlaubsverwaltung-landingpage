@@ -1,7 +1,8 @@
 ---
 layout: layout-wissensbasis.hbs
 breadcrumb:
-  title: Drucken
+  - <a href="/hilfe#dokumentation-urlaubsverwaltung">Urlaubsverwaltung</a>
+  - Drucken
 title: Drucken - Hilfe
 description: Hier findest du Hilfe zu dem Thema Drucken
 ---
