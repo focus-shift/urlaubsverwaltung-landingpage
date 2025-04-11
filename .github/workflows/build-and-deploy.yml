@@ -63,11 +63,34 @@ jobs:
             echo "No PID file found, skipping kill."
           fi
 
+  lighthouse-check:
+    runs-on: ubuntu-20.04
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+      - name: setup nodejs
+        uses: actions/setup-node@v4
+        with:
+          node-version-file: ".tool-versions"
+          cache: 'npm'
+      - name: Install dependencies
+        run: npm ci
+      - name: Build
+        run: npm run build
+      - name: Run Lighthouse
+        uses: treosh/lighthouse-ci-action@v12
+        with:
+          configPath: '.github/lighthouse/lighthouserc.yml'
+          uploadArtifacts: true # save results as an action artifacts
+          temporaryPublicStorage: true # upload lighthouse report to the temporary storage
+
   deploy:
     if: github.ref == 'refs/heads/main'
     needs:
       - build
       - link-check
+      - lighthouse-check
     runs-on: ubuntu-20.04
     steps:
       - uses: actions/checkout@v4
