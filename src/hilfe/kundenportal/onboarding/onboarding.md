@@ -1,7 +1,8 @@
 ---
 layout: layout-wissensbasis.hbs
 breadcrumb:
-  title: Onboarding
+  - <a href="/hilfe#dokumentation-kundenportal">Kundenportal</a>
+  - Onboarding
 title: Onboarding - Hilfe
 description: Hier findest du Hilfe zu dem Thema Onboarding
 ---
