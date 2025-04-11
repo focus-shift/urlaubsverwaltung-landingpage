@@ -22,6 +22,7 @@ der Person möglich.
 <p class="flex flex-col items-start md:flex-row md:space-x-8">
     <picture>
         <img
+          data-magnifiable
           src="avatar_menue.png"
           alt="Über das Avatar-Menü gelangt man zu den Benachrichtigungen"
           decoding="async"
@@ -32,6 +33,7 @@ der Person möglich.
     </picture>
     <picture>
         <img
+          data-magnifiable
           src="konto_benachrichtigungen.png"
           alt="Über das Konto einer Person gelangt man zu den Benachrichtigungen"
           decoding="async"
@@ -50,6 +52,7 @@ hat, wird nur Personen mit der Berechtigung _Office_ bzw. _Chef_ angezeigt.
 <p>
 <picture>
     <img
+      data-magnifiable
       src="benachrichtigung.png"
       alt="Aktivieren bzw. deaktivieren von Benachrichtigungen pro Person"
       decoding="async"
