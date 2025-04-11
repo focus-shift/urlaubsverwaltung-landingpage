@@ -35,6 +35,7 @@ entsprechende Berechtigung _Abteilungsleiter_ erhalten. Die Konfiguration von Be
     <source srcset="abteilungsleiter-berechtigung.avif" type="image/avif" />
     <source srcset="abteilungsleiter-berechtigung.webp" type="image/webp" />
     <img
+      data-magnifiable
       src="abteilungsleiter-berechtigung.png"
       alt="Konfiguration der Berechtigung Abteilungsleiter"
       decoding="async"
@@ -52,6 +53,7 @@ Nun geht man über die Menüleiste zu den "Abteilungen". Hier kann man eine best
     <source srcset="abteilungsleiter-abteilung.avif" type="image/avif" />
     <source srcset="abteilungsleiter-abteilung.webp" type="image/webp" />
     <img
+      data-magnifiable
       src="abteilungsleiter-abteilung.png"
       alt="Abteilungsleiter einer Abteilung konfigurieren"
       decoding="async"

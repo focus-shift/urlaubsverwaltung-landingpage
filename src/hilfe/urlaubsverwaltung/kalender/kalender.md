@@ -44,6 +44,7 @@ Die Kalenderfreigabe kann pro Benutzer konfiguriert werden. Um die Konfiguration
     <source srcset="kalenderfreigabe.avif" type="image/avif" />
     <source srcset="kalenderfreigabe.webp" type="image/webp" />
     <img
+      data-magnifiable
       src="kalenderfreigabe.png"
       alt="Kalenderfreigabe"
       decoding="async"
@@ -61,6 +62,7 @@ Die Kalenderfreigabe kann pro Benutzer konfiguriert werden. Um die Konfiguration
     <source srcset="kalenderfreigabe-aktivieren.avif" type="image/avif" />
     <source srcset="kalenderfreigabe-aktivieren.webp" type="image/webp" />
     <img
+      data-magnifiable
       src="kalenderfreigabe-aktivieren.png"
       alt="Kalenderfreigabe aktivieren"
       decoding="async"
@@ -78,6 +80,7 @@ Die Kalenderfreigabe kann pro Benutzer konfiguriert werden. Um die Konfiguration
     <source srcset="kalenderfreigabe-link.avif" type="image/avif" />
     <source srcset="kalenderfreigabe-link.webp" type="image/webp" />
     <img
+      data-magnifiable
       src="kalenderfreigabe-link.png"
       alt="Kalenderfreigabe Link"
       decoding="async"
@@ -99,6 +102,7 @@ Eine Freigabe kann über folgende Schritte gelöscht werden:
     <source srcset="kalenderfreigabe.avif" type="image/avif" />
     <source srcset="kalenderfreigabe.webp" type="image/webp" />
     <img
+      data-magnifiable
       src="kalenderfreigabe.png"
       alt="Kalenderfreigabe"
       decoding="async"
@@ -116,6 +120,7 @@ Eine Freigabe kann über folgende Schritte gelöscht werden:
     <source srcset="kalenderfreigabe-loeschen.avif" type="image/avif" />
     <source srcset="kalenderfreigabe-loeschen.webp" type="image/webp" />
     <img
+      data-magnifiable
       src="kalenderfreigabe-loeschen.png"
       alt="Kalenderfreigabe löschen"
       decoding="async"

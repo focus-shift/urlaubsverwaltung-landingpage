@@ -21,6 +21,7 @@ detailliert pro Wochentag. Diese Einstellungen können von Mitarbeitenden mit de
 <p>
   <picture>
     <img
+      data-magnifiable
       src="arbeitszeiten_pro_mitarbeitenden.png"
       alt="Arbeitszeiten pro Mitarbeitenden"
       decoding="async"
@@ -41,6 +42,7 @@ ganz bequem und sicher anzupassen, ohne die Anwendung verlassen zu müssen.
 <p>
   <picture>
     <img
+      data-magnifiable
       src="berechtigungen_pro_mitarbeitenden.png"
       alt="Berechtigungen pro Mitarbeitenden"
       decoding="async"
@@ -63,6 +65,7 @@ TODO
 <p>
   <picture>
     <img
+      data-magnifiable
       src="ueberstundenregelung_pro_mitarbeitenden.png"
       alt="Überstundenregelung pro Mitarbeitenden"
       decoding="async"
