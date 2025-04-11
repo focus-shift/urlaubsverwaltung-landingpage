@@ -9,11 +9,11 @@ description: Hier findest du Hilfe zu dem Thema Feiertage
 
 # Berichte in der Zeiterfassung
 
-## Geleisteten und geplante Stunden von Mitarbeitenden
+## Geleistete und geplante Stunden von Mitarbeitenden
 
 In der Ansicht "Berichte" können die **geleisteten Arbeitsstunden** pro Mitarbeitenden grafisch als auch
 als CSV-Download eingesehen werden. Zusätzlich werden die **einzelnen Zeiteinträge** angezeigt,
-die nach Mitarbeitenden selektiert werden können. Es ist auch möglich, mehrere Mitarbeitende auszuwählen.
+die nach Mitarbeitenden selektiert werden können. Es können auch mehrere Mitarbeitende ausgewählt werden.
 
 <p>
   <picture>
@@ -28,19 +28,16 @@ die nach Mitarbeitenden selektiert werden können. Es ist auch möglich, mehrere
   </picture>
 </p>
 
-Durch die Ansicht eines Tags erhält man einen schnellen Überblick, wann und wie tatsächlich gearbeitet wurde.
+Die Ansicht eines Tags gibt einen schnellen Überblick darüber, wann und wie tatsächlich gearbeitet wurde.
 
 ## Abweichung zu den geleisteten Arbeitsstunden
 
-In den Berichten wird der Vergleich zwischen geplanten und tatsächlich geleisteten Arbeitsstunden angezeigt,
-sowohl auf Wochen- als auch auf Monatsbasis.
-Die Anzeige umfasst die geplante Arbeitszeit pro Tag sowie die tatsächlichen Arbeitsstunden. Eine weitere Kennzahl,
+Die Berichte zeigen den Vergleich zwischen den geplanten und den tatsächlich geleisteten Arbeitsstunden sowohl auf Wochen- als auch auf Monatsbasis an.
+Angezeigt werden die geplanten Arbeitsstunden pro Tag sowie die tatsächlich geleisteten Arbeitsstunden. Eine weitere Kennzahl,
 die **Abweichung der geplanten Arbeitsstunden**, zeigt, ob an einem Tag Überstunden geleistet oder weniger Stunden
-gearbeitet wurden als vorgesehen. Zusätzlich werden diese Werte nun auch auf Wochen- und Monatsbasis aggregiert,
-was den Nutzern eine detailliertere Analyse ihrer Arbeitszeit über längere Zeiträume ermöglicht und eine
-präzisere Übersicht sowie bessere Planung der Arbeitszeit unterstützt.
+gearbeitet wurden als vorgesehen. Darüber hinaus werden diese Werte auch auf Wochen- und Monatsbasis aggregiert, was den Nutzern eine detailliertere Analyse ihrer Arbeitszeit über längere Zeiträume hinweg ermöglicht und einen genaueren Überblick sowie eine bessere Planung der Arbeitszeit unterstützt.
 
-## Pausen
+## Darstellung von Pausen
 
 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
 stroke-width="2" stroke-linecap="round" stroke-linejoin="round" role="img" aria-hidden="true" focusable="false">
@@ -50,8 +47,7 @@ stroke-width="2" stroke-linecap="round" stroke-linejoin="round" role="img" aria-
 <path d="M6 2v2" />
 </svg>
 
-Ein Pause-Icon zeigt auf einen Blick, wenn eine erfasste Zeit eine Pause darstellt. Dieser visuellen Hinweise ermöglichen es den Mitarbeitenden,
-besondere Merkmale von Einträgen schneller zu erkennen und steigern somit die Übersichtlichkeit der Berichte.
+Ein Pausensymbol zeigt, ob es sich bei einer erfassten Zeit um eine Pause handelt.
 
 <p>
   <picture>
@@ -66,13 +62,12 @@ besondere Merkmale von Einträgen schneller zu erkennen und steigern somit die �
   </picture>
 </p>
 
-Pausen werden, wie man sieht, nicht in die geleiteten Arbeitsstunden eingerechnet. Dies ist besonders wichtig.
+Pausen werden nicht in die geleistete Arbeitszeit eingerechnet.
 
 ## Änderungshistorie für Zeiteinträge
 
-Alle Änderungen an Zeiteinträgen können nachverfolgt werden. Jede Änderung wird in einer
-übersichtlichen Historie gespeichert, die den Verlauf der Zeiteinträge dokumentiert.
-Dies ermöglicht es, Fehler zu korrigieren und nachzuvollziehen, wer wann eine Änderung vorgenommen hat.
+Alle Änderungen an den Zeiteinträgen können nachvollzogen werden. Jede Änderung wird in einer übersichtlichen Historie gespeichert, die den Verlauf der Zeiteinträge dokumentiert.
+So können Fehler korrigiert werden und es ist nachvollziehbar, wer wann eine Änderung vorgenommen hat.
 
 <p>
   <picture>
@@ -87,10 +82,7 @@ Dies ermöglicht es, Fehler zu korrigieren und nachzuvollziehen, wer wann eine �
   </picture>
 </p>
 
-Die Nachverfolgbarkeit von Änderungen ist besonders für Unternehmen und Teams von großer Bedeutung,
-da sie zu mehr Transparenz und einer verbesserten Datenintegrität führt. Durch die Änderungshistorie
-können Fehlerquellen schneller identifiziert und behoben werden.
-Diese Funktion ist auch für Audits oder Compliance-Anforderungen von großer Relevanz.
+Die Nachvollziehbarkeit von Änderungen ist insbesondere für Unternehmen und Teams von großer Bedeutung, da sie zu mehr Transparenz und Datenintegrität führt. Durch die Änderungshistorie können Fehlerquellen schneller identifiziert und behoben werden. Diese Funktion ist auch für Audits oder Compliance-Anforderungen von großer Bedeutung.
 
 <p>
   <picture>
@@ -107,11 +99,9 @@ Diese Funktion ist auch für Audits oder Compliance-Anforderungen von großer Re
 
 ## Zeiteinträge über Berichte bearbeiten
 
-Mitarbeitenden mit der Berechtigung "darf die Berechtigungen aller Personen bearbeiten" können Zeiteinträge über die Berichte direkt
-bearbeiten. So lassen sich fehlerhafte oder ungenaue Einträge ganz einfach korrigieren – ohne dass die betroffenen Mitarbeitenden
-selbst aktiv werden müssen.
+Mitarbeitende mit der Berechtigung "darf die Berechtigungen aller Personen bearbeiten" können Zeiteinträge direkt über die Berichte bearbeiten.
+So können fehlerhafte oder ungenaue Einträge einfach korrigiert werden - ohne dass die betroffenen Mitarbeitenden selbst aktiv werden müssen.
 Die Zeiteinträge können über die [Änderungshistorie für Zeiteinträge](#aenderungshistorie-fuer-zeiteintraege)
-angepasst werden und sind dadurch für alle Beteiligten nachvollziehbar und transparent ist.
+angepasst werden und sind somit für alle Beteiligten nachvollziehbar und transparent.
 
-Gerade für HR-Abteilungen und Führungskräfte ist es entscheidend, Berichte auf Richtigkeit zu prüfen und bei Bedarf
-zentral anzupassen. Durch diese Funktion wird sichergestellt, dass alle Zeiteinträge korrekt und vollständig sind – für eine verlässliche Datengrundlage.
+Gerade für Personalabteilungen und Führungskräfte ist es entscheidend, die Richtigkeit der Berichte zu überprüfen und gegebenenfalls zentral anzupassen. Diese Funktion stellt sicher, dass alle Zeiteinträge korrekt und vollständig sind - für eine verlässliche Datenbasis.
