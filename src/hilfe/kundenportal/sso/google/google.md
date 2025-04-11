@@ -1,7 +1,8 @@
 ---
 layout: layout-wissensbasis.hbs
 breadcrumb:
-  title: SSO mit Google Workspace
+  - <a href="/hilfe#dokumentation-kundenportal">Kundenportal</a>
+  - SSO mit Google Workspace
 title: Google Workspace - Single Sign-On (SSO) - Hilfe
 description: Single Sign-On (SSO) mit Google Workspace (Cloud Identity) für urlaubsverwaltung.cloud
 ---
@@ -26,12 +27,11 @@ Bei der Anbindung von Google Workspace erhalten wir über den _ID Token_ Zugriff
 
 ## Welche API Berechtigungen von Google werden verwendet?
 
-Durch die Ansprüche im _ID Token_ benötigt die registrierte Anwendung im OAuth-Zustimmungsbildschirm folgende Berechtigungen auf die Google_-API:
+Durch die Ansprüche im _ID Token_ benötigt die registrierte Anwendung im OAuth-Zustimmungsbildschirm folgende Berechtigungen auf die Google\_-API:
 
 - _.../auth/userinfo.email_
 - _.../auth/userinfo.profile_
 - _openid_
-
 
 ## Wie kann ich die Google Workspace Anbindung konfigurieren?
 
@@ -65,7 +65,6 @@ vom Typ OAuth-Client-ID erstellen.
 
 Aus dem Popup die Werte von _Client-ID_ und _Clientschlüssel_ in eine Textdatei kopieren, welche wir später benötigen.
 
-
 ### Schritt 2: Auf Mein Kundenportal die Anbindung konfigurieren
 
 Dazu muss man nun zu _Mein Kundenportal_ von [urlaubsverwaltung.cloud](https://urlaubsverwaltung.cloud) via _Login_ und über die Kachel
@@ -77,7 +76,7 @@ Nun brauchen wir die Werte aus der Textdatei von [Schritt 1](#schritt-1-neue-anw
 
 1. Wert von _Client-ID_
 2. Wert von _Clientschlüssel_
-4. Ein Klick auf _speichern_ konfiguriert nun die Anbindung von urlaubsverwaltung.cloud zu Google Workspace.
+3. Ein Klick auf _speichern_ konfiguriert nun die Anbindung von urlaubsverwaltung.cloud zu Google Workspace.
 
 ### Schritt 3: Für die Anwendung eine Weiterleitungs-URI konfigurieren
 

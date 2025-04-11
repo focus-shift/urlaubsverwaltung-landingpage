@@ -1,7 +1,8 @@
 ---
 layout: layout-wissensbasis.hbs
 breadcrumb:
-  title: Single Sign-On (SSO)
+  - <a href="/hilfe#dokumentation-kundenportal">Kundenportal</a>
+  - Single Sign-On (SSO)
 title: Single Sign-On (SSO) - Hilfe
 description: Hier findest du Hilfe zu dem Thema Single Sign-On (SSO)
 ---
