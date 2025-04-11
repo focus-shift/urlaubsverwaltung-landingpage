@@ -67,6 +67,7 @@ Pausen werden nicht in die geleistete Arbeitszeit eingerechnet.
 ## Änderungshistorie für Zeiteinträge
 
 Alle Änderungen an den Zeiteinträgen können nachvollzogen werden. Jede Änderung wird in einer übersichtlichen Historie gespeichert, die den Verlauf der Zeiteinträge dokumentiert.
+Die Historie kann durch Anklicken des Historie-Symbols geöffnet werden. Zu jeder Änderung ist der Stand zum Zeitpunkt der Änderung ersichtlich sowie wer die Änderung vorgenommen hat.
 So können Fehler korrigiert werden und es ist nachvollziehbar, wer wann eine Änderung vorgenommen hat.
 
 <p>
