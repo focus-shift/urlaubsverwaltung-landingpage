@@ -52,6 +52,7 @@ eine eigene Notiz hinterlegt werden. Die ausgewählten Personen werden über die
     <source srcset="vertretung.avif" type="image/avif" />
     <source srcset="vertretung.webp" type="image/webp" />
     <img
+      data-magnifiable
       src="vertretung.png"
       alt="Übersicht zu aktuellen und zukünftigen Vertretungen"
       decoding="async"
@@ -70,6 +71,7 @@ eine Übersicht aller Vertretungen einsehbar.
     <source srcset="uebersicht-vertretungen.avif" type="image/avif" />
     <source srcset="uebersicht-vertretungen.webp" type="image/webp" />
     <img
+      data-magnifiable
       src="uebersicht-vertretungen.png"
       alt="Übersicht zu aktuellen und zukünftigen Vertretungen"
       decoding="async"
@@ -123,6 +125,7 @@ Ja, es ist möglich, weitere Abwesenheitsarten zu konfigurieren. Diese können i
     <source srcset="abwesenheitsarten.avif" type="image/avif" />
     <source srcset="abwesenheitsarten.webp" type="image/webp" />
     <img
+      data-magnifiable
       src="abwesenheitsarten.png"
       alt="Konfiguration von Abwesenheitsarten"
       decoding="async"
@@ -165,6 +168,7 @@ Ein selbst erstellter Antrag kann bearbeitet werden, solange er noch nicht geneh
     <source srcset="abwesenheit-bearbeiten.avif" type="image/avif" />
     <source srcset="abwesenheit-bearbeiten.webp" type="image/webp" />
     <img
+      data-magnifiable
       src="abwesenheit-bearbeiten.png"
       alt="Abwesenheit bearbeiten"
       decoding="async"
@@ -192,6 +196,7 @@ Stichtag kann pro Benutzer konfiguriert werden, sodass der Resturlaub zu einem a
     <source srcset="absence-workflow.avif" type="image/avif" />
     <source srcset="absence-workflow.webp" type="image/webp" />
     <img
+      data-magnifiable
       src="absence-workflow.png"
       alt="Workflow bei Abwesenheitsanträgen"
       decoding="async"

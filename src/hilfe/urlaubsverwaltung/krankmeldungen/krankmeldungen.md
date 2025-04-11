@@ -20,6 +20,7 @@ das "+"-Symbol _Neue Krankmeldung_ ausgewählt wird.
     <source srcset="krankmeldung-dialog-oeffnen.avif" type="image/avif" />
     <source srcset="krankmeldung-dialog-oeffnen.webp" type="image/webp" />
     <img
+      data-magnifiable
       src="krankmeldung-dialog-oeffnen.png"
       alt="Krankmeldung erstellen"
       decoding="async"
@@ -37,6 +38,7 @@ Für eine Krankmeldung können alle relevanten Informationen, wie z.B. den Zeitr
     <source srcset="krankmeldung-dialog.avif" type="image/avif" />
     <source srcset="krankmeldung-dialog.webp" type="image/webp" />
     <img
+      data-magnifiable
       src="krankmeldung-dialog.png"
       alt="Krankmeldung erstellen"
       decoding="async"
@@ -56,6 +58,7 @@ Ja, eine Kind-Krankmeldung kann erfasst werden, indem der Typ von _Krankmeldung_
     <source srcset="kindkrankmeldung.avif" type="image/avif" />
     <source srcset="kindkrankmeldung.webp" type="image/webp" />
     <img
+      data-magnifiable
       src="kindkrankmeldung.png"
       alt="Kindkrankmeldung erfassen"
       decoding="async"
@@ -76,6 +79,7 @@ Weitere Informationen zur Verwendung finden sich in [diesem Blog-Beitrag](https:
   <picture>
     <source srcset="einstellungen-krankmeldung-selbsteintragen.avif" type="image/avif" />
     <img
+      data-magnifiable
       src="einstellungen-krankmeldung-selbsteintragen.png"
       alt="Einstellung für selbstständige Krankmeldung durch Mitarbeitende aktivieren"
       decoding="async"
@@ -99,6 +103,7 @@ Hierzu können in den _Einstellungen_ unter _Abwesenheiten_ die entsprechenden Z
     <source srcset="krankmeldung-einstellungen.avif" type="image/avif" />
     <source srcset="krankmeldung-einstellungen.webp" type="image/webp" />
     <img
+      data-magnifiable
       src="krankmeldung-einstellungen.png"
       alt="Einstellungen Krankmeldung"
       decoding="async"
@@ -116,6 +121,7 @@ Hierzu können in den _Einstellungen_ unter _Abwesenheiten_ die entsprechenden Z
     <source srcset="krankmeldung.avif" type="image/avif" />
     <source srcset="krankmeldung.webp" type="image/webp" />
     <img
+      data-magnifiable
       src="krankmeldung.png"
       alt="Workflow bei Krankmeldungen"
       decoding="async"

@@ -18,6 +18,7 @@ die nach Mitarbeitenden selektiert werden können. Es ist auch möglich, mehrere
 <p>
   <picture>
     <img
+      data-magnifiable
       src="berichte.png"
       alt="Übersicht über geleistete und geplante Arbeitsstunden"
       decoding="async"
@@ -56,6 +57,7 @@ besondere Merkmale von Einträgen schneller zu erkennen und steigern somit die �
 <p>
   <picture>
     <img
+      data-magnifiable
       src="pausen.png"
       alt="Pausen in der Tagesansicht"
       decoding="async"
@@ -77,6 +79,7 @@ Dies ermöglicht es, Fehler zu korrigieren und nachzuvollziehen, wer wann eine �
 <p>
   <picture>
     <img
+      data-magnifiable
       src="historie_icon.png"
       alt="Pausen in der Tagesansicht"
       decoding="async"
@@ -95,6 +98,7 @@ Diese Funktion ist auch für Audits oder Compliance-Anforderungen von großer Re
 <p>
   <picture>
     <img
+      data-magnifiable
       src="historie.png"
       alt="Pausen in der Tagesansicht"
       decoding="async"

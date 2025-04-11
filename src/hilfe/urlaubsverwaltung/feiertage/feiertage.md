@@ -22,6 +22,7 @@ halber Arbeitstag oder kein Arbeitstag?
     <source srcset="einstellungen-feiertage.avif" type="image/avif" />
     <source srcset="einstellungen-feiertage.webp" type="image/webp" />
     <img
+      data-magnifiable
       src="einstellungen-feiertage.png"
       alt="Einstellungsmöglichkeit der globalen Feiertagsregelung"
       decoding="async"
@@ -43,6 +44,7 @@ des persönlichen Landes bzw. der Region berechnet.
     <source srcset="konto-feiertage.avif" type="image/avif" />
     <source srcset="konto-feiertage.webp" type="image/webp" />
     <img
+      data-magnifiable
       src="konto-feiertage.png"
       alt="Einstellungsmöglichkeit der persönlichen Feiertagsregelung"
       decoding="async"

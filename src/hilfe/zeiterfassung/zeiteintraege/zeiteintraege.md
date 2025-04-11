@@ -19,6 +19,7 @@ Du kannst den Tag auswählen, einen Kommentar sowie eine Startzeit und Endzeit a
 <p>
   <picture>
     <img
+      data-magnifiable
       src="neuen_zeiteintrag_datum.png"
       alt=""
       decoding="async"
@@ -48,6 +49,7 @@ Der Kommentar wird dann automatisch dem Zeiteintrag hinzugefügt.
 <p>
   <picture>
     <img
+      data-magnifiable
       src="stoppuhr_editieren.png"
       alt=""
       decoding="async"
@@ -70,6 +72,7 @@ Mit einem Klick auf den Avatar eines Mitarbeitenden kannst du die Startseitenans
 <p>
   <picture>
     <img
+      data-magnifiable
       src="zeiteintrag_fuer_mitarbeitenden.png"
       alt=""
       decoding="async"

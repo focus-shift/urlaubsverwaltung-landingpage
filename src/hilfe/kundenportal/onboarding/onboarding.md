@@ -24,6 +24,7 @@ Die Mitarbeitenden erhalten darauf eine Einladung per E-Mail und können sich au
     <source srcset="invite-form.avif" type="image/avif" />
     <source srcset="invite-form.webp" type="image/webp" />
     <img
+      data-magnifiable
       src="invite-form.png"
       alt="Mitarbeitende einladen"
       decoding="async"
