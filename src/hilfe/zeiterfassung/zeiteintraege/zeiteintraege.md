@@ -1,7 +1,8 @@
 ---
 layout: layout-wissensbasis
 breadcrumb:
-  title: Zeiteinträge
+  - <a href="/hilfe#dokumentation-zeiterfassung">Zeiterfassung</a>
+  - Zeiteinträge
 title: Zeiteinträge - Hilfe
 description: Hier findest du Hilfe zu dem Thema Feiertage
 ---
@@ -58,7 +59,6 @@ Der Kommentar wird dann automatisch dem Zeiteintrag hinzugefügt.
   </picture>
 </p>
 
-
 ## Kann ich für einen bestimmten Mitarbeitenden Zeiteinträge erfassen?
 
 ### Zeiterfassung für andere Mitarbeitende
@@ -79,4 +79,3 @@ Mit einem Klick auf den Avatar eines Mitarbeitenden kannst du die Startseitenans
       height="911"
     />
   </picture>
-
