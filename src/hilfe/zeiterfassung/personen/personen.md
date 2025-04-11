@@ -1,7 +1,8 @@
 ---
 layout: layout-wissensbasis.hbs
 breadcrumb:
-  title: Benutzer
+  - <a href="/hilfe#dokumentation-zeiterfassung">Zeiterfassung</a>
+  - Benutzer
 title: Benutzer - Hilfe
 description: Hier findest du Hilfe zu dem Thema Benutzer
 ---
@@ -48,6 +49,5 @@ Wir freuen uns, euch ab sofort die Möglichkeit zu geben, direkt in der Anwendun
 
 Die Berechtigungen eines Mitarbeitenden werden sofort aktiv, wenn ihr diese ändert.
 Du musst also nicht warten, bis der Mitarbeitende sich erneut anmeldet oder die Seite aktualisiert.
-
 
 ## Überstundenregelung
