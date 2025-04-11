@@ -1,6 +1,6 @@
-const defaultConfig = require("tailwindcss/defaultConfig.js");
+import defaultConfig from "tailwindcss/defaultConfig.js";
 
-module.exports = {
+export default {
 	content: ["./src/**/*.hbs", "./src/**/*.md", "./src/static/js/**/*.js"],
 	theme: {
 		extend: {
