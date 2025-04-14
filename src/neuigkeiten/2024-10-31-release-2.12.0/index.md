@@ -22,8 +22,6 @@ Mit diesem Update wird beim Wechsel zwischen **Wochen-** und **Monatsansicht** i
 > **Warum ist das wichtig?**  
 > Durch die Übernahme der **Personenwahl** wird der Arbeitsablauf effizienter, besonders für Nutzer, die regelmäßig Berichte über mehrere Zeiträume hinweg auswerten müssen. Dies spart Zeit und reduziert die Notwendigkeit zur wiederholten Auswahl von Personen.
 
----
-
 ## Fehlerbehebungen
 
 ### Berichte: Bei Auswahl von mehreren Personen werden die "Soll-Stunden" nicht korrekt angezeigt, wenn eine Person abwesend war
