@@ -67,5 +67,4 @@ HATEOAS-Integration ist nun wieder vollständig und konsistent
 
 Mit Version **5.16.0** macht die Urlaubsverwaltung ihre API deutlich leistungsfähiger und besser integrierbar: Der Zugriff auf Personen und deren Status ist nun umfassender möglich – perfekt für externe Tools oder Synchronisierungen. Gleichzeitig sorgt die verbesserte Architektur bei geplanten Tasks und der Fix im HATEOAS-System für mehr **Stabilität** und **Zukunftssicherheit**.
 
-👉 Zur vollständigen Release-Übersicht:  
-[Release 5.16.0 auf GitHub ansehen](https://github.com/urlaubsverwaltung/urlaubsverwaltung/releases/tag/urlaubsverwaltung-5.16.0)
+<sub>Zur vollständigen Release-Übersicht: [Release 5.16.0 auf GitHub ansehen](https://github.com/urlaubsverwaltung/urlaubsverwaltung/releases/tag/urlaubsverwaltung-5.16.0)</sub>

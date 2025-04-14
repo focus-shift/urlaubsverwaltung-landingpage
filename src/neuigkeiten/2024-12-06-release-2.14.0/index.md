@@ -39,5 +39,4 @@ Ein weiterer Bug wurde behoben, der dazu führte, dass der **Avatar** eines Nutz
 
 **Release 2.14.0** bringt mit der Integration der **USA Feiertage** für Washington, D.C., Virginia und Maryland eine wichtige Anpassung für Nutzer aus diesen Regionen. Dazu wurden auch mehrere **Bugfixes** durchgeführt, die die Stabilität und Benutzerfreundlichkeit der Zeiterfassung weiter verbessern.
 
-👉 Zur vollständigen Release-Übersicht:  
-[Release 2.14.0 auf GitHub ansehen](https://github.com/urlaubsverwaltung/zeiterfassung/releases/tag/zeiterfassung-2.14.0)
+<sub>Zur vollständigen Release-Übersicht: [Release 2.14.0 auf GitHub ansehen](https://github.com/urlaubsverwaltung/zeiterfassung/releases/tag/zeiterfassung-2.14.0)</sub>

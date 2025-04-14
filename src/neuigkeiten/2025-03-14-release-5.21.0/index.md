@@ -27,5 +27,4 @@ Eine kleine, aber feine Verbesserung: In der Urlaubsverwaltung wird nun korrekt 
 
 Die **Version 5.21.0** der Urlaubsverwaltung mag auf den ersten Blick eine kleine Veränderung sein, aber sie macht die Anwendung deutlich **präziser und benutzerfreundlicher**. Besonders im täglichen Umgang mit Urlaubs- und Krankheitsmeldungen sorgt die Verbesserung der Anzeige von Tagen und Stunden für mehr Klarheit.
 
-👉 Zur vollständigen Release-Übersicht:  
-[Release 5.21.0 auf GitHub ansehen](https://github.com/urlaubsverwaltung/urlaubsverwaltung/releases/tag/urlaubsverwaltung-5.21.0)
+<sub>Zur vollständigen Release-Übersicht: [Release 5.21.0 auf GitHub ansehen](https://github.com/urlaubsverwaltung/urlaubsverwaltung/releases/tag/urlaubsverwaltung-5.21.0)</sub>

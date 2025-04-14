@@ -37,5 +37,4 @@ In vielen Fällen wollen externe Tools oder Dienste Informationen über **Übers
 
 **Release 5.13.0** richtet sich insbesondere an **Entwickler:innen** und **API-Nutzer:innen**: Die überarbeitete API erleichtert die Arbeit mit **mehrtägigem Überstundenabbau** und sorgt für mehr Konsistenz und Effizienz.
 
-👉 Zur vollständigen Release-Übersicht:  
-[Release 5.13.0 auf GitHub ansehen](https://github.com/urlaubsverwaltung/urlaubsverwaltung/releases/tag/urlaubsverwaltung-5.13.0)
+<sub>Zur vollständigen Release-Übersicht: [Release 5.13.0 auf GitHub ansehen](https://github.com/urlaubsverwaltung/urlaubsverwaltung/releases/tag/urlaubsverwaltung-5.13.0)</sub>

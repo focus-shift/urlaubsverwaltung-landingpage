@@ -66,5 +66,4 @@ Ein Fehler, bei dem **bearbeitete, aber noch nicht gespeicherte Zeitslots** nich
 
 **Release 2.17.0** bringt eine Reihe von Verbesserungen in der **Zeiterfassungssoftware**, die die Benutzerfreundlichkeit und Verwaltung von Arbeitszeiten weiter verbessern. Mit den neuen Funktionen zur **Sortierung von Personen und Zeiteinträgen** sowie den erweiterten Rechten für **privilegierte Benutzer** wird die Anwendung noch leistungsfähiger. Der behobene Bug bei der Hervorhebung bearbeiteter Zeitslots sorgt für eine noch genauere **Zeiterfassungsverwaltung**.
 
-👉 Zur vollständigen Release-Übersicht:  
-[Release 2.17.0 auf GitHub ansehen](https://github.com/urlaubsverwaltung/zeiterfassung/releases/tag/zeiterfassung-2.17.0)
+<sub>Zur vollständigen Release-Übersicht: [Release 2.17.0 auf GitHub ansehen](https://github.com/urlaubsverwaltung/zeiterfassung/releases/tag/zeiterfassung-2.17.0)</sub>

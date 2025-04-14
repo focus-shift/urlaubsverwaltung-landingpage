@@ -37,5 +37,4 @@ Der angezeigte Hinweistext bei **Sonderurlaub gemäß BGB § 616** war in Fälle
 
 Release **5.18.0** stärkt die Urlaubsverwaltung gleich mehrfach: Mit besserer **Entwicklungsumgebung**, mehr **Code-Stabilität** und gezielten **Fehlerbehebungen**, die das tägliche Arbeiten spürbar verbessern. Auch kleine Details – wie Zeitzonen oder Hinweise zu Sonderurlaub – wurden optimiert, damit alles noch reibungsloser funktioniert.
 
-👉 Zur vollständigen Release-Übersicht:  
-[Release 5.18.0 auf GitHub ansehen](https://github.com/urlaubsverwaltung/urlaubsverwaltung/releases/tag/urlaubsverwaltung-5.18.0)
+<sub>Zur vollständigen Release-Übersicht: [Release 5.18.0 auf GitHub ansehen](https://github.com/urlaubsverwaltung/urlaubsverwaltung/releases/tag/urlaubsverwaltung-5.18.0)</sub>

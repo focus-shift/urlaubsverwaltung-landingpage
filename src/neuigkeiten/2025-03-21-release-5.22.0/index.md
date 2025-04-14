@@ -47,5 +47,4 @@ Ein Meilenstein im Unternehmen verdient auch Anerkennung: Mit diesem Release ist
 
 Mit Version 5.22.0 zeigt die Urlaubsverwaltung, wie kleine Verbesserungen große Wirkung entfalten: **Mehr Übersicht**, **mehr Fairness**, **mehr Effizienz**. Egal ob Urlaub, Krankheit oder Jubiläum – der Umgang mit Abwesenheiten wird für alle Beteiligten einfacher und transparenter.
 
-👉 Zur vollständigen Release-Übersicht:  
-[Release 5.22.0 auf GitHub ansehen](https://github.com/urlaubsverwaltung/urlaubsverwaltung/releases/tag/urlaubsverwaltung-5.22.0)
+<sub>Zur vollständigen Release-Übersicht: [Release 5.22.0 auf GitHub ansehen](https://github.com/urlaubsverwaltung/urlaubsverwaltung/releases/tag/urlaubsverwaltung-5.22.0)</sub>

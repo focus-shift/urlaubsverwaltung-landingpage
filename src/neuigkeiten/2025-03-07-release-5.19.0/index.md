@@ -33,5 +33,4 @@ Ab sofort wird bei Benachrichtigungen über Urlaubsanträge an die **vorgesetzte
 
 Mit dem **Release 5.19.0** hat die Urlaubsverwaltung zwei bedeutende **Verbesserungen** im Bereich der **Kommunikation** und **Benachrichtigung** eingeführt. Diese Änderungen optimieren den Arbeitsablauf und sorgen für mehr **Effizienz** und **Transparenz** im Umgang mit Urlaubs- und Krankheitsanträgen.
 
-👉 Zur vollständigen Release-Übersicht:  
-[Release 5.19.0 auf GitHub ansehen](https://github.com/urlaubsverwaltung/urlaubsverwaltung/releases/tag/urlaubsverwaltung-5.19.0)
+<sub>Zur vollständigen Release-Übersicht: [Release 5.19.0 auf GitHub ansehen](https://github.com/urlaubsverwaltung/urlaubsverwaltung/releases/tag/urlaubsverwaltung-5.19.0)</sub>

@@ -43,5 +43,4 @@ Die Weiterleitungen von Urlaubsanträgen und Anfragen werden nun gezielt an die 
 
 Mit der **Version 5.20.0** bringt die Urlaubsverwaltung spannende **Verbesserungen** für eine genauere **Arbeitszeitplanung**, vereinfachte **Bestätigungs-E-Mails** und eine **optimierte Weiterleitung** von Anträgen. Diese Neuerungen erhöhen die **Effizienz** und **Transparenz** für alle Beteiligten und machen die Urlaubsverwaltung noch benutzerfreundlicher.
 
-👉 Zur vollständigen Release-Übersicht:  
-[Release 5.20.0 auf GitHub ansehen](https://github.com/urlaubsverwaltung/urlaubsverwaltung/releases/tag/urlaubsverwaltung-5.20.0)
+<sub>Zur vollständigen Release-Übersicht: [Release 5.20.0 auf GitHub ansehen](https://github.com/urlaubsverwaltung/urlaubsverwaltung/releases/tag/urlaubsverwaltung-5.20.0)</sub>

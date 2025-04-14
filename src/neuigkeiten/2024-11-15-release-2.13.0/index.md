@@ -41,5 +41,4 @@ Ein **Bug** in der Berechnung der **Sollzeiten** in Berichten wurde behoben. Zuv
 
 Die neue Version sorgt somit für noch genauere Berichte und eine verbesserte Benutzererfahrung.
 
-👉 Zur vollständigen Release-Übersicht:  
-[Release 2.13.0 auf GitHub ansehen](https://github.com/urlaubsverwaltung/zeiterfassung/releases/tag/zeiterfassung-2.13.0)
+<sub>Zur vollständigen Release-Übersicht: [Release 2.13.0 auf GitHub ansehen](https://github.com/urlaubsverwaltung/zeiterfassung/releases/tag/zeiterfassung-2.13.0)</sub>

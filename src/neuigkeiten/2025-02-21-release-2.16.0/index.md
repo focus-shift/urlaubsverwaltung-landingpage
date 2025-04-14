@@ -28,5 +28,4 @@ Mit diesem Release können nun alle **Änderungen an Zeiteinträgen** nachverfol
 
 **Release 2.16.0** bringt eine **wertvolle Neuerung** in der Zeiterfassungssoftware: die **Änderungshistorie für Zeiteinträge**. Diese Funktion trägt zur Verbesserung der **Datenintegrität** bei und sorgt für mehr **Transparenz** und **Nachvollziehbarkeit** bei der Verwaltung von Zeiteinträgen.
 
-👉 Zur vollständigen Release-Übersicht:  
-[Release 2.16.0 auf GitHub ansehen](https://github.com/urlaubsverwaltung/zeiterfassung/releases/tag/zeiterfassung-2.16.0)
+<sub>Zur vollständigen Release-Übersicht: [Release 2.16.0 auf GitHub ansehen](https://github.com/urlaubsverwaltung/zeiterfassung/releases/tag/zeiterfassung-2.16.0)</sub>

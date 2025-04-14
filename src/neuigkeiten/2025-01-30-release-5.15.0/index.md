@@ -35,5 +35,4 @@ In dieser Version wurde gezielt die **Indexierung von Fremdschlüsseln** in der 
 
 Auch wenn es auf den ersten Blick ein kleines Update ist: **Release 5.15.0** bringt eine spürbare **Verbesserung der Datenbankleistung** – vor allem für PostgreSQL-Nutzer:innen. Es ist ein technischer Meilenstein auf dem Weg zu einer noch robusteren und skalierbareren Urlaubsverwaltung.
 
-👉 Zur vollständigen Release-Übersicht:  
-[Release 5.15.0 auf GitHub ansehen](https://github.com/urlaubsverwaltung/urlaubsverwaltung/releases/tag/urlaubsverwaltung-5.15.0)
+<sub>Zur vollständigen Release-Übersicht: [Release 5.15.0 auf GitHub ansehen](https://github.com/urlaubsverwaltung/urlaubsverwaltung/releases/tag/urlaubsverwaltung-5.15.0)</sub>

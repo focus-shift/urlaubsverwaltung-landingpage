@@ -47,5 +47,4 @@ Diese Erweiterung ist Teil der kontinuierlichen Bemühungen, die Urlaubsverwaltu
 
 Mit Release **5.10.0** wird die Urlaubsverwaltung erneut internationaler. Unternehmen mit Standorten in Washington, D.C., Virginia oder Maryland profitieren von der genauen Feiertagsberechnung – ein weiterer Schritt Richtung globaler Einsatzfähigkeit.
 
-👉 Zur vollständigen Release-Übersicht:  
-[Release 5.10.0 auf GitHub ansehen](https://github.com/urlaubsverwaltung/urlaubsverwaltung/releases/tag/urlaubsverwaltung-5.10.0)
+<sub>Zur vollständigen Release-Übersicht: [Release 5.10.0 auf GitHub ansehen](https://github.com/urlaubsverwaltung/urlaubsverwaltung/releases/tag/urlaubsverwaltung-5.10.0)</sub>

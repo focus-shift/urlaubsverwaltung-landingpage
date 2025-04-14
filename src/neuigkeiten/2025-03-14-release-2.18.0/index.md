@@ -39,5 +39,4 @@ Ein Problem bei der **Personensuche** wurde behoben. Bisher war es nicht möglic
 
 **Release 2.18.0** bringt mit der Verbesserung des **PostgreSQL-Indexing** eine wichtige **Performance-Steigerung**, die die Anwendung schneller und effizienter macht. Die behobenen **Bugs** sorgen für eine verbesserte Benutzererfahrung, insbesondere bei der **Personensuche** und der **Fehlerbehebung im JavaScript**.
 
-👉 Zur vollständigen Release-Übersicht:  
-[Release 2.18.0 auf GitHub ansehen](https://github.com/urlaubsverwaltung/zeiterfassung/releases/tag/zeiterfassung-2.18.0)
+<sub>Zur vollständigen Release-Übersicht: [Release 2.18.0 auf GitHub ansehen](https://github.com/urlaubsverwaltung/zeiterfassung/releases/tag/zeiterfassung-2.18.0)</sub>

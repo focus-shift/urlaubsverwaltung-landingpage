@@ -46,5 +46,4 @@ Ein weiterer Bugfix betrifft **fehlende Übersetzungen** in den Berichten. Bei b
 
 **Release 2.12.0** verbessert mit der **übernommenen Personenauswahl** zwischen den Zeitansichten von Berichten die Benutzerfreundlichkeit erheblich. Außerdem wurden kritische **Bugs** behoben, die die Anzeige von **Soll-Stunden** bei Abwesenheiten sowie **fehlende Übersetzungen** betrafen. Mit diesen Verbesserungen und Fehlerbehebungen wird das Arbeiten mit Berichten noch präziser und komfortabler.
 
-👉 Zur vollständigen Release-Übersicht:  
-[Release 2.12.0 auf GitHub ansehen](https://github.com/urlaubsverwaltung/zeiterfassung/releases/tag/zeiterfassung-2.12.0)
+<sub>Zur vollständigen Release-Übersicht: [Release 2.12.0 auf GitHub ansehen](https://github.com/urlaubsverwaltung/zeiterfassung/releases/tag/zeiterfassung-2.12.0)</sub>

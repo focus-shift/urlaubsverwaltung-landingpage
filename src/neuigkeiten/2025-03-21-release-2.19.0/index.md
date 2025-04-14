@@ -48,5 +48,4 @@ Ein Fehler, der beim Ändern von Berechtigungen auftrat, wurde behoben. Obwohl d
 
 **Release 2.19.0** bringt wichtige Erweiterungen und Fehlerbehebungen für die Zeiterfassungssoftware. Die Möglichkeit, **Arbeitszeiten auf 0 Stunden zu setzen**, sowie die verbesserte **Startseitenansicht für privilegierte Nutzer** machen das Tool noch benutzerfreundlicher. Zudem wurde ein kritischer Bug bei der Berechtigungsänderung behoben, was die Zuverlässigkeit der Anwendung weiter erhöht.
 
-👉 Zur vollständigen Release-Übersicht:  
-[Release 2.19.0 auf GitHub ansehen](https://github.com/urlaubsverwaltung/zeiterfassung/releases/tag/zeiterfassung-2.19.0)
+<sub>Zur vollständigen Release-Übersicht: [Release 2.19.0 auf GitHub ansehen](https://github.com/urlaubsverwaltung/zeiterfassung/releases/tag/zeiterfassung-2.19.0)</sub>

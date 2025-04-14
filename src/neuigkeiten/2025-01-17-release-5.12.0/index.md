@@ -43,5 +43,4 @@ Da es sich um ein **Beta-Feature** handelt, sollte der Einsatz zunächst in **Te
 
 Mit Release **5.12.0** macht die Urlaubsverwaltung einen großen Schritt in Richtung **Datensicherheit und Wiederherstellbarkeit**. Der neue Backup- und Restore-Service legt den Grundstein für zuverlässige Sicherungsszenarien – vorerst als Beta, aber mit großem Potenzial für die Zukunft.
 
-👉 Zur vollständigen Release-Übersicht:  
-[Release 5.12.0 auf GitHub ansehen](https://github.com/urlaubsverwaltung/urlaubsverwaltung/releases/tag/urlaubsverwaltung-5.12.0)
+<sub>Zur vollständigen Release-Übersicht: [Release 5.12.0 auf GitHub ansehen](https://github.com/urlaubsverwaltung/urlaubsverwaltung/releases/tag/urlaubsverwaltung-5.12.0)</sub>
