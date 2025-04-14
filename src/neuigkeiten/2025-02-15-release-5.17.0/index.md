@@ -25,10 +25,11 @@ Die README wurde aktualisiert und enthält nun eine überarbeitete Anleitung zur
 - Konkrete Hinweise zur Testausführung
 - Bessere Lesbarkeit und Verständlichkeit
 
-**Warum wichtig?**  
-👉 Erleichtert den Einstieg ins Projekt  
-👉 Unterstützt nachhaltige Testqualität  
-👉 Fördert Community-Beiträge
+**Warum wichtig?**
+
+- Erleichtert den Einstieg ins Projekt
+- Unterstützt nachhaltige Testqualität
+- Fördert Community-Beiträge
 
 ## Fehlerbehebungen
 

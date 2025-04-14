@@ -24,9 +24,10 @@ Die API wurde erweitert: Es ist nun möglich, **alle Benutzer:innen** im System 
 - Neuer API-Endpunkt `/api/persons`
 - Zugriff auf alle im System registrierten Personen (je nach Berechtigung)
 
-**Warum nützlich?**  
-👉 Erleichtert **Integration in externe Systeme**  
-👉 Bessere Möglichkeiten für automatisierte Auswertungen und Synchronisation
+**Warum nützlich?**
+
+- Erleichtert **Integration in externe Systeme**
+- Bessere Möglichkeiten für automatisierte Auswertungen und Synchronisation
 
 ### [API|Persons] Abruf des Aktiv-Status einer Person
 
@@ -41,10 +42,11 @@ Zusätzlich zum Zugriff auf alle Personen kann über die API jetzt auch der **Ak
 
 Die Anwendung verwendet nun explizit das `TaskScheduler`-Interface von Spring, um standardkonforme und flexible Hintergrundverarbeitung zu ermöglichen.
 
-**Warum wichtig?**  
-👉 Mehr Flexibilität für geplante Aufgaben  
-👉 Bessere Kompatibilität mit Spring Boot-Konventionen  
-👉 Robuste und zukunftssichere Architektur
+**Warum wichtig?**
+
+- Mehr Flexibilität für geplante Aufgaben
+- Bessere Kompatibilität mit Spring Boot-Konventionen
+- Robuste und zukunftssichere Architektur
 
 ## Fehlerbehebungen
 
