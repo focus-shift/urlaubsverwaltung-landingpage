@@ -30,8 +30,6 @@ Die README wurde aktualisiert und enthält nun eine überarbeitete Anleitung zur
 👉 Unterstützt nachhaltige Testqualität  
 👉 Fördert Community-Beiträge
 
----
-
 ## Fehlerbehebungen
 
 ### Inaktive Stellvertretung führte zu Fehlern
@@ -40,8 +38,6 @@ Ein seltener Fall, bei dem eine Person mit der Berechtigung **"INACTIVE"** als S
 
 **Ergebnis:**  
 Kein Versand oder Fehler mehr durch inaktive Accounts in Stellvertreterrollen.
-
----
 
 ## Fazit
 

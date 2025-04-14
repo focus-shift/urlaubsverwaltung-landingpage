@@ -13,15 +13,11 @@ Mit dem **Release 5.21.0** der Urlaubsverwaltung wird ein weiteres nützliches F
 
 <!-- more -->
 
----
-
 ## Singular / Plural bei den Tagen und Stunden
 
 Eine kleine, aber feine Verbesserung: In der Urlaubsverwaltung wird nun korrekt zwischen **Singular** und **Plural** unterschieden, wenn es um die Angabe von **Tagen** und **Stunden** geht. Diese Änderung sorgt für mehr Klarheit und eine präzisere Darstellung der Abwesenheiten. Das bedeutet, dass beispielsweise bei einem **einzelnen Tag** als Abwesenheit "1 Tag" und bei mehreren Tagen korrekt "X Tage" angezeigt wird.
 
 **Vorteil:** Diese Anpassung sorgt für eine **benutzerfreundlichere Darstellung** und verhindert Missverständnisse, besonders wenn es um Abwesenheitszeiten in Stunden oder Tagen geht.
-
----
 
 ## Fazit
 

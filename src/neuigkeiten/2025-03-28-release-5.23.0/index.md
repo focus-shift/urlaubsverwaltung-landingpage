@@ -22,8 +22,6 @@ Mit diesem Update können Benutzer nun eine **Abwesenheitsstatistik** einsehen, 
 > **Warum ist das wichtig?**  
 > Diese Funktion erleichtert Benutzern die **Selbstkontrolle** über ihre **Abwesenheitszeiten** und fördert eine transparentere Verwaltung von Urlaub und Krankheitstagen. Besonders nützlich für **Personalabteilungen** und **Mitarbeiter**, die ihre Abwesenheiten genau im Blick behalten müssen.
 
----
-
 ## Fehlerbehebungen
 
 ### Initiales Anlegen von negativen Überstunden mit Minus (-10 z.B) nicht möglich
@@ -32,8 +30,6 @@ Mit diesem Update wird der Fehler behoben, der es unmöglich machte, **negative 
 
 > **Warum ist das wichtig?**  
 > Für die **Überstundenverwaltung** ist es entscheidend, dass sowohl **positive als auch negative Stunden** korrekt erfasst werden können. Mit diesem Fix können Unternehmen **negative Überstunden** zur Reduzierung von Arbeitszeitguthaben oder Abbau von Überstunden nutzen.
-
----
 
 ## Fazit
 

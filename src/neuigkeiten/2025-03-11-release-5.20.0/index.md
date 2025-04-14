@@ -21,23 +21,17 @@ Für die **Kalenderfreigabe** kann nun die **Arbeitsstartzeit** und **Arbeitsend
 
 **Vorteil:** Die **Zeitgenauigkeit** sorgt für eine genauere Abbildung der Arbeitszeiten und hilft, Missverständnisse bei der Urlaubs- und Arbeitszeitberechnung zu vermeiden.
 
----
-
 ### Kein ics-Anhang in der Bestätigungs-Mail bei Urlauben ohne Genehmigungsprozess
 
 Ein weiteres nützliches Feature: Ab sofort wird in der **Bestätigungs-E-Mail** für Urlaubsanträge, die keinen **Genehmigungsprozess** durchlaufen (z. B. in Unternehmen ohne Genehmigungsworkflow), kein **ICS-Anhang** mehr hinzugefügt. Dadurch entfällt der unnötige Schritt, der in solchen Fällen oft zu Verwirrung führen kann.
 
 **Vorteil:** Der E-Mail-Prozess wird **vereinfacht** und klarer, was zu einer besseren Benutzererfahrung führt.
 
----
-
 ### Weiterleitungen an Abteilungsleiter und Freigabe-Verantwortliche
 
 Die Weiterleitungen von Urlaubsanträgen und Anfragen werden nun gezielt an die **Abteilungsleiter** und **Freigabe-Verantwortlichen** weitergeleitet. Damit wird sichergestellt, dass der Urlaubsantrag immer bei der richtigen Person landet, um den Genehmigungsprozess schnell und effizient abzuschließen.
 
 **Vorteil:** Optimierte **Prozesskette** für die Urlaubs- und Abwesenheitsgenehmigung. Es wird keine Zeit mehr verschwendet, um den richtigen Verantwortlichen zu finden.
-
----
 
 ## Fazit
 

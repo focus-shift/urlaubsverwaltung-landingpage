@@ -19,19 +19,13 @@ Die Version **5.18.0** der Urlaubsverwaltung legt den Fokus darauf die **Stabili
 
 Ein Darstellungsproblem im **Dark Mode**, das auftrat, wenn der **Gravatar deaktiviert** war, wurde behoben. Die Benutzeroberfläche zeigt nun wieder alle Elemente korrekt an – auch ohne Nutzerbilder.
 
----
-
 ### Kalenderfreigabe: Fehlerhafte Konvertierung der Zeitzone
 
 Ein Fehler in der **Kalenderfreigabe** wurde behoben: Urlaube wurden unter Umständen in der falschen **Zeitzone** angezeigt. Jetzt stimmt die Zeitangabe wieder mit der realen Abwesenheit überein.
 
----
-
 ### Text zu Sonderurlaub gemäß BGB § 616 inkorrekt in Spezialfällen
 
 Der angezeigte Hinweistext bei **Sonderurlaub gemäß BGB § 616** war in Fällen mit **Tarifverträgen oder betrieblichen Regelungen** nicht korrekt. Dies wurde nun angepasst, sodass die juristische Information wieder präzise ist.
-
----
 
 ## Fazit
 

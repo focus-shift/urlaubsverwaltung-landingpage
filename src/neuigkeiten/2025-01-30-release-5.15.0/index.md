@@ -29,9 +29,7 @@ In dieser Version wurde gezielt die **Indexierung von Fremdschlüsseln** in der 
 👉 Bei größeren Installationen mit vielen Benutzern oder Daten wächst die Belastung auf die Datenbank – hier helfen saubere Indizes, um Anfragen deutlich schneller auszuführen.  
 👉 Besonders bei **Urlaubsstatistiken**, **Genehmigungsprozessen** oder **Massen-Imports** wird die Datenbank nun effizienter arbeiten.
 
----
-
-## Fazit
+s## Fazit
 
 Auch wenn es auf den ersten Blick ein kleines Update ist: **Release 5.15.0** bringt eine spürbare **Verbesserung der Datenbankleistung** – vor allem für PostgreSQL-Nutzer:innen. Es ist ein technischer Meilenstein auf dem Weg zu einer noch robusteren und skalierbareren Urlaubsverwaltung.
 

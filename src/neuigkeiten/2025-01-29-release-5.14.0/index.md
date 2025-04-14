@@ -29,8 +29,6 @@ Die Benutzerübersicht ist häufig der Einstiegspunkt für viele Administrierend
 👉 Spürbar schnellere Ladezeiten bei Zugriff auf die Benutzerliste  
 👉 Mehr Übersicht ohne Wartezeit
 
----
-
 ## Fazit
 
 Mit **Version 5.14.0** wird die Urlaubsverwaltung wieder ein Stück **schneller**, **aufgeräumter** und **besser dokumentiert**. Wer viele Benutzer:innen verwaltet oder die Software weiterentwickelt, profitiert besonders von diesem Update.

@@ -22,16 +22,12 @@ Ab sofort können Nutzer ihre **Arbeitszeit auf 0 Stunden setzen**. Diese Funkti
 > **Warum ist das wichtig?**  
 > Die Möglichkeit, Arbeitszeiten auf 0 Stunden zu setzen, vereinfacht die Zeiterfassung und macht die Anwendung flexibler bei der Verwaltung von Abwesenheiten.
 
----
-
 ### Startseitenansicht einer anderen Person für privilegierte Nutzer
 
 Privilegierte Nutzer haben jetzt die Möglichkeit, die **Startseitenansicht** einer anderen Person zu sehen. Dies ist besonders für **Vorgesetzte** oder **HR-Administratoren** nützlich, die die **Arbeitszeiten** ihrer Mitarbeiter:innen überwachen und verwalten müssen.
 
 > **Warum ist das wichtig?**  
 > Diese Erweiterung verbessert die **Benutzerverwaltung** und ermöglicht es den verantwortlichen Personen, schnell einen Überblick über die Arbeitszeiterfassung ihrer Mitarbeiter zu bekommen.
-
----
 
 ## Fehlerbehebungen
 
@@ -41,8 +37,6 @@ Ein Fehler, der beim Ändern von Berechtigungen auftrat, wurde behoben. Obwohl d
 
 > **Warum ist das wichtig?**  
 > Fehler bei der Berechtigungsverwaltung können zu Unsicherheit führen, besonders in sicherheitskritischen Bereichen wie der **Zeiterfassung**. Die Behebung dieses Bugs sorgt für eine verlässliche und transparente Benutzererfahrung.
-
----
 
 ## Fazit
 

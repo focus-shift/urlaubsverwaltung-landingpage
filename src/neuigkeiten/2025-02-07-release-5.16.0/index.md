@@ -28,8 +28,6 @@ Die API wurde erweitert: Es ist nun möglich, **alle Benutzer:innen** im System 
 👉 Erleichtert **Integration in externe Systeme**  
 👉 Bessere Möglichkeiten für automatisierte Auswertungen und Synchronisation
 
----
-
 ### [API|Persons] Abruf des Aktiv-Status einer Person
 
 Zusätzlich zum Zugriff auf alle Personen kann über die API jetzt auch der **Aktivitätsstatus (active/inactive)** jeder Person abgefragt werden.
@@ -38,8 +36,6 @@ Zusätzlich zum Zugriff auf alle Personen kann über die API jetzt auch der **Ak
 
 - Übersicht über aktive Benutzer:innen
 - Grundlage für automatisierte Bereinigungen oder Reports
-
----
 
 ### 🧵 Verwendung des Spring `TaskScheduler` Interfaces
 
@@ -50,8 +46,6 @@ Die Anwendung verwendet nun explizit das `TaskScheduler`-Interface von Spring, u
 👉 Bessere Kompatibilität mit Spring Boot-Konventionen  
 👉 Robuste und zukunftssichere Architektur
 
----
-
 ## Fehlerbehebungen
 
 ### HATEOAS-Links im Absence-Endpoint repariert
@@ -60,8 +54,6 @@ Ein Fehler im **Abwesenheitsendpunkt (`/api/absences`)** wurde behoben: Die gene
 
 **Ergebnis:**  
 HATEOAS-Integration ist nun wieder vollständig und konsistent
-
----
 
 ## Fazit
 

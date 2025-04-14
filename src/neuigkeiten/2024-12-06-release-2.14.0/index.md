@@ -22,8 +22,6 @@ Mit diesem Release wurden die **USA Feiertage** für **Washington, D.C., Virgini
 > **Warum ist das wichtig?**  
 > Durch die Berücksichtigung regionaler Feiertage können Unternehmen und Mitarbeiter nun ihre **Urlaubs- und Arbeitszeiterfassung** genau und konform zu den gesetzlichen Vorgaben in diesen Regionen durchführen.
 
----
-
 ## Fehlerbehebungen
 
 ### Avatar nicht verfügbar, wenn Name mit Leerzeichen beginnt/endet
@@ -32,8 +30,6 @@ Ein weiterer Bug wurde behoben, der dazu führte, dass der **Avatar** eines Nutz
 
 > **Warum ist das wichtig?**  
 > Ein funktionierender Avatar ist nicht nur für die Benutzererfahrung wichtig, sondern trägt auch zur **Visibilität** und **Zugehörigkeit** der Nutzer innerhalb der Software bei. Mit diesem Fix wird die Anzeige von Avataren jetzt zuverlässig und korrekt gewährleistet.
-
----
 
 ## Fazit
 

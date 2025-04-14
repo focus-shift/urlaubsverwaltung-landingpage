@@ -22,8 +22,6 @@ Eine der wichtigsten Verbesserungen in diesem Release ist die erweiterte Funktio
 > **Warum ist das wichtig?**  
 > Die präzise Anzeige von Arbeitszeiten ist ein entscheidender Faktor für das **Zeitmanagement** und die **Effizienz** in Unternehmen. Mit dieser Funktion können nun auch detailliertere Analysen der Arbeitszeit durchgeführt werden.
 
----
-
 ## Fehlerbehebungen
 
 ### Falsche Sollzeiten in Berichten bei Tagen mit halben Abwesenheiten
@@ -32,8 +30,6 @@ Ein **Bug** in der Berechnung der **Sollzeiten** in Berichten wurde behoben. Zuv
 
 > **Warum ist das wichtig?**  
 > Die korrekte Darstellung von **Sollzeiten** ist essenziell für die **Arbeitszeitabrechnung** und die Planung von Abwesenheiten. Dieser Fix sorgt dafür, dass keine **Ungenauigkeiten** mehr auftreten, die zu Fehlern in der Abrechnung führen könnten.
-
----
 
 ## Fazit
 

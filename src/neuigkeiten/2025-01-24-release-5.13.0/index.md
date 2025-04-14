@@ -31,8 +31,6 @@ In vielen Fällen wollen externe Tools oder Dienste Informationen über **Übers
 - Bessere Integration in externe Anwendungen oder Reportingsysteme
 - Solide Grundlage für Automatisierungen und Statistiken
 
----
-
 ## Fazit
 
 **Release 5.13.0** richtet sich insbesondere an **Entwickler:innen** und **API-Nutzer:innen**: Die überarbeitete API erleichtert die Arbeit mit **mehrtägigem Überstundenabbau** und sorgt für mehr Konsistenz und Effizienz.

@@ -22,8 +22,6 @@ Mit diesem Release können nun alle **Änderungen an Zeiteinträgen** nachverfol
 > **Warum ist das wichtig?**  
 > Die **Nachverfolgbarkeit** von Änderungen an Zeiteinträgen ist für Unternehmen und Teams von großer Bedeutung. Sie ermöglicht eine **größere Transparenz** und eine verbesserte **Datenintegrität**. Durch die Änderungshistorie können **Fehlerquellen** schneller identifiziert und behoben werden. Auch für Audits oder **Compliance-Anforderungen** kann diese Funktion von großer Bedeutung sein.
 
----
-
 ## Fazit
 
 **Release 2.16.0** bringt eine **wertvolle Neuerung** in der Zeiterfassungssoftware: die **Änderungshistorie für Zeiteinträge**. Diese Funktion trägt zur Verbesserung der **Datenintegrität** bei und sorgt für mehr **Transparenz** und **Nachvollziehbarkeit** bei der Verwaltung von Zeiteinträgen.

@@ -23,8 +23,6 @@ Diese Erweiterung erlaubt es, **bestehende Krankmeldungen zu erweitern** und fle
 > **Warum ist das wichtig?**  
 > Diese Funktion ermöglicht eine flexiblere Handhabung von Krankmeldungen und ist besonders hilfreich, wenn Änderungen nachträglich erforderlich sind, z. B. bei einer Verlängerung der Krankheitsdauer oder der Anpassung der Entgeltfortzahlung.
 
----
-
 ## Fazit
 
 Release **5.8.0** liefert eine große Neuerung: Die **Erweiterung der Krankmeldung** sorgt für eine noch **benutzerfreundlichere Verwaltung von Krankheitsfällen**.

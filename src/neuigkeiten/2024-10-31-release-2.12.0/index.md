@@ -40,8 +40,6 @@ Ein weiterer Bugfix betrifft **fehlende Übersetzungen** in den Berichten. Bei b
 > **Warum ist das wichtig?**  
 > Die Unterstützung für mehrere Sprachen ist entscheidend, um eine breite Nutzerbasis zu bedienen. Dieser Fix stellt sicher, dass die Zeiterfassungssoftware für alle Benutzer weltweit zugänglich und benutzerfreundlich bleibt.
 
----
-
 ## Fazit
 
 **Release 2.12.0** verbessert mit der **übernommenen Personenauswahl** zwischen den Zeitansichten von Berichten die Benutzerfreundlichkeit erheblich. Außerdem wurden kritische **Bugs** behoben, die die Anzeige von **Soll-Stunden** bei Abwesenheiten sowie **fehlende Übersetzungen** betrafen. Mit diesen Verbesserungen und Fehlerbehebungen wird das Arbeiten mit Berichten noch präziser und komfortabler.

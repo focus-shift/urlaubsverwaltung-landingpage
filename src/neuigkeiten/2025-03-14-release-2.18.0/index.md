@@ -22,8 +22,6 @@ Im Rahmen dieses Updates wurde die **Datenbankoptimierung** weiter vorangetriebe
 > **Warum ist das wichtig?**  
 > Die Performance von **Datenbank** wird durch die Indizierung von Fremdschlüsseln erheblich gesteigert. Dies führt zu schnelleren Datenbankabfragen, besonders in größeren Systemen mit vielen Verknüpfungen zwischen Tabellen. Die Optimierung sorgt für eine **flüssigere Benutzererfahrung** bei der Arbeit mit großen Datenmengen.
 
----
-
 ## Fehlerbehebungen
 
 ### Suche nach einer Person mit Vorname und Nachname ergab keine Treffer
@@ -32,8 +30,6 @@ Ein Problem bei der **Personensuche** wurde behoben. Bisher war es nicht möglic
 
 > **Warum ist das wichtig?**  
 > Die Korrektur dieses Bugs stellt sicher, dass die **Suche nach Mitarbeitern** oder Nutzern nun wie erwartet funktioniert. Gerade bei großen Teams ist eine **schnelle und präzise Personensuche** entscheidend für die effiziente Zeiterfassung.
-
----
 
 ## Fazit
 

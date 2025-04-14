@@ -19,8 +19,6 @@ Endlich Klarheit: Ab sofort wird **direkt in der Urlaubsliste angezeigt**, ob ei
 
 **Vorteil:** Frühzeitige Planung wird gefördert und unerwarteter Urlaubsverlust verhindert.
 
----
-
 ## Verbesserte Anzeige bei Krankmeldungen
 
 ### 1. Kalendertage und Lohnfortzahlung einsehen
@@ -33,15 +31,11 @@ Zusätzlich kann jetzt explizit gekennzeichnet werden, wenn es **keine Entgeltfo
 
 **Vorteil:** Arbeitgeber und Arbeitnehmer erkennen sofort, wie sich die Krankmeldung auf Gehalt und Abwesenheit auswirkt.
 
----
-
 ## Neuer Sonderurlaub: Betriebsjubiläen
 
 Ein Meilenstein im Unternehmen verdient auch Anerkennung: Mit diesem Release ist es möglich, für **Betriebsjubiläen** ganz einfach einen **Sonderurlaub** zu erfassen. Diese neue Abwesenheitsart ist nun standardmäßig verfügbar.
 
 **Vorteil:** Personalabteilungen können Jubiläen systematisch würdigen – Mitarbeitende fühlen sich gesehen und wertgeschätzt.
-
----
 
 ## Fazit
 

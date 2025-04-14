@@ -31,13 +31,9 @@ Mit diesem Release wird ein neues Beta-Feature eingeführt, das es ermöglicht, 
 - Vorbereitung auf Migrations- oder Update-Szenarien
 - Grundlage für zukünftige Admin-Funktionen zur Datensicherung
 
----
-
 ## 🔎 Hinweise zur Beta-Nutzung
 
 Da es sich um ein **Beta-Feature** handelt, sollte der Einsatz zunächst in **Testumgebungen** erfolgen. Feedback zur Nutzung, Verbesserungsvorschläge oder Fehlerberichte sind ausdrücklich willkommen – so wird das Feature iterativ stabil und produktionsreif.
-
----
 
 ## Fazit
 

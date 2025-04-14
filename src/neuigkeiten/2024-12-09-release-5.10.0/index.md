@@ -35,13 +35,9 @@ Mit dieser Erweiterung können nun Feiertage für die folgenden US-Regionen auto
 - Genauere Abbildung regionaler Arbeitszeitregelungen
 - Grundlage für eine skalierbare globale Nutzung der Urlaubsverwaltung
 
----
-
 ## Internationalisierung im Fokus
 
 Diese Erweiterung ist Teil der kontinuierlichen Bemühungen, die Urlaubsverwaltung für **multinationale Organisationen** nutzbar zu machen. Mit jeder neuen Region wird das Tool vielseitiger – und gerechter im Umgang mit Urlaubstagen und Feiertagsregelungen.
-
----
 
 ## Fazit
 

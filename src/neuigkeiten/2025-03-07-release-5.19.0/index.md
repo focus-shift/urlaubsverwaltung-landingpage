@@ -19,15 +19,11 @@ Ab sofort wird bei Benachrichtigungen über Urlaubsanträge an die **vorgesetzte
 
 **Vorteil:** Der Kommunikationsfluss wird **vereinfacht** und Fehler durch falsche E-Mail-Adressen werden vermieden. Der Urlaubsantrag wird effizienter bearbeitet, und Rückfragen können direkt und schnell beantwortet werden.
 
----
-
 ## Benachrichtigung an privilegierte Personen bei Änderung einer Krankmeldung
 
 Änderungen an einer **Krankmeldung** lösen nun eine **Benachrichtigung** an die **privilegierten Personen** aus, wie z. B. den **Vorgesetzten** oder den **HR-Verantwortlichen**. Diese Funktion stellt sicher, dass alle relevanten Personen sofort informiert werden, wenn es Änderungen an Krankmeldungen gibt.
 
 **Vorteil:** So bleiben alle Beteiligten stets **up-to-date** und der Krankheitsprozess wird transparenter. Es wird gewährleistet, dass keine Änderungen übersehen werden, was vor allem in großen Organisationen von großem Nutzen ist.
-
----
 
 ## Fazit
 
