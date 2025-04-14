@@ -1,5 +1,5 @@
 ---
-draft: false
+draft: true
 layout: layout-neuigkeiten.hbs
 date: 2025-06-18
 title: Zeiterfassung 2.19.0 – Verbesserte Arbeitszeiteinstellungen & privilegierte Benutzeransicht

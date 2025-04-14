@@ -1,5 +1,5 @@
 ---
-draft: false
+draft: true
 layout: layout-neuigkeiten.hbs
 date: 2025-05-28
 title: Urlaubsverwaltung 5.18.0 veröffentlicht – mit Demo-Banner, stabilerem Dark Mode und Zeitzonen-Fix

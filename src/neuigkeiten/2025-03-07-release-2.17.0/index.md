@@ -1,5 +1,5 @@
 ---
-draft: false
+draft: true
 layout: layout-neuigkeiten.hbs
 date: 2025-05-30
 title: Zeiterfassung 2.17.0 – Verbesserte Sortierung & privilegierte Benutzerfunktionen

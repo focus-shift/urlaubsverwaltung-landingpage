@@ -1,5 +1,5 @@
 ---
-draft: false
+draft: true
 layout: layout-neuigkeiten.hbs
 date: 2025-06-11
 title: Zeiterfassung 2.18.0 – Verbesserte PostgreSQL-Performance & Bugfixes

@@ -1,5 +1,5 @@
 ---
-draft: false
+draft: true
 layout: layout-neuigkeiten.hbs
 date: 2025-06-13
 title: Urlaubsverwaltung 5.21.0 – Neue Features & Bugfixes!

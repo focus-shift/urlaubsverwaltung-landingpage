@@ -1,5 +1,5 @@
 ---
-draft: false
+draft: true
 layout: layout-neuigkeiten.hbs
 date: 2025-06-04
 title: Urlaubsverwaltung 5.19.0 veröffentlicht – verbesserte Benachrichtigungen und neue Antwortfunktionen

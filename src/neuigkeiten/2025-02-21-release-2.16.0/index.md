@@ -1,5 +1,5 @@
 ---
-draft: false
+draft: true
 layout: layout-neuigkeiten.hbs
 date: 2025-05-23
 title: Zeiterfassung 2.16.0 – Änderungshistorie für Zeiteinträge

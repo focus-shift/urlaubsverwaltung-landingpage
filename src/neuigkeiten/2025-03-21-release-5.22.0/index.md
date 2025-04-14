@@ -1,5 +1,5 @@
 ---
-draft: false
+draft: true
 layout: layout-neuigkeiten.hbs
 date: 2025-06-20
 title: 📢 Urlaubsverwaltung 5.22.0 veröffentlicht – neue Features für transparente Urlaubs- und Krankheitsverwaltung

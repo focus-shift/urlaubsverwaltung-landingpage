@@ -1,5 +1,5 @@
 ---
-draft: false
+draft: true
 layout: layout-neuigkeiten.hbs
 date: 2025-06-06
 title: Urlaubsverwaltung 5.20.0 veröffentlicht – präzisere Kalenderangaben und optimierte Bestätigungs-Mails
