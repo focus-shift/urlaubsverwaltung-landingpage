@@ -27,5 +27,4 @@ Diese Erweiterung erlaubt es, **bestehende Krankmeldungen zu erweitern** und fle
 
 Release **5.8.0** liefert eine große Neuerung: Die **Erweiterung der Krankmeldung** sorgt für eine noch **benutzerfreundlichere Verwaltung von Krankheitsfällen**.
 
-👉 Zur vollständigen Release-Übersicht:  
-[Release 5.8.0 auf GitHub ansehen](https://github.com/urlaubsverwaltung/urlaubsverwaltung/releases/tag/urlaubsverwaltung-5.8.0)
+<sub>Zur vollständigen Release-Übersicht: [Release 5.8.0 auf GitHub ansehen](https://github.com/urlaubsverwaltung/urlaubsverwaltung/releases/tag/urlaubsverwaltung-5.8.0)</sub>
