@@ -22,7 +22,6 @@
 &lt;p&gt;&lt;strong&gt;Warum ist das wichtig?&lt;/strong&gt;&lt;br /&gt;
 Die präzise Anzeige von Arbeitszeiten ist ein entscheidender Faktor für das &lt;strong&gt;Zeitmanagement&lt;/strong&gt; und die &lt;strong&gt;Effizienz&lt;/strong&gt; in Unternehmen. Mit dieser Funktion können nun auch detailliertere Analysen der Arbeitszeit durchgeführt werden.&lt;/p&gt;
 &lt;/blockquote&gt;
-&lt;hr /&gt;
 &lt;h2 id=&quot;fehlerbehebungen&quot;&gt;Fehlerbehebungen&lt;/h2&gt;
 &lt;h3 id=&quot;falsche-sollzeiten-in-berichten-bei-tagen-mit-halben-abwesenheiten&quot;&gt;Falsche Sollzeiten in Berichten bei Tagen mit halben Abwesenheiten&lt;/h3&gt;
 &lt;p&gt;Ein &lt;strong&gt;Bug&lt;/strong&gt; in der Berechnung der &lt;strong&gt;Sollzeiten&lt;/strong&gt; in Berichten wurde behoben. Zuvor trat der Fehler auf, dass bei Tagen mit &lt;strong&gt;halben Abwesenheiten&lt;/strong&gt; die Sollzeiten nicht korrekt angezeigt wurden. Mit diesem Fix wird nun sichergestellt, dass &lt;strong&gt;halbe Abwesenheiten&lt;/strong&gt; korrekt berücksichtigt werden und die Sollzeiten in den Berichten präzise sind.&lt;/p&gt;
@@ -30,7 +29,6 @@ Die präzise Anzeige von Arbeitszeiten ist ein entscheidender Faktor für das &l
 &lt;p&gt;&lt;strong&gt;Warum ist das wichtig?&lt;/strong&gt;&lt;br /&gt;
 Die korrekte Darstellung von &lt;strong&gt;Sollzeiten&lt;/strong&gt; ist essenziell für die &lt;strong&gt;Arbeitszeitabrechnung&lt;/strong&gt; und die Planung von Abwesenheiten. Dieser Fix sorgt dafür, dass keine &lt;strong&gt;Ungenauigkeiten&lt;/strong&gt; mehr auftreten, die zu Fehlern in der Abrechnung führen könnten.&lt;/p&gt;
 &lt;/blockquote&gt;
-&lt;hr /&gt;
 &lt;h2 id=&quot;fazit&quot;&gt;Fazit&lt;/h2&gt;
 &lt;p&gt;&lt;strong&gt;Release 2.13.0&lt;/strong&gt; bringt mit der verbesserten Darstellung der &lt;strong&gt;noch zu leistenden&lt;/strong&gt; und &lt;strong&gt;mehr geleisteten Arbeitszeiten&lt;/strong&gt; in Berichten eine nützliche Erweiterung für die Zeiterfassung. Darüber hinaus wurde ein Bug behoben, der die Sollzeiten in Berichten bei &lt;strong&gt;halben Abwesenheiten&lt;/strong&gt; fehlerhaft anzeigte.&lt;/p&gt;
 &lt;p&gt;Die neue Version sorgt somit für noch genauere Berichte und eine verbesserte Benutzererfahrung.&lt;/p&gt;
@@ -67,7 +65,6 @@ Die korrekte Anzeige der &lt;strong&gt;Soll-Stunden&lt;/strong&gt; ist für die 
 &lt;p&gt;&lt;strong&gt;Warum ist das wichtig?&lt;/strong&gt;&lt;br /&gt;
 Die Unterstützung für mehrere Sprachen ist entscheidend, um eine breite Nutzerbasis zu bedienen. Dieser Fix stellt sicher, dass die Zeiterfassungssoftware für alle Benutzer weltweit zugänglich und benutzerfreundlich bleibt.&lt;/p&gt;
 &lt;/blockquote&gt;
-&lt;hr /&gt;
 &lt;h2 id=&quot;fazit&quot;&gt;Fazit&lt;/h2&gt;
 &lt;p&gt;&lt;strong&gt;Release 2.12.0&lt;/strong&gt; verbessert mit der &lt;strong&gt;übernommenen Personenauswahl&lt;/strong&gt; zwischen den Zeitansichten von Berichten die Benutzerfreundlichkeit erheblich. Außerdem wurden kritische &lt;strong&gt;Bugs&lt;/strong&gt; behoben, die die Anzeige von &lt;strong&gt;Soll-Stunden&lt;/strong&gt; bei Abwesenheiten sowie &lt;strong&gt;fehlende Übersetzungen&lt;/strong&gt; betrafen. Mit diesen Verbesserungen und Fehlerbehebungen wird das Arbeiten mit Berichten noch präziser und komfortabler.&lt;/p&gt;
 &lt;p&gt;&lt;sub&gt;Zur vollständigen Release-Übersicht: &lt;a href=&quot;https://github.com/urlaubsverwaltung/zeiterfassung/releases/tag/zeiterfassung-2.12.0&quot;&gt;Release 2.12.0 auf GitHub ansehen&lt;/a&gt;&lt;/sub&gt;&lt;/p&gt;
@@ -92,7 +89,6 @@ Die Unterstützung für mehrere Sprachen ist entscheidend, um eine breite Nutzer
 &lt;p&gt;&lt;strong&gt;Warum ist das wichtig?&lt;/strong&gt;&lt;br /&gt;
 Diese Funktion ermöglicht eine flexiblere Handhabung von Krankmeldungen und ist besonders hilfreich, wenn Änderungen nachträglich erforderlich sind, z. B. bei einer Verlängerung der Krankheitsdauer oder der Anpassung der Entgeltfortzahlung.&lt;/p&gt;
 &lt;/blockquote&gt;
-&lt;hr /&gt;
 &lt;h2 id=&quot;fazit&quot;&gt;Fazit&lt;/h2&gt;
 &lt;p&gt;Release &lt;strong&gt;5.8.0&lt;/strong&gt; liefert eine große Neuerung: Die &lt;strong&gt;Erweiterung der Krankmeldung&lt;/strong&gt; sorgt für eine noch &lt;strong&gt;benutzerfreundlichere Verwaltung von Krankheitsfällen&lt;/strong&gt;.&lt;/p&gt;
 &lt;p&gt;👉 Zur vollständigen Release-Übersicht:&lt;br /&gt;
