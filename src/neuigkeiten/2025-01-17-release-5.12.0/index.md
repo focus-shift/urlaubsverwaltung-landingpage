@@ -2,41 +2,49 @@
 draft: false
 layout: layout-neuigkeiten.hbs
 date: 2025-05-02
-title: Urlaubsverwaltung 5.12.0 – Backup und Wiederherstellung erstmals möglich
+title: Urlaubsverwaltung 5.12.0 – Ab in die Cloud!
 author: Andreas Weigel
 release-version: 5.12.0
 teaserImage: /static/teaser/2025-01-17/UV-Release-5.12.0.png
-description: Mit Version 5.12.0 führt die Urlaubsverwaltung ein neues Backup- und Restore-Feature als Beta ein – für mehr Sicherheit und einfache Wiederherstellung bei Datenverlust.
+description: Mit Version 5.12.0 führt die Urlaubsverwaltung ein neues Backup- und Restore-Feature ein, das den Wechsel von On-Premise zur Cloud erleichtert. Die Daten werden DSGVO-konform in Deutschland verarbeitet und regelmäßig gesichert.
 ---
 
-Die Version **5.12.0** bringt ein besonders spannendes neues Feature für alle, die sich um **Datensicherheit** und **Wiederherstellung** kümmern: Ein neuer **Backup- und Restore-Service** ist jetzt als **Beta-Feature** verfügbar!
+Die Version **5.12.0** bringt ein besonders spannendes neues Feature für alle welche von On-Premise auf [urlaubsverwaltung.cloud](https://urlaubsverwaltung.cloud/) wechseln möchten.
 
 <!-- more -->
 
-## Verbesserungen
+## Ab in die Cloud!
 
-### Backup- und Restore-Service (Beta)
+Mit diesem Release wird ein neues Feature eingeführt, das es ermöglicht, _Daten zu sichern und in der Cloud wiederherzustellen_. Das betrifft u.a. Urlaubsanträge, Krankmeldungen und Personaldaten in der Urlaubsverwaltung.
 
-Mit diesem Release wird ein neues Beta-Feature eingeführt, das es ermöglicht, **Daten zu sichern und im Bedarfsfall wiederherzustellen**. Das betrifft u.a. Urlaubsanträge, Krankmeldungen und Personaldaten in der Urlaubsverwaltung.
+Möchtest du **in die Cloud migrieren**? Dann schreibe uns an <a href="mailto:info@urlaubsverwaltung.cloud?subject=Ab%20in%20die%20Cloud!">info@urlaubsverwaltung.cloud</a>.
 
 **Was ist neu?**
 
 - Möglichkeit, ein vollständiges **Backup** der Datenbankinhalte zu erstellen
-- Unterstützung für das **Wiederherstellen** der Daten aus einem gespeicherten Backup
-- Erste Version als Beta: ideal für Tests, Feedback und Weiterentwicklung
+- Unterstützung für das **Wiederherstellen** der Daten in der Cloud
 
 **Warum ist das wichtig?**
 
-- Schutz vor versehentlichem Datenverlust
-- Vorbereitung auf Migrations- oder Update-Szenarien
-- Grundlage für zukünftige Admin-Funktionen zur Datensicherung
+- Eure Daten werden DSGVO-konform in Deutschland verarbeitet
+- Backups aller gespeicherter Daten
+- Schnelle Sicherheitsupdates und agile Weiterentwicklung ohne weiteres Zutun
+- Immer ein offenes Ohr für Fragen, Feedback und Feature-Wünsche
+- Single Sign-On über z.B. mit Microsoft 365
 
-## Hinweise zur Beta-Nutzung
+**Was nehmen wir dir ab?**
 
-Da es sich um ein **Beta-Feature** handelt, sollte der Einsatz zunächst in **Testumgebungen** erfolgen. Feedback zur Nutzung, Verbesserungsvorschläge oder Fehlerberichte sind ausdrücklich willkommen – so wird das Feature iterativ stabil und produktionsreif.
+- Installation & Konfiguration
+- Betrieb der Datenbank und des OpenID Connect Providers
+- Regelmäßige Backups & Updates (Urlaubsverwaltung + Betriebssystem)
+- Anschaffung & Betrieb eines Servers
+- Betrieb eines Reverse-Proxys inkl. SSL-Zertifikatserneuerung
+- IT-Personal- und Supportkosten
 
 ## Fazit
 
-Mit Release **5.12.0** macht die Urlaubsverwaltung einen großen Schritt in Richtung **Datensicherheit und Wiederherstellbarkeit**. Der neue Backup- und Restore-Service legt den Grundstein für zuverlässige Sicherungsszenarien – vorerst als Beta, aber mit großem Potenzial für die Zukunft.
+Mit Release _5.12.0_ wird **der Weg in die Cloud** geebnet. Das neue Backup- und Restore-Feature ist ein wichtiger Schritt, um den Wechsel von On-Premise zur Cloud zu erleichtern.
+
+Möchtest du in die Cloud migrieren? Dann schreibe uns an <a href="mailto:info@urlaubsverwaltung.cloud?subject=Ab%20in%20die%20Cloud!">info@urlaubsverwaltung.cloud</a>.
 
 <sub>Zur vollständigen Release-Übersicht: [Release 5.12.0 auf GitHub ansehen](https://github.com/urlaubsverwaltung/urlaubsverwaltung/releases/tag/urlaubsverwaltung-5.12.0)</sub>
