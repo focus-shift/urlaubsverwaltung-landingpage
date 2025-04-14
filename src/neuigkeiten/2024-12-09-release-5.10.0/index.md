@@ -25,9 +25,9 @@ Mit dieser Erweiterung können nun Feiertage für die folgenden US-Regionen auto
 
 **Was ist neu?**
 
-- Alle staatlich anerkannten Feiertage für die genannten Regionen sind jetzt im System verfügbar
-- Lokale Feiertage werden automatisch im Kalender reflektiert
-- Die Auswahl kann für einzelne Personen oder Teams individuell getroffen werden
+- Alle staatlich anerkannten Feiertage für die genannten Regionen sind jetzt in der Urlaubsverwaltung verfügbar
+- Feiertage werden automatisch im Kalender angezeigt
+- Die Auswahl kann für einzelne Mitarbeitenden individuell getroffen werden
 
 **Warum ist das wichtig?**
 
@@ -35,7 +35,7 @@ Mit dieser Erweiterung können nun Feiertage für die folgenden US-Regionen auto
 - Genauere Abbildung regionaler Arbeitszeitregelungen
 - Grundlage für eine skalierbare globale Nutzung der Urlaubsverwaltung
 
-## Internationalisierung im Fokus
+### Internationalisierung im Fokus
 
 Diese Erweiterung ist Teil der kontinuierlichen Bemühungen, die Urlaubsverwaltung für **multinationale Organisationen** nutzbar zu machen. Mit jeder neuen Region wird das Tool vielseitiger – und gerechter im Umgang mit Urlaubstagen und Feiertagsregelungen.
 
