@@ -4,8 +4,56 @@
   <subtitle></subtitle>
   <link rel="self" href="https://urlaubsverwaltung.cloud/feed.xml" />
   <link rel="alternate" type="text/html" href="https://urlaubsverwaltung.cloud" />
-  <updated>2025-04-11T00:00:00Z</updated>
+  <updated>2025-04-14T00:00:00Z</updated>
   <id>https://urlaubsverwaltung.cloud</id>
+  <entry>
+    <title>Hilfe zur Zeiterfassung</title>
+    <link href="https://urlaubsverwaltung.cloud/neuigkeiten/2025-04-14-help-zeiterfassung/" />
+    <updated>2025-04-14T00:00:00Z</updated>
+    <id>https://urlaubsverwaltung.cloud/neuigkeiten/2025-04-14-help-zeiterfassung/</id>
+    <author>
+      <name>Tobias Schneider</name>
+    </author>
+    <content type="html">&lt;p&gt;Hilfe der Zeiterfassung. Die Hilfe ist übersichtlich in vier Bereiche unterteilt: Zeiteinträge, Berichte, Personen und Feiertage.
+So findest du schneller die passenden Informationen und kannst die Zeiterfassung noch effizienter nutzen.&lt;/p&gt;
+&lt;h2 id=&quot;neue-hilfe-funktion-im-avatar-menue-fuer-die-zeiterfassung&quot;&gt;Neue Hilfe-Funktion im Avatar-Menü für die Zeiterfassung&lt;/h2&gt;
+&lt;p&gt;Ab sofort findest du im &lt;strong&gt;Avatar-Menü&lt;/strong&gt; einen direkten Zugang zur &lt;a href=&quot;https://urlaubsverwaltung.cloud/hilfe/#dokumentation-zeiterfassungq&quot;&gt;&lt;strong&gt;Hilfe-Seite der Zeiterfassung&lt;/strong&gt;&lt;/a&gt; – damit du noch schneller und einfacher Antworten auf deine Fragen bekommst.&lt;/p&gt;
+&lt;div class=&quot;flex my-8&quot;&gt;
+    &lt;figure&gt;
+        &lt;picture&gt;
+            &lt;source srcset=&quot;https://urlaubsverwaltung.cloud/neuigkeiten/2025-04-14-help-zeiterfassung/help.avif&quot; type=&quot;image/avif&quot; /&gt;
+            &lt;source srcset=&quot;https://urlaubsverwaltung.cloud/neuigkeiten/2025-04-14-help-zeiterfassung/help.webp&quot; type=&quot;image/webp&quot; /&gt;
+            &lt;img src=&quot;https://urlaubsverwaltung.cloud/neuigkeiten/2025-04-14-help-zeiterfassung/help.png&quot; alt=&quot;Hilfe der Zeiterfassung auf urlaubsverwaltung.cloud&quot; decoding=&quot;async&quot; loading=&quot;lazy&quot; class=&quot;rounded-lg&quot; /&gt;
+        &lt;/picture&gt;
+        &lt;figcaption class=&quot;text-sm text-center&quot;&gt;Hilfe der Zeiterfassung auf urlaubsverwaltung.cloud&lt;/figcaption&gt;
+    &lt;/figure&gt;
+&lt;/div&gt;
+&lt;p&gt;Die Hilfe ist übersichtlich in vier zentrale Bereiche gegliedert:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Zeiteinträge&lt;/strong&gt;&lt;br /&gt;
+Erfahre alles rund um das Erfassen, Bearbeiten und Verwalten deiner Zeiteinträge und die für deine Mitarbeitenden. Ob manuelle Einträge oder automatische Zeiterfassung – diese Sektion führt dich Schritt für Schritt durch alle Funktionen.&lt;br /&gt;
+&lt;a href=&quot;https://urlaubsverwaltung.cloud/hilfe/zeiterfassung/zeiteintraege/&quot;&gt;Hilfe zu Zeiteinträgen&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Berichte&lt;/strong&gt;&lt;br /&gt;
+Lerne, wie du aussagekräftige Berichte erstellst, analysierst und exportierst. Egal individuelle Auswertungen oder Teamübersichten – hier findest du alle wichtigen Informationen.&lt;br /&gt;
+&lt;a href=&quot;https://urlaubsverwaltung.cloud/hilfe/zeiterfassung/berichte/&quot;&gt;Hilfe zu den Berichten&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Personen&lt;/strong&gt;&lt;br /&gt;
+Hier erfährst du, wie du Mitarbeitende verwaltest und Berechtigungen definierst. Zusätzlich gibt es Informationen zur Konfiguration von individuellen Arbeitszeiten und Überstundenregelungen.&lt;br /&gt;
+&lt;a href=&quot;https://urlaubsverwaltung.cloud/hilfe/zeiterfassung/personen/&quot;&gt;Hilfe zu Personen&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Feiertage&lt;/strong&gt;&lt;br /&gt;
+Wie werden Feiertage berücksichtigt? Wie kannst du die globale Feiertagsregelung für Mitarbeitenden anpassen?&lt;br /&gt;
+&lt;a href=&quot;https://urlaubsverwaltung.cloud/hilfe/zeiterfassung/feiertage/&quot;&gt;Hilfe zu Feiertagen&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Dank der neuen Struktur findest du schneller die Informationen, die du brauchst – direkt erreichbar über dein Avatar-Menü.&lt;/p&gt;
+</content>
+  </entry>
   <entry>
     <title>Zeiterfassung 2.13.0 – Verbesserungen bei Berichten und Bugfixes</title>
     <link href="https://urlaubsverwaltung.cloud/neuigkeiten/2024-11-15-release-2.13.0/" />
