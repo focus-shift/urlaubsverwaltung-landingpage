@@ -51,7 +51,6 @@ Die korrekte Darstellung von &lt;strong&gt;Sollzeiten&lt;/strong&gt; ist essenzi
 &lt;p&gt;&lt;strong&gt;Warum ist das wichtig?&lt;/strong&gt;&lt;br /&gt;
 Durch die Übernahme der &lt;strong&gt;Personenwahl&lt;/strong&gt; wird der Arbeitsablauf effizienter, besonders für Nutzer, die regelmäßig Berichte über mehrere Zeiträume hinweg auswerten müssen. Dies spart Zeit und reduziert die Notwendigkeit zur wiederholten Auswahl von Personen.&lt;/p&gt;
 &lt;/blockquote&gt;
-&lt;hr /&gt;
 &lt;h2 id=&quot;fehlerbehebungen&quot;&gt;Fehlerbehebungen&lt;/h2&gt;
 &lt;h3 id=&quot;berichte-bei-auswahl-von-mehreren-personen-werden-die-&amp;quot;soll-stunden&amp;quot;-nicht-korrekt-angezeigt-wenn-eine-person-abwesend-war&quot;&gt;Berichte: Bei Auswahl von mehreren Personen werden die &amp;quot;Soll-Stunden&amp;quot; nicht korrekt angezeigt, wenn eine Person abwesend war&lt;/h3&gt;
 &lt;p&gt;In dieser Version wurde ein Fehler behoben, der dazu führte, dass die &lt;strong&gt;Soll-Stunden&lt;/strong&gt; in den &lt;strong&gt;Berichten&lt;/strong&gt; bei der Auswahl von mehreren Personen nicht korrekt angezeigt wurden, wenn eine der ausgewählten Personen abwesend war. Mit diesem Fix wird die Sollzeit nun korrekt berechnet und angezeigt, selbst wenn eine Person an den betreffenden Tagen abwesend war.&lt;/p&gt;
