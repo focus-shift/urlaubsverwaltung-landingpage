@@ -1,5 +1,6 @@
 ---
 layout: layout-wissensbasis.hbs
+redirect_from: /hilfe/feiertage
 breadcrumb:
   - <a href="/hilfe#dokumentation-urlaubsverwaltung">Urlaubsverwaltung</a>
   - Feiertage

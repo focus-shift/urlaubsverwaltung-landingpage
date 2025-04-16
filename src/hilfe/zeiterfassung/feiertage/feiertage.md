@@ -28,7 +28,7 @@ Diese Regelung gilt für alle Mitarbeitenden, die in der Zeiterfassung erfasst s
 </p>
 
 Falls du für einen bestimmten Mitarbeitenden eine individuelle Feiertagsregelung benötigst,
-kannst du diese in den Einstellungen eines Mitarbeitenden konfigurieren. 
+kannst du diese in den Einstellungen eines Mitarbeitenden konfigurieren.
 Das überschreibt die globale Einstellung
 
 ## Kann ich für einen bestimmten Mitarbeitenden eine individuelle Feiertagsregelung konfigurieren?
