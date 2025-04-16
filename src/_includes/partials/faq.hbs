@@ -20,7 +20,8 @@
 			<input type="checkbox" name="noop" id="faq-checkbox-zahlungsarten">
 			<input type="checkbox" name="noop" id="faq-checkbox-sepa">
 			<input type="checkbox" name="noop" id="faq-checkbox-kuendigen">
-			<input type="checkbox" name="noop" id="faq-checkbox-kosten">
+			<input type="checkbox" name="noop" id="faq-checkbox-kosten-uv">
+			<input type="checkbox" name="noop" id="faq-checkbox-kosten-ze">
 			<input type="checkbox" name="noop" id="faq-checkbox-jahresvertrag">
 			<input type="checkbox" name="noop" id="faq-checkbox-dsgvo">
 			<input type="checkbox" name="noop" id="faq-checkbox-mitarbeiter-anlegen">
@@ -116,14 +117,14 @@
 				{{/eq}}
 				{{#eq category "price" "all"}}
 				<dt class="group text-lg md:text-xl mt-8 md:mt-4 text-black font-semibold">
-					<label tabindex="0" for="faq-checkbox-kosten" class="cursor-pointer flex md:items-center text-black text-opacity-90">
+					<label tabindex="0" for="faq-checkbox-kosten-uv" class="cursor-pointer flex md:items-center text-black text-opacity-90">
 							<span class="mr-4 md:mr-6 text-sky-400 text-opacity-70 group-hover:text-opacity-100 mt-1">
 								{{> partials/icon-plus-circle class='w-6 h-6 md:w-7 md:h-7'}}
 							</span>
 						Wie viel kostet mich die Urlaubsverwaltung?
 					</label>
 				</dt>
-				<dd data-id="faq-p-kosten" class="mt-4 ml-10 md:ml-13 text-lg text-black text-opacity-80">
+				<dd data-id="faq-p-kosten-uv" class="mt-4 ml-10 md:ml-13 text-lg text-black text-opacity-80">
 					Jeder Benutzende mit dem Status <i>aktiv</i>, kostet 2,00€ (zzgl. MwSt.) pro Monat. Kommen neue
 					Benutzende während dem Leistungszeitraum hinzu, wird der anteilige Zeitraum abgerechnet.
 					Werden Benutzende auf den Status <i>inaktiv</i> gesetzt oder gelöscht, wird die Änderung ab dem folgenden Leistungszeitraum in der Rechnung berücksichtigt.
@@ -133,14 +134,14 @@
 				{{/eq}}
 				{{#eq category "price" "all"}}
 				<dt class="group text-lg md:text-xl mt-8 md:mt-4 text-black font-semibold">
-					<label tabindex="0" for="faq-checkbox-kosten" class="cursor-pointer flex md:items-center text-black text-opacity-90">
+					<label tabindex="0" for="faq-checkbox-kosten-ze" class="cursor-pointer flex md:items-center text-black text-opacity-90">
 							<span class="mr-4 md:mr-6 text-sky-400 text-opacity-70 group-hover:text-opacity-100 mt-1">
 								{{> partials/icon-plus-circle class='w-6 h-6 md:w-7 md:h-7'}}
 							</span>
 						Wie viel kostet mich die Zeiterfassung?
 					</label>
 				</dt>
-				<dd data-id="faq-p-kosten" class="mt-4 ml-10 md:ml-13 text-lg text-black text-opacity-80">
+				<dd data-id="faq-p-kosten-ze" class="mt-4 ml-10 md:ml-13 text-lg text-black text-opacity-80">
 					Zusätzlich zur Urlaubsverwaltung kannst du auch die Zeiterfassung nutzen.
 					Dafür werden 2,00€ (zzgl. MwSt.) pro Monat und Nutzer berechnet.
 				</dd>
