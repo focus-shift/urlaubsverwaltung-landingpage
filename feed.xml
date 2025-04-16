@@ -4,8 +4,33 @@
   <subtitle></subtitle>
   <link rel="self" href="https://urlaubsverwaltung.cloud/feed.xml" />
   <link rel="alternate" type="text/html" href="https://urlaubsverwaltung.cloud" />
-  <updated>2025-04-14T00:00:00Z</updated>
+  <updated>2025-04-16T00:00:00Z</updated>
   <id>https://urlaubsverwaltung.cloud</id>
+  <entry>
+    <title>Urlaubsverwaltung 5.9.0 – Optimierte Feiertagsberechnung</title>
+    <link href="https://urlaubsverwaltung.cloud/neuigkeiten/2024-11-22-release-5.9.0/" />
+    <updated>2025-04-16T00:00:00Z</updated>
+    <id>https://urlaubsverwaltung.cloud/neuigkeiten/2024-11-22-release-5.9.0/</id>
+    <author>
+      <name>Andreas Weigel</name>
+    </author>
+    <content type="html">&lt;p&gt;Release &lt;strong&gt;5.9.0&lt;/strong&gt; der Urlaubsverwaltung bringt eine &lt;strong&gt;vereinfachte Feiertagsverwaltung&lt;/strong&gt; mithilfe der bewährten Bibliothek &lt;strong&gt;Jollyday&lt;/strong&gt;.&lt;/p&gt;
+&lt;h2 id=&quot;feiertagsregelung&quot;&gt;Feiertagsregelung&lt;/h2&gt;
+&lt;p&gt;Die Berechnung von gesetzlichen Feiertagen wurde auf eine neue Grundlage gestellt: Die Urlaubsverwaltung nutzt nun die etablierte Open-Source-Bibliothek &lt;a href=&quot;https://github.com/focus-shift/jollyday&quot;&gt;Jollyday&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Vorteile:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Zuverlässige und aktuelle Feiertagsdaten für viele Länder und Regionen&lt;/li&gt;
+&lt;li&gt;Keine manuelle Pflege mehr nötig&lt;/li&gt;
+&lt;li&gt;Bessere Zukunftssicherheit und Wartbarkeit&lt;/li&gt;
+&lt;/ul&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;Hintergrund:&lt;/strong&gt; Jollyday deckt eine Vielzahl von Regionen ab und wird aktiv gepflegt – ein solides Fundament für internationale Nutzung.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&quot;fazit&quot;&gt;Fazit&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;Release 5.9.0&lt;/strong&gt; ist ein weiterer Qualitätsschritt: Die Anwendung wird durch umfassende &lt;strong&gt;automatisierte UI-Tests&lt;/strong&gt; robuster und gleichzeitig durch &lt;strong&gt;Jollyday&lt;/strong&gt;-Integration deutlich wartungsärmer in der Feiertagsverwaltung. Das freut sowohl Entwickler:innen als auch Administrator:innen.&lt;/p&gt;
+&lt;p&gt;&lt;sub&gt;Zur vollständigen Release-Übersicht: &lt;a href=&quot;https://github.com/urlaubsverwaltung/urlaubsverwaltung/releases/tag/urlaubsverwaltung-5.9.0&quot;&gt;Release 5.9.0 auf GitHub ansehen&lt;/a&gt;&lt;/sub&gt;&lt;/p&gt;
+</content>
+  </entry>
   <entry>
     <title>Hilfe zur Zeiterfassung</title>
     <link href="https://urlaubsverwaltung.cloud/neuigkeiten/2025-04-14-help-zeiterfassung/" />
