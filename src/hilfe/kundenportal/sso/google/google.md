@@ -1,5 +1,6 @@
 ---
 layout: layout-wissensbasis.hbs
+redirect_from: /hilfe/sso/google
 breadcrumb:
   - <a href="/hilfe#dokumentation-kundenportal">Kundenportal</a>
   - SSO mit Google Workspace
