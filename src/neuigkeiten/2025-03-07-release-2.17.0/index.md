@@ -1,7 +1,7 @@
 ---
 draft: true
 layout: layout-neuigkeiten.hbs
-date: 2025-05-30
+date: 2025-05-16
 title: Zeiterfassung 2.17.0 – Verbesserte Sortierung & privilegierte Benutzerfunktionen
 author: Andreas Weigel
 release-version: 2.17.0

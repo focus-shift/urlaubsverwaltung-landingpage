@@ -1,7 +1,7 @@
 ---
 draft: false
 layout: layout-neuigkeiten.hbs
-date: 2025-05-02
+date: 2025-04-25
 title: Urlaubsverwaltung 5.12.0 – Ab in die Cloud!
 author: Andreas Weigel
 release-version: 5.12.0

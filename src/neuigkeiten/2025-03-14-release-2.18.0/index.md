@@ -1,7 +1,7 @@
 ---
 draft: true
 layout: layout-neuigkeiten.hbs
-date: 2025-06-11
+date: 2025-05-28
 title: Zeiterfassung 2.18.0 – Verbesserte PostgreSQL-Performance & Bugfixes
 author: Andreas Weigel
 release-version: 2.18.0

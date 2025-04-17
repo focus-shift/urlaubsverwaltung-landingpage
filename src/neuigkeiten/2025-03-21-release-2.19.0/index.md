@@ -1,7 +1,7 @@
 ---
 draft: true
 layout: layout-neuigkeiten.hbs
-date: 2025-06-18
+date: 2025-06-04
 title: Zeiterfassung 2.19.0 – Verbesserte Arbeitszeiteinstellungen & privilegierte Benutzeransicht
 author: Andreas Weigel
 release-version: 2.19.0

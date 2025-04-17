@@ -1,7 +1,7 @@
 ---
 draft: false
 layout: layout-neuigkeiten.hbs
-date: 2025-05-09
+date: 2025-04-30
 title: Urlaubsverwaltung 5.14.0 – Schneller!
 author: Andreas Weigel
 release-version: 5.14.0

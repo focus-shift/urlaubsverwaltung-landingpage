@@ -1,7 +1,7 @@
 ---
 draft: true
 layout: layout-neuigkeiten.hbs
-date: 2025-06-13
+date: 2025-05-30
 title: Urlaubsverwaltung 5.21.0 – Neue Features & Bugfixes!
 author: Andreas Weigel
 release-version: 5.21.0

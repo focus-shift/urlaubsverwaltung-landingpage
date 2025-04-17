@@ -1,7 +1,7 @@
 ---
 draft: true
 layout: layout-neuigkeiten.hbs
-date: 2025-06-25
+date: 2025-06-11
 title: Urlaubsverwaltung 5.23.0 – Abwesenheitsstatistik einsehen und Fehlerbehebungen
 author: Andreas Weigel
 release-version: 5.23.0
