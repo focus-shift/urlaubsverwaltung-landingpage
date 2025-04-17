@@ -2,6 +2,6 @@
 	@apply md:bg-gradient-to-b;
 	@apply from-gray-50;
 	@apply to-sky-50;
-    padding: 1.125rem;
-    border-radius: 1.125rem;
+	padding: 1.125rem;
+	border-radius: 1.125rem;
 }

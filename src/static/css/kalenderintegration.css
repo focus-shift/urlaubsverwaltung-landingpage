@@ -26,7 +26,7 @@
 	@apply mt-4;
 }
 
-.cal-integration-card_description a{
+.cal-integration-card_description a {
 	@apply underline;
 }
 
