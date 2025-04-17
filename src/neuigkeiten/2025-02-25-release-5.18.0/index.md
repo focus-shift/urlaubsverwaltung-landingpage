@@ -9,7 +9,7 @@ teaserImage: /static/teaser/2025-02-25/UV-Release-5.18.0.png
 description: Version 5.18.0 bringt ein Info-Banner für Demo-Daten, unveränderliche Listen im Code und behebt Fehler im Dark Mode, bei Outlook-Sync und beim Text zu Sonderurlaub.
 ---
 
-Die Version **5.18.0** der Urlaubsverwaltung legt den Fokus darauf die **Stabilität** und **Nutzerfreundlichkeit** zu erhöhen.
+Die Version **5.18.0** der Urlaubsverwaltung legt den Fokus darauf, die **Stabilität** und **Nutzerfreundlichkeit** zu erhöhen.
 
 <!-- more -->
 
