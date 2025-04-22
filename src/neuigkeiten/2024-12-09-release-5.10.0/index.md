@@ -2,7 +2,7 @@
 draft: false
 layout: layout-neuigkeiten.hbs
 date: 2025-04-23
-title: Urlaubsverwaltung 5.10.0 – Regionale US-Feiertage erweitert
+title: Urlaubsverwaltung 5.10.0 – Regionale US-Feiertage
 author: Andreas Weigel
 release-version: 5.10.0
 teaserImage: /static/teaser/2024-12-09/UV-Release-5.10.0.png
