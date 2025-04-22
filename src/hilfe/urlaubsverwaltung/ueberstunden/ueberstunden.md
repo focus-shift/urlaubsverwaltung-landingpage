@@ -2,7 +2,7 @@
 layout: layout-wissensbasis.hbs
 redirect_from: /hilfe/ueberstunden
 breadcrumb:
-  - <a href="/hilfe#dokumentation-urlaubsverwaltung">Urlaubsverwaltung</a>
+  - <a href="/hilfe/#dokumentation-urlaubsverwaltung">Urlaubsverwaltung</a>
   - Überstunden
 title: Überstunden - Hilfe
 description: Hier findest du Hilfe zu dem Thema Überstunden

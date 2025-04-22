@@ -2,7 +2,7 @@
 layout: layout-wissensbasis.hbs
 redirect_from: /hilfe/abwesenheiten
 breadcrumb:
-  - <a href="/hilfe#dokumentation-urlaubsverwaltung">Urlaubsverwaltung</a>
+  - <a href="/hilfe/#dokumentation-urlaubsverwaltung">Urlaubsverwaltung</a>
   - Abwesenheit
 title: Abwesenheit - Hilfe
 description: Hier findest du Hilfe zu dem Thema Abwesenheiten
