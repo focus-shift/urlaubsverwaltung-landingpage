@@ -31,7 +31,7 @@ In dieser Version wurde ein Fehler behoben, der dazu führte, dass die **Soll-St
 > **Warum ist das wichtig?**  
 > Die korrekte Anzeige der **Soll-Stunden** ist für die genaue Arbeitszeiterfassung und Abrechnung von entscheidender Bedeutung. Mit diesem Fix können Anwender sicher sein, dass ihre Berichte auch bei abwesenden Mitarbeitern präzise sind.
 
-### Berichte: Fehlende Übersetzungen
+### Berichte: fehlende Übersetzungen
 
 Ein weiterer Bugfix betrifft **fehlende Übersetzungen** in den Berichten. Bei bestimmten Sprachen wurden Texte nicht korrekt angezeigt. Dieser Fehler wurde behoben, sodass nun alle wichtigen Elemente in den Berichten auch in den entsprechenden Sprachen korrekt übersetzt erscheinen.
 

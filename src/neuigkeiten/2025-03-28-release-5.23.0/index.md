@@ -24,7 +24,7 @@ Mit diesem Update können Benutzer nun eine **Abwesenheitsstatistik** einsehen, 
 
 ## Fehlerbehebungen
 
-### Initiales Anlegen von negativen Überstunden mit Minus (-10 z.B) nicht möglich
+### Initiales Anlegen von negativen Überstunden mit Minus (-10 z.B.) nicht möglich
 
 Mit diesem Update wird der Fehler behoben, der es unmöglich machte, **negative Überstunden** zu erstellen (z.B. -10 Stunden). Jetzt können **negative Überstunden** korrekt angelegt werden, was für **Überstundenabbau** oder **Guthaben** von Bedeutung ist.
 

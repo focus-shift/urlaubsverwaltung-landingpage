@@ -27,9 +27,9 @@ Die Ruhepause muss unmittelbar nach der Arbeitszeit eingelegt werden, sie kann a
 Wenn dein Unternehmen diese Pause ablehnt, dann verstößt es damit gegen das Arbeitszeitgesetz.
 
 > Die Arbeit ist durch im voraus feststehende Ruhepausen von mindestens 30 Minuten bei einer Arbeitszeit von mehr als
-sechs bis zu neun Stunden und 45 Minuten bei einer Arbeitszeit von mehr als neun Stunden insgesamt zu unterbrechen.
-Die Ruhepausen nach Satz 1 können in Zeitabschnitte von jeweils mindestens 15 Minuten aufgeteilt werden.
-Länger als sechs Stunden hintereinander dürfen Arbeitnehmer nicht ohne Ruhepause beschäftigt werden.
+> sechs bis zu neun Stunden und 45 Minuten bei einer Arbeitszeit von mehr als neun Stunden insgesamt zu unterbrechen.
+> Die Ruhepausen nach Satz 1 können in Zeitabschnitte von jeweils mindestens 15 Minuten aufgeteilt werden.
+> Länger als sechs Stunden hintereinander dürfen Arbeitnehmer nicht ohne Ruhepause beschäftigt werden.
 >
 > -- <a href="https://www.gesetze-im-internet.de/arbzg/__4.html">Arbeitszeitgesetz (ArbZG) § 4 Ruhepausen</a>
 
@@ -64,4 +64,4 @@ dass sie auch für mobile Mitarbeitende mit unterschiedlichen Arbeitsorten geeig
     </figure>
 </div>
 
-Die Zeiterfassung auf <a href="https://www.urlaubsverwaltung.cloud">urlaubsverwaltung.cloud</a> bietet genau diese Möglichkeit.
+Die Zeiterfassung auf <a href="https://urlaubsverwaltung.cloud">urlaubsverwaltung.cloud</a> bietet genau diese Möglichkeit.

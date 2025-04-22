@@ -5,7 +5,7 @@ date: 2021-12-15
 title: Berechtigungskombinationen, Abwesenheitsübersicht und Logback
 author: Tobias Schneider
 release-version: 4.27.3
-description: Urlaubsverwaltung 4.27.3 veröffentlicht. Darin enthalten sind Korrekturen der angezeigten Personen bei Berechtigungskombinationen, eine Korrektur der Abwesenheitsübersicht und ein Update von Logback. 
+description: Urlaubsverwaltung 4.27.3 veröffentlicht. Darin enthalten sind Korrekturen der angezeigten Personen bei Berechtigungskombinationen, eine Korrektur der Abwesenheitsübersicht und ein Update von Logback.
 ---
 
 _Wir beheben Fehler für euch in den Versionen 4.27.1, 4.27.2 und 4.27.3_
@@ -20,7 +20,7 @@ in der Version 4.27.2 behoben und allen Mandaten zur Verfügung gestellt.
 
 ## Apache Log4j2 & Logback
 
-Nachdem eine kritische Sicherheitslücke in Apache Log4j2 entdeckt wurde, hält diese die IT-Welt auf trapp. Es werden nach und nach alle
+Nachdem eine kritische Sicherheitslücke in Apache Log4j2 entdeckt wurde, hält diese die IT-Welt auf Trapp. Es werden nach und nach alle
 Systeme identifiziert und Log4j2 aktualisiert.
 
 Die Urlaubsverwaltung setzt diese Bibliothek **nicht** ein und war von dieser Lücke zu keinem Zeitpunkt betroffen.

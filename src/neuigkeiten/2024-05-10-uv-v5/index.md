@@ -43,8 +43,8 @@ Die individuellen Abwesenheitsarten werden außerdem auch in der Zeiterfassung b
             <img
               src="individuelle-abwesenheitsarten-kalender.png"
               alt="Kalender enthalten ebenfalls die individuellen Abwesenheitsarten"
-              width="1440"
-              height="1157"
+              width="1242"
+              height="904"
               decoding="async"
               loading="lazy"
               class="rounded-lg"
@@ -57,9 +57,9 @@ Die individuellen Abwesenheitsarten werden außerdem auch in der Zeiterfassung b
             <source srcset="individuelle-abwesenheitsarten-abwesenheitsuebersicht.avif" type="image/avif" />
             <img
               src="individuelle-abwesenheitsarten-abwesenheitsuebersicht.png"
-              alt="Beispiel für eine individuelle Abwesenheitsarte in der Abwesenheitsübersicht"
-              width="1440"
-              height="1156"
+              alt="Beispiel für eine individuelle Abwesenheitsart in der Abwesenheitsübersicht"
+              width="1239"
+              height="526"
               decoding="async"
               loading="lazy"
               class="rounded-lg"
@@ -87,7 +87,7 @@ Die Kalenderintegration für Exchange (EWS) wurde von Microsoft abgekündigt und
 
 ## Vereinfachter Ablauf bei Korrektur von Anträgen
 
-Als Mitarbeitende mit der Berechtigung Office ist es nun möglich Anträge jeder Zeit zu editieren. Damit ist es nicht mehr nötig, z.B. bei einer Anpassung auf Grund von Krankheit, eine Stornierung des Antrags durchzuführen, um den korrigierten Zeitraum zu erfassen.
+Als Mitarbeitende mit der Berechtigung Office ist es nun möglich Anträge jederzeit zu editieren. Damit ist es nicht mehr nötig, z.B. bei einer Anpassung aufgrund von Krankheit, eine Stornierung des Antrags durchzuführen, um den korrigierten Zeitraum zu erfassen.
 
 ## Mehr Durchblick beim Start!
 

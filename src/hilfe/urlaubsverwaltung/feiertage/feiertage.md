@@ -1,8 +1,8 @@
 ---
 layout: layout-wissensbasis.hbs
-redirect_from: /hilfe/feiertage
+redirect_from: /hilfe/feiertage/
 breadcrumb:
-  - <a href="/hilfe#dokumentation-urlaubsverwaltung">Urlaubsverwaltung</a>
+  - <a href="/hilfe/#dokumentation-urlaubsverwaltung">Urlaubsverwaltung</a>
   - Feiertage
 title: Feiertage - Hilfe
 description: Hier findest du Hilfe zu dem Thema Feiertage

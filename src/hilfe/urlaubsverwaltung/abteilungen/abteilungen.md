@@ -1,8 +1,8 @@
 ---
 layout: layout-wissensbasis.hbs
-redirect_from: /hilfe/abteilungen
+redirect_from: /hilfe/abteilungen/
 breadcrumb:
-  - <a href="/hilfe#dokumentation-urlaubsverwaltung">Urlaubsverwaltung</a>
+  - <a href="/hilfe/#dokumentation-urlaubsverwaltung">Urlaubsverwaltung</a>
   - Abteilungen
 title: Abteilungen - Hilfe
 description: Hier findest du Hilfe zu dem Thema Abteilungen

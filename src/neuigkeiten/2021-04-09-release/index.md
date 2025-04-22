@@ -20,14 +20,14 @@ Neue Features und Verbesserungen.
       Mit der neuen Version bringen wir dir die <em class="font-bold">Automatische Erinnerungsfunktion</em>.
     </p>
     <p class="mb-4">
-      In den Einstellungen kannst du ab sofort konfigurieren, ob deine Mitarbeiter:innen drei Tage vor Urlaubsbeginn automatisch per E-Mail informiert werden sollen oder nicht. So wird hoffentlich nicht mehr all zu oft vergessen die E-Mail Abwesenheitsnachricht einzurichten, oder noch rechtzeitig eine Übergabe zu planen.
+      In den Einstellungen kannst du ab sofort konfigurieren, ob deine Mitarbeiter:innen drei Tage vor Urlaubsbeginn automatisch per E-Mail informiert werden sollen oder nicht. So wird hoffentlich nicht mehr allzu oft vergessen die E-Mail Abwesenheitsnachricht einzurichten, oder noch rechtzeitig eine Übergabe zu planen.
     </p>
     <p>
-      Natürlich kannst du auch einstellen wie viele Tage im voraus die Benachrichtigung versendet werden soll. Dir reicht ein Tag? Du willst eine Woche vorher die Information bekommen? Trage einfach die Tagesanzahl ein, die dir am besten passt.
+      Natürlich kannst du auch einstellen wie viele Tage im Voraus die Benachrichtigung versendet werden soll. Dir reicht ein Tag? Du willst eine Woche vorher die Information bekommen? Trage einfach die Tagesanzahl ein, die dir am besten passt.
     </p>
     <p>
       Aktuell gilt diese Einstellung für alle Anwender:innen der Urlaubsverwaltung. Noch ist es nicht möglich diese Einstellung für sich persönlich vorzunehmen.
-      Melde dich gerne bei uns falls dir die Funktion wichtig ist. Wir schauen dann wie wir das schneller umsetzen werden.
+      Melde dich gerne bei uns, falls dir die Funktion wichtig ist. Wir schauen dann wie wir das schneller umsetzen werden.
     </p>
   </div>
   <div class="flex-1">
@@ -65,4 +65,3 @@ Neue Features und Verbesserungen.
     </p>
   </div>
 </div>
-

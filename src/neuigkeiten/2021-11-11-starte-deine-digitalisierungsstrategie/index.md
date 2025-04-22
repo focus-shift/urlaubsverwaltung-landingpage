@@ -32,7 +32,7 @@ Abwesenheitsverwaltung im neuen Jahr.", so Andreas Weigel Geschäftsführer der 
 Neben Urlaub und Krankmeldungen lassen sich in der SaaS-Lösung auch Überstunden DSGVO-konform verwalten.
 Um die bestehenden Prozesse des Kunden bestmöglich abzubilden, existieren ein- oder zweistufige Freigabeverfahren.
 Eine Aufbauorganisation kann durch Abteilungen und deren verantwortliche Personen abgebildet werden. Schnittstellen zu
-Kalender- oder Single Sign-On Systemen bieten eine nahtlose Integration in bestehende Infrastruktur.
+Kalender- oder Single-Sign-on-Systemen bieten eine nahtlose Integration in bestehende Infrastruktur.
 
 <picture>
     <source srcset="urlaubsverwaltung.avif" type="image/avif" />

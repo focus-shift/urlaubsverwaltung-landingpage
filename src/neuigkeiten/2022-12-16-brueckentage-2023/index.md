@@ -40,10 +40,10 @@ können.
 ## Aus 8 Feiertagen werden 61 Tage Erholung
 
 Wir wollen an dieser Stelle natürlich nicht unterschlagen, dass Familien vor allem von den Schulferien abhängig sind,
-sodass auch im Jahr 2023 die klassischen wirtschaftlichen Flauten zu den Schulferienzeiten zu erwarten sind. 
+sodass auch im Jahr 2023 die klassischen wirtschaftlichen Flauten zu den Schulferienzeiten zu erwarten sind.
 Vor allem in den Sommerferien, die vom Bundesland abhängig zwischen dem 06. Juli und dem 11. September liegen.
 
-> „Urlaub ist wie Medizin: man muss ihn regelmäßig nehmen, um gesund zu bleiben.“
+> „Urlaub ist wie Medizin: Man muss ihn regelmäßig nehmen, um gesund zu bleiben.“
 >
 > -- Unbekannt
 
@@ -52,14 +52,14 @@ Ein spektakulärer Monat ist der Mai. Anfang (1. Mai, Tag der Arbeit), Mitte (18
 (29. Mai, Pfingstmontag) Mai befinden sich für ganz Deutschland 3 Feiertage auf einem Werktag.
 Unterschiedlichen Kombinationen machen es möglich, dass
 
-* aus 4 Urlaubstagen 9 freie Tage werden (2 Mal möglich)
-* aus 6 Urlaubstagen 12 freie Tage werden
-* aus 9 Urlaubstagen 17 freie Tage werden
-  
-oder die lange ersehnte Reise durch 13 Urlaubstagen und ganzen 23 Tagen Urlaub möglich wird.
-  Das ist wahlweise sowohl für die erste Monatshälfte im Mai, als auch für die zweite Hälfte realisierbar.
+- aus 4 Urlaubstagen 9 freie Tage werden (2 Mal möglich)
+- aus 6 Urlaubstagen 12 freie Tage werden
+- aus 9 Urlaubstagen 17 freie Tage werden
 
-Zusätzlich kann sich ganz Deutschland auf den Tag der deutschen Einheit freuen, der am 03.10. auf einen Dienstag fällt,
+oder die lange ersehnte Reise durch 13 Urlaubstagen und ganzen 23 Tagen Urlaub möglich wird.
+Das ist wahlweise sowohl für die erste Monatshälfte im Mai, als auch für die zweite Hälfte realisierbar.
+
+Zusätzlich kann sich ganz Deutschland auf den Tag der Deutschen Einheit freuen, der am 03.10. auf einen Dienstag fällt,
 sodass auch hier mit nur 4 Urlaubstagen 9 freie Tage möglich sind.
 
 <div class="flex my-8">
@@ -74,7 +74,7 @@ sodass auch hier mit nur 4 Urlaubstagen 9 freie Tage möglich sind.
               class="rounded-lg"
             />
         </picture>
-        <figcaption class="text-sm text-center">Mögliche Urlaubsplanung für den Tag der deutschen Einheit sowie für Weihnachten</figcaption>
+        <figcaption class="text-sm text-center">Mögliche Urlaubsplanung für den Tag der Deutschen Einheit sowie für Weihnachten</figcaption>
     </figure>
 </div>
 
@@ -85,7 +85,7 @@ sodass auch hier mit nur 4 Urlaubstagen 9 freie Tage möglich sind.
 Da jedes Bundesland individuell Feiertage festgelegt hat, sind auch weitere Kombinationen denkbar.
 
 | <!-- -->                             | <!-- -->   | <!-- -->   |
-|--------------------------------------|------------|------------|
+| ------------------------------------ | ---------- | ---------- |
 | **Feiertage Baden-Württemberg**      |            |            |
 | Heilige Drei Könige                  | 06.01.2023 | Freitag    |
 | Fronleichnam                         | 08.06.2023 | Donnerstag |
@@ -127,10 +127,9 @@ Da jedes Bundesland individuell Feiertage festgelegt hat, sind auch weitere Komb
 | Reformationstag                      | 31.10.2023 | Dienstag   |
 | **Feiertage Schleswig-Holstein**     |            |            |
 | Reformationstag                      | 31.10.2023 | Dienstag   |
-| **Feiertage Thüringen**               |            |            |
+| **Feiertage Thüringen**              |            |            |
 | Weltkindertag                        | 20.09.2023 | Mittwoch   |
 | Reformationstag                      | 31.10.2023 | Dienstag   |
-
 
 ## Aus 8 Feiertagen werden 61 Tage Erholung
 
@@ -167,7 +166,7 @@ Da jedes Bundesland individuell Feiertage festgelegt hat, sind auch weitere Komb
 <div class="px-4 xl:px-2 my-24 md:my-32 md:text-center">
 	<div class="inline-block">
 		<p class="text-xl lg:text-2xl mb-6 md:mb-4">
-			Mache dir selbst ein Bild und starte mit deiner eigene Urlaubsverwaltung noch heute.
+			Mache dir selbst ein Bild und starte mit deiner eigenen Urlaubsverwaltung noch heute.
 		</p>
 		<div class="md:max-w-sm md:mx-auto text-lg sm:text-xl md:text-lg">
 			<a data-append-utm
@@ -183,4 +182,3 @@ Da jedes Bundesland individuell Feiertage festgelegt hat, sind auch weitere Komb
 		</div>
 	</div>
 </div>
-

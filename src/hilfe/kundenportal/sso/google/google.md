@@ -1,8 +1,8 @@
 ---
 layout: layout-wissensbasis.hbs
-redirect_from: /hilfe/sso/google
+redirect_from: /hilfe/sso/google/
 breadcrumb:
-  - <a href="/hilfe#dokumentation-kundenportal">Kundenportal</a>
+  - <a href="/hilfe/#dokumentation-kundenportal">Kundenportal</a>
   - SSO mit Google Workspace
 title: Google Workspace - Single Sign-On (SSO) - Hilfe
 description: Single Sign-On (SSO) mit Google Workspace (Cloud Identity) für urlaubsverwaltung.cloud

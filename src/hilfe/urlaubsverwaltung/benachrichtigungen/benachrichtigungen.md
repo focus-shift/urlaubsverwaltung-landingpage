@@ -1,8 +1,8 @@
 ---
 layout: layout-wissensbasis.hbs
-redirect_from: /hilfe/benachrichtigungen
+redirect_from: /hilfe/benachrichtigungen/
 breadcrumb:
-  - <a href="/hilfe#dokumentation-urlaubsverwaltung">Urlaubsverwaltung</a>
+  - <a href="/hilfe/#dokumentation-urlaubsverwaltung">Urlaubsverwaltung</a>
   - Benachrichtigungen
 title: Benachrichtigungen - Hilfe
 description: Hier findest du Hilfe zu dem Thema Benachrichtigungen

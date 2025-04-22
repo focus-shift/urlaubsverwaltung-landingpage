@@ -1,8 +1,8 @@
 ---
 layout: layout-wissensbasis.hbs
-redirect_from: /hilfe/benutzer
+redirect_from: /hilfe/benutzer/
 breadcrumb:
-  - <a href="/hilfe#dokumentation-urlaubsverwaltung">Urlaubsverwaltung</a>
+  - <a href="/hilfe/#dokumentation-urlaubsverwaltung">Urlaubsverwaltung</a>
   - Benutzer
 title: Benutzer - Hilfe
 description: Hier findest du Hilfe zu dem Thema Benutzer

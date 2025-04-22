@@ -1,8 +1,8 @@
 ---
 layout: layout-wissensbasis.hbs
-redirect_from: /hilfe/kalender
+redirect_from: /hilfe/kalender/
 breadcrumb:
-  - <a href="/hilfe#dokumentation-urlaubsverwaltung">Urlaubsverwaltung</a>
+  - <a href="/hilfe/#dokumentation-urlaubsverwaltung">Urlaubsverwaltung</a>
   - Kalender
 title: Kalender - Hilfe
 description: Hier findest du Hilfe zu dem Thema Kalender
