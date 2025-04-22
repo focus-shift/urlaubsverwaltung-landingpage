@@ -1,6 +1,6 @@
 ---
 layout: layout-wissensbasis.hbs
-redirect_from: /hilfe/sso/azuread
+redirect_from: /hilfe/sso/azuread/
 breadcrumb:
   - <a href="/hilfe/#dokumentation-kundenportal">Kundenportal</a>
   - SSO mit Azure AD

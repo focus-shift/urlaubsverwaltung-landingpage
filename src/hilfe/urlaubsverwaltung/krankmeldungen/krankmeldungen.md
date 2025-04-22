@@ -1,6 +1,6 @@
 ---
 layout: layout-wissensbasis.hbs
-redirect_from: /hilfe/krankmeldungen
+redirect_from: /hilfe/krankmeldungen/
 breadcrumb:
   - <a href="/hilfe/#dokumentation-urlaubsverwaltung">Urlaubsverwaltung</a>
   - Krankmeldungen

@@ -1,6 +1,6 @@
 ---
 layout: layout-wissensbasis.hbs
-redirect_from: /hilfe/sso
+redirect_from: /hilfe/sso/
 breadcrumb:
   - <a href="/hilfe/#dokumentation-kundenportal">Kundenportal</a>
   - Single Sign-On (SSO)

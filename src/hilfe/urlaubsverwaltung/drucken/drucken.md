@@ -1,6 +1,6 @@
 ---
 layout: layout-wissensbasis.hbs
-redirect_from: /hilfe/drucken
+redirect_from: /hilfe/drucken/
 breadcrumb:
   - <a href="/hilfe/#dokumentation-urlaubsverwaltung">Urlaubsverwaltung</a>
   - Drucken

@@ -1,6 +1,6 @@
 ---
 layout: layout-wissensbasis.hbs
-redirect_from: /hilfe/ueberstunden
+redirect_from: /hilfe/ueberstunden/
 breadcrumb:
   - <a href="/hilfe/#dokumentation-urlaubsverwaltung">Urlaubsverwaltung</a>
   - Überstunden

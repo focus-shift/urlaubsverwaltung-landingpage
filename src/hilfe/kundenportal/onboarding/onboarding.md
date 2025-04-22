@@ -1,6 +1,6 @@
 ---
 layout: layout-wissensbasis.hbs
-redirect_from: /hilfe/onboarding
+redirect_from: /hilfe/onboarding/
 breadcrumb:
   - <a href="/hilfe/#dokumentation-kundenportal">Kundenportal</a>
   - Onboarding
