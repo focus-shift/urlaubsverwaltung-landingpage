@@ -1,4 +1,4 @@
-Sitemap: https://www.urlaubsverwaltung.cloud/sitemap.xml
+Sitemap: https://urlaubsverwaltung.cloud/sitemap.xml
 
 User-agent: *
 Disallow:
