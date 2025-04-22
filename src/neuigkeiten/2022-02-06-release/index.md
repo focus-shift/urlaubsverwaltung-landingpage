@@ -55,7 +55,7 @@ Warum wir uns freuen, dir endlich einen Dunkelmodus anzubieten:
           <source srcset="uv-theme-dark.webp" type="image/webp" />
           <img
             src="uv-theme-dark.png"
-            alt="Urlaubsverwatlung Übersichtseite im Dark Theme"
+            alt="Urlaubsverwaltung Übersichtseite im Dark Theme"
             decoding="async"
             class="rounded-lg"
           />

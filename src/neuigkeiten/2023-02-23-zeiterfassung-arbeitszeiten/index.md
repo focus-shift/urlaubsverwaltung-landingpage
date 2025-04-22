@@ -8,7 +8,7 @@ teaserImage: /static/zeiterfassung-multi-device.png
 description: Zeiterfassung - Arbeitszeiten konfigurieren, neue Berichte erstellen und geleistete Stunden vergleichen
 ---
 
-Wir haben in der neuen Version der Zeiterfassung viel vom eurem Feedback umsetzen können.
+Wir haben in der neuen Version der Zeiterfassung viel von eurem Feedback umsetzen können.
 Mit dabei sind verbesserte Einsichten in die geleisteten Stunden deiner Mitarbeitenden und auch die Erfassung von
 Sollstunden bzw. die dazugehörige Pflege von Arbeitszeiten.
 

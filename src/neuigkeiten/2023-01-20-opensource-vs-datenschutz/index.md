@@ -44,21 +44,21 @@ Daten.
 Diese Offenheit und Kontrollierbarkeit bewirkt, dass Kritik expliziter Teil der Softwareevolution ist und aus diesem
 Grund Software mit einem hohen Mindest-Qualitätsstandard bereitgestellt wird.
 
-## Wie sich beide Konzepte ergänzen 
+## Wie sich beide Konzepte ergänzen
 
 Auf den ersten Blick könnte man denken, dass Open-Source-Software und Datenschutz unvereinbare Konzepte sind.
 Schließlich könnte jeder Nutzer den Quellcode einsehen und möglicherweise persönliche Daten ausspähen.
 Doch tatsächlich kann Open-Source-Software dazu beitragen, den Datenschutz zu stärken.
 
-Ein Missverständnis ist oft, dass der Quellcode Anwendungsdaten der Benutzenden offenbart. 
-Daten werden aber in der Datenbank gespeichert und der Quellcode beschreibt nur, wie diese verarbeitet werden. 
-Damit können die offensichtlichen datenverarbeitenden Prozesse auch in das Datenschutzkonzept des Unternehmens übernommen werden.  
+Ein Missverständnis ist oft, dass der Quellcode Anwendungsdaten der Benutzenden offenbart.
+Daten werden aber in der Datenbank gespeichert und der Quellcode beschreibt nur, wie diese verarbeitet werden.
+Damit können die offensichtlichen datenverarbeitenden Prozesse auch in das Datenschutzkonzept des Unternehmens übernommen werden.
 
 Durch die Transparenz und Offenheit des Quellcodes können Sicherheitslücken und Schwachstellen leichter identifiziert
 und behoben werden.
 Die vorhandene Feedbackkultur der aktiven Community hat dabei eine treibende Kraft, da sie die Software selbst im
 Einsatz hat.
-Dieser Umstand führt dazu, dass potentielle Ungereimtheiten schneller entdeckt und kompetent diskutiert und behoben
+Dieser Umstand führt dazu, dass potenzielle Ungereimtheiten schneller entdeckt und kompetent diskutiert und behoben
 werden.
 
 <div class="flex flex-col justify-end lg:flex-row-reverse lg:space-x-8 lg:space-x-reverse lg:mt-8 lg:mb-8">
@@ -82,5 +82,3 @@ werden.
         </p>
   </div>
 </div>
-
-

@@ -13,12 +13,11 @@ Vor allem der Jahreswechsel ist ein sehr guter Zeitpunkt damit zu starten.
 
 <!-- more -->
 
-
 **Hier kommen 4 Gründe warum es sinnvoll ist jetzt damit zu starten!**
 
-## 1. Neuberechnung des Urlaubsanspruchs 
+## 1. Neuberechnung des Urlaubsanspruchs
 
-Der Jahreswechsel ist ein guter Zeitpunkt, um die Urlaubsverwaltung zu digitalisieren, 
+Der Jahreswechsel ist ein guter Zeitpunkt, um die Urlaubsverwaltung zu digitalisieren,
 da zu diesem Zeitpunkt die Urlaubstage für das kommende Jahr festgelegt werden. Einflussfaktoren sind
 Änderungen in der Arbeitszeit oder z.B. Resturlaub. Diese Kalkulation wird durch eine digitale Urlaubsverwaltung vereinfacht.
 Rechnungsfehler werden vermieden.
@@ -44,7 +43,7 @@ Rechnungsfehler werden vermieden.
 Eine digitale Urlaubsverwaltung unterstützt dich dabei, die Planung und Verwaltung der Urlaubstage zu vereinfachen, zu verbessern und schafft transparenz.
 Mit dem kalkulierten Urlaubsanspruch können Mitarbeitende direkt den Jahresurlaub ins Auge fassen
 und im Hinblick auf der Verteilung der Feiertage die optimale Urlaubsverteilung planen.
-Außerdem können mit Hilfe der Abwesenheitsübersicht die Urlaubstage anderer Personen im Team berücksichtigt werden.
+Außerdem können mithilfe der Abwesenheitsübersicht die Urlaubstage anderer Personen im Team berücksichtigt werden.
 
 <div class="flex my-8">
     <figure>
@@ -62,16 +61,16 @@ Außerdem können mit Hilfe der Abwesenheitsübersicht die Urlaubstage anderer P
     </figure>
 </div>
 
-## 3. Zeit zur Reflektion
+## 3. Zeit zur Reflexion
 
-Das Jahresende wird meist durch eine stürmische und stressige Endjahresstimmung eingeleitet, 
+Das Jahresende wird meist durch eine stürmische und stressige Endjahresstimmung eingeleitet,
 bis sie in eine besinnliche und ruhige Phase übergeht. Gerade wenn die ersten
-Mitarbeitenden im Urlaub sind, öffnet sich der Raum (vor allem mental), um das vergangene Jahr zu reflektieren. 
-Dabei können alte Systeme und Verfahren neu gedacht und aufgeräumen werden, um Platz für verbesserte Lösungen zu schaffen.
+Mitarbeitenden im Urlaub sind, öffnet sich der Raum (vor allem mental), um das vergangene Jahr zu reflektieren.
+Dabei können alte Systeme und Verfahren neu gedacht und aufgeräumt werden, um Platz für verbesserte Lösungen zu schaffen.
 
 ## 4. Jahreswechselaktion
 
-Um die Digitalisierung voranzubringen, haben wir aktuell die Aktion "Starte digital in das Jahr 2023". Damit habt ihr 
+Um die Digitalisierung voranzubringen, haben wir aktuell die Aktion "Starte digital in das Jahr 2023". Damit habt ihr
 noch mehr Zeit die Urlaubsverwaltung anzuschauen und auszuprobieren, wie eure Prozesse und Organisationsstruktur abgebildet werden können.
 Wir helfen euch beim Onboarding und stehen für Fragen gerne zur Verfügung.
 
@@ -91,14 +90,13 @@ Wir helfen euch beim Onboarding und stehen für Fragen gerne zur Verfügung.
     </figure>
 </div>
 
-
-Alles in allem kann der Jahreswechsel ein guter Anlass sein, 
+Alles in allem kann der Jahreswechsel ein guter Anlass sein,
 um die Urlaubsverwaltung zu digitalisieren und damit die Effizienz und Produktivität im Unternehmen zu steigern.
 
 <div class="px-4 xl:px-2 my-24 md:my-32 md:text-center">
 	<div class="inline-block">
 		<p class="text-xl lg:text-2xl mb-6 md:mb-4">
-			Mache dir selbst ein Bild und starte mit deiner eigene Urlaubsverwaltung noch heute.
+			Mache dir selbst ein Bild und starte mit deiner eigenen Urlaubsverwaltung noch heute.
 		</p>
 		<div class="md:max-w-sm md:mx-auto text-lg sm:text-xl md:text-lg">
 			<a data-append-utm

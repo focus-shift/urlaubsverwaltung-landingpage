@@ -30,7 +30,7 @@ _Bisher_ gab es in der Urlaubsverwaltung vier Abwesenheitsarten:
       alt="Neue Abwesenheitsarten der Urlaubsverwaltung"
       decoding="async"
       loading="lazy"
-      width="1280"
+      width="2560"
     />
   </div>
   <div class="lg:max-w-xl">
@@ -39,7 +39,7 @@ _Bisher_ gab es in der Urlaubsverwaltung vier Abwesenheitsarten:
         Darum spendieren wir der Urlaubsverwaltung weitere Abwesenheitsarten und den Begriff "Urlaub" wird in einigen
         Fällen durch "Abwesenheiten" ersetzt, sodass auch der Weg der Urlaubsverwaltung zur Abwesenheitsverwaltung deutlicher wird.
         Natürlich bleiben wir unserem Namen zunächst treu und die Urlaubsverwaltung wird weiterhin die Urlaubsverwaltung sein. 
-        Aber man weiß ja nie was uns die Zukunft bringt.
+        Aber man weiß ja nie, was uns die Zukunft bringt.
     </p>
     <p>
         Die neuen Abwesenheitsarten lassen sich in den Einstellungen mit der Berechtigung 'Office' aktivieren bzw deaktivieren.
@@ -73,7 +73,7 @@ CSV-Export herausgegeben.
           alt="Erstellen einer Abwesenheit"
           decoding="async"
           loading="lazy"
-          width="1280"
+          width="2560"
         />
     </picture>
   </div>
@@ -85,7 +85,7 @@ CSV-Export herausgegeben.
           alt="Abwesenheitsstatistik mit neuen Abwesenheitsarten"
           decoding="async"
           loading="lazy"
-          width="1280"
+          width="2560"
         />
     </picture>
   </div>
