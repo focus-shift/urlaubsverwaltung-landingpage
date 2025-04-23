@@ -4,8 +4,44 @@
   <subtitle></subtitle>
   <link rel="self" href="https://urlaubsverwaltung.cloud/feed.xml" />
   <link rel="alternate" type="text/html" href="https://urlaubsverwaltung.cloud" />
-  <updated>2025-04-18T00:00:00Z</updated>
+  <updated>2025-04-23T00:00:00Z</updated>
   <id>https://urlaubsverwaltung.cloud</id>
+  <entry>
+    <title>Urlaubsverwaltung 5.10.0 – Regionale US-Feiertage</title>
+    <link href="https://urlaubsverwaltung.cloud/neuigkeiten/2024-12-09-release-5.10.0/" />
+    <updated>2025-04-23T00:00:00Z</updated>
+    <id>https://urlaubsverwaltung.cloud/neuigkeiten/2024-12-09-release-5.10.0/</id>
+    <author>
+      <name>Andreas Weigel</name>
+    </author>
+    <content type="html">&lt;p&gt;In der neuen Version &lt;strong&gt;5.10.0&lt;/strong&gt; erweitert die Urlaubsverwaltung ihre Unterstützung für &lt;strong&gt;regionale Feiertage in den USA&lt;/strong&gt;. Mit an Bord: drei neue Konfigurationen für Standorte in &lt;strong&gt;Washington, D.C., Virginia und Maryland&lt;/strong&gt;.&lt;/p&gt;
+&lt;h2 id=&quot;verbesserungen&quot;&gt;Verbesserungen&lt;/h2&gt;
+&lt;h3 id=&quot;neue-feiertagsregelungen-fuer-us-bundesstaaten&quot;&gt;Neue Feiertagsregelungen für US-Bundesstaaten&lt;/h3&gt;
+&lt;p&gt;Mit dieser Erweiterung können nun Feiertage für die folgenden US-Regionen automatisch berücksichtigt werden:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Washington, D.C.&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Virginia&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Maryland&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Was ist neu?&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Alle staatlich anerkannten Feiertage für die genannten Regionen sind jetzt in der Urlaubsverwaltung verfügbar&lt;/li&gt;
+&lt;li&gt;Feiertage werden automatisch im Kalender angezeigt&lt;/li&gt;
+&lt;li&gt;Die Auswahl kann für einzelne Mitarbeitenden individuell getroffen werden&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Warum ist das wichtig?&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Bessere Unterstützung für &lt;strong&gt;internationale oder US-basierte Teams&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;Genauere Abbildung regionaler Arbeitszeitregelungen&lt;/li&gt;
+&lt;li&gt;Grundlage für eine skalierbare globale Nutzung der Urlaubsverwaltung&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&quot;internationalisierung-im-fokus&quot;&gt;Internationalisierung im Fokus&lt;/h3&gt;
+&lt;p&gt;Diese Erweiterung ist Teil der kontinuierlichen Bemühungen, die Urlaubsverwaltung für &lt;strong&gt;multinationale Organisationen&lt;/strong&gt; nutzbar zu machen. Mit jeder neuen Region wird das Tool vielseitiger – und gerechter im Umgang mit Urlaubstagen und Feiertagsregelungen.&lt;/p&gt;
+&lt;h2 id=&quot;fazit&quot;&gt;Fazit&lt;/h2&gt;
+&lt;p&gt;Mit Release &lt;strong&gt;5.10.0&lt;/strong&gt; wird die Urlaubsverwaltung erneut internationaler. Unternehmen mit Standorten in Washington, D.C., Virginia oder Maryland profitieren von der genauen Feiertagsberechnung – ein weiterer Schritt Richtung globaler Einsatzfähigkeit.&lt;/p&gt;
+&lt;p&gt;&lt;sub&gt;Zur vollständigen Release-Übersicht: &lt;a href=&quot;https://github.com/urlaubsverwaltung/urlaubsverwaltung/releases/tag/urlaubsverwaltung-5.10.0&quot;&gt;Release 5.10.0 auf GitHub ansehen&lt;/a&gt;&lt;/sub&gt;&lt;/p&gt;
+</content>
+  </entry>
   <entry>
     <title>Zeiterfassung 2.14.0 – Neue Feiertage und Bugfixes</title>
     <link href="https://urlaubsverwaltung.cloud/neuigkeiten/2024-12-06-release-2.14.0/" />
