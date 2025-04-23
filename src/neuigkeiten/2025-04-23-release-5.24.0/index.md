@@ -9,15 +9,16 @@ teaserImage: /static/teaser/2025-04-23/UV-Release-5.24.0.png
 description: Das Release 5.24.0 ermöglicht es einheitlich Kommentare ohne das Bearbeiten von Krankmeldungen, Urlaubsanträgen und Überstunden hinzuzufügen. Dies verbessert die Kommunikation und den Verlauf der Abwesenheiten.
 ---
 
-Das **Release 5.24.0** ermöglicht es einheitlich Kommentare ohne das Bearbeiten von Krankmeldungen, Urlaubsanträgen und Überstunden hinzuzufügen. Dies verbessert die Kommunikation und den Verlauf der Abwesenheiten.
+Das **Release 5.24.0** ermöglicht es einheitlich Kommentare ohne das Bearbeiten von Krankmeldungen, Urlaubsanträgen und Überstunden hinzuzufügen.
 
 <!-- more -->
 
-## Verbesserungen
+## Kommentare direkt bei Urlaubanträgen, Überstunden & Co. – ganz easy
 
-### Kommentare bei Urlaubsanträgen und Überstunden direkt hinzufügen
+Ab jetzt kannst du direkt **Kommentare** zu **Urlaubsanträgen, Überstunden oder Krankmeldungen** hinzufügen – ohne den Antrag oder die Überstunden extra bearbeiten zu müssen.
 
-Bisher war es nur möglich, Kommentare zu Krankmeldungen hinzuzufügen, ohne diese zu bearbeiten. Dies geschah über "Neuer Kommentar" in der Detailansicht.
+So bleibt der Verlauf übersichtlich und die Kommunikation läuft entspannter. Die Funktion gibt’s schon für Krankmeldungen – und **jetzt auch für Urlaubsanträge & Überstunden**.
+Das ist besonders praktisch, wenn du schnell etwas anmerken möchtest, ohne den gesamten Antrag durchzugehen. Einfach Kommentar hinzufügen und fertig!
 
 <div class="flex my-8">
     <figure>
@@ -33,8 +34,6 @@ Bisher war es nur möglich, Kommentare zu Krankmeldungen hinzuzufügen, ohne die
         <figcaption class="text-sm text-center">Kommentar direkt zum Verlauf hinzufügen</figcaption>
     </figure>
 </div>
-
-Ab sofort ist es auch möglich, Kommentare bei **Urlaubsanträgen** und **Überstunden direkt hinzuzufügen**, ohne den Antrag oder die Überstunden zu bearbeiten.
 
 > **Warum ist das wichtig?**  
 > Urlaubsanträge und Überstunden müssen nicht mehr bearbeitet werden, um einen Kommentar zum Verlauf hinzuzufügen. Dies erleichtert es den Verlauf zu verwenden und die Kommunikation zu verbessern.
