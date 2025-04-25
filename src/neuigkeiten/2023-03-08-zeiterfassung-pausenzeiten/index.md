@@ -51,7 +51,6 @@ dass sie auch für mobile Mitarbeitende mit unterschiedlichen Arbeitsorten geeig
 <div class="flex my-8">
     <figure>
         <picture>
-            <source srcset="pause-erfassen.avif" type="image/avif" />
             <img
               src="pause-erfassen.png"
               alt="Pausen erfassen"

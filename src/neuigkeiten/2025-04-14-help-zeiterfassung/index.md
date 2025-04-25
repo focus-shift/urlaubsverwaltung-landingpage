@@ -21,8 +21,6 @@ Ab sofort findest du im **Avatar-Menü** einen direkten Zugang zur [**Hilfe-Seit
 <div class="flex my-8">
     <figure>
         <picture>
-            <source srcset="help.avif" type="image/avif" />
-            <source srcset="help.webp" type="image/webp" />
             <img
               src="help.png"
               alt="Hilfe der Zeiterfassung auf urlaubsverwaltung.cloud"

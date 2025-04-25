@@ -22,8 +22,6 @@ Für alle, die täglich mit mehreren Teammitgliedern und Projekten arbeiten, hab
 <div class="flex my-8">
     <figure>
         <picture>
-            <source srcset="MAIcons.avif" type="image/avif" />
-            <source srcset="MAIcons.webp" type="image/webp" />
             <img
               src="MAIcons.jpg"
               alt="Zeiteinträge mit neuen Icons für Pausen und Kommentare"
@@ -36,13 +34,12 @@ Für alle, die täglich mit mehreren Teammitgliedern und Projekten arbeiten, hab
     </figure>
 </div>
 
-
 ## 2. Verbesserte Darstellung von 8-Stunden-Einträgen in der Monatsansicht
-   
+
 Unsere Kunden haben uns wertvolles Feedback zur Monatsansicht gegeben. In der neuen Version wird jetzt eine korrekte Anzeige der 8-Stunden-Einträge gewährleistet. Das erleichtert die Monatsübersicht und die genaue Planung des Arbeitspensums.
 
 ## 3. Korrekte Zeitsummen bei Einträgen über Mitternacht hinaus
-   
+
 Ein Problem der bisherigen Version war die fehlerhafte Berechnung von Zeiteinträgen, die über Mitternacht hinausgehen. Dieses Feature ist jetzt optimiert und zeigt die genaue Summe der Stunden an. Damit verbessern wir nicht nur die Genauigkeit der Arbeitszeitdaten, sondern auch die Verlässlichkeit der Abrechnung.
 
 ## Fazit

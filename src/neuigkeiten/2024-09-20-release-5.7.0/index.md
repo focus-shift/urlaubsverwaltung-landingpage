@@ -39,8 +39,6 @@ Diese Anforderung entspricht einem validen Anwendungsfall, daher haben wir die V
 <div class="flex my-8">
     <figure>
         <picture>
-            <source srcset="AU-Zeitraum.avif" type="image/avif" />
-            <source srcset="AU-Zeitraum.webp" type="image/webp" />
             <img
               src="AU-Zeitraum.png"
               alt="Der Zeitraum der AU überschreitet den Zeitraum der Krankmeldung"

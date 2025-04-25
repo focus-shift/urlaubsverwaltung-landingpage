@@ -21,7 +21,6 @@ Zudem wird euch auf der untersten Zeile der **Übertrag** eurer Überstunden aus
 ein **Schnelleinstieg zum Bearbeiten** bereitgestellt sowie die **Summe** der Überstunden pro Eintrag angezeigt.
 
 <picture>
-    <source srcset="overtime-overview.avif" type="image/avif" />
     <img
       src="overtime-overview.png"
       alt="Urlaubsverwaltung neue Überstundenübersicht"

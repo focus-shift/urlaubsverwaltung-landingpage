@@ -25,7 +25,6 @@ Rechnungsfehler werden vermieden.
  <div class="flex my-8">
     <figure>
         <picture>
-            <source srcset="übersicht.avif" type="image/avif" />
             <img
               src="übersicht.png"
               alt="Übersicht des Urlaubsanspruchs"
@@ -48,7 +47,6 @@ Außerdem können mithilfe der Abwesenheitsübersicht die Urlaubstage anderer Pe
 <div class="flex my-8">
     <figure>
         <picture>
-            <source srcset="Abwesenheitsübersicht.avif" type="image/avif" />
             <img
               src="Abwesenheitsübersicht.png"
               alt="Abwesenheitsübersicht der Mitarbeitenden einer Abteilung"
@@ -77,7 +75,6 @@ Wir helfen euch beim Onboarding und stehen für Fragen gerne zur Verfügung.
  <div class="flex my-8">
     <figure>
         <picture>
-            <source srcset="aktion.avif" type="image/avif" />
             <img
               src="aktion2023.png"
               alt="Aktionsbanner Starte digital in das Jahr 2023"

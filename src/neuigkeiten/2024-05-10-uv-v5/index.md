@@ -20,7 +20,6 @@ Einen Einblick in die neuen Funktionen geben wir euch in diesem Blog.
 <div class="flex my-8">
     <figure>
         <picture>
-            <source srcset="individuelle-abwesenheitsarten-einstellungen.avif" type="image/avif" />
             <img
               src="individuelle-abwesenheitsarten-einstellungen.png"
               alt="Konfiguration von individuellen Abwesenheitsarten"
@@ -39,7 +38,6 @@ Die individuellen Abwesenheitsarten werden außerdem auch in der Zeiterfassung b
 <div class="my-8 flex flex-col gap-4 md:flex-row">
     <figure>
         <picture>
-            <source srcset="individuelle-abwesenheitsarten-kalender.avif" type="image/avif" />
             <img
               src="individuelle-abwesenheitsarten-kalender.png"
               alt="Kalender enthalten ebenfalls die individuellen Abwesenheitsarten"
@@ -54,7 +52,6 @@ Die individuellen Abwesenheitsarten werden außerdem auch in der Zeiterfassung b
     </figure>
         <figure>
         <picture>
-            <source srcset="individuelle-abwesenheitsarten-abwesenheitsuebersicht.avif" type="image/avif" />
             <img
               src="individuelle-abwesenheitsarten-abwesenheitsuebersicht.png"
               alt="Beispiel für eine individuelle Abwesenheitsart in der Abwesenheitsübersicht"

@@ -27,7 +27,6 @@ Arbeitszeit langfristig planen könnt.
 <div class="my-8 flex flex-col gap-4 md:flex-row">
     <figure>
         <picture>
-            <source srcset="arbeitszeiten.avif" type="image/avif" />
             <img
               src="arbeitszeiten.png"
               alt="Weitere Arbeitszeiten erstellen und verwalten für Vertragsänderungen."
@@ -42,7 +41,6 @@ Arbeitszeit langfristig planen könnt.
     </figure>
     <figure>
         <picture>
-            <source srcset="arbeitszeiten_edit.avif" type="image/avif" />
             <img
               src="arbeitszeiten_edit.png"
               alt="Weitere Arbeitszeiten erstellen und verwalten für Vertragsänderungen."
@@ -88,7 +86,6 @@ ganz bequem und sicher anzupassen, ohne die Anwendung verlassen zu müssen.
 <div class="flex my-8">
     <figure>
         <picture>
-            <source srcset="berechtigungen.avif" type="image/avif" />
             <img
               src="berechtigungen.png"
               alt="Berechtigungen einer Person pflegen"

@@ -35,8 +35,6 @@ Eine Aufbauorganisation kann durch Abteilungen und deren verantwortliche Persone
 Kalender- oder Single-Sign-on-Systemen bieten eine nahtlose Integration in bestehende Infrastruktur.
 
 <picture>
-    <source srcset="urlaubsverwaltung.avif" type="image/avif" />
-    <source srcset="urlaubsverwaltung.webp" type="image/webp" />
     <img
       src="urlaubsverwaltung.png"
       alt="Urlaubsverwaltung Landingpage"

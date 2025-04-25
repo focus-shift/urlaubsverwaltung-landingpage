@@ -24,7 +24,6 @@ können.
 <div class="flex my-8">
     <figure>
         <picture>
-            <source srcset="apr-jun.avif" type="image/avif" />
             <img
               src="apr-jun.png"
               alt="Brückentage im April bis Juni (Kalenderdarstellung)"
@@ -65,7 +64,6 @@ sodass auch hier mit nur 4 Urlaubstagen 9 freie Tage möglich sind.
 <div class="flex my-8">
     <figure>
         <picture>
-            <source srcset="okt-dez.avif" type="image/avif" />
             <img
               src="okt-dez.png"
               alt="Kalenderdarstellung der Monate Oktober bis Dezember"
@@ -137,7 +135,6 @@ Da jedes Bundesland individuell Feiertage festgelegt hat, sind auch weitere Komb
   <div class="w-full">
     <figure>
         <picture>
-            <source srcset="einstellungen.avif" type="image/avif" />
             <img
               src="einstellungen.png"
               alt="Einstellungen von Bundesland und Arbeitstagen"

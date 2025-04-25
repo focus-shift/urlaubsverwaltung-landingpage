@@ -25,8 +25,6 @@ Drei Monate später wunderte man sich wieder und das Spiel ging von vorne los.
 Um dieser Herausforderung zu begegnen, zeigen die Abwesenheitsübersicht und die Kalender ab sofort die freien Tage einer Person an.
 
 <picture>
-  <source srcset="vier-tage-woche.avif" type="image/avif" />
-  <source srcset="vier-tage-woche.webp" type="image/webp" />
   <img
     src="vier-tage-woche.png"
     alt="Urlaubsverwaltung Abwesenheitsübersicht mit einer 4-Tage-Woche"
@@ -39,8 +37,6 @@ Um dieser Herausforderung zu begegnen, zeigen die Abwesenheitsübersicht und die
 Die Abwesenheitsübersicht zeigt jetzt auf den ersten Blick, dass Brigitte Händel an jedem Mittwoch und den Wochenenden freie Tage hat und an den restlichen anwesend ist. Mit dieser Information ist direkt erkenntlich, weshalb im Antrag von Brigitte Händel am 9. März keine Abwesenheit eingetragen ist.
 
 <picture>
-  <source srcset="vier-tage-woche-kalender.avif" type="image/avif" />
-  <source srcset="vier-tage-woche-kalender.webp" type="image/webp" />
   <img
     src="vier-tage-woche-kalender.png"
     alt="Urlaubsverwaltung Kalender mit einer 4-Tage-Woche"

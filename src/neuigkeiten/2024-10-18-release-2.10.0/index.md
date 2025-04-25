@@ -28,8 +28,6 @@ Durch diese visuellen Hinweise können Benutzer schneller erkennen, welche Eintr
 <div class="flex my-8">
     <figure>
         <picture>
-            <source srcset="KommentarPause.avif" type="image/avif" />
-            <source srcset="KommentarPause.webp" type="image/webp" />
             <img
               src="KommentarPause.png"
               alt="Zeiteinträge mit neuen Icons für Pausen und Kommentare"

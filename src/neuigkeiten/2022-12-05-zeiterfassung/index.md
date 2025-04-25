@@ -51,7 +51,6 @@ Statistik **verlässlich** berechnet wird.
 <div class="flex my-8">
     <figure>
         <picture>
-            <source srcset="stats.avif" type="image/avif" />
             <img
               src="stats.png"
               alt="Foo"
@@ -70,7 +69,6 @@ verwendet werden können, sondern auch inklusiv bedienbar sein und nie.
 <div class="flex my-8">
     <figure>
         <picture>
-            <source srcset="enterslot.avif" type="image/avif" />
             <img
               src="enterslot.png"
               alt="Foo"

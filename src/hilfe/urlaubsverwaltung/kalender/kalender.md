@@ -42,8 +42,6 @@ Die Kalenderfreigabe kann pro Benutzer konfiguriert werden. Um die Konfiguration
 
 <p>
   <picture>
-    <source srcset="kalenderfreigabe.avif" type="image/avif" />
-    <source srcset="kalenderfreigabe.webp" type="image/webp" />
     <img
       src="kalenderfreigabe.png"
       alt="Kalenderfreigabe"
@@ -59,8 +57,6 @@ Die Kalenderfreigabe kann pro Benutzer konfiguriert werden. Um die Konfiguration
 
 <p>
   <picture>
-    <source srcset="kalenderfreigabe-aktivieren.avif" type="image/avif" />
-    <source srcset="kalenderfreigabe-aktivieren.webp" type="image/webp" />
     <img
       src="kalenderfreigabe-aktivieren.png"
       alt="Kalenderfreigabe aktivieren"
@@ -76,8 +72,6 @@ Die Kalenderfreigabe kann pro Benutzer konfiguriert werden. Um die Konfiguration
 
 <p>
   <picture>
-    <source srcset="kalenderfreigabe-link.avif" type="image/avif" />
-    <source srcset="kalenderfreigabe-link.webp" type="image/webp" />
     <img
       src="kalenderfreigabe-link.png"
       alt="Kalenderfreigabe Link"
@@ -97,8 +91,6 @@ Eine Freigabe kann über folgende Schritte gelöscht werden:
 
 <p>
   <picture>
-    <source srcset="kalenderfreigabe.avif" type="image/avif" />
-    <source srcset="kalenderfreigabe.webp" type="image/webp" />
     <img
       src="kalenderfreigabe.png"
       alt="Kalenderfreigabe"
@@ -114,8 +106,6 @@ Eine Freigabe kann über folgende Schritte gelöscht werden:
 
 <p>
   <picture>
-    <source srcset="kalenderfreigabe-loeschen.avif" type="image/avif" />
-    <source srcset="kalenderfreigabe-loeschen.webp" type="image/webp" />
     <img
       src="kalenderfreigabe-loeschen.png"
       alt="Kalenderfreigabe löschen"

@@ -17,8 +17,6 @@ Direkt eins vorweg: Lehne dich zurück! Wir ermöglichen dir den passenden Einst
 
 <div class="flex flex-col items-center mt-2 lg:flex-row lg:space-x-8 lg:mb-8">
   <picture>
-    <source srcset="/static/img/onboarding.avif" type="image/avif" />
-    <source srcset="/static/img/onboarding.webp" type="image/webp" />
     <img class="mx-auto lg:max-w-md lg:h-72"
       src="/static/img/onboarding.jpg"
       alt="Herzlich Willkommen"
@@ -41,8 +39,6 @@ Das Onboarding deiner Organisation kann mit einer Import-Datei im CSV-Format dur
 Eine Beispiel-Datei zur Orientierung haben wir dir <a href="/static/import-beispiel.csv" class="underline">hier</a> bereitgestellt.
 
 <picture>
-  <source srcset="import-beispiel.avif" type="image/avif" />
-  <source srcset="import-beispiel.webp" type="image/webp" />
   <img
     src="import-beispiel.png"
     alt="Beispiel für einen Import"

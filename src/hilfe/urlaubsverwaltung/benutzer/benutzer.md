@@ -32,8 +32,6 @@ Als Benutzer mit der Berechtigung _Office_ kannst du über den Menü-Punkt Benut
 
 <p>
   <picture>
-    <source srcset="benutzer-konto.avif" type="image/avif" />
-    <source srcset="benutzer-konto.webp" type="image/webp" />
     <img
       src="benutzer-konto.png"
       alt="Konto eines Benutzers"
@@ -49,8 +47,6 @@ Hier gibt es die Möglichkeit die Berechtigungen über das "Stift"-Symbol zu edi
 
 <p>
   <picture>
-    <source srcset="berechtigungen-editieren.avif" type="image/avif" />
-    <source srcset="berechtigungen-editieren.webp" type="image/webp" />
     <img
       src="berechtigungen-editieren.png"
       alt="Berechtigungen editieren"
@@ -81,8 +77,6 @@ Beim Editieren des Benutzers muss die Berechtigung _Inaktiv_ ausgewählt werden:
 
 <p>
   <picture>
-    <source srcset="benutzer-inaktiv.avif" type="image/avif" />
-    <source srcset="benutzer-inaktiv.webp" type="image/webp" />
     <img
       src="benutzer-inaktiv.png"
       alt="Inaktivieren eines Benutzers"
@@ -121,8 +115,6 @@ gleichen Urlaubsanspruch, den er im aktuellen Jahr hat.
 
 <p>
   <picture>
-    <source srcset="holiday_next_year.avif" type="image/avif" />
-    <source srcset="holiday_next_year.webp" type="image/webp" />
     <img
       src="holiday_next_year.png"
       alt="Urlaubsanspruch bearbeiten"
@@ -150,8 +142,6 @@ zusätzlich für jeden Benutzenden einzeln im Konto überschrieben werden.
 
 <p>
   <picture>
-    <source srcset="benutzer-resturlaub.avif" type="image/avif" />
-    <source srcset="benutzer-resturlaub.webp" type="image/webp" />
     <img
       src="benutzer-resturlaub.png"
       alt="Überschreiben der Konfiguration des Resturlaubes pro Benutzenden"

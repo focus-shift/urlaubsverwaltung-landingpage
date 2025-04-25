@@ -32,8 +32,6 @@ Um diesen Workflow verwenden zu können, müssen folgende Einstellungen konfigur
 
 <p>
   <picture>
-    <source srcset="eigenverantwortliche-ueberstunden-erfassung.avif" type="image/avif" />
-    <source srcset="eigenverantwortliche-ueberstunden-erfassung.webp" type="image/webp" />
     <img
       src="eigenverantwortliche-ueberstunden-erfassung.png"
       alt="Konfiguration Eigenverantwortliche Überstunden Erfassung "
@@ -53,8 +51,6 @@ Um diesen Workflow verwenden zu können, müssen folgende Einstellungen konfigur
 
 <p>
   <picture>
-    <source srcset="ueberstunden-antrag.avif" type="image/avif" />
-    <source srcset="ueberstunden-antrag.webp" type="image/webp" />
     <img
       src="ueberstunden-antrag.png"
       alt="Konfiguration Antrag auf Überstundenabbau"
@@ -74,8 +70,6 @@ Um diesen Workflow verwenden zu können, müssen folgende Einstellungen konfigur
 
 <p>
   <picture>
-    <source srcset="privilegierte-ueberstunden-erfassung.avif" type="image/avif" />
-    <source srcset="privilegierte-ueberstunden-erfassung.webp" type="image/webp" />
     <img
       src="privilegierte-ueberstunden-erfassung.png"
       alt="Konfiguration Erfassung der Überstunden durch eine privilegierte Person"
@@ -113,8 +107,6 @@ Ja, dabei einfach Überstunden eintragen und dabei den Haken mit "Überstunden a
 
 <p>
   <picture>
-    <source srcset="abbau-ohne-antrag.avif" type="image/avif" />
-    <source srcset="abbau-ohne-antrag.webp" type="image/webp" />
     <img
       src="abbau-ohne-antrag.png"
       alt="Abbau von Überstunden erfassen"

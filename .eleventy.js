@@ -5,6 +5,7 @@ import markdownItAnchor from "markdown-it-anchor";
 import { load } from "cheerio";
 import pluginRss from "@11ty/eleventy-plugin-rss";
 import handlebarsPlugin from "@11ty/eleventy-plugin-handlebars";
+import { eleventyImageTransformPlugin } from "@11ty/eleventy-img";
 import htmlmin from "html-minifier-terser";
 
 const markdownIt = markdown();
@@ -44,6 +45,9 @@ export default function (eleventyConfig) {
 	eleventyConfig.addPassthroughCopy({ "./public/static": "static" });
 
 	eleventyConfig.addPlugin(pluginRss);
+	eleventyConfig.addPlugin(eleventyImageTransformPlugin, {
+		formats: ["avif", "jpg"],
+	});
 
 	eleventyConfig.addTransform("htmlmin", function (content, outputPath) {
 		if (outputPath && outputPath.endsWith(".html")) {
