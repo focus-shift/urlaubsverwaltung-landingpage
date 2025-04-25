@@ -4,8 +4,48 @@
   <subtitle></subtitle>
   <link rel="self" href="https://urlaubsverwaltung.cloud/feed.xml" />
   <link rel="alternate" type="text/html" href="https://urlaubsverwaltung.cloud" />
-  <updated>2025-04-23T00:00:00Z</updated>
+  <updated>2025-04-25T00:00:00Z</updated>
   <id>https://urlaubsverwaltung.cloud</id>
+  <entry>
+    <title>Urlaubsverwaltung 5.12.0 – Ab in die Cloud!</title>
+    <link href="https://urlaubsverwaltung.cloud/neuigkeiten/2025-01-17-release-5.12.0/" />
+    <updated>2025-04-25T00:00:00Z</updated>
+    <id>https://urlaubsverwaltung.cloud/neuigkeiten/2025-01-17-release-5.12.0/</id>
+    <author>
+      <name>Andreas Weigel</name>
+    </author>
+    <content type="html">&lt;p&gt;Die Version &lt;strong&gt;5.12.0&lt;/strong&gt; bringt ein besonders spannendes neues Feature für alle welche von On-Premise auf urlaubsverwaltung.cloud wechseln möchten.&lt;/p&gt;
+&lt;h2 id=&quot;ab-in-die-cloud&quot;&gt;Ab in die Cloud!&lt;/h2&gt;
+&lt;p&gt;Mit diesem Release wird ein neues Feature eingeführt, das es ermöglicht, &lt;em&gt;Daten zu sichern und in der Cloud wiederherzustellen&lt;/em&gt;. Das betrifft u.a. Urlaubsanträge, Krankmeldungen und Personaldaten in der Urlaubsverwaltung.&lt;/p&gt;
+&lt;p&gt;Möchtest du &lt;strong&gt;in die Cloud migrieren&lt;/strong&gt;? Dann schreibe uns an &lt;a href=&quot;mailto:info@urlaubsverwaltung.cloud?subject=Ab%20in%20die%20Cloud!&quot;&gt;info@urlaubsverwaltung.cloud&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Was ist neu?&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Möglichkeit, ein vollständiges &lt;strong&gt;Backup&lt;/strong&gt; der Datenbankinhalte zu erstellen&lt;/li&gt;
+&lt;li&gt;Unterstützung für das &lt;strong&gt;Wiederherstellen&lt;/strong&gt; der Daten in der Cloud&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Warum ist das wichtig?&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Eure Daten werden DSGVO-konform in Deutschland verarbeitet&lt;/li&gt;
+&lt;li&gt;Backups aller gespeicherter Daten&lt;/li&gt;
+&lt;li&gt;Schnelle Sicherheitsupdates und agile Weiterentwicklung ohne weiteres Zutun&lt;/li&gt;
+&lt;li&gt;Immer ein offenes Ohr für Fragen, Feedback und Feature-Wünsche&lt;/li&gt;
+&lt;li&gt;Single Sign-On über z.B. mit Microsoft 365&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Was nehmen wir dir ab?&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Installation &amp;amp; Konfiguration&lt;/li&gt;
+&lt;li&gt;Betrieb der Datenbank und des OpenID Connect Providers&lt;/li&gt;
+&lt;li&gt;Regelmäßige Backups &amp;amp; Updates (Urlaubsverwaltung + Betriebssystem)&lt;/li&gt;
+&lt;li&gt;Anschaffung &amp;amp; Betrieb eines Servers&lt;/li&gt;
+&lt;li&gt;Betrieb eines Reverse-Proxys inkl. SSL-Zertifikatserneuerung&lt;/li&gt;
+&lt;li&gt;IT-Personal- und Supportkosten&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;fazit&quot;&gt;Fazit&lt;/h2&gt;
+&lt;p&gt;Mit Release &lt;em&gt;5.12.0&lt;/em&gt; wird &lt;strong&gt;der Weg in die Cloud&lt;/strong&gt; geebnet. Das neue Backup- und Restore-Feature ist ein wichtiger Schritt, um den Wechsel von On-Premise zur Cloud zu erleichtern.&lt;/p&gt;
+&lt;p&gt;Möchtest du in die Cloud migrieren? Dann schreibe uns an &lt;a href=&quot;mailto:info@urlaubsverwaltung.cloud?subject=Ab%20in%20die%20Cloud!&quot;&gt;info@urlaubsverwaltung.cloud&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;sub&gt;Zur vollständigen Release-Übersicht: &lt;a href=&quot;https://github.com/urlaubsverwaltung/urlaubsverwaltung/releases/tag/urlaubsverwaltung-5.12.0&quot;&gt;Release 5.12.0 auf GitHub ansehen&lt;/a&gt;&lt;/sub&gt;&lt;/p&gt;
+</content>
+  </entry>
   <entry>
     <title>Urlaubsverwaltung 5.10.0 – Regionale US-Feiertage</title>
     <link href="https://urlaubsverwaltung.cloud/neuigkeiten/2024-12-09-release-5.10.0/" />
