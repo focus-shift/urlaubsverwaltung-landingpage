@@ -21,7 +21,6 @@ halber Arbeitstag oder kein Arbeitstag?
 <p>
   <picture>
     <img
-      data-magnifiable
       src="einstellungen-feiertage.png"
       alt="Einstellungsmöglichkeit der globalen Feiertagsregelung"
       decoding="async"
@@ -41,7 +40,6 @@ des persönlichen Landes bzw. der Region berechnet.
 <p>
   <picture>
     <img
-      data-magnifiable
       src="konto-feiertage.png"
       alt="Einstellungsmöglichkeit der persönlichen Feiertagsregelung"
       decoding="async"

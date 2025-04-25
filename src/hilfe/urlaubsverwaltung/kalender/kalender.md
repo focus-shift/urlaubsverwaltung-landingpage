@@ -43,7 +43,6 @@ Die Kalenderfreigabe kann pro Benutzer konfiguriert werden. Um die Konfiguration
 <p>
   <picture>
     <img
-      data-magnifiable
       src="kalenderfreigabe.png"
       alt="Kalenderfreigabe"
       decoding="async"
@@ -59,7 +58,6 @@ Die Kalenderfreigabe kann pro Benutzer konfiguriert werden. Um die Konfiguration
 <p>
   <picture>
     <img
-      data-magnifiable
       src="kalenderfreigabe-aktivieren.png"
       alt="Kalenderfreigabe aktivieren"
       decoding="async"
@@ -75,7 +73,6 @@ Die Kalenderfreigabe kann pro Benutzer konfiguriert werden. Um die Konfiguration
 <p>
   <picture>
     <img
-      data-magnifiable
       src="kalenderfreigabe-link.png"
       alt="Kalenderfreigabe Link"
       decoding="async"
@@ -95,7 +92,6 @@ Eine Freigabe kann über folgende Schritte gelöscht werden:
 <p>
   <picture>
     <img
-      data-magnifiable
       src="kalenderfreigabe.png"
       alt="Kalenderfreigabe"
       decoding="async"
@@ -111,7 +107,6 @@ Eine Freigabe kann über folgende Schritte gelöscht werden:
 <p>
   <picture>
     <img
-      data-magnifiable
       src="kalenderfreigabe-loeschen.png"
       alt="Kalenderfreigabe löschen"
       decoding="async"

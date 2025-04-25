@@ -17,7 +17,6 @@ Diese Regelung gilt für alle Mitarbeitenden, die in der Zeiterfassung erfasst s
 <p>
   <picture>
     <img
-      data-magnifiable
       src="globale_feiertage.png"
       alt="Einstellungen der globalen Feiertagsregelung"
       decoding="async"
@@ -41,7 +40,6 @@ Daher kannst du die Feiertagsregelung für jeden Mitarbeitenden individuell anpa
 <p>
   <picture>
     <img
-      data-magnifiable
       src="individuelle_feiertage.png"
       alt="Einstellungen der Feiertagsregelung pro Mitarbeitenden"
       decoding="async"

@@ -23,7 +23,6 @@ Die Mitarbeitenden erhalten darauf eine Einladung per E-Mail und können sich au
 <p>
   <picture>
     <img
-      data-magnifiable
       src="invite-form.png"
       alt="Mitarbeitende einladen"
       decoding="async"

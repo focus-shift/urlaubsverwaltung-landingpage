@@ -18,7 +18,6 @@ die nach Mitarbeitenden selektiert werden können. Es können auch mehrere Mitar
 <p>
   <picture>
     <img
-      data-magnifiable
       src="berichte.png"
       alt="Übersicht über geleistete und geplante Arbeitsstunden"
       decoding="async"
@@ -53,7 +52,6 @@ Ein Pausensymbol zeigt, ob es sich bei einer erfassten Zeit um eine Pause handel
 <p>
   <picture>
     <img
-      data-magnifiable
       src="pausen.png"
       alt="Pausen in der Tagesansicht"
       decoding="async"
@@ -75,7 +73,6 @@ So können Fehler korrigiert werden und es ist nachvollziehbar, wer wann eine Ä
 <p>
   <picture>
     <img
-      data-magnifiable
       src="historie_icon.png"
       alt="Pausen in der Tagesansicht"
       decoding="async"
@@ -91,7 +88,6 @@ Die Nachvollziehbarkeit von Änderungen ist insbesondere für Unternehmen und Te
 <p>
   <picture>
     <img
-      data-magnifiable
       src="historie.png"
       alt="Pausen in der Tagesansicht"
       decoding="async"

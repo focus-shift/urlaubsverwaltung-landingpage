@@ -18,7 +18,6 @@ Die Arbeitszeiten können pro Mitarbeitenden individuell festgelegt werden - sow
 <p>
   <picture>
     <img
-      data-magnifiable
       src="arbeitszeiten_pro_mitarbeitenden.png"
       alt="Arbeitszeiten pro Mitarbeitenden"
       decoding="async"
@@ -38,7 +37,6 @@ Die Berechtigungen der Mitarbeitenden können unter Personen angepasst werden. B
 <p>
   <picture>
     <img
-      data-magnifiable
       src="berechtigungen_pro_mitarbeitenden.png"
       alt="Berechtigungen pro Mitarbeitenden"
       decoding="async"
