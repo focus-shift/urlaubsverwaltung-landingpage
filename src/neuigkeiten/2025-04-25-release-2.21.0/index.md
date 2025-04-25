@@ -5,7 +5,7 @@ date: 2025-06-18
 title: Zeiterfassung 2.21.0 – Festschreiben von Zeiteinträgen
 author: Tobias Schneider
 release-version: 2.21.0
-teaserImage: TODO
+teaserImage: /static/teaser/2025-06-18/ZE-Release-2.21.0.png
 description: Mit Version 2.21.0 können Zeiteinträge für Mitarbeitende festgeschrieben werden.
 ---
 
