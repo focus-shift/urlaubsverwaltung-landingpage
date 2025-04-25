@@ -18,8 +18,6 @@ Seit dieser Version können die Berechtigungen _Chef_ und _Office_ mit den Berec
 _Freigabe-Verantwortlicher_ kombiniert werden. Wir bieten dir damit die Möglichkeit deine Organisationsstruktur noch besser abbilden zu können.
 
 <picture>
-    <source srcset="berechtigungen.avif" type="image/avif" />
-    <source srcset="berechtigungen.webp" type="image/webp" />
     <img
       src="berechtigungen.png"
       alt="Berechtigungen einer Person mit Abteilungsleiter und Chef bzw. Office"

@@ -14,14 +14,13 @@ des Mitarbeitenden deaktiviert bzw. aktiviert werden.
 
 ## Verfall von Resturlaub für alle Mitarbeitenden deaktivieren
 
-Der Verfall des Resturlaubes kann, seit der Version 4.50.0 der Urlaubsverwaltung, in den Einstellungen unter 
-'Einstellungen zu Urlaub' global deaktiviert bzw. aktiviert werden. Durch das Deaktivieren des Verfalls werden die 
+Der Verfall des Resturlaubes kann, seit der Version 4.50.0 der Urlaubsverwaltung, in den Einstellungen unter
+'Einstellungen zu Urlaub' global deaktiviert bzw. aktiviert werden. Durch das Deaktivieren des Verfalls werden die
 nicht genommenen Urlaubstage komplett in das kommende Jahr als Resturlaub übernommen.
 
 <div class="flex my-8">
     <figure>
         <picture>
-            <source srcset="residual-leave-configuration.avif" type="image/avif" />
             <img
               src="residual-leave-configuration.png"
               alt="Konfiguration zum Deaktivieren/Aktivieren des Verfalls von Resturlaubs für alle Mitarbeitenden"
@@ -36,14 +35,13 @@ nicht genommenen Urlaubstage komplett in das kommende Jahr als Resturlaub übern
 
 ## Verfall von Resturlaub pro Mitarbeitenden individuell deaktivieren
 
-Der Verfall von Resturlaub kann nicht nur für alle Mitarbeitenden, sondern zusätzlich auch pro Mitarbeitenden im Konto 
+Der Verfall von Resturlaub kann nicht nur für alle Mitarbeitenden, sondern zusätzlich auch pro Mitarbeitenden im Konto
 unter Urlaubsanspruch deaktiviert bzw. aktiviert werden. Hiermit hat man die Möglichkeit z.B. den Verfall für alle Mitarbeitenden
 zu deaktivieren und für bestimmte Mitarbeitenden individuell zu aktivieren.
 
 <div class="flex my-8">
     <figure>
         <picture>
-            <source srcset="residual-leave-configuration-employee.avif" type="image/avif" />
             <img
               src="residual-leave-configuration-employee.png"
               alt="Konfiguration des individuellen Verfalls von Resturlaub pro Mitarbeitenden"

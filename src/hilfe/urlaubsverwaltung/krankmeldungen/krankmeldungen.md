@@ -18,8 +18,6 @@ das "+"-Symbol _Neue Krankmeldung_ ausgewählt wird.
 
 <p>
   <picture>
-    <source srcset="krankmeldung-dialog-oeffnen.avif" type="image/avif" />
-    <source srcset="krankmeldung-dialog-oeffnen.webp" type="image/webp" />
     <img
       src="krankmeldung-dialog-oeffnen.png"
       alt="Krankmeldung erstellen"
@@ -35,8 +33,6 @@ Für eine Krankmeldung können alle relevanten Informationen, wie z.B. den Zeitr
 
 <p>
   <picture>
-    <source srcset="krankmeldung-dialog.avif" type="image/avif" />
-    <source srcset="krankmeldung-dialog.webp" type="image/webp" />
     <img
       src="krankmeldung-dialog.png"
       alt="Krankmeldung erstellen"
@@ -54,8 +50,6 @@ Ja, eine Kind-Krankmeldung kann erfasst werden, indem der Typ von _Krankmeldung_
 
 <p>
   <picture>
-    <source srcset="kindkrankmeldung.avif" type="image/avif" />
-    <source srcset="kindkrankmeldung.webp" type="image/webp" />
     <img
       src="kindkrankmeldung.png"
       alt="Kindkrankmeldung erfassen"
@@ -75,7 +69,6 @@ Weitere Informationen zur Verwendung finden sich in [diesem Blog-Beitrag](https:
 
 <p>
   <picture>
-    <source srcset="einstellungen-krankmeldung-selbsteintragen.avif" type="image/avif" />
     <img
       src="einstellungen-krankmeldung-selbsteintragen.png"
       alt="Einstellung für selbstständige Krankmeldung durch Mitarbeitende aktivieren"
@@ -97,8 +90,6 @@ Hierzu können in den _Einstellungen_ unter _Abwesenheiten_ die entsprechenden Z
 
 <p>
   <picture>
-    <source srcset="krankmeldung-einstellungen.avif" type="image/avif" />
-    <source srcset="krankmeldung-einstellungen.webp" type="image/webp" />
     <img
       src="krankmeldung-einstellungen.png"
       alt="Einstellungen Krankmeldung"
@@ -114,8 +105,6 @@ Hierzu können in den _Einstellungen_ unter _Abwesenheiten_ die entsprechenden Z
 
 <p>
   <picture>
-    <source srcset="krankmeldung.avif" type="image/avif" />
-    <source srcset="krankmeldung.webp" type="image/webp" />
     <img
       src="krankmeldung.png"
       alt="Workflow bei Krankmeldungen"

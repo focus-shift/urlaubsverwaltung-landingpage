@@ -24,7 +24,6 @@ erhält mal durch die Auswahl des jeweiligen Tages schnell einen Überblick wann
 <div class="flex my-8">
     <figure>
         <picture>
-            <source srcset="zeiterfassung-person-details.avif" type="image/avif" />
             <img
               src="zeiterfassung-person-details.png"
               alt="Auswahl einer Person zur Ansicht der gebuchten Zeiten"
@@ -46,7 +45,6 @@ Diese Einstellung kann durch eine Person mit der entsprechenden Berechtigung vor
 <div class="flex my-8">
     <figure>
         <picture>
-            <source srcset="zeiterfassung-workingtime.avif" type="image/avif" />
             <img
               src="zeiterfassung-workingtime.png"
               alt="Einstellung der Arbeitszeiten pro Mitarbeitenden"
@@ -69,7 +67,6 @@ bereits von der geplanten Arbeitszeit geleistet wurde. Auch Überstunden sind in
 <div class="flex my-8">
     <figure>
         <picture>
-            <source srcset="zeiterfassung-new-timeslot.avif" type="image/avif" />
             <img
               src="zeiterfassung-new-timeslot.png"
               alt="Darstellung der geplanten Arbeitszeiten und der geleisteten Stunden"
@@ -88,7 +85,6 @@ und können sowohl auf Wochen- als auch Monatsbasis aggregiert angezeigt werden.
 <div class="flex my-8">
     <figure>
         <picture>
-            <source srcset="zeiterfassung-report-week.avif" type="image/avif" />
             <img
               src="zeiterfassung-report-week.png"
               alt="Wöchentliche Berichte mit grafischer Darstellung der geplanten Arbeitszeiten"
@@ -104,7 +100,6 @@ und können sowohl auf Wochen- als auch Monatsbasis aggregiert angezeigt werden.
 <div class="flex my-8">
     <figure>
         <picture>
-            <source srcset="zeiterfassung-report-month.avif" type="image/avif" />
             <img
               src="zeiterfassung-report-month.png"
               alt="Monatliche Berichte mit grafischer Darstellung der geplanten Arbeitszeiten"

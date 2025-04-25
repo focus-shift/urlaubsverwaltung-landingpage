@@ -31,7 +31,6 @@ Nachdem ihr die Informationen gespeichert habt, werden diese angezeigt
 <div class="flex my-8 gap-4 flex-col md:flex-row">
     <figure>
         <picture>
-            <source srcset="benutzeruebersicht.avif" type="image/avif" />
             <img
               src="benutzeruebersicht.png"
               alt="Benutzeruebersicht mit Personalnummer"
@@ -44,7 +43,6 @@ Nachdem ihr die Informationen gespeichert habt, werden diese angezeigt
     </figure>
     <figure>
         <picture>
-            <source srcset="krankmeldungen.avif" type="image/avif" />
             <img
               src="krankmeldungen.png"
               alt="Krankmeldungen mit Personalnummer"
@@ -57,7 +55,6 @@ Nachdem ihr die Informationen gespeichert habt, werden diese angezeigt
     </figure>
     <figure>
         <picture>
-            <source srcset="abwesenheitsstatistik.avif" type="image/avif" />
             <img
               src="abwesenheitsstatistik.png"
               alt="Abwesenheitsstatistik mit Personalnummer"

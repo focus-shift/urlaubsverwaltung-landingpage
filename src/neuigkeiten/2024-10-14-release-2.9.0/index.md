@@ -21,14 +21,12 @@ Neu hinzugefügt wurden:
 Soll-Tageszeit: Diese zeigt die vorgesehene Arbeitszeit pro Tag an.
 Ist-Tageszeit: Dieser Wert gibt die tatsächlich geleistete Arbeitszeit an.
 Tages-Über-/Unterstunden: Diese Kennzahl zeigt an, ob an einem Tag Überstunden geleistet oder weniger Stunden als vorgesehen gearbeitet wurden.
-Zusätzlich werden die Summen dieser Werte nun auch auf Wochen- und Monatsbasis dargestellt, was den Nutzern eine umfassende Analyse ihrer Arbeitszeit über längere Zeiträume ermöglicht. 
+Zusätzlich werden die Summen dieser Werte nun auch auf Wochen- und Monatsbasis dargestellt, was den Nutzern eine umfassende Analyse ihrer Arbeitszeit über längere Zeiträume ermöglicht.
 Diese Verbesserungen unterstützen eine präzisere Übersicht und Planung der Arbeitszeit.
 
 <div class="flex my-8">
     <figure>
         <picture>
-            <source srcset="Stundenübersicht.avif" type="image/avif" />
-            <source srcset="Stundenübersicht.webp" type="image/webp" />
             <img
               src="Stundenübersicht.png"
               alt="Soll- und Ist-Werte, sowie Überstunden in der Berichtübersicht"
@@ -40,4 +38,3 @@ Diese Verbesserungen unterstützen eine präzisere Übersicht und Planung der Ar
         <figcaption class="text-sm text-center">Soll- und Ist-Werte, sowie Überstunden in der Berichtübersicht</figcaption>
     </figure>
 </div>
-

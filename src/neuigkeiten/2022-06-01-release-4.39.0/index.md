@@ -20,7 +20,6 @@ Mitarbeitende zwar nicht vor Ort, aber dennoch beschäftigt und erreichbar sind.
 <div class="flex my-8">
     <figure>
         <picture>
-            <source srcset="allAbsencesVisibleForOffice.avif" type="image/avif" />
             <img
               src="allAbsencesVisibleForOffice.png"
               alt="Farbliche Darstellung der Abwesenheitsarten mit entsprechender Legende in der Abwesenheitsübersicht"
@@ -41,7 +40,6 @@ Noch nicht genehmigte Abwesenheiten werden als leerer Rahmen in der betreffenden
 <div class="flex my-8">
     <figure>
         <picture>
-            <source srcset="overviewCalendar.avif" type="image/avif" />
             <img
               src="overviewCalendar.png"
               alt="Kalender auf der persönlichen Startseite mit farblicher Unterscheidung der Abwesenheitsarten"
@@ -59,7 +57,6 @@ Noch nicht genehmigte Abwesenheiten werden als leerer Rahmen in der betreffenden
 <div class="flex my-8">
     <figure>
         <picture>
-            <source srcset="calendarPicker.avif" type="image/avif" />
             <img
               src="calendarPicker.png"
               alt="Datumsauswahl mit farblicher Unterscheidung der Abwesenheitsarten"
@@ -79,7 +76,6 @@ Die Farben der Abwesenheitsarten können durch Benutzende mit der Berechtigung O
 <div class="flex my-8">
     <figure>
         <picture>
-            <source srcset="colorConfiguration.avif" type="image/avif" />
             <img
               src="colorConfiguration.png"
               alt="Neue Farbkonfiguration für Abwesenheitsarten"
@@ -101,7 +97,6 @@ Neben der neuen Farbkonfiguration ist es nun auch möglich die Sichtbarkeit der 
 <div class="flex my-8">
     <figure>
         <picture>
-            <source srcset="visibilityConfiguration.avif" type="image/avif" />
             <img
               src="visibilityConfiguration.png"
               alt="Einstellung der Sichtbarkeit von Abwesenheitsarten"
@@ -119,7 +114,6 @@ Bisher war die Sichtbarkeit anhand der Berechtigungen eingeschränkt. Normale Be
 <div class="flex my-8">
     <figure>
         <picture>
-            <source srcset="onlyOwnVisible.avif" type="image/avif" />
             <img
               src="colorConfiguration.png"
               alt="Unterscheidung nur der eigenen Abwesenheitsarten"
@@ -137,7 +131,6 @@ Dagegen ist z.B. die Abwesenheitsart _Home-Office_ oder _Außer Haus_ ein Fall b
 <div class="flex my-8">
     <figure>
         <picture>
-            <source srcset="differentVisibilities.avif" type="image/avif" />
             <img
               src="visibilityConfiguration.png"
               alt="Differenzierung von Abwesenheitsarten der Mitarbeitenden"

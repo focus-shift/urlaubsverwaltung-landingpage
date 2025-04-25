@@ -33,7 +33,6 @@ Jetzt kannst du als Mitarbeitende über das '+'-Zeichen neben einer Abwesenheit 
 <div class="flex my-8">
     <figure>
         <picture>
-            <source srcset="user-neue-krankmeldung.avif" type="image/avif" />
             <img
               src="user-neue-krankmeldung.png"
               alt="Krankmeldung erstellen als Mitarbeitende"
@@ -60,7 +59,6 @@ zum Beispiel in der Lohnbuchhaltung.
 <div class="flex my-8">
     <figure>
         <picture>
-            <source srcset="office-eingereichte-krankmeldungen.avif" type="image/avif" />
             <img
               src="office-eingereichte-krankmeldungen.png"
               alt="Mitarbeitende mit der Berechtigung 'Office' oder 'Pflege von Krankmeldungen' bekommen eingereichte Krankmeldungen angezeigt"
@@ -78,7 +76,6 @@ An einer Krankmeldung ist für alle Berechtigten sichtbar, wann und wer die Kran
 <div class="flex my-8">
     <figure>
         <picture>
-            <source srcset="verlauf-krankmeldung.avif" type="image/avif" />
             <img
               src="verlauf-krankmeldung.png"
               alt="Verlauf in einer Krankmeldung, die von einer Mitarbeitenden eingetragen wurde"
@@ -100,7 +97,6 @@ Krankmeldungen benachrichtigen zu lassen.
 <div class="flex my-8">
     <figure>
         <picture>
-            <source srcset="benachrichtigungen-krankmeldungen.avif" type="image/avif" />
             <img
               src="benachrichtigungen-krankmeldungen.png"
               alt="Einstellung der Benachrichtigungen für eingereichte und angenommene Krankmeldungen"

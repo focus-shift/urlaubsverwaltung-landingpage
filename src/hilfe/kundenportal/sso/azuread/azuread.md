@@ -59,8 +59,6 @@ Registrierung starten.
 
 <p>
   <picture>
-    <source srcset="schritt_1_registrieren.avif" type="image/avif" />
-    <source srcset="schritt_1_registrieren.webp" type="image/webp" />
     <img
       src="schritt_1_registrieren.png"
       alt="App-Registrierung durchführen"
@@ -81,8 +79,6 @@ Nach erfolgreicher Registrierung kommst du auf die Übersichtsseite der App-Regi
 
 <p>
   <picture>
-    <source srcset="schritt_1_uebersicht.avif" type="image/avif" />
-    <source srcset="schritt_1_uebersicht.webp" type="image/webp" />
     <img
       src="schritt_1_uebersicht.png"
       alt="Anwendungs-Id und Verzeichnis-Id kopieren"
@@ -104,8 +100,6 @@ Neuer geheimer Clientschlüssel erstellen
 
 <p>
   <picture>
-    <source srcset="schritt_1_clientsecret.avif" type="image/avif" />
-    <source srcset="schritt_1_clientsecret.webp" type="image/webp" />
     <img
       src="schritt_1_clientsecret.png"
       alt="Neuer geheimer Clientschlüssel hinzufügen"
@@ -143,8 +137,6 @@ können bzw. für die Zustellung von E-Mails an Benutzer benötigen wir folgende
 
 <p>
   <picture>
-    <source srcset="schritt_1_tokenkonfiguration.avif" type="image/avif" />
-    <source srcset="schritt_1_tokenkonfiguration.webp" type="image/webp" />
     <img
       src="schritt_1_tokenkonfiguration.png"
       alt="OIDC Token konfigurieren"
@@ -169,8 +161,6 @@ entsprechende Microsoft Graph-Berechtigung aktiviert werden muss.
 
 <p>
   <picture>
-    <source srcset="schritt_1_tokenkonfiguration_graph_api.avif" type="image/avif" />
-    <source srcset="schritt_1_tokenkonfiguration_graph_api.webp" type="image/webp" />
     <img
       src="schritt_1_tokenkonfiguration_graph_api.png"
       alt="API-Berechtigung für registrierte App konfigurieren"
@@ -193,8 +183,6 @@ Nun brauchen wir die Werte aus der Textdatei von [Schritt 1](#schritt-1-neue-app
 
 <p>
   <picture>
-    <source srcset="schritt_2_konfiguration.avif" type="image/avif" />
-    <source srcset="schritt_2_konfiguration.webp" type="image/webp" />
     <img
       src="schritt_2_konfiguration.png"
       alt=""
@@ -217,8 +205,6 @@ Bei der registrierten App im Azure AD wird nun eine neue Plattform hinzugefügt:
 
 <p>
   <picture>
-    <source srcset="schritt_3_plattform.avif" type="image/avif" />
-    <source srcset="schritt_3_plattform.webp" type="image/webp" />
     <img
       src="schritt_3_plattform.png"
       alt="Plattform vom Typ Web anlegen"
@@ -238,8 +224,6 @@ Zum Schluss muss noch die Umleitungs-URI konfiguriert werden:
 
 <p>
   <picture>
-    <source srcset="schritt_3_umleitungsuri.avif" type="image/avif" />
-    <source srcset="schritt_3_umleitungsuri.webp" type="image/webp" />
     <img
       src="schritt_3_umleitungsuri.png"
       alt="Umleitungs-URI konfigurieren"
@@ -275,8 +259,6 @@ akzeptiert werden muss.
 
 <p>
   <picture>
-    <source srcset="schritt_4_berechtigungen.avif" type="image/avif" />
-    <source srcset="schritt_4_berechtigungen.webp" type="image/webp" />
     <img
       src="schritt_4_berechtigungen.png"
       alt="Zugriff auf Azure AD bestätigen"
@@ -296,8 +278,6 @@ dass es zu deiner E-Mail-Adresse schon ein Konto gibt.
 
 <p>
   <picture>
-    <source srcset="schritt_4_konto_existiert.avif" type="image/avif" />
-    <source srcset="schritt_4_konto_existiert.webp" type="image/webp" />
     <img
       src="schritt_4_konto_existiert.png"
       alt="Benutzerkonto für E-Mail existiert bereits"
@@ -319,8 +299,6 @@ Besitz beider Benutzerkonten bist.
 
 <p>
   <picture>
-    <source srcset="schritt_4_konto_bestaetigen.avif" type="image/avif" />
-    <source srcset="schritt_4_konto_bestaetigen.webp" type="image/webp" />
     <img
       src="schritt_4_konto_bestaetigen.png"
       alt="Existierendes urlaubsverwaltung.cloud Konto mit Azure AD Konto verknüpfen"
@@ -336,8 +314,6 @@ E-Mail mit Link zum Bestätigen der Benutzerkonto-Verknüpfung
 
 <p>
   <picture>
-    <source srcset="schritt_4_konto_mail.avif" type="image/avif" />
-    <source srcset="schritt_4_konto_mail.webp" type="image/webp" />
     <img
       src="schritt_4_konto_mail.png"
       alt="E-Mail mit Link zum Konto verknüpfen"

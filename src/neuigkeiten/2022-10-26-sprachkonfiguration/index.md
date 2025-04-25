@@ -20,7 +20,6 @@ ermöglichen es in der Personalisierung einzustellen, welche Sprache verwendet w
 <div class="flex my-8">
     <figure>
         <picture>
-            <source srcset="language-personalisation.avif" type="image/avif" />
             <img
               src="language-personalisation.png"
               alt="Konfiguration zum Überschreiben der Browsersprache in den Personalisierungen"

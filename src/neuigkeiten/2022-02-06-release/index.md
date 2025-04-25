@@ -37,8 +37,6 @@ Warum wir uns freuen, dir endlich einen Dunkelmodus anzubieten:
 <div class="flex my-8 gap-4 flex-col md:flex-row">
     <div>
       <picture>
-          <source srcset="uv-theme-light.avif" type="image/avif" />
-          <source srcset="uv-theme-light.webp" type="image/webp" />
           <img
             src="uv-theme-light.png"
             alt="Urlaubsverwaltung Übersichtseite im Light Theme"
@@ -51,8 +49,6 @@ Warum wir uns freuen, dir endlich einen Dunkelmodus anzubieten:
     </div>
     <div>
       <picture>
-          <source srcset="uv-theme-dark.avif" type="image/avif" />
-          <source srcset="uv-theme-dark.webp" type="image/webp" />
           <img
             src="uv-theme-dark.png"
             alt="Urlaubsverwaltung Übersichtseite im Dark Theme"

@@ -21,8 +21,6 @@ Der Name der Einstellung hat sich von 'Bundesland' zu 'Feiertagsregelung' geänd
 
 <div class="flex gap-4 flex-col md:flex-row">
     <picture>
-        <source srcset="public_holiday_person.avif" type="image/avif" />
-        <source srcset="public_holiday_person.webp" type="image/webp" />
         <img
           src="public_holiday_person.png"
           alt="Personübersicht mit Feiertagsregelung Auswahl"
@@ -31,8 +29,6 @@ Der Name der Einstellung hat sich von 'Bundesland' zu 'Feiertagsregelung' geänd
         />
     </picture>
     <picture>
-        <source srcset="public_holiday_person_change.avif" type="image/avif" />
-        <source srcset="public_holiday_person_change.webp" type="image/webp" />
         <img
           src="public_holiday_person_change.png"
           alt="Feiertagsregelung Auswahl einer Person"
@@ -48,8 +44,6 @@ ist es für die gesamte Urlaubsverwaltung sowie für bestimmte Personen möglich
 Abwesenheiten auch an Feiertagen einzutragen.
 
 <picture>
-    <source srcset="public_holiday_person_no.avif" type="image/avif" />
-    <source srcset="public_holiday_person_no.webp" type="image/webp" />
     <img
       src="public_holiday_person_no.png"
       alt="Neues Kalenderdesign"
@@ -64,8 +58,6 @@ Die Urlaubsverwaltung unterliegt einem ständigen Verbesserungsprozess, welcher 
 Mit dem neuen Kalenderdesign stellen wir die Weichen für mehr Flexibilität und einen höheren Informationsgehalt. Wir freuen uns auf dein Feedback!
 
 <picture>
-    <source srcset="new_calendar_design_overview.avif" type="image/avif" />
-    <source srcset="new_calendar_design_overview.webp" type="image/webp" />
     <img
       src="new_calendar_design_overview.png"
       alt="Neues Kalenderdesign"

@@ -23,7 +23,6 @@ Diese Einstellung wird beim Beantragen eines Sonderurlaubes direkt angezeigt und
 <div class="flex my-8 gap-4 flex-col md:flex-row">
     <figure>
         <picture>
-            <source srcset="configuration-special-holiday.avif" type="image/avif" />
             <img
               src="configuration-special-holiday.png"
               alt="Einstellungen zu Sonderurlaub"
@@ -36,7 +35,6 @@ Diese Einstellung wird beim Beantragen eines Sonderurlaubes direkt angezeigt und
     </figure>
     <figure>
         <picture>
-            <source srcset="absence-request.png" type="image/avif" />
             <img
               src="absence-request.png"
               alt="Antrag eines Sonderurlaubes"

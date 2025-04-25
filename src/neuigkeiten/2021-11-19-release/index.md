@@ -66,8 +66,6 @@ CSV-Export herausgegeben.
 <div class="flex flex-col items-start md:flex-row my-8 md:space-x-8">
   <div class="md:w-1/2">
     <picture>
-        <source srcset="antrag.avif" type="image/avif" />
-        <source srcset="antrag.webp" type="image/webp" />
         <img
           src="antrag.png"
           alt="Erstellen einer Abwesenheit"
@@ -79,7 +77,6 @@ CSV-Export herausgegeben.
   </div>
   <div class="md:w-1/2 mt-4 md:mt-0">
     <picture>
-        <source srcset="abwesenheitsstatistik.webp" type="image/webp" />
         <img
           src="abwesenheitsstatistik.png"
           alt="Abwesenheitsstatistik mit neuen Abwesenheitsarten"

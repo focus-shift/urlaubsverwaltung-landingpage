@@ -20,8 +20,6 @@ halber Arbeitstag oder kein Arbeitstag?
 
 <p>
   <picture>
-    <source srcset="einstellungen-feiertage.avif" type="image/avif" />
-    <source srcset="einstellungen-feiertage.webp" type="image/webp" />
     <img
       src="einstellungen-feiertage.png"
       alt="Einstellungsmöglichkeit der globalen Feiertagsregelung"
@@ -41,8 +39,6 @@ des persönlichen Landes bzw. der Region berechnet.
 
 <p>
   <picture>
-    <source srcset="konto-feiertage.avif" type="image/avif" />
-    <source srcset="konto-feiertage.webp" type="image/webp" />
     <img
       src="konto-feiertage.png"
       alt="Einstellungsmöglichkeit der persönlichen Feiertagsregelung"

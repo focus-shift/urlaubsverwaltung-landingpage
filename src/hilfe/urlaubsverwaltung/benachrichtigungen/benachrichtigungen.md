@@ -21,8 +21,6 @@ der Person möglich.
 
 <p class="flex flex-col items-start md:flex-row md:space-x-8">
     <picture>
-        <source srcset="avatar_menue.avif" type="image/avif" />
-        <source srcset="avatar_menue.webp" type="image/webp" />
         <img
           src="avatar_menue.png"
           alt="Über das Avatar-Menü gelangt man zu den Benachrichtigungen"
@@ -33,8 +31,6 @@ der Person möglich.
         />
     </picture>
     <picture>
-        <source srcset="konto_benachrichtigungen.avif" type="image/avif" />
-        <source srcset="konto_benachrichtigungen.webp" type="image/webp" />
         <img
           src="konto_benachrichtigungen.png"
           alt="Über das Konto einer Person gelangt man zu den Benachrichtigungen"
@@ -53,8 +49,6 @@ hat, wird nur Personen mit der Berechtigung _Office_ bzw. _Chef_ angezeigt.
 
 <p>
 <picture>
-    <source srcset="benachrichtigung.avif" type="image/avif" />
-    <source srcset="benachrichtigung.webp" type="image/webp" />
     <img
       src="benachrichtigung.png"
       alt="Aktivieren bzw. deaktivieren von Benachrichtigungen pro Person"
