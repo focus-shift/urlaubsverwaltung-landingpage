@@ -4,8 +4,35 @@
   <subtitle></subtitle>
   <link rel="self" href="https://urlaubsverwaltung.cloud/feed.xml" />
   <link rel="alternate" type="text/html" href="https://urlaubsverwaltung.cloud" />
-  <updated>2025-04-25T00:00:00Z</updated>
+  <updated>2025-04-30T00:00:00Z</updated>
   <id>https://urlaubsverwaltung.cloud</id>
+  <entry>
+    <title>Urlaubsverwaltung 5.14.0 – Schneller!</title>
+    <link href="https://urlaubsverwaltung.cloud/neuigkeiten/2025-01-29-release-5.14.0/" />
+    <updated>2025-04-30T00:00:00Z</updated>
+    <id>https://urlaubsverwaltung.cloud/neuigkeiten/2025-01-29-release-5.14.0/</id>
+    <author>
+      <name>Andreas Weigel</name>
+    </author>
+    <content type="html">&lt;p&gt;&lt;strong&gt;Release 5.14.0&lt;/strong&gt; der Urlaubsverwaltung bringt einige gezielte Verbesserungen unter der Haube mit sich: Die &lt;strong&gt;Benutzerübersicht&lt;/strong&gt; lädt jetzt spürbar schneller.&lt;/p&gt;
+&lt;h2 id=&quot;optimierung-beim-laden-der-benutzeruebersicht&quot;&gt;Optimierung beim Laden der Benutzerübersicht&lt;/h2&gt;
+&lt;p&gt;Die Benutzerübersicht ist häufig der Einstiegspunkt für Vorgesetzte – umso wichtiger, dass sie &lt;strong&gt;schnell und performant&lt;/strong&gt; lädt. In diesem Update wurde genau daran gearbeitet.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Was wurde verbessert?&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Verbesserte Ladezeiten insbesondere bei vielen Nutzer:innen&lt;/li&gt;
+&lt;li&gt;Reduzierung unnötiger Berechnungen&lt;/li&gt;
+&lt;li&gt;Datenbankzugriffe optimiert&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Ergebnis:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Spürbar schnellere Ladezeiten bei Zugriff auf die Benutzerübersicht&lt;/li&gt;
+&lt;li&gt;Mehr Übersicht ohne Wartezeit&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;fazit&quot;&gt;Fazit&lt;/h2&gt;
+&lt;p&gt;Mit &lt;strong&gt;Version 5.14.0&lt;/strong&gt; wird die Urlaubsverwaltung wieder ein Stück &lt;strong&gt;schneller&lt;/strong&gt;, &lt;strong&gt;aufgeräumter&lt;/strong&gt; und &lt;strong&gt;besser dokumentiert&lt;/strong&gt;. Wer viele Mitarbeitende verwaltet profitiert besonders von diesem Update.&lt;/p&gt;
+&lt;p&gt;&lt;sub&gt;Zur vollständigen Release-Übersicht: &lt;a href=&quot;https://github.com/urlaubsverwaltung/urlaubsverwaltung/releases/tag/urlaubsverwaltung-5.14.0&quot;&gt;Release 5.14.0 auf GitHub ansehen&lt;/a&gt;&lt;/sub&gt;&lt;/p&gt;
+</content>
+  </entry>
   <entry>
     <title>Urlaubsverwaltung 5.12.0 – Ab in die Cloud!</title>
     <link href="https://urlaubsverwaltung.cloud/neuigkeiten/2025-01-17-release-5.12.0/" />
