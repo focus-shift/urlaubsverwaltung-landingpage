@@ -4,8 +4,36 @@
   <subtitle></subtitle>
   <link rel="self" href="https://urlaubsverwaltung.cloud/feed.xml" />
   <link rel="alternate" type="text/html" href="https://urlaubsverwaltung.cloud" />
-  <updated>2025-04-30T00:00:00Z</updated>
+  <updated>2025-05-02T00:00:00Z</updated>
   <id>https://urlaubsverwaltung.cloud</id>
+  <entry>
+    <title>Urlaubsverwaltung 5.15.0 – Noch schneller!</title>
+    <link href="https://urlaubsverwaltung.cloud/neuigkeiten/2025-01-30-release-5.15.0/" />
+    <updated>2025-05-02T00:00:00Z</updated>
+    <id>https://urlaubsverwaltung.cloud/neuigkeiten/2025-01-30-release-5.15.0/</id>
+    <author>
+      <name>Andreas Weigel</name>
+    </author>
+    <content type="html">&lt;p&gt;Mit dem &lt;strong&gt;Release 5.15.0&lt;/strong&gt; legt die Urlaubsverwaltung den Fokus auf eine technische Optimierung im Hintergrund.&lt;/p&gt;
+&lt;h3 id=&quot;noch-schneller&quot;&gt;Noch schneller!&lt;/h3&gt;
+&lt;p&gt;In dieser Version wurde gezielt die &lt;strong&gt;Indexierung von Fremdschlüsseln&lt;/strong&gt; in der Datenbankstruktur überprüft und angepasst. Das Ziel: eine &lt;strong&gt;schnellere Urlaubsverwaltung&lt;/strong&gt;, vor allem bei hoher Datenlast.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Was wurde gemacht?&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Das wird nun ein wenig technisch. Aber vielleicht interessiert es dich ja:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Analyse bestehender Foreign Keys&lt;/li&gt;
+&lt;li&gt;Ergänzung fehlender Indizes&lt;/li&gt;
+&lt;li&gt;Optimierung der Datenbankzugriffe&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Warum ist das wichtig?&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Besonders bei &lt;strong&gt;Urlaubsstatistiken&lt;/strong&gt;, &lt;strong&gt;Genehmigungsprozessen&lt;/strong&gt; und vielen weiteren Seiten wird die Urlaubsverwaltung nun effizienter arbeiten.&lt;/li&gt;
+&lt;li&gt;Bei größeren Installationen mit vielen Benutzern oder Daten wächst die Belastung auf die Datenbank – hier helfen saubere Indizes, um Anfragen deutlich schneller auszuführen.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;fazit&quot;&gt;Fazit&lt;/h2&gt;
+&lt;p&gt;Auch wenn es auf den ersten Blick ein kleines Update ist: &lt;strong&gt;Release 5.15.0&lt;/strong&gt; bringt eine spürbare &lt;strong&gt;schnellere Urlaubsverwaltung&lt;/strong&gt;. Es ist ein technischer Meilenstein auf dem Weg zu einer noch robusteren und skalierbareren Anwendung.&lt;/p&gt;
+&lt;p&gt;&lt;sub&gt;Zur vollständigen Release-Übersicht: &lt;a href=&quot;https://github.com/urlaubsverwaltung/urlaubsverwaltung/releases/tag/urlaubsverwaltung-5.15.0&quot;&gt;Release 5.15.0 auf GitHub ansehen&lt;/a&gt;&lt;/sub&gt;&lt;/p&gt;
+</content>
+  </entry>
   <entry>
     <title>Urlaubsverwaltung 5.14.0 – Schneller!</title>
     <link href="https://urlaubsverwaltung.cloud/neuigkeiten/2025-01-29-release-5.14.0/" />
