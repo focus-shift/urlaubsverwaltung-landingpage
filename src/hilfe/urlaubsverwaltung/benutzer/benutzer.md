@@ -33,6 +33,7 @@ Als Benutzer mit der Berechtigung _Office_ kannst du über den Menü-Punkt Benut
 <p>
   <picture>
     <img
+      data-magnifiable
       src="benutzer-konto.png"
       alt="Konto eines Benutzers"
       decoding="async"
@@ -48,6 +49,7 @@ Hier gibt es die Möglichkeit die Berechtigungen über das "Stift"-Symbol zu edi
 <p>
   <picture>
     <img
+      data-magnifiable
       src="berechtigungen-editieren.png"
       alt="Berechtigungen editieren"
       decoding="async"
@@ -78,6 +80,7 @@ Beim Editieren des Benutzers muss die Berechtigung _Inaktiv_ ausgewählt werden:
 <p>
   <picture>
     <img
+      data-magnifiable
       src="benutzer-inaktiv.png"
       alt="Inaktivieren eines Benutzers"
       decoding="async"
@@ -116,6 +119,7 @@ gleichen Urlaubsanspruch, den er im aktuellen Jahr hat.
 <p>
   <picture>
     <img
+      data-magnifiable
       src="holiday_next_year.png"
       alt="Urlaubsanspruch bearbeiten"
       decoding="async"
@@ -143,6 +147,7 @@ zusätzlich für jeden Benutzenden einzeln im Konto überschrieben werden.
 <p>
   <picture>
     <img
+      data-magnifiable
       src="benutzer-resturlaub.png"
       alt="Überschreiben der Konfiguration des Resturlaubes pro Benutzenden"
       decoding="async"

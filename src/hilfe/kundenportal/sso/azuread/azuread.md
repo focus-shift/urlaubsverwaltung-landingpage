@@ -60,6 +60,7 @@ Registrierung starten.
 <p>
   <picture>
     <img
+      data-magnifiable
       src="schritt_1_registrieren.png"
       alt="App-Registrierung durchführen"
       decoding="async"
@@ -80,6 +81,7 @@ Nach erfolgreicher Registrierung kommst du auf die Übersichtsseite der App-Regi
 <p>
   <picture>
     <img
+      data-magnifiable
       src="schritt_1_uebersicht.png"
       alt="Anwendungs-Id und Verzeichnis-Id kopieren"
       decoding="async"
@@ -101,6 +103,7 @@ Neuer geheimer Clientschlüssel erstellen
 <p>
   <picture>
     <img
+      data-magnifiable
       src="schritt_1_clientsecret.png"
       alt="Neuer geheimer Clientschlüssel hinzufügen"
       decoding="async"
@@ -138,6 +141,7 @@ können bzw. für die Zustellung von E-Mails an Benutzer benötigen wir folgende
 <p>
   <picture>
     <img
+      data-magnifiable
       src="schritt_1_tokenkonfiguration.png"
       alt="OIDC Token konfigurieren"
       decoding="async"
@@ -162,6 +166,7 @@ entsprechende Microsoft Graph-Berechtigung aktiviert werden muss.
 <p>
   <picture>
     <img
+      data-magnifiable
       src="schritt_1_tokenkonfiguration_graph_api.png"
       alt="API-Berechtigung für registrierte App konfigurieren"
       decoding="async"
@@ -184,6 +189,7 @@ Nun brauchen wir die Werte aus der Textdatei von [Schritt 1](#schritt-1-neue-app
 <p>
   <picture>
     <img
+      data-magnifiable
       src="schritt_2_konfiguration.png"
       alt=""
       decoding="async"
@@ -206,6 +212,7 @@ Bei der registrierten App im Azure AD wird nun eine neue Plattform hinzugefügt:
 <p>
   <picture>
     <img
+      data-magnifiable
       src="schritt_3_plattform.png"
       alt="Plattform vom Typ Web anlegen"
       decoding="async"
@@ -225,6 +232,7 @@ Zum Schluss muss noch die Umleitungs-URI konfiguriert werden:
 <p>
   <picture>
     <img
+      data-magnifiable
       src="schritt_3_umleitungsuri.png"
       alt="Umleitungs-URI konfigurieren"
       decoding="async"
@@ -260,6 +268,7 @@ akzeptiert werden muss.
 <p>
   <picture>
     <img
+      data-magnifiable
       src="schritt_4_berechtigungen.png"
       alt="Zugriff auf Azure AD bestätigen"
       decoding="async"
@@ -279,6 +288,7 @@ dass es zu deiner E-Mail-Adresse schon ein Konto gibt.
 <p>
   <picture>
     <img
+      data-magnifiable
       src="schritt_4_konto_existiert.png"
       alt="Benutzerkonto für E-Mail existiert bereits"
       decoding="async"
@@ -300,6 +310,7 @@ Besitz beider Benutzerkonten bist.
 <p>
   <picture>
     <img
+      data-magnifiable
       src="schritt_4_konto_bestaetigen.png"
       alt="Existierendes urlaubsverwaltung.cloud Konto mit Azure AD Konto verknüpfen"
       decoding="async"
@@ -315,6 +326,7 @@ E-Mail mit Link zum Bestätigen der Benutzerkonto-Verknüpfung
 <p>
   <picture>
     <img
+      data-magnifiable
       src="schritt_4_konto_mail.png"
       alt="E-Mail mit Link zum Konto verknüpfen"
       decoding="async"

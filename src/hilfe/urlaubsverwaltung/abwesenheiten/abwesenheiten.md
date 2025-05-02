@@ -51,6 +51,7 @@ eine eigene Notiz hinterlegt werden. Die ausgewählten Personen werden über die
 <p>
   <picture>
     <img
+      data-magnifiable
       src="vertretung.png"
       alt="Übersicht zu aktuellen und zukünftigen Vertretungen"
       decoding="async"
@@ -67,6 +68,7 @@ eine Übersicht aller Vertretungen einsehbar.
 <p>
   <picture>
     <img
+      data-magnifiable
       src="uebersicht-vertretungen.png"
       alt="Übersicht zu aktuellen und zukünftigen Vertretungen"
       decoding="async"
@@ -118,6 +120,7 @@ Ja, es ist möglich, weitere Abwesenheitsarten zu konfigurieren. Diese können i
 <p>
   <picture>
     <img
+      data-magnifiable
       src="abwesenheitsarten.png"
       alt="Konfiguration von Abwesenheitsarten"
       decoding="async"
@@ -158,6 +161,7 @@ Ein selbst erstellter Antrag kann bearbeitet werden, solange er noch nicht geneh
 <p>
   <picture>
     <img
+      data-magnifiable
       src="abwesenheit-bearbeiten.png"
       alt="Abwesenheit bearbeiten"
       decoding="async"
@@ -183,6 +187,7 @@ Stichtag kann pro Benutzer konfiguriert werden, sodass der Resturlaub zu einem a
 <p>
   <picture>
     <img
+      data-magnifiable
       src="absence-workflow.png"
       alt="Workflow bei Abwesenheitsanträgen"
       decoding="async"
