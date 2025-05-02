@@ -3,7 +3,6 @@
 
 <head>
   {{> google-tag-manager-head}}
-  {{> klaro-cookie-consent}}
 
   {{> meta}}
 	{{#if description}}
@@ -24,7 +23,11 @@
 	<link rel="preload" href="/static/font/lato/Lato-Regular.woff2" as="font" type="font/woff2" crossorigin />
 	<link rel="preload" href="/static/font/lato/Lato-Bold.woff2" as="font" type="font/woff2" crossorigin />
 	<link rel="preload" href="https://support.apps.urlaubsverwaltung.cloud/assets/chat/chat.css" as="style" />
+
+	<script defer async type="text/javascript" src="/static/js/klaro.js"></script>
+
 	<link rel="stylesheet" href="/static/css/style.css" />
+	<link rel="stylesheet" href="/static/css/klaro.css" />
 	{{#each stylesheets}}
 		<link rel="stylesheet" href="{{this}}" />
 	{{/each}}
