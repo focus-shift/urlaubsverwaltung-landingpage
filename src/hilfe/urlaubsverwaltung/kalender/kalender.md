@@ -141,8 +141,95 @@ Durch die iCal Kalenderfreigabe können die Berechtigungen und Sichtbarkeiten fe
 
 Die Urlaubsverwaltung bietet die Möglichkeit, Kalendereinträge in einen Google Calendar zu synchronisieren. Um die Synchronisation zu konfigurieren, müssen folgende Voraussetzungen erfüllt sein:
 
-1. **Google Calendar API** aktivieren ([Enable and disable APIs](https://cloud.google.com/apis/docs/enable-disable-apis))
-2. Die **OAuth2 Client Id** als Webanwendung konfigurieren (https://console.developers.google.com).
-3. Das **OAuth2 Client Secret** bekommt man durch die Konfiguration des OAuth Clients.
-4. Die **Kalender ID** ist die sogenannte "Kalenderadresse" die man in den jeweiligen Kalenderdetails findet.
-5. Die **Weiterleitungs-URL** muss beim OAuth Client als "Autorisierte Weiterleitungs-URL" angegeben werden.
+1. **Google Calendar API** ist aktiviert unter [API-Bibliothek](https://console.cloud.google.com/apis/library) ([Dokumentation](https://cloud.google.com/apis/docs/enable-disable-apis))
+
+   <figure>
+     <picture>
+       <img
+         src="google-calendar-api-activate.png"
+         alt="Google Calendar API Aktivieren"
+         decoding="async"
+         loading="lazy"
+         width="2347"
+         height="1108"
+       />
+     </picture>
+     <figcaption class="text-sm text-center">Google Calendar API auswählen</figcaption>
+   </figure>
+
+   <figure class="mb-4">
+     <picture>
+       <img
+         src="google-calendar-api-activate-detail.png"
+         alt="Google Calendar API Aktivieren"
+         decoding="async"
+         loading="lazy"
+         width="603"
+         height="381"
+       />
+     </picture>
+     <figcaption class="text-sm text-center">Google Calendar API aktivieren</figcaption>
+   </figure>
+
+2. Ein **OAuth2 Client** als Webanwendung ist erstellt
+
+   Gehe dazu auf https://console.developers.google.com und führe folgende Schritte aus:
+
+   - OAuth2-Client-ID erstellen
+    <figure class="mb-4">
+     <picture>
+       <img
+         src="google-calendar-api-oauth-client.png"
+         alt="Google OAuth2 Client erstellen"
+         decoding="async"
+         loading="lazy"
+         width="985"
+         height="396"
+       />
+     </picture>
+     <figcaption class="text-sm text-center">Google OAuth2 Client erstellen</figcaption>
+   </figure>
+
+   - OAuth2-Client-ID als Webanwendung (Anwendungstyp) konfigurieren
+    <figure class="mb-4">
+     <picture>
+       <img
+         src="google-calendar-api-oauth-client-two.png"
+         alt="Google OAuth2 Client erstellen"
+         decoding="async"
+         loading="lazy"
+         width="813"
+         height="1013"
+       />
+     </picture>
+     <figcaption class="text-sm text-center">Google OAuth2 Client erstellen</figcaption>
+   </figure>
+
+   - Autorisierte Weiterleitungs-URIs angeben (siehe dazu die Information in den Einstellungen der Urlaubsverwaltung)
+   - Client-ID und Clientschlüssel sind für Punkt 5 notwendig
+
+3. Unter "Zielgruppe" ist ein Testnutzer angelegt
+
+   Der **Testnutzer** entspricht dem Benutzerkonto der Person, die den Google-Kalender zur Synchronisation verwendet.
+
+   <figure class="mb-4">
+      <picture>
+        <img
+          src="google-calendar-api-oauth-client-testuser.png"
+          alt="Google OAuth2 Client Testnutzer"
+          decoding="async"
+          loading="lazy"
+          width="813"
+          height="1013"
+        />
+      </picture>
+      <figcaption class="text-sm text-center">Google OAuth2 Client Testnutzer</figcaption>
+    </figure>
+
+4. Die **Kalender ID** ist notiert
+
+   Die **Kalender-ID** entspricht der **E-Mail-Adresse deines Google-Kontos** (bei Verwendung des primären Kalenders), das für die Synchronisation genutzt wird. Diese ID ist erforderlich, um den Kalender in der Urlaubsverwaltung einzubinden. Du findest sie in den **Einstellungen deines [Google Kalenders](https://calendar.google.com/)**.
+
+5. Handshake ist in der Urlaubsverwaltung durchgeführt
+
+   Alle Informationen aus den vorherigen Punkten müssen nun in deiner Urlaubsverwaltung unter **„Einstellungen > Kalender Synchronisation“** eingetragen werden. Anschließend klickst du auf **„Zugriff erlauben“**. Es öffnet sich eine Seite, auf der du dich mit deinem Google-Konto anmelden kannst. Nach erfolgreicher Anmeldung wird die Synchronisation automatisch durchgeführt, und es erscheint die Bestätigung: **„Verbindung zum Google-Kalender ist hergestellt.“**
