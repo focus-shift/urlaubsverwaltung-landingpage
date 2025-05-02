@@ -54,16 +54,20 @@ des persönlichen Landes bzw. der Region berechnet.
 
 Die Urlaubsverwaltung bietet alle geltenden Feiertage der Länder
 
-- Deutschland
-- des Vereinigten Königreiches
-- Griechenland
-- Italien
-- Kroatien
-- Malta
-- Niederlande
-- Österreich
-- Schweiz
-- Spanien
+- 🇩🇪 Deutschland
+- 🇧🇪 Belgien
+- 🇨🇭 Schweiz
+- 🇪🇸 Spanien
+- 🇬🇧 Vereinigtes Königreich
+- 🇬🇷 Griechenland
+- 🇭🇷 Kroatien
+- 🇮🇹 Italien
+- 🇱🇹 Litauen
+- 🇲🇹 Malta
+- 🇳🇱 Niederlande
+- 🇦🇹 Österreich
+- 🇵🇱 Polen
+- 🇺🇸 USA – Washington, D.C., Virginia und Maryland
 
 und weiteren europäischen Länder an. Auch Besonderheiten wie z. B. das Augsburger Friedensfest ist mit dabei.
 

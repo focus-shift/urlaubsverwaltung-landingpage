@@ -55,15 +55,18 @@ Daher kannst du die Feiertagsregelung für jeden Mitarbeitenden individuell anpa
 Die Zeiterfassung bietet alle geltenden Feiertagsregelungen der Länder
 
 - 🇩🇪 Deutschland
-- 🇦🇹 Österreich
+- 🇧🇪 Belgien
 - 🇨🇭 Schweiz
-- 🇲🇹 Malta
-- 🇭🇷 Kroatien
-- 🇮🇹 Italien
+- 🇪🇸 Spanien
 - 🇬🇧 Vereinigtes Königreich
 - 🇬🇷 Griechenland
+- 🇭🇷 Kroatien
+- 🇮🇹 Italien
+- 🇱🇹 Litauen
+- 🇲🇹 Malta
 - 🇳🇱 Niederlande
-- 🇪🇸 Spanien
+- 🇦🇹 Österreich
+- 🇵🇱 Polen
 - 🇺🇸 USA – Washington, D.C., Virginia und Maryland
 
 und anderen europäischen Ländern. Auch Besonderheiten wie das Augsburger Friedensfest sind dabei.
