@@ -7,6 +7,40 @@
   <updated>2025-05-07T00:00:00Z</updated>
   <id>https://urlaubsverwaltung.cloud</id>
   <entry>
+    <title>Urlaubsverwaltung 5.17.0 – bessere Testdoku und Bugfixes für stabileres Verhalten</title>
+    <link href="https://urlaubsverwaltung.cloud/neuigkeiten/2025-02-15-release-5.17.0/" />
+    <updated>2025-05-07T00:00:00Z</updated>
+    <id>https://urlaubsverwaltung.cloud/neuigkeiten/2025-02-15-release-5.17.0/</id>
+    <author>
+      <name>Andreas Weigel</name>
+    </author>
+    <content type="html">&lt;p&gt;Mit &lt;strong&gt;Release 5.17.0&lt;/strong&gt; liefert die Urlaubsverwaltung ein kleines, aber wichtiges Update. Im Fokus stehen eine &lt;strong&gt;aktualisierte UI-Test-Dokumentation&lt;/strong&gt; für Entwickler:innen sowie zwei &lt;strong&gt;relevante Bugfixes&lt;/strong&gt;, die sich auf asynchrone Prozesse und die Verwaltung inaktiver Personen auswirken.&lt;/p&gt;
+&lt;h2 id=&quot;verbesserungen&quot;&gt;Verbesserungen&lt;/h2&gt;
+&lt;h3 id=&quot;dokumentation-der-ui-tests&quot;&gt;Dokumentation der UI-Tests&lt;/h3&gt;
+&lt;p&gt;Die README wurde aktualisiert und enthält nun eine überarbeitete Anleitung zur &lt;strong&gt;Ausführung und Pflege von UI-Tests&lt;/strong&gt;. Diese Dokumentation ist besonders hilfreich für neue Mitwirkende sowie beim Onboarding neuer Entwickler:innen.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Was ist neu?&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Klarere Struktur&lt;/li&gt;
+&lt;li&gt;Konkrete Hinweise zur Testausführung&lt;/li&gt;
+&lt;li&gt;Bessere Lesbarkeit und Verständlichkeit&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Warum wichtig?&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Erleichtert den Einstieg ins Projekt&lt;/li&gt;
+&lt;li&gt;Unterstützt nachhaltige Testqualität&lt;/li&gt;
+&lt;li&gt;Fördert Community-Beiträge&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;fehlerbehebungen&quot;&gt;Fehlerbehebungen&lt;/h2&gt;
+&lt;h3 id=&quot;inaktive-stellvertretung-fuehrte-zu-fehlern&quot;&gt;Inaktive Stellvertretung führte zu Fehlern&lt;/h3&gt;
+&lt;p&gt;Ein seltener Fall, bei dem eine Person mit der Berechtigung &lt;strong&gt;&amp;quot;INACTIVE&amp;quot;&lt;/strong&gt; als Stellvertretung (Backup) eingetragen war, führte zu inkonsistentem Verhalten. Dies wurde behoben – inaktive Personen werden nun korrekt behandelt.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Ergebnis:&lt;/strong&gt;&lt;br /&gt;
+Kein Versand oder Fehler mehr durch inaktive Accounts in Stellvertreterrollen.&lt;/p&gt;
+&lt;h2 id=&quot;fazit&quot;&gt;Fazit&lt;/h2&gt;
+&lt;p&gt;Mit Release &lt;strong&gt;5.17.0&lt;/strong&gt; wird die Urlaubsverwaltung wieder ein Stück robuster: Die &lt;strong&gt;Dokumentation der UI-Tests&lt;/strong&gt; wurde auf Vordermann gebracht, und zwei wichtige Bugs im Bereich &lt;strong&gt;Benutzerverwaltung&lt;/strong&gt; und &lt;strong&gt;asynchrone Ausführung&lt;/strong&gt; wurden beseitigt. Gerade in Teams mit vielen Accounts und parallelen Prozessen macht sich dieses Update bemerkbar.&lt;/p&gt;
+&lt;p&gt;&lt;sub&gt;Zur vollständigen Release-Übersicht: &lt;a href=&quot;https://github.com/urlaubsverwaltung/urlaubsverwaltung/releases/tag/urlaubsverwaltung-5.17.0&quot;&gt;Release 5.17.0 auf GitHub ansehen&lt;/a&gt;&lt;/sub&gt;&lt;/p&gt;
+</content>
+  </entry>
+  <entry>
     <title>Urlaubsverwaltung 5.15.0 – Noch schneller!</title>
     <link href="https://urlaubsverwaltung.cloud/neuigkeiten/2025-01-30-release-5.15.0/" />
     <updated>2025-05-02T00:00:00Z</updated>
