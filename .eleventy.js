@@ -17,11 +17,6 @@ const paths = {
 
 const prod = process.env.NODE_ENV === "production";
 
-const not =
-	fn =>
-	(...args) =>
-		!fn(...args);
-
 const isDraft = draft => (draft === "" ? true : Boolean(draft));
 
 const isPublicationDateReached = publicationDate => {
@@ -35,7 +30,7 @@ const isPublicationDateReached = publicationDate => {
 };
 
 const isPublished = post =>
-	not(isDraft(post.data.draft)) && isPublicationDateReached(post.date);
+	!isDraft(post.data.draft) && isPublicationDateReached(post.date);
 
 export default function (eleventyConfig) {
 	eleventyConfig.setTemplateFormats(["njk", "hbs", "md", "html", "txt"]);
