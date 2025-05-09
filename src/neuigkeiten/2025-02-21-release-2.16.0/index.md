@@ -1,5 +1,5 @@
 ---
-draft: true
+draft: false
 layout: layout-neuigkeiten.hbs
 date: 2025-05-09
 title: Zeiterfassung 2.16.0 – Änderungshistorie für Zeiteinträge
@@ -17,10 +17,45 @@ Das **Release 2.16.0** bietet eine wichtige Neuerung: die Einführung der **Änd
 
 ### Änderungshistorie an Zeiteinträgen
 
-Mit diesem Release können nun alle **Änderungen an Zeiteinträgen** nachverfolgt werden. Jede Änderung wird in einer übersichtlichen Historie gespeichert, die den **Verlauf** der Zeiteinträge dokumentiert. Dies ist besonders nützlich, um **Fehler** zu korrigieren und nachzuvollziehen, wer wann eine Änderung vorgenommen hat.
+Das EuGH-Urteil zur Arbeitszeiterfassung fordert ein objektives, verlässliches und zugängliches System zur Dokumentation der Arbeitszeit. Dies bedeutet, dass die erfassten Daten der Arbeitszeit objektiv und verlässlich sein müssen, und sowohl Arbeitgeber als auch Arbeitnehmer Zugriff darauf haben müssen.
 
-> **Warum ist das wichtig?**  
-> Die **Nachverfolgbarkeit** von Änderungen an Zeiteinträgen ist für Unternehmen und Teams von großer Bedeutung. Sie ermöglicht eine **größere Transparenz** und eine verbesserte **Datenintegrität**. Durch die Änderungshistorie können **Fehlerquellen** schneller identifiziert und behoben werden. Auch für Audits oder **Compliance-Anforderungen** kann diese Funktion von großer Bedeutung sein.
+Mit diesem Release können nun alle **Änderungen an Zeiteinträgen** anhand des Histoy-Icons nachverfolgt werden.
+
+<div class="flex my-8">
+    <figure>
+        <picture>
+            <img
+              src="slot-history-icon.png"
+              alt="Zeiteintrag mit History-Icon"
+              decoding="async"
+              loading="lazy"
+              class="rounded-lg"
+            />
+        </picture>
+        <figcaption class="text-sm text-center">Zeiteintrag mit History-Icon</figcaption>
+    </figure>
+</div>
+
+Jede Änderung wird in einer übersichtlichen Historie gespeichert, die den **Verlauf** der Zeiteinträge dokumentiert. 
+Dies ist besonders nützlich, um **Fehler** zu korrigieren und nachzuvollziehen, wer wann eine Änderung vorgenommen hat.
+
+<div class="flex my-8">
+    <figure>
+        <picture>
+            <img
+              src="slot-history.png"
+              alt="Historie zum Zeiteintrag"
+              decoding="async"
+              loading="lazy"
+              class="rounded-lg"
+            />
+        </picture>
+        <figcaption class="text-sm text-center">Historie zum Zeiteintrag</figcaption>
+    </figure>
+</div>
+
+**Warum ist das wichtig?**  
+Die **Nachverfolgbarkeit** von Änderungen an Zeiteinträgen ist für Unternehmen und Teams von großer Bedeutung. Sie ermöglicht eine **größere Transparenz** und eine verbesserte **Datenintegrität**. Durch die Änderungshistorie können **Fehlerquellen** schneller identifiziert und behoben werden. Auch für Audits oder **Compliance-Anforderungen** kann diese Funktion von großer Bedeutung sein.
 
 ## Fazit
 
