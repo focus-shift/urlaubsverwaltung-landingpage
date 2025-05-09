@@ -4,8 +4,46 @@
   <subtitle></subtitle>
   <link rel="self" href="https://urlaubsverwaltung.cloud/feed.xml" />
   <link rel="alternate" type="text/html" href="https://urlaubsverwaltung.cloud" />
-  <updated>2025-05-07T00:00:00Z</updated>
+  <updated>2025-05-09T00:00:00Z</updated>
   <id>https://urlaubsverwaltung.cloud</id>
+  <entry>
+    <title>Zeiterfassung 2.16.0 – Änderungshistorie für Zeiteinträge</title>
+    <link href="https://urlaubsverwaltung.cloud/neuigkeiten/2025-02-21-release-2.16.0/" />
+    <updated>2025-05-09T00:00:00Z</updated>
+    <id>https://urlaubsverwaltung.cloud/neuigkeiten/2025-02-21-release-2.16.0/</id>
+    <author>
+      <name>Andreas Weigel</name>
+    </author>
+    <content type="html">&lt;p&gt;Das &lt;strong&gt;Release 2.16.0&lt;/strong&gt; bietet eine wichtige Neuerung: die Einführung der &lt;strong&gt;Änderungshistorie für Zeiteinträge&lt;/strong&gt;. Diese Funktion ermöglicht es, alle Änderungen, die an Zeiteinträgen vorgenommen wurden, zu verfolgen und gibt so eine detaillierte Übersicht über die Historie von Zeiteinträgen.&lt;/p&gt;
+&lt;h2 id=&quot;verbesserungen&quot;&gt;Verbesserungen&lt;/h2&gt;
+&lt;h3 id=&quot;aenderungshistorie-an-zeiteintraegen&quot;&gt;Änderungshistorie an Zeiteinträgen&lt;/h3&gt;
+&lt;p&gt;Das EuGH-Urteil zur Arbeitszeiterfassung fordert ein objektives, verlässliches und zugängliches System zur Dokumentation der Arbeitszeit. Dies bedeutet, dass die erfassten Daten der Arbeitszeit objektiv und verlässlich sein müssen, und sowohl Arbeitgeber als auch Arbeitnehmer Zugriff darauf haben müssen.&lt;/p&gt;
+&lt;p&gt;Mit diesem Release können nun alle &lt;strong&gt;Änderungen an Zeiteinträgen&lt;/strong&gt; anhand des Histoy-Icons nachverfolgt werden.&lt;/p&gt;
+&lt;div class=&quot;flex my-8&quot;&gt;
+    &lt;figure&gt;
+        &lt;picture&gt;
+            &lt;img src=&quot;https://urlaubsverwaltung.cloud/neuigkeiten/2025-02-21-release-2.16.0/slot-history-icon.png&quot; alt=&quot;Zeiteintrag mit History-Icon&quot; decoding=&quot;async&quot; loading=&quot;lazy&quot; class=&quot;rounded-lg&quot; /&gt;
+        &lt;/picture&gt;
+        &lt;figcaption class=&quot;text-sm text-center&quot;&gt;Zeiteintrag mit History-Icon&lt;/figcaption&gt;
+    &lt;/figure&gt;
+&lt;/div&gt;
+&lt;p&gt;Jede Änderung wird in einer übersichtlichen Historie gespeichert, die den &lt;strong&gt;Verlauf&lt;/strong&gt; der Zeiteinträge dokumentiert.
+Dies ist besonders nützlich, um &lt;strong&gt;Fehler&lt;/strong&gt; zu korrigieren und nachzuvollziehen, wer wann eine Änderung vorgenommen hat.&lt;/p&gt;
+&lt;div class=&quot;flex my-8&quot;&gt;
+    &lt;figure&gt;
+        &lt;picture&gt;
+            &lt;img src=&quot;https://urlaubsverwaltung.cloud/neuigkeiten/2025-02-21-release-2.16.0/slot-history.png&quot; alt=&quot;Historie zum Zeiteintrag&quot; decoding=&quot;async&quot; loading=&quot;lazy&quot; class=&quot;rounded-lg&quot; /&gt;
+        &lt;/picture&gt;
+        &lt;figcaption class=&quot;text-sm text-center&quot;&gt;Historie zum Zeiteintrag&lt;/figcaption&gt;
+    &lt;/figure&gt;
+&lt;/div&gt;
+&lt;p&gt;&lt;strong&gt;Warum ist das wichtig?&lt;/strong&gt;&lt;br /&gt;
+Die &lt;strong&gt;Nachverfolgbarkeit&lt;/strong&gt; von Änderungen an Zeiteinträgen ist für Unternehmen und Teams von großer Bedeutung. Sie ermöglicht eine &lt;strong&gt;größere Transparenz&lt;/strong&gt; und eine verbesserte &lt;strong&gt;Datenintegrität&lt;/strong&gt;. Durch die Änderungshistorie können &lt;strong&gt;Fehlerquellen&lt;/strong&gt; schneller identifiziert und behoben werden. Auch für Audits oder &lt;strong&gt;Compliance-Anforderungen&lt;/strong&gt; kann diese Funktion von großer Bedeutung sein.&lt;/p&gt;
+&lt;h2 id=&quot;fazit&quot;&gt;Fazit&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;Release 2.16.0&lt;/strong&gt; bringt eine &lt;strong&gt;wertvolle Neuerung&lt;/strong&gt; in der Zeiterfassungssoftware: die &lt;strong&gt;Änderungshistorie für Zeiteinträge&lt;/strong&gt;. Diese Funktion trägt zur Verbesserung der &lt;strong&gt;Datenintegrität&lt;/strong&gt; bei und sorgt für mehr &lt;strong&gt;Transparenz&lt;/strong&gt; und &lt;strong&gt;Nachvollziehbarkeit&lt;/strong&gt; bei der Verwaltung von Zeiteinträgen.&lt;/p&gt;
+&lt;p&gt;&lt;sub&gt;Zur vollständigen Release-Übersicht: &lt;a href=&quot;https://github.com/urlaubsverwaltung/zeiterfassung/releases/tag/zeiterfassung-2.16.0&quot;&gt;Release 2.16.0 auf GitHub ansehen&lt;/a&gt;&lt;/sub&gt;&lt;/p&gt;
+</content>
+  </entry>
   <entry>
     <title>Urlaubsverwaltung 5.17.0 – bessere Testdoku und Bugfixes für stabileres Verhalten</title>
     <link href="https://urlaubsverwaltung.cloud/neuigkeiten/2025-02-15-release-5.17.0/" />
