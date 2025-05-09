@@ -19,29 +19,23 @@ Das **Release 2.17.0** bringt wichtige Erweiterungen zur **Zeiterfassung und Ben
 
 Ab sofort können die **Personen auf der Personen-Seite** nun sortiert werden. Diese Funktion macht es deutlich einfacher, schnell die benötigte Person in einer großen Liste zu finden und optimiert somit die Benutzererfahrung, besonders in größeren Teams.
 
-> **Warum ist das wichtig?**  
-> Für **Verwaltungsaufgaben** und **HR-Management** in größeren Organisationen ist es entscheidend, eine gut strukturierte und durchsuchbare Liste von Personen zu haben. Diese Funktion ermöglicht eine schnelle Navigation und eine bessere Übersicht.
-
 ### Sortierung von Zeiteinträgen anhand der Startzeit
 
 Zeiteinträge können nun nach der **Startzeit** anstatt der **Erfassungszeit** sortiert werden. Diese neue Sortierungsoption erleichtert es, die Zeiteinträge nach ihrer tatsächlichen **Arbeitszeit** und nicht nach dem Zeitpunkt der Erfassung zu ordnen.
-
-> **Warum ist das wichtig?**  
-> Die **Startzeit** ist oft relevanter für die **Projekt- und Arbeitszeiterfassung** als die Zeit der Erfassung. Diese Änderung hilft dabei, einen genaueren Überblick über den Verlauf des Arbeitstages und die geleisteten Stunden zu erhalten.
 
 ### Zeiteintrag bei Berichten bearbeiten können als privilegierte Person
 
 Jetzt können **privilegierte Personen**, wie Vorgesetzte oder Administratoren, **Zeiteinträge bei Berichten bearbeiten**. Dies ermöglicht eine einfache Korrektur von fehlerhaften oder ungenauen Zeiteinträgen, ohne dass die betroffenen Mitarbeiter:innen die Änderung vornehmen müssen.
 
-> **Warum ist das wichtig?**  
-> Für **HR-Abteilungen** und **Vorgesetzte** ist es wichtig, die **Berichte zu überprüfen** und gegebenenfalls Anpassungen vorzunehmen. Diese Funktion ermöglicht es, Zeiteinträge zentral zu korrigieren und die Genauigkeit der Daten sicherzustellen.
-
 ### Zeiterfassung für Mitarbeitende als privilegierte Benutzende
 
 Mitarbeitende können nun als **privilegierte Benutzende** **Zeiterfassungen** verwalten. Diese Erweiterung bietet den Nutzern zusätzliche Rechte, die es ihnen ermöglichen, ihre eigenen Zeiteinträge zu bearbeiten und zu verwalten, was besonders für **freiberufliche Mitarbeitende** oder **Teamleiter** von Bedeutung ist.
 
-> **Warum ist das wichtig?**  
-> Es wird mehr Flexibilität geboten, indem den **Mitarbeitenden** erweiterte Rechte zur Verwaltung ihrer **Arbeitszeiterfassung** gewährt werden. Diese Funktion fördert die **Autonomie** der Mitarbeiter und vereinfacht den Arbeitsablauf.
+**Warum ist das wichtig?**
+* Für **Verwaltungsaufgaben** und **HR-Management** in größeren Organisationen ist es entscheidend, eine gut strukturierte und durchsuchbare Liste von Personen zu haben. Diese Funktion ermöglicht eine schnelle Navigation und eine bessere Übersicht.
+* Die **Startzeit** ist oft relevanter für die **Projekt- und Arbeitszeiterfassung** als die Zeit der Erfassung. Diese Änderung hilft dabei, einen genaueren Überblick über den Verlauf des Arbeitstages und die geleisteten Stunden zu erhalten.
+* Für **HR-Abteilungen** und **Vorgesetzte** ist es wichtig, die **Berichte zu überprüfen** und gegebenenfalls Anpassungen vorzunehmen. Diese Funktion ermöglicht es, Zeiteinträge zentral zu korrigieren und die Genauigkeit der Daten sicherzustellen.
+* Es wird mehr Flexibilität geboten, indem den **Mitarbeitenden** erweiterte Rechte zur Verwaltung ihrer **Arbeitszeiterfassung** gewährt werden. Diese Funktion fördert die **Autonomie** der Mitarbeiter und vereinfacht den Arbeitsablauf.
 
 ## Fehlerbehebungen
 
@@ -49,8 +43,8 @@ Mitarbeitende können nun als **privilegierte Benutzende** **Zeiterfassungen** v
 
 Ein Fehler, bei dem **bearbeitete, aber noch nicht gespeicherte Zeitslots** nicht mehr hervorgehoben wurden, wurde behoben. Zuvor war es schwierig, Änderungen an Zeitslots zu erkennen, bevor sie gespeichert wurden. Dieser Bugfix sorgt dafür, dass bearbeitete Zeitslots weiterhin visuell hervorgehoben bleiben.
 
-> **Warum ist das wichtig?**  
-> Die visuelle Hervorhebung von **unterschiedlichen Zeitslots** ist wichtig, damit Nutzer erkennen können, welche Einträge geändert wurden. So wird der **Bearbeitungsstatus** klar und ermöglicht eine effizientere Verwaltung der Zeiterfassung.
+**Warum ist das wichtig?**  
+Die visuelle Hervorhebung von **unterschiedlichen Zeitslots** ist wichtig, damit Nutzer erkennen können, welche Einträge geändert wurden. So wird der **Bearbeitungsstatus** klar und ermöglicht eine effizientere Verwaltung der Zeiterfassung.
 
 ## Fazit
 
