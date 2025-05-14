@@ -4,8 +4,29 @@
   <subtitle></subtitle>
   <link rel="self" href="https://urlaubsverwaltung.cloud/feed.xml" />
   <link rel="alternate" type="text/html" href="https://urlaubsverwaltung.cloud" />
-  <updated>2025-05-09T00:00:00Z</updated>
+  <updated>2025-05-14T00:00:00Z</updated>
   <id>https://urlaubsverwaltung.cloud</id>
+  <entry>
+    <title>Urlaubsverwaltung 5.18.0 veröffentlicht – mit Demo-Banner, stabilerem Dark Mode und Zeitzonen-Fix</title>
+    <link href="https://urlaubsverwaltung.cloud/neuigkeiten/2025-02-25-release-5.18.0/" />
+    <updated>2025-05-14T00:00:00Z</updated>
+    <id>https://urlaubsverwaltung.cloud/neuigkeiten/2025-02-25-release-5.18.0/</id>
+    <author>
+      <name>Andreas Weigel</name>
+    </author>
+    <content type="html">&lt;p&gt;Die Version &lt;strong&gt;5.18.0&lt;/strong&gt; der Urlaubsverwaltung legt den Fokus darauf, die &lt;strong&gt;Stabilität&lt;/strong&gt; und &lt;strong&gt;Nutzerfreundlichkeit&lt;/strong&gt; zu erhöhen.&lt;/p&gt;
+&lt;h2 id=&quot;fehlerbehebungen&quot;&gt;Fehlerbehebungen&lt;/h2&gt;
+&lt;h3 id=&quot;dark-mode-mit-deaktiviertem-gravatar-wird-nicht-korrekt-angezeigt&quot;&gt;Dark Mode mit deaktiviertem Gravatar wird nicht korrekt angezeigt&lt;/h3&gt;
+&lt;p&gt;Ein Darstellungsproblem im &lt;strong&gt;Dark Mode&lt;/strong&gt;, das auftrat, wenn der &lt;strong&gt;Gravatar deaktiviert&lt;/strong&gt; war, wurde behoben. Die Benutzeroberfläche zeigt nun wieder alle Elemente korrekt an – auch ohne Nutzerbilder.&lt;/p&gt;
+&lt;h3 id=&quot;kalenderfreigabe-fehlerhafte-konvertierung-der-zeitzone&quot;&gt;Kalenderfreigabe: Fehlerhafte Konvertierung der Zeitzone&lt;/h3&gt;
+&lt;p&gt;Ein Fehler in der &lt;strong&gt;Kalenderfreigabe&lt;/strong&gt; wurde behoben: Urlaube wurden unter Umständen in der falschen &lt;strong&gt;Zeitzone&lt;/strong&gt; angezeigt. Jetzt stimmt die Zeitangabe wieder mit der realen Abwesenheit überein.&lt;/p&gt;
+&lt;h3 id=&quot;text-zu-sonderurlaub-gemaess-bgb-616-inkorrekt-in-spezialfaellen&quot;&gt;Text zu Sonderurlaub gemäß BGB § 616 inkorrekt in Spezialfällen&lt;/h3&gt;
+&lt;p&gt;Der angezeigte Hinweistext bei &lt;strong&gt;Sonderurlaub gemäß BGB § 616&lt;/strong&gt; war in Fällen mit &lt;strong&gt;Tarifverträgen oder betrieblichen Regelungen&lt;/strong&gt; nicht korrekt. Dies wurde nun angepasst, sodass die juristische Information wieder präzise ist.&lt;/p&gt;
+&lt;h2 id=&quot;fazit&quot;&gt;Fazit&lt;/h2&gt;
+&lt;p&gt;Release &lt;strong&gt;5.18.0&lt;/strong&gt; stärkt die Urlaubsverwaltung gleich mehrfach: Mit besserer &lt;strong&gt;Entwicklungsumgebung&lt;/strong&gt;, mehr &lt;strong&gt;Code-Stabilität&lt;/strong&gt; und gezielten &lt;strong&gt;Fehlerbehebungen&lt;/strong&gt;, die das tägliche Arbeiten spürbar verbessern. Auch kleine Details – wie Zeitzonen oder Hinweise zu Sonderurlaub – wurden optimiert, damit alles noch reibungsloser funktioniert.&lt;/p&gt;
+&lt;p&gt;&lt;sub&gt;Zur vollständigen Release-Übersicht: &lt;a href=&quot;https://github.com/urlaubsverwaltung/urlaubsverwaltung/releases/tag/urlaubsverwaltung-5.18.0&quot;&gt;Release 5.18.0 auf GitHub ansehen&lt;/a&gt;&lt;/sub&gt;&lt;/p&gt;
+</content>
+  </entry>
   <entry>
     <title>Zeiterfassung 2.16.0 – Änderungshistorie für Zeiteinträge</title>
     <link href="https://urlaubsverwaltung.cloud/neuigkeiten/2025-02-21-release-2.16.0/" />
