@@ -1,5 +1,5 @@
 ---
-draft: true
+draft: false
 layout: layout-neuigkeiten.hbs
 date: 2025-05-23
 title: Urlaubsverwaltung 5.20.0 veröffentlicht – präzisere Kalenderangaben und optimierte Bestätigungs-Mails
@@ -9,7 +9,10 @@ teaserImage: /static/teaser/2025-03-11/UV-Release-5.20.0.png
 description: Das Update 5.20.0 bietet spannende Verbesserungen, darunter eine genauere Arbeitszeitangabe im Kalender, Anpassungen bei Bestätigungs-E-Mails und verbesserte Weiterleitungen für Abteilungsleiter.
 ---
 
-Mit **Version 5.20.0** der Urlaubsverwaltung werden gleich mehrere wichtige Verbesserungen eingeführt, die den Arbeitsalltag in der Personalverwaltung deutlich erleichtern. Dabei stehen vor allem der **Kalender**, die **Bestätigungs-Mails** und die **Weiterleitungen** an verantwortliche Abteilungsleiter im Fokus. Hier die Details zu den wichtigsten Neuerungen:
+Mit **Version 5.20.0** der Urlaubsverwaltung werden gleich mehrere wichtige Verbesserungen eingeführt,
+die den Arbeitsalltag in der Personalverwaltung deutlich erleichtern. Dabei stehen vor allem der
+**Kalender**, die **Bestätigungs-Mails** und die **Weiterleitungen** an verantwortliche Abteilungsleiter
+im Fokus. Hier die Details zu den wichtigsten Neuerungen:
 
 <!-- more -->
 
@@ -17,24 +20,32 @@ Mit **Version 5.20.0** der Urlaubsverwaltung werden gleich mehrere wichtige Verb
 
 ### Kalender: Arbeitsstartzeit und Arbeitsendzeit präziser einstellen
 
-Für die **Kalenderfreigabe** kann nun die **Arbeitsstartzeit** und **Arbeitsendzeit** präziser angegeben werden – einschließlich der **Minutenangabe**. Dies ermöglicht eine genauere Planung und Übersicht über die Arbeitszeiten, was insbesondere bei flexiblen Arbeitsmodellen oder Gleitzeitregelungen von großer Bedeutung ist.
+Für die **Kalenderfreigabe** und die **Kalender Synchronisation** kann nun die **Arbeitsstartzeit** und **Arbeitsendzeit**
+präziser angegeben werden – einschließlich der **Minutenangabe**. Dies ermöglicht eine genauere Übersicht über die Abwesenheiten.
 
-**Vorteil:** Die **Zeitgenauigkeit** sorgt für eine genauere Abbildung der Arbeitszeiten und hilft, Missverständnisse bei der Urlaubs- und Arbeitszeitberechnung zu vermeiden.
+**Vorteil:** Die **Zeitgenauigkeit** sorgt für eine genauere Abbildung der Arbeitszeiten und hilft, Missverständnisse
+bei der Urlaubs- und Arbeitszeitberechnung zu vermeiden.
 
-### Kein ics-Anhang in der Bestätigungs-Mail bei Urlauben ohne Genehmigungsprozess
+### Ics-Anhang in der Bestätigungs-Mail bei Urlauben ohne Genehmigungsprozess
 
-Ein weiteres nützliches Feature: Ab sofort wird in der **Bestätigungs-E-Mail** für Urlaubsanträge, die keinen **Genehmigungsprozess** durchlaufen (z. B. in Unternehmen ohne Genehmigungsworkflow), kein **ICS-Anhang** mehr hinzugefügt. Dadurch entfällt der unnötige Schritt, der in solchen Fällen oft zu Verwirrung führen kann.
+Ein weiteres nützliches Feature: Ab sofort wird in der **Bestätigungs-E-Mail** für Urlaubsanträge,
+die keinen **Genehmigungsprozess** durchlaufen (z. B. in Unternehmen ohne Genehmigungsworkflow), ein **ICS-Anhang** hinzugefügt.
+Somit kann der Urlaubszeitraum direkt in den Kalender des Mitarbeiters importiert werden.
 
-**Vorteil:** Der E-Mail-Prozess wird **vereinfacht** und klarer, was zu einer besseren Benutzererfahrung führt.
+**Vorteil:** Die **Einfache Integration** in den persönlichen Kalender erleichtert die Planung und Organisation von Abwesenheiten.
 
 ### Weiterleitungen an Abteilungsleiter und Freigabe-Verantwortliche
 
-Die Weiterleitungen von Urlaubsanträgen und Anfragen werden nun gezielt an die **Abteilungsleiter** und **Freigabe-Verantwortlichen** weitergeleitet. Damit wird sichergestellt, dass der Urlaubsantrag immer bei der richtigen Person landet, um den Genehmigungsprozess schnell und effizient abzuschließen.
+Die Weiterleitungen von Urlaubsanträgen können nun gezielt an die **Abteilungsleiter** und **Freigabe-Verantwortlichen**
+weitergeleitet werden. Damit wird sichergestellt, dass auch Abteilungsleiter Freigabe-Verantwortlichen beim Genehmigungsprozess
+schnell und effizient einbezogen werden können
 
 **Vorteil:** Optimierte **Prozesskette** für die Urlaubs- und Abwesenheitsgenehmigung. Es wird keine Zeit mehr verschwendet, um den richtigen Verantwortlichen zu finden.
 
 ## Fazit
 
-Mit der **Version 5.20.0** bringt die Urlaubsverwaltung spannende **Verbesserungen** für eine genauere **Arbeitszeitplanung**, vereinfachte **Bestätigungs-E-Mails** und eine **optimierte Weiterleitung** von Anträgen. Diese Neuerungen erhöhen die **Effizienz** und **Transparenz** für alle Beteiligten und machen die Urlaubsverwaltung noch benutzerfreundlicher.
+Mit der **Version 5.20.0** bringt die Urlaubsverwaltung spannende **Verbesserungen** für eine genauere **Abwesenheitsinformation** im Kalender,
+vereinfachte **Bestätigungs-E-Mails** und eine **optimierte Weiterleitung** von Anträgen.
+Diese Neuerungen erhöhen die **Effizienz** und **Transparenz** für alle Beteiligten und machen die Urlaubsverwaltung noch benutzerfreundlicher.
 
 <sub>Zur vollständigen Release-Übersicht: [Release 5.20.0 auf GitHub ansehen](https://github.com/urlaubsverwaltung/urlaubsverwaltung/releases/tag/urlaubsverwaltung-5.20.0)</sub>
