@@ -4,8 +4,47 @@
   <subtitle></subtitle>
   <link rel="self" href="https://urlaubsverwaltung.cloud/feed.xml" />
   <link rel="alternate" type="text/html" href="https://urlaubsverwaltung.cloud" />
-  <updated>2025-05-14T00:00:00Z</updated>
+  <updated>2025-05-16T00:00:00Z</updated>
   <id>https://urlaubsverwaltung.cloud</id>
+  <entry>
+    <title>Zeiterfassung 2.17.0 – Verbesserte Sortierung &amp; privilegierte Benutzerfunktionen</title>
+    <link href="https://urlaubsverwaltung.cloud/neuigkeiten/2025-03-07-release-2.17.0/" />
+    <updated>2025-05-16T00:00:00Z</updated>
+    <id>https://urlaubsverwaltung.cloud/neuigkeiten/2025-03-07-release-2.17.0/</id>
+    <author>
+      <name>Andreas Weigel</name>
+    </author>
+    <content type="html">&lt;p&gt;Das &lt;strong&gt;Release 2.17.0&lt;/strong&gt; bringt wichtige Erweiterungen zur &lt;strong&gt;Zeiterfassung und Benutzerverwaltung&lt;/strong&gt;. Neue Funktionen für die &lt;strong&gt;Sortierung von Personen und Zeiteinträgen&lt;/strong&gt; sowie &lt;strong&gt;verbesserte Rechte für privilegierte Nutzer&lt;/strong&gt; machen die Anwendung noch benutzerfreundlicher und leistungsfähiger. Zudem wurde ein Fehler behoben, der die Anzeige von bearbeiteten Zeitslots betraf.&lt;/p&gt;
+&lt;h2 id=&quot;verbesserungen&quot;&gt;Verbesserungen&lt;/h2&gt;
+&lt;h3 id=&quot;sortierung-von-personen-zb-auf-der-personen-seite&quot;&gt;Sortierung von Personen (z.B. auf der Personen-Seite)&lt;/h3&gt;
+&lt;p&gt;Ab sofort werden die &lt;strong&gt;Personen auf der Personen-Seite&lt;/strong&gt; anhand des Vornamen und dann des Nachnamen sortiert.&lt;/p&gt;
+&lt;h3 id=&quot;sortierung-von-zeiteintraegen-anhand-der-startzeit&quot;&gt;Sortierung von Zeiteinträgen anhand der Startzeit&lt;/h3&gt;
+&lt;p&gt;Zeiteinträge werden nun nach der &lt;strong&gt;Startzeit&lt;/strong&gt; anstatt der &lt;strong&gt;Erfassungszeit&lt;/strong&gt; sortiert.
+Diese neue Sortierungsoption erleichtert es, die Zeiteinträge nach ihrer tatsächlichen &lt;strong&gt;Arbeitszeit&lt;/strong&gt; und nicht nach dem Zeitpunkt der Erfassung zu ordnen.&lt;/p&gt;
+&lt;h3 id=&quot;zeiteintrag-bei-berichten-bearbeiten-koennen-als-privilegierte-person&quot;&gt;Zeiteintrag bei Berichten bearbeiten können als privilegierte Person&lt;/h3&gt;
+&lt;p&gt;Jetzt können &lt;strong&gt;privilegierte Personen&lt;/strong&gt;, wie Vorgesetzte oder Administratoren, &lt;strong&gt;Zeiteinträge bei Berichten bearbeiten&lt;/strong&gt;.
+Dies ermöglicht eine einfache Korrektur von fehlerhaften oder ungenauen Zeiteinträgen, ohne dass die betroffenen Mitarbeiter:innen die Änderung vornehmen müssen.&lt;/p&gt;
+&lt;h3 id=&quot;zeiterfassung-fuer-mitarbeitende-als-privilegierte-benutzende&quot;&gt;Zeiterfassung für Mitarbeitende als privilegierte Benutzende&lt;/h3&gt;
+&lt;p&gt;Als &lt;strong&gt;privilegierte Benutzende&lt;/strong&gt; Person, kann ich nun &lt;strong&gt;Zeiteinträge&lt;/strong&gt; für andere Personen anlegen und löschen.
+Dies ist besonders nützlich für &lt;strong&gt;Vorgesetzte&lt;/strong&gt; oder &lt;strong&gt;HR-Mitarbeitende&lt;/strong&gt;, die die Zeiterfassung für ihre Teammitglieder verwalten müssen.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Warum ist das wichtig?&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Für &lt;strong&gt;Verwaltungsaufgaben&lt;/strong&gt; und &lt;strong&gt;HR-Management&lt;/strong&gt; in größeren Organisationen ist es entscheidend, eine gut strukturierte und durchsuchbare Liste von Personen zu haben. Diese Funktion ermöglicht eine schnelle Navigation und eine bessere Übersicht.&lt;/li&gt;
+&lt;li&gt;Die &lt;strong&gt;Startzeit&lt;/strong&gt; ist oft relevanter für die &lt;strong&gt;Projekt- und Arbeitszeiterfassung&lt;/strong&gt; als die Zeit der Erfassung. Diese Änderung hilft dabei, einen genaueren Überblick über den Verlauf des Arbeitstages und die geleisteten Stunden zu erhalten.&lt;/li&gt;
+&lt;li&gt;Für &lt;strong&gt;HR-Abteilungen&lt;/strong&gt; und &lt;strong&gt;Vorgesetzte&lt;/strong&gt; ist es wichtig, die &lt;strong&gt;Berichte zu überprüfen&lt;/strong&gt; und gegebenenfalls Anpassungen vorzunehmen. Diese Funktion ermöglicht es, Zeiteinträge zentral zu korrigieren und die Genauigkeit der Daten sicherzustellen.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;fehlerbehebungen&quot;&gt;Fehlerbehebungen&lt;/h2&gt;
+&lt;h3 id=&quot;bearbeiteter-noch-nicht-gespeicherter-zeitslot-wurden-nicht-mehr-hervorgehoben&quot;&gt;Bearbeiteter, noch nicht gespeicherter Zeitslot wurden nicht mehr hervorgehoben&lt;/h3&gt;
+&lt;p&gt;Ein Fehler, bei dem &lt;strong&gt;bearbeitete, aber noch nicht gespeicherte Zeitslots&lt;/strong&gt; nicht mehr hervorgehoben wurden, wurde behoben.
+Zuvor war es schwierig, Änderungen an Zeitslots zu erkennen, bevor sie gespeichert wurden. Dieser Bugfix sorgt dafür,
+dass bearbeitete Zeitslots weiterhin visuell hervorgehoben bleiben.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Warum ist das wichtig?&lt;/strong&gt;&lt;br /&gt;
+Die visuelle Hervorhebung von &lt;strong&gt;unterschiedlichen Zeitslots&lt;/strong&gt; ist wichtig, damit Nutzer erkennen können, welche Einträge geändert wurden. So wird der &lt;strong&gt;Bearbeitungsstatus&lt;/strong&gt; klar und ermöglicht eine effizientere Verwaltung der Zeiterfassung.&lt;/p&gt;
+&lt;h2 id=&quot;fazit&quot;&gt;Fazit&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;Release 2.17.0&lt;/strong&gt; bringt eine Reihe von Verbesserungen in der &lt;strong&gt;Zeiterfassungssoftware&lt;/strong&gt;, die die Benutzerfreundlichkeit und Verwaltung von Arbeitszeiten weiter verbessern. Mit den neuen Funktionen zur &lt;strong&gt;Sortierung von Personen und Zeiteinträgen&lt;/strong&gt; sowie den erweiterten Rechten für &lt;strong&gt;privilegierte Benutzer&lt;/strong&gt; wird die Anwendung noch leistungsfähiger. Der behobene Bug bei der Hervorhebung bearbeiteter Zeitslots sorgt für eine noch genauere &lt;strong&gt;Zeiterfassungsverwaltung&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;sub&gt;Zur vollständigen Release-Übersicht: &lt;a href=&quot;https://github.com/urlaubsverwaltung/zeiterfassung/releases/tag/zeiterfassung-2.17.0&quot;&gt;Release 2.17.0 auf GitHub ansehen&lt;/a&gt;&lt;/sub&gt;&lt;/p&gt;
+</content>
+  </entry>
   <entry>
     <title>Urlaubsverwaltung 5.18.0 veröffentlicht – mit Demo-Banner, stabilerem Dark Mode und Zeitzonen-Fix</title>
     <link href="https://urlaubsverwaltung.cloud/neuigkeiten/2025-02-25-release-5.18.0/" />
