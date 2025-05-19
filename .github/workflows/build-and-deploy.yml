@@ -52,7 +52,7 @@ jobs:
             sleep 2
           done
       - name: Check internal links
-        run: docker run --rm --network host tennox/linkcheck:3.0.0 http://localhost:3000
+        run: docker run --rm --network host ghcr.io/linkchecker/linkchecker:latest http://localhost:3000
       - name: Shutdown Eleventy server
         run: |
           if [ -f eleventy.pid ]; then
