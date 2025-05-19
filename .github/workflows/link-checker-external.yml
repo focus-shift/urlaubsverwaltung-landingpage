@@ -11,4 +11,4 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - name: Check all links
-        run: docker run --rm --network host -v "./link-check-skip-file.txt:/skipfiles/link-check-skip-file.txt" tennox/linkcheck:3.0.0 https://urlaubsverwaltung.cloud -e --skip-file /skipfiles/link-check-skip-file.txt
+        run: docker run --rm --network host ghcr.io/linkchecker/linkchecker:latest https://urlaubsverwaltung.cloud --check-extern --ignore-url=https://www.gesetze-im-internet.de
