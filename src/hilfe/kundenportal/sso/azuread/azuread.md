@@ -23,7 +23,7 @@ Zu _Mein Kundenportal_ gelangst du über _[urlaubsverwaltung.cloud](https://urla
 Eine direkte Anbindung von einer lokalen Active Directory Instanz zu urlaubsverwaltung.cloud wird nicht
 unterstützt. Jedoch ist es möglich Benutzer aus deinem Active Directory zu verwenden, wenn dieses via Azure
 AD Connect mit Azure AD synchronisiert wird.
-Details dazu findest du bei Microsoft in der Dokumentation [Installation von Azure AD Connect](https://docs.microsoft.com/de-de/azure/active-directory/hybrid/how-to-connect-install-express).
+Details dazu findest du bei Microsoft in der Dokumentation [Installation von Azure AD Connect](https://learn.microsoft.com/de-de/entra/identity/hybrid/connect/how-to-connect-install-express).
 
 ## Welche Daten eines Benutzers aus Azure AD werden verwendet?
 
