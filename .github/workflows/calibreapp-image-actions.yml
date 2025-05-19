@@ -17,7 +17,7 @@ jobs:
     name: calibreapp/image-actions
     runs-on: ubuntu-24.04
     concurrency:
-      group: ${{ github.workflow }}-${{ github.job }}-${{ github.ref }}
+      group: ${{ github.workflow }}-build-${{ github.ref }}
       cancel-in-progress: true
     steps:
       - name: Checkout Repo
