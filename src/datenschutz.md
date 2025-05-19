@@ -243,7 +243,7 @@ Verschlüsselungsverfahren nach dem Stand der Technik.
 Diese Seite nutzt aus Gründen der Sicherheit und zum Schutz der Übertragung
 vertraulicher Inhalte, wie zum Beispiel der Anfragen, die Sie an unser System senden,
 eine TLS-Verschlüsselung (Transport Layer Security). Daten, die Sie an unser System
-übermitteln können hierdurch nicht ohne weiteres von Dritten mitgelesen werden.
+übermitteln können, hierdurch nicht ohne weiteres von Dritten mitgelesen werden.
 
 ### 5.3.
 
@@ -315,14 +315,14 @@ Website ist dies der Fall, wenn die jeweilige Sitzung beendet ist.
 ### 6.4.2.
 
 Im Falle der Speicherung der Daten in Logfiles ist dies nach spätestens sieben Tagen der
-Fall. Eine darüberhinausgehende Speicherung ist möglich. In diesem Fall werden die IP-
-Adressen der Nutzer gelöscht oder verfremdet, sodass eine Zuordnung des aufrufenden
-Clients nicht mehr möglich ist.
+Fall. Eine darüberhinausgehende Speicherung ist möglich. In diesem Fall werden die IP-Adressen
+der Nutzer gelöscht oder verfremdet, sodass eine Zuordnung des aufrufenden Clients nicht mehr möglich ist.
 
 ### 6.5. Widerspruchs- und Beseitigungsmöglichkeit
 
 Die Erfassung der Daten zur Bereitstellung der Website und die Speicherung der Daten in
-Logfiles ist für den Betrieb der Internetseite zwingend erforderlich. Es besteht folglich seitens des Nutzers keine Widerspruchsmöglichkeit.
+Logfiles ist für den Betrieb der Internetseite zwingend erforderlich. Es besteht folglich seitens des
+Nutzers keine Widerspruchsmöglichkeit.
 
 ## 7. Verwendung von Cookies
 
@@ -418,7 +418,8 @@ möglicherweise nicht mehr alle Funktionen der Website vollumfänglich genutzt w
 Beim Aufruf unserer Website werden die Nutzer durch ein Infobanner über die
 Verwendung von Cookies informiert und der Nutzer gefragt, ob dieser dem Setzen auch
 der benannten Cookies zustimmt. Der Nutzer kann frei entscheiden, ob er eine Auswahl
-tätigt sowie, ob eine Einwilligung erfolgt. Erteilt der Nutzer keine Einwilligung, so werden keine / nur technisch notwendige Cookies gesetzt und eine weitergehende Speicherung von Cookies findet nicht statt.
+tätigt sowie, ob eine Einwilligung erfolgt. Erteilt der Nutzer keine Einwilligung, so werden keine / nur
+technisch notwendige Cookies gesetzt und eine weitergehende Speicherung von Cookies findet nicht statt.
 
 ## 8. Registrierung
 
@@ -524,8 +525,8 @@ werden ausschließlich für die Verarbeitung der Konversation verwendet.
 
 #### 9.2.1.
 
-Rechtsgrundlage für die Verarbeitung der Daten, die im Zuge einer Übersendung einer E-
-Mail übermittelt werden, ist Art. 6 Abs. 1 S. 1 lit. f DSGVO.
+Rechtsgrundlage für die Verarbeitung der Daten, die im Zuge einer Übersendung einer E-Mail
+übermittelt werden, ist Art. 6 Abs. 1 S. 1 lit. f DSGVO.
 
 #### 9.2.2.
 
@@ -536,8 +537,8 @@ Rechtsgrundlage für die Verarbeitung Art. 6 Abs. 1 S. 1 lit. b DSGVO.
 
 #### 9.3.1.
 
-Die Verarbeitung der personenbezogenen Daten im Falle einer Kontaktaufnahme per E-
-Mail erfolgt zur Bearbeitung der Kontaktaufnahme.
+Die Verarbeitung der personenbezogenen Daten im Falle einer Kontaktaufnahme per E-Mail
+erfolgt zur Bearbeitung der Kontaktaufnahme.
 
 ### 9.4. Dauer der Speicherung
 
@@ -561,8 +562,8 @@ widersprechen. In einem solchen Fall kann die Konversation nicht fortgeführt we
 #### 9.5.2.
 
 Widerruf wie Widerspruch sind insbesondere auch in Textform per E-Mail an unsere
-vorbenannte E-Mailadresse möglich. Um uns eine eindeutige Zuordnung zu erleichtern,
-sollte der Widerruf nach Möglichkeit von jener E-Mailadresse abgesendet werden, welche
+vorbenannte E-Mail-Adresse möglich. Um uns eine eindeutige Zuordnung zu erleichtern,
+sollte der Widerruf nach Möglichkeit von jener E-Mail-Adresse abgesendet werden, welche
 mitunter auch mit möglichen Daten des Nutzers verknüpft ist.
 
 #### 9.5.3.
@@ -644,16 +645,16 @@ Nutzerfreundlichkeit stetig zu verbessern.
 
 Zweck und Umfang der Datenerhebung und die weitere Verarbeitung und Nutzung der
 Daten durch Mailjet können der entsprechenden Information von Mailjet unter
-https://www.mailjet.de/sicherheit-datenschutz/
+https://www.mailjet.com/de/rechtliches/sicherheit-datenschutz/
 Datenschutzbestimmungen entnommen des Versanddienstleisters können werden.
-Sie hier Die einsehen: https://www.mailjet.de/privacy-policy.
+Sie hier Die einsehen: https://www.mailjet.com/de/rechtliches/datenschutzerklaerung/.
 
 ### 10.4. Dauer der Speicherung
 
 #### 10.4.1.
 
 Die Daten werden gelöscht, sobald sie für unsere Aufzeichnungszwecke nicht mehr
-benötigt werden. Die E-Mail-Adresse des Nutzers wird demnach solange gespeichert, wie
+benötigt werden. Die E-Mail-Adresse des Nutzers wird demnach so lange gespeichert, wie
 der Vertrag zwischen Ihnen und uns aktiv ist.
 
 ### 10.5. Widerspruchs- und Beseitigungsmöglichkeit
@@ -668,19 +669,19 @@ Sie können Ihren Zugang kündigen und damit endet auch die Nutzung von Mailjet.
 
 #### 11.1.1.
 
-Der Dienst verwendet Gravatar zur Anzeige von Profilbildern. Dafür wird die E-Mail-
-Adresse des Nutzers verschlüsselt an den Server des Dienstes Gravatar übermittelt, um
-festzustellen, ob es einen zu dieser E-Mailadresse passenden Gravatar-Account gibt.
+Der Dienst verwendet Gravatar zur Anzeige von Profilbildern. Dafür wird die E-Mail-Adresse
+des Nutzers verschlüsselt an den Server des Dienstes Gravatar übermittelt, um
+festzustellen, ob es einen zu dieser E-Mail-Adresse passenden Gravatar-Account gibt.
 
 #### 11.1.2.
 
 Betreiber von Gravatar ist Automattic, Inc., 132 Hawthorne Street, San Francisco, CA
-94107, Unites States of America.
+94107, United States of America.
 
 #### 11.1.3.
 
 Folgende Daten werden im Rahmen der Nutzung erhoben:
-E-Mailadresse, jedoch verschlüsselt
+E-Mail-Adresse, jedoch verschlüsselt
 
 ### 11.2.
 
@@ -692,7 +693,7 @@ Rechtsgrundlage für die Verarbeitung der personenbezogenen Daten der Nutzer ist
 
 #### 11.3.1.
 
-Die anonymisierte Weitergabe der E-Mailadresse dient dem Abruf
+Die anonymisierte Weitergabe der E-Mail-Adresse dient dem Abruf
 
 #### 11.3.2.
 
@@ -719,7 +720,8 @@ keine Daten mehr übermittelt.
 
 #### 12.1.1.
 
-Der Dienst verwendet GoCardless zur Zahlungsabwicklung bei Verwendung von SEPA-Lastschriften. Wenn Sie die Bezahlung via SEPA-Lastschrift auswählen, werden die von Ihnen eingegebenen Zahlungsdaten an GoCardless übermittelt.
+Der Dienst verwendet GoCardless zur Zahlungsabwicklung bei Verwendung von SEPA-Lastschriften. Wenn Sie die Bezahlung
+via SEPA-Lastschrift auswählen, werden die von Ihnen eingegebenen Zahlungsdaten an GoCardless übermittelt.
 
 #### 12.1.2.
 
@@ -728,7 +730,7 @@ Betreiber von GoCardless ist GoCardless Ltd. Sutton Yard, Goswell Rd, London EC1
 #### 12.1.3.
 
 Folgende Daten werden im Rahmen der Nutzung erhoben:
-Land, Vorname, Nachname, Firmenname, IBAN, Anschrift, E-Mailadresse, jedoch verschlüsselt
+Land, Vorname, Nachname, Firmenname, IBAN, Anschrift, E-Mail-Adresse, jedoch verschlüsselt
 
 ### 12.2.
 
@@ -798,7 +800,7 @@ Verarbeitung;
 (7) alle verfügbaren Informationen über die Herkunft der Daten, wenn die
 personenbezogenen Daten nicht bei der betroffenen Person erhoben werden;
 
-(8) das Bestehen einer automatisierten Entscheidungsfindung einschließlich Profiling
+(8) das Bestehen einer automatisierten Entscheidungsfindung, einschließlich Profiling
 gemäß Art. 22 Abs. 1 und 4 DSGVO und – zumindest in diesen Fällen –
 aussagekräftige Informationen über die involvierte Logik sowie die Tragweite und
 die angestrebten Auswirkungen einer derartigen Verarbeitung für die betroffene
@@ -1001,9 +1003,9 @@ verwendet werden.
 
 ### 14.6.
 
-Sie haben auch das Recht, aus Gründen, die sich aus Ihrer besonderen Situation ergeben, bei der Verarbeitung Sie betreffender personenbezogener Daten, die zu
-wissenschaftlichen oder historischen Forschungszwecken oder zu statistischen Zwecken
-gem. Art. 89 Abs. 1 DSGVO erfolgt, dieser zu widersprechen.
+Sie haben auch das Recht, aus Gründen, die sich aus Ihrer besonderen Situation ergeben, bei der Verarbeitung
+Sie betreffender personenbezogener Daten, die zu wissenschaftlichen oder historischen Forschungszwecken
+oder zu statistischen Zwecken gem. Art. 89 Abs. 1 DSGVO erfolgt, dieser zu widersprechen.
 
 ### 14.7.
 
@@ -1030,7 +1032,8 @@ beeinträchtigt. Dies gilt nicht, wenn die Entscheidung
 (1) für den Abschluss oder die Erfüllung eines Vertrags zwischen Ihnen und dem
 Verantwortlichen erforderlich ist,
 
-(2) aufgrund von Rechtsvorschriften der Union oder der Mitgliedstaaten, denen der Verantwortliche unterliegt, zulässig ist und diese Rechtsvorschriften angemessene Maßnahmen zur Wahrung Ihrer Rechte und Freiheiten sowie Ihrer
+(2) aufgrund von Rechtsvorschriften der Union oder der Mitgliedstaaten, denen der Verantwortliche unterliegt,
+zulässig ist und diese Rechtsvorschriften angemessene Maßnahmen zur Wahrung Ihrer Rechte und Freiheiten sowie Ihrer
 berechtigten Interessen enthalten oder
 
 (3) mit Ihrer ausdrücklichen Einwilligung erfolgt.
@@ -1064,7 +1067,7 @@ der Sie betreffenden personenbezogenen Daten gegen die DSGVO verstößt.
 ### 17.2.
 
 Die Aufsichtsbehörde, bei der die Beschwerde eingereicht wurde, unterrichtet den
-Beschwerdeführer über den Stand und die Ergebnisse der Beschwerde einschließlich der
+Beschwerdeführer über den Stand und die Ergebnisse der Beschwerde, einschließlich der
 Möglichkeit eines gerichtlichen Rechtsbehelfs nach Art. 78 DSGVO.
 
 </article>
