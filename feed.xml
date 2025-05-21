@@ -4,8 +4,41 @@
   <subtitle></subtitle>
   <link rel="self" href="https://urlaubsverwaltung.cloud/feed.xml" />
   <link rel="alternate" type="text/html" href="https://urlaubsverwaltung.cloud" />
-  <updated>2025-05-16T00:00:00Z</updated>
+  <updated>2025-05-21T00:00:00Z</updated>
   <id>https://urlaubsverwaltung.cloud</id>
+  <entry>
+    <title>Urlaubsverwaltung 5.19.0 veröffentlicht – verbesserte Benachrichtigungen und neue Antwortfunktionen</title>
+    <link href="https://urlaubsverwaltung.cloud/neuigkeiten/2025-03-07-release-5.19.0/" />
+    <updated>2025-05-21T00:00:00Z</updated>
+    <id>https://urlaubsverwaltung.cloud/neuigkeiten/2025-03-07-release-5.19.0/</id>
+    <author>
+      <name>Andreas Weigel</name>
+    </author>
+    <content type="html">&lt;p&gt;Mit der neuen Version &lt;strong&gt;5.19.0&lt;/strong&gt; der Urlaubsverwaltung werden gleich zwei wichtige Verbesserungen eingeführt,
+die den &lt;strong&gt;Kommunikationsfluss&lt;/strong&gt; und die &lt;strong&gt;Transparenz&lt;/strong&gt; im Urlaubs- und Krankheitsmanagement verbessern. Diese
+neuen Funktionen sorgen für eine klarere Kommunikation zwischen &lt;strong&gt;Antragsstellern&lt;/strong&gt;, &lt;strong&gt;Vorgesetzten&lt;/strong&gt; und
+&lt;strong&gt;privilegierten Personen&lt;/strong&gt;.&lt;/p&gt;
+&lt;h2 id=&quot;antwort-an-auf-antragssteller-setzen-bei-benachrichtigungen-an-vorgesetzte-person&quot;&gt;Antwort-An auf Antragssteller setzen bei Benachrichtigungen an vorgesetzte Person&lt;/h2&gt;
+&lt;p&gt;Ab sofort wird bei Benachrichtigungen über Urlaubsanträge an die &lt;strong&gt;vorgesetzte Person&lt;/strong&gt; der &lt;strong&gt;Antwort-An&lt;/strong&gt; direkt
+auf den &lt;strong&gt;Antragssteller&lt;/strong&gt; gesetzt. Dies erleichtert den Kommunikationsprozess, da die vorgesetzte Person direkt
+auf die Anfrage des Mitarbeiters oder der Mitarbeiterin antworten kann, ohne manuell die E-Mail-Adresse des Antragsstellers
+hinzufügen zu müssen.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Vorteil:&lt;/strong&gt; Der Kommunikationsfluss wird &lt;strong&gt;vereinfacht&lt;/strong&gt; und Fehler durch falsche E-Mail-Adressen werden vermieden.
+Der Urlaubsantrag wird effizienter bearbeitet, und Rückfragen können direkt und schnell beantwortet werden.&lt;/p&gt;
+&lt;h2 id=&quot;benachrichtigung-an-privilegierte-personen-bei-aenderung-einer-krankmeldung&quot;&gt;Benachrichtigung an privilegierte Personen bei Änderung einer Krankmeldung&lt;/h2&gt;
+&lt;p&gt;Änderungen an einer &lt;strong&gt;Krankmeldung&lt;/strong&gt; lösen nun eine &lt;strong&gt;Benachrichtigung&lt;/strong&gt; an die &lt;strong&gt;privilegierten Personen&lt;/strong&gt; aus,
+wie z. B. den &lt;strong&gt;Vorgesetzten&lt;/strong&gt; oder den &lt;strong&gt;HR-Verantwortlichen&lt;/strong&gt;, wenn in den Benachrichtigungen &lt;strong&gt;Bearbeitungen von Krankmeldungen&lt;/strong&gt;
+aktiviert ist. Diese Funktion stellt sicher, dass alle relevanten Personen sofort informiert werden,
+wenn es Änderungen an Krankmeldungen gibt.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Vorteil:&lt;/strong&gt; So bleiben alle Beteiligten stets &lt;strong&gt;up-to-date&lt;/strong&gt; und der Krankheitsprozess wird transparenter.
+Es wird gewährleistet, dass keine Änderungen übersehen werden, was vor allem in großen Organisationen von großem Nutzen ist.&lt;/p&gt;
+&lt;h2 id=&quot;fazit&quot;&gt;Fazit&lt;/h2&gt;
+&lt;p&gt;Mit dem &lt;strong&gt;Release 5.19.0&lt;/strong&gt; hat die Urlaubsverwaltung zwei bedeutende &lt;strong&gt;Verbesserungen&lt;/strong&gt; im Bereich der
+&lt;strong&gt;Kommunikation&lt;/strong&gt; und &lt;strong&gt;Benachrichtigung&lt;/strong&gt; eingeführt. Diese Änderungen optimieren den Arbeitsablauf und
+sorgen für mehr &lt;strong&gt;Effizienz&lt;/strong&gt; und &lt;strong&gt;Transparenz&lt;/strong&gt; im Umgang mit Urlaubs- und Krankheitsanträgen.&lt;/p&gt;
+&lt;p&gt;&lt;sub&gt;Zur vollständigen Release-Übersicht: &lt;a href=&quot;https://github.com/urlaubsverwaltung/urlaubsverwaltung/releases/tag/urlaubsverwaltung-5.19.0&quot;&gt;Release 5.19.0 auf GitHub ansehen&lt;/a&gt;&lt;/sub&gt;&lt;/p&gt;
+</content>
+  </entry>
   <entry>
     <title>Zeiterfassung 2.17.0 – Verbesserte Sortierung &amp; privilegierte Benutzerfunktionen</title>
     <link href="https://urlaubsverwaltung.cloud/neuigkeiten/2025-03-07-release-2.17.0/" />
