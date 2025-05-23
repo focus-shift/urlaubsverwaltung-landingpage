@@ -4,8 +4,43 @@
   <subtitle></subtitle>
   <link rel="self" href="https://urlaubsverwaltung.cloud/feed.xml" />
   <link rel="alternate" type="text/html" href="https://urlaubsverwaltung.cloud" />
-  <updated>2025-05-21T00:00:00Z</updated>
+  <updated>2025-05-23T00:00:00Z</updated>
   <id>https://urlaubsverwaltung.cloud</id>
+  <entry>
+    <title>Urlaubsverwaltung 5.20.0 veröffentlicht – präzisere Kalenderangaben und optimierte Bestätigungs-Mails</title>
+    <link href="https://urlaubsverwaltung.cloud/neuigkeiten/2025-03-11-release-5.20.0/" />
+    <updated>2025-05-23T00:00:00Z</updated>
+    <id>https://urlaubsverwaltung.cloud/neuigkeiten/2025-03-11-release-5.20.0/</id>
+    <author>
+      <name>Andreas Weigel</name>
+    </author>
+    <content type="html">&lt;p&gt;Mit &lt;strong&gt;Version 5.20.0&lt;/strong&gt; der Urlaubsverwaltung werden gleich mehrere wichtige Verbesserungen eingeführt,
+die den Arbeitsalltag in der Personalverwaltung deutlich erleichtern. Dabei stehen vor allem der
+&lt;strong&gt;Kalender&lt;/strong&gt;, die &lt;strong&gt;Bestätigungs-Mails&lt;/strong&gt; und die &lt;strong&gt;Weiterleitungen&lt;/strong&gt; an verantwortliche Abteilungsleiter
+im Fokus. Hier die Details zu den wichtigsten Neuerungen:&lt;/p&gt;
+&lt;h2 id=&quot;verbesserungen&quot;&gt;Verbesserungen&lt;/h2&gt;
+&lt;h3 id=&quot;kalender-arbeitsstartzeit-und-arbeitsendzeit-praeziser-einstellen&quot;&gt;Kalender: Arbeitsstartzeit und Arbeitsendzeit präziser einstellen&lt;/h3&gt;
+&lt;p&gt;Für die &lt;strong&gt;Kalenderfreigabe&lt;/strong&gt; und die &lt;strong&gt;Kalender Synchronisation&lt;/strong&gt; kann nun die &lt;strong&gt;Arbeitsstartzeit&lt;/strong&gt; und &lt;strong&gt;Arbeitsendzeit&lt;/strong&gt;
+präziser angegeben werden – einschließlich der &lt;strong&gt;Minutenangabe&lt;/strong&gt;. Dies ermöglicht eine genauere Übersicht über die Abwesenheiten.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Vorteil:&lt;/strong&gt; Die &lt;strong&gt;Zeitgenauigkeit&lt;/strong&gt; sorgt für eine genauere Abbildung der Arbeitszeiten und hilft, Missverständnisse
+bei der Urlaubs- und Arbeitszeitberechnung zu vermeiden.&lt;/p&gt;
+&lt;h3 id=&quot;ics-anhang-in-der-bestaetigungs-mail-bei-urlauben-ohne-genehmigungsprozess&quot;&gt;Ics-Anhang in der Bestätigungs-Mail bei Urlauben ohne Genehmigungsprozess&lt;/h3&gt;
+&lt;p&gt;Ein weiteres nützliches Feature: Ab sofort wird in der &lt;strong&gt;Bestätigungs-E-Mail&lt;/strong&gt; für Urlaubsanträge,
+die keinen &lt;strong&gt;Genehmigungsprozess&lt;/strong&gt; durchlaufen (z. B. in Unternehmen ohne Genehmigungsworkflow), ein &lt;strong&gt;ICS-Anhang&lt;/strong&gt; hinzugefügt.
+Somit kann der Urlaubszeitraum direkt in den Kalender des Mitarbeiters importiert werden.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Vorteil:&lt;/strong&gt; Die &lt;strong&gt;Einfache Integration&lt;/strong&gt; in den persönlichen Kalender erleichtert die Planung und Organisation von Abwesenheiten.&lt;/p&gt;
+&lt;h3 id=&quot;weiterleitungen-an-abteilungsleiter-und-freigabe-verantwortliche&quot;&gt;Weiterleitungen an Abteilungsleiter und Freigabe-Verantwortliche&lt;/h3&gt;
+&lt;p&gt;Die Weiterleitungen von Urlaubsanträgen können nun gezielt an die &lt;strong&gt;Abteilungsleiter&lt;/strong&gt; und &lt;strong&gt;Freigabe-Verantwortlichen&lt;/strong&gt;
+weitergeleitet werden. Damit wird sichergestellt, dass auch Abteilungsleiter Freigabe-Verantwortlichen beim Genehmigungsprozess
+schnell und effizient einbezogen werden können&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Vorteil:&lt;/strong&gt; Optimierte &lt;strong&gt;Prozesskette&lt;/strong&gt; für die Urlaubs- und Abwesenheitsgenehmigung. Es wird keine Zeit mehr verschwendet, um den richtigen Verantwortlichen zu finden.&lt;/p&gt;
+&lt;h2 id=&quot;fazit&quot;&gt;Fazit&lt;/h2&gt;
+&lt;p&gt;Mit der &lt;strong&gt;Version 5.20.0&lt;/strong&gt; bringt die Urlaubsverwaltung spannende &lt;strong&gt;Verbesserungen&lt;/strong&gt; für eine genauere &lt;strong&gt;Abwesenheitsinformation&lt;/strong&gt; im Kalender,
+vereinfachte &lt;strong&gt;Bestätigungs-E-Mails&lt;/strong&gt; und eine &lt;strong&gt;optimierte Weiterleitung&lt;/strong&gt; von Anträgen.
+Diese Neuerungen erhöhen die &lt;strong&gt;Effizienz&lt;/strong&gt; und &lt;strong&gt;Transparenz&lt;/strong&gt; für alle Beteiligten und machen die Urlaubsverwaltung noch benutzerfreundlicher.&lt;/p&gt;
+&lt;p&gt;&lt;sub&gt;Zur vollständigen Release-Übersicht: &lt;a href=&quot;https://github.com/urlaubsverwaltung/urlaubsverwaltung/releases/tag/urlaubsverwaltung-5.20.0&quot;&gt;Release 5.20.0 auf GitHub ansehen&lt;/a&gt;&lt;/sub&gt;&lt;/p&gt;
+</content>
+  </entry>
   <entry>
     <title>Urlaubsverwaltung 5.19.0 veröffentlicht – verbesserte Benachrichtigungen und neue Antwortfunktionen</title>
     <link href="https://urlaubsverwaltung.cloud/neuigkeiten/2025-03-07-release-5.19.0/" />
