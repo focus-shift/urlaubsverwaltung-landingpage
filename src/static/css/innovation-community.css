@@ -1,0 +1,67 @@
+.uebersicht-card-border {
+    @apply md:bg-gradient-to-b;
+    @apply from-gray-50;
+    @apply to-sky-50;
+    padding: 1.125rem;
+    border-radius: 1.125rem;
+}
+
+input[type="checkbox"] {
+	display: none;
+}
+input[type="checkbox"] ~ dl dd {
+	display: none;
+}
+input[type="checkbox"] ~ dl dt > label > span > svg {
+	transition: transform ease-in-out 150ms;
+}
+
+
+#faq-checkbox-os-zeitwirtschaft:checked
+	~ dl
+	dt
+	> label[for="faq-checkbox-os-zeitwirtschaft"]
+	> span
+	> svg,
+#faq-checkbox-innovation-vorteil:checked
+	~ dl
+	dt
+	> label[for="faq-checkbox-innovation-vorteil"]
+	> span
+	> svg,
+#faq-checkbox-community-teilnehmen:checked
+	~ dl
+	dt
+	> label[for="faq-checkbox-community-teilnehmen"]
+	> span
+	> svg,
+#faq-checkbox-os-professionell:checked
+	~ dl
+	dt
+	> label[for="faq-checkbox-os-professionell"]
+	> span
+	> svg,
+#faq-checkbox-os-kosten:checked
+	~ dl
+	dt
+	> label[for="faq-checkbox-os-kosten"]
+	> span
+	> svg,
+#faq-checkbox-os-dsgvo:checked
+	~ dl
+	dt
+	> label[for="faq-checkbox-os-dsgvo"]
+	> span
+	> svg {
+	transform: rotate(45deg);
+	color: rgba(14, 165, 233, var(--tw-text-opacity));
+}
+
+#faq-checkbox-os-zeitwirtschaft:checked ~ dl dd[data-id="faq-p-os-zeitwirtschaft"],
+#faq-checkbox-innovation-vorteil:checked ~ dl dd[data-id="faq-p-innovation-vorteil"],
+#faq-checkbox-community-teilnehmen:checked ~ dl dd[data-id="faq-p-community-teilnehmen"],
+#faq-checkbox-os-professionell:checked ~ dl dd[data-id="faq-p-os-professionell"],
+#faq-checkbox-os-kosten:checked ~ dl dd[data-id="faq-p-os-kosten"],
+#faq-checkbox-os-dsgvo:checked ~ dl dd[data-id="faq-p-os-dsgvo"] {
+	display: block;
+}
