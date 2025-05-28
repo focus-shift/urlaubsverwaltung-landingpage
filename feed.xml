@@ -4,8 +4,44 @@
   <subtitle></subtitle>
   <link rel="self" href="https://urlaubsverwaltung.cloud/feed.xml" />
   <link rel="alternate" type="text/html" href="https://urlaubsverwaltung.cloud" />
-  <updated>2025-05-23T00:00:00Z</updated>
+  <updated>2025-05-28T00:00:00Z</updated>
   <id>https://urlaubsverwaltung.cloud</id>
+  <entry>
+    <title>Zeiterfassung 2.18.0 – Verbesserte Performance &amp; Personensuche</title>
+    <link href="https://urlaubsverwaltung.cloud/neuigkeiten/2025-03-14-release-2.18.0/" />
+    <updated>2025-05-28T00:00:00Z</updated>
+    <id>https://urlaubsverwaltung.cloud/neuigkeiten/2025-03-14-release-2.18.0/</id>
+    <author>
+      <name>Andreas Weigel</name>
+    </author>
+    <content type="html">&lt;p&gt;Das &lt;strong&gt;Release 2.18.0&lt;/strong&gt; bringt wichtige Verbesserungen für die &lt;strong&gt;Performance&lt;/strong&gt; der Zeiterfassung, insbesondere im Bereich der &lt;strong&gt;Datenbankoptimierung&lt;/strong&gt;. Außerdem wurden mehrere &lt;strong&gt;Fehler&lt;/strong&gt; behoben, die die Benutzererfahrung beeinträchtigten.&lt;/p&gt;
+&lt;h2 id=&quot;verbesserungen&quot;&gt;Verbesserungen&lt;/h2&gt;
+&lt;h3 id=&quot;die-zeiterfassung-wird-schneller&quot;&gt;Die Zeiterfassung wird schneller&lt;/h3&gt;
+&lt;p&gt;Jetzt wird es ein wenig technisch – aber keine Sorge, wir erklären es einfach!&lt;/p&gt;
+&lt;p&gt;Wir haben die &lt;strong&gt;Zugriffe&lt;/strong&gt; auf die Datenbank vorangetrieben - also da wo eure und unsere Daten gespeichert werden - verbessert.
+Damit wird die &lt;strong&gt;Performance&lt;/strong&gt; der Zeiterfassung erheblich gesteigert, da die Datenbank nicht so lange suchen muss. Das kennen wir alle,
+wir suchen etwas und es dauert ewig, bis wir es finden. Das ist jetzt vorbei! Die Zeiterfassung weiß nun genau, wo sie suchen muss.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;Warum ist das wichtig?&lt;/strong&gt;&lt;br /&gt;
+Die Optimierung sorgt für eine &lt;strong&gt;flüssigere Benutzererfahrung&lt;/strong&gt; und somit macht es viel mehr Spaß mit der Zeiterfassung zu arbeiten.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&quot;fehlerbehebungen&quot;&gt;Fehlerbehebungen&lt;/h2&gt;
+&lt;h3 id=&quot;suche-nach-einer-person-mit-vorname-und-nachname-ergab-keine-treffer&quot;&gt;Suche nach einer Person mit Vorname und Nachname ergab keine Treffer&lt;/h3&gt;
+&lt;p&gt;Ein Problem bei der &lt;strong&gt;Personensuche&lt;/strong&gt; wurde behoben. Bisher war es nicht möglich, eine Person korrekt zu finden,
+wenn man sowohl den &lt;strong&gt;Vornamen&lt;/strong&gt; als auch den &lt;strong&gt;Nachnamen&lt;/strong&gt; eingab. Dies führte dazu, dass keine Treffer angezeigt wurden,
+obwohl die Person in der Zeiterfassung natürlich existierte.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;Warum ist das wichtig?&lt;/strong&gt;&lt;br /&gt;
+Die Korrektur dieses Bugs stellt sicher, dass die &lt;strong&gt;Suche nach Personen&lt;/strong&gt; wie erwartet funktioniert.
+Gerade bei großen Teams ist eine &lt;strong&gt;schnelle und präzise Personensuche&lt;/strong&gt; entscheidend für die effiziente Zeiterfassung.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&quot;fazit&quot;&gt;Fazit&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;Release 2.18.0&lt;/strong&gt; bringt mit der Verbesserung des &lt;strong&gt;PostgreSQL-Indexing&lt;/strong&gt; eine wichtige &lt;strong&gt;Performance-Steigerung&lt;/strong&gt;,
+die die Anwendung schneller und effizienter macht. Die behobenen &lt;strong&gt;Bugs&lt;/strong&gt; sorgen für eine verbesserte Benutzererfahrung,
+insbesondere bei der &lt;strong&gt;Personensuche&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;sub&gt;Zur vollständigen Release-Übersicht: &lt;a href=&quot;https://github.com/urlaubsverwaltung/zeiterfassung/releases/tag/zeiterfassung-2.18.0&quot;&gt;Release 2.18.0 auf GitHub ansehen&lt;/a&gt;&lt;/sub&gt;&lt;/p&gt;
+</content>
+  </entry>
   <entry>
     <title>Urlaubsverwaltung 5.20.0 veröffentlicht – präzisere Kalenderangaben und optimierte Bestätigungs-Mails</title>
     <link href="https://urlaubsverwaltung.cloud/neuigkeiten/2025-03-11-release-5.20.0/" />
