@@ -1,5 +1,5 @@
 ---
-draft: true
+draft: false
 layout: layout-neuigkeiten.hbs
 date: 2025-05-30
 title: Urlaubsverwaltung 5.21.0 – Wir können nun Singular und Plural!
@@ -15,8 +15,7 @@ Mit dem **Release 5.21.0** der Urlaubsverwaltung wird die **Darstellung von Tage
 
 ## Singular / Plural bei den Tagen und Stunden
 
-Eine kleine, aber feine Verbesserung: In der Urlaubsverwaltung wird nun korrekt zwischen **Singular** und **Plural** unterschieden.
-Wenn es um die Angabe von **Tagen** und **Stunden** geht, wird jetzt korrekt zwischen Singular und Plural unterschieden. Das mag sich komisch anhören.
+Eine kleine, aber feine Verbesserung: Wenn es um die Angabe von **Tagen** und **Stunden** geht, wird jetzt korrekt zwischen Singular und Plural unterschieden. Das mag sich komisch anhören.
 Aber auch hier muss man sich Gedanken machen und Zeit in die Entwicklung stecken. Wer mag schon "1 Urlaubstage" lesen? Niemand.
 Das ist einfach nicht korrekt und sieht auch noch komisch aus.
 Deshalb zeigen wir euch nun bei einem einzelnen Tag als Abwesenheit "1 Tag" und bei mehreren Tagen z.B. "2 Tage" an.

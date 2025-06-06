@@ -1,15 +1,15 @@
 ---
-draft: true
+draft: false
 layout: layout-neuigkeiten.hbs
 date: 2025-06-04
 title: Zeiterfassung 2.19.0 – Verbesserte Arbeitszeiteinstellungen & privilegierte Benutzeransicht
 author: Andreas Weigel
 release-version: 2.19.0
 teaserImage: /static/teaser/2025-03-21/ZE-Release-2.19.0.png
-description: Mit Version 2.19.0 können Arbeitszeiten nun auf 0 Stunden gesetzt werden. Zudem gibt es Verbesserungen für privilegierte Nutzer und die Behebung eines Fehlers bei der Berechtigungsänderung.
+description: Mit Version 2.19.0 können Arbeitszeiten nun auf 0 Stunden gesetzt werden. Zudem gibt es Verbesserungen für privilegierte Nutzer und die Verbesserung der Berechtigungsänderung.
 ---
 
-Release **2.19.0** der Zeiterfassung bringt spannende Neuerungen für die **Arbeitszeiterfassung** und die **Benutzeransichten**. Ebenso wurde ein Fehler bei der Berechtigungsänderung behoben.
+Release **2.19.0** der Zeiterfassung bringt spannende Neuerungen für die **Arbeitszeiterfassung** und die **Benutzeransichten**. Ebenso wurde die Berechtigungsänderung verbessert.
 
 <!-- more -->
 
@@ -17,29 +17,31 @@ Release **2.19.0** der Zeiterfassung bringt spannende Neuerungen für die **Arbe
 
 ### Arbeitszeit auf 0 Stunden setzen
 
-Ab sofort können Nutzer ihre **Arbeitszeit auf 0 Stunden setzen**. Diese Funktion ist besonders nützlich, wenn eine Person an einem bestimmten Tag nicht arbeitet, beispielsweise bei einem **freien Tag** oder **Urlaub**. Statt manuell mit Stunden zu arbeiten, kann nun einfach „0 Stunden“ eingetragen werden.
+Ab sofort können Nutzer ihre **Arbeitszeit pro Tag auf 0 Stunden setzen**. 
+Diese Funktion ist besonders nützlich, wenn eine Person an einem bestimmten Tag nicht arbeitet, 
+beispielsweise bei einem Arbeitsbeginn, der in der Zukunft liegt oder bei Elternzeit.
 
-> **Warum ist das wichtig?**  
-> Die Möglichkeit, Arbeitszeiten auf 0 Stunden zu setzen, vereinfacht die Zeiterfassung und macht die Anwendung flexibler bei der Verwaltung von Abwesenheiten.
+**Warum ist das wichtig?**  
+Die Möglichkeit, Arbeitszeiten auf 0 Stunden zu setzen, vereinfacht die Konfiguration der Zeiterfassung und macht die Anwendung 
+flexibler bei der Verwaltung von Abwesenheiten.
 
 ### Startseitenansicht einer anderen Person für privilegierte Nutzer
 
-Privilegierte Nutzer haben jetzt die Möglichkeit, die **Startseitenansicht** einer anderen Person zu sehen. Dies ist besonders für **Vorgesetzte** oder **HR-Administratoren** nützlich, die die **Arbeitszeiten** ihrer Mitarbeiter:innen überwachen und verwalten müssen.
+Privilegierte Nutzer haben jetzt die Möglichkeit, die **Startseitenansicht** einer anderen Person zu sehen. 
+Dies ist besonders für **Vorgesetzte** oder **HR-Administratoren** nützlich, die die **Arbeitszeiten** ihrer Mitarbeitenden verwalten müssen.
 
-> **Warum ist das wichtig?**  
-> Diese Erweiterung verbessert die **Benutzerverwaltung** und ermöglicht es den verantwortlichen Personen, schnell einen Überblick über die Arbeitszeiterfassung ihrer Mitarbeiter zu bekommen.
+**Warum ist das wichtig?**  
+Diese Erweiterung verbessert die **Benutzerverwaltung** und ermöglicht es den verantwortlichen Personen, 
+schnell einen Überblick über die Arbeitszeiterfassung ihrer Mitarbeiter zu bekommen.
 
-## Fehlerbehebungen
+### Berechtigungsänderung direkt aktiv und sichtbar
 
-### Fehler bei der Berechtigungsänderung
-
-Ein Fehler, der beim Ändern von Berechtigungen auftrat, wurde behoben. Obwohl die Berechtigung tatsächlich geändert wurde, zeigte die Anwendung einen **Fehler** an, was zu Verwirrung bei den Nutzern führte. Dieser Bug wurde nun behoben, sodass Berechtigungsänderungen korrekt angezeigt werden.
-
-> **Warum ist das wichtig?**  
-> Fehler bei der Berechtigungsverwaltung können zu Unsicherheit führen, besonders in sicherheitskritischen Bereichen wie der **Zeiterfassung**. Die Behebung dieses Bugs sorgt für eine verlässliche und transparente Benutzererfahrung.
+Ab sofort wird eine **Berechtigungsänderung** direkt aktiv und korrekt angezeigt, ohne dass eine Aktualisierung der Seite erforderlich ist.
 
 ## Fazit
 
-**Release 2.19.0** bringt wichtige Erweiterungen und Fehlerbehebungen für die Zeiterfassungssoftware. Die Möglichkeit, **Arbeitszeiten auf 0 Stunden zu setzen**, sowie die verbesserte **Startseitenansicht für privilegierte Nutzer** machen das Tool noch benutzerfreundlicher. Zudem wurde ein kritischer Bug bei der Berechtigungsänderung behoben, was die Zuverlässigkeit der Anwendung weiter erhöht.
+**Release 2.19.0** bringt wichtige Erweiterungen und Verbesserungen für die Zeiterfassungssoftware. 
+Die Möglichkeit, **Arbeitszeiten auf 0 Stunden zu setzen**, sowie die verbesserte **Startseitenansicht für privilegierte Nutzer** machen das Tool noch benutzerfreundlicher. 
+Zudem wurde die Berechtigungsänderung verbessert, was die Zuverlässigkeit der Anwendung weiter erhöht.
 
 <sub>Zur vollständigen Release-Übersicht: [Release 2.19.0 auf GitHub ansehen](https://github.com/urlaubsverwaltung/zeiterfassung/releases/tag/zeiterfassung-2.19.0)</sub>
