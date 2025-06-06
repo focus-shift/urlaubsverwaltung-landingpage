@@ -1,5 +1,5 @@
 ---
-draft: true
+draft: false
 layout: layout-neuigkeiten.hbs
 date: 2025-06-18
 title: Zeiterfassung 2.21.0 – Festschreiben von Zeiteinträgen
@@ -34,11 +34,11 @@ In der Zeiterfassung können Personen mit der Berechtigung "darf die globalen Ei
   </picture>
 </p>
 
-Festgeschriebene Zeiteinträge und das Hinzufügen neuer Zeiteinträgen für einen Tag, welcher festgeschrieben ist,
-ist nur für Mitarbeitende mit der Berechtigung "darf die Zeiteinträge aller Personen bearbeiten" möglich.
+Nur Mitarbeitende mit der Berechtigung 'darf die Zeiteinträge aller Personen bearbeiten' 
+können an einem festgeschriebenen Tag neue Zeiteinträge hinzufügen oder bestehende bearbeiten.
 
-Tage, an denen die Zeiteinträge festgeschrieben sind, sind in der Übersicht mit einem Schloss-Symbol gekennzeichnet.
-Dies bedeutet, dass an diesem Tag keine weiteren Zeiteinträge hinzugefügt bzw. keine Zeiteinträge bearbeitet werden können.
+Festgeschriebene Tage sind in der Übersicht mit einem Schloss-Symbol markiert. 
+An diesen Tagen können keine Zeiteinträge hinzugefügt oder geändert werden.
 
 <p>
   <picture>
@@ -56,12 +56,12 @@ Dies bedeutet, dass an diesem Tag keine weiteren Zeiteinträge hinzugefügt bzw.
 Für Personen mit der Berechtigung "darf die globalen Einstellungen bearbeiten" wird das Schloss-Symbol angezeigt.
 Diese können aber weiterhin neue Zeiteinträge hinzufügen bzw. bearbeiten.
 
-> **Warum ist das wichtig?**  
-> Das Festschreiben von Zeiteinträgen ist eine wichtige Funktion, um die Integrität der Daten zu gewährleisten und sicherzustellen,
+**Warum ist das wichtig?**  
+Das Festschreiben von Zeiteinträgen ist eine wichtige Funktion, um die Integrität der Daten zu gewährleisten und sicherzustellen,
 
 ## Fazit
 
 **Release 2.21.0** bringt eine wichtige Erweiterung der Zeiterfassung. Das Festschreiben von Zeiteinträgen ist eine wichtige Funktion,
-um die Integrität der Daten zu gewährleisten und sicherzustellen, dass keine Änderungen an den Zeiteinträgen vorgenommen ab einem bestimmten Zeitpunkt mehr vorgenommen werden können.
+um die Integrität der Daten zu gewährleisten und um sicherzustellen, dass ab einem bestimmten Zeitpunkt keine Änderungen mehr vorgenommen werden können.
 
 <sub>Zur vollständigen Release-Übersicht: [Release 2.21.0 auf GitHub ansehen](https://github.com/urlaubsverwaltung/zeiterfassung/releases/tag/zeiterfassung-2.21.0)</sub>
