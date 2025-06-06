@@ -76,6 +76,98 @@ Die zuvor manuel angelegten Überstunden, können weiterhin bearbeitet werden.&l
 </content>
   </entry>
   <entry>
+    <title>Urlaubsverwaltung 5.22.0 veröffentlicht – neue Features für transparente Urlaubs- und Krankheitsverwaltung</title>
+    <link href="https://urlaubsverwaltung.cloud/neuigkeiten/2025-03-21-release-5.22.0/" />
+    <updated>2025-06-06T00:00:00Z</updated>
+    <id>https://urlaubsverwaltung.cloud/neuigkeiten/2025-03-21-release-5.22.0/</id>
+    <author>
+      <name>Andreas Weigel</name>
+    </author>
+    <content type="html">&lt;p&gt;Die Urlaubsverwaltung hat ein neues Update erhalten – und das bringt einige sinnvolle Erweiterungen für Personalabteilungen und Mitarbeitende mit sich. Mit der &lt;strong&gt;Version 5.22.0&lt;/strong&gt; setzen wir auf mehr &lt;strong&gt;Transparenz&lt;/strong&gt;, &lt;strong&gt;Nutzerfreundlichkeit&lt;/strong&gt; und eine präzisere &lt;strong&gt;Darstellung wichtiger Informationen&lt;/strong&gt;&lt;/p&gt;
+&lt;h2 id=&quot;hinweis-auf-verfall-von-urlaub&quot;&gt;Hinweis auf Verfall von Urlaub&lt;/h2&gt;
+&lt;p&gt;Verbesserte Transparenz: Ab sofort wird &lt;strong&gt;direkt in der Erinnerungsmail angezeigt&lt;/strong&gt;, wann ein &lt;strong&gt;Resturlaub verfällt&lt;/strong&gt;.
+So behalten Mitarbeitende den Überblick und verpassen keine Fristen mehr – und die HR-Abteilung spart sich Rückfragen.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Vorteil:&lt;/strong&gt; Frühzeitige Planung wird gefördert und unerwarteter Urlaubsverlust verhindert.&lt;/p&gt;
+&lt;h2 id=&quot;verbesserte-anzeige-bei-krankmeldungen-kalendertage-und-lohnfortzahlung&quot;&gt;Verbesserte Anzeige bei Krankmeldungen: Kalendertage und Lohnfortzahlung&lt;/h2&gt;
+&lt;p&gt;In der Detailansicht einer Krankmeldung werden nun &lt;strong&gt;Kalendertage&lt;/strong&gt; und &lt;strong&gt;Zeiträume mit Lohnfortzahlung&lt;/strong&gt; sichtbar dargestellt.
+Insbesondere wird dargestellt, wenn es &lt;strong&gt;keine Entgeltfortzahlung&lt;/strong&gt; während der Krankheitszeit gibt – z. B. bei längerer Krankheit über die gesetzlichen sechs Wochen hinaus.
+Das schafft mehr Transparenz über den Verlauf einer Krankheitsphase.&lt;/p&gt;
+&lt;div class=&quot;flex my-8&quot;&gt;
+    &lt;figure&gt;
+        &lt;picture&gt;
+            &lt;img src=&quot;https://urlaubsverwaltung.cloud/neuigkeiten/2025-03-21-release-5.22.0/krankmeldung-detail.png&quot; alt=&quot;Details einer Krankmeldung inklusive Informationen zur Lohnfortzahlung&quot; decoding=&quot;async&quot; loading=&quot;lazy&quot; class=&quot;rounded-lg&quot; /&gt;
+        &lt;/picture&gt;
+        &lt;figcaption class=&quot;text-sm text-center&quot;&gt;Details einer Krankmeldung inklusive Informationen zur Lohnfortzahlung&lt;/figcaption&gt;
+    &lt;/figure&gt;
+&lt;/div&gt;
+&lt;p&gt;&lt;strong&gt;Vorteil:&lt;/strong&gt; Arbeitgeber und Arbeitnehmer erkennen sofort, wie sich die Krankmeldung auf Gehalt und Abwesenheit auswirkt.&lt;/p&gt;
+&lt;h2 id=&quot;neuer-sonderurlaub-betriebsjubilaeen&quot;&gt;Neuer Sonderurlaub: Betriebsjubiläen&lt;/h2&gt;
+&lt;p&gt;Ein Meilenstein im Unternehmen verdient auch Anerkennung:
+Laut Tarifvertrag der Länder (TV-L) haben Angehörige des öffentlichen Dienstes Anspruch auf jeweils einen Tag Urlaub am 25. und 50. Betriebsjubiläum.&lt;/p&gt;
+&lt;p&gt;Mit diesem Release ist es möglich, beim Antrag auf Sonderurlaub, die Anzahl der freien Tage zum &lt;strong&gt;Betriebsjubiläen&lt;/strong&gt; anzuzeigen.
+Das minimiert die notwendige Kommunikation und sorgt für klare Abläufe.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Vorteil:&lt;/strong&gt; Personalabteilungen können Jubiläen systematisch würdigen – Mitarbeitende fühlen sich gesehen und wertgeschätzt.&lt;/p&gt;
+&lt;h2 id=&quot;fazit&quot;&gt;Fazit&lt;/h2&gt;
+&lt;p&gt;Mit Version 5.22.0 zeigt die Urlaubsverwaltung, wie kleine Verbesserungen große Wirkung entfalten: &lt;strong&gt;mehr Übersicht&lt;/strong&gt;, &lt;strong&gt;mehr Fairness&lt;/strong&gt;, &lt;strong&gt;mehr Effizienz&lt;/strong&gt;. Egal ob Urlaub, Krankheit oder Jubiläum – der Umgang mit Abwesenheiten wird für alle Beteiligten einfacher und transparenter.&lt;/p&gt;
+&lt;p&gt;&lt;sub&gt;Zur vollständigen Release-Übersicht: &lt;a href=&quot;https://github.com/urlaubsverwaltung/urlaubsverwaltung/releases/tag/urlaubsverwaltung-5.22.0&quot;&gt;Release 5.22.0 auf GitHub ansehen&lt;/a&gt;&lt;/sub&gt;&lt;/p&gt;
+</content>
+  </entry>
+  <entry>
+    <title>Zeiterfassung 2.19.0 – Verbesserte Arbeitszeiteinstellungen &amp; privilegierte Benutzeransicht</title>
+    <link href="https://urlaubsverwaltung.cloud/neuigkeiten/2025-03-21-release-2.19.0/" />
+    <updated>2025-06-04T00:00:00Z</updated>
+    <id>https://urlaubsverwaltung.cloud/neuigkeiten/2025-03-21-release-2.19.0/</id>
+    <author>
+      <name>Andreas Weigel</name>
+    </author>
+    <content type="html">&lt;p&gt;Release &lt;strong&gt;2.19.0&lt;/strong&gt; der Zeiterfassung bringt spannende Neuerungen für die &lt;strong&gt;Arbeitszeiterfassung&lt;/strong&gt; und die &lt;strong&gt;Benutzeransichten&lt;/strong&gt;. Ebenso wurde die Berechtigungsänderung verbessert.&lt;/p&gt;
+&lt;h2 id=&quot;verbesserungen&quot;&gt;Verbesserungen&lt;/h2&gt;
+&lt;h3 id=&quot;arbeitszeit-auf-0-stunden-setzen&quot;&gt;Arbeitszeit auf 0 Stunden setzen&lt;/h3&gt;
+&lt;p&gt;Ab sofort können Nutzer ihre &lt;strong&gt;Arbeitszeit pro Tag auf 0 Stunden setzen&lt;/strong&gt;.
+Diese Funktion ist besonders nützlich, wenn eine Person an einem bestimmten Tag nicht arbeitet,
+beispielsweise bei einem Arbeitsbeginn, der in der Zukunft liegt oder bei Elternzeit.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Warum ist das wichtig?&lt;/strong&gt;&lt;br /&gt;
+Die Möglichkeit, Arbeitszeiten auf 0 Stunden zu setzen, vereinfacht die Konfiguration der Zeiterfassung und macht die Anwendung
+flexibler bei der Verwaltung von Abwesenheiten.&lt;/p&gt;
+&lt;h3 id=&quot;startseitenansicht-einer-anderen-person-fuer-privilegierte-nutzer&quot;&gt;Startseitenansicht einer anderen Person für privilegierte Nutzer&lt;/h3&gt;
+&lt;p&gt;Privilegierte Nutzer haben jetzt die Möglichkeit, die &lt;strong&gt;Startseitenansicht&lt;/strong&gt; einer anderen Person zu sehen.
+Dies ist besonders für &lt;strong&gt;Vorgesetzte&lt;/strong&gt; oder &lt;strong&gt;HR-Administratoren&lt;/strong&gt; nützlich, die die &lt;strong&gt;Arbeitszeiten&lt;/strong&gt; ihrer Mitarbeitenden verwalten müssen.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Warum ist das wichtig?&lt;/strong&gt;&lt;br /&gt;
+Diese Erweiterung verbessert die &lt;strong&gt;Benutzerverwaltung&lt;/strong&gt; und ermöglicht es den verantwortlichen Personen,
+schnell einen Überblick über die Arbeitszeiterfassung ihrer Mitarbeiter zu bekommen.&lt;/p&gt;
+&lt;h3 id=&quot;berechtigungsaenderung-direkt-aktiv-und-sichtbar&quot;&gt;Berechtigungsänderung direkt aktiv und sichtbar&lt;/h3&gt;
+&lt;p&gt;Ab sofort wird eine &lt;strong&gt;Berechtigungsänderung&lt;/strong&gt; direkt aktiv und korrekt angezeigt, ohne dass eine Aktualisierung der Seite erforderlich ist.&lt;/p&gt;
+&lt;h2 id=&quot;fazit&quot;&gt;Fazit&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;Release 2.19.0&lt;/strong&gt; bringt wichtige Erweiterungen und Verbesserungen für die Zeiterfassungssoftware.
+Die Möglichkeit, &lt;strong&gt;Arbeitszeiten auf 0 Stunden zu setzen&lt;/strong&gt;, sowie die verbesserte &lt;strong&gt;Startseitenansicht für privilegierte Nutzer&lt;/strong&gt; machen das Tool noch benutzerfreundlicher.
+Zudem wurde die Berechtigungsänderung verbessert, was die Zuverlässigkeit der Anwendung weiter erhöht.&lt;/p&gt;
+&lt;p&gt;&lt;sub&gt;Zur vollständigen Release-Übersicht: &lt;a href=&quot;https://github.com/urlaubsverwaltung/zeiterfassung/releases/tag/zeiterfassung-2.19.0&quot;&gt;Release 2.19.0 auf GitHub ansehen&lt;/a&gt;&lt;/sub&gt;&lt;/p&gt;
+</content>
+  </entry>
+  <entry>
+    <title>Urlaubsverwaltung 5.21.0 – Wir können nun Singular und Plural!</title>
+    <link href="https://urlaubsverwaltung.cloud/neuigkeiten/2025-03-14-release-5.21.0/" />
+    <updated>2025-05-30T00:00:00Z</updated>
+    <id>https://urlaubsverwaltung.cloud/neuigkeiten/2025-03-14-release-5.21.0/</id>
+    <author>
+      <name>Andreas Weigel</name>
+    </author>
+    <content type="html">&lt;p&gt;Mit dem &lt;strong&gt;Release 5.21.0&lt;/strong&gt; der Urlaubsverwaltung wird die &lt;strong&gt;Darstellung von Tagen und Stunden&lt;/strong&gt; verbessert.&lt;/p&gt;
+&lt;h2 id=&quot;singular-/-plural-bei-den-tagen-und-stunden&quot;&gt;Singular / Plural bei den Tagen und Stunden&lt;/h2&gt;
+&lt;p&gt;Eine kleine, aber feine Verbesserung: Wenn es um die Angabe von &lt;strong&gt;Tagen&lt;/strong&gt; und &lt;strong&gt;Stunden&lt;/strong&gt; geht, wird jetzt korrekt zwischen Singular und Plural unterschieden. Das mag sich komisch anhören.
+Aber auch hier muss man sich Gedanken machen und Zeit in die Entwicklung stecken. Wer mag schon &amp;quot;1 Urlaubstage&amp;quot; lesen? Niemand.
+Das ist einfach nicht korrekt und sieht auch noch komisch aus.
+Deshalb zeigen wir euch nun bei einem einzelnen Tag als Abwesenheit &amp;quot;1 Tag&amp;quot; und bei mehreren Tagen z.B. &amp;quot;2 Tage&amp;quot; an.
+So einfach kann es sein.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Vorteil:&lt;/strong&gt; Diese Anpassung sorgt für eine &lt;strong&gt;benutzerfreundlichere Darstellung&lt;/strong&gt; und verhindert Missverständnisse. Hoffentlich.&lt;/p&gt;
+&lt;h2 id=&quot;fazit&quot;&gt;Fazit&lt;/h2&gt;
+&lt;p&gt;Die &lt;strong&gt;Version 5.21.0&lt;/strong&gt; der Urlaubsverwaltung mag auf den ersten Blick eine kleine Veränderung sein, aber sie macht die
+Anwendung deutlich &lt;strong&gt;benutzerfreundlicher&lt;/strong&gt;. Besonders im täglichen Umgang mit Urlaubs- und Krankheitsmeldungen
+sorgt die Verbesserung der Anzeige von Tagen und Stunden für mehr Klarheit.&lt;/p&gt;
+&lt;p&gt;&lt;sub&gt;Zur vollständigen Release-Übersicht: &lt;a href=&quot;https://github.com/urlaubsverwaltung/urlaubsverwaltung/releases/tag/urlaubsverwaltung-5.21.0&quot;&gt;Release 5.21.0 auf GitHub ansehen&lt;/a&gt;&lt;/sub&gt;&lt;/p&gt;
+</content>
+  </entry>
+  <entry>
     <title>Zeiterfassung 2.18.0 – Verbesserte Performance &amp; Personensuche</title>
     <link href="https://urlaubsverwaltung.cloud/neuigkeiten/2025-03-14-release-2.18.0/" />
     <updated>2025-05-28T00:00:00Z</updated>
