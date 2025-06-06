@@ -1,5 +1,5 @@
 ---
-draft: true
+draft: false
 layout: layout-neuigkeiten.hbs
 date: 2025-06-13
 title: Urlaubsverwaltung 5.24.0 – Direkte Kommentare bei Abwesenheiten und Überstunden
@@ -35,8 +35,8 @@ Das ist besonders praktisch, wenn du schnell etwas anmerken möchtest, ohne den 
     </figure>
 </div>
 
-> **Warum ist das wichtig?**  
-> Urlaubsanträge und Überstunden müssen nicht mehr bearbeitet werden, um einen Kommentar zum Verlauf hinzuzufügen. Dies erleichtert es den Verlauf zu verwenden und die Kommunikation zu verbessern.
+**Warum ist das wichtig?**  
+Urlaubsanträge und Überstunden müssen nicht mehr bearbeitet werden, um einen Kommentar zum Verlauf hinzuzufügen. Dies erleichtert es den Verlauf zu verwenden und die Kommunikation zu verbessern.
 
 ## Fazit
 
