@@ -21,6 +21,28 @@ Bisher mussten Überstunden und deren Abbau jedoch manuell gepflegt werden.
 
 Damit ist jetzt Schluss:
 
+## Hier aktivierst du die Synchronisierung der Überstunden:
+
+In den Einstellungen der Urlaubsverwaltung im Reiter "Überstunden" kann die Synchronisierung der Überstunden aktiviert werden.
+Beachte, dass diese Einstellung nur für SaaS-Kunden verfügbar ist, die sowohl die Zeiterfassung als auch die Urlaubsverwaltung nutzen.
+Außerdem ist ab der Aktivierung eine manuelle erhebung von Überstunden nicht mehr möglich, da es sonst zu Inkonsistenzen kommen kann.
+Die zuvor manuel angelegten Überstunden, können weiterhin bearbeitet werden. 
+
+<div class="flex my-8">
+    <figure>
+        <picture>
+            <img
+              src="overtime-sync-config.png"
+              alt="Aktivierung der Synchronisierung der Überstunden"
+              decoding="async"
+              loading="lazy"
+              class="rounded-lg"
+            />
+        </picture>
+        <figcaption class="text-sm text-center">Aktivierung der Synchronisierung der Überstunden</figcaption>
+    </figure>
+</div>
+
 ## So funktioniert die neue Synchronisierung:
 
 - Überstunden und Minusstunden, die in der Zeiterfassung anfallen, werden automatisch in die Urlaubsverwaltung übertragen.
