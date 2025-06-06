@@ -1,7 +1,7 @@
 ---
 draft: false
 layout: layout-neuigkeiten.hbs
-date: 2025-05-28
+date: 2025-06-06
 title: Neues Feature-Release - Nahtlose Synchronisierung von Überstunden zwischen Zeiterfassung und Urlaubsverwaltung
 author: Andreas Weigel
 teaserImage: /static/teaser/2025-05-28/uv-ze-overtime-sync.png
@@ -45,7 +45,22 @@ Die zuvor manuel angelegten Überstunden, können weiterhin bearbeitet werden.
 
 ## So funktioniert die neue Synchronisierung:
 
-- Überstunden und Minusstunden, die in der Zeiterfassung anfallen, werden automatisch in die Urlaubsverwaltung übertragen.
+- Überstunden und Minusstunden, die in der Zeiterfassung anfallen, werden automatisch in die Urlaubsverwaltung übertragen. Die manuell erstellten Überstunden können weiterhin bearbeitet werden.
+
+<div class="flex my-8">
+    <figure>
+        <picture>
+            <img
+              src="overtime-listview.png"
+              alt="Übersicht der Synchronisierten Überstunden"
+              decoding="async"
+              loading="lazy"
+              class="rounded-lg"
+            />
+        </picture>
+        <figcaption class="text-sm text-center">Übersicht der Synchronisierten Überstunden</figcaption>
+    </figure>
+</div>
 
 - Wird in der Urlaubsverwaltung ein Überstundenabbau beantragt und genehmigt, wird diese Information an die Zeiterfassung übertragen.
 
