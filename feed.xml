@@ -4,8 +4,53 @@
   <subtitle></subtitle>
   <link rel="self" href="https://urlaubsverwaltung.cloud/feed.xml" />
   <link rel="alternate" type="text/html" href="https://urlaubsverwaltung.cloud" />
-  <updated>2025-06-06T00:00:00Z</updated>
+  <updated>2025-06-11T00:00:00Z</updated>
   <id>https://urlaubsverwaltung.cloud</id>
+  <entry>
+    <title>Urlaubsverwaltung 5.23.0 – Abwesenheitsstatistik einsehen und Fehlerbehebungen</title>
+    <link href="https://urlaubsverwaltung.cloud/neuigkeiten/2025-03-28-release-5.23.0/" />
+    <updated>2025-06-11T00:00:00Z</updated>
+    <id>https://urlaubsverwaltung.cloud/neuigkeiten/2025-03-28-release-5.23.0/</id>
+    <author>
+      <name>Andreas Weigel</name>
+    </author>
+    <content type="html">&lt;p&gt;Das &lt;strong&gt;Release 5.23.0&lt;/strong&gt; der &lt;strong&gt;Urlaubsverwaltung&lt;/strong&gt; bringt spannende neue &lt;strong&gt;Funktionen&lt;/strong&gt; sowie &lt;strong&gt;Verbesserungen&lt;/strong&gt;.
+Besonders hervorzuheben ist die Möglichkeit für Benutzende, die &lt;strong&gt;Abwesenheitsstatistik&lt;/strong&gt; einzusehen.
+Darüber hinaus ist es ab jetzt möglich initial &lt;strong&gt;negative Überstunden&lt;/strong&gt; zu erheben.&lt;/p&gt;
+&lt;h2 id=&quot;neue-funktionen&quot;&gt;Neue Funktionen&lt;/h2&gt;
+&lt;h3 id=&quot;abwesenheitsstatistik-fuer-benutzende-einsehbar&quot;&gt;Abwesenheitsstatistik für Benutzende einsehbar&lt;/h3&gt;
+&lt;p&gt;Mit diesem Update können Benutzende nun eine &lt;strong&gt;Abwesenheitsstatistik&lt;/strong&gt; einsehen, die es ihnen ermöglicht, ihre vergangenen und geplanten Abwesenheiten schnell zu überprüfen. Diese Funktion bietet eine Übersicht über &lt;strong&gt;Urlaubstage&lt;/strong&gt;, &lt;strong&gt;Krankmeldungen&lt;/strong&gt; und andere relevante Abwesenheiten und hilft dabei, eine bessere Übersicht und Planung zu gewährleisten.&lt;/p&gt;
+&lt;div class=&quot;flex my-8&quot;&gt;
+    &lt;figure&gt;
+        &lt;picture&gt;
+            &lt;img src=&quot;https://urlaubsverwaltung.cloud/neuigkeiten/2025-03-28-release-5.23.0/Abwesenheitsstatistik.png&quot; alt=&quot;Einblick in die Abwesenheitsstatistik&quot; decoding=&quot;async&quot; loading=&quot;lazy&quot; class=&quot;rounded-lg&quot; /&gt;
+        &lt;/picture&gt;
+        &lt;figcaption class=&quot;text-sm text-center&quot;&gt;Einblick in die Abwesenheitsstatistik&lt;/figcaption&gt;
+    &lt;/figure&gt;
+&lt;/div&gt;
+&lt;p&gt;&lt;strong&gt;Warum ist das wichtig?&lt;/strong&gt;&lt;br /&gt;
+Diese Funktion erleichtert Benutzern die &lt;strong&gt;Selbstkontrolle&lt;/strong&gt; über ihre &lt;strong&gt;Abwesenheitszeiten&lt;/strong&gt; und fördert eine transparentere Verwaltung von Urlaub und Krankheitstagen. Besonders nützlich für &lt;strong&gt;Personalabteilungen&lt;/strong&gt; und &lt;strong&gt;Mitarbeiter&lt;/strong&gt;, die ihre Abwesenheiten genau im Blick behalten müssen.&lt;/p&gt;
+&lt;h2 id=&quot;verbesserungen&quot;&gt;Verbesserungen&lt;/h2&gt;
+&lt;h3 id=&quot;initiales-anlegen-von-negativen-ueberstunden-mit-minus-10-zb-moeglich&quot;&gt;Initiales Anlegen von negativen Überstunden mit Minus (-10 z.B.) möglich&lt;/h3&gt;
+&lt;p&gt;Mit diesem Update ist es möglich, &lt;strong&gt;negative Überstunden&lt;/strong&gt; zu erstellen (z.B. -10 Stunden).
+Ab jetzt können &lt;strong&gt;negative Überstunden&lt;/strong&gt; korrekt angelegt werden, was für &lt;strong&gt;Überstundenabbau&lt;/strong&gt; oder &lt;strong&gt;Guthaben&lt;/strong&gt; von Bedeutung ist.&lt;/p&gt;
+&lt;div class=&quot;flex my-8&quot;&gt;
+    &lt;figure&gt;
+        &lt;picture&gt;
+            &lt;img src=&quot;https://urlaubsverwaltung.cloud/neuigkeiten/2025-03-28-release-5.23.0/minusstunden.png&quot; alt=&quot;Formular zum Eintragen von Minusstunden&quot; decoding=&quot;async&quot; loading=&quot;lazy&quot; class=&quot;rounded-lg&quot; /&gt;
+        &lt;/picture&gt;
+        &lt;figcaption class=&quot;text-sm text-center&quot;&gt;Formular zum Eintragen von Minusstunden&lt;/figcaption&gt;
+    &lt;/figure&gt;
+&lt;/div&gt;
+&lt;p&gt;&lt;strong&gt;Warum ist das wichtig?&lt;/strong&gt;&lt;br /&gt;
+Für die &lt;strong&gt;Überstundenverwaltung&lt;/strong&gt; ist es entscheidend, dass sowohl &lt;strong&gt;positive als auch negative Stunden&lt;/strong&gt; korrekt erfasst werden können.
+Mit diesem Fix können Unternehmen &lt;strong&gt;negative Überstunden&lt;/strong&gt; zur Reduzierung von Arbeitszeitguthaben oder Abbau von Überstunden nutzen.&lt;/p&gt;
+&lt;h2 id=&quot;fazit&quot;&gt;Fazit&lt;/h2&gt;
+&lt;p&gt;Das &lt;strong&gt;Release 5.23.0&lt;/strong&gt; bietet einige nützliche &lt;strong&gt;Erweiterungen&lt;/strong&gt;, insbesondere die Möglichkeit für Benutzer,
+ihre &lt;strong&gt;Abwesenheitsstatistik&lt;/strong&gt; einzusehen. Zudem wurden behoben: &lt;strong&gt;Anlage von negativen Überstunden&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;sub&gt;Zur vollständigen Release-Übersicht: &lt;a href=&quot;https://github.com/urlaubsverwaltung/urlaubsverwaltung/releases/tag/urlaubsverwaltung-5.23.0&quot;&gt;Release 5.23.0 auf GitHub ansehen&lt;/a&gt;&lt;/sub&gt;&lt;/p&gt;
+</content>
+  </entry>
   <entry>
     <title>Neues Feature-Release - Nahtlose Synchronisierung von Überstunden zwischen Zeiterfassung und Urlaubsverwaltung</title>
     <link href="https://urlaubsverwaltung.cloud/neuigkeiten/2025-05-28-overtime-sync/" />
