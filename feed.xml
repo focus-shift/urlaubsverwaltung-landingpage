@@ -4,8 +4,36 @@
   <subtitle></subtitle>
   <link rel="self" href="https://urlaubsverwaltung.cloud/feed.xml" />
   <link rel="alternate" type="text/html" href="https://urlaubsverwaltung.cloud" />
-  <updated>2025-06-11T00:00:00Z</updated>
+  <updated>2025-06-13T00:00:00Z</updated>
   <id>https://urlaubsverwaltung.cloud</id>
+  <entry>
+    <title>Urlaubsverwaltung 5.24.0 – Direkte Kommentare bei Abwesenheiten und Überstunden</title>
+    <link href="https://urlaubsverwaltung.cloud/neuigkeiten/2025-04-23-release-5.24.0/" />
+    <updated>2025-06-13T00:00:00Z</updated>
+    <id>https://urlaubsverwaltung.cloud/neuigkeiten/2025-04-23-release-5.24.0/</id>
+    <author>
+      <name>Andreas Weigel</name>
+    </author>
+    <content type="html">&lt;p&gt;Das &lt;strong&gt;Release 5.24.0&lt;/strong&gt; ermöglicht es einheitlich Kommentare ohne das Bearbeiten von Krankmeldungen, Urlaubsanträgen und Überstunden hinzuzufügen.&lt;/p&gt;
+&lt;h2 id=&quot;kommentare-direkt-bei-urlaubantraegen-ueberstunden-&amp;amp;-co-–-ganz-easy&quot;&gt;Kommentare direkt bei Urlaubanträgen, Überstunden &amp;amp; Co. – ganz easy&lt;/h2&gt;
+&lt;p&gt;Ab jetzt kannst du direkt &lt;strong&gt;Kommentare&lt;/strong&gt; zu &lt;strong&gt;Urlaubsanträgen, Überstunden oder Krankmeldungen&lt;/strong&gt; hinzufügen – ohne den Antrag oder die Überstunden extra bearbeiten zu müssen.&lt;/p&gt;
+&lt;p&gt;So bleibt der Verlauf übersichtlich und die Kommunikation läuft entspannter. Die Funktion gibt’s schon für Krankmeldungen – und &lt;strong&gt;jetzt auch für Urlaubsanträge &amp;amp; Überstunden&lt;/strong&gt;.
+Das ist besonders praktisch, wenn du schnell etwas anmerken möchtest, ohne den gesamten Antrag durchzugehen. Einfach Kommentar hinzufügen und fertig!&lt;/p&gt;
+&lt;div class=&quot;flex my-8&quot;&gt;
+    &lt;figure&gt;
+        &lt;picture&gt;
+            &lt;img src=&quot;https://urlaubsverwaltung.cloud/neuigkeiten/2025-04-23-release-5.24.0/kommentar-krankmeldung.png&quot; alt=&quot;Kommentar direkt zum Verlauf hinzufügen&quot; decoding=&quot;async&quot; loading=&quot;lazy&quot; class=&quot;rounded-lg&quot; /&gt;
+        &lt;/picture&gt;
+        &lt;figcaption class=&quot;text-sm text-center&quot;&gt;Kommentar direkt zum Verlauf hinzufügen&lt;/figcaption&gt;
+    &lt;/figure&gt;
+&lt;/div&gt;
+&lt;p&gt;&lt;strong&gt;Warum ist das wichtig?&lt;/strong&gt;&lt;br /&gt;
+Urlaubsanträge und Überstunden müssen nicht mehr bearbeitet werden, um einen Kommentar zum Verlauf hinzuzufügen. Dies erleichtert es den Verlauf zu verwenden und die Kommunikation zu verbessern.&lt;/p&gt;
+&lt;h2 id=&quot;fazit&quot;&gt;Fazit&lt;/h2&gt;
+&lt;p&gt;Das &lt;strong&gt;Release 5.24.0&lt;/strong&gt; macht es einfacher, Kommentare zu Abwesenheiten hinzuzufügen, ohne die Abwesenheit selbst zu bearbeiten.&lt;/p&gt;
+&lt;p&gt;&lt;sub&gt;Zur vollständigen Release-Übersicht: &lt;a href=&quot;https://github.com/urlaubsverwaltung/urlaubsverwaltung/releases/tag/urlaubsverwaltung-5.24.0&quot;&gt;Release 5.24.0 auf GitHub ansehen&lt;/a&gt;&lt;/sub&gt;&lt;/p&gt;
+</content>
+  </entry>
   <entry>
     <title>Urlaubsverwaltung 5.23.0 – Abwesenheitsstatistik einsehen und Fehlerbehebungen</title>
     <link href="https://urlaubsverwaltung.cloud/neuigkeiten/2025-03-28-release-5.23.0/" />
