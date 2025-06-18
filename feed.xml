@@ -4,8 +4,46 @@
   <subtitle></subtitle>
   <link rel="self" href="https://urlaubsverwaltung.cloud/feed.xml" />
   <link rel="alternate" type="text/html" href="https://urlaubsverwaltung.cloud" />
-  <updated>2025-06-13T00:00:00Z</updated>
+  <updated>2025-06-18T00:00:00Z</updated>
   <id>https://urlaubsverwaltung.cloud</id>
+  <entry>
+    <title>Zeiterfassung 2.21.0 – Festschreiben von Zeiteinträgen</title>
+    <link href="https://urlaubsverwaltung.cloud/neuigkeiten/2025-04-25-release-2.21.0/" />
+    <updated>2025-06-18T00:00:00Z</updated>
+    <id>https://urlaubsverwaltung.cloud/neuigkeiten/2025-04-25-release-2.21.0/</id>
+    <author>
+      <name>Tobias Schneider</name>
+    </author>
+    <content type="html">&lt;p&gt;Release &lt;strong&gt;2.21.0&lt;/strong&gt; bringt das Festschreiben von Zeiteinträgen.&lt;/p&gt;
+&lt;h2 id=&quot;festschreiben-von-zeiteintraegen&quot;&gt;Festschreiben von Zeiteinträgen&lt;/h2&gt;
+&lt;p&gt;Das Hinzufügen und Ändern von Zeiteinträgen kann, seit dem Release 2.21.0, ab einem bestimmten Datum verhindert werden, um sie vor Änderungen zu schützen.
+Dies ist besonders wichtig, wenn die Zeitbuchungen für die Lohnabrechnung verwendet werden.&lt;/p&gt;
+&lt;p&gt;In der Zeiterfassung können Personen mit der Berechtigung &amp;quot;darf die globalen Einstellungen bearbeiten&amp;quot; unter
+&#39;Einstellungen &amp;gt; Festschreiben von Zeitslots&#39; einstellen nach wie vielen Tagen Zeiteinträge für die Mitarbeitenden festgeschrieben werden sollen.&lt;/p&gt;
+&lt;p&gt;
+  &lt;picture&gt;
+    &lt;img src=&quot;https://urlaubsverwaltung.cloud/neuigkeiten/2025-04-25-release-2.21.0/zeiteintrag_festschreiben.png&quot; alt=&quot;&quot; decoding=&quot;async&quot; loading=&quot;lazy&quot; width=&quot;982&quot; height=&quot;593&quot; /&gt;
+  &lt;/picture&gt;
+&lt;/p&gt;
+&lt;p&gt;Nur Mitarbeitende mit der Berechtigung &#39;darf die Zeiteinträge aller Personen bearbeiten&#39;
+können an einem festgeschriebenen Tag neue Zeiteinträge hinzufügen oder bestehende bearbeiten.&lt;/p&gt;
+&lt;p&gt;Festgeschriebene Tage sind in der Übersicht mit einem Schloss-Symbol markiert.
+An diesen Tagen können keine Zeiteinträge hinzugefügt oder geändert werden.&lt;/p&gt;
+&lt;p&gt;
+  &lt;picture&gt;
+    &lt;img src=&quot;https://urlaubsverwaltung.cloud/neuigkeiten/2025-04-25-release-2.21.0/zeiteintrag_festschreiben_lock_zeit.png&quot; alt=&quot;&quot; decoding=&quot;async&quot; loading=&quot;lazy&quot; width=&quot;1036&quot; height=&quot;903&quot; /&gt;
+  &lt;/picture&gt;
+&lt;/p&gt;
+&lt;p&gt;Für Personen mit der Berechtigung &amp;quot;darf die globalen Einstellungen bearbeiten&amp;quot; wird das Schloss-Symbol angezeigt.
+Diese können aber weiterhin neue Zeiteinträge hinzufügen bzw. bearbeiten.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Warum ist das wichtig?&lt;/strong&gt;&lt;br /&gt;
+Das Festschreiben von Zeiteinträgen ist eine wichtige Funktion, um die Integrität der Daten zu gewährleisten und sicherzustellen,&lt;/p&gt;
+&lt;h2 id=&quot;fazit&quot;&gt;Fazit&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;Release 2.21.0&lt;/strong&gt; bringt eine wichtige Erweiterung der Zeiterfassung. Das Festschreiben von Zeiteinträgen ist eine wichtige Funktion,
+um die Integrität der Daten zu gewährleisten und um sicherzustellen, dass ab einem bestimmten Zeitpunkt keine Änderungen mehr vorgenommen werden können.&lt;/p&gt;
+&lt;p&gt;&lt;sub&gt;Zur vollständigen Release-Übersicht: &lt;a href=&quot;https://github.com/urlaubsverwaltung/zeiterfassung/releases/tag/zeiterfassung-2.21.0&quot;&gt;Release 2.21.0 auf GitHub ansehen&lt;/a&gt;&lt;/sub&gt;&lt;/p&gt;
+</content>
+  </entry>
   <entry>
     <title>Urlaubsverwaltung 5.24.0 – Direkte Kommentare bei Abwesenheiten und Überstunden</title>
     <link href="https://urlaubsverwaltung.cloud/neuigkeiten/2025-04-23-release-5.24.0/" />
