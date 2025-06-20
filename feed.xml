@@ -4,8 +4,66 @@
   <subtitle></subtitle>
   <link rel="self" href="https://urlaubsverwaltung.cloud/feed.xml" />
   <link rel="alternate" type="text/html" href="https://urlaubsverwaltung.cloud" />
-  <updated>2025-06-18T00:00:00Z</updated>
+  <updated>2025-06-20T00:00:00Z</updated>
   <id>https://urlaubsverwaltung.cloud</id>
+  <entry>
+    <title>Urlaubsverwaltung 5.25.0 – Neue Einstellungen und Abteilungsleiter und Freigabe-Verantwortliche dürfen nun auch Abwesenheiten editieren</title>
+    <link href="https://urlaubsverwaltung.cloud/neuigkeiten/2025-05-02-release-5.25.0/" />
+    <updated>2025-06-20T00:00:00Z</updated>
+    <id>https://urlaubsverwaltung.cloud/neuigkeiten/2025-05-02-release-5.25.0/</id>
+    <author>
+      <name>Tobias Schneider</name>
+    </author>
+    <content type="html">&lt;p&gt;Im Release &lt;strong&gt;5.25.0&lt;/strong&gt; haben wir die Einstellungen in Unterkategorien aufgeteilt und die Berechtigungen für Abteilungsleiter und Freigabe-Verantwortliche angepasst.&lt;/p&gt;
+&lt;h2 id=&quot;editieren-von-abwesenheiten-fuer-abteilungsleiter-und-freigabe-verantwortliche&quot;&gt;Editieren von Abwesenheiten für Abteilungsleiter und Freigabe-Verantwortliche&lt;/h2&gt;
+&lt;p&gt;Abteilungsleiter und Freigabe-Verantwortliche dürfen nun auch die Abwesenheiten von Personen bearbeiten, für die sie verantwortlich sind.
+Bisher war dies nicht möglich und der Abteilungsleiter oder Freigabe-Verantwortliche musste den Antrag zunächst löschen und neu anlegen oder
+diese Aufgabe an eine Person mit der Berechtigung „Office“ abgeben.&lt;/p&gt;
+&lt;p&gt;Durch diese Anpassung wird das autonome Arbeiten für Abteilungsleiter und Freigabe-Verantwortliche erleichtert.
+Die entsprechende Berechtigung wird automatisch hinzugefügt, sofern die Person bereits über die Berechtigung &amp;quot;Pflege von Abwesenheiten&amp;quot; verfügt.&lt;/p&gt;
+&lt;h2 id=&quot;aufteilung-der-einstellungen&quot;&gt;Aufteilung der Einstellungen&lt;/h2&gt;
+&lt;p&gt;Die Einstellungen der Urlaubsverwaltung wurden in weitere Unterkategorien aufgeteilt. Dadurch wird die Übersichtlichkeit erhöht.
+Zudem wird die Navigation innerhalb der Einstellungen erleichtert.&lt;/p&gt;
+&lt;p&gt;Die Einstellungen sind nun in folgende Kategorien unterteilt:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Abwesenheiten&lt;/li&gt;
+&lt;li&gt;Abwesenheitsarten&lt;/li&gt;
+&lt;li&gt;Überstunden&lt;/li&gt;
+&lt;li&gt;Feiertagsregelung&lt;/li&gt;
+&lt;li&gt;Konto&lt;/li&gt;
+&lt;li&gt;Avatare&lt;/li&gt;
+&lt;li&gt;Kalender&lt;/li&gt;
+&lt;li&gt;Kalender Synchronisation&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&quot;flex my-8&quot;&gt;
+    &lt;figure&gt;
+        &lt;picture&gt;
+            &lt;img src=&quot;https://urlaubsverwaltung.cloud/neuigkeiten/2025-05-02-release-5.25.0/Einstellung-kategorien.png&quot; alt=&quot;Übersicht der Einstellungskategorien&quot; decoding=&quot;async&quot; loading=&quot;lazy&quot; class=&quot;rounded-lg&quot; /&gt;
+        &lt;/picture&gt;
+        &lt;figcaption class=&quot;text-sm text-center&quot;&gt;Übersicht der Einstellungskategorien&lt;/figcaption&gt;
+    &lt;/figure&gt;
+&lt;/div&gt;
+&lt;h2 id=&quot;berechtigungen-der-personen-einer-abteilung-wird-angezeigt&quot;&gt;Berechtigungen der personen einer Abteilung wird angezeigt&lt;/h2&gt;
+&lt;p&gt;Bisher musste man eine Abteilung bearbeiten, um die Berechtigungen der Personen darin einzusehen.
+Die Berechtigungen einer Person können ab jetzt direkt in der Übersicht der entsprechenden Abteilung eingesehen werden.
+Das erleichtert die Verwaltung der Berechtigungen.&lt;/p&gt;
+&lt;div class=&quot;flex my-8&quot;&gt;
+    &lt;figure&gt;
+        &lt;picture&gt;
+            &lt;img src=&quot;https://urlaubsverwaltung.cloud/neuigkeiten/2025-05-02-release-5.25.0/abteilung-uebersicht.png&quot; alt=&quot;Abteilungsübersicht mit Berechtigungen&quot; decoding=&quot;async&quot; loading=&quot;lazy&quot; class=&quot;rounded-lg&quot; /&gt;
+        &lt;/picture&gt;
+        &lt;figcaption class=&quot;text-sm text-center&quot;&gt;Abteilungsübersicht mit Berechtigungen&lt;/figcaption&gt;
+    &lt;/figure&gt;
+&lt;/div&gt;
+&lt;h2 id=&quot;fazit&quot;&gt;Fazit&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;Release 5.25.0&lt;/strong&gt; bringt spürbare Verbesserungen für die tägliche Arbeit mit sich. Abteilungsleiter und Freigabe-Verantwortliche
+erhalten durch die Möglichkeit, Abwesenheiten direkt zu bearbeiten, mehr Autonomie und Flexibilität.
+Gleichzeitig sorgt die neue, übersichtlichere Struktur der Einstellungen für eine bessere Benutzerführung und erleichtert
+das Auffinden relevanter Einstellungen. Darüber hinaus verbessert die direkte Anzeige der Berechtigungen innerhalb der
+Abteilungsübersicht die Transparenz und Effizienz in der Berechtigungsverwaltung.&lt;/p&gt;
+&lt;p&gt;&lt;sub&gt;Zur vollständigen Release-Übersicht: &lt;a href=&quot;https://github.com/urlaubsverwaltung/urlaubsverwaltung/releases/tag/urlaubsverwaltung-5.25.0&quot;&gt;Release 5.25.0 auf GitHub ansehen&lt;/a&gt;&lt;/sub&gt;&lt;/p&gt;
+</content>
+  </entry>
   <entry>
     <title>Zeiterfassung 2.21.0 – Festschreiben von Zeiteinträgen</title>
     <link href="https://urlaubsverwaltung.cloud/neuigkeiten/2025-04-25-release-2.21.0/" />
