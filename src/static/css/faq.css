@@ -87,7 +87,8 @@ input[type="checkbox"] ~ dl dt > label > span > svg {
 #faq-checkbox-zahlungsarten:checked ~ dl dd[data-id="faq-p-zahlungsarten"],
 #faq-checkbox-sepa:checked ~ dl dd[data-id="faq-p-sepa"],
 #faq-checkbox-kuendigen:checked ~ dl dd[data-id="faq-p-kuendigen"],
-#faq-checkbox-kosten:checked ~ dl dd[data-id="faq-p-kosten"],
+#faq-checkbox-kosten-uv:checked ~ dl dd[data-id="faq-p-kosten-uv"],
+#faq-checkbox-kosten-ze:checked ~ dl dd[data-id="faq-p-kosten-ze"],
 #faq-checkbox-jahresvertrag:checked ~ dl dd[data-id="faq-p-jahresvertrag"],
 #faq-checkbox-dsgvo:checked ~ dl dd[data-id="faq-p-dsgvo"],
 #faq-checkbox-mitarbeiter-anlegen:checked
