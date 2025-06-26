@@ -4,8 +4,45 @@
   <subtitle></subtitle>
   <link rel="self" href="https://urlaubsverwaltung.cloud/feed.xml" />
   <link rel="alternate" type="text/html" href="https://urlaubsverwaltung.cloud" />
-  <updated>2025-06-20T00:00:00Z</updated>
+  <updated>2025-06-26T00:00:00Z</updated>
   <id>https://urlaubsverwaltung.cloud</id>
+  <entry>
+    <title>iOS-App für deine Mitarbeitende</title>
+    <link href="https://urlaubsverwaltung.cloud/neuigkeiten/2025-06-26-mobile-app-ios/" />
+    <updated>2025-06-26T00:00:00Z</updated>
+    <id>https://urlaubsverwaltung.cloud/neuigkeiten/2025-06-26-mobile-app-ios/</id>
+    <author>
+      <name>Daniel Fuchs</name>
+    </author>
+    <content type="html">&lt;p&gt;Wir freuen uns sehr, euch heute ein ganz besonderes Update präsentieren zu können:
+Ab sofort ist die &lt;strong&gt;urlaubsverwaltung.cloud Mitarbeiter-App auch für iOS verfügbar!&lt;/strong&gt; Damit können deine Mitarbeitenden jetzt noch einfacher und flexibler Abwesenheiten beantragen und Arbeitszeiten erfassen – direkt vom iPhone oder iPad.&lt;/p&gt;
+&lt;h2 id=&quot;was-kann-die-ios-app&quot;&gt;Was kann die iOS-App?&lt;/h2&gt;
+&lt;p&gt;Mit der neuen iOS-App stehen dir und deinem Team alle wichtigen Funktionen der Urlaubsverwaltung und Zeiterfasssung auch unterwegs zur Verfügung:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Abwesenheiten beantragen:&lt;/strong&gt; z.B. Erholungsurlaub, Krankheit oder Homeoffice können direkt über die App beantragt bzw. eingetragen werden.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Arbeitszeiten erfassen:&lt;/strong&gt; Die Zeiterfassung ist jederzeit griffbereit – inklusive Stoppuhr-Funktion.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Übersicht behalten:&lt;/strong&gt; Alle Anträge, Urlaubsansprüche und Arbeitszeiten auf einen Blick.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Synchronisation:&lt;/strong&gt; Alle Daten werden automatisch mit der Web-Anwendung synchronisiert – keine lokalen Daten auf dem Gerät.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+  &lt;picture&gt;
+    &lt;img src=&quot;https://urlaubsverwaltung.cloud/neuigkeiten/2025-06-26-mobile-app-ios/ios-teaser.png&quot; alt=&quot;Die neue urlaubsverwaltung.cloud iOS-App&quot; decoding=&quot;async&quot; loading=&quot;lazy&quot; height=&quot;auto&quot; /&gt;
+  &lt;/picture&gt;
+&lt;/p&gt;
+&lt;h2 id=&quot;fuer-wen-ist-die-app-gedacht&quot;&gt;Für wen ist die App gedacht?&lt;/h2&gt;
+&lt;p&gt;Die App richtet sich an alle Organisationen, die urlaubsverwaltung.cloud als SaaS-Lösung nutzen.
+Sie ist für alle Mitarbeitenden gedacht, die ihre Abwesenheiten und Arbeitszeiten bequem vom Smartphone oder Tablet aus verwalten möchten.&lt;/p&gt;
+&lt;h2 id=&quot;so-bekommst-du-die-app&quot;&gt;So bekommst du die App&lt;/h2&gt;
+&lt;p&gt;Die iOS-App steht ab sofort kostenlos im &lt;a href=&quot;https://apps.apple.com/us/app/urlaubsverwaltung-cloud/id6747396834&quot;&gt;Apple App Store&lt;/a&gt; zum Download bereit.
+Natürlich gibt es die App weiterhin auch für &lt;a href=&quot;https://play.google.com/store/apps/details?id=cloud.urlaubsverwaltung.mobile.urlaubsverwaltung&amp;amp;gl=DE&quot;&gt;Android im Google Play Store&lt;/a&gt;.&lt;/p&gt;
+&lt;h2 id=&quot;wir-freuen-uns-auf-euer-feedback&quot;&gt;Wir freuen uns auf euer Feedback!&lt;/h2&gt;
+&lt;p&gt;Wie immer gilt: Wir entwickeln unsere Produkte gemeinsam mit euch weiter.
+Testet die neue iOS-App, gebt uns Feedback und sagt uns, was ihr euch als Nächstes wünscht!&lt;/p&gt;
+&lt;p&gt;Bei Fragen oder Anregungen erreicht ihr uns jederzeit per &lt;a href=&quot;mailto:info@urlaubsverwaltung.cloud?subject=iOS%20App%20Feedback&quot;&gt;E-Mail&lt;/a&gt; oder telefonisch unter 0721 98614542.&lt;/p&gt;
+&lt;hr /&gt;
+&lt;p&gt;&lt;sub&gt;Zur Übersicht aller Neuigkeiten: &lt;a href=&quot;https://urlaubsverwaltung.cloud/neuigkeiten/&quot;&gt;Alle News anzeigen&lt;/a&gt;&lt;/sub&gt;&lt;/p&gt;
+</content>
+  </entry>
   <entry>
     <title>Urlaubsverwaltung 5.25.0 – Neue Einstellungen und Abteilungsleiter und Freigabe-Verantwortliche dürfen nun auch Abwesenheiten editieren</title>
     <link href="https://urlaubsverwaltung.cloud/neuigkeiten/2025-05-02-release-5.25.0/" />
