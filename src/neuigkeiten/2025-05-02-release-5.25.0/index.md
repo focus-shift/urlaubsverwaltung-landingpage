@@ -5,7 +5,7 @@ date: 2025-06-20
 title: Urlaubsverwaltung 5.25.0 – Neue Einstellungen und Abteilungsleiter und Freigabe-Verantwortliche dürfen nun auch Abwesenheiten editieren
 author: Tobias Schneider
 release-version: 5.25.0
-teaserImage: /static/teaser/2025-06-18/ZE-Release-2.21.0.png
+teaserImage: 2025-05-02-release-5.25.0/uv-5.25.0.png
 description: Mit Version 5.25.0 wurden die Einstellungen aufgeteilt und die Berechtigungen für Abteilungsleiter und Freigabe-Verantwortliche angepasst. Diese dürfen nun auch Abwesenheiten editieren.
 ---
 
