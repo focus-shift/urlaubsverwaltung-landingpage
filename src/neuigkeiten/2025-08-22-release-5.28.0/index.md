@@ -9,7 +9,9 @@ teaserImage: 2025-08-22-release-5.28.0/uv-release-5.28.0.png
 description: Mit Version 5.28.0 wurden die Statistik zu Krankmeldungen überarbeitet und komplett neu gedacht
 ---
 
-Im Release **5.28.0** wurden die Statistiken zu Krankmeldungen komplett neu gedacht und erweitert.
+Im Release **5.28.0** wurden die Statistiken zu Krankmeldungen überarbeitet und komplett neu gedacht.
+Neben einer frischen Visualisierung stehen nun auch detailliertere Auswertungen zur Verfügung, die mehr Einblick in Krankmeldungen geben.
+So entsteht ein klareres Bild darüber, wie sich Krankheitstage im Unternehmen entwickeln und welche Faktoren dabei eine Rolle spielen können.
 
 <!-- more -->
 
@@ -88,8 +90,7 @@ Die neuen Statistiken sind damit nicht nur ein praktisches Werkzeug für Transpa
 Mit der neuen Krankmeldungsstatistik ist der Grundstein gelegt. In kommenden Versionen wird die Auswertung weiter ausgebaut:
 
 * Die **Krankenquote** wird als zentrale Kennzahl integriert, sodass Unternehmen noch schneller einen Überblick über die gesundheitliche Situation bekommen.
-
-Außerdem wird es möglich sein, **direkte Vergleiche mit dem Vorjahr** vorzunehmen, um Entwicklungen und Trends besser sichtbar zu machen.
+* Außerdem wird es möglich sein, **direkte Vergleiche mit dem Vorjahr** vorzunehmen, um Entwicklungen und Trends besser sichtbar zu machen.
 
 So wächst die Statistik Schritt für Schritt zu einem umfassenden Werkzeug, das nicht nur Zahlen liefert, sondern echte **Einblicke in die Gesundheit der Organisation** ermöglicht.
 
