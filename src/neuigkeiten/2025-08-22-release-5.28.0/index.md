@@ -23,8 +23,8 @@ Neben einer klaren Visualisierung im Jahresverlauf können jetzt auch vergangene
 
 Die Darstellung erfolgt natürlich basierend auf den Berechtigungen:
 
-* **Office und Chefs** erhalten eine Übersicht über die gesamte Organisation.
-* **Abteilungsleitungen und Freigabeberechtigte** sehen die Daten nur für die Abteilungen, für die sie zuständig sind.
+* **Office und Chef** erhalten eine Übersicht über die gesamte Organisation.
+* **Abteilungsleitung und Freigabeberechtigte** sehen die Daten nur für die Abteilungen, für die sie zuständig sind.
 
 Damit bleibt die Vertraulichkeit gewahrt, während gleichzeitig die jeweils relevanten Informationen zur Verfügung stehen.
 
@@ -82,6 +82,16 @@ Die neuen Auswertungen sind mehr als nur Zahlen und Diagramme. Sie sind ein erst
 Mit Release **5.28.0** bringt die Urlaubsverwaltung eine komplett überarbeitete Sicht auf Krankmeldungen ins Unternehmen. Durch die **klaren Visualisierungen**, die Möglichkeit, auch **vergangene Jahre** einzusehen, und die Steuerung der Zugriffe über Berechtigungen entsteht eine solide Basis, um Gesundheit und Arbeitsbelastung besser wahrzunehmen.
 
 Die neuen Statistiken sind damit nicht nur ein praktisches Werkzeug für Transparenz, sondern auch ein wichtiger Impuls, das Thema Gesundheit im Unternehmen bewusster zu betrachten und aktiv zu fördern.
+
+## Ausblick
+
+Mit der neuen Krankmeldungsstatistik ist der Grundstein gelegt. In kommenden Versionen wird die Auswertung weiter ausgebaut:
+
+* Die **Krankenquote** wird als zentrale Kennzahl integriert, sodass Unternehmen noch schneller einen Überblick über die gesundheitliche Situation bekommen.
+
+Außerdem wird es möglich sein, **direkte Vergleiche mit dem Vorjahr** vorzunehmen, um Entwicklungen und Trends besser sichtbar zu machen.
+
+So wächst die Statistik Schritt für Schritt zu einem umfassenden Werkzeug, das nicht nur Zahlen liefert, sondern echte **Einblicke in die Gesundheit der Organisation** ermöglicht.
 
 ## Wir freuen uns über euer Feedback!
 
