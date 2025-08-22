@@ -4,8 +4,70 @@
   <subtitle></subtitle>
   <link rel="self" href="https://urlaubsverwaltung.cloud/feed.xml" />
   <link rel="alternate" type="text/html" href="https://urlaubsverwaltung.cloud" />
-  <updated>2025-06-26T00:00:00Z</updated>
+  <updated>2025-08-22T00:00:00Z</updated>
   <id>https://urlaubsverwaltung.cloud</id>
+  <entry>
+    <title>Urlaubsverwaltung 5.28.0 – Brandneue Statistik zu Krankmeldungen</title>
+    <link href="https://urlaubsverwaltung.cloud/neuigkeiten/2025-08-22-release-5.28.0/" />
+    <updated>2025-08-22T00:00:00Z</updated>
+    <id>https://urlaubsverwaltung.cloud/neuigkeiten/2025-08-22-release-5.28.0/</id>
+    <author>
+      <name>Daniel Fuchs</name>
+    </author>
+    <content type="html">&lt;p&gt;Im Release &lt;strong&gt;5.28.0&lt;/strong&gt; wurden die Statistiken zu Krankmeldungen überarbeitet und komplett neu gedacht.
+Neben einer frischen Visualisierung stehen nun auch detailliertere Auswertungen zur Verfügung, die mehr Einblick in Krankmeldungen geben.
+So entsteht ein klareres Bild darüber, wie sich Krankheitstage im Unternehmen entwickeln und welche Faktoren dabei eine Rolle spielen können.&lt;/p&gt;
+&lt;h2 id=&quot;gesundheit-im-blick-behalten-–-auch-im-arbeitsalltag&quot;&gt;Gesundheit im Blick behalten – auch im Arbeitsalltag&lt;/h2&gt;
+&lt;p&gt;Das Thema Mental Health und die allgemeine Gesundheit von Mitarbeitenden rückt immer stärker in den Fokus moderner Unternehmen. Krankheitstage sind dabei nicht nur eine Kennzahl, sondern auch ein Signal für Belastung, Stress oder Überlastung. Wer diese Entwicklungen frühzeitig erkennt, kann besser reagieren – sei es mit Präventionsangeboten, gezielten Entlastungen oder offener Kommunikation. Die neuen Krankmeldungsstatistiken in der Urlaubsverwaltung sind ein Werkzeug, um genau hier mehr Transparenz und Verständnis zu schaffen.&lt;/p&gt;
+&lt;h2 id=&quot;die-neue-krankmeldungsstatistik-im-detail&quot;&gt;Die neue Krankmeldungsstatistik im Detail&lt;/h2&gt;
+&lt;p&gt;Neben einer klaren Visualisierung im Jahresverlauf können jetzt auch vergangene Jahre ausgewählt werden. So lassen sich Trends erkennen und Veränderungen im Unternehmen über die Zeit hinweg nachvollziehen.&lt;/p&gt;
+&lt;p&gt;Die Darstellung erfolgt natürlich basierend auf den Berechtigungen:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Office und Chef&lt;/strong&gt; erhalten eine Übersicht über die gesamte Organisation.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Abteilungsleitung und Freigabeberechtigte&lt;/strong&gt; sehen die Daten nur für die Abteilungen, für die sie zuständig sind.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Damit bleibt die Vertraulichkeit gewahrt, während gleichzeitig die jeweils relevanten Informationen zur Verfügung stehen.&lt;/p&gt;
+&lt;div class=&quot;flex my-8&quot;&gt;
+    &lt;figure&gt;
+        &lt;picture&gt;
+            &lt;img src=&quot;https://urlaubsverwaltung.cloud/neuigkeiten/2025-08-22-release-5.28.0/krankmeldungsstatistik-verteilung-der-krankheitstage-graph.png&quot; alt=&quot;Verteilung der Krankheitstage über das Kalenderjahr als Balkendiagramm&quot; decoding=&quot;async&quot; loading=&quot;lazy&quot; class=&quot;rounded-lg&quot; /&gt;
+        &lt;/picture&gt;
+        &lt;figcaption class=&quot;text-sm text-center&quot;&gt;Verteilung der Krankheitstage über das Kalenderjahr als Balkendiagramm&lt;/figcaption&gt;
+    &lt;/figure&gt;
+&lt;/div&gt;
+&lt;div class=&quot;flex my-8&quot;&gt;
+    &lt;figure&gt;
+        &lt;picture&gt;
+            &lt;img src=&quot;https://urlaubsverwaltung.cloud/neuigkeiten/2025-08-22-release-5.28.0/krankmeldungsstatistik-krankheitstage-zahlen.png&quot; alt=&quot;Informationen zu den Krankheitstagen aufgeschlüsselt nach Kategorie (Normale Krankmeldung und Kind-Krankmeldung)&quot; decoding=&quot;async&quot; loading=&quot;lazy&quot; class=&quot;rounded-lg&quot; /&gt;
+        &lt;/picture&gt;
+        &lt;figcaption class=&quot;text-sm text-center&quot;&gt;Informationen zu den Krankheitstagen aufgeschlüsselt nach Kategorie (Normale Krankmeldung und Kind-Krankmeldung)&lt;/figcaption&gt;
+    &lt;/figure&gt;
+&lt;/div&gt;
+&lt;div class=&quot;flex my-8&quot;&gt;
+    &lt;figure&gt;
+        &lt;picture&gt;
+            &lt;img src=&quot;https://urlaubsverwaltung.cloud/neuigkeiten/2025-08-22-release-5.28.0/krankmeldungsstatistik-krankmeldungen-zahlen.png&quot; alt=&quot;Informationen zu den Krankmeldungen aufgeschlüsselt nach Kategorie (Normale Krankmeldung und Kind-Krankmeldung)&quot; decoding=&quot;async&quot; loading=&quot;lazy&quot; class=&quot;rounded-lg&quot; /&gt;
+        &lt;/picture&gt;
+        &lt;figcaption class=&quot;text-sm text-center&quot;&gt;Informationen zu den Krankmeldungen aufgeschlüsselt nach Kategorie (Normale Krankmeldung und Kind-Krankmeldung)&lt;/figcaption&gt;
+    &lt;/figure&gt;
+&lt;/div&gt;
+&lt;h2 id=&quot;ein-erster-schritt-zu-mehr-bewusstsein&quot;&gt;Ein erster Schritt zu mehr Bewusstsein&lt;/h2&gt;
+&lt;p&gt;Die neuen Auswertungen sind mehr als nur Zahlen und Diagramme. Sie sind ein erster Schritt, um im Unternehmen ein Bewusstsein für Gesundheit zu schaffen. Wenn sichtbar wird, wann und wie oft Krankmeldungen auftreten, lassen sich Muster erkennen – und vor allem Maßnahmen ableiten, die Mitarbeitende nachhaltig entlasten können.&lt;/p&gt;
+&lt;h2 id=&quot;fazit&quot;&gt;Fazit&lt;/h2&gt;
+&lt;p&gt;Mit Release &lt;strong&gt;5.28.0&lt;/strong&gt; bringt die Urlaubsverwaltung eine komplett überarbeitete Sicht auf Krankmeldungen ins Unternehmen. Durch die &lt;strong&gt;klaren Visualisierungen&lt;/strong&gt;, die Möglichkeit, auch &lt;strong&gt;vergangene Jahre&lt;/strong&gt; einzusehen, und die Steuerung der Zugriffe über Berechtigungen entsteht eine solide Basis, um Gesundheit und Arbeitsbelastung besser wahrzunehmen.&lt;/p&gt;
+&lt;p&gt;Die neuen Statistiken sind damit nicht nur ein praktisches Werkzeug für Transparenz, sondern auch ein wichtiger Impuls, das Thema Gesundheit im Unternehmen bewusster zu betrachten und aktiv zu fördern.&lt;/p&gt;
+&lt;h2 id=&quot;ausblick&quot;&gt;Ausblick&lt;/h2&gt;
+&lt;p&gt;Mit der neuen Krankmeldungsstatistik ist der Grundstein gelegt. In kommenden Versionen wird die Auswertung weiter ausgebaut:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Die &lt;strong&gt;Krankenquote&lt;/strong&gt; wird als zentrale Kennzahl integriert, sodass Unternehmen noch schneller einen Überblick über die gesundheitliche Situation bekommen.&lt;/li&gt;
+&lt;li&gt;Außerdem wird es möglich sein, &lt;strong&gt;direkte Vergleiche mit dem Vorjahr&lt;/strong&gt; vorzunehmen, um Entwicklungen und Trends besser sichtbar zu machen.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;So wächst die Statistik Schritt für Schritt zu einem umfassenden Werkzeug, das nicht nur Zahlen liefert, sondern echte &lt;strong&gt;Einblicke in die Gesundheit der Organisation&lt;/strong&gt; ermöglicht.&lt;/p&gt;
+&lt;h2 id=&quot;wir-freuen-uns-ueber-euer-feedback&quot;&gt;Wir freuen uns über euer Feedback!&lt;/h2&gt;
+&lt;p&gt;Wie immer gilt: Wir entwickeln unsere Produkte gemeinsam mit euch weiter. Testet das neue Feature, sagt uns, wie es euch gefällt – und was ihr euch als Nächstes wünscht!&lt;/p&gt;
+&lt;p&gt;&lt;sub&gt;Zur vollständigen Release-Übersicht: &lt;a href=&quot;https://github.com/urlaubsverwaltung/urlaubsverwaltung/releases/tag/urlaubsverwaltung-5.28.0&quot;&gt;Release 5.28.0 auf GitHub ansehen&lt;/a&gt;&lt;/sub&gt;&lt;/p&gt;
+</content>
+  </entry>
   <entry>
     <title>iOS-App für deine Mitarbeitende</title>
     <link href="https://urlaubsverwaltung.cloud/neuigkeiten/2025-06-26-mobile-app-ios/" />
