@@ -16,7 +16,7 @@ jobs:
       group: ${{ github.workflow }}-build-${{ github.ref }}
       cancel-in-progress: true
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v5
         with:
           persist-credentials: false
       - name: setup nodejs
@@ -41,7 +41,7 @@ jobs:
       group: ${{ github.workflow }}-link-check-${{ github.ref }}
       cancel-in-progress: true
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v5
         with:
           persist-credentials: false
       - name: setup nodejs
@@ -82,7 +82,7 @@ jobs:
       - link-check
     runs-on: ubuntu-24.04
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v5
 
       - name: Download './dist' directory
         uses: actions/download-artifact@v4
