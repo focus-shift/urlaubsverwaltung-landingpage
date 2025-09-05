@@ -49,9 +49,8 @@ Natürlich gibt es die App weiterhin auch für [Android im Google Play Store](ht
 Wie immer gilt: Wir entwickeln unsere Produkte gemeinsam mit euch weiter.
 Testet die neue iOS-App, gebt uns Feedback und sagt uns, was ihr euch als Nächstes wünscht!
 
-Bei Fragen oder Anregungen erreicht ihr uns jederzeit per [E-Mail](mailto:info@urlaubsverwaltung.cloud?subject=iOS%20App%20Feedback) oder telefonisch unter 0721 98614542.
+Bei Fragen oder Anregungen erreicht ihr uns jederzeit per [E-Mail](mailto:info@urlaubsverwaltung.cloud?subject=iOS%20App%20Feedback) oder telefonisch unter +49 (721) 98614542.
 
 ---
 
 <sub>Zur Übersicht aller Neuigkeiten: [Alle News anzeigen](/neuigkeiten/)</sub>
-
