@@ -9,12 +9,27 @@ description: Starte heute mit der Digitalisierung deines Unternehmens. Urlaubsve
 
 <div>
 	<div
-		class="relative bg-sky-100 py-12 md:py-20 lg:pb-32"
+		class="relative bg-sky-100 py-12 md:pt-12 md:pb-20 lg:pt-20 lg:pb-32"
 		style="
       background-image: conic-gradient(from -.5turn at bottom right, #38BDF8, #FEF3C7, #BAE6FD);
     "
 	>
-		<div class="z-10 w-full max-w-screen-xl mx-auto px-2">
+		<div class="text-center">
+			<p
+				class="text-xl md:text-2xl"
+				style="display: grid; grid-template-columns: auto minmax(100px, max-content) auto; column-gap: 1rem;"
+			>
+				<span class="px-4 text-right" style="grid-row: 1 / span 2">🎊</span>
+				<span style="grid-column: 2">
+					Wir feiern 5 Jahre urlaubsverwaltung.cloud
+				</span>
+				<span style="grid-column: 2; grid-row: 2">
+					und schenken dir 3 Monate<sup class="text-base">1</sup>
+				</span>
+				<span class="px-4 text-left" style="grid-column: 3; grid-row: 1 / span 2">🎊</span>
+			</p>
+		</div>
+		<div class="mt-8 z-10 w-full max-w-screen-xl mx-auto px-2 md:mt-16">
 			<h1>
 				<a data-append-utm href="https://registry.apps.urlaubsverwaltung.cloud/registration">
 					<div class="mb-2 px-8 py-4 md:py-12 bg-white bg-opacity-50">
@@ -99,10 +114,10 @@ description: Starte heute mit der Digitalisierung deines Unternehmens. Urlaubsve
 {{!-- 					</li> --}}
 				</ul>
 				<div>
-					<p class="mb-2 xs:text-lg md:text-base flex items-center gap-2">
+					<p class="xs:text-lg md:text-base flex items-center gap-2">
 						{{> partials/icon-rocket class='w-6 h-6'}} Starte heute noch durch
 					</p>
-					<div>
+					<div class="mt-4">
 						<a data-append-utm
 							 href="https://registry.apps.urlaubsverwaltung.cloud/registration"
 							 class="px-3 py-2 text-lg font-medium flex items-center justify-center no-underline rounded whitespace-nowrap bg-yellow-300 text-sky-900 text-opacity-90 hover:text-opacity-100 border border-sky-100 hover:border-blue-200 hover:shadow-md active:shadow"
@@ -117,10 +132,16 @@ description: Starte heute mit der Digitalisierung deines Unternehmens. Urlaubsve
 							</span>
 						</a>
 					</div>
+					<div class="mt-4">
+						<p>
+							🎁 Jetzt Aktion sichern und 25 % sparen!
+							<sup>1</sup>
+						</p>
+					</div>
 				</div>
 			</div>
 			<div class="flex-1 mb-8 md:mb-0 lg:ml-8 pt-16 lg:pt-0">
-				<div class=" lg:-translate-y-24">
+				<div class="lg:-translate-y-24">
 						<picture>
 							<img
 								src="static/img/multi-device-image.png"
@@ -346,6 +367,10 @@ description: Starte heute mit der Digitalisierung deines Unternehmens. Urlaubsve
 						</span>
 					</a>
 				</div>
+				<p class="mt-4">
+					🎁 Jetzt Aktion sichern und 25 % sparen!
+					<sup>1</sup>
+				</p>
 			</div>
 		</div>
 	</div>
@@ -513,3 +538,10 @@ Cal("init",  {origin:"https://cal.com"});
 	</div>
 
 </main>
+
+<div>
+	<p class="text-center my-8 text-sm">
+		1. Das Angebot gilt ausschließlich bei Neuabschluss eines Jahresvertrags bis zum 31.01.2026.
+		Du erhältst 12 Monate Zugang, zahlst nur den Preis von 9 Monaten.
+	</p>
+</div>
