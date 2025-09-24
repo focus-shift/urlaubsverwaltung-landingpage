@@ -4,7 +4,7 @@ backgroundColor: bg-sky-50
 title: Datenschutz als Fundament
 description: Datenschutz als Fundament
 stylesheets:
-  - /static/css/digitale-souveraenitaet.css
+- /static/css/digitale-souveraenitaet.css
 ---
 
 <div class="flex flex-col md:flex-row">
@@ -17,7 +17,8 @@ stylesheets:
 		</div>
 		<div>
 			<p class="mb-4 text-black text-opacity-80">
-				<a href="/datenschutz/#data-privacy-by-design-und-data-privacy-by-default">1. Data Privacy by Design und Data Privacy by Default</a>
+				<a href="/datenschutz/#data-privacy-by-design-und-data-privacy-by-default">1. Data Privacy by Design und Data
+					Privacy by Default</a>
 			</p>
 			<p class="mb-4 text-black text-opacity-80">
 				<a href="/datenschutz/#serverstandort-deutschland">2. Serverstandort: Deutschland</a>
@@ -26,13 +27,16 @@ stylesheets:
 				<a href="/datenschutz/#unser-datenschutzkonzept">3. Unser Datenschutzkonzept</a>
 			</p>
 			<p class="mb-4 text-black text-opacity-80">
-				<a href="/datenschutz/#technische-und-organisatorische-massnahmen">4. Technische und organisatorische Maßnahmen</a>
+				<a href="/datenschutz/#technische-und-organisatorische-massnahmen">4. Technische und organisatorische
+					Maßnahmen</a>
 			</p>
 			<p class="mb-4 text-black text-opacity-80">
-				<a href="/datenschutz/#ein-aktueller-auftragsverarbeitungsvertrag">5. Ein aktueller Auftragsverarbeitungsvertrag</a>
+				<a href="/datenschutz/#ein-aktueller-auftragsverarbeitungsvertrag">5. Ein aktueller
+					Auftragsverarbeitungsvertrag</a>
 			</p>
 			<p class="mb-4 text-black text-opacity-80">
-				<a href="/datenschutz/#risikoeinschaetzung-und-datenschutz-folgeabschaetzung">6. Risikoeinschätzung und Datenschutz-Folgeabschätzung</a>
+				<a href="/datenschutz/#risikoeinschaetzung-und-datenschutz-folgeabschaetzung">6. Risikoeinschätzung und
+					Datenschutz-Folgeabschätzung</a>
 			</p>
 			<p class="mb-4 text-black text-opacity-80">
 				<a href="/datenschutz/#ein-durchdachtes-loeschkonzept">7. Ein durchdachtes Löschkonzept</a>
@@ -47,7 +51,8 @@ stylesheets:
 	</div>
 
 	<div class="flex-1 mb-8 md:mb-0 ">
-		<div id="data-privacy-by-design-und-data-privacy-by-default" class="uebersicht-card-border flex flex-col md:flex-row gap-8">
+		<div id="data-privacy-by-design-und-data-privacy-by-default"
+				 class="uebersicht-card-border flex flex-col md:flex-row gap-8">
 			<div class="flex-1 flex flex-col">
 				<p class="py-2 text-lg">
 					Öffentliche Einrichtungen mit besonderen Datenschutzanforderungen<br/>
@@ -67,49 +72,59 @@ stylesheets:
 			<p class="py-2 text-lg">
 				Das ist die allgegenwärtige Frage,
 				die uns beim Entwickeln von Funktionen und Prozessen leitet. Es hat Auswirkungen auf Anwender, je nach dem
-				in welcher Rolle sie die Software verwenden und wie das Unternehmen organisiert und damit auch in der Software abgebildet ist.
+				in welcher Rolle sie die Software verwenden und wie das Unternehmen organisiert und damit auch in der Software
+				abgebildet ist.
 			</p>
 			<p class="py-2 text-lg">
-				Die Standardkonfiguration der Urlaubsverwaltung ist so gewählt, dass sie den Anforderungen der Datenschutz-Grundverordnung (DSGVO) entspricht.
-				Ein firmenweiter Kalender ist zunächst nicht sichtbar, da Abteilungen den ersten Schutzraum für die Daten der Mitarbeitenden bieten.
-				Nur für kleinere Unternehmen ist die aktivierung eines firmenweiten Kalenders sinnvoll. Auch der Grund einer Abwesenheit is je nach Rolle
+				Die Standardkonfiguration der Urlaubsverwaltung ist so gewählt, dass sie den Anforderungen der
+				Datenschutz-Grundverordnung (DSGVO) entspricht.
+				Ein firmenweiter Kalender ist zunächst nicht sichtbar, da Abteilungen den ersten Schutzraum für die Daten der
+				Mitarbeitenden bieten.
+				Nur für kleinere Unternehmen ist die aktivierung eines firmenweiten Kalenders sinnvoll. Auch der Grund einer
+				Abwesenheit is je nach Rolle
 				in/transparent. Und muss behutsam behandelt werden.
 			</p>
 			<p class="py-2 text-lg">
-				Es werden nur Daten erhoben, die für den Zweck der Software notwendig sind. Damit Prozesse abgebildet und Entscheidungen getroffen werden können.
+				Es werden nur Daten erhoben, die für den Zweck der Software notwendig sind. Damit Prozesse abgebildet und
+				Entscheidungen getroffen werden können.
 			</p>
 		</div>
 
 		<div id="unser-datenschutzkonzept" class="mb-12">
 			<h2 class="text-2xl mt-6 mb-3">2. Serverstandort: Deutschland</h2>
-				<ul class="text-lg grid grid-cols-1 md:grid-cols-2 justify-items-center lg:grid-cols-2">
+			<ul class="text-lg grid grid-cols-1 md:grid-cols-2 justify-items-center lg:grid-cols-2">
 
-					<li class="w-full max-w-sm my-auto text-center">
-						{{> partials/hetzner}}
-					</li>
+				<li class="w-full max-w-sm my-auto text-center">
+					{{> partials/hetzner}}
+				</li>
 
-					<li class="w-full max-w-sm my-auto text-left">
-						<p class="py-2 text-lg">
-							Surft man durch das Internet, ist einem oft nicht bewusst, in welchen Ländern die abgerufenen und abgesendeten Daten verarbeitet werden.
-							Dabei fängt Datenschutz schon bei der Wahl des Serverstandortes an. Denn überall dort, wo Daten verarbeitet werden,
-							gelten die Datenschutzgesetze des jeweiligen Landes.
-						</p>
-						<p class="py-2 text-lg">
-							Die Urlaubsverwaltung wird im <a href="https://www.hetzner.com/de/unternehmen/zertifizierung/">ISO 27001 zertifizierten Datenzentrum</a> von Hetzner in Deutschland gehostet
-							und betrieben. Die Daten werden dort verarbeitet und gespeichert.
-						</p>
-						<p class="py-2 text-lg">
-							Somit steht der Urlaubsverwaltung nichts im Weg, um auch in deinem Unternehmen eingesetzt zu werden.
-						</p>
-					</li>
-				</ul>
+				<li class="w-full max-w-sm my-auto text-left">
+					<p class="py-2 text-lg">
+						Surft man durch das Internet, ist einem oft nicht bewusst, in welchen Ländern die abgerufenen und
+						abgesendeten Daten verarbeitet werden.
+						Dabei fängt Datenschutz schon bei der Wahl des Serverstandortes an. Denn überall dort, wo Daten verarbeitet
+						werden,
+						gelten die Datenschutzgesetze des jeweiligen Landes.
+					</p>
+					<p class="py-2 text-lg">
+						Die Urlaubsverwaltung wird im <a href="https://www.hetzner.com/de/unternehmen/zertifizierung/">ISO 27001
+						zertifizierten Datenzentrum</a> von Hetzner in Deutschland gehostet
+						und betrieben. Die Daten werden dort verarbeitet und gespeichert.
+					</p>
+					<p class="py-2 text-lg">
+						Somit steht der Urlaubsverwaltung nichts im Weg, um auch in deinem Unternehmen eingesetzt zu werden.
+					</p>
+				</li>
+			</ul>
 		</div>
 
 		<div id="unser-datenschutzkonzept" class="mb-12">
 			<h2 class="text-2xl mt-6 mb-3">3. Unser Datenschutzkonzept</h2>
 			<p class="text-lg">
-				Ein verantwortungsvoller Umgang mit personenbezogenen Daten ist für uns nicht nur eine gesetzliche Verpflichtung,
-				sondern ein zentraler Bestandteil unserer Unternehmensphilosophie. Unser Datenschutzkonzept verbindet Transparenz,
+				Ein verantwortungsvoller Umgang mit personenbezogenen Daten ist für uns nicht nur eine gesetzliche
+				Verpflichtung,
+				sondern ein zentraler Bestandteil unserer Unternehmensphilosophie. Unser Datenschutzkonzept verbindet
+				Transparenz,
 				Sicherheit und Verlässlichkeit, damit du dich jederzeit auf den Schutz deiner Daten verlassen kannst.
 			</p>
 
@@ -118,36 +133,58 @@ stylesheets:
 			</p>
 
 			<ul class="ml-4 list-disc space-y-2 text-lg">
-				<li class="">Rechtmäßigkeit & Transparenz: Wir verarbeiten Daten ausschließlich auf klar definierter Rechtsgrundlage und machen unsere Prozesse nachvollziehbar.</li>
-				<li class="">Datenminimierung & Zweckbindung: Wir erheben und nutzen nur die Daten, die wirklich notwendig sind – ausschließlich für den vorgesehenen Zweck.</li>
-				<li class="">Verantwortlichkeiten & Prozesse: Interne Rollen und Zuständigkeiten sind klar geregelt, um höchste Standards bei Datenschutz und Datensicherheit sicherzustellen.</li>
-				<li class="">Kontinuierliche Weiterentwicklung: Unser Konzept wird regelmäßig überprüft und an neue rechtliche Anforderungen sowie technische Entwicklungen angepasst.</li>
+				<li class="">Rechtmäßigkeit & Transparenz: Wir verarbeiten Daten ausschließlich auf klar definierter
+					Rechtsgrundlage und machen unsere Prozesse nachvollziehbar.
+				</li>
+				<li class="">Datenminimierung & Zweckbindung: Wir erheben und nutzen nur die Daten, die wirklich notwendig sind
+					– ausschließlich für den vorgesehenen Zweck.
+				</li>
+				<li class="">Verantwortlichkeiten & Prozesse: Interne Rollen und Zuständigkeiten sind klar geregelt, um höchste
+					Standards bei Datenschutz und Datensicherheit sicherzustellen.
+				</li>
+				<li class="">Kontinuierliche Weiterentwicklung: Unser Konzept wird regelmäßig überprüft und an neue rechtliche
+					Anforderungen sowie technische Entwicklungen angepasst.
+				</li>
 			</ul>
 
 			<p class="py-2 text-lg">
-				So stellen wir sicher, dass der Schutz deiner Daten durch ein nachhaltiges, strukturiertes und gelebtes Datenschutzmanagement sichergestellt ist.
+				So stellen wir sicher, dass der Schutz deiner Daten durch ein nachhaltiges, strukturiertes und gelebtes
+				Datenschutzmanagement sichergestellt ist.
 			</p>
 		</div>
 
 		<div id="technische-und-organisatorische-massnahmen" class="mb-12">
 			<h2 class="text-2xl mt-6 mb-3">4. Technische und organisatorische Maßnahmen</h2>
 			<p class="py-2 text-lg">
-				Der Schutz deiner Daten hat für uns höchste Priorität. Deshalb setzen wir umfangreiche technische und organisatorische Maßnahmen (TOMs) um, die den Anforderungen der DSGVO
-				entsprechen. Diese Maßnahmen stellen sicher, dass personenbezogene Daten jederzeit vertraulich, integer und verfügbar bleiben.
+				Der Schutz deiner Daten hat für uns höchste Priorität. Deshalb setzen wir umfangreiche technische und
+				organisatorische Maßnahmen (TOMs) um, die den Anforderungen der DSGVO
+				entsprechen. Diese Maßnahmen stellen sicher, dass personenbezogene Daten jederzeit vertraulich, integer und
+				verfügbar bleiben.
 
 				Unsere TOMs umfassen unter anderem:
 			</p>
 
 			<ul class="ml-4 list-disc space-y-2 text-lg">
-				<li class="">Zugangskontrolle: Strikte Authentifizierungs- und Berechtigungskonzepte verhindern unbefugten Zugriff.</li>
-				<li class="">Datenverschlüsselung: Sämtliche Daten werden sowohl bei der Übertragung als auch persistiert verschlüsselt.</li>
-				<li class="">Backup & Recovery: Regelmäßige Backups und ein erprobtes Notfallmanagement sichern die Wiederherstellbarkeit.</li>
-				<li class="">Monitoring & Protokollierung: Systeme werden kontinuierlich überwacht, sicherheitsrelevante Ereignisse protokolliert und ausgewertet.</li>
-				<li class="">Regelmäßige Prüfungen: Unsere Prozesse und Systeme werden laufend überprüft und an neue Sicherheitsstandards angepasst.</li>
+				<li class="">Zugangskontrolle: Strikte Authentifizierungs- und Berechtigungskonzepte verhindern unbefugten
+					Zugriff.
+				</li>
+				<li class="">Datenverschlüsselung: Sämtliche Daten werden sowohl bei der Übertragung als auch persistiert
+					verschlüsselt.
+				</li>
+				<li class="">Backup & Recovery: Regelmäßige Backups und ein erprobtes Notfallmanagement sichern die
+					Wiederherstellbarkeit.
+				</li>
+				<li class="">Monitoring & Protokollierung: Systeme werden kontinuierlich überwacht, sicherheitsrelevante
+					Ereignisse protokolliert und ausgewertet.
+				</li>
+				<li class="">Regelmäßige Prüfungen: Unsere Prozesse und Systeme werden laufend überprüft und an neue
+					Sicherheitsstandards angepasst.
+				</li>
 			</ul>
 
 			<p class="py-2 text-lg">
-				Alle Maßnahmen sind Teil unseres Auftragsverarbeitungsvertrags und bilden die Grundlage für eine sichere und DSGVO-konforme Verarbeitung deiner Daten.
+				Alle Maßnahmen sind Teil unseres Auftragsverarbeitungsvertrags und bilden die Grundlage für eine sichere und
+				DSGVO-konforme Verarbeitung deiner Daten.
 			</p>
 
 		</div>
@@ -194,46 +231,55 @@ stylesheets:
 			<div class="text-sm">
 				<table class="table-auto">
 					<thead>
-						<tr>
-							<th>Unternehmen/Unterauftragnehmer</th>
-							<th>Anschrift/Land</th>
-							<th>Leistung</th>
-							<th>AVV</th>
-							<th>Version</th>
-						</tr>
+					<tr>
+						<th>Unternehmen/Unterauftragnehmer</th>
+						<th>Anschrift/Land</th>
+						<th>Leistung</th>
+						<th>AVV</th>
+						<th>Version</th>
+					</tr>
 					</thead>
-				<tbody>
+					<tbody>
 					<tr>
 						<td>MailJet</td>
 						<td>Alt Moabit 2, 10557
-								Berlin, Germany</td>
+							Berlin, Germany
+						</td>
 						<td>E-Mailversand</td>
-						<td><a href="https://sinch.com/de/legal/terms-and-conditions/other-sinch-terms-conditions/data-protection-agreement/">AVV</a></td>
+						<td><a
+							href="https://sinch.com/de/legal/terms-and-conditions/other-sinch-terms-conditions/data-protection-agreement/">AVV</a>
+						</td>
 						<td>Version 6.0</td>
 					</tr>
 					<tr>
 						<td>Haufe-Lexware Services GmbH & Co. KG</td>
 						<td>Munzingerstr. 9. 79111 Freiburg</td>
 						<td>Buchhaltung und Abrechnung</td>
-						<td><a href="https://www.lexware.de/fileadmin/support/dokumente/20240207_avv_dsgvo_remotesupport.pdf">AVV</a></td>
+						<td><a
+							href="https://www.lexware.de/fileadmin/support/dokumente/20240207_avv_dsgvo_remotesupport.pdf">AVV</a>
+						</td>
 						<td>03/24</td>
 					</tr>
 					<tr>
 						<td>Microsoft</td>
 						<td>One Microsoft Place
-								South County Business Park
-								Leopardstown, Dublin 18,
-								D18 P521
-								Irland</td>
+							South County Business Park
+							Leopardstown, Dublin 18,
+							D18 P521
+							Irland
+						</td>
 						<td>Kommunikation</td>
-						<td><a href="https://www.microsoft.com/licensing/docs/documents/download/MicrosoftProductandServicesDPA(WW)(English)(April2025)(CR).docx">AVV</a></td>
+						<td><a
+							href="https://www.microsoft.com/licensing/docs/documents/download/MicrosoftProductandServicesDPA(WW)(English)(April2025)(CR).docx">AVV</a>
+						</td>
 						<td>April 1, 2025</td>
 					</tr>
 					<tr>
 						<td>Hetzner Online GmbH</td>
 						<td>Industriestr. 25
-								91710 Gunzenhausen
-								Deutschland</td>
+							91710 Gunzenhausen
+							Deutschland
+						</td>
 						<td>Hosting</td>
 						<td><a href="https://www.hetzner.com/AV/DPA_de.pdf">AVV</a></td>
 						<td>04.12.2020</td>
@@ -241,8 +287,9 @@ stylesheets:
 					<tr>
 						<td>GoCardless Ltd.</td>
 						<td>Sutton Yard, Goswell Rd,
-								London EC1V 7EN,
-								United Kingdom</td>
+							London EC1V 7EN,
+							United Kingdom
+						</td>
 						<td>SEPA Zahlungsabwicklung</td>
 						<td><a href="https://gocardless.com/privacy/merchants/">AVV</a></td>
 						<td>26 June 2025</td>
@@ -251,7 +298,8 @@ stylesheets:
 						<td>Gravatar*</td>
 						<td>Automattic, Inc.,
 							132 Hawthorne Street,
-								San Francisco, CA 94107, USA</td>
+							San Francisco, CA 94107, USA
+						</td>
 						<td>Anzeige von Profilbildern</td>
 						<td><a href="https://automattic.com/privacy/#information-we-collect">AVV</a></td>
 						<td>August 5, 2025</td>
@@ -259,8 +307,10 @@ stylesheets:
 					</tbody>
 				</table>
 				<p>
-					* Gravatar ist ein optionaler Dienst um Avatarbilder anzuzeigen. Möchte der Kunde diesen optionalen Dienst nutzen, muss dafür zuerst ein Gravatar-Konto erstellt werden.
-					Es werden keine zusätzlichen Daten an Gravatar übermittelt, lediglich die E-Mail-Adresse auf einem verschlüsseltem Weg.
+					* Gravatar ist ein optionaler Dienst um Avatarbilder anzuzeigen. Möchte der Kunde diesen optionalen Dienst
+					nutzen, muss dafür zuerst ein Gravatar-Konto erstellt werden.
+					Es werden keine zusätzlichen Daten an Gravatar übermittelt, lediglich die E-Mail-Adresse auf einem
+					verschlüsseltem Weg.
 				</p>
 				<p class="py-2 text-lg">
 					Details zur Verarbeitung kann der <a href="/datenschutzerklaerung/">Datenschutzerklärung</a> entnommen werden.
@@ -271,11 +321,15 @@ stylesheets:
 		<div id="risikoeinschaetzung-und-datenschutz-folgeabschaetzung" class="mb-12">
 			<h2 class="text-2xl mt-6 mb-3">6. Risikoeinschätzung und Datenschutz-Folgeabschätzung</h2>
 			<p class="py-2 text-lg">
-				Datenschutz bedeutet für uns nicht nur die Einhaltung gesetzlicher Vorgaben, sondern vor allem die aktive Vermeidung von Risiken. Deshalb führen wir bei allen relevanten Prozessen eine strukturierte Risikoeinschätzung durch. So stellen wir sicher, dass mögliche Gefahren für personenbezogene Daten frühzeitig erkannt und durch geeignete Maßnahmen minimiert werden.
+				Datenschutz bedeutet für uns nicht nur die Einhaltung gesetzlicher Vorgaben, sondern vor allem die aktive
+				Vermeidung von Risiken. Deshalb führen wir bei allen relevanten Prozessen eine strukturierte Risikoeinschätzung
+				durch. So stellen wir sicher, dass mögliche Gefahren für personenbezogene Daten frühzeitig erkannt und durch
+				geeignete Maßnahmen minimiert werden.
 			</p>
 
 			<p class="py-2 text-lg">
-				Wenn eine Verarbeitung ein besonders hohes Risiko für die Rechte und Freiheiten von Betroffenen mit sich bringen könnte, führen wir eine Datenschutz-Folgenabschätzung (DSFA) nach Art. 35 DSGVO
+				Wenn eine Verarbeitung ein besonders hohes Risiko für die Rechte und Freiheiten von Betroffenen mit sich bringen
+				könnte, führen wir eine Datenschutz-Folgenabschätzung (DSFA) nach Art. 35 DSGVO
 				durch.
 
 				Dabei prüfen wir systematisch:
@@ -288,14 +342,16 @@ stylesheets:
 			</ul>
 
 			<p class="py-2 text-lg">
-				Durch diesen klar definierten Prozess gewährleisten wir, dass Ihre Daten jederzeit mit der größtmöglichen Sorgfalt behandelt werden – präventiv, transparent und DSGVO-konform.
+				Durch diesen klar definierten Prozess gewährleisten wir, dass Ihre Daten jederzeit mit der größtmöglichen
+				Sorgfalt behandelt werden – präventiv, transparent und DSGVO-konform.
 			</p>
 		</div>
 
 		<div id="ein-durchdachtes-loeschkonzept" class="mb-12">
 			<h2 class="text-2xl mt-6 mb-3">7. Ein durchdachtes Löschkonzept</h2>
 			<p class="py-2 text-lg">
-				Personenbezogene Daten sollen nur so lange gespeichert werden, wie es für den jeweiligen Zweck notwendig ist. Unser Löschkonzept sorgt dafür, dass dieser Grundsatz der DSGVO
+				Personenbezogene Daten sollen nur so lange gespeichert werden, wie es für den jeweiligen Zweck notwendig ist.
+				Unser Löschkonzept sorgt dafür, dass dieser Grundsatz der DSGVO
 				konsequent umgesetzt wird.
 			</p>
 
@@ -304,11 +360,21 @@ stylesheets:
 			</p>
 
 			<ul class="ml-4 list-disc space-y-2 text-lg">
-				<li class="">Klare Aufbewahrungsfristen: Daten werden nur so lange gespeichert, wie es gesetzlich vorgeschrieben oder für den vereinbarten Zweck erforderlich ist.</li>
-				<li class="">Automatisierte Prozesse: Wo möglich, greifen technische Mechanismen, die die fristgerechte Löschung zuverlässig durchführen.</li>
-				<li class="">Recht auf Vergessenwerden: Auf Anfrage löschen wir personenbezogene Daten gemäß den gesetzlichen Vorgaben unverzüglich.</li>
-				<li class="">Dokumentation & Nachvollziehbarkeit: Jeder Löschvorgang wird revisionssicher dokumentiert, um höchste Transparenz zu gewährleisten.</li>
-				<li class="">Regelmäßige Überprüfung: Unser Löschkonzept wird laufend evaluiert und bei neuen gesetzlichen Anforderungen oder technischen Entwicklungen angepasst.</li>
+				<li class="">Klare Aufbewahrungsfristen: Daten werden nur so lange gespeichert, wie es gesetzlich vorgeschrieben
+					oder für den vereinbarten Zweck erforderlich ist.
+				</li>
+				<li class="">Automatisierte Prozesse: Wo möglich, greifen technische Mechanismen, die die fristgerechte Löschung
+					zuverlässig durchführen.
+				</li>
+				<li class="">Recht auf Vergessenwerden: Auf Anfrage löschen wir personenbezogene Daten gemäß den gesetzlichen
+					Vorgaben unverzüglich.
+				</li>
+				<li class="">Dokumentation & Nachvollziehbarkeit: Jeder Löschvorgang wird revisionssicher dokumentiert, um
+					höchste Transparenz zu gewährleisten.
+				</li>
+				<li class="">Regelmäßige Überprüfung: Unser Löschkonzept wird laufend evaluiert und bei neuen gesetzlichen
+					Anforderungen oder technischen Entwicklungen angepasst.
+				</li>
 			</ul>
 
 			<p class="py-2 text-lg">
@@ -319,7 +385,9 @@ stylesheets:
 		<div id="ein-bewusster-datenverarbeitungsfluss" class="mb-12">
 			<h2 class="text-2xl mt-6 mb-3">8. Ein bewusster Datenverarbeitungsfluss</h2>
 			<p class="py-2 text-lg">
-				Wir legen größten Wert darauf, dass personenbezogene Daten bei uns klar nachvollziehbar, transparent und sicher verarbeitet werden. Jeder Schritt im Datenverarbeitungsfluss ist bewusst gestaltet, dokumentiert und regelmäßig überprüft.
+				Wir legen größten Wert darauf, dass personenbezogene Daten bei uns klar nachvollziehbar, transparent und sicher
+				verarbeitet werden. Jeder Schritt im Datenverarbeitungsfluss ist bewusst gestaltet, dokumentiert und regelmäßig
+				überprüft.
 			</p>
 
 			<p class="py-2 text-lg">
@@ -327,15 +395,24 @@ stylesheets:
 			</p>
 
 			<ul class="ml-4 list-disc space-y-2 text-lg">
-				<li class="">Transparente Prozesse: Wir halten fest, welche Daten an welchen Stellen erhoben, gespeichert und genutzt werden.</li>
-				<li class="">Zweckgebundene Verarbeitung: Daten werden ausschließlich für die vorgesehenen und kommunizierten Zwecke verarbeitet – nicht mehr und nicht weniger.</li>
+				<li class="">Transparente Prozesse: Wir halten fest, welche Daten an welchen Stellen erhoben, gespeichert und
+					genutzt werden.
+				</li>
+				<li class="">Zweckgebundene Verarbeitung: Daten werden ausschließlich für die vorgesehenen und kommunizierten
+					Zwecke verarbeitet – nicht mehr und nicht weniger.
+				</li>
 				<li class="">Datenminimierung: Wir beschränken die Verarbeitung konsequent auf das notwendige Maß.</li>
-				<li class="">Kontrollierte Schnittstellen: Datenübertragungen zwischen Systemen und Partnern erfolgen ausschließlich verschlüsselt und unter strengen Sicherheitsvorkehrungen.</li>
-				<li class="">Lückenlose Dokumentation: Alle Verarbeitungstätigkeiten sind gemäß DSGVO erfasst und jederzeit nachvollziehbar.</li>
+				<li class="">Kontrollierte Schnittstellen: Datenübertragungen zwischen Systemen und Partnern erfolgen
+					ausschließlich verschlüsselt und unter strengen Sicherheitsvorkehrungen.
+				</li>
+				<li class="">Lückenlose Dokumentation: Alle Verarbeitungstätigkeiten sind gemäß DSGVO erfasst und jederzeit
+					nachvollziehbar.
+				</li>
 			</ul>
 
 			<p class="py-2 text-lg">
-				So stellen wir sicher, dass Ihre Daten einem durchdachten, sicheren und verantwortungsvollen Fluss folgen – von der Erhebung bis zur Löschung.
+				So stellen wir sicher, dass Ihre Daten einem durchdachten, sicheren und verantwortungsvollen Fluss folgen – von
+				der Erhebung bis zur Löschung.
 			</p>
 		</div>
 
@@ -380,7 +457,8 @@ stylesheets:
 							<li class="">Die EU-Datenschutz-Grundverordnung (DSGVO).</li>
 							<li class="">Personenbezogene Daten.</li>
 							<li class="">Besondere Kategorien personenbezogener Daten.</li>
-							<li class="">Unterschiede zum bisherigen BDSG (Marktortprinzip, Beweislastumkehr, höhere Strafen, etc.).</li>
+							<li class="">Unterschiede zum bisherigen BDSG (Marktortprinzip, Beweislastumkehr, höhere Strafen, etc.).
+							</li>
 						</ul>
 					</li>
 					<li class="">
@@ -478,7 +556,6 @@ stylesheets:
 			Aktualisiert am 15.09.2025
 		</p>
 
-		</div>
 	</div>
 </div>
 
