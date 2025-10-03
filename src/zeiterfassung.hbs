@@ -110,7 +110,7 @@ stylesheets:
 							<span class="mr-3">
 								{{> partials/icon-rocket class='w-6 h-6'}}
 							</span>
-							Projektzeiterfassung
+							Deine Idee
 						</li>
 					</ul>
 					<p class="mt-4">
@@ -329,70 +329,6 @@ stylesheets:
 
 	<div class="bg-sky-100 pt-16 md:pt-24">
 
-		<div class="bg-sky-50 py-16">
-			<div class="w-full max-w-screen-xl mx-auto">
-				<div class="px-12 sm:px-20 xl:px-12 2xl:px-4">
-					<h3 class="text-2xl font-bold md:text-3xl xl:ml-24" id="beta">
-						Kostenlose Einführungsphase
-					</h3>
-					<div class="grid lg:grid-cols-2">
-						<div class="lg:flex lg:items-center lg:justify-center">
-							<div class="max-w-prose">
-								<ul class="mt-8 lg:mt-0 list-disc md:text-lg">
-									<li>
-										Völlig unverbindlich
-									</li>
-									<li>
-										Daten DSGVO-konform abgesichert
-									</li>
-								</ul>
-								<div class="mt-8">
-									<a data-append-utm
-										 href="https://registry.apps.urlaubsverwaltung.cloud/registration"
-										 class="-ml-4 px-3 py-2 text-lg font-medium flex items-center justify-center no-underline rounded whitespace-nowrap bg-yellow-300 text-sky-900 text-opacity-90 hover:text-opacity-100 border border-sky-100 hover:border-blue-200 hover:shadow-md active:shadow"
-										 data-goal="signup"
-										 data-goal-trigger="zeit-kostenlose-beta-phase"
-									>
-										<span class="mr-2">
-											Zeiterfassung kostenlos testen
-										</span>
-										<span>
-											{{> partials/icon-cursor-click class='w-5 h-5'}}
-										</span>
-									</a>
-								</div>
-							</div>
-						</div>
-						<div class="max-w-prose space-y-6 mt-6 md:text-lg lg:mt-0 lg:px-20">
-							<p>
-								Wir sind nicht irgendeine Zeiterfassung. Wir sind eine Zeiterfassung, die deine Anforderungen meistern
-								will.
-							</p>
-							<p>
-								Unsere Entwicklung lebt von eurem Feedback und wir freuen uns <span
-								class="italic">urlaubsverwaltung.cloud</span>
-								mit euch zusammen voranzubringen.
-							</p>
-							<p>
-								Bei Fragen und Wünschen kontaktiere uns per E-Mail oder rufe uns an.
-							</p>
-
-							<ul>
-								<li class="flex items-center">
-									{{>partials/icon-mail class="w-4 h-4"}} <span class="sr-only">E-Mail:</span> <a
-									href="mailto:info@urlaubsverwaltung.cloud?subject=Anfrage" class="ml-1.5 text-black hover:underline">info@urlaubsverwaltung.cloud</a><br/>
-								</li>
-								<li class="flex items-center">
-									{{>partials/icon-phone class="w-4 h-4"}} <span class="sr-only">Telefon:</span> <a
-									href="tel:+4972198614542" class="ml-1.5 text-black hover:underline">+49 (721) 98614542</a>
-								</li>
-							</ul>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-
 		<div class="mt-16 xl:mt-24 2xl:mt-40 w-full max-w-screen-xl mx-auto">
 			<h2 class="px-4 xs:px-12 md:px-20 font-bold mb-12 md:mb-16 2xl:mb-24 text-3xl">
 				Das sagen unsere Kunden
@@ -442,10 +378,22 @@ stylesheets:
 			</div>
 		</div>
 
-		<div class="mt-24 w-full max-w-screen-xl mx-auto px-4 xl:px-2">
-			{{> partials/price }}
-		</div>
-
 		<div class="pb-8 md:pb-32"></div>
 	</div>
+
+	<div>
+		<div class="bg-gradient-to-b from-sky-100 to-white pb-8">
+		</div>
+
+			{{> partials/price }}
+	</div>
+	<div id="angebot-hinweis">
+		<p class="text-center my-8 text-sm">
+			1. Das Angebot gilt ausschließlich bei Neuabschluss eines Jahresvertrags bis zum 31.01.2026.
+			Du erhältst 12 Monate Zugang, zahlst nur den Preis von 9 Monaten.
+			<br>
+			Einfach <a href="https://registry.apps.urlaubsverwaltung.cloud/registration/">registrieren</a> und im Kundenportal bestätigen.
+		</p>
+	</div>
 </main>
+
