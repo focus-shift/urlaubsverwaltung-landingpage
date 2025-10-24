@@ -4,7 +4,7 @@ breadcrumb:
   - <a href="/hilfe/#dokumentation-zeiterfassung">Zeiterfassung</a>
   - Zeiteinträge
 title: Zeiteinträge - Hilfe
-description: Hier findest du Hilfe zu dem Thema Feiertage
+description: Hier findest du Hilfe zu dem Thema Zeiteinträge
 ---
 
 # Zeiteinträge in der Zeiterfassung
