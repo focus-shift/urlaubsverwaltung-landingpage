@@ -4,7 +4,7 @@ breadcrumb:
   - <a href="/hilfe/#dokumentation-zeiterfassung">Zeiterfassung</a>
   - Berichte
 title: Berichte - Hilfe
-description: Hier findest du Hilfe zu dem Thema Feiertage
+description: Hier findest du Hilfe zu dem Thema Berichte
 ---
 
 # Berichte in der Zeiterfassung
