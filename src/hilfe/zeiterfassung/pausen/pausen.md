@@ -11,9 +11,9 @@ description: Hier findest du Hilfe zu dem Thema Pausen
 
 ## Wie kann ich Pausen erfassen?
 
-### Neuen Pausen erfassen
+### Neue Pausen erfassen
 
-Auf der Startseite unter "Zeit" kannst du für dich selbst Pausen erfassen. Wichtig ist den Pause-Regler zu aktivieren.
+Auf der Startseite unter "Zeit" kannst du für dich selbst Pausen erfassen. Wichtig ist, den Pause-Regler zu aktivieren.
 Du kannst den Tag auswählen, einen Kommentar sowie eine Start- und Endzeit eingeben, die Dauer wird automatisch berechnet.
 
 <p>
@@ -35,9 +35,9 @@ Wenn nur Startzeit und Dauer angegeben werden, wird die Endzeit automatisch gese
 ### Zeiteintrag mit der Stoppuhr erfassen
 
 Pausen können auch durch Anklicken des Start-Buttons der Stoppuhr erfasst werden. 
+Wichtig ist, den Pause-Regler zu aktivieren.
 Die Stoppuhr läuft im Hintergrund weiter, auch wenn du die Seite wechselst. 
 Du kannst die Stoppuhr jederzeit anhalten und so die Pause speichern.
-Wichtig ist den Pause-Regler zu aktivieren.
 
 <p>
   <picture>
@@ -57,7 +57,7 @@ Der Kommentar wird dann automatisch zum Zeiteintrag hinzugefügt.
 
 ### Pausen im Bericht
 
-Im Berichten werden neben den Zeiteinträgen auch die Pausen angezeigt.
+In Berichten werden neben den Zeiteinträgen auch die Pausen angezeigt.
 
 <p>
   <picture>
@@ -72,11 +72,11 @@ Im Berichten werden neben den Zeiteinträgen auch die Pausen angezeigt.
   </picture>
 </p>
 
-Auch im CSV-Donwload werden sie aufgelistet.
+Auch im CSV-Download werden sie aufgelistet.
 
 ### Historie einer Pause
 
-Wie jeder Zeiteintrag, hat auch jeder Pauseneintrag eine Änderungshistorie.
+Wie jeder Zeiteintrag hat auch jeder Pauseneintrag eine Änderungshistorie.
 So können alle Änderungen nachvollzogen werden.
 
 <p>
