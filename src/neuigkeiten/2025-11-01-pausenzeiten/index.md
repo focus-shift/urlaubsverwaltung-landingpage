@@ -40,7 +40,7 @@ Bislang wurden Pausen rein informativ erfasst. Das bedeutete:
 </div>
 
 Diese Methode war einfach, entsprach jedoch nicht den arbeitsrechtlichen Vorgaben, nach denen Arbeit und Pause nicht gleichzeitig stattfinden dürfen.
-Der bisher korrekte Weg ist, 3 Zeiteinträge zu erstellen: Arbeitszeit vor der Pause, Pausenzeit und Arbeitszeit nach der Pause.
+Der bisher korrekte Weg war, drei Zeiteinträge zu erstellen: Arbeitszeit vor der Pause, Pausenzeit und Arbeitszeit nach der Pause.
 
 ## Was ändert sich?
 
@@ -67,8 +67,8 @@ Neue Berechnung: 8 Stunden – 1 Stunde Pause = 7 Arbeitsstunden
     </figure>
 </div>
 
-Alternativ könnte die Pause natürlich auch – wie bisher – durch getrennte Einträge dargestellt werden (z. B. 8–12 Uhr Arbeit, 12–13 Uhr Pause, 13–16 Uhr Arbeit). 
-Dies ist weiterhin möglich, aber nicht mehr zwingend erforderlich.
+Alternativ kann die Pause natürlich auch – wie bisher – durch getrennte Einträge dargestellt werden (z. B. 8–12 Uhr Arbeit, 12–13 Uhr Pause, 13–16 Uhr Arbeit).
+Dies ist weiterhin möglich, jedoch nicht mehr zwingend erforderlich.
 
 ## Für wen gilt die Änderung?
 
