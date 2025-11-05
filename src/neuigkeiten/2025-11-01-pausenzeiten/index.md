@@ -1,7 +1,7 @@
 ---
 draft: false
 layout: layout-neuigkeiten.hbs
-date: 2025-08-22
+date: 2025-11-01
 title: Zeiterfassung 2.24.0 – Korrekte Verrechnung von Arbeits- und Pausenzeiten
 author: Andreas Weigel
 release-version: 2.24.0
