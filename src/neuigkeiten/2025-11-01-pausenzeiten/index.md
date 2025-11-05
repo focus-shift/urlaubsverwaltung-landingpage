@@ -35,7 +35,7 @@ Bislang wurden Pausen rein informativ erfasst. Das bedeutete:
               class="rounded-lg"
             />
         </picture>
-        <figcaption class="text-sm text-center"></figcaption>
+        <figcaption class="text-sm text-center">Pausen wurden bei Überschneidungen bisher nicht abgezogen.</figcaption>
     </figure>
 </div>
 
@@ -63,7 +63,7 @@ Neue Berechnung: 8 Stunden – 1 Stunde Pause = 7 Arbeitsstunden
               class="rounded-lg"
             />
         </picture>
-        <figcaption class="text-sm text-center"></figcaption>
+        <figcaption class="text-sm text-center">Pause machen und gleichzeitig arbeiten? Geht nicht! Pausen sollen bei Überschneidung abgezogen werden.</figcaption>
     </figure>
 </div>
 
@@ -74,6 +74,20 @@ Dies ist weiterhin möglich, jedoch nicht mehr zwingend erforderlich.
 
 * *Neukunden:* Die neue Berechnung ist ab sofort standardmäßig aktiv.
 * *Bestandskunden:* Die Änderung kann in den Einstellungen optional aktiviert werden, um bestehende Prozesse nicht ungewollt zu beeinträchtigen.
+
+<p>
+  <picture>
+    <img
+      src="pausenabzug-einstellung.png"
+      alt="Einstellung, ab wann der Pausenabzug aktiv ist."
+      decoding="async"
+      loading="lazy"
+      width="1906"
+      height="700"
+    />
+    <figcaption class="text-sm text-center">Einstellung, ab wann der Pausenabzug aktiv ist.</figcaption>
+  </picture>
+</p>
 
 ## Was bleibt unverändert?
 
