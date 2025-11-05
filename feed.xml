@@ -4,8 +4,85 @@
   <subtitle></subtitle>
   <link rel="self" href="https://urlaubsverwaltung.cloud/feed.xml" />
   <link rel="alternate" type="text/html" href="https://urlaubsverwaltung.cloud" />
-  <updated>2025-08-22T00:00:00Z</updated>
+  <updated>2025-11-01T00:00:00Z</updated>
   <id>https://urlaubsverwaltung.cloud</id>
+  <entry>
+    <title>Zeiterfassung 2.24.0 – Korrekte Verrechnung von Arbeits- und Pausenzeiten</title>
+    <link href="https://urlaubsverwaltung.cloud/neuigkeiten/2025-11-01-pausenzeiten/" />
+    <updated>2025-11-01T00:00:00Z</updated>
+    <id>https://urlaubsverwaltung.cloud/neuigkeiten/2025-11-01-pausenzeiten/</id>
+    <author>
+      <name>Andreas Weigel</name>
+    </author>
+    <content type="html">&lt;p&gt;Mit dem neuesten Update unserer Zeiterfassung führen wir eine wichtige Änderung ein, die sowohl die rechtliche
+Genauigkeit als auch die Transparenz der Zeiterfassung verbessert. Ziel ist es, Arbeits- und Pausenzeiten
+realitätsgetreuer abzubilden und dadurch verlässliche Arbeitszeitnachweise zu ermöglichen.&lt;/p&gt;
+&lt;h2 id=&quot;bisheriges-verhalten&quot;&gt;Bisheriges Verhalten&lt;/h2&gt;
+&lt;p&gt;Bislang wurden Pausen rein informativ erfasst. Das bedeutete:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Arbeits- und Pausenzeiteinträge konnten sich überschneiden.&lt;/li&gt;
+&lt;li&gt;Überschneidungen wurden nicht verrechnet.&lt;/li&gt;
+&lt;li&gt;Beispiel: Ein Arbeitszeiteintrag von 8:00 bis 16:00 Uhr sowie eine Pause von 12:00 bis 13:00 Uhr ergaben weiterhin 8 Arbeitsstunden.&lt;/li&gt;
+&lt;li&gt;Mitarbeitende erfüllten damit formal ihr Arbeitssoll, auch wenn die Pausenzeit innerhalb des Arbeitszeitraums lag.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&quot;flex my-8&quot;&gt;
+    &lt;figure&gt;
+        &lt;picture&gt;
+            &lt;img src=&quot;https://urlaubsverwaltung.cloud/neuigkeiten/2025-11-01-pausenzeiten/alt-pausenabzug.png&quot; alt=&quot;&quot; decoding=&quot;async&quot; loading=&quot;lazy&quot; class=&quot;rounded-lg&quot; /&gt;
+        &lt;/picture&gt;
+        &lt;figcaption class=&quot;text-sm text-center&quot;&gt;Pausen wurden bei Überschneidungen bisher nicht abgezogen.&lt;/figcaption&gt;
+    &lt;/figure&gt;
+&lt;/div&gt;
+&lt;p&gt;Diese Methode war einfach, entsprach jedoch nicht den arbeitsrechtlichen Vorgaben, nach denen Arbeit und Pause nicht gleichzeitig stattfinden dürfen.
+Der bisher korrekte Weg war, drei Zeiteinträge zu erstellen: Arbeitszeit vor der Pause, Pausenzeit und Arbeitszeit nach der Pause.&lt;/p&gt;
+&lt;h2 id=&quot;was-aendert-sich&quot;&gt;Was ändert sich?&lt;/h2&gt;
+&lt;p&gt;Mit dem Update werden Arbeits- und Pausenzeiten automatisch miteinander verrechnet.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Überschneidet sich ein Arbeitszeiteintrag mit einem Pauseneintrag, wird die Pausenzeit künftig von der Arbeitszeit abgezogen.&lt;/li&gt;
+&lt;li&gt;Beispiel:
+Arbeitszeit: 8:00–16:00 Uhr (8 Stunden)
+Pause: 12:00–13:00 Uhr (1 Stunde)
+Neue Berechnung: 8 Stunden – 1 Stunde Pause = 7 Arbeitsstunden&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&quot;flex my-8&quot;&gt;
+    &lt;figure&gt;
+        &lt;picture&gt;
+            &lt;img src=&quot;https://urlaubsverwaltung.cloud/neuigkeiten/2025-11-01-pausenzeiten/neu-pausenabzug.png&quot; alt=&quot;&quot; decoding=&quot;async&quot; loading=&quot;lazy&quot; class=&quot;rounded-lg&quot; /&gt;
+        &lt;/picture&gt;
+        &lt;figcaption class=&quot;text-sm text-center&quot;&gt;Pause machen und gleichzeitig arbeiten? Geht nicht! Pausen sollen bei Überschneidung abgezogen werden.&lt;/figcaption&gt;
+    &lt;/figure&gt;
+&lt;/div&gt;
+&lt;p&gt;Alternativ kann die Pause natürlich auch – wie bisher – durch getrennte Einträge dargestellt werden (z. B. 8–12 Uhr Arbeit, 12–13 Uhr Pause, 13–16 Uhr Arbeit).
+Dies ist weiterhin möglich, jedoch nicht mehr zwingend erforderlich.&lt;/p&gt;
+&lt;h2 id=&quot;fuer-wen-gilt-die-aenderung&quot;&gt;Für wen gilt die Änderung?&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;em&gt;Neukunden:&lt;/em&gt; Die neue Berechnung ist ab sofort standardmäßig aktiv.&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;Bestandskunden:&lt;/em&gt; Die Änderung kann in den Einstellungen optional aktiviert werden, um bestehende Prozesse nicht ungewollt zu beeinträchtigen.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+  &lt;picture&gt;
+    &lt;img src=&quot;https://urlaubsverwaltung.cloud/neuigkeiten/2025-11-01-pausenzeiten/pausenabzug-einstellung.png&quot; alt=&quot;Einstellung, ab wann der Pausenabzug aktiv ist.&quot; decoding=&quot;async&quot; loading=&quot;lazy&quot; width=&quot;1906&quot; height=&quot;700&quot; /&gt;
+    &lt;figcaption class=&quot;text-sm text-center&quot;&gt;Einstellung, ab wann der Pausenabzug aktiv ist.&lt;/figcaption&gt;
+  &lt;/picture&gt;
+&lt;/p&gt;
+&lt;h2 id=&quot;was-bleibt-unveraendert&quot;&gt;Was bleibt unverändert?&lt;/h2&gt;
+&lt;p&gt;Das Verhalten bei überschneidenden Arbeitszeiteinträgen bleibt vorerst unverändert.
+Diese werden weiterhin addiert, auch wenn sie sich zeitlich überschneiden.
+Achtung: Dadurch kann es zu Abweichungen zwischen Soll- und Ist-Arbeitszeit kommen.&lt;/p&gt;
+&lt;p&gt;Wir wissen, dass dieses Thema insbesondere in Richtung Projektzeiterfassung relevant ist.
+Wie wir diesen Bereich künftig gestalten, lassen wir bewusst offen und werden passende Lösungen mit Bedacht und in
+engem Austausch mit unseren Nutzer:innen entwickeln.&lt;/p&gt;
+&lt;h2 id=&quot;warum-diese-aenderung-wichtig-ist&quot;&gt;Warum diese Änderung wichtig ist&lt;/h2&gt;
+&lt;p&gt;✔ Rechtskonforme Abbildung von Pausenpflichten&lt;/p&gt;
+&lt;p&gt;✔ Korrekte Soll-Ist-Vergleiche&lt;/p&gt;
+&lt;p&gt;✔ Mehr Transparenz für Mitarbeitende und Arbeitgeber&lt;/p&gt;
+&lt;p&gt;✔ Einfachere Nachvollziehbarkeit bei Prüfungen oder Lohnabrechnungen&lt;/p&gt;
+&lt;p&gt;✔ Vorbereitung für automatische Pausenerfassung&lt;/p&gt;
+&lt;h2 id=&quot;euer-feedback-ist-mehr-als-willkommen&quot;&gt;Euer Feedback ist mehr als willkommen&lt;/h2&gt;
+&lt;p&gt;Dieses Update ist ein wichtiger Schritt in Richtung genauerer Zeiterfassung – aber nicht der letzte. Wir freuen uns über Rückmeldungen, Ideen oder Anwendungsfälle, die wir künftig berücksichtigen sollen.&lt;/p&gt;
+&lt;p&gt;&lt;sub&gt;Zur vollständigen Release-Übersicht: &lt;a href=&quot;https://github.com/urlaubsverwaltung/zeiterfassung/releases/tag/zeiterfassung-2.24.0&quot;&gt;Release 2.24.0 auf GitHub ansehen&lt;/a&gt;&lt;/sub&gt;&lt;/p&gt;
+</content>
+  </entry>
   <entry>
     <title>Urlaubsverwaltung 5.28.0 – Brandneue Statistik zu Krankmeldungen</title>
     <link href="https://urlaubsverwaltung.cloud/neuigkeiten/2025-08-22-release-5.28.0/" />
