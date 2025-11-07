@@ -10,7 +10,210 @@ description: Open Source, on Premise oder in der Cloud für den besten Preis
 
 <div class="mb-16 md:mb-24">
 	<div class="bg-white lg:pb-8">
-		{{> partials/price }}
+		<div class="w-full max-w-screen-xl mx-auto bg-white p-8 pb-16">
+			<h2 class="text-2xl font-bold mb-6" id="preis">
+				Preis
+			</h2>
+			<p class="text-xl mb-6 sm:mb-12">
+				Preisgestaltung so einfach wie die Urlaubsverwaltung.
+			</p>
+			<div class="mt-8 grid gap-4 justify-center sm:mt-16 lg:grid-cols-3">
+				<section class="bg-white p-4 border rounded-xl max-w-sm xs:p-8 sm:flex sm:justify-center lg:rounded-r-none">
+					<div class="flex flex-col gap-4">
+						<div >
+							<h3>Open-Source-Software</h3>
+							<p class="mt-4 text-sm">
+								Du willst dich um Setup, Backup & Updates selbst kümmern? Dann geht es hier direkt zu Github. Wir freuen uns über Feedback und Mitgestaltung!
+							</p>
+							<ul class="mt-4">
+								<li class="flex gap-2">
+									{{> partials/icon-check-check class='w-6 h-6 text-cyan-500 translate-y-0.5 shrink-0'}}
+									Offene Quellen
+								</li>
+								<li class="flex gap-2">
+									{{> partials/icon-check-check class='w-6 h-6 text-cyan-500 translate-y-0.5 shrink-0'}}
+									Aktive Community
+								</li>
+								<li class="flex gap-2">
+									{{> partials/icon-check-check class='w-6 h-6 text-cyan-500 translate-y-0.5 shrink-0'}}
+									Transparente Weiterentwicklung
+								</li>
+								<li class="flex gap-2">
+									{{> partials/icon-check-check class='w-6 h-6 text-cyan-500 translate-y-0.5 shrink-0'}}
+									Support via GitHub
+								</li>
+							</ul>
+						</div>
+						<div >
+							<a
+								href="https://github.com/urlaubsverwaltung"
+								class="block text-center px-3 py-2 font-medium no-underline rounded whitespace-nowrap text-sky-900 text-opacity-90 hover:text-opacity-100 border border-sky-100 hover:border-blue-200 hover:shadow-md active:shadow"
+							>
+								{{> partials/icon-github class='w-6 h-6 text-gray-400 inline align-sub'}}
+								GitHub
+							</a>
+						</div>
+					</div>
+				</section>
+				<section class="bg-white p-4 border rounded-xl max-w-sm xs:p-8 lg:scale-115 lg:shadow-blue-100 lg:shadow lg:p-4 xl:shadow-blue-100 xl:shadow-lg">
+					<div class="lg:scale-85 lg:-translate-y-4">
+						<div class="flex flex-row flex-wrap gap-2">
+							<h3>urlaubsverwaltung.cloud</h3>
+							<span
+								class="inline-flex items-center rounded-md bg-green-50 px-2 py-1 text-xs font-medium text-green-700 ring-1 ring-inset ring-green-600/20"
+							>
+						meistgewählt
+					</span>
+						</div>
+						<p class="mt-4 text-sm">
+							Registrieren und direkt Starten!
+						</p>
+						<ul class="mt-4">
+							<li class="flex gap-2">
+								{{> partials/icon-check-check class='w-6 h-6 text-cyan-500 translate-y-0.5 shrink-0'}}
+								Voller Funktionsumfang
+							</li>
+							<li class="flex gap-2">
+								{{> partials/icon-check-check class='w-6 h-6 text-cyan-500 translate-y-0.5 shrink-0'}}
+								Stetige Weiterentwicklung
+							</li>
+							<li class="flex gap-2">
+								{{> partials/icon-check-check class='w-6 h-6 text-cyan-500 translate-y-0.5 shrink-0'}}
+								Sicherheitsupdates
+							</li>
+							<li class="flex gap-2">
+								{{> partials/icon-check-check class='w-6 h-6 text-cyan-500 translate-y-0.5 shrink-0'}}
+								Single Sign On
+							</li>
+							<li class="flex gap-2">
+								{{> partials/icon-check-check class='w-6 h-6 text-cyan-500 translate-y-0.5 shrink-0'}}
+								Backups
+							</li>
+							<li class="flex gap-2">
+								{{> partials/icon-check-check class='w-6 h-6 text-cyan-500 translate-y-0.5 shrink-0'}}
+								E-Mail-Support
+							</li>
+							<li class="flex gap-2">
+								{{> partials/icon-check-check class='w-6 h-6 text-cyan-500 translate-y-0.5 shrink-0'}}
+								Onboarding
+							</li>
+							<li class="flex gap-2">
+								{{> partials/icon-check-check class='w-6 h-6 text-cyan-500 translate-y-0.5 shrink-0'}}
+								GreenIT & optimierte Ressourcennutzung
+							</li>
+							<li class="flex gap-2">
+								{{> partials/icon-check-check class='w-6 h-6 text-cyan-500 translate-y-0.5 shrink-0'}}
+								Urlaubsverwaltung 2€
+							</li>
+							<li class="flex gap-2">
+								{{> partials/icon-check-check class='w-6 h-6 text-cyan-500 translate-y-0.5 shrink-0'}}
+								Optional: Zeiterfassung 2€
+							</li>
+						</ul>
+						<div class="mt-6">
+							<a
+								href="https://registry.apps.urlaubsverwaltung.cloud/registration"
+								class="block text-center px-3 py-2 font-medium no-underline rounded whitespace-nowrap bg-yellow-300 text-sky-900 text-opacity-90 hover:text-opacity-100 border border-sky-100 hover:border-blue-200 hover:shadow-md active:shadow"
+							>
+								jetzt kostenlos testen
+							</a>
+						</div>
+						<p class="mt-6">
+							🎁 Jetzt Aktion sichern und 25% sparen!
+							<a href="#angebot-hinweis"><sup>*</sup></a>
+						</p>
+						<p class="mt-6">
+							Preise verstehen sich pro Monat und Benutzer (zzgl. MwSt).
+							Es besteht eine Mindestabnahmemenge von fünf Benutzern.
+						</p>
+						<p class="mt-6">
+							Ihr habt mehr als 250 Mitarbeitende? Dann meldet euch bei uns für ein
+							<a href="mailto:info@urlaubsverwaltung.cloud?subject=Anfrage%20individuelles%20Angebot"
+								 class="underline">
+								individuelles Angebot.
+							</a>
+						</p>
+					</div>
+				</section>
+				<section class="bg-white p-4 border rounded-xl max-w-sm xs:p-8 lg:flex lg:justify-center lg:rounded-l-none">
+					<div class="flex flex-col gap-4">
+						<div class="flex-1">
+							<h3>On Premise Installation</h3>
+							<p class="mt-4 text-sm">
+								Wir unterstützen dich gerne bei der Einrichtung der Urlaubsverwaltung & Zeiterfassung auf deinen eigenen Servern.
+							</p>
+							<ul class="mt-4">
+								<li class="flex gap-2">
+									{{> partials/icon-check-check class='w-6 h-6 text-cyan-500 translate-y-0.5 shrink-0'}}
+									Stundenbasierte Abrechnung
+								</li>
+								<li class="flex gap-2">
+									{{> partials/icon-check-check class='w-6 h-6 text-cyan-500 translate-y-0.5 shrink-0'}}
+									Direkte Hilfe durch Onlinecall
+								</li>
+								<li class="flex gap-2">
+									{{> partials/icon-check-check class='w-6 h-6 text-cyan-500 translate-y-0.5 shrink-0'}}
+									Von der Installation bis zum Onboarding
+								</li>
+							</ul>
+						</div>
+						<div class="flex-1">
+							<a
+								href="mailto:info@urlaubsverwaltung.cloud?subject=Anfrage%20On%20Premise%20Installation"
+								class="block text-center px-3 py-2 font-medium no-underline rounded whitespace-nowrap text-sky-900 text-opacity-90 hover:text-opacity-100 border border-sky-100 hover:border-blue-200 hover:shadow-md active:shadow">
+								jetzt Angebot anfragen
+							</a>
+						</div>
+						<div class="flex-1">
+							<h3>On Premise Support</h3>
+							<p class="mt-4 text-sm">
+								Wir sind an deiner Seite. Wir stellen dir einen individuellen Supportvertrag zur Verfügung, der auf deine
+								Anforderungen zugeschnitten ist. Er könnte zum Beispiel folgende Leistungen beinhalten:
+							</p>
+							<ul class="mt-4">
+								<li class="flex gap-2">
+									{{> partials/icon-check-check class='w-6 h-6 text-cyan-500 translate-y-0.5 shrink-0'}}
+									Servicezeit: Mo-Fr (9.00 - 17.00 Uhr)
+								</li>
+								<li class="flex gap-2">
+									{{> partials/icon-check-check class='w-6 h-6 text-cyan-500 translate-y-0.5 shrink-0'}}
+									Support-Kanal: E-Mail
+								</li>
+								<li class="flex gap-2">
+									{{> partials/icon-check-check class='w-6 h-6 text-cyan-500 translate-y-0.5 shrink-0'}}
+									Max. Antwortzeit: 8h
+								</li>
+								<li class="flex gap-2">
+									{{> partials/icon-check-check class='w-6 h-6 text-cyan-500 translate-y-0.5 shrink-0'}}
+									12 Serviceanfragen
+								</li>
+								<li class="flex gap-2">
+									{{> partials/icon-check-check class='w-6 h-6 text-cyan-500 translate-y-0.5 shrink-0'}}
+									Laufzeit von 12 Monaten
+								</li>
+							</ul>
+						</div>
+						<div class="flex-1">
+							<a
+								href="mailto:info@urlaubsverwaltung.cloud?subject=Anfrage%20On%20Premise%20Support"
+								class="block text-center px-3 py-2 font-medium no-underline rounded whitespace-nowrap text-sky-900 text-opacity-90 hover:text-opacity-100 border border-sky-100 hover:border-blue-200 hover:shadow-md active:shadow">
+								jetzt Angebot anfragen
+							</a>
+						</div>
+					</div>
+				</section>
+			</div>
+		</div>
+
+		<div id="angebot-hinweis">
+			<p class="text-center my-8 text-sm">
+				* Das Rabattangebot gilt ausschließlich für Neukunden, die bis zum 31.01.2026 einen Jahresvertrag abschließen.
+				Du erhältst den einmaligen Rabatt von 25 % für das erste Jahr.
+				<br>
+				Einfach <a href="https://registry.apps.urlaubsverwaltung.cloud/registration/">registrieren</a> und im Kundenportal bestätigen.
+			</p>
+		</div>
+
 	</div>
 </div>
 
