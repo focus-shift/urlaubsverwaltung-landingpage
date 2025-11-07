@@ -3,8 +3,6 @@ layout: layout-subpage.hbs
 backgroundColor: bg-sky-50
 title: Digitale Souveränität statt Lock-In
 description: Vermeide Vendor Lock-In & übernimm Kontrolle - Unsere SaaS-Plattform basiert auf Open Source und gibt dir die digitale Unabhängigkeit, die du verdienst.
-stylesheets:
-  - /static/css/digitale-souveraenitaet.css
 ---
 
 <div class="flex flex-col md:flex-row">
@@ -120,120 +118,97 @@ stylesheets:
 			<h2 class="text-2xl mt-6 mb-3">Häufig gestellte Fragen (FAQ)   </h2>
 		</div>
 
-		<div class="flex-1 md:mb-0 bg-white rounded-2xl py-8 px-4 md:p-8">
-			<input type="checkbox" name="noop" id="digital-souveraenitaet-checkbox-was-ist">
-			<input type="checkbox" name="noop" id="digital-souveraenitaet-checkbox-warum-wichtig">
-			<input type="checkbox" name="noop" id="digital-souveraenitaet-checkbox-unterschied-datenschutz">
-			<input type="checkbox" name="noop" id="digital-souveraenitaet-checkbox-vendor-lockin">
-			<input type="checkbox" name="noop" id="digital-souveraenitaet-checkbox-verwaltung">
-			<input type="checkbox" name="noop" id="digital-souveraenitaet-checkbox-open-source">
-			<input type="checkbox" name="noop" id="digital-souveraenitaet-checkbox-sicher">
+		<div class="accordion flex-1 md:mb-0 bg-white rounded-2xl py-8 px-4 md:p-8">
 
-			<dl>
-				<dt class="group text-lg md:text-xl text-black font-semibold">
-					<label tabindex="0" for="digital-souveraenitaet-checkbox-was-ist" class="cursor-pointer flex md:items-center text-black text-opacity-90">
-						<span class="mr-4 md:mr-6 text-sky-400 text-opacity-70 group-hover:text-opacity-100 mt-1">
-							{{> partials/icon-plus-circle class='w-6 h-6 md:w-7 md:h-7'}}
-						</span>
-						Was versteht man unter digitaler Souveränität?
-					</label>
-				</dt>
-				<dd data-id="digital-souveraenitaet-p-was-ist" class="mt-4 ml-10 md:ml-13 text-lg text-black text-opacity-80">
-					Digitale Souveränität bezeichnet die Fähigkeit von Staaten, Organisationen oder Individuen, ihre digitalen Infrastrukturen, Daten und Technologien eigenständig, unabhängig und kontrolliert zu nutzen und zu gestalten. Sie ermöglicht Freiheit von externen Abhängigkeiten – etwa durch offene Standards, Open Source Software und selbstbestimmte Datenverarbeitung.
-				</dd>
-
-				<dt class="group text-lg md:text-xl mt-8 md:mt-4 text-black font-semibold">
-					<label tabindex="0" for="digital-souveraenitaet-checkbox-warum-wichtig" class="cursor-pointer flex md:items-center text-black text-opacity-90">
-							<span class="mr-4 md:mr-6 text-sky-400 text-opacity-70 group-hover:text-opacity-100 mt-1">
-								{{> partials/icon-plus-circle class='w-6 h-6 md:w-7 md:h-7'}}
-							</span>
-						Warum ist digitale Souveränität wichtig?
-					</label>
-				</dt>
-				<dd data-id="digital-souveraenitaet-p-warum-wichtig" class="mt-4 ml-10 md:ml-13 text-lg text-black text-opacity-80">
-					Sie ermöglicht es Organisationen, ihre Daten und IT-Systeme unabhängig zu kontrollieren, schützt vor Abhängigkeiten von einzelnen Anbietern und stärkt die Resilienz gegenüber externen Einflüssen.
-				</dd>
-
-				<dt class="group text-lg md:text-xl mt-8 md:mt-4 text-black font-semibold">
-					<label tabindex="0" for="digital-souveraenitaet-checkbox-unterschied-datenschutz" class="cursor-pointer flex md:items-center text-black text-opacity-90">
-							<span class="mr-4 md:mr-6 text-sky-400 text-opacity-70 group-hover:text-opacity-100 mt-1">
-								{{> partials/icon-plus-circle class='w-6 h-6 md:w-7 md:h-7'}}
-							</span>
-						Was ist der Unterschied zwischen digitaler Souveränität und Datenschutz?
-					</label>
-				</dt>
-				<dd data-id="digital-souveraenitaet-p-unterschied-datenschutz" class="mt-4 ml-10 md:ml-13 text-lg text-black text-opacity-80">
-					Datenschutz betrifft in erster Linie den rechtlichen Schutz personenbezogener Daten. Digitale Souveränität geht weiter – sie betrifft die strategische Kontrolle über digitale Systeme und Strukturen.
-				</dd>
-
-				<dt class="group text-lg md:text-xl mt-8 md:mt-4 text-black font-semibold">
-					<label tabindex="0" for="digital-souveraenitaet-checkbox-vendor-lockin" class="cursor-pointer flex md:items-center text-black text-opacity-90">
-							<span class="mr-4 md:mr-6 text-sky-400 text-opacity-70 group-hover:text-opacity-100 mt-1">
-								{{> partials/icon-plus-circle class='w-6 h-6 md:w-7 md:h-7'}}
-							</span>
-						Was ist Vendor Lock-In und wie kann man ihn vermeiden?
-					</label>
-				</dt>
-				<dd data-id="digital-souveraenitaet-p-vendor-lockin" class="mt-4 ml-10 md:ml-13 text-lg text-black text-opacity-80">
-					Vendor Lock-In bezeichnet die Abhängigkeit von einem bestimmten Anbieter, was den Wechsel zu anderen Lösungen erschwert. Durch den Einsatz von offenen Standards und Open Source Software kann diese Abhängigkeit reduziert werden.
-				</dd>
-
-				<dt class="group text-lg md:text-xl mt-8 md:mt-4 text-black font-semibold">
-					<label tabindex="0" for="digital-souveraenitaet-checkbox-verwaltung" class="cursor-pointer flex md:items-center text-black text-opacity-90">
-							<span class="mr-4 md:mr-6 text-sky-400 text-opacity-70 group-hover:text-opacity-100 mt-1">
-								{{> partials/icon-plus-circle class='w-6 h-6 md:w-7 md:h-7'}}
-							</span>
-						Welche Rolle spielt digitale Souveränität in der öffentlichen Verwaltung?
-					</label>
-				</dt>
-				<dd data-id="digital-souveraenitaet-p-verwaltung" class="mt-4 ml-10 md:ml-13 text-lg text-black text-opacity-80">
-					Öffentliche Einrichtungen unterliegen strengen Datenschutz- und Sicherheitsanforderungen.
-					Digitale Souveränität, also die Kontrolle über digitale Infrastrukturen, ist entscheidend,
-					um diese Anforderungen zu erfüllen und die Unabhängigkeit von großen Anbietern zu gewährleisten.
-					SaaS Lösungen, die auf Open Source basieren, bieten eine transparente Lösung für diese Herausforderungen.
-				</dd>
-
-				<dt class="group text-lg md:text-xl mt-8 md:mt-4 text-black font-semibold">
-					<label tabindex="0" for="digital-souveraenitaet-checkbox-open-source" class="cursor-pointer flex md:items-center text-black text-opacity-90">
-							<span class="mr-4 md:mr-6 text-sky-400 text-opacity-70 group-hover:text-opacity-100 mt-1">
-								{{> partials/icon-plus-circle class='w-6 h-6 md:w-7 md:h-7'}}
-							</span>
-						Wie kann Open Source Software zur digitalen Souveränität beitragen?
-					</label>
-				</dt>
-				<dd data-id="digital-souveraenitaet-p-open-source" class="mt-4 ml-10 md:ml-13 text-lg text-black text-opacity-80">
-					Open Source Software bietet Transparenz, Anpassungsfähigkeit und Unabhängigkeit von proprietären Anbietern, was die Kontrolle über digitale Infrastrukturen stärkt.
-				</dd>
-
-				<dt class="group text-lg md:text-xl mt-8 md:mt-4 text-black font-semibold">
-					<label tabindex="0" for="digital-souveraenitaet-checkbox-sicher" class="cursor-pointer flex md:items-center text-black text-opacity-90">
-							<span class="mr-4 md:mr-6 text-sky-400 text-opacity-70 group-hover:text-opacity-100 mt-1">
-								{{> partials/icon-plus-circle class='w-6 h-6 md:w-7 md:h-7'}}
-							</span>
-						Ist Open Source wirklich sicher?
-					</label>
-				</dt>
-				<dd data-id="digital-souveraenitaet-p-sicher" class="mt-4 ml-10 md:ml-13 text-lg text-black text-opacity-80">
-					Ja. Sicherheit entsteht nicht durch Geheimhaltung, sondern durch Transparenz, Audits und breite Community-Beteiligung. Open Source Projekte sind oft besser geprüft als proprietäre Lösungen.
-				</dd>
-
-			</dl>
-			<script>
-				[...document.querySelectorAll("label[for*=digital-souveraenitaet-checkbox]")].forEach(label => {
-					label.addEventListener('click', function(event) {
-						event.preventDefault();
-						const checkbox = document.querySelector('#' + label.getAttribute("for"));
-						checkbox.checked = !checkbox.checked;
-					});
-					label.addEventListener('keydown', function(event) {
-						if (event.key === 'Enter') {
-							event.preventDefault();
-							const checkbox = document.querySelector('#' + label.getAttribute("for"));
-							checkbox.checked = !checkbox.checked;
-						}
-					});
-				});
-			</script>
+			<ul class="accordion">
+				<li>
+					<details class="accordion-item">
+						<summary class="accordion-item__summary">
+							Was versteht man unter digitaler Souveränität?
+						</summary>
+						<div class="accordion-item__content">
+							<p>
+								Digitale Souveränität bezeichnet die Fähigkeit von Staaten, Organisationen oder Individuen, ihre digitalen Infrastrukturen, Daten und Technologien eigenständig, unabhängig und kontrolliert zu nutzen und zu gestalten. Sie ermöglicht Freiheit von externen Abhängigkeiten – etwa durch offene Standards, Open Source Software und selbstbestimmte Datenverarbeitung.
+							</p>
+						</div>
+					</details>
+				</li>
+				<li>
+					<details class="accordion-item">
+						<summary class="accordion-item__summary">
+							Warum ist digitale Souveränität wichtig?
+						</summary>
+						<div class="accordion-item__content">
+							<p>
+								Sie ermöglicht es Organisationen, ihre Daten und IT-Systeme unabhängig zu kontrollieren, schützt vor Abhängigkeiten von einzelnen Anbietern und stärkt die Resilienz gegenüber externen Einflüssen.
+							</p>
+						</div>
+					</details>
+				</li>
+				<li>
+					<details class="accordion-item">
+						<summary class="accordion-item__summary">
+							Was ist der Unterschied zwischen digitaler Souveränität und Datenschutz?
+						</summary>
+						<div class="accordion-item__content">
+							<p>
+								Datenschutz betrifft in erster Linie den rechtlichen Schutz personenbezogener Daten. Digitale Souveränität geht weiter – sie betrifft die strategische Kontrolle über digitale Systeme und Strukturen.
+							</p>
+						</div>
+					</details>
+				</li>
+				<li>
+					<details class="accordion-item">
+						<summary class="accordion-item__summary">
+							Was ist Vendor Lock-In und wie kann man ihn vermeiden?
+						</summary>
+						<div class="accordion-item__content">
+							<p>
+								Vendor Lock-In bezeichnet die Abhängigkeit von einem bestimmten Anbieter, was den Wechsel zu anderen Lösungen erschwert. Durch den Einsatz von offenen Standards und Open Source Software kann diese Abhängigkeit reduziert werden.
+							</p>
+						</div>
+					</details>
+				</li>
+				<li>
+					<details class="accordion-item">
+						<summary class="accordion-item__summary">
+							Welche Rolle spielt digitale Souveränität in der öffentlichen Verwaltung?
+						</summary>
+						<div class="accordion-item__content">
+							<p>
+								Öffentliche Einrichtungen unterliegen strengen Datenschutz- und Sicherheitsanforderungen.
+								Digitale Souveränität, also die Kontrolle über digitale Infrastrukturen, ist entscheidend,
+								um diese Anforderungen zu erfüllen und die Unabhängigkeit von großen Anbietern zu gewährleisten.
+								SaaS Lösungen, die auf Open Source basieren, bieten eine transparente Lösung für diese Herausforderungen.
+							</p>
+						</div>
+					</details>
+				</li>
+				<li>
+					<details class="accordion-item">
+						<summary class="accordion-item__summary">
+							Wie kann Open Source Software zur digitalen Souveränität beitragen?
+						</summary>
+						<div class="accordion-item__content">
+							<p>
+								Open Source Software bietet Transparenz, Anpassungsfähigkeit und Unabhängigkeit von proprietären Anbietern, was die Kontrolle über digitale Infrastrukturen stärkt.
+							</p>
+						</div>
+					</details>
+				</li>
+				<li>
+					<details class="accordion-item">
+						<summary class="accordion-item__summary">
+							Ist Open Source wirklich sicher?
+						</summary>
+						<div class="accordion-item__content">
+							<p>
+								Ja. Sicherheit entsteht nicht durch Geheimhaltung, sondern durch Transparenz, Audits und breite Community-Beteiligung. Open Source Projekte sind oft besser geprüft als proprietäre Lösungen.
+							</p>
+						</div>
+					</details>
+				</li>
+			</ul>
 		</div>
 	</div>
 </div>

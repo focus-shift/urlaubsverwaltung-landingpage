@@ -35,7 +35,7 @@ const isPublished = post =>
 export default function (eleventyConfig) {
 	eleventyConfig.setTemplateFormats(["njk", "hbs", "md", "html", "txt"]);
 	eleventyConfig.addPassthroughCopy(
-		"./src/**/*.{png,jpg,jpeg,webp,avif,mp4,xml}",
+		"./src/**/*.{png,jpg,jpeg,webp,avif,mp4,xml,svg}",
 	);
 	eleventyConfig.addPassthroughCopy({ "./public/static": "static" });
 

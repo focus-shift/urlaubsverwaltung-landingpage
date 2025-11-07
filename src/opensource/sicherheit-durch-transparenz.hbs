@@ -3,8 +3,6 @@ layout: layout-subpage.hbs
 backgroundColor: bg-sky-50
 title: Sicherheit durch Transparenz - eine Open Source Zeitwirtschaft
 description: Volle Kontrolle über Daten & Datenschutz - So sorgt unsere Open-Source-Software für maximale Sicherheit in deiner Zeitwirtschaft.
-stylesheets:
-  - /static/css/sicherheit-transparenz.css
 ---
 
 <div class="flex flex-col md:flex-row">
@@ -88,78 +86,56 @@ stylesheets:
 		</div>
 
 		<div class="flex-1 md:mb-0 bg-white rounded-2xl py-8 px-4 md:p-8">
-			<input type="checkbox" name="noop" id="open-source-checkbox-secure">
-			<input type="checkbox" name="noop" id="open-source-checkbox-concrete">
-			<input type="checkbox" name="noop" id="open-source-checkbox-dsgvo">
-			<input type="checkbox" name="noop" id="open-source-checkbox-export">
-
-
-    			<dl>
-    				<dt class="group text-lg md:text-xl text-black font-semibold">
-    					<label tabindex="0" for="open-source-checkbox-secure" class="cursor-pointer flex md:items-center text-black text-opacity-90">
-    							<span class="mr-4 md:mr-6 text-sky-400 text-opacity-70 group-hover:text-opacity-100 mt-1">
-    								{{> partials/icon-plus-circle class='w-6 h-6 md:w-7 md:h-7'}}
-    							</span>
-    						Ist Open-Source-Software wirklich sicher genug für sensible Personaldaten?
-    					</label>
-    				</dt>
-    				<dd data-id="open-source-p-secure" class="mt-4 ml-10 md:ml-13 text-lg text-black text-opacity-80">
+			<ul class="accordion">
+				<li>
+					<details class="accordion-item">
+						<summary class="accordion-item__summary">
+							Ist Open-Source-Software wirklich sicher genug für sensible Personaldaten?
+						</summary>
+						<div class="accordion-item__content">
+							<p>
 								Ja – gerade weil der Quellcode offen ist, kann er von unabhängigen Expert:innen regelmäßig geprüft werden. Sicherheitslücken werden schneller entdeckt und behoben als bei proprietärer Software. Außerdem setzen wir auf verschlüsselte Datenübertragung und DSGVO-konforme Datenspeicherung.
-    				</dd>
-
-    				<dt class="group text-lg md:text-xl mt-8 md:mt-4 text-black font-semibold">
-    					<label tabindex="0" for="open-source-checkbox-concrete" class="cursor-pointer flex md:items-center text-black text-opacity-90">
-    							<span class="mr-4 md:mr-6 text-sky-400 text-opacity-70 group-hover:text-opacity-100 mt-1">
-    								{{> partials/icon-plus-circle class='w-6 h-6 md:w-7 md:h-7'}}
-    							</span>
-    						Was bedeutet „Sicherheit durch Transparenz“ konkret?
-    					</label>
-    				</dt>
-    				<dd data-id="open-source-p-concrete" class="mt-4 ml-10 md:ml-13 text-lg text-black text-opacity-80">
-    					Transparenz bedeutet bei uns: Sie sehen genau, wie das System arbeitet, welche Daten erfasst werden und wo sie gespeichert sind. Das reduziert nicht nur Risiken, sondern stärkt auch das Vertrauen Ihrer Mitarbeitenden in das System.
-    				</dd>
-
-    				<dt class="group text-lg md:text-xl mt-8 md:mt-4 text-black font-semibold">
-    					<label tabindex="0" for="open-source-checkbox-dsgvo" class="cursor-pointer flex md:items-center text-black text-opacity-90">
-    							<span class="mr-4 md:mr-6 text-sky-400 text-opacity-70 group-hover:text-opacity-100 mt-1">
-    								{{> partials/icon-plus-circle class='w-6 h-6 md:w-7 md:h-7'}}
-    							</span>
-    						Ist die Lösung DSGVO-konform?
-    					</label>
-    				</dt>
-    				<dd data-id="open-source-p-dsgvo" class="mt-4 ml-10 md:ml-13 text-lg text-black text-opacity-80">
-    					Ja. Unsere Open-Source-Zeitwirtschaft ist vollständig DSGVO-konform. Daten werden verschlüsselt gespeichert, klar getrennt verarbeitet und ausschließlich in datenschutzsicheren Rechenzentren in der EU gehostet. Sie behalten jederzeit die Hoheit über Ihre Daten.
-    				</dd>
-
-    				<dt class="group text-lg md:text-xl mt-8 md:mt-4 text-black font-semibold">
-    					<label tabindex="0" for="open-source-checkbox-export" class="cursor-pointer flex md:items-center text-black text-opacity-90">
-    							<span class="mr-4 md:mr-6 text-sky-400 text-opacity-70 group-hover:text-opacity-100 mt-1">
-    								{{> partials/icon-plus-circle class='w-6 h-6 md:w-7 md:h-7'}}
-    							</span>
-    						Kann ich die Daten exportieren oder in andere Systeme übertragen?
-    					</label>
-    				</dt>
-    				<dd data-id="open-source-p-export" class="mt-4 ml-10 md:ml-13 text-lg text-black text-opacity-80">
-    					Absolut. Als Open-Source-Lösung ist unsere Software frei von Vendor Lock-ins. Sie können jederzeit sämtliche Daten exportieren – strukturiert, dokumentiert und maschinenlesbar – für maximale Flexibilität.
-    				</dd>
-
-    			</dl>
-    			<script>
-    				[...document.querySelectorAll("label[for*=digital-souveraenitaet-checkbox]")].forEach(label => {
-    					label.addEventListener('click', function(event) {
-    						event.preventDefault();
-    						const checkbox = document.querySelector('#' + label.getAttribute("for"));
-    						checkbox.checked = !checkbox.checked;
-    					});
-    					label.addEventListener('keydown', function(event) {
-    						if (event.key === 'Enter') {
-    							event.preventDefault();
-    							const checkbox = document.querySelector('#' + label.getAttribute("for"));
-    							checkbox.checked = !checkbox.checked;
-    						}
-    					});
-    				});
-    			</script>
+							</p>
+						</div>
+					</details>
+				</li>
+				<li>
+					<details class="accordion-item">
+						<summary class="accordion-item__summary">
+							Was bedeutet „Sicherheit durch Transparenz“ konkret?
+						</summary>
+						<div class="accordion-item__content">
+							<p>
+								Transparenz bedeutet bei uns: Sie sehen genau, wie das System arbeitet, welche Daten erfasst werden und wo sie gespeichert sind. Das reduziert nicht nur Risiken, sondern stärkt auch das Vertrauen Ihrer Mitarbeitenden in das System.
+							</p>
+						</div>
+					</details>
+				</li>
+				<li>
+					<details class="accordion-item">
+						<summary class="accordion-item__summary">
+							Ist die Lösung DSGVO-konform?
+						</summary>
+						<div class="accordion-item__content">
+							<p>
+								Ja. Unsere Open-Source-Zeitwirtschaft ist vollständig DSGVO-konform. Daten werden verschlüsselt gespeichert, klar getrennt verarbeitet und ausschließlich in datenschutzsicheren Rechenzentren in der EU gehostet. Sie behalten jederzeit die Hoheit über Ihre Daten.
+							</p>
+						</div>
+					</details>
+				</li>
+				<li>
+					<details class="accordion-item">
+						<summary class="accordion-item__summary">
+							Kann ich die Daten exportieren oder in andere Systeme übertragen?
+						</summary>
+						<div class="accordion-item__content">
+							<p>
+								Absolut. Als Open-Source-Lösung ist unsere Software frei von Vendor Lock-ins. Sie können jederzeit sämtliche Daten exportieren – strukturiert, dokumentiert und maschinenlesbar – für maximale Flexibilität.
+							</p>
+						</div>
+					</details>
+				</li>
+			</ul>
     		</div>
 
 	</div>
