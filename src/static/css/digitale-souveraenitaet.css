@@ -1,74 +1,7 @@
 .uebersicht-card-border {
-    @apply md:bg-gradient-to-b;
-    @apply from-gray-50;
-    @apply to-sky-50;
-    padding: 1.125rem;
-    border-radius: 1.125rem;
-}
-
-input[type="checkbox"] {
-	display: none;
-}
-input[type="checkbox"] ~ dl dd {
-	display: none;
-}
-input[type="checkbox"] ~ dl dt > label > span > svg {
-	transition: transform ease-in-out 150ms;
-}
-
-
-#digital-souveraenitaet-checkbox-was-ist:checked
-	~ dl
-	dt
-	> label[for="digital-souveraenitaet-checkbox-was-ist"]
-	> span
-	> svg,
-#digital-souveraenitaet-checkbox-warum-wichtig:checked
-	~ dl
-	dt
-	> label[for="digital-souveraenitaet-checkbox-warum-wichtig"]
-	> span
-	> svg,
-#digital-souveraenitaet-checkbox-unterschied-datenschutz:checked
-	~ dl
-	dt
-	> label[for="digital-souveraenitaet-checkbox-unterschied-datenschutz"]
-	> span
-	> svg,
-#digital-souveraenitaet-checkbox-vendor-lockin:checked
-	~ dl
-	dt
-	> label[for="digital-souveraenitaet-checkbox-vendor-lockin"]
-	> span
-	> svg,
-#digital-souveraenitaet-checkbox-verwaltung:checked
-	~ dl
-	dt
-	> label[for="digital-souveraenitaet-checkbox-verwaltung"]
-	> span
-	> svg,
-#digital-souveraenitaet-checkbox-open-source:checked
-	~ dl
-	dt
-	> label[for="digital-souveraenitaet-checkbox-open-source"]
-	> span
-	> svg,
-#digital-souveraenitaet-checkbox-sicher:checked
-	~ dl
-	dt
-	> label[for="digital-souveraenitaet-checkbox-sicher"]
-	> span
-	> svg {
-	transform: rotate(45deg);
-	color: rgba(14, 165, 233, var(--tw-text-opacity));
-}
-
-#digital-souveraenitaet-checkbox-was-ist:checked ~ dl dd[data-id="digital-souveraenitaet-p-was-ist"],
-#digital-souveraenitaet-checkbox-warum-wichtig:checked ~ dl dd[data-id="digital-souveraenitaet-p-warum-wichtig"],
-#digital-souveraenitaet-checkbox-unterschied-datenschutz:checked ~ dl dd[data-id="digital-souveraenitaet-p-unterschied-datenschutz"],
-#digital-souveraenitaet-checkbox-vendor-lockin:checked ~ dl dd[data-id="digital-souveraenitaet-p-vendor-lockin"],
-#digital-souveraenitaet-checkbox-verwaltung:checked ~ dl dd[data-id="digital-souveraenitaet-p-verwaltung"],
-#digital-souveraenitaet-checkbox-open-source:checked ~ dl dd[data-id="digital-souveraenitaet-p-open-source"],
-#digital-souveraenitaet-checkbox-sicher:checked ~ dl dd[data-id="digital-souveraenitaet-p-sicher"] {
-	display: block;
+	@apply md:bg-gradient-to-b;
+	@apply from-gray-50;
+	@apply to-sky-50;
+	padding: 1.125rem;
+	border-radius: 1.125rem;
 }

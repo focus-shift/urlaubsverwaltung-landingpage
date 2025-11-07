@@ -1,53 +1,7 @@
 .uebersicht-card-border {
-    @apply md:bg-gradient-to-b;
-    @apply from-gray-50;
-    @apply to-sky-50;
-    padding: 1.125rem;
-    border-radius: 1.125rem;
-}
-
-input[type="checkbox"] {
-	display: none;
-}
-input[type="checkbox"] ~ dl dd {
-	display: none;
-}
-input[type="checkbox"] ~ dl dt > label > span > svg {
-	transition: transform ease-in-out 150ms;
-}
-
-
-#open-source-checkbox-secure:checked
-	~ dl
-	dt
-	> label[for="open-source-checkbox-secure"]
-	> span
-	> svg,
-#open-source-checkbox-concrete:checked
-	~ dl
-	dt
-	> label[for="open-source-checkbox-concrete"]
-	> span
-	> svg,
-#open-source-checkbox-dsgvo:checked
-	~ dl
-	dt
-	> label[for="open-source-checkbox-dsgvo"]
-	> span
-	> svg,
-#open-source-checkbox-export:checked
-	~ dl
-	dt
-	> label[for="open-source-checkbox-export"]
-	> span
-	> svg {
-	transform: rotate(45deg);
-	color: rgba(14, 165, 233, var(--tw-text-opacity));
-}
-
-#open-source-checkbox-secure:checked ~ dl dd[data-id="open-source-p-secure"],
-#open-source-checkbox-concrete:checked ~ dl dd[data-id="open-source-p-concrete"],
-#open-source-checkbox-dsgvo:checked ~ dl dd[data-id="open-source-p-dsgvo"],
-#open-source-checkbox-export:checked ~ dl dd[data-id="open-source-p-export"] {
-	display: block;
+	@apply md:bg-gradient-to-b;
+	@apply from-gray-50;
+	@apply to-sky-50;
+	padding: 1.125rem;
+	border-radius: 1.125rem;
 }
