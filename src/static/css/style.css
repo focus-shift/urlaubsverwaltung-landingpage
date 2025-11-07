@@ -75,6 +75,14 @@
 }
 
 @layer components {
+	.uebersicht-card-border {
+		@apply md:bg-gradient-to-b;
+		@apply from-gray-50;
+		@apply to-sky-50;
+		padding: 1.125rem;
+		border-radius: 1.125rem;
+	}
+
 	.accordion {
 		list-style: none;
 		margin: 0;
