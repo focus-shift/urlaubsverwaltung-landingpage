@@ -106,10 +106,44 @@
 						jetzt kostenlos testen
 					</a>
 				</div>
-				<p class="mt-6">
+				<p class="my-6">
 					🎁 Jetzt Aktion sichern und 25% sparen!
 					<a href="#angebot-hinweis"><sup>*</sup></a>
 				</p>
+				<h3>
+					Dein Preis
+				</h3>
+				<div class="mt-4">
+					<form class="flex flex-col gap-4 px-3 py-2 rounded border border-sky-100" onsubmit="return false;">
+						<div class="flex flex-row gap-4">
+							<label for="price-user-count" class="font-medium">Anzahl Mitarbeitende:</label>
+							<input id="price-user-count" name="user-count" type="number" min="1" max="250" value="5" step="1" class="border rounded px-2 py-1 w-24 text-center" />
+						</div>
+						<div class="flex flex-col sm:flex-row gap-4">
+							<label class="font-medium" for="price-period-checkbox">Zahlweise:</label>
+							<div class="flex gap-2">
+								<span class="text-sm font-medium text-gray-700">Monatlich</span>
+								<label class="relative inline-flex cursor-pointer">
+									<input id="price-period-checkbox" type="checkbox" class="sr-only peer" />
+									<div class="w-11 h-6 bg-gray-200 peer-checked:bg-sky-500 peer-focus:outline-none peer-focus:ring-2 peer-focus:ring-sky-500 rounded-full peer transition-colors"></div>
+									<div class="absolute left-0.5 top-0.5 w-5 h-5 bg-white rounded-full shadow peer-checked:translate-x-5 transition-transform"></div>
+								</label>
+								<span class="text-sm font-medium text-gray-700">Jährlich (10% Rabatt)</span>
+							</div>
+						</div>
+							<div class="flex flex-row gap-4">
+								<input id="product-urlaubsverwaltung-checkbox" type="checkbox" class="form-checkbox h-5 w-5 text-sky-600" checked="checked" disabled />
+								<label for="product-urlaubsverwaltung-checkbox" class="font-medium select-none cursor-pointer">Urlaubsverwaltung</label>
+							</div>
+							<div class="flex flex-row gap-4">
+								<input id="product-zeiterfassung-checkbox" type="checkbox" class="form-checkbox h-5 w-5 text-sky-600" />
+								<label for="product-zeiterfassung-checkbox" class="font-medium select-none cursor-pointer">Zeiterfassung (+ 2€ pro Mitarbeitende)</label>
+							</div>
+							<div class="text-lg font-bold mt-2">
+								<span id="price-result">-</span>
+							</div>
+					</form>
+				</div>
 				<p class="mt-6">
 					Preise verstehen sich pro Monat und Benutzer (zzgl. MwSt).
 					Es besteht eine Mindestabnahmemenge von fünf Benutzern.
@@ -201,3 +235,4 @@
 		Einfach <a href="https://registry.apps.urlaubsverwaltung.cloud/registration/">registrieren</a> und im Kundenportal bestätigen.
 	</p>
 </div>
+<script defer type="text/javascript" src="/static/js/price-calculator.js"></script>
