@@ -9,124 +9,151 @@ description: Open Source, on Premise oder in der Cloud für den besten Preis
 ---
 
 <div class="mb-16 md:mb-24">
-	<div class="bg-white lg:pb-8">
-		<div class="w-full max-w-screen-xl mx-auto bg-white p-8 pb-16">
-			<h2 class="text-2xl font-bold mb-6" id="preis">
-				Preis
-			</h2>
-			<p class="text-xl mb-6 sm:mb-12">
-				Preisgestaltung so einfach wie die Urlaubsverwaltung.
-			</p>
-			<div class="mt-8 grid gap-4 justify-center sm:mt-16 lg:grid-cols-3">
-				<section class="bg-white p-4 border rounded-xl max-w-sm xs:p-8 sm:flex sm:justify-center lg:rounded-r-none">
-					<div class="flex flex-col gap-4">
-						<div >
-							<h3>Open-Source-Software</h3>
-							<p class="mt-4 text-sm">
-								Du willst dich um Setup, Backup & Updates selbst kümmern? Dann geht es hier direkt zu Github. Wir freuen uns über Feedback und Mitgestaltung!
+	<h2 class="sr-only text-2xl font-bold text-center" id="preis">
+		Preis
+	</h2>
+	<p class="mt-4 text-2xl text-center">
+		Preisgestaltung so einfach wie die Urlaubsverwaltung.
+	</p>
+	<div class="mt-8 price">
+		<div class="flex items-center justify-center hosted-toggle-container">
+			<label class="checkbox-switch checkbox-switch--noir">
+				<span class="sr-only">On Premise</span>
+				<input type="checkbox" name="on-premise">
+			</label>
+			<button id="price-button-cloud" class="hosted-toggle__label-hosted">Cloud</button>
+			<button id="price-button-on-premise" class="hosted-toggle__label-self-hosted">On Premise</button>
+		</div>
+	</div>
+	<div class="mt-8 bg-white rounded-xl overflow-hidden lg:pb-8">
+		<div class="w-full max-w-screen-xl mx-auto bg-white p-4 lg:p-8 lg:px-16">
+			<div class="price">
+				<div class="section-hosted">
+					<p class="m-0 mb-8 text-lg text-center lg:mb-10">
+						🎁 Jetzt Aktion sichern und 25% sparen!
+						<a href="#angebot-hinweis" class="no-underline"><sup>*</sup></a>
+					</p>
+					<div class="flex gap-4 flex-col items-center lg:flex-row">
+						<div class="p-8 rounded-lg border border-gray-100 lg:w-2/5">
+							<div class="flex flex-wrap items-center gap-2">
+								<h3 class="m-0 font-bold">urlaubsverwaltung.cloud</h3>
+								<span
+									class="inline-flex items-center rounded-md bg-green-50 px-2 py-1 text-xs font-medium text-green-700 ring-1 ring-inset ring-green-600/20"
+								>
+									meistgewählt
+								</span>
+							</div>
+							<p class="mt-4">
+								Registrieren und direkt Starten!
 							</p>
 							<ul class="mt-4">
 								<li class="flex gap-2">
 									{{> partials/icon-check-check class='w-6 h-6 text-cyan-500 translate-y-0.5 shrink-0'}}
-									Offene Quellen
+									Voller Funktionsumfang
 								</li>
 								<li class="flex gap-2">
 									{{> partials/icon-check-check class='w-6 h-6 text-cyan-500 translate-y-0.5 shrink-0'}}
-									Aktive Community
+									Stetige Weiterentwicklung
 								</li>
 								<li class="flex gap-2">
 									{{> partials/icon-check-check class='w-6 h-6 text-cyan-500 translate-y-0.5 shrink-0'}}
-									Transparente Weiterentwicklung
+									Sicherheitsupdates
 								</li>
 								<li class="flex gap-2">
 									{{> partials/icon-check-check class='w-6 h-6 text-cyan-500 translate-y-0.5 shrink-0'}}
-									Support via GitHub
+									Single Sign On
+								</li>
+								<li class="flex gap-2">
+									{{> partials/icon-check-check class='w-6 h-6 text-cyan-500 translate-y-0.5 shrink-0'}}
+									Backups
+								</li>
+								<li class="flex gap-2">
+									{{> partials/icon-check-check class='w-6 h-6 text-cyan-500 translate-y-0.5 shrink-0'}}
+									E-Mail-Support
+								</li>
+								<li class="flex gap-2">
+									{{> partials/icon-check-check class='w-6 h-6 text-cyan-500 translate-y-0.5 shrink-0'}}
+									Onboarding
+								</li>
+								<li class="flex gap-2">
+									{{> partials/icon-check-check class='w-6 h-6 text-cyan-500 translate-y-0.5 shrink-0'}}
+									GreenIT & optimierte Ressourcennutzung
 								</li>
 							</ul>
 						</div>
-						<div >
-							<a
-								href="https://github.com/urlaubsverwaltung"
-								class="block text-center px-3 py-2 font-medium no-underline rounded whitespace-nowrap text-sky-900 text-opacity-90 hover:text-opacity-100 border border-sky-100 hover:border-blue-200 hover:shadow-md active:shadow"
-							>
-								{{> partials/icon-github class='w-6 h-6 text-gray-400 inline align-sub'}}
-								GitHub
-							</a>
+						<div class="flex-1 price-calculator flex flex-col justify-center">
+							<div class="mx-auto">
+								<h2 class="mt-8 text-center lg:sr-only">Dein Preis</h2>
+								<div>
+									<div>
+										<div class="price-calculator__subscription">
+											<div class="mx-auto flex flex-row gap-4 lg:gap-0">
+												<label for="subscription-year" class="subscription-year">
+													<input type="radio" id="subscription-year" value="year" name="subscription" checked>
+													Jährliche Zahlung
+<!--													<span class="discount">10 % Rabatt</span>-->
+												</label>
+												<label for="subscription-month" class="subscription-month">
+													<input type="radio" id="subscription-month" value="month" name="subscription">
+													Monatliche Zahlung
+												</label>
+											</div>
+										</div>
+										<div class="mt-4 flex gap-2 items-end lg:justify-center lg:mt-8 lg:max-w-80 lg:mx-auto">
+											<label for="subscription-quantity" class="flex-1 text-lg">
+												<span class="text-sm text-gray-500">Anzahl Mitarbeitende</span>
+												<input id="subscription-quantity" type="text" inputmode="numeric" value="5" min="0" class="w-full border border-gray-200 rounded px-1 py-px text-center" />
+											</label>
+											<span class="hidden sm:flex sm:gap-2">
+												<button id="subscription-quantity-decrease" class="w-10 h-8 px-1 py-px rounded bg-gray-100 border border-gray-200 font-bold select-none">-</button>
+												<button id="subscription-quantity-increase" class="w-10 h-8 px-1 py-px rounded bg-gray-100 border border-gray-200 font-bold select-none">+</button>
+											</span>
+										</div>
+										<div class="mt-4 flex justify-center lg:mt-2 lg:max-w-80 lg:mx-auto">
+											<label for="subscription-quantity-range" class="w-full">
+												<input id="subscription-quantity-range" type="range" step="5" min="0" max="100" value="5" class="w-full accent-slate-700" />
+											</label>
+										</div>
+									</div>
+									<div class="mt-8 flex lg:mt-4">
+										<div class="mx-auto">
+											<div>
+												<label for="service-uv">
+													<input type="checkbox" id="service-uv" checked disabled />
+													Urlaubsverwaltung
+												</label>
+											</div>
+											<div>
+												<label for="service-zeiterfassung">
+													<input type="checkbox" id="service-zeiterfassung" />
+													Zeiterfassung (+ 2,00 € pro Mitarbeitende)
+												</label>
+											</div>
+										</div>
+									</div>
+								</div>
+									<div class="mt-8 text-center lg:mt-4">
+									<span class="text-4xl font-bold tabular-nums lg:text-3xl">
+										<span id="subscription-price" class="block lg:inline">10,00 €</span> <span class="text-lg font-normal text-gray-500">/ Monat (zzgl. MwSt.)</span>
+									</span>
+								</div>
+							</div>
 						</div>
 					</div>
-				</section>
-				<section class="bg-white p-4 border rounded-xl max-w-sm xs:p-8 lg:scale-115 lg:shadow-blue-100 lg:shadow lg:p-4 xl:shadow-blue-100 xl:shadow-lg">
-					<div class="lg:scale-85 lg:-translate-y-4">
-						<div class="flex flex-row flex-wrap gap-2">
-							<h3>urlaubsverwaltung.cloud</h3>
-							<span
-								class="inline-flex items-center rounded-md bg-green-50 px-2 py-1 text-xs font-medium text-green-700 ring-1 ring-inset ring-green-600/20"
-							>
-						meistgewählt
-					</span>
-						</div>
-						<p class="mt-4 text-sm">
-							Registrieren und direkt Starten!
-						</p>
-						<ul class="mt-4">
-							<li class="flex gap-2">
-								{{> partials/icon-check-check class='w-6 h-6 text-cyan-500 translate-y-0.5 shrink-0'}}
-								Voller Funktionsumfang
-							</li>
-							<li class="flex gap-2">
-								{{> partials/icon-check-check class='w-6 h-6 text-cyan-500 translate-y-0.5 shrink-0'}}
-								Stetige Weiterentwicklung
-							</li>
-							<li class="flex gap-2">
-								{{> partials/icon-check-check class='w-6 h-6 text-cyan-500 translate-y-0.5 shrink-0'}}
-								Sicherheitsupdates
-							</li>
-							<li class="flex gap-2">
-								{{> partials/icon-check-check class='w-6 h-6 text-cyan-500 translate-y-0.5 shrink-0'}}
-								Single Sign On
-							</li>
-							<li class="flex gap-2">
-								{{> partials/icon-check-check class='w-6 h-6 text-cyan-500 translate-y-0.5 shrink-0'}}
-								Backups
-							</li>
-							<li class="flex gap-2">
-								{{> partials/icon-check-check class='w-6 h-6 text-cyan-500 translate-y-0.5 shrink-0'}}
-								E-Mail-Support
-							</li>
-							<li class="flex gap-2">
-								{{> partials/icon-check-check class='w-6 h-6 text-cyan-500 translate-y-0.5 shrink-0'}}
-								Onboarding
-							</li>
-							<li class="flex gap-2">
-								{{> partials/icon-check-check class='w-6 h-6 text-cyan-500 translate-y-0.5 shrink-0'}}
-								GreenIT & optimierte Ressourcennutzung
-							</li>
-							<li class="flex gap-2">
-								{{> partials/icon-check-check class='w-6 h-6 text-cyan-500 translate-y-0.5 shrink-0'}}
-								Urlaubsverwaltung 2€
-							</li>
-							<li class="flex gap-2">
-								{{> partials/icon-check-check class='w-6 h-6 text-cyan-500 translate-y-0.5 shrink-0'}}
-								Optional: Zeiterfassung 2€
-							</li>
-						</ul>
-						<div class="mt-6">
-							<a
-								href="https://registry.apps.urlaubsverwaltung.cloud/registration"
-								class="block text-center px-3 py-2 font-medium no-underline rounded whitespace-nowrap bg-yellow-300 text-sky-900 text-opacity-90 hover:text-opacity-100 border border-sky-100 hover:border-blue-200 hover:shadow-md active:shadow"
-							>
-								jetzt kostenlos testen
-							</a>
-						</div>
-						<p class="mt-6">
-							🎁 Jetzt Aktion sichern und 25% sparen!
-							<a href="#angebot-hinweis"><sup>*</sup></a>
-						</p>
-						<p class="mt-6">
+					<div class="mt-8 flex justify-center lg:mt-16">
+						<a
+							href="https://registry.apps.urlaubsverwaltung.cloud/registration"
+							class="inline-block text-center px-10 py-2 font-medium no-underline rounded whitespace-nowrap bg-yellow-300 text-sky-900 text-opacity-90 hover:text-opacity-100 border border-sky-100 hover:border-blue-200 hover:shadow-md active:shadow"
+						>
+							jetzt kostenlos testen
+						</a>
+					</div>
+					<div class="mt-8">
+						<p class="text-center">
 							Preise verstehen sich pro Monat und Benutzer (zzgl. MwSt).
 							Es besteht eine Mindestabnahmemenge von fünf Benutzern.
 						</p>
-						<p class="mt-6">
+						<p class="text-center">
 							Ihr habt mehr als 250 Mitarbeitende? Dann meldet euch bei uns für ein
 							<a href="mailto:info@urlaubsverwaltung.cloud?subject=Anfrage%20individuelles%20Angebot"
 								 class="underline">
@@ -134,79 +161,112 @@ description: Open Source, on Premise oder in der Cloud für den besten Preis
 							</a>
 						</p>
 					</div>
-				</section>
-				<section class="bg-white p-4 border rounded-xl max-w-sm xs:p-8 lg:flex lg:justify-center lg:rounded-l-none">
-					<div class="flex flex-col gap-4">
-						<div class="flex-1">
-							<h3>On Premise Installation</h3>
-							<p class="mt-4 text-sm">
-								Wir unterstützen dich gerne bei der Einrichtung der Urlaubsverwaltung & Zeiterfassung auf deinen eigenen Servern.
+				</div>
+				<article class="section-self-hosted">
+					<div class="on-premise-card-container">
+						<section class="on-premise-card">
+							<h3 class="on-premise-card__title">Open-Source-Software</h3>
+							<p class="on-premise-card__text">
+								Du willst dich um Setup, Backup & Updates selbst kümmern? Dann geht es hier direkt zu Github. Wir freuen uns über Feedback und Mitgestaltung!
 							</p>
-							<ul class="mt-4">
-								<li class="flex gap-2">
+							<ul class="on-premise-card__benefits">
+								<li>
 									{{> partials/icon-check-check class='w-6 h-6 text-cyan-500 translate-y-0.5 shrink-0'}}
-									Stundenbasierte Abrechnung
+									Offene Quellen
 								</li>
-								<li class="flex gap-2">
+								<li>
 									{{> partials/icon-check-check class='w-6 h-6 text-cyan-500 translate-y-0.5 shrink-0'}}
-									Direkte Hilfe durch Onlinecall
+									Aktive Community
 								</li>
-								<li class="flex gap-2">
+								<li>
 									{{> partials/icon-check-check class='w-6 h-6 text-cyan-500 translate-y-0.5 shrink-0'}}
-									Von der Installation bis zum Onboarding
+									Transparente Weiterentwicklung
+								</li>
+								<li>
+									{{> partials/icon-check-check class='w-6 h-6 text-cyan-500 translate-y-0.5 shrink-0'}}
+									Support via GitHub
 								</li>
 							</ul>
-						</div>
-						<div class="flex-1">
-							<a
-								href="mailto:info@urlaubsverwaltung.cloud?subject=Anfrage%20On%20Premise%20Installation"
-								class="block text-center px-3 py-2 font-medium no-underline rounded whitespace-nowrap text-sky-900 text-opacity-90 hover:text-opacity-100 border border-sky-100 hover:border-blue-200 hover:shadow-md active:shadow">
-								jetzt Angebot anfragen
-							</a>
-						</div>
-						<div class="flex-1">
-							<h3>On Premise Support</h3>
-							<p class="mt-4 text-sm">
+							<div>
+								<a
+									href="https://github.com/urlaubsverwaltung"
+									class="block text-center px-3 py-2 font-medium no-underline rounded whitespace-nowrap text-sky-900 text-opacity-90 hover:text-opacity-100 border border-sky-100 hover:border-blue-200 hover:shadow-md active:shadow"
+								>
+									{{> partials/icon-github class='w-6 h-6 text-gray-400 inline align-sub'}}
+									GitHub
+								</a>
+							</div>
+						</section>
+						<section class="on-premise-card">
+							<h3 class="on-premise-card__title">On Premise Support</h3>
+							<p class="on-premise-card__text">
 								Wir sind an deiner Seite. Wir stellen dir einen individuellen Supportvertrag zur Verfügung, der auf deine
 								Anforderungen zugeschnitten ist. Er könnte zum Beispiel folgende Leistungen beinhalten:
 							</p>
-							<ul class="mt-4">
-								<li class="flex gap-2">
+							<ul class="on-premise-card__benefits">
+								<li>
 									{{> partials/icon-check-check class='w-6 h-6 text-cyan-500 translate-y-0.5 shrink-0'}}
 									Servicezeit: Mo-Fr (9.00 - 17.00 Uhr)
 								</li>
-								<li class="flex gap-2">
+								<li>
 									{{> partials/icon-check-check class='w-6 h-6 text-cyan-500 translate-y-0.5 shrink-0'}}
 									Support-Kanal: E-Mail
 								</li>
-								<li class="flex gap-2">
+								<li>
 									{{> partials/icon-check-check class='w-6 h-6 text-cyan-500 translate-y-0.5 shrink-0'}}
 									Max. Antwortzeit: 8h
 								</li>
-								<li class="flex gap-2">
+								<li>
 									{{> partials/icon-check-check class='w-6 h-6 text-cyan-500 translate-y-0.5 shrink-0'}}
 									12 Serviceanfragen
 								</li>
-								<li class="flex gap-2">
+								<li>
 									{{> partials/icon-check-check class='w-6 h-6 text-cyan-500 translate-y-0.5 shrink-0'}}
 									Laufzeit von 12 Monaten
 								</li>
 							</ul>
-						</div>
-						<div class="flex-1">
-							<a
-								href="mailto:info@urlaubsverwaltung.cloud?subject=Anfrage%20On%20Premise%20Support"
-								class="block text-center px-3 py-2 font-medium no-underline rounded whitespace-nowrap text-sky-900 text-opacity-90 hover:text-opacity-100 border border-sky-100 hover:border-blue-200 hover:shadow-md active:shadow">
-								jetzt Angebot anfragen
-							</a>
-						</div>
+							<div>
+								<a
+									href="mailto:info@urlaubsverwaltung.cloud?subject=Anfrage%20On%20Premise%20Support"
+									class="block text-center px-3 py-2 font-medium no-underline rounded whitespace-nowrap text-sky-900 text-opacity-90 hover:text-opacity-100 border border-sky-100 hover:border-blue-200 hover:shadow-md active:shadow">
+									jetzt Angebot anfragen
+								</a>
+							</div>
+						</section>
+						<section class="on-premise-card">
+							<h3 class="on-premise-card__title">On Premise Installation</h3>
+							<p class="on-premise-card__text">
+								Wir unterstützen dich gerne bei der Einrichtung der Urlaubsverwaltung & Zeiterfassung auf deinen eigenen Servern.
+							</p>
+							<ul class="on-premise-card__benefits">
+								<li>
+									{{> partials/icon-check-check class='w-6 h-6 text-cyan-500 translate-y-0.5 shrink-0'}}
+									Stundenbasierte Abrechnung
+								</li>
+								<li>
+									{{> partials/icon-check-check class='w-6 h-6 text-cyan-500 translate-y-0.5 shrink-0'}}
+									Direkte Hilfe durch Onlinecall
+								</li>
+								<li>
+									{{> partials/icon-check-check class='w-6 h-6 text-cyan-500 translate-y-0.5 shrink-0'}}
+									Von der Installation bis zum Onboarding
+								</li>
+							</ul>
+							<div>
+								<a
+									href="mailto:info@urlaubsverwaltung.cloud?subject=Anfrage%20On%20Premise%20Installation"
+									class="block text-center px-3 py-2 font-medium no-underline rounded whitespace-nowrap text-sky-900 text-opacity-90 hover:text-opacity-100 border border-sky-100 hover:border-blue-200 hover:shadow-md active:shadow">
+									jetzt Angebot anfragen
+								</a>
+							</div>
+						</section>
 					</div>
-				</section>
+				</article>
 			</div>
 		</div>
 
 		<div id="angebot-hinweis">
-			<p class="text-center my-8 text-sm">
+			<p class="text-center p-4 text-sm">
 				* Das Rabattangebot gilt ausschließlich für Neukunden, die bis zum 31.01.2026 einen Jahresvertrag abschließen.
 				Du erhältst den einmaligen Rabatt von 25 % für das erste Jahr.
 				<br>
@@ -218,7 +278,7 @@ description: Open Source, on Premise oder in der Cloud für den besten Preis
 </div>
 
 <div>
-	<h2 class="mt-8 text-2xl font-bold mb-6" id="live-demo">
+	<h2 class="mt-8 text-2xl font-bold mb-6 text-center lg:text-left" id="live-demo">
 		Du hast noch letzte Fragen? Vereinbare einfach einen Termin.
 	</h2>
 
@@ -268,4 +328,6 @@ description: Open Source, on Premise oder in der Cloud für den besten Preis
 	<!-- Cal inline embed code ends -->
 </div>
 
-{{> partials/faq category="price" }}
+<div class="mt-8">
+	{{> partials/faq category="price" }}
+</div>
