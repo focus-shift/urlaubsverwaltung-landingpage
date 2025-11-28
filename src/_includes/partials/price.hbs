@@ -22,111 +22,121 @@
 					🎁 Jetzt Aktion sichern und 25% sparen!
 					<a href="#angebot-hinweis" class="no-underline"><sup>*</sup></a>
 				</p>
-				<div class="flex gap-4 flex-col items-center lg:flex-row">
-					<div class="p-8 rounded-lg border border-gray-100 lg:w-2/5">
-						<div class="flex flex-wrap items-center gap-2">
-							<h3 class="m-0 font-bold">urlaubsverwaltung.cloud</h3>
-							<span
-								class="inline-flex items-center rounded-md bg-green-50 px-2 py-1 text-xs font-medium text-green-700 ring-1 ring-inset ring-green-600/20"
-							>
-									meistgewählt
-								</span>
-						</div>
-						<p class="mt-4">
-							Registrieren und direkt Starten!
-						</p>
-						<ul class="mt-4">
-							<li class="flex gap-2">
-								{{> partials/icon-check-check class='w-6 h-6 text-cyan-500 translate-y-0.5 shrink-0'}}
-								Voller Funktionsumfang
-							</li>
-							<li class="flex gap-2">
-								{{> partials/icon-check-check class='w-6 h-6 text-cyan-500 translate-y-0.5 shrink-0'}}
-								Stetige Weiterentwicklung
-							</li>
-							<li class="flex gap-2">
-								{{> partials/icon-check-check class='w-6 h-6 text-cyan-500 translate-y-0.5 shrink-0'}}
-								Sicherheitsupdates
-							</li>
-							<li class="flex gap-2">
-								{{> partials/icon-check-check class='w-6 h-6 text-cyan-500 translate-y-0.5 shrink-0'}}
-								Single Sign On
-							</li>
-							<li class="flex gap-2">
-								{{> partials/icon-check-check class='w-6 h-6 text-cyan-500 translate-y-0.5 shrink-0'}}
-								Backups
-							</li>
-							<li class="flex gap-2">
-								{{> partials/icon-check-check class='w-6 h-6 text-cyan-500 translate-y-0.5 shrink-0'}}
-								E-Mail-Support
-							</li>
-							<li class="flex gap-2">
-								{{> partials/icon-check-check class='w-6 h-6 text-cyan-500 translate-y-0.5 shrink-0'}}
-								Onboarding
-							</li>
-							<li class="flex gap-2">
-								{{> partials/icon-check-check class='w-6 h-6 text-cyan-500 translate-y-0.5 shrink-0'}}
-								GreenIT & optimierte Ressourcennutzung
-							</li>
-						</ul>
-					</div>
-					<div class="flex-1 price-calculator flex flex-col justify-center">
-						<div class="mx-auto">
-							<h2 class="mt-8 text-center lg:sr-only">Dein Preis</h2>
-							<div>
-								<div>
-									<div class="price-calculator__subscription">
-										<div class="mx-auto flex flex-row gap-4 lg:gap-0">
-											<label for="subscription-year" class="subscription-year">
-												<input type="radio" id="subscription-year" value="year" name="subscription" checked>
-												Jährliche Zahlung
-												<!--													<span class="discount">10 % Rabatt</span>-->
-											</label>
-											<label for="subscription-month" class="subscription-month">
-												<input type="radio" id="subscription-month" value="month" name="subscription">
-												Monatliche Zahlung
-											</label>
-										</div>
-									</div>
-									<div class="mt-4 flex gap-2 items-end lg:justify-center lg:mt-8 lg:max-w-80 lg:mx-auto">
-										<label for="subscription-quantity" class="flex-1 text-lg">
-											<span class="text-sm text-gray-500">Anzahl Mitarbeitende</span>
-											<input id="subscription-quantity" type="text" inputmode="numeric" value="5" min="0" class="w-full border border-gray-200 rounded px-1 py-px text-center" />
-										</label>
-										<span class="hidden sm:flex sm:gap-2">
-												<button id="subscription-quantity-decrease" class="w-10 h-8 px-1 py-px rounded bg-gray-100 border border-gray-200 font-bold select-none">-</button>
-												<button id="subscription-quantity-increase" class="w-10 h-8 px-1 py-px rounded bg-gray-100 border border-gray-200 font-bold select-none">+</button>
-											</span>
-									</div>
-									<div class="mt-4 flex justify-center lg:mt-2 lg:max-w-80 lg:mx-auto">
-										<label for="subscription-quantity-range" class="w-full">
-											<input id="subscription-quantity-range" type="range" step="5" min="0" max="100" value="5" class="w-full accent-slate-700" />
-										</label>
-									</div>
-								</div>
-								<div class="mt-8 flex lg:mt-4">
-									<div class="mx-auto">
-										<div>
-											<label for="service-uv">
-												<input type="checkbox" id="service-uv" checked disabled />
-												Urlaubsverwaltung
-											</label>
-										</div>
-										<div>
-											<label for="service-zeiterfassung">
-												<input type="checkbox" id="service-zeiterfassung" />
-												Zeiterfassung (+ 2,00 € pro Mitarbeitende)
-											</label>
-										</div>
-									</div>
-								</div>
-							</div>
-							<div class="mt-8 text-center lg:mt-4">
-									<span class="text-4xl font-bold tabular-nums lg:text-3xl">
-										<span id="subscription-price" class="block lg:inline">10,00 €</span> <span class="text-lg font-normal text-gray-500">/ Monat (zzgl. MwSt.)</span>
+				<div>
+					<div class="flex gap-4 flex-col items-center lg:flex-row">
+						<div class="p-8 rounded-lg border border-gray-100 lg:w-2/5">
+							<div class="flex flex-wrap items-center gap-2">
+								<h3 class="m-0 font-bold">urlaubsverwaltung.cloud</h3>
+								<span
+									class="inline-flex items-center rounded-md bg-green-50 px-2 py-1 text-xs font-medium text-green-700 ring-1 ring-inset ring-green-600/20"
+								>
+										meistgewählt
 									</span>
 							</div>
+							<p class="mt-4">
+								Registrieren und direkt Starten!
+							</p>
+							<ul class="mt-4">
+								<li class="flex gap-2">
+									{{> partials/icon-check-check class='w-6 h-6 text-cyan-500 translate-y-0.5 shrink-0'}}
+									Voller Funktionsumfang
+								</li>
+								<li class="flex gap-2">
+									{{> partials/icon-check-check class='w-6 h-6 text-cyan-500 translate-y-0.5 shrink-0'}}
+									Stetige Weiterentwicklung
+								</li>
+								<li class="flex gap-2">
+									{{> partials/icon-check-check class='w-6 h-6 text-cyan-500 translate-y-0.5 shrink-0'}}
+									Sicherheitsupdates
+								</li>
+								<li class="flex gap-2">
+									{{> partials/icon-check-check class='w-6 h-6 text-cyan-500 translate-y-0.5 shrink-0'}}
+									Single Sign On
+								</li>
+								<li class="flex gap-2">
+									{{> partials/icon-check-check class='w-6 h-6 text-cyan-500 translate-y-0.5 shrink-0'}}
+									Backups
+								</li>
+								<li class="flex gap-2">
+									{{> partials/icon-check-check class='w-6 h-6 text-cyan-500 translate-y-0.5 shrink-0'}}
+									E-Mail-Support
+								</li>
+								<li class="flex gap-2">
+									{{> partials/icon-check-check class='w-6 h-6 text-cyan-500 translate-y-0.5 shrink-0'}}
+									Onboarding
+								</li>
+								<li class="flex gap-2">
+									{{> partials/icon-check-check class='w-6 h-6 text-cyan-500 translate-y-0.5 shrink-0'}}
+									GreenIT & optimierte Ressourcennutzung
+								</li>
+							</ul>
 						</div>
+						<div class="flex-1 price-calculator flex flex-col justify-center">
+							<div class="mx-auto">
+								<h2 class="mt-8 text-center lg:sr-only">Dein Preis</h2>
+								<div>
+									<div>
+										<div class="price-calculator__subscription">
+											<div class="mx-auto flex flex-row gap-4 lg:gap-0">
+												<label for="subscription-year" class="subscription-year">
+													<input type="radio" id="subscription-year" value="year" name="subscription" checked>
+													Jährliche Zahlung
+													<!--													<span class="discount">10 % Rabatt</span>-->
+												</label>
+												<label for="subscription-month" class="subscription-month">
+													<input type="radio" id="subscription-month" value="month" name="subscription">
+													Monatliche Zahlung
+												</label>
+											</div>
+										</div>
+										<div class="mt-4 flex gap-2 items-end lg:justify-center lg:mt-8 lg:max-w-80 lg:mx-auto">
+											<label for="subscription-quantity" class="flex-1 text-lg">
+												<span class="text-sm text-gray-500">Anzahl Mitarbeitende</span>
+												<input id="subscription-quantity" type="text" inputmode="numeric" value="5" min="0" class="w-full border border-gray-200 rounded px-1 py-px text-center" />
+											</label>
+											<span class="hidden sm:flex sm:gap-2">
+													<button id="subscription-quantity-decrease" class="w-10 h-8 px-1 py-px rounded bg-gray-100 border border-gray-200 font-bold select-none">-</button>
+													<button id="subscription-quantity-increase" class="w-10 h-8 px-1 py-px rounded bg-gray-100 border border-gray-200 font-bold select-none">+</button>
+												</span>
+										</div>
+										<div class="mt-4 flex justify-center lg:mt-2 lg:max-w-80 lg:mx-auto">
+											<label for="subscription-quantity-range" class="w-full">
+												<input id="subscription-quantity-range" type="range" step="5" min="0" max="100" value="5" class="w-full accent-slate-700" />
+											</label>
+										</div>
+									</div>
+									<div class="mt-8 flex lg:mt-4">
+										<div class="mx-auto">
+											<div>
+												<label for="service-uv">
+													<input type="checkbox" id="service-uv" checked disabled />
+													Urlaubsverwaltung
+												</label>
+											</div>
+											<div>
+												<label for="service-zeiterfassung">
+													<input type="checkbox" id="service-zeiterfassung" />
+													Zeiterfassung (+ 2,00 € pro Mitarbeitende)
+												</label>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="mt-8 text-center lg:mt-4">
+										<span class="text-4xl font-bold tabular-nums lg:text-3xl">
+											<span id="subscription-price" class="block lg:inline">10,00 €</span> <span class="text-lg font-normal text-gray-500">/ Monat (zzgl. MwSt.)</span>
+										</span>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div id="angebot-hinweis">
+						<p class="text-center p-4 text-sm">
+							* Das Rabattangebot gilt ausschließlich für Neukunden, die bis zum 31.01.2026 einen Jahresvertrag abschließen.
+							Du erhältst den einmaligen Rabatt von 25 % für das erste Jahr.
+							<br>
+							Einfach <a href="https://registry.apps.urlaubsverwaltung.cloud/registration/">registrieren</a> und im Kundenportal bestätigen.
+						</p>
 					</div>
 				</div>
 				<div class="mt-8 flex justify-center lg:mt-16">
@@ -254,13 +264,6 @@
 		</div>
 	</div>
 
-	<div id="angebot-hinweis">
-		<p class="text-center p-4 text-sm">
-			* Das Rabattangebot gilt ausschließlich für Neukunden, die bis zum 31.01.2026 einen Jahresvertrag abschließen.
-			Du erhältst den einmaligen Rabatt von 25 % für das erste Jahr.
-			<br>
-			Einfach <a href="https://registry.apps.urlaubsverwaltung.cloud/registration/">registrieren</a> und im Kundenportal bestätigen.
-		</p>
-	</div>
+
 
 </div>
