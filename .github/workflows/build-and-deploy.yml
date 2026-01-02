@@ -97,7 +97,7 @@ jobs:
         run: echo "urlaubsverwaltung.cloud" > ./dist/CNAME
 
       - name: Deploy
-        uses: JamesIves/github-pages-deploy-action@v4.7.4
+        uses: JamesIves/github-pages-deploy-action@v4.7.6
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
           branch: gh-pages
