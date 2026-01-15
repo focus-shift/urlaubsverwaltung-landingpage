@@ -45,7 +45,7 @@ document.addEventListener("DOMContentLoaded", function () {
 	});
 
 	decrease.addEventListener("click", function () {
-		setQuantity(Math.max(0, Number(quantityInput.value) - 1));
+		setQuantity(Math.max(5, Number(quantityInput.value) - 1));
 		updatePrice();
 	});
 
@@ -66,7 +66,11 @@ document.addEventListener("DOMContentLoaded", function () {
 	document.addEventListener("change", updatePrice);
 
 	function setQuantity(value) {
-		quantityInput.value = value;
+		const normalized = Math.max(minQuantity, Number(value) || minQuantity);
+
+		quantityInput.value = normalized;
+		quantityRange.value = normalized;
+
 		quantityInput.dispatchEvent(new Event("input", { bubbles: true }));
 	}
 
