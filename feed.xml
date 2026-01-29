@@ -4,8 +4,53 @@
   <subtitle></subtitle>
   <link rel="self" href="https://urlaubsverwaltung.cloud/feed.xml" />
   <link rel="alternate" type="text/html" href="https://urlaubsverwaltung.cloud" />
-  <updated>2025-11-01T00:00:00Z</updated>
+  <updated>2025-12-14T00:00:00Z</updated>
   <id>https://urlaubsverwaltung.cloud</id>
+  <entry>
+    <title>Arbeitszeit an Heiligabend und Silvester</title>
+    <link href="https://urlaubsverwaltung.cloud/neuigkeiten/2025-12-14-heiligabend-silvester/" />
+    <updated>2025-12-14T00:00:00Z</updated>
+    <id>https://urlaubsverwaltung.cloud/neuigkeiten/2025-12-14-heiligabend-silvester/</id>
+    <author>
+      <name>Daniel Fuchs</name>
+    </author>
+    <content type="html">&lt;p&gt;Du kannst festlegen, ob an Heiligabend (24.12.) und Silvester (31.12.) bei euch ganztägig, halbtägig oder gar nicht gearbeitet wird.
+Diese Einstellung wirkt sich automatisch auf die Sollarbeitszeit in der Zeiterfassung aus.&lt;/p&gt;
+&lt;h2 id=&quot;welche-optionen-gibt-es&quot;&gt;Welche Optionen gibt es?&lt;/h2&gt;
+&lt;p&gt;Für Heiligabend und Silvester kannst du jeweils eine der folgenden Arbeitsdauern auswählen:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Ganzer Tag&lt;/li&gt;
+&lt;li&gt;Vormittags&lt;/li&gt;
+&lt;li&gt;Nachmittags&lt;/li&gt;
+&lt;li&gt;Gar nicht&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Die Einstellung erfolgt in der Urlaubsverwaltung.&lt;/p&gt;
+&lt;h2 id=&quot;auswirkungen-auf-die-zeiterfassung&quot;&gt;Auswirkungen auf die Zeiterfassung&lt;/h2&gt;
+&lt;p&gt;Die gewählte Arbeitsdauer wird automatisch an die Zeiterfassung übergeben und dort berücksichtigt.&lt;/p&gt;
+&lt;p&gt;Das bedeutet:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Die Sollarbeitszeit an Heiligabend bzw. Silvester wird entsprechend angepasst&lt;/li&gt;
+&lt;li&gt;Es ist keine zusätzliche Einstellung in der Zeiterfassung notwendig&lt;/li&gt;
+&lt;li&gt;Die Anpassung erfolgt automatisch im Hintergrund&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;beispiel&quot;&gt;Beispiel&lt;/h2&gt;
+&lt;p&gt;Einstellung in der Urlaubsverwaltung:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Arbeitsdauer an Heiligabend: Vormittags&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Auswirkung in der Zeiterfassung:
+Statt z. B. 8 Stunden Sollarbeitszeit werden nur 4 Stunden Sollarbeitszeit erwartet&lt;/p&gt;
+&lt;p&gt;So stimmen die Sollstunden automatisch mit der verkürzten Arbeitszeit überein.&lt;/p&gt;
+&lt;h2 id=&quot;aenderungen-oder-entfernen-der-einstellung&quot;&gt;Änderungen oder Entfernen der Einstellung&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Wird die Arbeitsdauer geändert (z. B. von &lt;em&gt;Vormittags&lt;/em&gt; auf &lt;em&gt;Ganzer Tag&lt;/em&gt;), wird die Sollarbeitszeit automatisch neu berechnet.&lt;/li&gt;
+&lt;li&gt;Wird die Einstellung auf &amp;quot;Ganzer Tag&amp;quot; gesetzt, gilt wieder die normale tägliche Arbeitszeit.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;wichtig-zu-wissen&quot;&gt;Wichtig zu wissen&lt;/h2&gt;
+&lt;p&gt;Die Abstimmung zwischen Urlaubsverwaltung und Zeiterfassung erfolgt automatisch.
+Die Arbeitsdauer muss nur einmal zentral gepflegt werden und gilt dann für alle Mitarbeitenden.&lt;/p&gt;
+</content>
+  </entry>
   <entry>
     <title>Zeiterfassung 2.24.0 – Korrekte Verrechnung von Arbeits- und Pausenzeiten</title>
     <link href="https://urlaubsverwaltung.cloud/neuigkeiten/2025-11-01-pausenzeiten/" />
