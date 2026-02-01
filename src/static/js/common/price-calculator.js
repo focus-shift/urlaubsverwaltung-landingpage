@@ -3,7 +3,7 @@
 // e.g. calculated price is minPrice + 1EUR -> 1EUR will be discounted
 // NOTE when setting this value you may want to adjust the UI! (the discount label)
 // only for yearly subscriptions
-const discount = 0.25;
+const discount = 0;
 
 // discount when paid yearly is 10%
 const discountYearly = 0.1;
@@ -87,7 +87,9 @@ document.addEventListener("DOMContentLoaded", function () {
 			discountFactor = discount > 0 ? discount : discountYearly;
 		}
 
-		const minPrice = minQuantity * priceUv + (zeiterfassung.checked ? minQuantity * priceZeit : 0);
+		const minPrice =
+			minQuantity * priceUv +
+			(zeiterfassung.checked ? minQuantity * priceZeit : 0);
 		const discountPrice = grossPrice * (1 - discountFactor);
 		const finalPrice = Math.max(minPrice, discountPrice);
 		priceElement.innerText = currencyFormatter.format(finalPrice);
