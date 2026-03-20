@@ -2902,11 +2902,23 @@ Direkt eins vorweg: Lehne dich zurück! Wir ermöglichen dir den passenden Einst
   &lt;/div&gt;
 &lt;/div&gt;
 &lt;h2 id=&quot;csv-basiertes-onboarding&quot;&gt;CSV-basiertes Onboarding&lt;/h2&gt;
-&lt;p&gt;Das Onboarding deiner Organisation kann mit einer Import-Datei im CSV-Format durchgeführt werden. Wichtig hierfür ist, dass die Namen deiner Mitarbeiter:innen und ihre E-Mail-Adressen vorliegen. Zusätzlich können Informationen wie die Abteilungszugehörigkeit und der Urlaubsanspruch angegeben werden.
-Eine Beispiel-Datei zur Orientierung haben wir dir &lt;a href=&quot;https://urlaubsverwaltung.cloud/static/import-beispiel.csv&quot; class=&quot;underline&quot;&gt;hier&lt;/a&gt; bereitgestellt.&lt;/p&gt;
-&lt;picture&gt;
-  &lt;img src=&quot;https://urlaubsverwaltung.cloud/neuigkeiten/2021-11-19-onboarding-csv/import-beispiel.png&quot; alt=&quot;Beispiel für einen Import&quot; decoding=&quot;async&quot; loading=&quot;lazy&quot; width=&quot;1209&quot; height=&quot;185&quot; /&gt;
-&lt;/picture&gt;
+&lt;p&gt;Das Onboarding deiner Organisation kann mit einer Import-Datei im CSV-Format durchgeführt werden. Wichtig hierfür ist, dass die Namen deiner Mitarbeiter:innen und ihre E-Mail-Adressen vorliegen. Zusätzlich können Informationen wie die Abteilungszugehörigkeit, Abteilungsleiter und der Urlaubsanspruch angegeben werden.
+In der CSV kannst du pro Person folgende Felder pflegen. Für die Zuordnung sind bis zu 5 Abteilungen je Person möglich:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Vorname&lt;/li&gt;
+&lt;li&gt;Nachname&lt;/li&gt;
+&lt;li&gt;E-Mail-Adresse&lt;/li&gt;
+&lt;li&gt;Jährlicher Urlaubsanspruch&lt;/li&gt;
+&lt;li&gt;Anteiliger Urlaubsanspruch&lt;/li&gt;
+&lt;li&gt;Resturlaub&lt;/li&gt;
+&lt;li&gt;Abteilung_1&lt;/li&gt;
+&lt;li&gt;Abteilung_1_Abteilungsleiter&lt;/li&gt;
+&lt;li&gt;…&lt;/li&gt;
+&lt;li&gt;Abteilung_5&lt;/li&gt;
+&lt;li&gt;Abteilung_5_Abteilungsleiter&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Notwendige Felder sind Vorname, Nachname und E-Mail-Adresse, alle anderen Angaben sind optional.&lt;/p&gt;
+&lt;p&gt;Eine Beispiel-Datei zur Orientierung haben wir dir &lt;a href=&quot;https://urlaubsverwaltung.cloud/static/import-beispiel-onboarding.csv&quot; class=&quot;underline&quot;&gt;hier&lt;/a&gt; bereitgestellt.&lt;/p&gt;
 &lt;p&gt;Die Informationen können dann in verschlüsselter Form an uns übermittelt werden.
 Weitere Details zum Onboarding können wir im direkten Austausch klären. Schreibe uns dazu eine kurze E-Mail an &lt;a href=&quot;mailto:info@urlaubsverwaltung.cloud?subject=Onboarding%20meiner%20Organisation&quot; class=&quot;underline&quot;&gt;info@urlaubsverwaltung.cloud&lt;/a&gt;&lt;/p&gt;
 </content>
