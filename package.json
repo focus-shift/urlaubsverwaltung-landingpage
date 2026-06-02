@@ -29,7 +29,7 @@
 		"@eslint/js": "10.0.1",
 		"autoprefixer": "10.5.0",
 		"cheerio": "1.2.0",
-		"concurrently": "9.2.1",
+		"concurrently": "10.0.3",
 		"cssnano": "8.0.1",
 		"date-fns": "4.3.0",
 		"esbuild": "0.28.0",
