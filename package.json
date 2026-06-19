@@ -30,7 +30,7 @@
 		"autoprefixer": "10.5.0",
 		"cheerio": "1.2.0",
 		"concurrently": "10.0.3",
-		"cssnano": "8.0.1",
+		"cssnano": "8.0.2",
 		"date-fns": "4.4.0",
 		"esbuild": "0.28.1",
 		"eslint": "10.4.1",
