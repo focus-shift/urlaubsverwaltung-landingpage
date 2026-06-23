@@ -33,6 +33,21 @@ allgemeine Übersicht geöffnet haben und nach einem Teammitglied suchen, spring
 Befinden Sie sich stattdessen im Bereich Abwesenheiten, führt Sie die Suche direkt zu den Abwesenheiten des gesuchten
 Profils. Dadurch entfällt das manuelle Wechseln der Menüpunkte nach einem Personenwechsel.
 
+<div class="flex my-8">
+    <figure>
+        <picture>
+            <img
+              src="globale-suche.png"
+              alt="Screenshot der Urlaubsverwaltung 6.0.0 mit geöffnetem Suchfenster der neuen globalen Suche im Vordergrund."
+              decoding="async"
+              loading="lazy"
+              class="rounded-lg"
+            />
+        </picture>
+        <figcaption class="text-sm text-center">Globale Suche in der Urlaubsverwaltung</figcaption>
+    </figure>
+</div>
+
 ## Internationale Feiertage
 
 Für international agierende Teams wurden die gesetzlichen Feiertage für Rumänien und Finnland integriert.
