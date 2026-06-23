@@ -87,7 +87,7 @@ Wie immer gilt: Wir entwickeln unsere Produkte gemeinsam mit euch weiter. Testet
 gefällt – und was ihr euch als Nächstes wünscht!
 
 Bei Fragen oder Anregungen erreicht ihr uns jederzeit
-per [E-Mail](mailto:info@urlaubsverwaltung.cloud?subject=Zeiterfasung%203%20Feedback)
+per [E-Mail](mailto:info@urlaubsverwaltung.cloud?subject=Zeiterfassung%203%20Feedback)
 
 <sub>Zur vollständigen
 Release-Übersicht: [Release 3.0.0 auf GitHub ansehen](https://github.com/urlaubsverwaltung/zeiterfassung/releases/tag/zeiterfassung-3.0.0)</sub>
