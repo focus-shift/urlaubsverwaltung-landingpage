@@ -29,6 +29,21 @@ sauber sortiert an der linken Seite.
 Egal ob schneller Wechsel zwischen der eigenen Zeiterfassung, den Teamberichten oder den administrativen Einstellungen:
 Ein Klick genügt. Die Sidebar passt sich dynamisch an und sorgt dafür, dass ihr euch nie wieder in Untermenüs verliert.
 
+<div class="flex my-8">
+    <figure>
+        <picture>
+            <img
+              src="sidebar-navigation.png"
+              alt="Screenshot der Zeiterfassung 3.0.0 mit der neuen Sidebar-Navigation an der linken Seite."
+              decoding="async"
+              loading="lazy"
+              class="rounded-lg"
+            />
+        </picture>
+        <figcaption class="text-sm text-center">Neue Sidebar-Navigation in der Zeiterfassung</figcaption>
+    </figure>
+</div>
+
 ## Die neue globale Suche – Schneller am Ziel als je zuvor
 
 Wer kennt es nicht? Man sucht die Zeiteinträge einer bestimmten Person oder möchte schnell zu einer bestimmten Funktion
