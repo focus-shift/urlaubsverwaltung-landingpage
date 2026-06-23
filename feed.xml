@@ -4,8 +4,113 @@
   <subtitle></subtitle>
   <link rel="self" href="https://urlaubsverwaltung.cloud/feed.xml" />
   <link rel="alternate" type="text/html" href="https://urlaubsverwaltung.cloud" />
-  <updated>2026-05-19T00:00:00Z</updated>
+  <updated>2026-06-22T00:00:00Z</updated>
   <id>https://urlaubsverwaltung.cloud</id>
+  <entry>
+    <title>Urlaubsverwaltung 6.0.0 – Neue Navigation, globale Suche und ein aufgeräumteres Nutzererlebnis</title>
+    <link href="https://urlaubsverwaltung.cloud/neuigkeiten/2026-06-22-release-6.0.0/" />
+    <updated>2026-06-22T00:00:00Z</updated>
+    <id>https://urlaubsverwaltung.cloud/neuigkeiten/2026-06-22-release-6.0.0/</id>
+    <author>
+      <name>Tobias Schneider</name>
+    </author>
+    <content type="html">&lt;p&gt;Das neue Major-Release Urlaubsverwaltung 6.0.0 ist ab sofort verfügbar. Mit dieser Version wurde die Benutzeroberfläche
+modernisiert, die Navigation optimiert und die technologische Basis aktualisiert. Nachfolgend finden Sie die wichtigsten
+Neuerungen im Überblick.&lt;/p&gt;
+&lt;p&gt;Ziel der neuen Version ist es, häufig genutzte Funktionen schneller erreichbar zu machen, die Orientierung innerhalb der
+Anwendung zu verbessern und die tägliche Arbeit für Mitarbeitende, Führungskräfte und Personalverantwortliche weiter zu
+vereinfachen.&lt;/p&gt;
+&lt;h2 id=&quot;einfuehrung-einer-sidebar-navigation&quot;&gt;Einführung einer Sidebar-Navigation&lt;/h2&gt;
+&lt;p&gt;Die klassische obere Menüleiste wurde durch eine flexible Sidebar-Navigation mit einer zweiten Ebene ersetzt. Die
+Sidebar lässt sich bei Bedarf ein- und ausklappen. Dies spart Platz auf kleineren Bildschirmen und sorgt für eine
+aufgeräumte Arbeitsoberfläche, während alle Funktionen schnell erreichbar bleiben.&lt;/p&gt;
+&lt;h2 id=&quot;globale-kontextsensitive-nutzersuche&quot;&gt;Globale, kontextsensitive Nutzersuche&lt;/h2&gt;
+&lt;p&gt;Die Anwendung verfügt nun über eine zentrale, kontextsensitive Nutzersuche. Das bedeutet: Die Suche erkennt intelligent,
+in welchem Bereich Sie sich gerade befinden, und schlägt die Brücke zur gesuchten Person. Wenn Sie beispielsweise die
+allgemeine Übersicht geöffnet haben und nach einem Teammitglied suchen, springen Sie direkt zur Übersicht dieser Person.
+Befinden Sie sich stattdessen im Bereich Abwesenheiten, führt Sie die Suche direkt zu den Abwesenheiten des gesuchten
+Profils. Dadurch entfällt das manuelle Wechseln der Menüpunkte nach einem Personenwechsel.&lt;/p&gt;
+&lt;div class=&quot;flex my-8&quot;&gt;
+    &lt;figure&gt;
+        &lt;picture&gt;
+            &lt;img src=&quot;https://urlaubsverwaltung.cloud/neuigkeiten/2026-06-22-release-6.0.0/globale-suche.png&quot; alt=&quot;Screenshot der Urlaubsverwaltung 6.0.0 mit geöffnetem Suchfenster der neuen globalen Suche im Vordergrund.&quot; decoding=&quot;async&quot; loading=&quot;lazy&quot; class=&quot;rounded-lg&quot; /&gt;
+        &lt;/picture&gt;
+        &lt;figcaption class=&quot;text-sm text-center&quot;&gt;Globale Suche in der Urlaubsverwaltung&lt;/figcaption&gt;
+    &lt;/figure&gt;
+&lt;/div&gt;
+&lt;h2 id=&quot;internationale-feiertage&quot;&gt;Internationale Feiertage&lt;/h2&gt;
+&lt;p&gt;Für international agierende Teams wurden die gesetzlichen Feiertage für Rumänien und Finnland integriert.&lt;/p&gt;
+&lt;h2 id=&quot;wir-freuen-uns-ueber-euer-feedback&quot;&gt;Wir freuen uns über euer Feedback!&lt;/h2&gt;
+&lt;p&gt;Wie immer gilt: Wir entwickeln unsere Produkte gemeinsam mit euch weiter. Testet das neue Feature, sagt uns, wie es euch
+gefällt – und was ihr euch als Nächstes wünscht!&lt;/p&gt;
+&lt;p&gt;Bei Fragen oder Anregungen erreicht ihr uns jederzeit
+per &lt;a href=&quot;mailto:info@urlaubsverwaltung.cloud?subject=Urlaubsverwaltung%206%20Feedback&quot;&gt;E-Mail&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;sub&gt;Zur vollständigen
+Release-Übersicht: &lt;a href=&quot;https://github.com/urlaubsverwaltung/urlaubsverwaltung/releases/tag/urlaubsverwaltung-6.0.0&quot;&gt;Release 6.0.0 auf GitHub ansehen&lt;/a&gt;&lt;/sub&gt;&lt;/p&gt;
+</content>
+  </entry>
+  <entry>
+    <title>Zeiterfassung 3.0.0 bringt neue Sidebar und globale Suche</title>
+    <link href="https://urlaubsverwaltung.cloud/neuigkeiten/2026-06-22-release-3.0.0/" />
+    <updated>2026-06-22T00:00:00Z</updated>
+    <id>https://urlaubsverwaltung.cloud/neuigkeiten/2026-06-22-release-3.0.0/</id>
+    <author>
+      <name>Tobias Schneider</name>
+    </author>
+    <content type="html">&lt;p&gt;Die Zeiterfassung 3.0.0 ist da! In den vergangenen Monaten haben wir intensiv an eurem Feedback gearbeitet, um die
+tägliche Nutzung noch flüssiger, intuitiver und moderner zu gestalten. Das Ergebnis ist ein echtes Core-Upgrade, das vor
+allem in Sachen Navigation und Nutzerkomfort neue Maßstäbe setzt.&lt;/p&gt;
+&lt;p&gt;Mit der Version 3.0.0 verabschieden wir uns von alten Strukturen und schaffen Platz für mehr Übersicht. Das gesamte
+Design fühlt sich frischer an, doch unter der Haube hat sich ebenso viel getan: Neben einer umfassenden technologischen
+Modernisierung stehen zwei absolute Highlight-Features im Rampenlicht, die euren Workflow spürbar beschleunigen werden.&lt;/p&gt;
+&lt;h2 id=&quot;die-neue-sidebar-navigation-–-alles-wichtige-im-direkten-blick&quot;&gt;Die neue Sidebar-Navigation – Alles Wichtige im direkten Blick&lt;/h2&gt;
+&lt;p&gt;Das auffälligste Merkmal der neuen Version ist der komplette Umbau unserer Navigation. Um euch auf Bildschirmen jeder
+Größe den maximalen Platz für eure Zeiteinträge und Auswertungen zu bieten, führt die Zeiterfassung 3.0.0 eine schlanke,
+moderne Sidebar-Navigation ein. Statt verschachtelter Menüs am oberen Rand findet ihr nun alle relevanten Abschnitte
+sauber sortiert an der linken Seite.&lt;/p&gt;
+&lt;p&gt;Egal ob schneller Wechsel zwischen der eigenen Zeiterfassung, den Teamberichten oder den administrativen Einstellungen:
+Ein Klick genügt. Die Sidebar passt sich dynamisch an und sorgt dafür, dass ihr euch nie wieder in Untermenüs verliert.&lt;/p&gt;
+&lt;h2 id=&quot;die-neue-globale-suche-–-schneller-am-ziel-als-je-zuvor&quot;&gt;Die neue globale Suche – Schneller am Ziel als je zuvor&lt;/h2&gt;
+&lt;p&gt;Wer kennt es nicht? Man sucht die Zeiteinträge einer bestimmten Person oder möchte schnell zu einer bestimmten Funktion
+springen, um Einstellungen anzupassen. Bisher waren dafür oft mehrere Klicks nötig. Damit ist jetzt Schluss! Mit der
+neuen globalen Suche spendieren wir der Zeiterfassung eine zentrale Steuerungszentrale.&lt;/p&gt;
+&lt;p&gt;Die neue Nutzersuche durchsucht blitzschnell das gesamte System und bietet euch direkte Absprungmöglichkeiten zu den
+unterschiedlichsten Funktionen. Ihr tippt einfach den Namen eines Teammitglieds ein und könnt sofort auswählen, ob ihr
+direkt in dessen Monatsübersicht, die Berichte oder die Rechteverwaltung springen wollt.&lt;/p&gt;
+&lt;div class=&quot;flex my-8&quot;&gt;
+    &lt;figure&gt;
+        &lt;picture&gt;
+            &lt;img src=&quot;https://urlaubsverwaltung.cloud/neuigkeiten/2026-06-22-release-3.0.0/globale-suche.png&quot; alt=&quot;Screenshot der Zeiterfassung 3.0.0 mit geöffnetem Suchfenster der neuen globalen Suche im Vordergrund.&quot; decoding=&quot;async&quot; loading=&quot;lazy&quot; class=&quot;rounded-lg&quot; /&gt;
+        &lt;/picture&gt;
+        &lt;figcaption class=&quot;text-sm text-center&quot;&gt;Globale Suche in der Zeiterfassung&lt;/figcaption&gt;
+    &lt;/figure&gt;
+&lt;/div&gt;
+&lt;h2 id=&quot;eure-zeiterfassung-euer-style-jetzt-mit-dark-mode-und-sprachauswahl&quot;&gt;Eure Zeiterfassung, euer Style: Jetzt mit Dark Mode und Sprachauswahl&lt;/h2&gt;
+&lt;p&gt;Gesundes Arbeiten bedeutet auch, dass sich die Software an eure Bedürfnisse anpasst – und nicht umgekehrt. Deshalb
+bringt die Version 3.0.0 ein lang ersehntes Feature mit: Genau wie ihr es schon aus der Urlaubsverwaltung kennt, steht
+euch ab sofort ein nativer Dark Mode zur Verfügung! Egal ob ihr lieber im hellen Design arbeitet oder in den
+Abendstunden eure Augen schonen möchtet – ihr schaltet das Design mit nur einem Klick nach euren persönlichen Vorlieben
+um.&lt;/p&gt;
+&lt;p&gt;Zusätzlich haben wir die Flexibilität für internationale Teams weiter ausgebaut: Ab sofort könnt ihr eure bevorzugte
+Sprache individuell einstellen. Damit ist die Zeiterfassung jetzt noch barrierefreier und flexibler für alle im Team
+einsatzbereit.&lt;/p&gt;
+&lt;div class=&quot;flex my-8&quot;&gt;
+    &lt;figure&gt;
+        &lt;picture&gt;
+            &lt;img src=&quot;https://urlaubsverwaltung.cloud/neuigkeiten/2026-06-22-release-3.0.0/dark-mode.png&quot; alt=&quot;Screenshot der Zeiterfassung im hellen Modus mit geöffnetem Auswahlmenü für den Dark Mode und die Spracheinstellungen.&quot; decoding=&quot;async&quot; loading=&quot;lazy&quot; class=&quot;rounded-lg&quot; /&gt;
+        &lt;/picture&gt;
+        &lt;figcaption class=&quot;text-sm text-center&quot;&gt;Dark Mode in der Zeiterfassung&lt;/figcaption&gt;
+    &lt;/figure&gt;
+&lt;/div&gt;
+&lt;h2 id=&quot;wir-freuen-uns-ueber-euer-feedback&quot;&gt;Wir freuen uns über euer Feedback!&lt;/h2&gt;
+&lt;p&gt;Wie immer gilt: Wir entwickeln unsere Produkte gemeinsam mit euch weiter. Testet das neue Feature, sagt uns, wie es euch
+gefällt – und was ihr euch als Nächstes wünscht!&lt;/p&gt;
+&lt;p&gt;Bei Fragen oder Anregungen erreicht ihr uns jederzeit
+per &lt;a href=&quot;mailto:info@urlaubsverwaltung.cloud?subject=Zeiterfassung%203%20Feedback&quot;&gt;E-Mail&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;sub&gt;Zur vollständigen
+Release-Übersicht: &lt;a href=&quot;https://github.com/urlaubsverwaltung/zeiterfassung/releases/tag/zeiterfassung-3.0.0&quot;&gt;Release 3.0.0 auf GitHub ansehen&lt;/a&gt;&lt;/sub&gt;&lt;/p&gt;
+</content>
+  </entry>
   <entry>
     <title>Karenztage 2030 - Wie ein einzelner Hebel das System verändert</title>
     <link href="https://urlaubsverwaltung.cloud/neuigkeiten/2026-05-19-Karenztage-Schweden/" />
