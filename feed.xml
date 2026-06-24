@@ -37,7 +37,8 @@ aufgeräumte Arbeitsoberfläche, während alle Funktionen schnell erreichbar ble
 in welchem Bereich Sie sich gerade befinden, und schlägt die Brücke zur gesuchten Person. Wenn Sie beispielsweise die
 allgemeine Übersicht geöffnet haben und nach einem Teammitglied suchen, springen Sie direkt zur Übersicht dieser Person.
 Befinden Sie sich stattdessen im Bereich Abwesenheiten, führt Sie die Suche direkt zu den Abwesenheiten des gesuchten
-Profils. Dadurch entfällt das manuelle Wechseln der Menüpunkte nach einem Personenwechsel.&lt;/p&gt;
+Profils. Dadurch entfällt das manuelle Wechseln der Menüpunkte nach einem Personenwechsel: Die Suche bietet Ihnen –
+passend zum Bereich, in dem Sie sich gerade befinden – stets direkt den richtigen Einsprung.&lt;/p&gt;
 &lt;div class=&quot;flex my-8&quot;&gt;
     &lt;figure&gt;
         &lt;picture&gt;
@@ -89,7 +90,9 @@ Ein Klick genügt. Die Sidebar passt sich dynamisch an und sorgt dafür, dass ih
 &lt;h2 id=&quot;die-neue-globale-suche-–-schneller-am-ziel-als-je-zuvor&quot;&gt;Die neue globale Suche – Schneller am Ziel als je zuvor&lt;/h2&gt;
 &lt;p&gt;Wer kennt es nicht? Man sucht die Zeiteinträge einer bestimmten Person oder möchte schnell zu einer bestimmten Funktion
 springen, um Einstellungen anzupassen. Bisher waren dafür oft mehrere Klicks nötig. Damit ist jetzt Schluss! Mit der
-neuen globalen Suche spendieren wir der Zeiterfassung eine zentrale Steuerungszentrale.&lt;/p&gt;
+neuen globalen Suche spendieren wir der Zeiterfassung eine zentrale Steuerungszentrale. Sie arbeitet dabei
+kontextsensitiv und bietet euch – passend zum Bereich, in dem ihr euch gerade befindet – direkt den richtigen Einsprung
+an.&lt;/p&gt;
 &lt;p&gt;Die neue Nutzersuche durchsucht blitzschnell das gesamte System und bietet euch direkte Absprungmöglichkeiten zu den
 unterschiedlichsten Funktionen. Ihr tippt einfach den Namen eines Teammitglieds ein und könnt sofort auswählen, ob ihr
 direkt in dessen Monatsübersicht, die Berichte oder die Rechteverwaltung springen wollt.&lt;/p&gt;
