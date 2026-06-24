@@ -25,6 +25,21 @@ Die klassische obere Menüleiste wurde durch eine flexible Sidebar-Navigation mi
 Sidebar lässt sich bei Bedarf ein- und ausklappen. Dies spart Platz auf kleineren Bildschirmen und sorgt für eine
 aufgeräumte Arbeitsoberfläche, während alle Funktionen schnell erreichbar bleiben.
 
+<div class="flex my-8">
+    <figure>
+        <picture>
+            <img
+              src="sidebar-navigation.png"
+              alt="Screenshot der Urlaubsverwaltung 6.0.0 mit der neuen Sidebar-Navigation an der linken Seite."
+              decoding="async"
+              loading="lazy"
+              class="rounded-lg"
+            />
+        </picture>
+        <figcaption class="text-sm text-center">Neue Sidebar-Navigation in der Urlaubsverwaltung</figcaption>
+    </figure>
+</div>
+
 ## Globale, kontextsensitive Nutzersuche
 
 Die Anwendung verfügt nun über eine zentrale, kontextsensitive Nutzersuche. Das bedeutet: Die Suche erkennt intelligent,
