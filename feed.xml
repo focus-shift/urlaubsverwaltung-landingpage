@@ -24,6 +24,14 @@ vereinfachen.&lt;/p&gt;
 &lt;p&gt;Die klassische obere Menüleiste wurde durch eine flexible Sidebar-Navigation mit einer zweiten Ebene ersetzt. Die
 Sidebar lässt sich bei Bedarf ein- und ausklappen. Dies spart Platz auf kleineren Bildschirmen und sorgt für eine
 aufgeräumte Arbeitsoberfläche, während alle Funktionen schnell erreichbar bleiben.&lt;/p&gt;
+&lt;div class=&quot;flex my-8&quot;&gt;
+    &lt;figure&gt;
+        &lt;picture&gt;
+            &lt;img src=&quot;https://urlaubsverwaltung.cloud/neuigkeiten/2026-06-22-release-6.0.0/sidebar-navigation.png&quot; alt=&quot;Screenshot der Urlaubsverwaltung 6.0.0 mit der neuen Sidebar-Navigation an der linken Seite.&quot; decoding=&quot;async&quot; loading=&quot;lazy&quot; class=&quot;rounded-lg&quot; /&gt;
+        &lt;/picture&gt;
+        &lt;figcaption class=&quot;text-sm text-center&quot;&gt;Neue Sidebar-Navigation in der Urlaubsverwaltung&lt;/figcaption&gt;
+    &lt;/figure&gt;
+&lt;/div&gt;
 &lt;h2 id=&quot;globale-kontextsensitive-nutzersuche&quot;&gt;Globale, kontextsensitive Nutzersuche&lt;/h2&gt;
 &lt;p&gt;Die Anwendung verfügt nun über eine zentrale, kontextsensitive Nutzersuche. Das bedeutet: Die Suche erkennt intelligent,
 in welchem Bereich Sie sich gerade befinden, und schlägt die Brücke zur gesuchten Person. Wenn Sie beispielsweise die
@@ -70,6 +78,14 @@ moderne Sidebar-Navigation ein. Statt verschachtelter Menüs am oberen Rand find
 sauber sortiert an der linken Seite.&lt;/p&gt;
 &lt;p&gt;Egal ob schneller Wechsel zwischen der eigenen Zeiterfassung, den Teamberichten oder den administrativen Einstellungen:
 Ein Klick genügt. Die Sidebar passt sich dynamisch an und sorgt dafür, dass ihr euch nie wieder in Untermenüs verliert.&lt;/p&gt;
+&lt;div class=&quot;flex my-8&quot;&gt;
+    &lt;figure&gt;
+        &lt;picture&gt;
+            &lt;img src=&quot;https://urlaubsverwaltung.cloud/neuigkeiten/2026-06-22-release-3.0.0/sidebar-navigation.png&quot; alt=&quot;Screenshot der Zeiterfassung 3.0.0 mit der neuen Sidebar-Navigation an der linken Seite.&quot; decoding=&quot;async&quot; loading=&quot;lazy&quot; class=&quot;rounded-lg&quot; /&gt;
+        &lt;/picture&gt;
+        &lt;figcaption class=&quot;text-sm text-center&quot;&gt;Neue Sidebar-Navigation in der Zeiterfassung&lt;/figcaption&gt;
+    &lt;/figure&gt;
+&lt;/div&gt;
 &lt;h2 id=&quot;die-neue-globale-suche-–-schneller-am-ziel-als-je-zuvor&quot;&gt;Die neue globale Suche – Schneller am Ziel als je zuvor&lt;/h2&gt;
 &lt;p&gt;Wer kennt es nicht? Man sucht die Zeiteinträge einer bestimmten Person oder möchte schnell zu einer bestimmten Funktion
 springen, um Einstellungen anzupassen. Bisher waren dafür oft mehrere Klicks nötig. Damit ist jetzt Schluss! Mit der
