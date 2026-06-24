@@ -48,7 +48,9 @@ Ein Klick genügt. Die Sidebar passt sich dynamisch an und sorgt dafür, dass ih
 
 Wer kennt es nicht? Man sucht die Zeiteinträge einer bestimmten Person oder möchte schnell zu einer bestimmten Funktion
 springen, um Einstellungen anzupassen. Bisher waren dafür oft mehrere Klicks nötig. Damit ist jetzt Schluss! Mit der
-neuen globalen Suche spendieren wir der Zeiterfassung eine zentrale Steuerungszentrale.
+neuen globalen Suche spendieren wir der Zeiterfassung eine zentrale Steuerungszentrale. Sie arbeitet dabei
+kontextsensitiv und bietet euch – passend zum Bereich, in dem ihr euch gerade befindet – direkt den richtigen Einsprung
+an.
 
 Die neue Nutzersuche durchsucht blitzschnell das gesamte System und bietet euch direkte Absprungmöglichkeiten zu den
 unterschiedlichsten Funktionen. Ihr tippt einfach den Namen eines Teammitglieds ein und könnt sofort auswählen, ob ihr

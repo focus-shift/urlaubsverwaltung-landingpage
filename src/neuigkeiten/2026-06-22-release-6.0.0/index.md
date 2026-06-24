@@ -46,7 +46,8 @@ Die Anwendung verfügt nun über eine zentrale, kontextsensitive Nutzersuche. Da
 in welchem Bereich Sie sich gerade befinden, und schlägt die Brücke zur gesuchten Person. Wenn Sie beispielsweise die
 allgemeine Übersicht geöffnet haben und nach einem Teammitglied suchen, springen Sie direkt zur Übersicht dieser Person.
 Befinden Sie sich stattdessen im Bereich Abwesenheiten, führt Sie die Suche direkt zu den Abwesenheiten des gesuchten
-Profils. Dadurch entfällt das manuelle Wechseln der Menüpunkte nach einem Personenwechsel.
+Profils. Dadurch entfällt das manuelle Wechseln der Menüpunkte nach einem Personenwechsel: Die Suche bietet Ihnen –
+passend zum Bereich, in dem Sie sich gerade befinden – stets direkt den richtigen Einsprung.
 
 <div class="flex my-8">
     <figure>
