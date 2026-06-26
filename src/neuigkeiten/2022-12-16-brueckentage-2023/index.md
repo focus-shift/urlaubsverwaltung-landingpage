@@ -23,15 +23,11 @@ können.
 
 <div class="flex my-8">
     <figure>
-        <picture>
             <img
               src="apr-jun.png"
               alt="Brückentage im April bis Juni (Kalenderdarstellung)"
-              decoding="async"
-              loading="lazy"
               class="rounded-lg"
             />
-        </picture>
         <figcaption class="text-sm text-center">Mögliche Urlaubsplanung für die Brückentage im April bis Juni</figcaption>
     </figure>
 </div>
@@ -63,15 +59,11 @@ sodass auch hier mit nur 4 Urlaubstagen 9 freie Tage möglich sind.
 
 <div class="flex my-8">
     <figure>
-        <picture>
             <img
               src="okt-dez.png"
               alt="Kalenderdarstellung der Monate Oktober bis Dezember"
-              decoding="async"
-              loading="lazy"
               class="rounded-lg"
             />
-        </picture>
         <figcaption class="text-sm text-center">Mögliche Urlaubsplanung für den Tag der Deutschen Einheit sowie für Weihnachten</figcaption>
     </figure>
 </div>
@@ -134,15 +126,11 @@ Da jedes Bundesland individuell Feiertage festgelegt hat, sind auch weitere Komb
 <div class="flex flex-col justify-end lg:flex-row-reverse lg:space-x-8 lg:space-x-reverse lg:mt-8 lg:mb-8">
   <div class="w-full">
     <figure>
-        <picture>
             <img
               src="einstellungen.png"
               alt="Einstellungen von Bundesland und Arbeitstagen"
-              decoding="async"
-              loading="lazy"
               class="rounded-lg"
             />
-        </picture>
         <figcaption class="text-sm text-center">Einstellungen von Bundesland und Arbeitstagen</figcaption>
     </figure>
   </div>

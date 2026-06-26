@@ -14,18 +14,10 @@ description: Hier findest du Hilfe zu dem Thema Feiertage
 In den Einstellungen der Zeiterfassung kann eine globale Feiertagsregelung konfiguriert werden.
 Diese Regelung gilt für alle Mitarbeitenden, die in der Zeiterfassung erfasst sind.
 
-<p>
-  <picture>
     <img
       src="globale_feiertage.png"
       alt="Einstellungen der globalen Feiertagsregelung"
-      decoding="async"
-      loading="lazy"
-      width="938"
-      height="453"
     />
-  </picture>
-</p>
 
 Falls du für einen bestimmten Mitarbeitenden eine individuelle Feiertagsregelung benötigst,
 kannst du diese in den Einstellungen eines Mitarbeitenden konfigurieren.
@@ -37,18 +29,10 @@ Ja, bei verteilten Teams ist es nicht selten, dass unterschiedliche Anforderunge
 Für Mitarbeitende, die in Baden-Württemberg angestellt sind, gelten andere Feiertagsregelungen als z. B. in Hessen.
 Daher kannst du die Feiertagsregelung für jeden Mitarbeitenden individuell anpassen.
 
-<p>
-  <picture>
     <img
       src="individuelle_feiertage.png"
       alt="Einstellungen der Feiertagsregelung pro Mitarbeitenden"
-      decoding="async"
-      loading="lazy"
-      width="1906"
-      height="700"
     />
-  </picture>
-</p>
 
 ## Welche Feiertagsregelungen sind vorhanden?
 

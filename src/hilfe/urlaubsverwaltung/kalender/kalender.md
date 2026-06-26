@@ -40,48 +40,24 @@ Die Kalenderfreigabe kann pro Benutzer konfiguriert werden. Um die Konfiguration
 
 1. Klicke auf "Kalenderfreigabe" in der Übersichtsseite oberhalb des Kalenders
 
-<p>
-  <picture>
-    <img
-      src="kalenderfreigabe.png"
-      alt="Kalenderfreigabe"
-      decoding="async"
-      loading="lazy"
-      width="1186"
-      height="850"
-    />
-  </picture>
-</p>
+   <img
+     src="kalenderfreigabe.png"
+     alt="Kalenderfreigabe"
+   />
 
 2. Wähle z. B. "Meinen Kalender freigeben"
 
-<p>
-  <picture>
-    <img
-      src="kalenderfreigabe-aktivieren.png"
-      alt="Kalenderfreigabe aktivieren"
-      decoding="async"
-      loading="lazy"
-      width="1171"
-      height="404"
-    />
-  </picture>
-</p>
+   <img
+     src="kalenderfreigabe-aktivieren.png"
+     alt="Kalenderfreigabe aktivieren"
+   />
 
 3. Es wird ein geheimer Link generiert, welchen du jetzt zum Abonnieren verwenden kannst. Weitere Informationen über das Abonnieren findest du [hier](#welche-moeglichkeiten-habe-ich-eine-ical-kalenderfreigabe-in-meinem-client-zu-verwenden).
 
-<p>
-  <picture>
-    <img
-      src="kalenderfreigabe-link.png"
-      alt="Kalenderfreigabe Link"
-      decoding="async"
-      loading="lazy"
-      width="1176"
-      height="401"
-    />
-  </picture>
-</p>
+   <img
+     src="kalenderfreigabe-link.png"
+     alt="Kalenderfreigabe Link"
+   />
 
 ### Wie kann ich eine Freigabe löschen?
 
@@ -89,33 +65,17 @@ Eine Freigabe kann über folgende Schritte gelöscht werden:
 
 1. Klicke auf "Kalenderfreigabe" in der Übersichtsseite oberhalb des Kalenders
 
-<p>
-  <picture>
-    <img
-      src="kalenderfreigabe.png"
-      alt="Kalenderfreigabe"
-      decoding="async"
-      loading="lazy"
-      width="1186"
-      height="850"
-    />
-  </picture>
-</p>
+   <img
+     src="kalenderfreigabe.png"
+     alt="Kalenderfreigabe"
+   />
 
 2. Wähle beim betreffenden Kalender "Freigabe löschen". Durch das Löschen ist der Zugriff über den geheimen Link nicht mehr möglich.
 
-<p>
-  <picture>
-    <img
-      src="kalenderfreigabe-loeschen.png"
-      alt="Kalenderfreigabe löschen"
-      decoding="async"
-      loading="lazy"
-      width="1162"
-      height="377"
-    />
-  </picture>
-</p>
+   <img
+     src="kalenderfreigabe-loeschen.png"
+     alt="Kalenderfreigabe löschen"
+   />
 
 ### Welche Möglichkeiten habe ich eine iCal Kalenderfreigabe in meinem Client zu verwenden?
 
@@ -144,30 +104,18 @@ Die Urlaubsverwaltung bietet die Möglichkeit, Kalendereinträge in einen Google
 1. **Google Calendar API** ist aktiviert unter [API-Bibliothek](https://console.cloud.google.com/apis/library) ([Dokumentation](https://cloud.google.com/apis/docs/getting-started))
 
    <figure>
-     <picture>
        <img
          src="google-calendar-api-activate.png"
          alt="Google Calendar API Aktivieren"
-         decoding="async"
-         loading="lazy"
-         width="2347"
-         height="1108"
        />
-     </picture>
      <figcaption class="text-sm text-center">Google Calendar API auswählen</figcaption>
    </figure>
 
    <figure class="mb-4">
-     <picture>
        <img
          src="google-calendar-api-activate-detail.png"
          alt="Google Calendar API Aktivieren"
-         decoding="async"
-         loading="lazy"
-         width="603"
-         height="381"
        />
-     </picture>
      <figcaption class="text-sm text-center">Google Calendar API aktivieren</figcaption>
    </figure>
 
@@ -177,31 +125,19 @@ Die Urlaubsverwaltung bietet die Möglichkeit, Kalendereinträge in einen Google
 
    - OAuth2-Client-ID erstellen
     <figure class="mb-4">
-     <picture>
        <img
          src="google-calendar-api-oauth-client.png"
          alt="Google OAuth2 Client erstellen"
-         decoding="async"
-         loading="lazy"
-         width="985"
-         height="396"
        />
-     </picture>
      <figcaption class="text-sm text-center">Google OAuth2 Client erstellen</figcaption>
    </figure>
 
    - OAuth2-Client-ID als Webanwendung (Anwendungstyp) konfigurieren
     <figure class="mb-4">
-     <picture>
        <img
          src="google-calendar-api-oauth-client-two.png"
          alt="Google OAuth2 Client erstellen"
-         decoding="async"
-         loading="lazy"
-         width="813"
-         height="1013"
        />
-     </picture>
      <figcaption class="text-sm text-center">Google OAuth2 Client erstellen</figcaption>
    </figure>
 
@@ -213,16 +149,10 @@ Die Urlaubsverwaltung bietet die Möglichkeit, Kalendereinträge in einen Google
    Der **Testnutzer** entspricht dem Benutzerkonto der Person, die den Google-Kalender zur Synchronisation verwendet.
 
    <figure class="mb-4">
-      <picture>
         <img
           src="google-calendar-api-oauth-client-testuser.png"
           alt="Google OAuth2 Client Testnutzer"
-          decoding="async"
-          loading="lazy"
-          width="813"
-          height="1013"
         />
-      </picture>
       <figcaption class="text-sm text-center">Google OAuth2 Client Testnutzer</figcaption>
     </figure>
 

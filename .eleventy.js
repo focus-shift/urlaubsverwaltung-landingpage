@@ -41,7 +41,14 @@ export default function (eleventyConfig) {
 
 	eleventyConfig.addPlugin(pluginRss);
 	eleventyConfig.addPlugin(eleventyImageTransformPlugin, {
-		formats: ["avif", "jpg"],
+		formats: ["webp", "jpg"],
+		// 771: image width on help pages (desktop)
+		widths: [400, 771, 800, 1200, 1600, "auto"],
+		defaultAttributes: {
+			loading: "lazy",
+			decoding: "async",
+			sizes: "100vw",
+		},
 	});
 
 	eleventyConfig.addTransform("htmlmin", function (content, outputPath) {

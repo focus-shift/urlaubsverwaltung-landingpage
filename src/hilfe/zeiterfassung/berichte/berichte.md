@@ -15,18 +15,10 @@ In der Ansicht "Berichte" können die **geleisteten Arbeitsstunden** pro Mitarbe
 als CSV-Download eingesehen werden. Zusätzlich werden die **einzelnen Zeiteinträge** angezeigt,
 die nach Mitarbeitenden selektiert werden können. Es können auch mehrere Mitarbeitende ausgewählt werden.
 
-<p>
-  <picture>
     <img
       src="berichte.png"
       alt="Übersicht über geleistete und geplante Arbeitsstunden"
-      decoding="async"
-      loading="lazy"
-      width="1621"
-      height="1236"
     />
-  </picture>
-</p>
 
 Die Ansicht eines Tages gibt einen schnellen Überblick darüber, wann und wie tatsächlich gearbeitet wurde.
 
@@ -49,18 +41,10 @@ stroke-width="2" stroke-linecap="round" stroke-linejoin="round" role="img" aria-
 
 Ein Pausensymbol zeigt, ob es sich bei einer erfassten Zeit um eine Pause handelt.
 
-<p>
-  <picture>
     <img
       src="pausen.png"
       alt="Pausen in der Tagesansicht"
-      decoding="async"
-      loading="lazy"
-      width="1621"
-      height="552"
     />
-  </picture>
-</p>
 
 Pausen werden nicht in die geleistete Arbeitszeit eingerechnet.
 
@@ -70,33 +54,17 @@ Alle Änderungen an den Zeiteinträgen können nachvollzogen werden. Jede Änder
 Die Historie kann durch Anklicken des Historie-Symbols geöffnet werden. Zu jeder Änderung ist der Stand zum Zeitpunkt der Änderung ersichtlich sowie wer die Änderung vorgenommen hat.
 So können Fehler korrigiert werden und es ist nachvollziehbar, wer wann eine Änderung vorgenommen hat.
 
-<p>
-  <picture>
     <img
       src="historie_icon.png"
       alt="Pausen in der Tagesansicht"
-      decoding="async"
-      loading="lazy"
-      width="1744"
-      height="640"
     />
-  </picture>
-</p>
 
 Die Nachvollziehbarkeit von Änderungen ist insbesondere für Unternehmen und Teams von großer Bedeutung, da sie zu mehr Transparenz und Datenintegrität führt. Durch die Änderungshistorie können Fehlerquellen schneller identifiziert und behoben werden. Diese Funktion ist auch für Audits oder Compliance-Anforderungen von großer Bedeutung.
 
-<p>
-  <picture>
     <img
       src="historie.png"
       alt="Pausen in der Tagesansicht"
-      decoding="async"
-      loading="lazy"
-      width="1367"
-      height="919"
     />
-  </picture>
-</p>
 
 ## Zeiteinträge über Berichte bearbeiten
 

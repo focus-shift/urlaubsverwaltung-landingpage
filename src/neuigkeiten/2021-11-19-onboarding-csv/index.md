@@ -16,16 +16,10 @@ Direkt eins vorweg: Lehne dich zurück! Wir ermöglichen dir den passenden Einst
 ## Los gehts!
 
 <div class="flex flex-col items-center mt-2 lg:flex-row lg:space-x-8 lg:mb-8">
-  <picture>
     <img class="mx-auto lg:max-w-md lg:h-72"
       src="/static/img/onboarding.jpg"
       alt="Herzlich Willkommen"
-      decoding="async"
-      loading="lazy"
-      width="640"
-      height="426"
     />
-  </picture>
   <div class="max-w-none lg:max-w-screen">
     <p class="mt-4 lg:mb-4">
       Ein neuer Anfang, bedeutet natürlich auch immer eine gewisse Vorbereitung. Zum einen müssen die Mitarbeiter:innen in der Organisation über die neue Software informiert werden, zum anderen sollen die Abläufe von Genehmigungsprozessen passend abgebildet werden. Natürlich sind auch die Daten wie zum Beispiel Urlaubsansprüche aus dem laufenden Jahr oder die erbrachten Überstunden wichtig für einen erfolgreichen Start. In dieser Artikelserie wollen wir drei mögliche Wege des Onboardings vorstellen, die einen reibungslosen Einstieg ermöglichen.
@@ -38,17 +32,17 @@ Direkt eins vorweg: Lehne dich zurück! Wir ermöglichen dir den passenden Einst
 Das Onboarding deiner Organisation kann mit einer Import-Datei im CSV-Format durchgeführt werden. Wichtig hierfür ist, dass die Namen deiner Mitarbeiter:innen und ihre E-Mail-Adressen vorliegen. Zusätzlich können Informationen wie die Abteilungszugehörigkeit, Abteilungsleiter und der Urlaubsanspruch angegeben werden.
 In der CSV kannst du pro Person folgende Felder pflegen. Für die Zuordnung sind bis zu 5 Abteilungen je Person möglich:
 
-* Vorname
-* Nachname
-* E-Mail-Adresse
-* Jährlicher Urlaubsanspruch
-* Anteiliger Urlaubsanspruch
-* Resturlaub
-* Abteilung_1
-* Abteilung_1_Abteilungsleiter
-* …
-* Abteilung_5
-* Abteilung_5_Abteilungsleiter
+- Vorname
+- Nachname
+- E-Mail-Adresse
+- Jährlicher Urlaubsanspruch
+- Anteiliger Urlaubsanspruch
+- Resturlaub
+- Abteilung_1
+- Abteilung_1_Abteilungsleiter
+- …
+- Abteilung_5
+- Abteilung_5_Abteilungsleiter
 
 Notwendige Felder sind Vorname, Nachname und E-Mail-Adresse, alle anderen Angaben sind optional.
 

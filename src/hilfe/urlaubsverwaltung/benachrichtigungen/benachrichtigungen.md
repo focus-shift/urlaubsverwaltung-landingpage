@@ -20,26 +20,14 @@ Person anpassen. Diese Einstellung ist für sich selbst über das Avatar-Menü b
 der Person möglich.
 
 <p class="flex flex-col items-start md:flex-row md:space-x-8">
-    <picture>
         <img
           src="avatar_menue.png"
           alt="Über das Avatar-Menü gelangt man zu den Benachrichtigungen"
-          decoding="async"
-          loading="lazy"
-          width="300"
-          height="375"
         />
-    </picture>
-    <picture>
         <img
           src="konto_benachrichtigungen.png"
           alt="Über das Konto einer Person gelangt man zu den Benachrichtigungen"
-          decoding="async"
-          loading="lazy"
-          width="567"
-          height="375"
         />
-    </picture>
 </p>
 
 Benachrichtigungen können pro Person aktiviert bzw. deaktiviert werden. Hier bleibt es ganz der Person
@@ -47,18 +35,10 @@ Benachrichtigungen können pro Person aktiviert bzw. deaktiviert werden. Hier bl
 bestimmten Berechtigung aktiviert werden. Zum Beispiel wird die Benachrichtigung, dass sich eine neue Person angemeldet
 hat, wird nur Personen mit der Berechtigung _Office_ bzw. _Chef_ angezeigt.
 
-<p>
-<picture>
     <img
       src="benachrichtigung.png"
       alt="Aktivieren bzw. deaktivieren von Benachrichtigungen pro Person"
-      decoding="async"
-      loading="lazy"
-      width="1198"
-      height="864"
     />
-</picture>
-</p>
 
 ## Welche Benachrichtigungen gibt es in der Urlaubsverwaltung, die ich derzeit noch nicht deaktivieren kann?
 

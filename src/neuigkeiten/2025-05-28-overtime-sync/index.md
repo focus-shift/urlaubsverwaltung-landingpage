@@ -26,19 +26,15 @@ Damit ist jetzt Schluss:
 In den Einstellungen der Urlaubsverwaltung im Reiter "Überstunden" kann die Synchronisierung der Überstunden aktiviert werden.
 Beachte, dass diese Einstellung nur für SaaS-Kunden verfügbar ist, die sowohl die Zeiterfassung als auch die Urlaubsverwaltung nutzen.
 Außerdem ist ab der Aktivierung eine manuelle erhebung von Überstunden nicht mehr möglich, da es sonst zu Inkonsistenzen kommen kann.
-Die zuvor manuel angelegten Überstunden, können weiterhin bearbeitet werden. 
+Die zuvor manuel angelegten Überstunden, können weiterhin bearbeitet werden.
 
 <div class="flex my-8">
     <figure>
-        <picture>
             <img
               src="overtime-sync-config.png"
               alt="Aktivierung der Synchronisierung der Überstunden"
-              decoding="async"
-              loading="lazy"
               class="rounded-lg"
             />
-        </picture>
         <figcaption class="text-sm text-center">Aktivierung der Synchronisierung der Überstunden</figcaption>
     </figure>
 </div>
@@ -49,15 +45,11 @@ Die zuvor manuel angelegten Überstunden, können weiterhin bearbeitet werden.
 
 <div class="flex my-8">
     <figure>
-        <picture>
             <img
               src="overtime-listview.png"
               alt="Übersicht der Synchronisierten Überstunden"
-              decoding="async"
-              loading="lazy"
               class="rounded-lg"
             />
-        </picture>
         <figcaption class="text-sm text-center">Übersicht der Synchronisierten Überstunden</figcaption>
     </figure>
 </div>
@@ -66,15 +58,11 @@ Die zuvor manuel angelegten Überstunden, können weiterhin bearbeitet werden.
 
 <div class="flex my-8">
     <figure>
-        <picture>
             <img
               src="overtime-ze.png"
               alt="Abteilungsübersicht mit Berechtigungen"
-              decoding="async"
-              loading="lazy"
               class="rounded-lg"
             />
-        </picture>
         <figcaption class="text-sm text-center">Überstundenabbau in der Zeiterfassung</figcaption>
     </figure>
 </div>

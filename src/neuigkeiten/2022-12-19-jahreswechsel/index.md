@@ -24,15 +24,11 @@ Rechnungsfehler werden vermieden.
 
  <div class="flex my-8">
     <figure>
-        <picture>
             <img
               src="übersicht.png"
               alt="Übersicht des Urlaubsanspruchs"
-              decoding="async"
-              loading="lazy"
               class="rounded-lg"
             />
-        </picture>
         <figcaption class="text-sm text-center">Überblick des Urlaubsanspruchs sowie des Resturlaubs</figcaption>
     </figure>
 </div>
@@ -46,15 +42,11 @@ Außerdem können mithilfe der Abwesenheitsübersicht die Urlaubstage anderer Pe
 
 <div class="flex my-8">
     <figure>
-        <picture>
             <img
               src="Abwesenheitsübersicht.png"
               alt="Abwesenheitsübersicht der Mitarbeitenden einer Abteilung"
-              decoding="async"
-              loading="lazy"
               class="rounded-lg"
             />
-        </picture>
         <figcaption class="text-sm text-center">Abwesenheitsübersicht der Mitarbeitenden einer Abteilung</figcaption>
     </figure>
 </div>
@@ -74,15 +66,11 @@ Wir helfen euch beim Onboarding und stehen für Fragen gerne zur Verfügung.
 
  <div class="flex my-8">
     <figure>
-        <picture>
             <img
               src="aktion2023.png"
               alt="Aktionsbanner Starte digital in das Jahr 2023"
-              decoding="async"
-              loading="lazy"
               class="rounded-lg"
             />
-        </picture>
         <figcaption class="text-sm text-center">Aktion Starte digital in das Jahr 2023</figcaption>
     </figure>
 </div>

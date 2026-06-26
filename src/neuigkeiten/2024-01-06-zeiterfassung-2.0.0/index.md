@@ -26,31 +26,19 @@ Arbeitszeit langfristig planen könnt.
 
 <div class="my-8 flex flex-col gap-4 md:flex-row">
     <figure>
-        <picture>
             <img
               src="arbeitszeiten.png"
               alt="Weitere Arbeitszeiten erstellen und verwalten für Vertragsänderungen."
-              width="1440"
-              height="1156"
-              decoding="async"
-              loading="lazy"
               class="rounded-lg"
             />
-        </picture>
         <figcaption class="text-sm text-center">Weitere Arbeitszeiten erstellen und verwalten für Vertragsänderungen.</figcaption>
     </figure>
     <figure>
-        <picture>
             <img
               src="arbeitszeiten_edit.png"
               alt="Weitere Arbeitszeiten erstellen und verwalten für Vertragsänderungen."
-              width="1440"
-              height="1157"
-              decoding="async"
-              loading="lazy"
               class="rounded-lg"
             />
-        </picture>
         <figcaption class="text-sm text-center">Bundesland und Feiertagsregelung individuell pflegen.</figcaption>
     </figure>
 </div>
@@ -85,15 +73,11 @@ ganz bequem und sicher anzupassen, ohne die Anwendung verlassen zu müssen.
 
 <div class="flex my-8">
     <figure>
-        <picture>
             <img
               src="berechtigungen.png"
               alt="Berechtigungen einer Person pflegen"
-              decoding="async"
-              loading="lazy"
               class="rounded-lg"
             />
-        </picture>
         <figcaption class="text-sm text-center">Berechtigungen einer Person direkt in der Anwendung pflegen.</figcaption>
     </figure>
 </div>

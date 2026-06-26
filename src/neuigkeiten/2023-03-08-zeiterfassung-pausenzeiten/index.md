@@ -50,15 +50,11 @@ dass sie auch für mobile Mitarbeitende mit unterschiedlichen Arbeitsorten geeig
 
 <div class="flex my-8">
     <figure>
-        <picture>
             <img
               src="pause-erfassen.png"
               alt="Pausen erfassen"
-              decoding="async"
-              loading="lazy"
               class="rounded-lg"
             />
-        </picture>
         <figcaption class="text-sm text-center">Pausen direkt in der Zeiterfassung erfassen</figcaption>
     </figure>
 </div>

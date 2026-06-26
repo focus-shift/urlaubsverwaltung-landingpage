@@ -20,14 +20,10 @@ Information erhaltet ihr ein **komplettes Bild eurer Überstunden** und wie dies
 Zudem wird euch auf der untersten Zeile der **Übertrag** eurer Überstunden aus dem vorherigen Jahr angezeigt,
 ein **Schnelleinstieg zum Bearbeiten** bereitgestellt sowie die **Summe** der Überstunden pro Eintrag angezeigt.
 
-<picture>
     <img
       src="overtime-overview.png"
       alt="Urlaubsverwaltung neue Überstundenübersicht"
-      decoding="async"
-      loading="lazy"
       class="rounded-lg"
     />
-</picture>
 
 Wir freuen uns über dein Feedback an <a href="mailto:info@urlaubsverwaltung.cloud?subject=Feedback">info@urlaubsverwaltung.cloud</a>.

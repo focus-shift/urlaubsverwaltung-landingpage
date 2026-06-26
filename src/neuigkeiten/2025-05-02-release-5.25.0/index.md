@@ -40,15 +40,11 @@ Die Einstellungen sind nun in folgende Kategorien unterteilt:
 
 <div class="flex my-8">
     <figure>
-        <picture>
             <img
               src="Einstellung-kategorien.png"
               alt="Übersicht der Einstellungskategorien"
-              decoding="async"
-              loading="lazy"
               class="rounded-lg"
             />
-        </picture>
         <figcaption class="text-sm text-center">Übersicht der Einstellungskategorien</figcaption>
     </figure>
 </div>
@@ -61,15 +57,11 @@ Das erleichtert die Verwaltung der Berechtigungen.
 
 <div class="flex my-8">
     <figure>
-        <picture>
             <img
               src="abteilung-uebersicht.png"
               alt="Abteilungsübersicht mit Berechtigungen"
-              decoding="async"
-              loading="lazy"
               class="rounded-lg"
             />
-        </picture>
         <figcaption class="text-sm text-center">Abteilungsübersicht mit Berechtigungen</figcaption>
     </figure>
 </div>

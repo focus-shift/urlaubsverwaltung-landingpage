@@ -19,15 +19,11 @@ Mitarbeitende zwar nicht vor Ort, aber dennoch beschäftigt und erreichbar sind.
 
 <div class="flex my-8">
     <figure>
-        <picture>
             <img
               src="allAbsencesVisibleForOffice.png"
               alt="Farbliche Darstellung der Abwesenheitsarten mit entsprechender Legende in der Abwesenheitsübersicht"
-              decoding="async"
-              loading="lazy"
               class="rounded-lg"
             />
-        </picture>
         <figcaption class="text-sm text-center">Farbliche Darstellung der Abwesenheitsarten mit entsprechender Legende in der Abwesenheitsübersicht</figcaption>
     </figure>
 </div>
@@ -39,15 +35,11 @@ Noch nicht genehmigte Abwesenheiten werden als leerer Rahmen in der betreffenden
 
 <div class="flex my-8">
     <figure>
-        <picture>
             <img
               src="overviewCalendar.png"
               alt="Kalender auf der persönlichen Startseite mit farblicher Unterscheidung der Abwesenheitsarten"
-              decoding="async"
-              loading="lazy"
               class="rounded-lg"
             />
-        </picture>
         <figcaption class="text-sm text-center">Kalender auf der persönlichen Startseite mit farblicher Unterscheidung der Abwesenheitsarten</figcaption>
     </figure>
 </div>
@@ -56,15 +48,11 @@ Noch nicht genehmigte Abwesenheiten werden als leerer Rahmen in der betreffenden
 
 <div class="flex my-8">
     <figure>
-        <picture>
             <img
               src="calendarPicker.png"
               alt="Datumsauswahl mit farblicher Unterscheidung der Abwesenheitsarten"
-              decoding="async"
-              loading="lazy"
               class="rounded-lg"
             />
-        </picture>
         <figcaption class="text-sm text-center">Datumsauswahl mit farblicher Unterscheidung der Abwesenheitsarten</figcaption>
     </figure>
 </div>
@@ -75,15 +63,11 @@ Die Farben der Abwesenheitsarten können durch Benutzende mit der Berechtigung O
 
 <div class="flex my-8">
     <figure>
-        <picture>
             <img
               src="colorConfiguration.png"
               alt="Neue Farbkonfiguration für Abwesenheitsarten"
-              decoding="async"
-              loading="lazy"
               class="rounded-lg"
             />
-        </picture>
         <figcaption class="text-sm text-center">Neue Farbkonfiguration für Abwesenheitsarten</figcaption>
     </figure>
 </div>
@@ -96,15 +80,11 @@ Neben der neuen Farbkonfiguration ist es nun auch möglich die Sichtbarkeit der 
 
 <div class="flex my-8">
     <figure>
-        <picture>
             <img
               src="visibilityConfiguration.png"
               alt="Einstellung der Sichtbarkeit von Abwesenheitsarten"
-              decoding="async"
-              loading="lazy"
               class="rounded-lg"
             />
-        </picture>
         <figcaption class="text-sm text-center">Einstellung der Sichtbarkeit von Abwesenheitsarten</figcaption>
     </figure>
 </div>
@@ -113,15 +93,11 @@ Bisher war die Sichtbarkeit anhand der Berechtigungen eingeschränkt. Normale Be
 
 <div class="flex my-8">
     <figure>
-        <picture>
             <img
               src="colorConfiguration.png"
               alt="Unterscheidung nur der eigenen Abwesenheitsarten"
-              decoding="async"
-              loading="lazy"
               class="rounded-lg"
             />
-        </picture>
         <figcaption class="text-sm text-center">Unterscheidung nur der eigenen Abwesenheitsarten, Abwesenheiten von Kolleg:innen werden als <i>Abwesend</i> dargestellt.</figcaption>
     </figure>
 </div>
@@ -130,15 +106,11 @@ Dagegen ist z.B. die Abwesenheitsart _Home-Office_ oder _Außer Haus_ ein Fall b
 
 <div class="flex my-8">
     <figure>
-        <picture>
             <img
               src="visibilityConfiguration.png"
               alt="Differenzierung von Abwesenheitsarten der Mitarbeitenden"
-              decoding="async"
-              loading="lazy"
               class="rounded-lg"
             />
-        </picture>
         <figcaption class="text-sm text-center">Differenzierung von Abwesenheitsarten der Mitarbeitenden, im Beispiel wird <i>Home-Office</i> für alle Mitarbeitenden der Abteilung sichtbar</figcaption>
     </figure>
 </div>

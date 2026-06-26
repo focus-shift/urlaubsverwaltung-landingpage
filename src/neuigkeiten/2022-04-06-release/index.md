@@ -22,27 +22,19 @@ Diese Einstellung wird beim Beantragen eines Sonderurlaubes direkt angezeigt und
 
 <div class="flex my-8 gap-4 flex-col md:flex-row">
     <figure>
-        <picture>
             <img
               src="configuration-special-holiday.png"
               alt="Einstellungen zu Sonderurlaub"
-              decoding="async"
-              loading="lazy"
               class="rounded-lg"
             />
-        </picture>
         <figcaption class="text-sm text-center">Einstellungen zu Sonderurlaub</figcaption>
     </figure>
     <figure>
-        <picture>
             <img
               src="absence-request.png"
               alt="Antrag eines Sonderurlaubes"
-              decoding="async"
-              loading="lazy"
               class="rounded-lg"
             />
-        </picture>
         <figcaption class="text-sm text-center">Antrag eines Sonderurlaubes</figcaption>
     </figure>
 </div>

@@ -27,15 +27,11 @@ aufgeräumte Arbeitsoberfläche, während alle Funktionen schnell erreichbar ble
 
 <div class="flex my-8">
     <figure>
-        <picture>
             <img
               src="sidebar-navigation.png"
               alt="Screenshot der Urlaubsverwaltung 6.0.0 mit der neuen Sidebar-Navigation an der linken Seite."
-              decoding="async"
-              loading="lazy"
               class="rounded-lg"
             />
-        </picture>
         <figcaption class="text-sm text-center">Neue Sidebar-Navigation in der Urlaubsverwaltung</figcaption>
     </figure>
 </div>
@@ -51,15 +47,11 @@ passend zum Bereich, in dem Sie sich gerade befinden – stets direkt den richti
 
 <div class="flex my-8">
     <figure>
-        <picture>
             <img
               src="globale-suche.png"
               alt="Screenshot der Urlaubsverwaltung 6.0.0 mit geöffnetem Suchfenster der neuen globalen Suche im Vordergrund."
-              decoding="async"
-              loading="lazy"
               class="rounded-lg"
             />
-        </picture>
         <figcaption class="text-sm text-center">Globale Suche in der Urlaubsverwaltung</figcaption>
     </figure>
 </div>

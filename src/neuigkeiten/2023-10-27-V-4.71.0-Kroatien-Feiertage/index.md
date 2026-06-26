@@ -31,15 +31,11 @@ der Urlaubsansprüche als auch eine übersichtliche Darstellung der Abwesenheite
 
 <div class="flex my-8">
     <figure>
-        <picture>
             <img
               src="kalenderuebersicht_Feiertage.png"
               alt="Pausen erfassen"
-              decoding="async"
-              loading="lazy"
               class="rounded-lg"
             />
-        </picture>
         <figcaption class="text-sm text-center">Individuelle Feiertage pro Mitarbeitenden in der Kalenderübersicht</figcaption>
     </figure>
 </div>
@@ -51,15 +47,11 @@ Malta, Italien und Griechenland sind nun auch die Feiertage aus Kroatien verfüg
 
 <div class="flex my-8">
     <figure>
-        <picture>
             <img
               src="arbeitszeiten_Kroatien.png"
               alt="Pausen erfassen"
-              decoding="async"
-              loading="lazy"
               class="rounded-lg"
             />
-        </picture>
         <figcaption class="text-sm text-center">Feiertagsregelung in den Arbeitszeiten: jetzt mit Kroatien</figcaption>
     </figure>
 </div>
