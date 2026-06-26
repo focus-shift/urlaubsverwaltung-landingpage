@@ -22,17 +22,10 @@ Mit der neuen iOS-App stehen dir und deinem Team alle wichtigen Funktionen der U
 - **Übersicht behalten:** Alle Anträge, Urlaubsansprüche und Arbeitszeiten auf einen Blick.
 - **Synchronisation:** Alle Daten werden automatisch mit der Web-Anwendung synchronisiert – keine lokalen Daten auf dem Gerät.
 
-<p>
-  <picture>
-    <img
+  <img
       src="ios-teaser.png"
       alt="Die neue urlaubsverwaltung.cloud iOS-App"
-      decoding="async"
-      loading="lazy"
-      height="auto"
     />
-  </picture>
-</p>
 
 ## Für wen ist die App gedacht?
 

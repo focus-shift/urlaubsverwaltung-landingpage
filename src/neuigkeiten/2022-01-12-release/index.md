@@ -20,21 +20,14 @@ global in den Einstellungen der Urlaubsverwaltung konfigurierbar und steht zusä
 Der Name der Einstellung hat sich von 'Bundesland' zu 'Feiertagsregelung' geändert.
 
 <div class="flex gap-4 flex-col md:flex-row">
-    <picture>
         <img
           src="public_holiday_person.png"
           alt="Personübersicht mit Feiertagsregelung Auswahl"
-          decoding="async"
-          loading="lazy"
         />
-    </picture>
-    <picture>
         <img
           src="public_holiday_person_change.png"
           alt="Feiertagsregelung Auswahl einer Person"
-          decoding="async"
         />
-    </picture>
 </div>
 
 ## Abwesenheiten an Feiertagen
@@ -43,13 +36,10 @@ Die [Feiertagsregelung](/hilfe/urlaubsverwaltung/feiertage/) wurde zudem um den 
 ist es für die gesamte Urlaubsverwaltung sowie für bestimmte Personen möglich die Feiertagsregelung außer Kraft zu setzen und
 Abwesenheiten auch an Feiertagen einzutragen.
 
-<picture>
     <img
       src="public_holiday_person_no.png"
       alt="Neues Kalenderdesign"
-      decoding="async"
     />
-</picture>
 
 ## Neues Kalenderdesign
 
@@ -57,10 +47,7 @@ Das Kalenderdesign wurde überarbeitet und bietet nun mehr Platz um zukünftig n
 Die Urlaubsverwaltung unterliegt einem ständigen Verbesserungsprozess, welcher Wert auf eine intuitive Bedienung legt.
 Mit dem neuen Kalenderdesign stellen wir die Weichen für mehr Flexibilität und einen höheren Informationsgehalt. Wir freuen uns auf dein Feedback!
 
-<picture>
     <img
       src="new_calendar_design_overview.png"
       alt="Neues Kalenderdesign"
-      decoding="async"
     />
-</picture>

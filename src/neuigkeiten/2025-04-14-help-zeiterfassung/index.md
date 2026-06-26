@@ -20,15 +20,11 @@ Ab sofort findest du im **Avatar-Menü** einen direkten Zugang zur [**Hilfe-Seit
 
 <div class="flex my-8">
     <figure>
-        <picture>
             <img
               src="help.png"
               alt="Hilfe der Zeiterfassung auf urlaubsverwaltung.cloud"
-              decoding="async"
-              loading="lazy"
               class="rounded-lg"
             />
-        </picture>
         <figcaption class="text-sm text-center">Hilfe der Zeiterfassung auf urlaubsverwaltung.cloud</figcaption>
     </figure>
 </div>

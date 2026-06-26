@@ -36,26 +36,19 @@ Warum wir uns freuen, dir endlich einen Dunkelmodus anzubieten:
 
 <div class="flex my-8 gap-4 flex-col md:flex-row">
     <div>
-      <picture>
           <img
             src="uv-theme-light.png"
             alt="Urlaubsverwaltung Übersichtseite im Light Theme"
-            decoding="async"
-            loading="lazy"
             class="rounded-lg"
           />
-      </picture>
       <p class="text-sm text-center">Übersichtseite im Light Theme.</p>
     </div>
     <div>
-      <picture>
           <img
             src="uv-theme-dark.png"
             alt="Urlaubsverwaltung Übersichtseite im Dark Theme"
-            decoding="async"
             class="rounded-lg"
           />
-      </picture>
       <p class="text-sm text-center">Übersichtseite im Dark Theme.</p>
     </div>
 </div>

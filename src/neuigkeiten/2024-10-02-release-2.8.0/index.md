@@ -23,15 +23,11 @@ was die Lesbarkeit deutlich verbessert.
 
 <div class="flex my-8">
     <figure>
-        <picture>
             <img
               src="reformat-time.png"
               alt="Die Summer der Arbeitszeiten wird jetzt in Stunden und Minuten dargestellt"
-              decoding="async"
-              loading="lazy"
               class="rounded-lg"
             />
-        </picture>
         <figcaption class="text-sm text-center">Die Summer der Arbeitszeiten wird jetzt in Stunden und Minuten dargestellt</figcaption>
     </figure>
 </div>
@@ -42,15 +38,11 @@ Der CSV Export enthält jetzt auch die konkreten Arbeitszeiten, die in der Zeite
 
 <div class="flex my-8">
     <figure>
-        <picture>
             <img
               src="CSV-Export.png"
               alt="Der CSV Export enthält jetzt auch die konkreten Arbeitszeiten"
-              decoding="async"
-              loading="lazy"
               class="rounded-lg"
             />
-        </picture>
         <figcaption class="text-sm text-center">Der CSV Export enthält jetzt auch die konkreten Arbeitszeiten</figcaption>
     </figure>
 </div>

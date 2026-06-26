@@ -6,11 +6,11 @@ title: Zeiterfassung 2.24.0 – Korrekte Verrechnung von Arbeits- und Pausenzeit
 author: Andreas Weigel
 release-version: 2.24.0
 teaserImage: 2025-11-01-pausenzeiten/ZE_V_2.24.0.png
-description: Mit Version 2.24.0 wird die Verrechnung von Arbeits- und Pausenzeiten überarbeitet 
+description: Mit Version 2.24.0 wird die Verrechnung von Arbeits- und Pausenzeiten überarbeitet
 ---
 
-Mit dem neuesten Update unserer Zeiterfassung führen wir eine wichtige Änderung ein, die sowohl die rechtliche 
-Genauigkeit als auch die Transparenz der Zeiterfassung verbessert. Ziel ist es, Arbeits- und Pausenzeiten 
+Mit dem neuesten Update unserer Zeiterfassung führen wir eine wichtige Änderung ein, die sowohl die rechtliche
+Genauigkeit als auch die Transparenz der Zeiterfassung verbessert. Ziel ist es, Arbeits- und Pausenzeiten
 realitätsgetreuer abzubilden und dadurch verlässliche Arbeitszeitnachweise zu ermöglichen.
 
 <!-- more -->
@@ -19,22 +19,18 @@ realitätsgetreuer abzubilden und dadurch verlässliche Arbeitszeitnachweise zu 
 
 Bislang wurden Pausen rein informativ erfasst. Das bedeutete:
 
-* Arbeits- und Pausenzeiteinträge konnten sich überschneiden.
-* Überschneidungen wurden nicht verrechnet.
-* Beispiel: Ein Arbeitszeiteintrag von 8:00 bis 16:00 Uhr sowie eine Pause von 12:00 bis 13:00 Uhr ergaben weiterhin 8 Arbeitsstunden.
-* Mitarbeitende erfüllten damit formal ihr Arbeitssoll, auch wenn die Pausenzeit innerhalb des Arbeitszeitraums lag.
+- Arbeits- und Pausenzeiteinträge konnten sich überschneiden.
+- Überschneidungen wurden nicht verrechnet.
+- Beispiel: Ein Arbeitszeiteintrag von 8:00 bis 16:00 Uhr sowie eine Pause von 12:00 bis 13:00 Uhr ergaben weiterhin 8 Arbeitsstunden.
+- Mitarbeitende erfüllten damit formal ihr Arbeitssoll, auch wenn die Pausenzeit innerhalb des Arbeitszeitraums lag.
 
 <div class="flex my-8">
     <figure>
-        <picture>
             <img
               src="alt-pausenabzug.png"
               alt=""
-              decoding="async"
-              loading="lazy"
               class="rounded-lg"
             />
-        </picture>
         <figcaption class="text-sm text-center">Pausen wurden bei Überschneidungen bisher nicht abgezogen.</figcaption>
     </figure>
 </div>
@@ -46,23 +42,19 @@ Der bisher korrekte Weg war, drei Zeiteinträge zu erstellen: Arbeitszeit vor de
 
 Mit dem Update werden Arbeits- und Pausenzeiten automatisch miteinander verrechnet.
 
-* Überschneidet sich ein Arbeitszeiteintrag mit einem Pauseneintrag, wird die Pausenzeit künftig von der Arbeitszeit abgezogen.
-* Beispiel:
-Arbeitszeit: 8:00–16:00 Uhr (8 Stunden)
-Pause: 12:00–13:00 Uhr (1 Stunde)
-Neue Berechnung: 8 Stunden – 1 Stunde Pause = 7 Arbeitsstunden
+- Überschneidet sich ein Arbeitszeiteintrag mit einem Pauseneintrag, wird die Pausenzeit künftig von der Arbeitszeit abgezogen.
+- Beispiel:
+  Arbeitszeit: 8:00–16:00 Uhr (8 Stunden)
+  Pause: 12:00–13:00 Uhr (1 Stunde)
+  Neue Berechnung: 8 Stunden – 1 Stunde Pause = 7 Arbeitsstunden
 
 <div class="flex my-8">
     <figure>
-        <picture>
             <img
               src="neu-pausenabzug.png"
               alt=""
-              decoding="async"
-              loading="lazy"
               class="rounded-lg"
             />
-        </picture>
         <figcaption class="text-sm text-center">Pause machen und gleichzeitig arbeiten? Geht nicht! Pausen sollen bei Überschneidung abgezogen werden.</figcaption>
     </figure>
 </div>
@@ -72,31 +64,23 @@ Dies ist weiterhin möglich, jedoch nicht mehr zwingend erforderlich.
 
 ## Für wen gilt die Änderung?
 
-* *Neukunden:* Die neue Berechnung ist ab sofort standardmäßig aktiv.
-* *Bestandskunden:* Die Änderung kann in den Einstellungen optional aktiviert werden, um bestehende Prozesse nicht ungewollt zu beeinträchtigen.
+- _Neukunden:_ Die neue Berechnung ist ab sofort standardmäßig aktiv.
+- _Bestandskunden:_ Die Änderung kann in den Einstellungen optional aktiviert werden, um bestehende Prozesse nicht ungewollt zu beeinträchtigen.
 
-<p>
-  <picture>
-    <img
+  <img
       src="pausenabzug-einstellung.png"
       alt="Einstellung, ab wann der Pausenabzug aktiv ist."
-      decoding="async"
-      loading="lazy"
-      width="1906"
-      height="700"
     />
     <figcaption class="text-sm text-center">Einstellung, ab wann der Pausenabzug aktiv ist.</figcaption>
-  </picture>
-</p>
 
 ## Was bleibt unverändert?
 
-Das Verhalten bei überschneidenden Arbeitszeiteinträgen bleibt vorerst unverändert. 
-Diese werden weiterhin addiert, auch wenn sie sich zeitlich überschneiden. 
+Das Verhalten bei überschneidenden Arbeitszeiteinträgen bleibt vorerst unverändert.
+Diese werden weiterhin addiert, auch wenn sie sich zeitlich überschneiden.
 Achtung: Dadurch kann es zu Abweichungen zwischen Soll- und Ist-Arbeitszeit kommen.
 
-Wir wissen, dass dieses Thema insbesondere in Richtung Projektzeiterfassung relevant ist. 
-Wie wir diesen Bereich künftig gestalten, lassen wir bewusst offen und werden passende Lösungen mit Bedacht und in 
+Wir wissen, dass dieses Thema insbesondere in Richtung Projektzeiterfassung relevant ist.
+Wie wir diesen Bereich künftig gestalten, lassen wir bewusst offen und werden passende Lösungen mit Bedacht und in
 engem Austausch mit unseren Nutzer:innen entwickeln.
 
 ## Warum diese Änderung wichtig ist
@@ -110,7 +94,6 @@ engem Austausch mit unseren Nutzer:innen entwickeln.
 ✔ Einfachere Nachvollziehbarkeit bei Prüfungen oder Lohnabrechnungen
 
 ✔ Vorbereitung für automatische Pausenerfassung
-
 
 ## Euer Feedback ist mehr als willkommen
 

@@ -23,33 +23,25 @@ Mit diesem Release können nun alle **Änderungen an Zeiteinträgen** anhand des
 
 <div class="flex my-8">
     <figure>
-        <picture>
             <img
               src="slot-history-icon.png"
               alt="Zeiteintrag mit History-Icon"
-              decoding="async"
-              loading="lazy"
               class="rounded-lg"
             />
-        </picture>
         <figcaption class="text-sm text-center">Zeiteintrag mit History-Icon</figcaption>
     </figure>
 </div>
 
-Jede Änderung wird in einer übersichtlichen Historie gespeichert, die den **Verlauf** der Zeiteinträge dokumentiert. 
+Jede Änderung wird in einer übersichtlichen Historie gespeichert, die den **Verlauf** der Zeiteinträge dokumentiert.
 Dies ist besonders nützlich, um **Fehler** zu korrigieren und nachzuvollziehen, wer wann eine Änderung vorgenommen hat.
 
 <div class="flex my-8">
     <figure>
-        <picture>
             <img
               src="slot-history.png"
               alt="Historie zum Zeiteintrag"
-              decoding="async"
-              loading="lazy"
               class="rounded-lg"
             />
-        </picture>
         <figcaption class="text-sm text-center">Historie zum Zeiteintrag</figcaption>
     </figure>
 </div>

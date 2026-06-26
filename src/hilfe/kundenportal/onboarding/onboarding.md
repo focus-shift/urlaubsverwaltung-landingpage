@@ -20,18 +20,10 @@ Danach weiter auf "Mein Kundenportal".
 Im Kundenportal kannst du neue Mitarbeitende per E-Mail-Adresse eine Einladung zu deiner Urlaubsverwaltung versenden. Die Funktion findest du unter "Meine Urlaubsverwaltung" » "Neue Mitarbeitende einladen".
 Die Mitarbeitenden erhalten darauf eine Einladung per E-Mail und können sich ausschließlich mit dieser bei deiner Urlaubsverwaltung registrieren.
 
-<p>
-  <picture>
     <img
       src="invite-form.png"
       alt="Mitarbeitende einladen"
-      decoding="async"
-      loading="lazy"
-      width="845"
-      height="489"
     />
-  </picture>
-</p>
 
 ## Single Sign-On konfigurieren
 

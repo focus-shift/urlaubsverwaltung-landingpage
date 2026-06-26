@@ -16,50 +16,26 @@ Ja, eine Krankmeldung kann als Benutzende mit der Berechtigung _Office_ oder mit
 _Pflege von Krankmeldungen_ für andere Mitarbeitende eingetragen werden, in dem die Krankmeldung über
 das "+"-Symbol _Neue Krankmeldung_ ausgewählt wird.
 
-<p>
-  <picture>
     <img
       src="krankmeldung-dialog-oeffnen.png"
       alt="Krankmeldung erstellen"
-      decoding="async"
-      loading="lazy"
-      width="1296"
-      height="568"
     />
-  </picture>
-</p>
 
 Für eine Krankmeldung können alle relevanten Informationen, wie z.B. den Zeitraum der AU-Bescheinigung, erfasst werden.
 
-<p>
-  <picture>
     <img
       src="krankmeldung-dialog.png"
       alt="Krankmeldung erstellen"
-      decoding="async"
-      loading="lazy"
-      width="1300"
-      height="1482"
     />
-  </picture>
-</p>
 
 ## Ist es möglich eine Kind-Krankmeldung zu erfassen?
 
 Ja, eine Kind-Krankmeldung kann erfasst werden, indem der Typ von _Krankmeldung_ auf _Kind-Krankmeldung_ umgestellt wird.
 
-<p>
-  <picture>
     <img
       src="kindkrankmeldung.png"
       alt="Kindkrankmeldung erfassen"
-      decoding="async"
-      loading="lazy"
-      width="1342"
-      height="962"
     />
-  </picture>
-</p>
 
 ## Kann eine Mitarbeitende die Krankmeldung selbst einreichen?
 
@@ -67,18 +43,10 @@ Ja, die Einreichung einer Krankmeldung durch die Mitarbeitende ist mit folgenden
 
 Weitere Informationen zur Verwendung finden sich in [diesem Blog-Beitrag](https://urlaubsverwaltung.cloud/neuigkeiten/2024-06-21-selbsteintragen-von-krankmeldungen/)
 
-<p>
-  <picture>
     <img
       src="einstellungen-krankmeldung-selbsteintragen.png"
       alt="Einstellung für selbstständige Krankmeldung durch Mitarbeitende aktivieren"
-      decoding="async"
-      loading="lazy"
-      width="1177"
-      height="451"
     />
-  </picture>
-</p>
 
 ## Wird an das Ende der Lohnfortzahlung erinnert?
 
@@ -88,33 +56,17 @@ sechs Wochen übersteigt.
 
 Hierzu können in den _Einstellungen_ unter _Abwesenheiten_ die entsprechenden Zeiten gepflegt werden:
 
-<p>
-  <picture>
     <img
       src="krankmeldung-einstellungen.png"
       alt="Einstellungen Krankmeldung"
-      decoding="async"
-      loading="lazy"
-      width="1162"
-      height="259"
     />
-  </picture>
-</p>
 
 ## Ablauf bei Krankmeldungen
 
-<p>
-  <picture>
     <img
       src="krankmeldung.png"
       alt="Workflow bei Krankmeldungen"
-      decoding="async"
-      loading="lazy"
-      width="1121"
-      height="709"
     />
-  </picture>
-</p>
 
 ## Was passiert, wenn eine Krankmeldung in einem Urlaubszeitraum angelegt wird?
 

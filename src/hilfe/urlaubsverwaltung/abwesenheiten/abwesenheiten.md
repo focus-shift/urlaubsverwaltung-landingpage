@@ -48,34 +48,18 @@ eine E-Mail.
 Ja, bei der Antragsstellung können optional eine oder mehrere Vertretungen angegeben werden. Für jede Vertretung kann
 eine eigene Notiz hinterlegt werden. Die ausgewählten Personen werden über die Vertretung per E-Mail benachrichtigt.
 
-<p>
-  <picture>
-    <img
-      src="vertretung.png"
-      alt="Übersicht zu aktuellen und zukünftigen Vertretungen"
-      decoding="async"
-      loading="lazy"
-      width="798"
-      height="940"
-    />
-  </picture>
-</p>
+<img
+  src="vertretung.png"
+  alt="Übersicht zu aktuellen und zukünftigen Vertretungen"
+/>
 
 Außerdem ist für die Vertretung unter dem Menü-Punkt "Abwesenheiten" im Abschnitt "Aktuelle und zukünftige Vertretungen"
 eine Übersicht aller Vertretungen einsehbar.
 
-<p>
-  <picture>
-    <img
-      src="uebersicht-vertretungen.png"
-      alt="Übersicht zu aktuellen und zukünftigen Vertretungen"
-      decoding="async"
-      loading="lazy"
-      width="1183"
-      height="232"
-    />
-  </picture>
-</p>
+<img
+  src="uebersicht-vertretungen.png"
+  alt="Übersicht zu aktuellen und zukünftigen Vertretungen"
+/>
 
 ## Wird die Vertretung informiert?
 
@@ -115,18 +99,10 @@ Die Aktivierung und Deaktivierung ist jederzeit möglich. Bitte beachte, dass du
 
 Ja, es ist möglich, weitere Abwesenheitsarten zu konfigurieren. Diese können in den globalen Einstellungen der Urlaubsverwaltung festgelegt werden. Neben einem vordefinierten Set von Abwesenheitsarten können auch individuelle Abwesenheitsarten hinzugefügt werden. Dank der entsprechenden Übersetzungen ins Deutsche, Österreichische, Englische und Griechische bist du auch für deine internationalen Kollegen bestens gerüstet. Die individuellen Abwesenheitsarten werden zudem in der Zeiterfassung berücksichtigt, sodass die Sollstunden entsprechend reduziert werden.
 
-<p>
-  <picture>
-    <img
-      src="abwesenheitsarten.png"
-      alt="Konfiguration von Abwesenheitsarten"
-      decoding="async"
-      loading="lazy"
-      width="1185"
-      height="1131"
-    />
-  </picture>
-</p>
+<img
+  src="abwesenheitsarten.png"
+  alt="Konfiguration von Abwesenheitsarten"
+/>
 
 ## Ist es möglich für eine Abwesenheitsart den Genehmigungsprozess zu aktivieren / deaktivieren?
 
@@ -155,18 +131,10 @@ Diese Farbe wird dann in allen Kalendern und in der Abwesenheitsübersicht verwe
 
 Ein selbst erstellter Antrag kann bearbeitet werden, solange er noch nicht genehmigt wurde. Diese Bearbeitung kann vom Mitarbeiter selbst durchgeführt werden.
 
-<p>
-  <picture>
-    <img
-      src="abwesenheit-bearbeiten.png"
-      alt="Abwesenheit bearbeiten"
-      decoding="async"
-      loading="lazy"
-      width="587"
-      height="222"
-    />
-  </picture>
-</p>
+<img
+  src="abwesenheit-bearbeiten.png"
+  alt="Abwesenheit bearbeiten"
+/>
 
 Das Editieren eines bereits genehmigten Antrags, ist jederzeit durch einen Benutzer mit der Berechtigung Office möglich.
 
@@ -180,15 +148,7 @@ Stichtag kann pro Benutzer konfiguriert werden, sodass der Resturlaub zu einem a
 
 ## Workflow bei Abwesenheitsanträgen
 
-<p>
-  <picture>
     <img
       src="absence-workflow.png"
       alt="Workflow bei Abwesenheitsanträgen"
-      decoding="async"
-      loading="lazy"
-      width="1574"
-      height="853"
     />
-  </picture>
-</p>

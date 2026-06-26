@@ -21,15 +21,11 @@ Für alle, die täglich mit mehreren Teammitgliedern und Projekten arbeiten, hab
 
 <div class="flex my-8">
     <figure>
-        <picture>
             <img
               src="MAIcons.jpg"
               alt="Zeiteinträge mit neuen Icons für Pausen und Kommentare"
-              decoding="async"
-              loading="lazy"
               class="rounded-lg"
             />
-        </picture>
         <figcaption class="text-sm text-center">Zeiteinträge mit neuen Icons für Pausen und Kommentare</figcaption>
     </figure>
 </div>

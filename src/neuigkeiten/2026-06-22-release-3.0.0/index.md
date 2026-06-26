@@ -31,15 +31,11 @@ Ein Klick genügt. Die Sidebar passt sich dynamisch an und sorgt dafür, dass ih
 
 <div class="flex my-8">
     <figure>
-        <picture>
             <img
               src="sidebar-navigation.png"
               alt="Screenshot der Zeiterfassung 3.0.0 mit der neuen Sidebar-Navigation an der linken Seite."
-              decoding="async"
-              loading="lazy"
               class="rounded-lg"
             />
-        </picture>
         <figcaption class="text-sm text-center">Neue Sidebar-Navigation in der Zeiterfassung</figcaption>
     </figure>
 </div>
@@ -58,15 +54,11 @@ direkt in dessen Monatsübersicht, die Berichte oder die Rechteverwaltung spring
 
 <div class="flex my-8">
     <figure>
-        <picture>
             <img
               src="globale-suche.png"
               alt="Screenshot der Zeiterfassung 3.0.0 mit geöffnetem Suchfenster der neuen globalen Suche im Vordergrund."
-              decoding="async"
-              loading="lazy"
               class="rounded-lg"
             />
-        </picture>
         <figcaption class="text-sm text-center">Globale Suche in der Zeiterfassung</figcaption>
     </figure>
 </div>
@@ -85,15 +77,11 @@ einsatzbereit.
 
 <div class="flex my-8">
     <figure>
-        <picture>
             <img
               src="dark-mode.png"
               alt="Screenshot der Zeiterfassung im hellen Modus mit geöffnetem Auswahlmenü für den Dark Mode und die Spracheinstellungen."
-              decoding="async"
-              loading="lazy"
               class="rounded-lg"
             />
-        </picture>
         <figcaption class="text-sm text-center">Dark Mode in der Zeiterfassung</figcaption>
     </figure>
 </div>

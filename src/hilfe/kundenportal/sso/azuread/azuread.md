@@ -57,18 +57,10 @@ Zunächst musst du dich im [Azure-Portal](https://portal.azure.com/) mit deinem 
 wechselst du zu _Azure Active Directory_ > _App-Registrierungen_ > _Neue Registrierung_ und kannst mit der
 Registrierung starten.
 
-<p>
-  <picture>
     <img
       src="schritt_1_registrieren.png"
       alt="App-Registrierung durchführen"
-      decoding="async"
-      loading="lazy"
-      width="1025"
-      height="761"
     />
-  </picture>
-</p>
 
 1. Als _Name_ der Anwendung kann z. B. _urlaubsverwaltung.cloud_ verwendet werden
 2. Für den Punkt _Unterstütze Kontotypen_ muss _Nur Konten in diesem Organisationsverzeichnis_ ausgewählt werden
@@ -77,18 +69,10 @@ Registrierung starten.
 
 Nach erfolgreicher Registrierung kommst du auf die Übersichtsseite der App-Registrierung.
 
-<p>
-  <picture>
     <img
       src="schritt_1_uebersicht.png"
       alt="Anwendungs-Id und Verzeichnis-Id kopieren"
-      decoding="async"
-      loading="lazy"
-      width="1022"
-      height="764"
     />
-  </picture>
-</p>
 
 Auf dieser Seite findest du zwei wichtige Informationen, welche in [Schritt 2](#schritt-2-auf-mein-kundenportal-die-anbindung-konfigurieren) benötigt werden.
 Am besten erstellt man eine Datei über einen Texteditor (z.B. Notepad) und kopiert die Werte dort hinein.
@@ -98,18 +82,10 @@ Am besten erstellt man eine Datei über einen Texteditor (z.B. Notepad) und kopi
 
 Neuer geheimer Clientschlüssel erstellen
 
-<p>
-  <picture>
     <img
       src="schritt_1_clientsecret.png"
       alt="Neuer geheimer Clientschlüssel hinzufügen"
-      decoding="async"
-      loading="lazy"
-      width="1024"
-      height="768"
     />
-  </picture>
-</p>
 
 1. Im Menu zu _Zertifikate & Geheimnisse_ wechseln
 2. _Neuer geheimer Clientschlüssel_ klicken
@@ -135,18 +111,10 @@ Den erzeugten Wert des Clientschlüssels kopieren und ebenfalls in die Textdatei
 Tokenkonfiguration durchführen: Um Benutzer innerhalb der Urlaubsverwaltung persönlich ansprechen zu
 können bzw. für die Zustellung von E-Mails an Benutzer benötigen wir folgende Daten:
 
-<p>
-  <picture>
     <img
       src="schritt_1_tokenkonfiguration.png"
       alt="OIDC Token konfigurieren"
-      decoding="async"
-      loading="lazy"
-      width="1024"
-      height="771"
     />
-  </picture>
-</p>
 
 1. Im Menu zu _Tokenkonfiguration_ wechseln
 2. _Optionalen Anspruch hinzufügen_ klicken
@@ -159,18 +127,10 @@ können bzw. für die Zustellung von E-Mails an Benutzer benötigen wir folgende
 Es wird dabei eine Meldung angezeigt, dass für die Ansprüche _email_, _family_name_ und _given_name_ die
 entsprechende Microsoft Graph-Berechtigung aktiviert werden muss.
 
-<p>
-  <picture>
     <img
       src="schritt_1_tokenkonfiguration_graph_api.png"
       alt="API-Berechtigung für registrierte App konfigurieren"
-      decoding="async"
-      loading="lazy"
-      width="1022"
-      height="505"
     />
-  </picture>
-</p>
 
 ### Schritt 2: Auf Mein Kundenportal die Anbindung konfigurieren
 
@@ -181,18 +141,10 @@ Zuerst kopierst du die hervorgehobene URI in die Textdatei, welche in [Schritt 3
 
 Nun brauchen wir die Werte aus der Textdatei von [Schritt 1](#schritt-1-neue-app-registrierung-im-azure-ad-durchfuehren):
 
-<p>
-  <picture>
     <img
       src="schritt_2_konfiguration.png"
       alt=""
-      decoding="async"
-      loading="lazy"
-      width="1024"
-      height="768"
     />
-  </picture>
-</p>
 
 1. Wert von _Anwendungs-Id_
 2. Wert von _Clientschlüssel_
@@ -203,18 +155,10 @@ Nun brauchen wir die Werte aus der Textdatei von [Schritt 1](#schritt-1-neue-app
 
 Bei der registrierten App im Azure AD wird nun eine neue Plattform hinzugefügt:
 
-<p>
-  <picture>
     <img
       src="schritt_3_plattform.png"
       alt="Plattform vom Typ Web anlegen"
-      decoding="async"
-      loading="lazy"
-      width="1023"
-      height="773"
     />
-  </picture>
-</p>
 
 1. _Authentifizierung_
 2. _Plattform hinzufügen_
@@ -222,18 +166,10 @@ Bei der registrierten App im Azure AD wird nun eine neue Plattform hinzugefügt:
 
 Zum Schluss muss noch die Umleitungs-URI konfiguriert werden:
 
-<p>
-  <picture>
     <img
       src="schritt_3_umleitungsuri.png"
       alt="Umleitungs-URI konfigurieren"
-      decoding="async"
-      loading="lazy"
-      width="1021"
-      height="766"
     />
-  </picture>
-</p>
 
 1. Die Umleitungs-URI aus der Textdatei als _Umleitungs-URI_ einfügen
 2. _Konfigurieren_ klicken
@@ -257,37 +193,21 @@ Nun wirst du zur Anmelde-Seite von Microsoft umgeleitet und musst dich mit deine
 Es erscheint eine Meldung, dass der Zugriff auf die angeforderten Berechtigungen (Details siehe [Schritt 2](#schritt-2-auf-mein-kundenportal-die-anbindung-konfigurieren))
 akzeptiert werden muss.
 
-<p>
-  <picture>
     <img
       src="schritt_4_berechtigungen.png"
       alt="Zugriff auf Azure AD bestätigen"
-      decoding="async"
-      loading="lazy"
-      width="1025"
-      height="768"
     />
-  </picture>
-</p>
- 
+
 1. _Zustimmung im Name Ihrer Organisation_ anklicken, somit akzeptierst du den Zugriff für alle Personen innerhalb deiner Organisation
 2. _Akzeptieren_ anklicken
 
 Danach wirst du auf den Authentifizierungsserver von urlaubsverwaltung.cloud weitergeleitet. Dieser merkt,
 dass es zu deiner E-Mail-Adresse schon ein Konto gibt.
 
-<p>
-  <picture>
     <img
       src="schritt_4_konto_existiert.png"
       alt="Benutzerkonto für E-Mail existiert bereits"
-      decoding="async"
-      loading="lazy"
-      width="1025"
-      height="768"
     />
-  </picture>
-</p>
 
 1. Durch einen Klick auf _Zu einem bestehenden Benutzerkonto hinzufügen_ weist du den
    Authentifizierungsserver von urlaubsverwaltung.cloud an, dass du das Azure AD Konto mit dem
@@ -297,33 +217,17 @@ Der Authentifizierungsserver von urlaubsverwaltung.cloud schickt dir nun eine E-
 sicher zu stellen, dass die Verknüpfung der Benutzerkonten auch wirklich von dir angefordert wurde und du im
 Besitz beider Benutzerkonten bist.
 
-<p>
-  <picture>
     <img
       src="schritt_4_konto_bestaetigen.png"
       alt="Existierendes urlaubsverwaltung.cloud Konto mit Azure AD Konto verknüpfen"
-      decoding="async"
-      loading="lazy"
-      width="1022"
-      height="768"
     />
-  </picture>
-</p>
 
 E-Mail mit Link zum Bestätigen der Benutzerkonto-Verknüpfung
 
-<p>
-  <picture>
     <img
       src="schritt_4_konto_mail.png"
       alt="E-Mail mit Link zum Konto verknüpfen"
-      decoding="async"
-      loading="lazy"
-      width="1021"
-      height="767"
     />
-  </picture>
-</p>
 
 1. Nach einem Klick auf _Link zur Bestätigung der Kontoverknüpfung_ gelangst du nun in das Portal von urlaubsverwaltung.cloud
 

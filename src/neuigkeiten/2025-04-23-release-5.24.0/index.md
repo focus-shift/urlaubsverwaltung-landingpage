@@ -22,15 +22,11 @@ Das ist besonders praktisch, wenn du schnell etwas anmerken möchtest, ohne den 
 
 <div class="flex my-8">
     <figure>
-        <picture>
             <img
               src="kommentar-krankmeldung.png"
               alt="Kommentar direkt zum Verlauf hinzufügen"
-              decoding="async"
-              loading="lazy"
               class="rounded-lg"
             />
-        </picture>
         <figcaption class="text-sm text-center">Kommentar direkt zum Verlauf hinzufügen</figcaption>
     </figure>
 </div>

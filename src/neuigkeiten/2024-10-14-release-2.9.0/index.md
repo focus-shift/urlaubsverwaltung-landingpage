@@ -26,15 +26,11 @@ Diese Verbesserungen unterstützen eine präzisere Übersicht und Planung der Ar
 
 <div class="flex my-8">
     <figure>
-        <picture>
             <img
               src="Stundenübersicht.png"
               alt="Soll- und Ist-Werte, sowie Überstunden in der Berichtübersicht"
-              decoding="async"
-              loading="lazy"
               class="rounded-lg"
             />
-        </picture>
         <figcaption class="text-sm text-center">Soll- und Ist-Werte, sowie Überstunden in der Berichtübersicht</figcaption>
     </figure>
 </div>

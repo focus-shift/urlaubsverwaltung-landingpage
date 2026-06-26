@@ -38,15 +38,11 @@ Diese Anforderung entspricht einem validen Anwendungsfall, daher haben wir die V
 
 <div class="flex my-8">
     <figure>
-        <picture>
             <img
               src="AU-Zeitraum.png"
               alt="Der Zeitraum der AU überschreitet den Zeitraum der Krankmeldung"
-              decoding="async"
-              loading="lazy"
               class="rounded-lg"
             />
-        </picture>
         <figcaption class="text-sm text-center">Der Zeitraum der AU überschreitet den Zeitraum der Krankmeldung</figcaption>
     </figure>
 </div>

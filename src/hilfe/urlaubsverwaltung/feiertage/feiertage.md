@@ -18,18 +18,10 @@ beim Beantragen von Urlaub gezählt werden sollen. Außerdem kann festgelegt wer
 Heiligabend und Silvester behandelt werden sollen: gelten diese als Arbeitstag,
 halber Arbeitstag oder kein Arbeitstag?
 
-<p>
-  <picture>
     <img
       src="einstellungen-feiertage.png"
       alt="Einstellungsmöglichkeit der globalen Feiertagsregelung"
-      decoding="async"
-      loading="lazy"
-      width="862"
-      height="226"
     />
-  </picture>
-</p>
 
 ## Kann ich für einen bestimmten Mitarbeitenden die geltenden Feiertage konfigurieren?
 
@@ -37,18 +29,10 @@ Ja, im Konto des Mitarbeitenden kann unter dem Punkt "Feiertagsregelung" die sys
 durch eine persönliche Feiertagsregelung überschrieben werden. Die Feiertage für den Mitarbeitenden werden dann anhand
 des persönlichen Landes bzw. der Region berechnet.
 
-<p>
-  <picture>
     <img
       src="konto-feiertage.png"
       alt="Einstellungsmöglichkeit der persönlichen Feiertagsregelung"
-      decoding="async"
-      loading="lazy"
-      width="898"
-      height="483"
     />
-  </picture>
-</p>
 
 ## Welche Feiertage sind vorhanden?
 

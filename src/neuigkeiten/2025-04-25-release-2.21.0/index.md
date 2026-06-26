@@ -21,37 +21,21 @@ Dies ist besonders wichtig, wenn die Zeitbuchungen für die Lohnabrechnung verwe
 In der Zeiterfassung können Personen mit der Berechtigung "darf die globalen Einstellungen bearbeiten" unter
 'Einstellungen > Festschreiben von Zeitslots' einstellen nach wie vielen Tagen Zeiteinträge für die Mitarbeitenden festgeschrieben werden sollen.
 
-<p>
-  <picture>
     <img
       src="zeiteintrag_festschreiben.png"
       alt=""
-      decoding="async"
-      loading="lazy"
-      width="982"
-      height="593"
     />
-  </picture>
-</p>
 
-Nur Mitarbeitende mit der Berechtigung 'darf die Zeiteinträge aller Personen bearbeiten' 
+Nur Mitarbeitende mit der Berechtigung 'darf die Zeiteinträge aller Personen bearbeiten'
 können an einem festgeschriebenen Tag neue Zeiteinträge hinzufügen oder bestehende bearbeiten.
 
-Festgeschriebene Tage sind in der Übersicht mit einem Schloss-Symbol markiert. 
+Festgeschriebene Tage sind in der Übersicht mit einem Schloss-Symbol markiert.
 An diesen Tagen können keine Zeiteinträge hinzugefügt oder geändert werden.
 
-<p>
-  <picture>
     <img
       src="zeiteintrag_festschreiben_lock_zeit.png"
       alt=""
-      decoding="async"
-      loading="lazy"
-      width="1036"
-      height="903"
     />
-  </picture>
-</p>
 
 Für Personen mit der Berechtigung "darf die globalen Einstellungen bearbeiten" wird das Schloss-Symbol angezeigt.
 Diese können aber weiterhin neue Zeiteinträge hinzufügen bzw. bearbeiten.

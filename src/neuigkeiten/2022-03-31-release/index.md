@@ -30,39 +30,27 @@ Nachdem ihr die Informationen gespeichert habt, werden diese angezeigt
 
 <div class="flex my-8 gap-4 flex-col md:flex-row">
     <figure>
-        <picture>
             <img
               src="benutzeruebersicht.png"
               alt="Benutzeruebersicht mit Personalnummer"
-              decoding="async"
-              loading="lazy"
               class="rounded-lg"
             />
-        </picture>
         <figcaption class="text-sm text-center">Benutzerübersicht mit Personalnummer.</figcaption>
     </figure>
     <figure>
-        <picture>
             <img
               src="krankmeldungen.png"
               alt="Krankmeldungen mit Personalnummer"
-              decoding="async"
-              loading="lazy"
               class="rounded-lg"
             />
-        </picture>
       <figcaption class="text-sm text-center">Krankmeldungen mit Personalnummer.</figcaption>
     </figure>
     <figure>
-        <picture>
             <img
               src="abwesenheitsstatistik.png"
               alt="Abwesenheitsstatistik mit Personalnummer"
-              decoding="async"
-              loading="lazy"
               class="rounded-lg"
             />
-        </picture>
         <figcaption class="text-sm text-center">Abwesenheitsstatistik mit Personalnummer.</figcaption>
     </figure>
 </div>

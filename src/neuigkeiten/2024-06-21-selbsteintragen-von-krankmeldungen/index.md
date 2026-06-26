@@ -32,15 +32,11 @@ Jetzt kannst du als Mitarbeitende über das '+'-Zeichen neben einer Abwesenheit 
 
 <div class="flex my-8">
     <figure>
-        <picture>
             <img
               src="user-neue-krankmeldung.png"
               alt="Krankmeldung erstellen als Mitarbeitende"
-              decoding="async"
-              loading="lazy"
               class="rounded-lg"
             />
-        </picture>
         <figcaption class="text-sm text-center">Krankmeldung erstellen als Mitarbeitende</figcaption>
     </figure>
 </div>
@@ -58,15 +54,11 @@ zum Beispiel in der Lohnbuchhaltung.
 
 <div class="flex my-8">
     <figure>
-        <picture>
             <img
               src="office-eingereichte-krankmeldungen.png"
               alt="Mitarbeitende mit der Berechtigung 'Office' oder 'Pflege von Krankmeldungen' bekommen eingereichte Krankmeldungen angezeigt"
-              decoding="async"
-              loading="lazy"
               class="rounded-lg"
             />
-        </picture>
         <figcaption class="text-sm text-center">Mitarbeitende mit der Berechtigung "Office" oder "Pflege von Krankmeldungen" bekommen eingereichte Krankmeldungen angezeigt</figcaption>
     </figure>
 </div>
@@ -75,15 +67,11 @@ An einer Krankmeldung ist für alle Berechtigten sichtbar, wann und wer die Kran
 
 <div class="flex my-8">
     <figure>
-        <picture>
             <img
               src="verlauf-krankmeldung.png"
               alt="Verlauf in einer Krankmeldung, die von einer Mitarbeitenden eingetragen wurde"
-              decoding="async"
-              loading="lazy"
               class="rounded-lg"
             />
-        </picture>
         <figcaption class="text-sm text-center">Der Verlauf an einer Krankmeldung zeigt die Einreichung sowie das Annehmen einer Krankmeldung</figcaption>
     </figure>
 </div>
@@ -96,15 +84,11 @@ Krankmeldungen benachrichtigen zu lassen.
 
 <div class="flex my-8">
     <figure>
-        <picture>
             <img
               src="benachrichtigungen-krankmeldungen.png"
               alt="Einstellung der Benachrichtigungen für eingereichte und angenommene Krankmeldungen"
-              decoding="async"
-              loading="lazy"
               class="rounded-lg"
             />
-        </picture>
         <figcaption class="text-sm text-center">Einstellung der Benachrichtigungen für eingereichte und angenommene Krankmeldungen</figcaption>
     </figure>
 </div>

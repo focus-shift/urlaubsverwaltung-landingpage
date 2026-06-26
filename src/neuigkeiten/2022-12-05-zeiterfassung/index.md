@@ -50,15 +50,11 @@ Statistik **verlässlich** berechnet wird.
 
 <div class="flex my-8">
     <figure>
-        <picture>
             <img
               src="stats.png"
               alt="Foo"
-              decoding="async"
-              loading="lazy"
               class="rounded-lg"
             />
-        </picture>
         <figcaption class="text-sm text-center">Statistik der Zeiterfassung bei urlaubsverwaltung.cloud</figcaption>
     </figure>
 </div>
@@ -68,15 +64,11 @@ verwendet werden können, sondern auch inklusiv bedienbar sein und nie.
 
 <div class="flex my-8">
     <figure>
-        <picture>
             <img
               src="enterslot.png"
               alt="Foo"
-              decoding="async"
-              loading="lazy"
               class="rounded-lg"
             />
-        </picture>
         <figcaption class="text-sm text-center">Formular zur Erfassung eines Zeitabschnitts</figcaption>
     </figure>
 </div>

@@ -19,15 +19,11 @@ ermöglichen es in der Personalisierung einzustellen, welche Sprache verwendet w
 
 <div class="flex my-8">
     <figure>
-        <picture>
             <img
               src="language-personalisation.png"
               alt="Konfiguration zum Überschreiben der Browsersprache in den Personalisierungen"
-              decoding="async"
-              loading="lazy"
               class="rounded-lg"
             />
-        </picture>
         <figcaption class="text-sm text-center">Konfiguration zum Überschreiben der Browsersprache in den Personalisierungen</figcaption>
     </figure>
 </div>

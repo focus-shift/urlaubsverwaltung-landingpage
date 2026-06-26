@@ -34,15 +34,11 @@ Um die bestehenden Prozesse des Kunden bestmöglich abzubilden, existieren ein- 
 Eine Aufbauorganisation kann durch Abteilungen und deren verantwortliche Personen abgebildet werden. Schnittstellen zu
 Kalender- oder Single-Sign-on-Systemen bieten eine nahtlose Integration in bestehende Infrastruktur.
 
-<picture>
     <img
       src="urlaubsverwaltung.png"
       alt="Urlaubsverwaltung Landingpage"
-      decoding="async"
-      loading="lazy"
-      width="850"
     />
-</picture>
+
 <br/>
 
 ## Focus Shift Software GmbH
