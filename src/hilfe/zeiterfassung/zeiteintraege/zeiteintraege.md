@@ -93,8 +93,8 @@ In der Zeiterfassung können Personen mit der Berechtigung "darf die globalen Ei
       alt=""
       decoding="async"
       loading="lazy"
-      width="982"
-      height="593"
+      width="1333"
+      height="862"
     />
   </picture>
 </p>

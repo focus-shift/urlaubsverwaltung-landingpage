@@ -21,8 +21,8 @@ Diese Regelung gilt für alle Mitarbeitenden, die in der Zeiterfassung erfasst s
       alt="Einstellungen der globalen Feiertagsregelung"
       decoding="async"
       loading="lazy"
-      width="938"
-      height="453"
+      width="1333"
+      height="847"
     />
   </picture>
 </p>
@@ -44,8 +44,8 @@ Daher kannst du die Feiertagsregelung für jeden Mitarbeitenden individuell anpa
       alt="Einstellungen der Feiertagsregelung pro Mitarbeitenden"
       decoding="async"
       loading="lazy"
-      width="1906"
-      height="700"
+      width="1531"
+      height="637"
     />
   </picture>
 </p>
