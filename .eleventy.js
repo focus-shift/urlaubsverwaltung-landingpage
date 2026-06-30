@@ -1,3 +1,6 @@
+import fs from "node:fs";
+import path from "node:path";
+import Handlebars from "handlebars";
 import { format } from "date-fns/format";
 import { de } from "date-fns/locale/de";
 import markdown from "markdown-it";
@@ -11,7 +14,7 @@ import htmlmin from "html-minifier-terser";
 const markdownIt = markdown();
 
 const paths = {
-	input: "src",
+	input: "src-next",
 	output: process.env.npm_package_config_outdir,
 };
 
@@ -35,9 +38,9 @@ const isPublished = post =>
 export default function (eleventyConfig) {
 	eleventyConfig.setTemplateFormats(["njk", "hbs", "md", "html", "txt"]);
 	eleventyConfig.addPassthroughCopy(
-		"./src/**/*.{png,jpg,jpeg,webp,avif,mp4,xml,svg}",
+		`./${paths.input}/**/*.{png,jpg,jpeg,webp,avif,mp4,xml,svg}`,
 	);
-	eleventyConfig.addPassthroughCopy({ "./public/static": "static" });
+	eleventyConfig.addPassthroughCopy({ "./next-public/static": "static" });
 
 	eleventyConfig.addPlugin(pluginRss);
 	eleventyConfig.addPlugin(eleventyImageTransformPlugin, {
@@ -82,12 +85,32 @@ export default function (eleventyConfig) {
 
 	eleventyConfig.addPlugin(handlebarsPlugin);
 
+	// Workaround for @11ty/eleventy-plugin-handlebars@1.0.0: it caches partials and
+	// only re-registers them on "eleventy.resourceModified" — but that event is
+	// emitted on Eleventy's internal eventBus, while the plugin (and any config) can
+	// only listen on config.events, so the listener never fires and edited partials
+	// stay stale during `--serve`. Re-register them ourselves before each rebuild.
+	// Handlebars is a shared singleton, so this hits the plugin's instance.
+	eleventyConfig.on("eleventy.beforeWatch", () => {
+		const includesDir = `${paths.input}/_includes`;
+		for (const entry of fs.readdirSync(includesDir, { recursive: true })) {
+			if (!entry.endsWith(".hbs")) continue;
+			const name = entry.replace(/\\/g, "/").replace(/\.hbs$/, "");
+			const content = fs.readFileSync(path.join(includesDir, entry), "utf8");
+			Handlebars.registerPartial(name, content);
+		}
+	});
+
 	eleventyConfig.addShortcode("debug", function (...args) {
 		console.log(...args);
 	});
 
 	eleventyConfig.addShortcode("date", function (date, formatFunction) {
 		return format(date, formatFunction, { locale: de });
+	});
+
+	eleventyConfig.addShortcode("orElse", function (value, fallback) {
+		return value || fallback;
 	});
 
 	// check if a given value equals some of the following values
@@ -105,7 +128,7 @@ export default function (eleventyConfig) {
 
 	eleventyConfig.addCollection("blogposts", function (collection) {
 		const allBlogPosts = collection
-			.getFilteredByGlob("./src/neuigkeiten/**/*.md")
+			.getFilteredByGlob(`./${paths.input}/neuigkeiten/**/*.md`)
 			.reverse();
 
 		return prod ? allBlogPosts.filter(isPublished) : allBlogPosts;
@@ -165,8 +188,8 @@ export default function (eleventyConfig) {
 		return Math.round(diffTime / oneDay);
 	});
 
-	eleventyConfig.addWatchTarget("src/static/js/**/*.js");
-	eleventyConfig.addWatchTarget("src/static/css/**/*.css");
+	eleventyConfig.addWatchTarget(`${paths.input}/static/js/**/*.js`);
+	eleventyConfig.addWatchTarget(`${paths.input}/static/css/**/*.css`);
 
 	return {
 		dir: {
