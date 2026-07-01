@@ -5,10 +5,18 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>focus:shift</title>
 	<link rel="stylesheet" href="/static/css/style.css" />
+	<link rel="stylesheet" href="/static/css/fonts.css" />
+	<style>
+		html, body {
+			height: 100svh;
+		}
+	</style>
 </head>
-<body>
+<body class="flex flex-col">
 {{> partials/navigation }}
-{{{ content }}}
+	<div class="flex-1">
+		{{{ content }}}
+	</div>
 {{> partials/footer }}
 </body>
 </html>

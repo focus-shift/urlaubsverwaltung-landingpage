@@ -10,15 +10,15 @@ navigationBgClass: bg-beige
 		<div class="w-1/2">
 			<span class="block" style="height: 384px"></span>
 		</div>
-		<div class="flex-1 p-8 flex flex-col justify-between">
+		<div class="flex-1 p-8 flex flex-col justify-between gap-16">
 			<p>
-				<span class="title-bordered border-white">focus:shift</span>
-				<span class="mt-4 text-5xl flex flex-col"><span>Time for</span><span>what <span class="font-bold">matters</span>.</span></span>
+				<span class="title-bordered border-white">focus:<span class="font-basteleur">shift</span></span>
+				<span class="mt-4 text-6xl flex flex-col"><span>Time for</span><span>what <span class="font-basteleur">matters</span>.</span></span>
 			</p>
-			<div class="max-w-96 flex flex-col gap-4">
-				<p>
+			<div class="max-w-sm flex flex-col gap-4">
+				<p class="text-xl">
 					<span class="font-bold">Zeiterfassung und Urlaubsverwaltung mit Weitblick:</span>
-					alle gängigen Arbeitsfunktionen plus <span class="font-bold">Fürsorge</span>-Faktor.
+					alle gängigen Arbeitsfunktionen plus <span class="font-basteleur">Fürsorge</span>-Faktor.
 				</p>
 				<p class="flex gap-2">
 					{{> partials/dots-horizontal color="bg-green" }}
@@ -28,18 +28,24 @@ navigationBgClass: bg-beige
 		</div>
 	</div>
 
-	<div>
-		<h1>Gesunde Arbeit beginnt mit <span>Überblick</span></h1>
-		<p>
-			Puse HR-Verwaltung gibt es schon zu Hauf und wird der heutigen Arbeitswelt nicht mehr gerecht.
-			focus:<span class="font-bold">shift</span> verbindet operative Verwaltung mit organisatorischer Fürsorge.
-		</p>
+	<div class="mt-32 px-16">
+		<div class="relative z-10 px-12">
+			<p class="text-6xl leading-18 max-w-2xl">Gesunde Arbeit beginnt mit <span class="font-basteleur">Überblick</span></p>
+			<p class="mt-8 text-3xl max-w-lg">
+				Pure HR-Verwaltung gibt es schon zu Hauf und wird der heutigen Arbeitswelt nicht mehr gerecht.
+				focus:<span class="font-basteleur">shift</span> verbindet operative Verwaltung mit organisatorischer Fürsorge.
+			</p>
+		</div>
+		<div class="flex flex-col gap-2 -translate-y-1/2 z-0">
+			<span class="inline-block w-24 h-24 bg-green rounded-full"></span>
+			<span class="inline-block w-24 h-24 bg-green rounded-full"></span>
+		</div>
 	</div>
 
 	<ul class="mt-24 grid grid-cols-4 gap-x-8 gap-y-4">
 		<li class="grid row-start-1 row-end-4 grid-rows-subgrid p-8 rounded-2xl bg-light-blue">
 			<p class="row-start-2">
-				<span>Mentale Gesundheit</span> als integraler Bestandteil der Software.
+				<span class="font-basteleur">Mentale Gesundheit</span> als integraler Bestandteil der Software.
 			</p>
 			<a
 				href="#"
@@ -50,7 +56,7 @@ navigationBgClass: bg-beige
 		</li>
 		<li class="grid row-start-1 row-end-4  grid-rows-subgrid p-8 rounded-2xl bg-white">
 			<p class="row-start-2">
-				An- und Abwesenheiten <span class="font-bold">übersichtlich</span> erfassen.
+				An- und Abwesenheiten <span class="font-basteleur">übersichtlich</span> erfassen.
 			</p>
 			<a
 				href="#"
@@ -61,7 +67,7 @@ navigationBgClass: bg-beige
 		</li>
 		<li class="grid row-start-1 row-end-4  grid-rows-subgrid p-8 rounded-2xl bg-lila">
 			<p class="row-start-2">
-				<span class="font-bold">Datenschutz</span> mit Mitarbeitenden im Fokus,
+				<span class="font-basteleur">Datenschutz</span> mit Mitarbeitenden im Fokus,
 			</p>
 			<a
 				href="#"
@@ -72,7 +78,7 @@ navigationBgClass: bg-beige
 		</li>
 		<li class="grid row-start-1 row-end-4 grid-rows-subgrid p-8 rounded-2xl bg-yellow">
 			<p class="row-start-2">
-				<span class="font-bold">Individualisierbare</span> Arbeitszeitmodelle flexibel gestaltbar.
+				<span class="font-basteleur">Individualisierbare</span> Arbeitszeitmodelle flexibel gestaltbar.
 			</p>
 			<a
 				href="#"
@@ -109,7 +115,7 @@ navigationBgClass: bg-beige
 	<div class="mx-auto">
 		<span class="title-bordered">Software</span>
 		<p class="mt-8 text-4xl max-w-96">
-			Verwaltung ist die Grundlage, <span class="font-bold">Fürsorge</span> ist das Ziel. Unsere Funktionen im Überblick.
+			Verwaltung ist die Grundlage, <span class="font-basteleur">Fürsorge</span> ist das Ziel. Unsere Funktionen im Überblick.
 		</p>
 		<div class="mt-8 max-w-prose">
 			<p class="font-bold">
@@ -160,7 +166,7 @@ navigationBgClass: bg-beige
 	<div class="mx-8 rounded-2xl bg-lila flex flex-row">
 		<div class="w-2/6 p-4 flex flex-col gap-4">
 			<p class="text-3xl">
-				<span>Warum</span> wir machen, was wir machen.
+				<span class="font-basteleur">Warum</span> wir machen, was wir machen.
 			</p>
 			<p>
 				<span class="font-bold">Wir sind Andreas, Daniel, Johannes, Tobias und Benjamin</span>
@@ -191,36 +197,7 @@ navigationBgClass: bg-beige
 	</div>
 
 	<div class="mx-16">
-		<span class="title-bordered">Kostenlos testen</span>
-		<p class="mt-2 text-3xl">
-			Einfache testen,<br /><span>selbst erleben.</span>
-		</p>
-		<div class="mt-8 grid grid-cols-2">
-			<div>
-				<p>
-					Nutze jetzt 30 Tage kostenlose unser Tool und erlebe selbst, was focus:shift für dein Team leisten kann.
-				</p>
-				<p class="mt-4 flex items-center gap-2">
-					{{> partials/dots-horizontal color="bg-lila" }}
-					<a href="#" class="bg-orange text-white rounded-full px-3">Jetzt testen</a>
-				</p>
-			</div>
-			<div>
-				<div class="bg-white border-l-8 border-lila rounded-r-2xl p-4">
-					<p class="p-4">
-						<span class="font-bold">Direkt laden und loslegen.</span><br />Im AppStore oder bei Google Play.
-					</p>
-					<div class="flex flex-row gap-4 items-center">
-						<a href="#">
-							<img src="static/img/app-store-badge.svg" height="120" alt="Lade im App Store" class="h-8 w-auto" />
-						</a>
-						<a href="#">
-							<img src="static/img/google-play-badge.svg" height="120" alt="Jetzt bei Google Play" class="h-8 w-auto" />
-						</a>
-					</div>
-				</div>
-			</div>
-		</div>
+		{{> partials/jetzt-testen }}
 	</div>
 
 	<div class="mt-32 mx-16">
@@ -252,10 +229,10 @@ navigationBgClass: bg-beige
 		<div class="mx-auto flex text-9xl">
 			<span class="translate-y-32">focus<span class="text-lila font-black">:</span></span>
 			<ul class="leading-32">
-				<li class="font-black">cloud</li>
-				<li class="font-black">shift</li>
-				<li class="font-black">time</li>
-				<li class="font-black">people</li>
+				<li class="font-basteleur">cloud</li>
+				<li class="font-basteleur">shift</li>
+				<li class="font-basteleur">time</li>
+				<li class="font-basteleur">people</li>
 			</ul>
 		</div>
 	</div>
@@ -270,26 +247,7 @@ navigationBgClass: bg-beige
 </div>
 
 <div class="mt-64 mx-16">
-	<ul class="flex items-center justify-between gap-16">
-		<li class="flex-1">
-			<img src="static/img/referenzen/bewemed.png" width="300" height="59" alt="Logo beweMED" class="grayscale" />
-		</li>
-		<li class="flex-1">
-			<img src="static/img/referenzen/NOBA.png" width="174" height="100" alt="Logo NOBA" class="grayscale" />
-		</li>
-		<li class="flex-1">
-			<img src="static/img/referenzen/nocut.png" width="1001" height="229" alt="Logo NOCUT" class="grayscale" />
-		</li>
-		<li class="flex-1">
-			<img src="static/img/referenzen/junkerkahlefeld.png" width="400" height="193" alt="Logo Steuerberatung Junkerkalefeld und Meier" class="grayscale" />
-		</li>
-		<li class="flex-1">
-			<img src="static/img/referenzen/dieligen.png" width="299" height="169" alt="Logo Die Ligen" class="grayscale" />
-		</li>
-		<li class="flex-1">
-			<img src="static/img/referenzen/e.consult.svg" width="195" height="74" alt="Logo e.consult Aktiengesellschaft" class="grayscale" />
-		</li>
-	</ul>
+	{{> partials/references }}
 </div>
 
 <div class="h-48"></div>

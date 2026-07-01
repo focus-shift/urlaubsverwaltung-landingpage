@@ -1,7 +1,7 @@
 <footer>
 	<div class="p-8 bg-lila-dark text-white border-t-8 border-t-lila">
 		<div class="flex justify-between">
-			{{> partials/logo }}
+			{{> partials/logo class="text-5xl" }}
 			<ul class="footer-navigation flex flex-row gap-16">
 				<li>
 					<a href="#">Fürsorge</a>
@@ -65,17 +65,32 @@
 			</div>
 			<div class="self-end">
 				<ul class="flex gap-4">
-					<li><a href="#">LinkedIn</a></li>
-					<li><a href="#">Github</a></li>
+					<li>
+						<a href="">
+							<span class="sr-only">LinkedIn</span><img src="static/img/linkedin-white.png" width="32" alt="" />
+						</a>
+					</li>
+					<li>
+						<a href="#">
+							<span class="sr-only">Github</span><img src="static/img/Github_Invertocat_White.svg" width="32" alt="" />
+						</a>
+					</li>
 				</ul>
 			</div>
 			<div class="flex flex-col justify-between">
 				<div>
 					<h2 class="title-bordered">Testen</h2>
 					<p class="mt-4">
-						<span class="font-bold">Direkt laden und loslegen.</span><br />
-						Im App Store oder bei Google Play.
+						<span class="font-bold">Direkt laden und loslegen.</span><br />Im AppStore oder bei Google Play.
 					</p>
+					<div class="mt-4 flex flex-row gap-4 items-center">
+						<a href="#">
+							<img src="static/img/app-store-badge.svg" height="120" alt="Lade im App Store" class="h-8 w-auto" />
+						</a>
+						<a href="#">
+							<img src="static/img/google-play-badge.svg" height="120" alt="Jetzt bei Google Play" class="h-8 w-auto" />
+						</a>
+					</div>
 				</div>
 				<div>
 					<p>
