@@ -14,19 +14,14 @@ description: Hier findest du Hilfe zu dem Thema Krankmeldungen
 
 Ja, eine Krankmeldung kann als Benutzende mit der Berechtigung _Office_ oder mit der Berechtigung
 _Pflege von Krankmeldungen_ für andere Mitarbeitende eingetragen werden, in dem die Krankmeldung über
-das "+"-Symbol _Neue Krankmeldung_ ausgewählt wird.
-
-    <img
-      src="krankmeldung-dialog-oeffnen.png"
-      alt="Krankmeldung erstellen"
-    />
+das "+ Krankmeldung" Element in der Menüleiste ausgewählt wird.
 
 Für eine Krankmeldung können alle relevanten Informationen, wie z.B. den Zeitraum der AU-Bescheinigung, erfasst werden.
 
-    <img
-      src="krankmeldung-dialog.png"
-      alt="Krankmeldung erstellen"
-    />
+<img
+  src="krankmeldung-erstellen.png"
+  alt="Formular zum Erstellen einer Krankmeldung"
+/>
 
 ## Ist es möglich eine Kind-Krankmeldung zu erfassen?
 
