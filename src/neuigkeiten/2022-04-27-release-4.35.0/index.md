@@ -20,27 +20,19 @@ Die Personalnummern und Zusatzinformationen sind in den bereits vorhandenen CSV-
 
 <div class="flex my-8 gap-4 flex-col md:flex-row">
     <figure>
-        <picture>
             <img
               src="basedata-view.png"
               alt="Hinzufügen von Personalstammdaten"
-              decoding="async"
-              loading="lazy"
               class="rounded-lg"
             />
-        </picture>
         <figcaption class="text-sm text-center">Hinzufügen von Personalstammdaten</figcaption>
     </figure>
     <figure>
-        <picture>
             <img
               src="basedata-edit.png"
               alt="Editieren von Personalstammdaten"
-              decoding="async"
-              loading="lazy"
               class="rounded-lg"
             />
-        </picture>
         <figcaption class="text-sm text-center">Editieren von Personalstammdaten</figcaption>
     </figure>
 </div>
@@ -53,15 +45,11 @@ Sofern mindestens eine Personalnummer gepflegt ist, werden diese in allen Übers
 
 <div class="flex my-8">
     <figure>
-        <picture>
             <img
               src="user-overview-with-personnel-number.png"
               alt="Personalnummer in der Übersicht von Benutzenden"
-              decoding="async"
-              loading="lazy"
               class="rounded-lg"
             />
-        </picture>
         <figcaption class="text-sm text-center">Personalnummer in der Übersicht von Benutzenden</figcaption>
     </figure>
 </div>

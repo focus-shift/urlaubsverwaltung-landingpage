@@ -30,33 +30,17 @@ Es ist geplant, das aktuelle Berechtigungskonzept [feingranularer](https://githu
 
 Als Benutzer mit der Berechtigung _Office_ kannst du über den Menü-Punkt Benutzer in das jeweilige Konto der betreffenden Person navigieren.
 
-<p>
-  <picture>
     <img
       src="benutzer-konto.png"
       alt="Konto eines Benutzers"
-      decoding="async"
-      loading="lazy"
-      width="1186"
-      height="467"
     />
-  </picture>
-</p>
 
 Hier gibt es die Möglichkeit die Berechtigungen über das "Stift"-Symbol zu editieren.
 
-<p>
-  <picture>
     <img
       src="berechtigungen-editieren.png"
       alt="Berechtigungen editieren"
-      decoding="async"
-      loading="lazy"
-      width="1196"
-      height="761"
     />
-  </picture>
-</p>
 
 ## Wann greifen neue Berechtigungen für einen Benutzer?
 
@@ -75,18 +59,10 @@ Alle weiteren Benutzer werden initial mit der Berechtigung _Benutzer_ angelegt. 
 Über die Anwendung kann man Benutzer nicht löschen, nur inaktivieren.
 Beim Editieren des Benutzers muss die Berechtigung _Inaktiv_ ausgewählt werden:
 
-<p>
-  <picture>
     <img
       src="benutzer-inaktiv.png"
       alt="Inaktivieren eines Benutzers"
-      decoding="async"
-      loading="lazy"
-      width="568"
-      height="289"
     />
-  </picture>
-</p>
 
 Mit dieser Berechtigung kann sich der Benutzer nicht mehr einloggen, aber seine Daten bleiben zu Archivierungszwecken bestehen.
 
@@ -113,18 +89,10 @@ dann notwendig, wenn sich der Urlaubsanspruch für das nächste Jahr vom
 diesjährigen unterscheidet. Ansonsten hat der Benutzer im nächsten Jahr den
 gleichen Urlaubsanspruch, den er im aktuellen Jahr hat.
 
-<p>
-  <picture>
     <img
       src="holiday_next_year.png"
       alt="Urlaubsanspruch bearbeiten"
-      decoding="async"
-      loading="lazy"
-      width="1189"
-      height="558"
     />
-  </picture>
-</p>
 
 ## Muss ich den Resturlaub der Benutzer manuell eintragen?
 
@@ -140,18 +108,10 @@ am 1. Januar automatisch überschrieben.
 Der Verfall von Resturlaub kann global für die ganze Organisation, in den Einstellungen, aktiviert bzw. deaktiviert und
 zusätzlich für jeden Benutzenden einzeln im Konto überschrieben werden.
 
-<p>
-  <picture>
     <img
       src="benutzer-resturlaub.png"
       alt="Überschreiben der Konfiguration des Resturlaubes pro Benutzenden"
-      decoding="async"
-      loading="lazy"
-      width="777"
-      height="526"
     />
-  </picture>
-</p>
 
 Das Datum für den Verfall des Resturlaubs und ob dieser überhaupt verfällt, kann global oder im Konto eines Mitarbeitenden unter 'Urlaubsanspruch' individuell pro Jahr konfiguriert werden. Die Voreinstellung des Verfallsdatums ist auf den 1. April gesetzt.
 

@@ -31,30 +31,14 @@ bestehenden Abteilung können die Mitarbeiter zu der Abteilung zugeordnet werden
 Damit ein Mitarbeiter überhaupt Abteilungsleiter werden kann, muss er die
 entsprechende Berechtigung _Abteilungsleiter_ erhalten. Die Konfiguration von Berechtigungen wird [hier](../benutzer/#wie-stelle-ich-die-berechtigungen-eines-benutzers-ein) beschrieben.
 
-<p>
-  <picture>
     <img
       src="abteilungsleiter-berechtigung.png"
       alt="Konfiguration der Berechtigung Abteilungsleiter"
-      decoding="async"
-      loading="lazy"
-      width="789"
-      height="406"
     />
-  </picture>
-</p>
 
 Nun geht man über die Menüleiste zu den "Abteilungen". Hier kann man eine bestehende Abteilung bearbeiten oder eine neue anlegen. Beim Zuordnen der Mitarbeiter zu einer Abteilung hat man bei Benutzern mit der entsprechenden Berechtigung die zusätzliche Auswahlmöglichkeit "ist Abteilungsleiter". Wählt man diese Option aus und speichert die Zuordnung, wird der entsprechende Benutzer zum Abteilungsleiter dieser Abteilung.
 
-<p>
-  <picture>
     <img
       src="abteilungsleiter-abteilung.png"
       alt="Abteilungsleiter einer Abteilung konfigurieren"
-      decoding="async"
-      loading="lazy"
-      width="784"
-      height="487"
     />
-  </picture>
-</p>

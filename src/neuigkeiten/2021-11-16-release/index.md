@@ -17,15 +17,10 @@ _Version 4.26.0 veröffentlicht_
 Seit dieser Version können die Berechtigungen _Chef_ und _Office_ mit den Berechtigungen _Abteilungsleiter_ bzw.
 _Freigabe-Verantwortlicher_ kombiniert werden. Wir bieten dir damit die Möglichkeit deine Organisationsstruktur noch besser abbilden zu können.
 
-<picture>
     <img
       src="berechtigungen.png"
       alt="Berechtigungen einer Person mit Abteilungsleiter und Chef bzw. Office"
-      decoding="async"
-      loading="lazy"
-      width="585"
     />
-</picture>
 
 ## E-Mail-Benachrichtigung bei Neuanlage einer Person
 

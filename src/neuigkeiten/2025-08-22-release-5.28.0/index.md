@@ -25,52 +25,40 @@ Neben einer klaren Visualisierung im Jahresverlauf können jetzt auch vergangene
 
 Die Darstellung erfolgt natürlich basierend auf den Berechtigungen:
 
-* **Office und Chef** erhalten eine Übersicht über die gesamte Organisation.
-* **Abteilungsleitung und Freigabeberechtigte** sehen die Daten nur für die Abteilungen, für die sie zuständig sind.
+- **Office und Chef** erhalten eine Übersicht über die gesamte Organisation.
+- **Abteilungsleitung und Freigabeberechtigte** sehen die Daten nur für die Abteilungen, für die sie zuständig sind.
 
 Damit bleibt die Vertraulichkeit gewahrt, während gleichzeitig die jeweils relevanten Informationen zur Verfügung stehen.
 
 <div class="flex my-8">
     <figure>
-        <picture>
             <img
               src="krankmeldungsstatistik-verteilung-der-krankheitstage-graph.png"
               alt="Verteilung der Krankheitstage über das Kalenderjahr als Balkendiagramm"
-              decoding="async"
-              loading="lazy"
               class="rounded-lg"
             />
-        </picture>
         <figcaption class="text-sm text-center">Verteilung der Krankheitstage über das Kalenderjahr als Balkendiagramm</figcaption>
     </figure>
 </div>
 
 <div class="flex my-8">
     <figure>
-        <picture>
             <img
               src="krankmeldungsstatistik-krankheitstage-zahlen.png"
               alt="Informationen zu den Krankheitstagen aufgeschlüsselt nach Kategorie (Normale Krankmeldung und Kind-Krankmeldung)"
-              decoding="async"
-              loading="lazy"
               class="rounded-lg"
             />
-        </picture>
         <figcaption class="text-sm text-center">Informationen zu den Krankheitstagen aufgeschlüsselt nach Kategorie (Normale Krankmeldung und Kind-Krankmeldung)</figcaption>
     </figure>
 </div>
 
 <div class="flex my-8">
     <figure>
-        <picture>
             <img
               src="krankmeldungsstatistik-krankmeldungen-zahlen.png"
               alt="Informationen zu den Krankmeldungen aufgeschlüsselt nach Kategorie (Normale Krankmeldung und Kind-Krankmeldung)"
-              decoding="async"
-              loading="lazy"
               class="rounded-lg"
             />
-        </picture>
         <figcaption class="text-sm text-center">Informationen zu den Krankmeldungen aufgeschlüsselt nach Kategorie (Normale Krankmeldung und Kind-Krankmeldung)</figcaption>
     </figure>
 </div>
@@ -89,8 +77,8 @@ Die neuen Statistiken sind damit nicht nur ein praktisches Werkzeug für Transpa
 
 Mit der neuen Krankmeldungsstatistik ist der Grundstein gelegt. In kommenden Versionen wird die Auswertung weiter ausgebaut:
 
-* Die **Krankenquote** wird als zentrale Kennzahl integriert, sodass Unternehmen noch schneller einen Überblick über die gesundheitliche Situation bekommen.
-* Außerdem wird es möglich sein, **direkte Vergleiche mit dem Vorjahr** vorzunehmen, um Entwicklungen und Trends besser sichtbar zu machen.
+- Die **Krankenquote** wird als zentrale Kennzahl integriert, sodass Unternehmen noch schneller einen Überblick über die gesundheitliche Situation bekommen.
+- Außerdem wird es möglich sein, **direkte Vergleiche mit dem Vorjahr** vorzunehmen, um Entwicklungen und Trends besser sichtbar zu machen.
 
 So wächst die Statistik Schritt für Schritt zu einem umfassenden Werkzeug, das nicht nur Zahlen liefert, sondern echte **Einblicke in die Gesundheit der Organisation** ermöglicht.
 

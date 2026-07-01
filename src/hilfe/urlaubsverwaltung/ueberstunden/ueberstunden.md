@@ -30,18 +30,10 @@ Die Überstunden als auch der Abbau von Überstunden kann durch den Mitarbeiter 
 
 Um diesen Workflow verwenden zu können, müssen folgende Einstellungen konfiguriert sein:
 
-<p>
-  <picture>
     <img
       src="eigenverantwortliche-ueberstunden-erfassung.png"
       alt="Konfiguration Eigenverantwortliche Überstunden Erfassung "
-      decoding="async"
-      loading="lazy"
-      width="618"
-      height="269"
     />
-  </picture>
-</p>
 
 ### Eigenverantwortliche Erfassung und Antrag auf Abbau
 
@@ -49,18 +41,10 @@ Diese Form der Überstundenverwaltung ermöglicht die Erfassung der Überstunden
 
 Um diesen Workflow verwenden zu können, müssen folgende Einstellungen konfiguriert sein:
 
-<p>
-  <picture>
     <img
       src="ueberstunden-antrag.png"
       alt="Konfiguration Antrag auf Überstundenabbau"
-      decoding="async"
-      loading="lazy"
-      width="631"
-      height="227"
     />
-  </picture>
-</p>
 
 ### Erfassung durch privilegierte Person und Antrag Überstundenabbau
 
@@ -68,18 +52,10 @@ Diese Form der Überstundenverwaltung ermöglicht die Erfassung der Überstunden
 
 Um diesen Workflow verwenden zu können, müssen folgende Einstellungen konfiguriert sein:
 
-<p>
-  <picture>
     <img
       src="privilegierte-ueberstunden-erfassung.png"
       alt="Konfiguration Erfassung der Überstunden durch eine privilegierte Person"
-      decoding="async"
-      loading="lazy"
-      width="622"
-      height="284"
     />
-  </picture>
-</p>
 
 ## Kann ich die Überstundenfunktion deaktivieren?
 
@@ -105,18 +81,10 @@ Ja, ein Urlaubsantrag auf Überstundenabbau ist mit einer Minimalstundenanzahl k
 
 Ja, dabei einfach Überstunden eintragen und dabei den Haken mit "Überstunden abbauen statt hinzufügen" setzen. Damit wird die eingetragene Zeit vom Überstundenkonto abgezogen. Dafür muss die Überstundenerfassung aktiv sein, siehe dazu auch ["Eigenverantwortliche Erfassung"](#eigenverantwortliche-erfassung).
 
-<p>
-  <picture>
     <img
       src="abbau-ohne-antrag.png"
       alt="Abbau von Überstunden erfassen"
-      decoding="async"
-      loading="lazy"
-      width="1203"
-      height="523"
     />
-  </picture>
-</p>
 
 ## Ist der Überstundenabbau deaktivierbar?
 

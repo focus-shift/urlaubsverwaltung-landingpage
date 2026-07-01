@@ -20,15 +20,11 @@ nicht genommenen Urlaubstage komplett in das kommende Jahr als Resturlaub übern
 
 <div class="flex my-8">
     <figure>
-        <picture>
             <img
               src="residual-leave-configuration.png"
               alt="Konfiguration zum Deaktivieren/Aktivieren des Verfalls von Resturlaubs für alle Mitarbeitenden"
-              decoding="async"
-              loading="lazy"
               class="rounded-lg"
             />
-        </picture>
         <figcaption class="text-sm text-center">Konfiguration zum Deaktivieren/Aktivieren des Verfalls von Resturlaubs für alle Mitarbeitenden</figcaption>
     </figure>
 </div>
@@ -41,15 +37,11 @@ zu deaktivieren und für bestimmte Mitarbeitenden individuell zu aktivieren.
 
 <div class="flex my-8">
     <figure>
-        <picture>
             <img
               src="residual-leave-configuration-employee.png"
               alt="Konfiguration des individuellen Verfalls von Resturlaub pro Mitarbeitenden"
-              decoding="async"
-              loading="lazy"
               class="rounded-lg"
             />
-        </picture>
         <figcaption class="text-sm text-center">Konfiguration des individuellen Verfalls von Resturlaub pro Mitarbeitenden</figcaption>
     </figure>
 </div>

@@ -20,15 +20,11 @@ Dies schafft mehr Transparenz über die Berechnung deiner verbleibenden Urlaubst
 
 <div class="flex my-8">
     <figure>
-        <picture>
             <img
               src="residual-leave-top.png"
               alt="Information über den verfallenen Resturlaub am Start der Übersichtsseite"
-              decoding="async"
-              loading="lazy"
               class="rounded-lg"
             />
-        </picture>
         <figcaption class="text-sm text-center">Information über den verfallenen Resturlaub am Start der Übersichtsseite</figcaption>
     </figure>
 </div>
@@ -37,15 +33,11 @@ Der verfallene Resturlaub wird dir nicht nur bei den verbleibenden Urlaubstagen,
 
 <div class="flex my-8">
     <figure>
-        <picture>
             <img
               src="residual-leave-top.png"
               alt="Information über den verfallenen Resturlaub bei den Abwesenheiten auf der Übersichtsseite"
-              decoding="async"
-              loading="lazy"
               class="rounded-lg"
             />
-        </picture>
         <figcaption class="text-sm text-center">Information über den verfallenen Resturlaub bei den Abwesenheiten auf der Übersichtsseite</figcaption>
     </figure>
 </div>
@@ -59,15 +51,11 @@ Urlaubsverwaltung ist es nun möglich das Verfallsdatum im Konto jedes einzelnen
 
 <div class="flex my-8">
     <figure>
-        <picture>
             <img
               src="residual-leave-configuration.png"
               alt="Konfiguration des Urlaubsanspruchs einer Person mit anpassbarem Datum zum Verfall des Resturlaubes"
-              decoding="async"
-              loading="lazy"
               class="rounded-lg"
             />
-        </picture>
         <figcaption class="text-sm text-center">Konfiguration des Urlaubsanspruchs einer Person mit anpassbarem Datum zum Verfall des Resturlaubes</figcaption>
     </figure>
 </div>

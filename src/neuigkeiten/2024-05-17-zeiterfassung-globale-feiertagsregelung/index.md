@@ -18,15 +18,11 @@ Bisher musste für jede Person einzeln das Bundesland und die dazugehörige Feie
 
 <div class="flex my-8">
     <figure>
-        <picture>
             <img
               src="globale-feiertagsregelung-konfiguration.jpg"
               alt="Konfiguration der globalen Feiertagsregelung in der Zeiterfassung"
-              decoding="async"
-              loading="lazy"
               class="rounded-lg"
             />
-        </picture>
         <figcaption class="text-sm text-center">Konfiguration der globalen Feiertagsregelung in der Zeiterfassung</figcaption>
     </figure>
 </div>
