@@ -40,7 +40,7 @@ export default function (eleventyConfig) {
 	eleventyConfig.addPassthroughCopy(
 		`./${paths.input}/**/*.{png,jpg,jpeg,webp,avif,mp4,xml,svg}`,
 	);
-	eleventyConfig.addPassthroughCopy({ "./next-public/static": "static" });
+	eleventyConfig.addPassthroughCopy(`./${paths.input}/static/fonts/**/*`);
 
 	eleventyConfig.addPlugin(pluginRss);
 	eleventyConfig.addPlugin(eleventyImageTransformPlugin, {
