@@ -28,19 +28,19 @@ Es ist geplant, das aktuelle Berechtigungskonzept [feingranularer](https://githu
 
 ## Wie stelle ich die Berechtigungen eines Benutzers ein?
 
-Als Benutzer mit der Berechtigung _Office_ kannst du über den Menü-Punkt Benutzer in das jeweilige Konto der betreffenden Person navigieren.
+Als Benutzer mit der Berechtigung _Office_ kannst du über die Suche jemanden finden und direkt in das jeweilige Konto der betreffenden Person navigieren.
 
-    <img
-      src="benutzer-konto.png"
-      alt="Konto eines Benutzers"
-    />
+<img
+  src="benutzer-finden.png"
+  alt="Mit der Suche einen Benutzer finden und direkt zum Konto navigieren"
+/>
 
-Hier gibt es die Möglichkeit die Berechtigungen über das "Stift"-Symbol zu editieren.
+Hier gibt es die Möglichkeit die Berechtigungen über den Bearbeiten-Button zu editieren.
 
-    <img
-      src="berechtigungen-editieren.png"
-      alt="Berechtigungen editieren"
-    />
+<img
+  src="berechtigungen-editieren.png"
+  alt="Berechtigungen editieren"
+/>
 
 ## Wann greifen neue Berechtigungen für einen Benutzer?
 

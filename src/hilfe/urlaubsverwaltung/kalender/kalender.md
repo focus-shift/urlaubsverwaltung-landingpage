@@ -40,24 +40,24 @@ Die Kalenderfreigabe kann pro Benutzer konfiguriert werden. Um die Konfiguration
 
 1. Klicke auf "Kalenderfreigabe" in der Übersichtsseite oberhalb des Kalenders
 
-   <img
-     src="kalenderfreigabe.png"
-     alt="Kalenderfreigabe"
-   />
+<img
+ src="kalenderfreigabe.png"
+ alt="Kalenderfreigabe"
+/>
 
 2. Wähle z. B. "Meinen Kalender freigeben"
 
-   <img
-     src="kalenderfreigabe-aktivieren.png"
-     alt="Kalenderfreigabe aktivieren"
-   />
+<img
+ src="kalenderfreigabe-aktivieren.png"
+ alt="Kalenderfreigabe aktivieren"
+/>
 
 3. Es wird ein geheimer Link generiert, welchen du jetzt zum Abonnieren verwenden kannst. Weitere Informationen über das Abonnieren findest du [hier](#welche-moeglichkeiten-habe-ich-eine-ical-kalenderfreigabe-in-meinem-client-zu-verwenden).
 
-   <img
-     src="kalenderfreigabe-link.png"
-     alt="Kalenderfreigabe Link"
-   />
+<img
+ src="kalenderfreigabe-link.png"
+ alt="Kalenderfreigabe Link"
+/>
 
 ### Wie kann ich eine Freigabe löschen?
 
