@@ -1,29 +1,40 @@
-<div class="p-8 flex gap-8 justify-between {{navigationBgClass}}">
-	<a href="/" class="text-4xl">
+<header class="main-header {{navigationBgClass}}">
+	<a href="/" class="main-header-logo text-4xl">
 		{{> partials/logo }}
 	</a>
-	<div class="main-navigation self-end flex gap-4">
-		<ul class="px-8 flex gap-8 bg-lila rounded-full text-white shadow-[0_4px_4px_rgba(0,0,0,0.06)]">
-			<li>
-				<a href="/fuersorge">Fürsorge</a>
+	<button popovertarget="main-navigation">...</button>
+	<nav popover id="main-navigation" class="main-navigation">
+		<ul class="main-navigation__list">
+			<li class="main-navigation__item">
+				<a class="main-navigation__link" href="/fuersorge">Fürsorge</a>
 			</li>
-			<li>
-				<a href="/software">Software</a>
+			<li class="main-navigation__item">
+				<a class="main-navigation__link" href="/software">Software</a>
 			</li>
-			<li>
-				<a href="/wir">Wir</a>
+			<li class="main-navigation__item">
+				<a class="main-navigation__link" href="/wir">Wir</a>
 			</li>
-			<li>
-				<a href="#">Neuigkeiten</a>
+			<li class="main-navigation__item">
+				<a class="main-navigation__link" href="#">Neuigkeiten</a>
 			</li>
-			<li>
-				<a href="#">Demo</a>
+			<li class="main-navigation__item">
+				<a class="main-navigation__link" href="#">Demo</a>
 			</li>
-			<li>
-				<a href="#">Hilfe</a>
+			<li class="main-navigation__item">
+				<a class="main-navigation__link" href="#">Hilfe</a>
+			</li>
+			<li class="main-navigation__item--app-download">
+				<a href="#">App Herunterladen</a>
+			</li>
+			<li class="main-navigation__item--demo">
+				<a href="#">Demo Ansehen</a>
+			</li>
+			<li class="main-navigation__item--login">
+				<a href="#" class="button button--green desktop:button--shadow">Login</a>
+			</li>
+			<li class="main-navigation__item--test">
+				<a href="#" class="button button--orange">Testen</a>
 			</li>
 		</ul>
-		<a href="#" class="bg-green text-black rounded-full px-3 shadow-[0_4px_4px_rgba(0,0,0,0.06)]">Login</a>
-		<a href="#" class="bg-orange text-white rounded-full px-3 shadow-[0_4px_4px_rgba(0,0,0,0.06)]">Testen</a>
-	</div>
-</div>
+	</nav>
+</header>

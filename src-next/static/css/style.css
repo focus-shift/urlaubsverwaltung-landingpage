@@ -1,6 +1,8 @@
 @import "tailwindcss";
 
 @theme {
+	--breakpoint-desktop: 1440px;
+
 	--color-*: initial;
 
 	--color-black: #000000;
@@ -18,6 +20,21 @@
 	--font-outfit: "Outfit", sans-serif;
 }
 
+:root {
+	--radius-full: calc(infinity * 1px);
+
+	--main-header-height: 90px; /* TODO */
+
+	--button-radius: var(--radius-full);
+	--button-padding-block: --spacing(2);
+	--button-padding-inline: --spacing(8);
+
+	@variant desktop {
+		--button-padding-block: --spacing(0);
+		--button-padding-inline: --spacing(3);
+	}
+}
+
 @layer base {
 	body {
 		font-family: sans-serif;
@@ -30,7 +47,146 @@
 	}
 }
 
+@utility button-shadow {
+	box-shadow: 0 4px 4px rgba(0, 0, 0, 0.06);
+}
+
 @layer components {
+	.main-header {
+		align-self: flex-start;
+		position: sticky; /* TODO sticky does not work on startpage :O why? */
+		top: 0;
+		width: 100%;
+
+		display: flex;
+		flex-direction: row;
+		align-items: flex-end;
+		justify-content: space-between;
+		gap: --spacing(8);
+
+		flex: 0 0 var(--main-header-height);
+		height: var(--main-header-height);
+
+		padding-inline: --spacing(4);
+		padding-block: --spacing(2);
+		box-shadow: 0 2px 4px 0 --alpha(var(--color-black) / 12%);
+	}
+
+	.main-navigation-button {
+		@variant desktop {
+			display: none;
+		}
+	}
+
+	.main-navigation {
+		top: var(--main-header-height);
+		padding-inline: --spacing(8);
+		padding-block: --spacing(8);
+		border-bottom-left-radius: var(--radius-3xl);
+		border-bottom-right-radius: var(--radius-3xl);
+
+		--main-navigation-background-opacity: 0%;
+		--main-navigation-background-color: var(--color-beige);
+		background-color: --alpha(
+			var(--main-navigation-background-color) /
+				var(--main-navigation-background-opacity)
+		);
+
+		&:popover-open {
+			--main-navigation-background-opacity: 80%;
+			width: 100%;
+			box-shadow: 0 4px 4px 0 --alpha(var(--color-black) / 40%);
+			backdrop-filter: blur(3px) saturate(180%);
+
+			overflow-y: auto;
+			overscroll-behavior: contain;
+			max-height: calc(100dvh - var(--main-header-height) - 2rem);
+
+			@media (prefers-reduced-transparency: reduce) {
+				--main-navigation-background-opacity: 0%;
+				backdrop-filter: none;
+			}
+		}
+
+		@variant desktop {
+			&[popover] {
+				position: static;
+				display: block;
+				inset: auto;
+				margin: 0;
+
+				&:not(:popover-open) {
+					display: block;
+				}
+
+				&::backdrop {
+					display: none;
+				}
+			}
+		}
+	}
+
+	.main-navigation__list {
+		--main-navigation-list-gap: --spacing(4);
+
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		gap: var(--main-navigation-list-gap);
+
+		@variant desktop {
+			display: flex;
+			flex-direction: row;
+			align-items: center;
+			gap: --spacing(8);
+
+			padding-inline: --spacing(8);
+
+			border-radius: var(--radius-full);
+			box-shadow: 0 4px 4px rgba(0, 0, 0, 0.06);
+			background-color: var(--color-lila);
+			color: var(--color-white);
+		}
+	}
+
+	.main-navigation__item {
+	}
+
+	.main-navigation__item--app-download {
+		border-block-start: 2px solid var(--color-white);
+		padding-block-start: var(--main-navigation-list-gap);
+	}
+	.main-navigation__item--demo {
+		border-block-end: 2px solid var(--color-white);
+		padding-block-end: var(--main-navigation-list-gap);
+	}
+
+	.main-navigation__link {
+		display: block;
+		color: var(--color-white);
+		background-color: var(--color-lila);
+		padding-inline: var(--button-padding-inline);
+		padding-block: var(--button-padding-block);
+		border-radius: var(--button-radius);
+	}
+
+	.button {
+		display: inline-block;
+		padding-block: var(--button-padding-block);
+		padding-inline: var(--button-padding-inline);
+		border-radius: var(--button-radius);
+	}
+
+	.button--green {
+		background-color: var(--color-green);
+		color: var(--color-black);
+	}
+
+	.button--orange {
+		background-color: var(--color-orange);
+		color: var(--color-white);
+	}
+
 	.title-bordered {
 		padding: --spacing(1) --spacing(3);
 		border: 1px dashed var(--color-lila);
