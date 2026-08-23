@@ -1,11 +1,11 @@
 ---
-layout: layout-wissensbasis.hbs
 redirect_from: /hilfe/benachrichtigungen/
-breadcrumb:
-  - <a href="/hilfe/#dokumentation-urlaubsverwaltung">Urlaubsverwaltung</a>
-  - Benachrichtigungen
 title: Benachrichtigungen - Hilfe
 description: Hier findest du Hilfe zu dem Thema Benachrichtigungen
+eleventyNavigation:
+  key: benachrichtigungen
+  title: Benachrichtigungen
+  parent: urlaubsverwaltung
 ---
 
 # E-Mail Benachrichtigungen in der urlaubsverwaltung.cloud

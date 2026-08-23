@@ -1,11 +1,11 @@
 ---
-layout: layout-wissensbasis.hbs
 redirect_from: /hilfe/benutzer/
-breadcrumb:
-  - <a href="/hilfe/#dokumentation-urlaubsverwaltung">Urlaubsverwaltung</a>
-  - Benutzer
 title: Benutzer - Hilfe
 description: Hier findest du Hilfe zu dem Thema Benutzer
+eleventyNavigation:
+  key: benutzer
+  title: Benutzer
+  parent: urlaubsverwaltung
 ---
 
 # Benutzer und ihre Berechtigungen in der urlaubsverwaltung.cloud

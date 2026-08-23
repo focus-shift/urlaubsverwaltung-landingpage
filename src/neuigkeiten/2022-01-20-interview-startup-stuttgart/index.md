@@ -1,11 +1,13 @@
 ---
 draft: false
-layout: layout-neuigkeiten.hbs
+layout: layout-blog-article.hbs
 date: 2022-01-20
 title: Focus Shift im Interview - wie alles begann
 author: Andreas Weigel
-teaserImage: /static/microphone.png
+teaserImage: microphone.png
 description: Focus Shift im Interview - wie alles begann
+tags:
+  - blog
 ---
 
 Wer ist das Unternehmen hinter der Urlaubsverwaltung? Spannende Einblicke in die Anfangszeit der Focus Shift Software GmbH

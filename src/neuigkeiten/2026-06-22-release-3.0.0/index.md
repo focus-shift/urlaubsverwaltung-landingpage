@@ -1,12 +1,13 @@
 ---
 draft: false
-layout: layout-neuigkeiten.hbs
+layout: layout-blog-article.hbs
 date: 2026-06-22
 title: Zeiterfassung 3.0.0 bringt neue Sidebar und globale Suche
 author: Tobias Schneider
 release-version: 3.0.0
-teaserImage: 2026-06-22-release-3.0.0/ze-release-3.0.0.png
 description: Mit Version 3.0.0 wird die Zeiterfassung moderner, stabiler und fit für zukünftige Erweiterungen.
+tags:
+  - update
 ---
 
 Die Zeiterfassung 3.0.0 ist da! In den vergangenen Monaten haben wir intensiv an eurem Feedback gearbeitet, um die

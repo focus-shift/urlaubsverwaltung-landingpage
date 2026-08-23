@@ -15,7 +15,7 @@ export default [
 		},
 	},
 	{
-		files: ["!src/**", "!static/**"],
+		files: [".eleventy.js", "!src/**", "!static/**"],
 		languageOptions: {
 			globals: globals.node,
 		},

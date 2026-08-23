@@ -1,11 +1,13 @@
 ---
 draft: false
-layout: layout-neuigkeiten.hbs
+layout: layout-blog-article.hbs
 date: 2025-06-26
 title: iOS-App für deine Mitarbeitende
 author: Daniel Fuchs
-teaserImage: /static/teaser/2025-06-26/ios-app-teaser.png
+teaserImage: teaser.png
 description: Mit der iOS-App können deine Mitarbeitende ab jetzt Abwesenheiten beantragen und Zeiten erfassen – direkt vom iPhone oder iPad.
+tags:
+  - update
 ---
 
 Wir freuen uns sehr, euch heute ein ganz besonderes Update präsentieren zu können:

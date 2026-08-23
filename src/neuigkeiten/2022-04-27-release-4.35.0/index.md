@@ -1,11 +1,13 @@
 ---
 draft: false
-layout: layout-neuigkeiten.hbs
+layout: layout-blog-article.hbs
 date: 2022-04-27
 title: Personalstammdaten immer im Blick
 author: Daniel Fuchs
 release-version: 4.35.0
 description: Erweiterung der Personalstammdaten um Personalnummer und Zusatzinformationen. Außerdem, Kalendereinladung für Office-Benutzende bei genehmigten Anträgen.
+tags:
+  - update
 ---
 
 Erweiterung der Personalstammdaten um Personalnummer und Zusatzinformationen. Außerdem: Kalendereinladung für _Office_-Benutzende bei genehmigten Anträgen.

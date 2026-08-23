@@ -1,11 +1,11 @@
 ---
-layout: layout-wissensbasis.hbs
 redirect_from: /hilfe/sso/
-breadcrumb:
-  - <a href="/hilfe/#dokumentation-kundenportal">Kundenportal</a>
-  - Single Sign-On (SSO)
 title: Single Sign-On (SSO) - Hilfe
 description: Hier findest du Hilfe zu dem Thema Single Sign-On (SSO)
+eleventyNavigation:
+  key: sso
+  title: Single Sign-On
+  parent: kundenportal
 ---
 
 # Single Sign-On in der urlaubsverwaltung.cloud

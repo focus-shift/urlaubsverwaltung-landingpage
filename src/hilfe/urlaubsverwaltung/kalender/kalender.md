@@ -1,11 +1,11 @@
 ---
-layout: layout-wissensbasis.hbs
 redirect_from: /hilfe/kalender/
-breadcrumb:
-  - <a href="/hilfe/#dokumentation-urlaubsverwaltung">Urlaubsverwaltung</a>
-  - Kalender
 title: Kalender - Hilfe
 description: Hier findest du Hilfe zu dem Thema Kalender
+eleventyNavigation:
+  key: kalender
+  title: Kalender
+  parent: urlaubsverwaltung
 ---
 
 # Kalenderintegration in der urlaubsverwaltung.cloud
@@ -124,6 +124,7 @@ Die Urlaubsverwaltung bietet die Möglichkeit, Kalendereinträge in einen Google
    Gehe dazu auf https://console.developers.google.com und führe folgende Schritte aus:
 
    - OAuth2-Client-ID erstellen
+
     <figure class="mb-4">
        <img
          src="google-calendar-api-oauth-client.png"
@@ -131,8 +132,8 @@ Die Urlaubsverwaltung bietet die Möglichkeit, Kalendereinträge in einen Google
        />
      <figcaption class="text-sm text-center">Google OAuth2 Client erstellen</figcaption>
    </figure>
-
    - OAuth2-Client-ID als Webanwendung (Anwendungstyp) konfigurieren
+
     <figure class="mb-4">
        <img
          src="google-calendar-api-oauth-client-two.png"
@@ -140,7 +141,6 @@ Die Urlaubsverwaltung bietet die Möglichkeit, Kalendereinträge in einen Google
        />
      <figcaption class="text-sm text-center">Google OAuth2 Client erstellen</figcaption>
    </figure>
-
    - Autorisierte Weiterleitungs-URIs angeben (siehe dazu die Information in den Einstellungen der Urlaubsverwaltung)
    - Client-ID und Clientschlüssel sind für Punkt 5 notwendig
 

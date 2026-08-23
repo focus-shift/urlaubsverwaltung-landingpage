@@ -1,12 +1,13 @@
 ---
 draft: false
-layout: layout-neuigkeiten.hbs
+layout: layout-blog-article.hbs
 date: 2025-04-16
 title: Urlaubsverwaltung 5.9.0 – Optimierte Feiertagsberechnung
 author: Andreas Weigel
 release-version: 5.9.0
-teaserImage: /static/teaser/2024-11-22/UV-Release-5.9.0.png
 description: Mit Version 5.9.0 werden gesetzliche Feiertage nun automatisch über die Jollyday-Bibliothek gepflegt.
+tags:
+  - update
 ---
 
 Release **5.9.0** der Urlaubsverwaltung bringt eine **vereinfachte Feiertagsverwaltung** mithilfe der bewährten Bibliothek **Jollyday**.

@@ -1,12 +1,13 @@
 ---
 draft: false
-layout: layout-neuigkeiten.hbs
+layout: layout-blog-article.hbs
 date: 2025-04-23
 title: Urlaubsverwaltung 5.10.0 – Regionale US-Feiertage
 author: Andreas Weigel
 release-version: 5.10.0
-teaserImage: /static/teaser/2024-12-09/UV-Release-5.10.0.png
 description: Mit Release 5.10.0 unterstützt die Urlaubsverwaltung nun Feiertage für die US-Regionen Washington, D.C., Virginia und Maryland – ideal für internationale Teams.
+tags:
+  - update
 ---
 
 In der neuen Version **5.10.0** erweitert die Urlaubsverwaltung ihre Unterstützung für **regionale Feiertage in den USA**. Mit an Bord: drei neue Konfigurationen für Standorte in **Washington, D.C., Virginia und Maryland**.

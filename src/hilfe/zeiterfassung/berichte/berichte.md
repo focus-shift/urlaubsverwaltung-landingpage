@@ -1,10 +1,10 @@
 ---
-layout: layout-wissensbasis
-breadcrumb:
-  - <a href="/hilfe/#dokumentation-zeiterfassung">Zeiterfassung</a>
-  - Berichte
 title: Berichte - Hilfe
 description: Hier findest du Hilfe zu dem Thema Berichte
+eleventyNavigation:
+  key: berichte
+  title: Berichte
+  parent: zeiterfassung
 ---
 
 # Berichte in der Zeiterfassung

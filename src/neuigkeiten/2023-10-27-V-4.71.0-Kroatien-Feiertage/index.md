@@ -1,12 +1,14 @@
 ---
 draft: false
-layout: layout-neuigkeiten.hbs
+layout: layout-blog-article.hbs
 date: 2023-10-27
 title: Dobrodošla Hrvatska - Kroatische Feiertage hinzugefügt 🇭🇷
 author: Andreas Weigel
 release-version: 4.71.0
-teaserImage: /static/kroatien.png
+teaserImage: kroatien.png
 description: Kroatische Feiertage für eine einfache Urlaubsplanung
+tags:
+  - update
 ---
 
 Homeoffice im Ausland? Workation? Oder einfach nur Urlaub? Die Urlaubsverwaltung bietet nun auch Feiertage für Kroatien an.

@@ -12,24 +12,25 @@ const priceUv = 2;
 const priceZeit = 2;
 const minQuantity = 5;
 
-const contactUsQuantity = 250;
-
 const currencyFormatter = new Intl.NumberFormat("de-DE", {
 	style: "currency",
 	currency: "EUR",
 });
 
 document.addEventListener("DOMContentLoaded", function () {
+	const checkbox = document.querySelector("[name=on-premise]");
 	const priceCloudButton = document.querySelector("#price-button-cloud");
 	const pricePremiseButton = document.querySelector("#price-button-on-premise");
 	const subscriptionMonth = document.querySelector("#subscription-month");
 	const zeiterfassung = document.querySelector("#service-zeiterfassung");
 	const quantityInput = document.querySelector("#subscription-quantity");
-	const quantityRange = document.querySelector("#subscription-quantity-range");
 	const increase = document.querySelector("#subscription-quantity-increase");
 	const decrease = document.querySelector("#subscription-quantity-decrease");
 
 	const priceElement = document.querySelector("#subscription-price");
+
+	// disable focusable -> buttons are used
+	checkbox.setAttribute("tabindex", "-1");
 
 	priceCloudButton.addEventListener("click", function () {
 		document.querySelector("[name=on-premise]").checked = false;
@@ -49,17 +50,7 @@ document.addEventListener("DOMContentLoaded", function () {
 		updatePrice();
 	});
 
-	quantityInput.addEventListener("input", function (event) {
-		// also update range input
-		quantityRange.value = Math.min(
-			Number(event.target.value),
-			quantityRange.getAttribute("max") ?? contactUsQuantity,
-		);
-		updatePrice();
-	});
-
-	quantityRange.addEventListener("input", function (event) {
-		quantityInput.value = event.target.value;
+	quantityInput.addEventListener("input", function () {
 		updatePrice();
 	});
 
@@ -69,7 +60,6 @@ document.addEventListener("DOMContentLoaded", function () {
 		const normalized = Math.max(minQuantity, Number(value) || minQuantity);
 
 		quantityInput.value = normalized;
-		quantityRange.value = normalized;
 
 		quantityInput.dispatchEvent(new Event("input", { bubbles: true }));
 	}

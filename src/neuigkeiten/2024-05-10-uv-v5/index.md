@@ -1,12 +1,14 @@
 ---
 draft: false
-layout: layout-neuigkeiten.hbs
+layout: layout-blog-article.hbs
 date: 2024-05-17
 title: Individuelle Abwesenheitsarten in der Urlaubsverwaltung
 author: Daniel Fuchs
 release-version: 5.0.0
-teaserImage: /static/teaser/2024-05-10/uv521.png
+teaserImage: teaser.png
 description: Update der Urlaubsverwaltung bringt individuelle Abwesenheitsarten und vieles mehr
+tags:
+  - update
 ---
 
 Mit einem Update der Urlaubsverwaltung stehen nun einige neue Funktionen und Verbesserungen bereit.

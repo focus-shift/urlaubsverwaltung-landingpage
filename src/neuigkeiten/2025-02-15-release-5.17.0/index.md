@@ -1,12 +1,13 @@
 ---
 draft: false
-layout: layout-neuigkeiten.hbs
+layout: layout-blog-article.hbs
 date: 2025-05-07
 title: Urlaubsverwaltung 5.17.0 – bessere Testdoku und Bugfixes für stabileres Verhalten
 author: Andreas Weigel
 release-version: 5.17.0
-teaserImage: /static/teaser/2025-02-15/UV-Release-5.17.0.png
 description: Release 5.17.0 bringt eine aktualisierte Dokumentation für UI-Tests und behebt Fehler bei asynchronen Prozessen sowie beim Umgang mit inaktiven Stellvertretungen.
+tags:
+  - update
 ---
 
 Mit **Release 5.17.0** liefert die Urlaubsverwaltung ein kleines, aber wichtiges Update. Im Fokus stehen eine **aktualisierte UI-Test-Dokumentation** für Entwickler:innen sowie zwei **relevante Bugfixes**, die sich auf asynchrone Prozesse und die Verwaltung inaktiver Personen auswirken.

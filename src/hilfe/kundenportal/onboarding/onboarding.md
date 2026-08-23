@@ -1,11 +1,11 @@
 ---
-layout: layout-wissensbasis.hbs
 redirect_from: /hilfe/onboarding/
-breadcrumb:
-  - <a href="/hilfe/#dokumentation-kundenportal">Kundenportal</a>
-  - Onboarding
 title: Onboarding - Hilfe
 description: Hier findest du Hilfe zu dem Thema Onboarding
+eleventyNavigation:
+  key: onboarding
+  title: Onboarding
+  parent: kundenportal
 ---
 
 # Onboarding deiner Mitarbeitenden in deine Urlaubsverwaltung

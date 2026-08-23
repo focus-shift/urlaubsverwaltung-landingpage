@@ -1,12 +1,14 @@
 ---
 draft: false
-layout: layout-neuigkeiten.hbs
+layout: layout-blog-article.hbs
 date: 2024-01-08
 title: Arbeitszeiten, Feiertagsregelung und mehr Berechtigungen in der Zeiterfassung
 author: Benjamin Seber
 release-version: 2.0.0
-teaserImage: /static/zeiterfassung-multi-device.png
+teaserImage: /static/img/zeiterfassung-multi-device.png
 description: Kroatische Feiertage für eine einfache Urlaubsplanung
+tags:
+  - update
 ---
 
 Zum Jahresstart gibt es spannende Aktualisierungen bei der Zeiterfassung:

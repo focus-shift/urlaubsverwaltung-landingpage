@@ -1,11 +1,8 @@
 ---
-layout: layout-subpage.hbs
+layout: layout-legal
 title: AGB der urlaubsverwaltung.cloud
-backgroundColor: bg-white
 description: Faire allgemeine Geschäftsbedingungen als Basis der Partnerschaft
 ---
-
-<article>
 
 Stand: 30. November 2022
 
@@ -160,5 +157,3 @@ Diese Teilnahme- und Nutzungsbedingungen unterliegen dem Recht der Bundesrepubli
 ### § 19 Gerichtsstand
 
 Ausschließlicher Gerichtsstand für alle sich aus diesen Teilnahme- und Nutzungsbedingungen ergebenden Streitigkeiten ist, soweit eine solche Gerichtsstandsvereinbarung zulässig ist, der Sitz des Diensteanbieters.
-
-</article>

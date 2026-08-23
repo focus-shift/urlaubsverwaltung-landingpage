@@ -24,6 +24,29 @@ new IntersectionObserver(function handleFooterIntersection(entries, observer) {
 	});
 }).observe(document.querySelector("footer"));
 
+document.addEventListener("mouseover", function (event) {
+	if (event.target.matches("a[href]")) {
+		const target = event.target.getAttribute("href");
+		if (
+			!target ||
+			target.startsWith("#") ||
+			target.startsWith("http") ||
+			target.startsWith("mailto:") ||
+			target.startsWith("tel:")
+		) {
+			return;
+		}
+		if (document.querySelector(`link[rel="preload"][href="${target}"]`)) {
+			return;
+		}
+		const link = document.createElement("link");
+		link.rel = "preload";
+		link.href = target;
+		document.head.appendChild(link);
+		console.log("preloaded", link);
+	}
+});
+
 function createPrerenderLink(href) {
 	const prerender = document.createElement("link");
 	prerender.rel = "prerender";

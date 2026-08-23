@@ -1,12 +1,13 @@
 ---
 draft: false
-layout: layout-neuigkeiten.hbs
+layout: layout-blog-article.hbs
 date: 2025-05-09
 title: Zeiterfassung 2.16.0 – Änderungshistorie für Zeiteinträge
 author: Andreas Weigel
 release-version: 2.16.0
-teaserImage: /static/teaser/2025-02-21/ZE-Release-2.16.0.png
 description: Release 2.16.0 bringt eine wichtige Funktion zur Nachverfolgbarkeit von Änderungen an Zeiteinträgen. Jetzt können alle Änderungen an Zeiteinträgen mit der neuen Änderungshistorie nachverfolgt werden.
+tags:
+  - update
 ---
 
 Das **Release 2.16.0** bietet eine wichtige Neuerung: die Einführung der **Änderungshistorie für Zeiteinträge**. Diese Funktion ermöglicht es, alle Änderungen, die an Zeiteinträgen vorgenommen wurden, zu verfolgen und gibt so eine detaillierte Übersicht über die Historie von Zeiteinträgen.

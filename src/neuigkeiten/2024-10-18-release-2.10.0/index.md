@@ -1,12 +1,13 @@
 ---
 draft: false
-layout: layout-neuigkeiten.hbs
+layout: layout-blog-article.hbs
 date: 2024-10-18
 title: Neue Icons für Pausen und Kommentare in der Berichtübersicht
 author: Andreas Weigel
 release-version: 2.10.0
-teaserImage: /static/teaser/2024-10-18/ZE-Release-2.10.0.png
 description: Kon Uhrzeiten werden exportiert
+tags:
+  - update
 ---
 
 Im Release 2.10.0 der Zeiterfassung wurden kleine Veränderung in der Darstellung der Einträge im Bericht vorgenommen.

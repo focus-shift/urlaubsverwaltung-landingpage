@@ -1,12 +1,13 @@
 ---
 draft: false
-layout: layout-neuigkeiten.hbs
+layout: layout-blog-article.hbs
 date: 2025-04-11
 title: Zeiterfassung 2.13.0 – Verbesserungen bei Berichten und Bugfixes
 author: Andreas Weigel
 release-version: 2.13.0
-teaserImage: /static/teaser/2024-11-15/ZE-Release-2.13.0.png
 description: Release 2.13.0 bringt wichtige Verbesserungen bei der Anzeige der Arbeitszeiten und behebt Fehler in den Sollzeiten von Berichten.
+tags:
+  - update
 ---
 
 Das **Release 2.13.0** der Zeiterfassung bringt wichtige **Verbesserungen** bei der Darstellung von Arbeitszeiten und behebt einen Fehler, der die Sollzeiten in Berichten betraf. Mit dieser Version werden Berichte nun noch genauer und nützlicher, was die Nutzung für alle Anwender optimiert.

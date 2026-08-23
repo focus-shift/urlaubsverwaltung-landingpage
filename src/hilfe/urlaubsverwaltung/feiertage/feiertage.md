@@ -1,11 +1,11 @@
 ---
-layout: layout-wissensbasis.hbs
 redirect_from: /hilfe/feiertage/
-breadcrumb:
-  - <a href="/hilfe/#dokumentation-urlaubsverwaltung">Urlaubsverwaltung</a>
-  - Feiertage
 title: Feiertage - Hilfe
 description: Hier findest du Hilfe zu dem Thema Feiertage
+eleventyNavigation:
+  key: feiertage
+  title: Feiertage
+  parent: urlaubsverwaltung
 ---
 
 # Feiertage in der urlaubsverwaltung.cloud

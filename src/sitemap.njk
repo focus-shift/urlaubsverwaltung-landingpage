@@ -6,7 +6,7 @@ baseUrl: https://urlaubsverwaltung.cloud
 <?xml version="1.0" encoding="utf-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   {%- for page in collections.all -%}
-  {%- if post.data.draft | isNoDraft -%}
+  {%- if not page.data.isDraft -%}
   {%- if page.date | isPublicationDateReached %}
     <url>
       <loc>{{ baseUrl }}{{ page.url | url }}</loc>

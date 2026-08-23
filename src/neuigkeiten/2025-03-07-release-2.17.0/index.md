@@ -1,12 +1,13 @@
 ---
 draft: false
-layout: layout-neuigkeiten.hbs
+layout: layout-blog-article.hbs
 date: 2025-05-16
 title: Zeiterfassung 2.17.0 – Verbesserte Sortierung & privilegierte Benutzerfunktionen
 author: Andreas Weigel
 release-version: 2.17.0
-teaserImage: /static/teaser/2025-03-07/ZE-Release-2.17.0.png
 description: Release 2.17.0 bietet neue Funktionen zur Sortierung von Personen und Zeiteinträgen sowie Verbesserungen bei der Zeiterfassung für privilegierte Benutzer. Zudem wurde ein Bug behoben, bei dem bearbeitete Zeitslots nicht mehr hervorgehoben wurden.
+tags:
+  - update
 ---
 
 Das **Release 2.17.0** bringt wichtige Erweiterungen zur **Zeiterfassung und Benutzerverwaltung**. Neue Funktionen für die **Sortierung von Personen und Zeiteinträgen** sowie **verbesserte Rechte für privilegierte Nutzer** machen die Anwendung noch benutzerfreundlicher und leistungsfähiger. Zudem wurde ein Fehler behoben, der die Anzeige von bearbeiteten Zeitslots betraf.

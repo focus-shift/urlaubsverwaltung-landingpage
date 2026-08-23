@@ -1,10 +1,12 @@
 ---
 draft: false
-layout: layout-neuigkeiten.hbs
+layout: layout-blog-article.hbs
 date: 2022-10-19
 title: Verfall von Resturlaub für alle und individuell für einzelne Mitarbeitenden
 author: Tobias Schneider
 description: Verfall von Resturlaub für alle und/oder für einzelne Mitarbeitenden deaktivieren
+tags:
+  - update
 ---
 
 Der Verfall des Resturlaubs aus dem Vorjahr kann ab sofort für alle in den Einstellungen oder im jeweiligen Urlaubsanspruch

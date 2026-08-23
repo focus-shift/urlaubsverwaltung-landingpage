@@ -1,10 +1,10 @@
 ---
-layout: layout-wissensbasis
-breadcrumb:
-  - <a href="/hilfe/#dokumentation-zeiterfassung">Zeiterfassung</a>
-  - Zeiteinträge
 title: Zeiteinträge - Hilfe
 description: Hier findest du Hilfe zu dem Thema Zeiteinträge
+eleventyNavigation:
+  key: zeiteintraege
+  title: Zeiteinträge
+  parent: zeiterfassung
 ---
 
 # Zeiteinträge in der Zeiterfassung

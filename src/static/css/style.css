@@ -1,731 +1,154 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import "./config.css";
+
+@import "./components/button.css";
+@import "./components/dot-visual.css";
+@import "./components/footer.css";
+@import "./components/grid.css";
+@import "./components/highlight-box.css";
+@import "./components/main-header.css";
+@import "./components/popover.css";
+@import "./components/price.css";
+@import "./components/references.css";
+@import "./components/section-hero.css";
+@import "./components/section-title-pill.css";
+@import "./components/to-top-button.css";
+
+@import "./components/demo-popover.css";
+
+/* source every file in our project; only style.css emits the theme, so it must see all usages */
+@source "../..";
+
+@view-transition {
+	navigation: auto;
+}
+
+::view-transition-old(root) {
+	animation: 150ms ease both fade-out;
+}
+
+::view-transition-new(root) {
+	animation: 200ms ease both fade-in;
+}
+
+@keyframes fade-in {
+	from {
+		opacity: 0;
+	}
+}
+
+@keyframes fade-out {
+	to {
+		opacity: 0;
+	}
+}
 
 @layer base {
+	:root {
+		-webkit-font-smoothing: antialiased;
+		-moz-osx-font-smoothing: grayscale;
+
+		text-decoration-skip-ink: none;
+		text-underline-position: from-font;
+	}
+
 	html {
-		--scroll-padding-top: 8rem;
-		height: 100%;
-		scroll-padding-top: var(--scroll-padding-top);
+		scroll-behavior: smooth;
 	}
 
 	html,
 	body {
-		font-family: Lato, sans-serif;
-		font-weight: 400;
+		height: 100svh;
+		/* note: lila, lila-dark, beige and white are background colors and should not be used as scrollbar color! */
+		scrollbar-color: var(--color-orange) var(--color-beige);
 	}
 
-	h1,
-	h2,
-	h3,
-	h4,
-	h5,
-	h6 {
-		font-family: Raleway, sans-serif;
-		font-weight: 700;
-	}
-
-	/* e.g. agb, impressum, ... */
-	article {
-		h1 {
-			@apply text-2xl;
-			@apply font-medium;
-			@apply mb-4;
-		}
-
-		@screen xs {
-			h1 {
-				@apply text-3xl;
-			}
-		}
-
-		h2 {
-			@apply text-2xl;
-			@apply font-medium;
-			@apply mt-16;
-			@apply mb-4;
-		}
-
-		h1 + h2 {
-			/* @apply mt-8; */
-		}
-
-		h3,
-		h4 {
-			@apply text-base;
-			@apply font-medium;
-			@apply mt-4;
-			@apply mb-2;
-		}
-
-		p {
-			@apply mb-2;
-		}
-
-		ul {
-			@apply list-inside;
-			@apply list-disc;
-			@apply my-4;
-		}
-
-		a {
-			@apply underline;
-		}
-	}
-}
-
-@layer components {
-	input {
-		@apply accent-blue-600;
-	}
-
-	.checkbox-switch {
-		display: inline-block;
-
-		input[type="checkbox"] {
-			cursor: pointer;
-			margin: 0;
-			margin-top: 0.25em;
-			width: 2.5rem;
-			height: 1.25rem;
-			appearance: none;
-			border: 1px solid rgba(0, 0, 0, 0.25);
-			background-repeat: no-repeat;
-			background-size: contain;
-			background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='-4 -4 8 8'%3e%3ccircle r='3' fill='rgba%280, 0, 0, 0.25%29'/%3e%3c/svg%3e");
-			background-position: left center;
-			border-radius: 9999px;
-			transition:
-				background-position 0.15s ease-in-out,
-				background-color 0.15s ease-in-out;
-			@apply bg-zinc-200;
-
-			&:checked {
-				@apply bg-blue-500;
-				background-position: right center;
-				background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='-4 -4 8 8'%3e%3ccircle r='3' fill='%23fff'/%3e%3c/svg%3e");
-			}
-		}
-
-		&.checkbox-switch--noir {
-			input[type="checkbox"] {
-				@apply bg-blue-500;
-				background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='-4 -4 8 8'%3e%3ccircle r='3' fill='%23fff'/%3e%3c/svg%3e");
-			}
-		}
-	}
-
-	.uebersicht-card-border {
-		@apply md:bg-gradient-to-b;
-		@apply from-gray-50;
-		@apply to-sky-50;
-		padding: 1.125rem;
-		border-radius: 1.125rem;
-	}
-
-	.accordion {
-		list-style: none;
-		margin: 0;
-		padding: 0;
-
-		display: flex;
-		flex-direction: column;
-		gap: 2rem;
-
-		@screen md {
-			gap: 1rem;
-		}
-
-		li {
-			margin: 0;
-			padding: 0;
-		}
-
-		.accordion-item {
-			--summary-gap: 1rem;
-			--summary-icon-width: 1.5rem;
-
-			@screen md {
-				--summary-gap: 1.5rem;
-				--summary-icon-width: 1.75rem;
-			}
-
-			.accordion-item__summary {
-				@apply text-lg;
-				@apply font-semibold;
-				@apply text-black;
-				@apply text-opacity-90;
-				list-style: none;
-				cursor: pointer;
-				display: flex;
-				gap: var(--summary-gap);
-
-				@screen md {
-					@apply text-xl;
-					align-items: center;
-				}
-
-				&::before {
-					grid-column: 1;
-					content: "";
-					flex-shrink: 0;
-					display: inline-block;
-					margin-top: 0.25rem;
-					width: var(--summary-icon-width);
-					height: var(--summary-icon-width);
-					transition: transform ease-in-out 150ms;
-					mask: url("../img/icon-plus-circle.svg") no-repeat 100% 100%;
-					mask-size: cover;
-					@apply bg-sky-300;
-				}
-
-				&:hover {
-					&::before {
-						@apply bg-sky-400;
-					}
-				}
-			}
-
-			.accordion-item__content {
-				margin-top: 1rem;
-				padding-left: calc(var(--summary-gap) + var(--summary-icon-width));
-				@apply text-lg;
-				@apply text-gray-800;
-			}
-
-			&[open] {
-				.accordion-item__summary::before {
-					transform: rotate(45deg);
-				}
-			}
-		}
-	}
-
-	.external-link {
-		display: inline-flex;
-		align-items: center;
-		text-decoration: underline;
-		&::before {
-			content: "";
-			width: 0.8em;
-			height: 0.8em;
-			@apply bg-gray-500;
-			mask-image: url("data:image/svg+xml;base64,PHN2ZwoJdmlld0JveD0iMCAwIDI0IDI0IgoJeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIgoJd2lkdGg9IjE2IgoJaGVpZ2h0PSIxNiIKCWZpbGw9Im5vbmUiCglzdHJva2U9ImN1cnJlbnRDb2xvciIKCXN0cm9rZS13aWR0aD0iMiIKCXN0cm9rZS1saW5lY2FwPSJyb3VuZCIKCXN0cm9rZS1saW5lam9pbj0icm91bmQiCgljbGFzcz0ie3tjbGFzc319Igo+Cgk8cGF0aCBkPSJNMTUgM2g2djYiLz4KCTxwYXRoIGQ9Ik0xMCAxNCAyMSAzIi8+Cgk8cGF0aCBkPSJNMTggMTN2NmEyIDIgMCAwIDEtMiAySDVhMiAyIDAgMCAxLTItMlY4YTIgMiAwIDAgMSAyLTJoNiIvPgo8L3N2Zz4K");
-			mask-size: contain;
-			margin-right: 0.125em;
-			@apply transition-colors;
-		}
-		&:hover {
-			&::before {
-				@apply bg-black;
-			}
-		}
-	}
-
-	.top-anchor {
-		margin-top: calc(
-			-1 * var(--scroll-padding-top) + 4rem
-		); /* 4rem height of navigation */
-		margin-bottom: var(--scroll-padding-top);
-	}
-
-	.to-top-button {
-		padding: 1rem;
-		border-radius: 99999px;
-		background-image: conic-gradient(at top right, lightcyan, lightblue);
-		@apply shadow-lg;
-	}
-	.to-top-button:hover,
-	.to-top-button:focus {
-		@apply shadow-xl;
-	}
-
-	.keyword {
-		@apply inline-block;
-		@apply underline;
-		@apply underline-offset-2;
-		@apply decoration-4;
-		@apply transition-all;
-		&.keyword--cyan {
-			@apply decoration-cyan-200;
-		}
-		&.keyword--yellow {
-			@apply decoration-yellow-200;
-		}
-	}
-	a > .keyword:hover {
-		@apply decoration-4;
-		@apply -skew-x-12;
-		&.keyword--yellow {
-			@apply decoration-yellow-300;
-		}
-		&.keyword--cyan {
-			@apply decoration-cyan-300;
-		}
-	}
-
-	.mobile-app-feature-card-border {
-		@apply md:bg-gradient-to-b;
-		@apply from-gray-50;
-		@apply to-sky-50;
-		padding: 1.125rem;
-	}
-
-	.mobile-app-feature-card {
-		@apply bg-white;
-		@apply flex;
-		@apply flex-row;
-		border-radius: 1.125rem;
-	}
-
-	.mobile-app-feature-card_description {
-		@apply flex-1;
-		@apply p-8;
-	}
-
-	.mobile-app-feature-card_description h3 {
-		@apply font-bold;
-		@apply text-xl;
-	}
-
-	.mobile-app-feature-card_description p {
-		@apply mt-4;
-	}
-
-	.mobile-app-feature-card_image {
-		@apply relative;
-		@apply flex-1;
-		@apply p-4;
-	}
-
-	.mobile-app-feature-card_image-cover {
-		@apply hidden;
-	}
-
-	.mobile-app-feature-card_image img {
-		/*@apply w-full;*/
-		@apply border;
-		@apply border-gray-100;
-		@apply rounded-xl;
-		margin: 0 auto;
-	}
-
-	@screen sm {
-		.mobile-app-feature-card_image {
-			@apply p-8;
-		}
-
-		.mobile-app-feature-card_description h3 {
-			@apply text-2xl;
-		}
-
-		.mobile-app-feature-card_description p {
-			@apply text-lg;
-		}
-	}
-
-	@screen md {
-		.mobile-app-feature-card-border {
-			border-radius: 1.375rem;
-		}
-
-		.mobile-app-feature-card {
-			@apply flex-row;
-			@apply gap-4;
-		}
-
-		.mobile-app-feature-card_description {
-			@apply py-24;
-			@apply px-12;
-		}
-
-		.mobile-app-feature-card_description h3 {
-			@apply text-3xl;
-		}
-
-		.mobile-app-feature-card_description p {
-			@apply mt-8;
-		}
-
-		.mobile-app-feature-card_image {
-			/*@apply p-0;*/
-			/*@apply w-1/2;*/
-		}
-
-		.mobile-app-feature-card_image-cover {
-			@apply block;
-			@apply w-1/2;
-			@apply absolute;
-			@apply left-0;
-			@apply top-0;
-			@apply bottom-0;
-			@apply bg-gradient-to-r;
-			@apply from-white;
-		}
-
-		.mobile-app-feature-card_image img {
-			@apply rounded-r-2xl;
-			object-fit: cover;
-			object-position: 25%;
-		}
-	}
-
-	@screen lg {
-		.mobile-app-feature-card_image {
-			/*@apply w-3/5;*/
-		}
-
-		.mobile-app-feature-card_image-cover {
-			/*@apply w-full;*/
-		}
-
-		.mobile-app-feature-card_image img {
-			height: 500px;
-			/*object-fit: none;*/
-			/*object-position: 50% 50%;*/
-		}
-	}
-
-	@screen xl {
-		.mobile-app-feature-card_description {
-			@apply py-32;
-			@apply px-16;
-		}
-	}
-}
-
-@layer utilities {
-	[class*="backdrop-"] {
-		background-color: rgba(255, 255, 255, 0.9);
-	}
-
-	@supports ((-webkit-backdrop-filter: initial) or (backdrop-filter: initial)) {
-		[class*="backdrop-"] {
-			--uv-backdrop-blur: 0;
-			--uv-backdrop-saturate: 0;
-			-webkit-backdrop-filter: saturate(var(--uv-backdrop-saturate))
-				blur(var(--uv-backdrop-blur));
-			backdrop-filter: saturate(var(--uv-backdrop-saturate))
-				blur(var(--uv-backdrop-blur));
-			background-color: rgba(255, 255, 255, 0.72);
-		}
-		.backdrop-blur {
-			--uv-backdrop-blur: 20px;
-		}
-		.backdrop-saturate {
-			--uv-backdrop-saturate: 180%;
-		}
-	}
-}
-
-@layer components {
-	.zammad-chat-welcome {
-		display: flex;
-	}
-
-	.zammad-chat-welcome-text {
-		margin-left: 3px;
-	}
-
-	#menu-toggle-checkbox + div > label ~ nav {
-		background-color: transparent;
-	}
-	#menu-toggle-checkbox:checked + div > label ~ nav {
-		--tw-translate-x: 0;
-		background-color: white;
-	}
-
-	#menu-toggle-checkbox:checked + div + div {
-		--tw-translate-x: 0;
-	}
-
-	@screen navbar {
-		#menu-toggle-checkbox:checked + div > label ~ nav {
-			background-color: transparent;
-		}
-	}
-
-	#menu-toggle-checkbox + div > label > span:first-child {
-		width: 30px;
-		height: 18px;
-		position: relative;
-	}
-
-	#menu-toggle-checkbox + div > label > span > span {
-		padding: 0;
-		width: 30px;
-		height: 4px;
-		display: block;
-		border-radius: 4px;
-		transition: all 0.4s ease-in-out;
-		position: absolute;
-		background-color: #353535;
-	}
-
-	#menu-toggle-checkbox + div > label > span > span:nth-child(1) {
-		top: 0;
-		transition:
-			all 0.4s ease-in-out,
-			transform 0.4s ease-in-out 0.4s;
-	}
-
-	#menu-toggle-checkbox + div > label > span > span:nth-child(2) {
-		top: 6.5px;
-		width: 1px;
-		transform: rotate(90deg);
-		left: 6.5px;
-	}
-
-	#menu-toggle-checkbox + div > label > span > span:nth-child(3) {
-		top: 6.5px;
-		right: 0;
-		width: 1px;
-		left: 6.5px;
-	}
-
-	#menu-toggle-checkbox + div > label > span > span:nth-child(4) {
-		bottom: 0;
-		top: 6.5px;
-	}
-
-	#menu-toggle-checkbox + div > label > span > span:nth-child(5) {
-		bottom: 0;
-	}
-
-	#menu-toggle-checkbox:checked + div > label > span > span:nth-child(1) {
-		top: 6.5px;
-		background-color: transparent;
-	}
-
-	#menu-toggle-checkbox:checked + div > label > span > span:nth-child(2) {
-		left: 0;
-		width: 30px;
-		transform: rotate(45deg);
-	}
-
-	#menu-toggle-checkbox:checked + div > label > span > span:nth-child(3) {
-		left: 0;
-		width: 30px;
-		transform: rotate(-45deg);
-	}
-
-	#menu-toggle-checkbox:checked + div > label > span > span:nth-child(4) {
-		background-color: transparent !important;
-	}
-
-	#menu-toggle-checkbox:checked + div > label > span > span:nth-child(5) {
-		bottom: 6.5px;
-		background-color: transparent !important;
-	}
-
-	.navigation-item {
-		position: relative;
-		display: flex;
-		align-items: center;
-	}
-
-	.navigation-item.active::before {
-		content: "";
-		position: absolute;
-		width: 0;
-		height: 0;
-		border-left: 8px solid theme("colors.amber.300");
-		border-top: 8px solid transparent;
-		border-bottom: 8px solid transparent;
-		margin-left: -1rem;
-	}
-
-	@screen navbar {
-		.navigation-item {
-			display: block;
-		}
-		.navigation-item.active::before {
-			display: none;
-		}
-		.navigation-item.active::after {
-			width: 0;
-			height: 0;
-			position: absolute;
-			content: "";
-			display: block;
-			border-left: 8px solid transparent;
-			border-right: 8px solid transparent;
-			border-top: 8px solid theme("colors.amber.300");
-			left: 50%;
-			margin-left: -8px;
-		}
-	}
-}
-
-/* PREIS */
-@layer components {
 	body {
-		.section-self-hosted {
-			display: none;
-		}
+		/* TODO maybe set padding with env(safe-area-inset-top) to push ui above the ios tab bar?
+               -- https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Values/env */
 
-		&:has(.checkbox-switch > input:checked) {
-			.section-hosted {
-				display: none;
-			}
-			.section-self-hosted {
-				display: grid;
-			}
-		}
-	}
+		font-family: "Outfit", sans-serif;
 
-	.price {
-		.hosted-toggle-container {
-			display: flex;
-			align-items: center;
-			gap: 1rem;
-			@apply text-2xl;
+		/* note: safari uses this for tab-bar color (if enabled by user) */
+		background-color: var(--color-beige);
 
-			.hosted-toggle__label-hosted {
-				order: 1;
-			}
-
-			.checkbox-switch {
-				order: 2;
-			}
-
-			.hosted-toggle__label-self-hosted {
-				order: 3;
-			}
-		}
-
-		.hosted-toggle__label-hosted,
-		.hosted-toggle__label-self-hosted {
-			@apply text-gray-400;
-			font-weight: bold;
-		}
-
-		&:has(.checkbox-switch > input:not(:checked)) {
-			.hosted-toggle__label-hosted {
-				@apply text-black;
-			}
-		}
-
-		&:has(.checkbox-switch > input:checked) {
-			.hosted-toggle__label-self-hosted {
-				@apply text-black;
-			}
+		@variant dark {
+			/* note: safari uses this for tab-bar color (if enabled by user) */
+			background-color: var(--color-lila-dark);
 		}
 	}
 
-	.price-calculator {
-		label {
+	* {
+		/* TODO setting this globally ... good idea?!? */
+		hyphens: auto;
+		word-break: auto-phrase;
+	}
+
+	* > .font-basteleur {
+		font-size: 0.9em;
+	}
+
+	[id] {
+		scroll-margin-top: calc(var(--main-header-height) + --spacing(4));
+	}
+
+	@media (hover: hover) {
+		a,
+		button,
+		input:is([type="button"], [type="submit"], [type="file"]) {
+			z-index: 0;
+			outline-style: solid;
+			outline-width: 0;
+			outline-color: var(--button-outline-color);
+			outline-offset: 0;
+
 			cursor: pointer;
-		}
 
-		.price-calculator__subscription {
-			position: relative;
+			/* I think this isn't a good idea, is it? */
+			border-radius: var(--radius-full);
+			/* -- */
 
-			.discount {
-				@apply rounded-full;
-				@apply bg-blue-500;
-				@apply border-2 border-blue-200;
-				@apply text-blue-50;
-				@apply transition-all;
-				font-size: 0.8rem;
-				font-weight: bold;
-				padding: 0 1em;
-				position: absolute;
-				top: 0;
-				left: 0;
-				transform: translate(25%, -75%);
+			--transition-duration: 80ms;
 
-				@screen lg {
-					transform: translate(55%, -75%);
-				}
+			transition:
+				all var(--transition-duration) ease-in-out,
+				transform 150ms ease-in-out;
+			transition-behavior: allow-discrete;
+
+			&:focus-visible {
+				z-index: 1;
+				outline-width: 2px;
+				outline-offset: 2px;
 			}
 
-			label {
-				display: inline-block;
-				padding: 0.25rem 0.5rem;
-
-				@screen sm {
-					padding: 0.75rem 2rem;
-					@apply text-lg;
-				}
-
-				&.subscription-year {
-					@screen lg {
-						@apply rounded-l-full;
-						@apply bg-gradient-to-r from-white via-white to-white;
-						&:has(input:checked) {
-							@apply from-slate-200 via-slate-50;
-						}
-						&:not(:has(input:checked)) {
-							.discount {
-								@apply border-white;
-								@apply bg-blue-300;
-							}
-						}
-					}
-				}
-
-				&.subscription-month {
-					@screen lg {
-						@apply rounded-r-full;
-						@apply bg-gradient-to-l from-white via-white to-white;
-						&:has(input:checked) {
-							@apply from-slate-100 via-slate-50;
-						}
-					}
+			@media (hover: hover) {
+				&:hover {
+					z-index: 1;
+					outline-width: 2px;
+					outline-offset: 2px;
 				}
 			}
 		}
 	}
+}
 
-	.on-premise-card-container {
-		display: flex;
-		flex-direction: column;
-		gap: 2rem;
+@utility hover-no-outline {
+	&:focus-visible {
+		outline-width: 0;
+	}
 
-		.on-premise-card {
-			display: grid;
-			gap: 1rem;
-			padding: 2rem;
-			@apply border border-gray-100;
-			@apply rounded-lg;
-
-			.on-premise-card__title {
-				margin: 0;
-				font-weight: bold;
-			}
-
-			.on-premise-card__text {
-				margin: 0;
-			}
-
-			.on-premise-card__benefits {
-				margin: 0;
-				li {
-					display: flex;
-					gap: 0.5rem;
-				}
-			}
-		}
-
-		@screen md {
-			display: grid;
-			gap: 1rem;
-			grid-template-columns: 1fr 1fr 1fr;
-			grid-template-rows: auto auto auto auto;
-		}
-
-		@screen lg {
-			display: grid;
-			gap: 2rem;
-			grid-template-columns: 1fr 1fr 1fr;
-			grid-template-rows: auto auto auto auto;
-
-			.on-premise-card {
-				display: grid;
-				grid-row: 1 / -1;
-				grid-template-rows: subgrid;
-			}
+	@media (hover: hover) {
+		&:hover {
+			outline-width: 0;
 		}
 	}
+}
+
+@utility page-subgrid-full {
+	grid-column: 1 / -1;
+	display: grid;
+	grid-template-columns: subgrid;
+}
+
+@utility button--shadow {
+	box-shadow: 0 4px 4px rgba(0, 0, 0, 0.06);
 }

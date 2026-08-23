@@ -1,12 +1,13 @@
 ---
 draft: false
-layout: layout-neuigkeiten.hbs
+layout: layout-blog-article.hbs
 date: 2025-05-28
 title: Zeiterfassung 2.18.0 – Verbesserte Performance & Personensuche
 author: Andreas Weigel
 release-version: 2.18.0
-teaserImage: /static/teaser/2025-03-14/ZE-Release-2.18.0.png
 description: Release 2.18.0 verbessert die Performance der Zeiterfassung und behebt mehrere Fehler, darunter Probleme bei der Personensuche.
+tags:
+  - update
 ---
 
 Das **Release 2.18.0** bringt wichtige Verbesserungen für die **Performance** der Zeiterfassung, insbesondere im Bereich der **Datenbankoptimierung**. Außerdem wurden mehrere **Fehler** behoben, die die Benutzererfahrung beeinträchtigten.

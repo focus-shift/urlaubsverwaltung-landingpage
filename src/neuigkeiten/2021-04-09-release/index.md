@@ -1,11 +1,12 @@
 ---
 draft: false
-layout: layout-neuigkeiten.hbs
+layout: layout-blog-article.hbs
 date: 2021-04-09
 title: Version 4.15.0 veröffentlicht
 author: Benjamin Seber
 release-version: 4.15.0
-category: Aktualisierung
+tags:
+  - update
 ---
 
 Neue Features und Verbesserungen.

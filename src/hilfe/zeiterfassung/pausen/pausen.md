@@ -1,10 +1,10 @@
 ---
-layout: layout-wissensbasis
-breadcrumb:
-  - <a href="/hilfe/#dokumentation-zeiterfassung">Zeiterfassung</a>
-  - Pausen
 title: Pausen - Hilfe
 description: Hier findest du Hilfe zu dem Thema Pausen
+eleventyNavigation:
+  key: pausen
+  title: Pausen
+  parent: zeiterfassung
 ---
 
 # Pausen in der Zeiterfassung

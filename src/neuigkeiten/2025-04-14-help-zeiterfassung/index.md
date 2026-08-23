@@ -1,12 +1,14 @@
 ---
 draft: false
-layout: layout-neuigkeiten.hbs
+layout: layout-blog-article.hbs
 date: 2025-04-14
 title: Hilfe zur Zeiterfassung
 author: Tobias Schneider
 release-version: 2.20.0
-teaserImage: /static/teaser/2025-04-14/teaser-help.png
+teaserImage: teaser.png
 description: Im Avatar-Menü findest du jetzt einen direkten Zugang zur übersichtlich strukturierten Hilfe der Zeiterfassung mit Informationen zu Zeiteinträgen, Berichten, Personen und Feiertagen.
+tags:
+  - update
 ---
 
 Hilfe der Zeiterfassung. Die Hilfe ist übersichtlich in vier Bereiche unterteilt: Zeiteinträge, Berichte, Personen und Feiertage.

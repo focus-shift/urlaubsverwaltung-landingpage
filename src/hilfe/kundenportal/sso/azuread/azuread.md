@@ -1,11 +1,11 @@
 ---
-layout: layout-wissensbasis.hbs
 redirect_from: /hilfe/sso/azuread/
-breadcrumb:
-  - <a href="/hilfe/#dokumentation-kundenportal">Kundenportal</a>
-  - SSO mit Azure AD
 title: Azure AD - Single Sign-On (SSO) - Hilfe
 description: Single Sign-On (SSO) mit Azure EntraID bzw. Azure Active Directory (Azure AD) für urlaubsverwaltung.cloud
+eleventyNavigation:
+  key: azure-ad
+  title: Azure AD
+  parent: sso
 ---
 
 # Single Sign-On mit Azure Active Directory (Azure AD)

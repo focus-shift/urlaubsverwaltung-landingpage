@@ -1,12 +1,14 @@
 ---
 draft: false
-layout: layout-neuigkeiten.hbs
+layout: layout-blog-article.hbs
 date: 2024-06-21
 title: Einfach, digital und nachvollziehbar Krankmelden durch Mitarbeitende
 author: Daniel Fuchs
 release-version: 5.4.0
-teaserImage: /static/teaser/sicknote-by-user.png
+teaserImage: teaser.png
 description: Mitarbeitende können ihre Krankmeldung jetzt selbst eintragen. Die Einreichung wird an die zuständigen Personen weitergeleitet, die diese annehmen oder stornieren können. So wird der Prozess einfacher und nachvollziehbarer.
+tags:
+  - update
 ---
 
 Krankmelden direkt über die Urlaubsverwaltung: wenige Klicks statt aufwendiger Kommunikation, direkt über die urlaubsverwaltung.cloud.

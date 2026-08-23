@@ -1,12 +1,13 @@
 ---
 draft: false
-layout: layout-neuigkeiten.hbs
+layout: layout-blog-article.hbs
 date: 2025-04-30
 title: Urlaubsverwaltung 5.14.0 – Schneller!
 author: Andreas Weigel
 release-version: 5.14.0
-teaserImage: /static/teaser/2025-01-29/UV-Release-5.14.0.png
 description: Mit Version 5.14.0 wird die Benutzerübersicht deutlich schneller geladen, veralteter Code entfernt.
+tags:
+  - update
 ---
 
 **Release 5.14.0** der Urlaubsverwaltung bringt einige gezielte Verbesserungen unter der Haube mit sich: Die **Benutzerübersicht** lädt jetzt spürbar schneller.

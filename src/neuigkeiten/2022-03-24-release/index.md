@@ -1,11 +1,13 @@
 ---
 draft: false
-layout: layout-neuigkeiten.hbs
+layout: layout-blog-article.hbs
 date: 2022-03-24
 title: Überarbeitung der Überstundenübersicht
 author: Tobias Schneider
 release-version: 4.31.0
 description: Urlaubsverwaltung 4.31.0 veröffentlicht. Darin enthalten ist eine Überarbeitung der Überstundenübersicht.
+tags:
+  - update
 ---
 
 Bessere Nachvollziehbarkeit und Übersicht deiner Überstunden

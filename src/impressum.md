@@ -1,11 +1,8 @@
 ---
-layout: layout-subpage.hbs
+layout: layout-legal.hbs
 title: Impressum der urlaubsverwaltung.cloud
-backgroundColor: bg-white
 description: Impressum der urlaubsverwaltung.cloud
 ---
-
-<article>
 
 # Impressum
 
@@ -30,5 +27,3 @@ Trotz sorgfältiger inhaltlicher Kontrolle, übernimmt Focus Shift Software GmbH
 ## Urheberrecht
 
 Diese Website und alle darin enthaltenen Inhalte und Grafiken sind urheberrechtlich geschützt und unterliegen dem deutschen Urheberrecht. Jede Art der Vervielfältigung, Bearbeitung oder sonstige Verwertung außerhalb der engen Grenzen des Urheberrechtsgesetzes ist ohne schriftliche Zustimmung der Focus Shift Software GmbH unzulässig. Fremdbeiträge geben nicht unbedingt die Meinung von Focus Shift Software GmbH wieder. Andere auf dieser Webseite verwendete Marken- und Warenzeichen sind Eigentum ihrer jeweiligen Inhaber, deren Rechte ausschließlich bei den jeweiligen Unternehmen liegen.
-
-</article>

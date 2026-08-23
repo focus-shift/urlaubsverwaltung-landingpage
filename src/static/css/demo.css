@@ -1,0 +1,22 @@
+@reference "./config.css";
+
+@layer components {
+	.demo-carousel {
+		--demo-carousel-item-width: calc(16rem * 21 / 9);
+
+		scroll-snap-type: x mandatory;
+		scroll-behavior: smooth;
+
+		> ul {
+			padding-inline: calc(50% - var(--demo-carousel-item-width) / 2);
+		}
+
+		li {
+			flex-shrink: 0;
+
+			> div {
+				scroll-snap-align: center;
+			}
+		}
+	}
+}

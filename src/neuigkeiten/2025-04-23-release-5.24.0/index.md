@@ -1,12 +1,13 @@
 ---
 draft: false
-layout: layout-neuigkeiten.hbs
+layout: layout-blog-article.hbs
 date: 2025-06-13
 title: Urlaubsverwaltung 5.24.0 – Direkte Kommentare bei Abwesenheiten und Überstunden
 author: Andreas Weigel
 release-version: 5.24.0
-teaserImage: /static/teaser/2025-04-23/UV-Release-5.24.0.png
 description: Das Release 5.24.0 ermöglicht es einheitlich Kommentare ohne das Bearbeiten von Krankmeldungen, Urlaubsanträgen und Überstunden hinzuzufügen. Dies verbessert die Kommunikation und den Verlauf der Abwesenheiten.
+tags:
+  - update
 ---
 
 Das **Release 5.24.0** ermöglicht es einheitlich Kommentare ohne das Bearbeiten von Krankmeldungen, Urlaubsanträgen und Überstunden hinzuzufügen.

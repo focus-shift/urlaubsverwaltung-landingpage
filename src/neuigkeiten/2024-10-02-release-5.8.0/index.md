@@ -1,12 +1,13 @@
 ---
 draft: false
-layout: layout-neuigkeiten.hbs
+layout: layout-blog-article.hbs
 date: 2025-04-06
 title: Urlaubsverwaltung 5.8.0 – Verbesserte Krankmeldungsverwaltung
 author: Andreas Weigel
 release-version: 5.8.0
-teaserImage: /static/teaser/2024-10-02/UV-Release-5.8.0.png
 description: Mit Release 5.8.0 wird die Urlaubsverwaltung fit für Kubernetes 1.19 und höher. Zudem gibt es eine Erweiterung bei den Krankmeldungen für mehr Flexibilität.
+tags:
+  - update
 ---
 
 Das **Release 5.8.0** bringt bedeutende Verbesserungen für die **Krankmeldungsverwaltung** und **Benutzerfreundlichkeit** der Urlaubsverwaltung.

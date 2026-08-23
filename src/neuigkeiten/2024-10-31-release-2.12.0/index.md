@@ -1,12 +1,13 @@
 ---
 draft: false
-layout: layout-neuigkeiten.hbs
+layout: layout-blog-article.hbs
 date: 2025-04-09
 title: Zeiterfassung 2.12.0 – Verbesserungen bei Berichten und Fehlerbehebungen
 author: Andreas Weigel
 release-version: 2.12.0
-teaserImage: /static/teaser/2024-10-31/ZE-Release-2.12.0.png
 description: Release 2.12.0 verbessert die Handhabung von Berichten und behebt Fehler, die die Anzeige von Soll-Stunden und Übersetzungen betrafen.
+tags:
+  - update
 ---
 
 Das **Release 2.12.0** der Zeiterfassung bringt **wichtige Verbesserungen** in Bezug auf die **Berichtsfunktionen** und behebt mehrere **Bugs**, die die korrekte Anzeige von Soll-Stunden und Übersetzungen betrafen. Diese Version stellt sicher, dass Berichte noch benutzerfreundlicher sind und genauer arbeiten.

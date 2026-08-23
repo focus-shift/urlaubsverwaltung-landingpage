@@ -1,11 +1,8 @@
 ---
-layout: layout-subpage.hbs
+layout: layout-legal.hbs
 title: Datenschutz UV
-backgroundColor: bg-white
 description: Data privacy by design - weil Transparenz uns wichtig ist.
 ---
-
-<article>
 
 Stand: 12.05.2021
 
@@ -1069,5 +1066,3 @@ der Sie betreffenden personenbezogenen Daten gegen die DSGVO verstößt.
 Die Aufsichtsbehörde, bei der die Beschwerde eingereicht wurde, unterrichtet den
 Beschwerdeführer über den Stand und die Ergebnisse der Beschwerde, einschließlich der
 Möglichkeit eines gerichtlichen Rechtsbehelfs nach Art. 78 DSGVO.
-
-</article>

@@ -1,11 +1,13 @@
 ---
 draft: false
-layout: layout-neuigkeiten.hbs
+layout: layout-blog-article.hbs
 date: 2024-05-17
 title: Globale Feiertagsregelung in der Zeiterfassung
 author: Tobias Schneider
 release-version: 2.3.0
 description: Update der Zeiterfassung bringt globale Feiertagsregelung
+tags:
+  - update
 ---
 
 Globale Feiertagsregelungen und Arbeitszeiten zentral für dein Unternehmen festlegen. Diese Einstellungen gelten als Standard für alle Mitarbeitenden und können bei Bedarf individuell angepasst werden.

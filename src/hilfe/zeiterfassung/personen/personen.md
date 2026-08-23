@@ -1,10 +1,10 @@
 ---
-layout: layout-wissensbasis.hbs
-breadcrumb:
-  - <a href="/hilfe/#dokumentation-zeiterfassung">Zeiterfassung</a>
-  - Personen
 title: Personen - Hilfe
 description: Hier findest du Hilfe zu dem Thema Personen
+eleventyNavigation:
+  key: personen
+  title: Personen
+  parent: zeiterfassung
 ---
 
 # Personen und deren Berechtigungen, Arbeitszeiten und Überstundenregelung in der Zeiterfassung

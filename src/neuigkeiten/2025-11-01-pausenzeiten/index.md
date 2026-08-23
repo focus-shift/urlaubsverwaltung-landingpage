@@ -1,12 +1,14 @@
 ---
 draft: false
-layout: layout-neuigkeiten.hbs
+layout: layout-blog-article.hbs
 date: 2025-11-01
 title: Zeiterfassung 2.24.0 – Korrekte Verrechnung von Arbeits- und Pausenzeiten
 author: Andreas Weigel
 release-version: 2.24.0
-teaserImage: 2025-11-01-pausenzeiten/ZE_V_2.24.0.png
+teaserImage: teaser.png
 description: Mit Version 2.24.0 wird die Verrechnung von Arbeits- und Pausenzeiten überarbeitet
+tags:
+  - update
 ---
 
 Mit dem neuesten Update unserer Zeiterfassung führen wir eine wichtige Änderung ein, die sowohl die rechtliche

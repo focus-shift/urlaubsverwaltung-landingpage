@@ -1,12 +1,13 @@
 ---
 draft: false
-layout: layout-neuigkeiten.hbs
+layout: layout-blog-article.hbs
 date: 2025-08-22
 title: Urlaubsverwaltung 5.28.0 – Brandneue Statistik zu Krankmeldungen
 author: Daniel Fuchs
 release-version: 5.28.0
-teaserImage: 2025-08-22-release-5.28.0/uv-release-5.28.0.png
 description: Mit Version 5.28.0 wurden die Statistik zu Krankmeldungen überarbeitet und komplett neu gedacht
+tags:
+  - update
 ---
 
 Im Release **5.28.0** wurden die Statistiken zu Krankmeldungen überarbeitet und komplett neu gedacht.

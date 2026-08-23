@@ -1,12 +1,13 @@
 ---
 draft: false
-layout: layout-neuigkeiten.hbs
+layout: layout-blog-article.hbs
 date: 2024-10-02
 title: Konsistente Darstellung von erfassten Zeiten und Uhrzeiten im CSV Export
 author: Andreas Weigel
 release-version: 2.8.0
-teaserImage: /static/teaser/2024-10-02/ZE-Release-2.8.0.png
 description: Kon Uhrzeiten werden exportiert
+tags:
+  - update
 ---
 
 In der Berichtübersicht werden die Summen nicht mehr in Industriestunden, sondern lesbar dargestellt.

@@ -1,11 +1,13 @@
 ---
 draft: false
-layout: layout-neuigkeiten.hbs
+layout: layout-blog-article.hbs
 date: 2021-11-19
 title: Onboarding bei der urlaubsverwaltung.cloud
 author: Daniel Fuchs
-teaserImage: /static/img/onboarding.jpg
+teaserImage: onboarding.jpg
 description: Damit der Einstieg reibungslos verläuft, haben wir eine kleine Artikelserie zusammengestellt, die die verschiedenen Möglichkeiten zum Onboarding beschreibt.
+tags:
+  - blog
 ---
 
 Damit der Einstieg reibungslos verläuft, haben wir eine kleine Artikelserie zusammengestellt, die die verschiedenen Möglichkeiten zum Onboarding beschreibt.
@@ -17,7 +19,7 @@ Direkt eins vorweg: Lehne dich zurück! Wir ermöglichen dir den passenden Einst
 
 <div class="flex flex-col items-center mt-2 lg:flex-row lg:space-x-8 lg:mb-8">
     <img class="mx-auto lg:max-w-md lg:h-72"
-      src="/static/img/onboarding.jpg"
+      src="onboarding.jpg"
       alt="Herzlich Willkommen"
     />
   <div class="max-w-none lg:max-w-screen">

@@ -1,12 +1,13 @@
 ---
 draft: false
-layout: layout-neuigkeiten.hbs
+layout: layout-blog-article.hbs
 date: 2025-05-30
 title: Urlaubsverwaltung 5.21.0 – Wir können nun Singular und Plural!
 author: Andreas Weigel
 release-version: 5.21.0
-teaserImage: /static/teaser/2025-03-14/UV-Release-5.21.0.png
 description: Wir können nun Singular und Plural!
+tags:
+  - update
 ---
 
 Mit dem **Release 5.21.0** der Urlaubsverwaltung wird die **Darstellung von Tagen und Stunden** verbessert.

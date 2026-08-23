@@ -55,6 +55,23 @@ Jeder commit auf den Branch `main` wird automatisiert gebaut, auf den `gh-pages`
 
 siehe `.github/workflows/deployment.yml`
 
+## Hilfreiches
+
+### Bilder optimieren
+
+Resize image, cut file size:
+
+```bash
+ffmpeg -i source.jpg -vf scale=2000:-1 -q:v 3 out.jpg
+```
+
+Visually lossless, big win (`ffmpeg`): drop to 4:2:0 chroma + high quality factor. Eye can't tell diff, file shrinks a lot.  
+`-q:v 2` = near-max quality (scale 2-31, lower better).
+
+```bash
+ffmpeg -i source.jpg -q:v 2 -pix_fmt yuv420p out.jpg
+```
+
 ## Bilder & Icons
 
 - [Bild-Optimierung](https://squoosh.app/)

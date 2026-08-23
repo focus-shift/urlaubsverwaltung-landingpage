@@ -1,11 +1,13 @@
 ---
 draft: false
-layout: layout-neuigkeiten.hbs
+layout: layout-blog-article.hbs
 date: 2021-10-20
 title: Verbesserte Urlaubs-Übersicht // Hilfe direkt aus der Urlaubsverwaltung
 author: Tobias Schneider
 release-version: 4.25.0
 description: Urlaubsverwaltung 4.25.0 veröffentlicht. Darin enthalten sind eine Verbesserte Urlaubs-Übersicht, sowie Hilfe direkt aus der Urlaubsverwaltung
+tags:
+  - update
 ---
 
 _Version 4.25.0 veröffentlicht_

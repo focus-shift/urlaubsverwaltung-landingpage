@@ -1,12 +1,13 @@
 ---
 draft: false
-layout: layout-neuigkeiten.hbs
+layout: layout-blog-article.hbs
 date: 2025-05-21
 title: Urlaubsverwaltung 5.19.0 veröffentlicht – verbesserte Benachrichtigungen und neue Antwortfunktionen
 author: Andreas Weigel
 release-version: 5.19.0
-teaserImage: /static/teaser/2025-03-07/UV-Release-5.19.0.png
 description: Das Update 5.19.0 verbessert die **Benachrichtigungen** in der Urlaubsverwaltung - Antwortmöglichkeiten auf Antragssteller und Benachrichtigungen für privilegierte Personen bei Änderungen von Krankmeldungen.
+tags:
+  - update
 ---
 
 Mit der neuen Version **5.19.0** der Urlaubsverwaltung werden gleich zwei wichtige Verbesserungen eingeführt,

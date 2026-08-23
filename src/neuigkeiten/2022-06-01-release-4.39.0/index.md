@@ -1,11 +1,13 @@
 ---
 draft: false
-layout: layout-neuigkeiten.hbs
+layout: layout-blog-article.hbs
 date: 2022-06-01
 title: 🌈 Jetzt wirds bunt! Neue Farben und Sichtbarkeiten der Abwesenheitsarten
 author: Andreas Weigel
 release-version: 4.39.0
 description: 🌈 Jetzt wirds bunt! Individuelle Farben und Sichtbarkeiten für deine Abwesenheitsarten
+tags:
+  - update
 ---
 
 Die Farbe und Sichtbarkeit einer Abwesenheitsart können ab sofort individuell konfiguriert werden.

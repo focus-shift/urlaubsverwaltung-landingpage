@@ -1,12 +1,13 @@
 ---
 draft: false
-layout: layout-neuigkeiten.hbs
+layout: layout-blog-article.hbs
 date: 2025-06-11
 title: Urlaubsverwaltung 5.23.0 – Abwesenheitsstatistik einsehen und Fehlerbehebungen
 author: Andreas Weigel
 release-version: 5.23.0
-teaserImage: /static/teaser/2025-03-28/UV-Release-5.23.0.png
 description: Release 5.23.0 ermöglicht es Benutzern, die Abwesenheitsstatistik einzusehen, und behebt Fehler bei den Demodaten und der Erstellung von negativen Überstunden.
+tags:
+  - update
 ---
 
 Das **Release 5.23.0** der **Urlaubsverwaltung** bringt spannende neue **Funktionen** sowie **Verbesserungen**.
