@@ -5,6 +5,7 @@ date: 2022-10-26
 title: Überschreiben der Browsersprache in den Personalisierungen
 author: Tobias Schneider
 description: Überschreiben der Browsersprache in den Personalisierungen
+category: update
 ---
 
 Wir erweitern für euch die Personalisierung, sodass ihr die Sprache unabhängig der Browsersprache konfigurieren könnt.

@@ -7,6 +7,7 @@ author: Andreas Weigel
 release-version: 2.11.0
 teaserImage: /static/teaser/2024-10-30/ZE-Release-2.11.0.png
 description: Darstellung der ausgewählten Mitarbeitenden, Zeiteintrag über Mitternacht und Monatsansicht für 8h Eintrag
+category: update
 ---
 
 🕒 Neue Features in der Zeiterfassung Version 2.11.0! Jetzt mit Avatar-Icons für eine bessere Übersicht, präziser Monatsansicht und exakten Summen bei Nachteinträgen.

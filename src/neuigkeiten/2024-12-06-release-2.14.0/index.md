@@ -7,6 +7,7 @@ author: Andreas Weigel
 release-version: 2.14.0
 teaserImage: /static/teaser/2024-12-06/ZE-Release-2.14.0.png
 description: Release 2.14.0 bringt neue Feiertage für Washington, D.C., Virginia und Maryland sowie Bugfixes für verbesserte Stabilität.
+category: update
 ---
 
 Das **Release 2.14.0** der Zeiterfassung bringt spannende neue Funktionen und wichtige Bugfixes mit sich. Besonders hervorzuheben sind die **neuen Feiertage** für **Washington, D.C., Virginia und Maryland**, die nun offiziell in der Zeiterfassung berücksichtigt werden. Zusätzlich wurden einige Bugs behoben, welche die Nutzung der Zeiterfassung noch zuverlässiger machen.

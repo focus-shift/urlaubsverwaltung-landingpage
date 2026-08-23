@@ -7,6 +7,7 @@ author: Andreas Weigel
 release-version: 5.12.0
 teaserImage: /static/teaser/2025-01-17/UV-Release-5.12.0.png
 description: Mit Version 5.12.0 führt die Urlaubsverwaltung ein neues Backup- und Restore-Feature ein, das den Wechsel von On-Premise zur Cloud erleichtert. Die Daten werden DSGVO-konform in Deutschland verarbeitet und regelmäßig gesichert.
+category: update
 ---
 
 Die Version **5.12.0** bringt ein besonders spannendes neues Feature für alle welche von On-Premise auf urlaubsverwaltung.cloud wechseln möchten.

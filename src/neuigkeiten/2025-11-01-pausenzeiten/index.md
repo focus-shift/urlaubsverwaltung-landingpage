@@ -7,6 +7,7 @@ author: Andreas Weigel
 release-version: 2.24.0
 teaserImage: 2025-11-01-pausenzeiten/ZE_V_2.24.0.png
 description: Mit Version 2.24.0 wird die Verrechnung von Arbeits- und Pausenzeiten überarbeitet
+category: update
 ---
 
 Mit dem neuesten Update unserer Zeiterfassung führen wir eine wichtige Änderung ein, die sowohl die rechtliche

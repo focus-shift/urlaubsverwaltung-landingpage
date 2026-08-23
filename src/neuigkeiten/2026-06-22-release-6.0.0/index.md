@@ -7,6 +7,7 @@ author: Tobias Schneider
 release-version: 6.0.0
 teaserImage: 2026-06-22-release-6.0.0/uv-release-6.0.0.png
 description: Die Urlaubsverwaltung 6.0.0 bringt das bislang größte Benutzeroberflächen-Update der Anwendung und macht viele tägliche Arbeitsabläufe noch einfacher und effizienter.
+category: update
 ---
 
 Das neue Major-Release Urlaubsverwaltung 6.0.0 ist ab sofort verfügbar. Mit dieser Version wurde die Benutzeroberfläche

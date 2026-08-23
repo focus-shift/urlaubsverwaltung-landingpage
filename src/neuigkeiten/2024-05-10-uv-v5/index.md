@@ -7,6 +7,7 @@ author: Daniel Fuchs
 release-version: 5.0.0
 teaserImage: /static/teaser/2024-05-10/uv521.png
 description: Update der Urlaubsverwaltung bringt individuelle Abwesenheitsarten und vieles mehr
+category: update
 ---
 
 Mit einem Update der Urlaubsverwaltung stehen nun einige neue Funktionen und Verbesserungen bereit.

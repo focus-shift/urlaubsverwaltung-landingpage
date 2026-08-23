@@ -7,6 +7,7 @@ author: Andreas Weigel
 release-version: 5.7.0
 teaserImage: /static/teaser/2024-09-20/Release-5.7.0.png
 description: AU Bescheinigung darf Krankmeldung überschreiten
+category: update
 ---
 
 Der Zeitraum der AU Bescheinigung darf ab jetzt den Zeitraum der Krankmeldung überschreiten.

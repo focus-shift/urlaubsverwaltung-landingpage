@@ -7,6 +7,7 @@ author: Andreas Weigel
 release-version: 5.20.0
 teaserImage: /static/teaser/2025-03-11/UV-Release-5.20.0.png
 description: Das Update 5.20.0 bietet spannende Verbesserungen, darunter eine genauere Arbeitszeitangabe im Kalender, Anpassungen bei Bestätigungs-E-Mails und verbesserte Weiterleitungen für Abteilungsleiter.
+category: update
 ---
 
 Mit **Version 5.20.0** der Urlaubsverwaltung werden gleich mehrere wichtige Verbesserungen eingeführt,

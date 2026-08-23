@@ -7,6 +7,7 @@ author: Andreas Weigel
 release-version: 4.71.0
 teaserImage: /static/kroatien.png
 description: Kroatische Feiertage für eine einfache Urlaubsplanung
+category: update
 ---
 
 Homeoffice im Ausland? Workation? Oder einfach nur Urlaub? Die Urlaubsverwaltung bietet nun auch Feiertage für Kroatien an.

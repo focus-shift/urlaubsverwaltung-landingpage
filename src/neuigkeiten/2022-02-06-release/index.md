@@ -6,6 +6,7 @@ title: Willkommen auf der dunklen Seite
 author: Benjamin Seber
 release-version: 4.30.0
 description: Urlaubsverwaltung 4.30.0 veröffentlicht. Darin enthalten ist ein neues Theme, das sich an deinen Systemeinstellungen orientiert.
+category: update
 ---
 
 Mit Version 4.30.0 macht die Urlaubsverwaltung den Schritt zur dunklen Seite. Machst du ihn mit?

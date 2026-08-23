@@ -7,6 +7,7 @@ author: Andreas Weigel
 release-version: 5.21.0
 teaserImage: /static/teaser/2025-03-14/UV-Release-5.21.0.png
 description: Wir können nun Singular und Plural!
+category: update
 ---
 
 Mit dem **Release 5.21.0** der Urlaubsverwaltung wird die **Darstellung von Tagen und Stunden** verbessert.

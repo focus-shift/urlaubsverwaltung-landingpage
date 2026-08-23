@@ -7,6 +7,7 @@ author: Tobias Schneider
 release-version: 5.25.0
 teaserImage: 2025-05-02-release-5.25.0/uv-5.25.0.png
 description: Mit Version 5.25.0 wurden die Einstellungen aufgeteilt und die Berechtigungen für Abteilungsleiter und Freigabe-Verantwortliche angepasst. Diese dürfen nun auch Abwesenheiten editieren.
+category: update
 ---
 
 Im Release **5.25.0** haben wir die Einstellungen in Unterkategorien aufgeteilt und die Berechtigungen für Abteilungsleiter und Freigabe-Verantwortliche angepasst.

@@ -7,6 +7,7 @@ author: Andreas Weigel
 release-version: 5.23.0
 teaserImage: /static/teaser/2025-03-28/UV-Release-5.23.0.png
 description: Release 5.23.0 ermöglicht es Benutzern, die Abwesenheitsstatistik einzusehen, und behebt Fehler bei den Demodaten und der Erstellung von negativen Überstunden.
+category: update
 ---
 
 Das **Release 5.23.0** der **Urlaubsverwaltung** bringt spannende neue **Funktionen** sowie **Verbesserungen**.

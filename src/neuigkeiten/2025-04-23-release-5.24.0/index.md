@@ -7,6 +7,7 @@ author: Andreas Weigel
 release-version: 5.24.0
 teaserImage: /static/teaser/2025-04-23/UV-Release-5.24.0.png
 description: Das Release 5.24.0 ermöglicht es einheitlich Kommentare ohne das Bearbeiten von Krankmeldungen, Urlaubsanträgen und Überstunden hinzuzufügen. Dies verbessert die Kommunikation und den Verlauf der Abwesenheiten.
+category: update
 ---
 
 Das **Release 5.24.0** ermöglicht es einheitlich Kommentare ohne das Bearbeiten von Krankmeldungen, Urlaubsanträgen und Überstunden hinzuzufügen.

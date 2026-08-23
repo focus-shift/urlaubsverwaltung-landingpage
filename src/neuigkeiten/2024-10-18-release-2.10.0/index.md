@@ -7,6 +7,7 @@ author: Andreas Weigel
 release-version: 2.10.0
 teaserImage: /static/teaser/2024-10-18/ZE-Release-2.10.0.png
 description: Kon Uhrzeiten werden exportiert
+category: update
 ---
 
 Im Release 2.10.0 der Zeiterfassung wurden kleine Veränderung in der Darstellung der Einträge im Bericht vorgenommen.

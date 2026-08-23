@@ -7,6 +7,7 @@ author: Daniel Fuchs
 release-version: 5.4.0
 teaserImage: /static/teaser/sicknote-by-user.png
 description: Mitarbeitende können ihre Krankmeldung jetzt selbst eintragen. Die Einreichung wird an die zuständigen Personen weitergeleitet, die diese annehmen oder stornieren können. So wird der Prozess einfacher und nachvollziehbarer.
+category: update
 ---
 
 Krankmelden direkt über die Urlaubsverwaltung: wenige Klicks statt aufwendiger Kommunikation, direkt über die urlaubsverwaltung.cloud.

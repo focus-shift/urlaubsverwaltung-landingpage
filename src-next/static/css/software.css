@@ -1,0 +1,47 @@
+@reference "./config.css";
+
+body:has([id="focusapp"]:target) a[href="#focusapp"],
+body:has([id="single-sign-on"]:target) a[href="#single-sign-on"],
+body:has([id="arbeitszeiterfassung"]:target) a[href="#arbeitszeiterfassung"],
+body:has([id="abwesenheitsarten"]:target) a[href="#abwesenheitsarten"],
+body:has([id="teamuebersicht"]:target) a[href="#teamuebersicht"],
+body:has([id="ueberstunden"]:target) a[href="#ueberstunden"],
+body:has([id="krankmeldungen"]:target) a[href="#krankmeldungen"],
+body:has([id="kalenderintegration"]:target) a[href="#kalenderintegration"],
+body:has([id="kalender"]:target) a[href="#kalender"] {
+	background-color: var(--color-green);
+	color: var(--color-black);
+}
+
+[id="focusapp"]:target,
+[id="single-sign-on"]:target,
+[id="arbeitszeiterfassung"]:target,
+[id="abwesenheitsarten"]:target,
+[id="teamuebersicht"]:target,
+[id="ueberstunden"]:target,
+[id="krankmeldungen"]:target,
+[id="kalenderintegration"]:target,
+[id="kalender"]:target {
+	outline: 3px solid var(--color-green);
+	outline-offset: --spacing(4);
+	border-radius: var(--radius-lg);
+}
+
+@layer components {
+	.features-grid {
+		& > .feature-card {
+			grid-column-end: span 4;
+		}
+
+		.feature-card__image {
+			margin-block-start: --spacing(4);
+
+			background-color: var(--color-beige);
+			border-radius: var(--radius-2xl);
+
+			width: 100%;
+			height: 300px;
+			aspect-ratio: var(--aspect-video);
+		}
+	}
+}

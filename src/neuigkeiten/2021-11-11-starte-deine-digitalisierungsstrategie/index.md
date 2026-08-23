@@ -6,6 +6,7 @@ title: Starte deine Digitalisierung - Urlaub, Krankmeldungen, Überstunden digit
 author: Tobias Schneider
 teaserImage: /static/urlaubsverwaltung.png
 description: Starte deine Digitalisierungsstrategie - Urlaub, Krankmeldungen und Überstunden digital abbilden
+category: blog
 ---
 
 _Abwesenheitsverwaltung als Software as a Service (Saas) erleichtert kleinen und mittelständischen Unternehmen die

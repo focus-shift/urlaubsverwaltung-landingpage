@@ -7,6 +7,7 @@ author: Andreas Weigel
 release-version: 5.15.0
 teaserImage: /static/teaser/2025-01-30/UV-Release-5.15.0.png
 description: Version 5.15.0 verbessert die Datenbankabfragen in PostgreSQL durch gezielte Foreign Key Indexierung – ein wichtiger Schritt zu besserer Skalierbarkeit und Geschwindigkeit.
+category: update
 ---
 
 Mit dem **Release 5.15.0** legt die Urlaubsverwaltung den Fokus auf eine technische Optimierung im Hintergrund.
