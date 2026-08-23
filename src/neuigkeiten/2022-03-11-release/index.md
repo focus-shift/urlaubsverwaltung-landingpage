@@ -6,6 +6,7 @@ title: Kalimera Griechenland - Griechische Feiertage und Übersetzung
 author: Tobias Schneider
 release-version: 4.33.0
 description: Urlaubsverwaltung 4.33.0 veröffentlicht. Darin enthalten sind griechische Feiertage und Übersetzung.
+category: update
 ---
 
 Die Urlaubsverwaltung nun auch in Griechenland!

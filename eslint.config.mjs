@@ -9,13 +9,13 @@ export default [
 	pluginJs.configs.recommended,
 	eslintPluginPrettierRecommended,
 	{
-		files: ["src/**", "static/**"],
+		files: ["src/**", "src-next/**", "static/**"],
 		languageOptions: {
 			globals: globals.browser,
 		},
 	},
 	{
-		files: ["!src/**", "!static/**"],
+		files: [".eleventy.js", "!src/**", "!static/**"],
 		languageOptions: {
 			globals: globals.node,
 		},

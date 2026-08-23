@@ -6,6 +6,7 @@ title: Überarbeitung der Überstundenübersicht
 author: Tobias Schneider
 release-version: 4.31.0
 description: Urlaubsverwaltung 4.31.0 veröffentlicht. Darin enthalten ist eine Überarbeitung der Überstundenübersicht.
+category: update
 ---
 
 Bessere Nachvollziehbarkeit und Übersicht deiner Überstunden

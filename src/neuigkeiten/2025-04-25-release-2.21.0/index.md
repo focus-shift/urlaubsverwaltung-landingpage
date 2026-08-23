@@ -7,6 +7,7 @@ author: Tobias Schneider
 release-version: 2.21.0
 teaserImage: /static/teaser/2025-06-18/ZE-Release-2.21.0.png
 description: Mit Version 2.21.0 können Zeiteinträge für Mitarbeitende festgeschrieben werden.
+category: update
 ---
 
 Release **2.21.0** bringt das Festschreiben von Zeiteinträgen.

@@ -6,6 +6,7 @@ title: 🌈 Jetzt wirds bunt! Neue Farben und Sichtbarkeiten der Abwesenheitsart
 author: Andreas Weigel
 release-version: 4.39.0
 description: 🌈 Jetzt wirds bunt! Individuelle Farben und Sichtbarkeiten für deine Abwesenheitsarten
+category: update
 ---
 
 Die Farbe und Sichtbarkeit einer Abwesenheitsart können ab sofort individuell konfiguriert werden.

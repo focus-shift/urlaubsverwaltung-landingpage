@@ -6,6 +6,7 @@ title: Neue Abwesenheitsarten braucht die Urlaubsverwaltung!
 author: Tobias Schneider
 release-version: 4.27.0
 description: Urlaubsverwaltung 4.27.0 veröffentlicht. Darin enthalten sind neue Abwesenheitsarten, die du in den Einstellungen aktivieren kannst.
+category: update
 ---
 
 _Version 4.27.0 veröffentlicht_

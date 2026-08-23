@@ -1,3 +1,6 @@
+import fs from "node:fs";
+import path from "node:path";
+import Handlebars from "handlebars";
 import { format } from "date-fns/format";
 import { de } from "date-fns/locale/de";
 import markdown from "markdown-it";
@@ -7,15 +10,18 @@ import pluginRss from "@11ty/eleventy-plugin-rss";
 import handlebarsPlugin from "@11ty/eleventy-plugin-handlebars";
 import { eleventyImageTransformPlugin } from "@11ty/eleventy-img";
 import htmlmin from "html-minifier-terser";
+import eleventyNavigationPlugin from "@11ty/eleventy-navigation";
 
 const markdownIt = markdown();
 
 const paths = {
-	input: "src",
+	input: "src-next",
 	output: process.env.npm_package_config_outdir,
 };
 
 const prod = process.env.NODE_ENV === "production";
+
+const excerptSeparator = "<!-- more -->";
 
 const isDraft = draft => (draft === "" ? true : Boolean(draft));
 
@@ -35,10 +41,11 @@ const isPublished = post =>
 export default function (eleventyConfig) {
 	eleventyConfig.setTemplateFormats(["njk", "hbs", "md", "html", "txt"]);
 	eleventyConfig.addPassthroughCopy(
-		"./src/**/*.{png,jpg,jpeg,webp,avif,mp4,xml,svg}",
+		`./${paths.input}/**/*.{png,jpg,jpeg,webp,avif,mp4,xml,svg}`,
 	);
-	eleventyConfig.addPassthroughCopy({ "./public/static": "static" });
+	eleventyConfig.addPassthroughCopy(`./${paths.input}/static/fonts/**/*`);
 
+	eleventyConfig.addPlugin(eleventyNavigationPlugin);
 	eleventyConfig.addPlugin(pluginRss);
 	eleventyConfig.addPlugin(eleventyImageTransformPlugin, {
 		formats: ["webp", "jpg"],
@@ -65,7 +72,7 @@ export default function (eleventyConfig) {
 	eleventyConfig.setFrontMatterParsingOptions({
 		excerpt: true,
 		excerpt_alias: "excerpt",
-		excerpt_separator: "<!-- more -->",
+		excerpt_separator: excerptSeparator,
 	});
 
 	eleventyConfig.setLibrary(
@@ -82,12 +89,38 @@ export default function (eleventyConfig) {
 
 	eleventyConfig.addPlugin(handlebarsPlugin);
 
+	// Workaround for @11ty/eleventy-plugin-handlebars@1.0.0: it caches partials and
+	// only re-registers them on "eleventy.resourceModified" — but that event is
+	// emitted on Eleventy's internal eventBus, while the plugin (and any config) can
+	// only listen on config.events, so the listener never fires and edited partials
+	// stay stale during `--serve`. Re-register them ourselves before each rebuild.
+	// Handlebars is a shared singleton, so this hits the plugin's instance.
+	eleventyConfig.on("eleventy.beforeWatch", () => {
+		const includesDir = `${paths.input}/_includes`;
+		for (const entry of fs.readdirSync(includesDir, { recursive: true })) {
+			if (!entry.endsWith(".hbs")) continue;
+			const name = entry.replace(/\\/g, "/").replace(/\.hbs$/, "");
+			const content = fs.readFileSync(path.join(includesDir, entry), "utf8");
+			Handlebars.registerPartial(name, content);
+		}
+	});
+
+	// Handlebars.registerHelper("eq", (a, b) => a === b);
+
 	eleventyConfig.addShortcode("debug", function (...args) {
 		console.log(...args);
 	});
 
 	eleventyConfig.addShortcode("date", function (date, formatFunction) {
 		return format(date, formatFunction, { locale: de });
+	});
+
+	eleventyConfig.addShortcode("orElse", function (value, fallback) {
+		return value || fallback;
+	});
+
+	eleventyConfig.addShortcode("addOne", function (value) {
+		return value + 1;
 	});
 
 	// check if a given value equals some of the following values
@@ -103,13 +136,29 @@ export default function (eleventyConfig) {
 		return markdownIt.render(text);
 	});
 
-	eleventyConfig.addCollection("blogposts", function (collection) {
+	eleventyConfig.addShortcode("excerptContent", function (excerpt) {
+		return markdownIt.render(excerpt);
+	});
+
+	eleventyConfig.addShortcode("restContent", function (content, excerpt) {
+		const excerptHtml = markdownIt.render(excerpt);
+		return content.startsWith(excerptHtml)
+			? content.slice(excerptHtml.length)
+			: content;
+	});
+
+	function getBlogPosts(collection) {
 		const allBlogPosts = collection
-			.getFilteredByGlob("./src/neuigkeiten/**/*.md")
+			.getFilteredByGlob(`./${paths.input}/neuigkeiten/**/*.md`)
+			// newsest first
 			.reverse();
 
 		return prod ? allBlogPosts.filter(isPublished) : allBlogPosts;
-	});
+	}
+
+	eleventyConfig.addCollection("neuigkeiten", collection =>
+		getBlogPosts(collection),
+	);
 
 	eleventyConfig.addShortcode("toc", function (data) {
 		function renderNode(node) {
@@ -165,8 +214,8 @@ export default function (eleventyConfig) {
 		return Math.round(diffTime / oneDay);
 	});
 
-	eleventyConfig.addWatchTarget("src/static/js/**/*.js");
-	eleventyConfig.addWatchTarget("src/static/css/**/*.css");
+	eleventyConfig.addWatchTarget(`${paths.input}/static/js/**/*.js`);
+	eleventyConfig.addWatchTarget(`${paths.input}/static/css/**/*.css`);
 
 	return {
 		dir: {

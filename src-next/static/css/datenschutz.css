@@ -1,0 +1,151 @@
+@reference "./config.css";
+
+.section-hero {
+	padding-block-start: calc(var(--main-header-height) + --spacing(5));
+	padding-block-end: --spacing(14);
+
+	grid-column: 1 / -1;
+	display: grid;
+	grid-template-columns: subgrid;
+
+	& > div {
+		grid-column: 1 / -1;
+	}
+
+	.section-hero__image {
+		place-self: start;
+	}
+
+	.section-hero__title {
+		padding-inline: var(--spacing-page-grid-gap);
+		padding-block: --spacing(16);
+	}
+
+	.section-hero__text {
+		position: relative;
+		padding-inline: var(--spacing-page-grid-gap);
+
+		.dot-visual {
+			left: 0;
+			top: calc(-1 * --spacing(8));
+		}
+	}
+
+	@variant md {
+		.section-hero__image {
+			grid-column: 1 / span 4;
+		}
+
+		.section-hero__title {
+			grid-column: 5 / -1;
+			padding-block: 0;
+			align-self: end;
+		}
+
+		.section-hero__text {
+			grid-column: 2 / -2;
+			margin-block-start: --spacing(32);
+			padding-inline: 0;
+
+			.dot-visual {
+				left: calc(-1 * --spacing(12));
+				top: calc(-1 * --spacing(19));
+			}
+		}
+	}
+
+	@variant lg {
+		.section-hero__image {
+			grid-column: 1 / span 5;
+		}
+
+		.section-hero__title {
+			grid-column: 6 / -1;
+		}
+
+		.section-hero__text {
+			grid-column: 2 / span 5;
+			margin-block-start: --spacing(64);
+
+			.dot-visual {
+				left: calc(-1 * --spacing(12));
+				top: calc(-1 * --spacing(38));
+			}
+		}
+	}
+}
+
+.article-datenschutz {
+	.section-datenschutz {
+		font-size: var(--text-lg);
+		line-height: var(--text-lg--line-height);
+
+		h2,
+		h3 {
+			color: var(--color-lila);
+			font-size: var(--text-2xl);
+			line-height: var(--text-2xl--line-height);
+			margin-block: --spacing(8);
+		}
+
+		p {
+			margin-block: --spacing(2);
+		}
+
+		ul {
+			list-style: disc;
+			margin-inline-start: 1.25rem;
+			margin-block: --spacing(4);
+
+			ul {
+				margin-block: 0;
+			}
+		}
+
+		table {
+			--border: 1px solid var(--color-beige);
+
+			thead th {
+				text-align: left;
+				border-bottom: var(--border);
+			}
+
+			th,
+			td {
+				padding-block: --spacing(1);
+				padding-inline: --spacing(2);
+
+				font-size: var(--text-base);
+				line-height: var(--text-base--line-height);
+
+				&:first-child {
+					padding-inline-start: 0;
+				}
+
+				&:last-child {
+					padding-inline-end: 0;
+				}
+			}
+
+			tr:not(:last-child) {
+				td {
+					border-bottom: var(--border);
+				}
+			}
+		}
+	}
+
+	.section-datenschutz:first-child {
+		h2,
+		h3 {
+			margin-block-start: 0;
+		}
+	}
+}
+
+@variant lg {
+	.section-datenschutz {
+		grid-column-start: 6;
+		padding-inline-start: var(--spacing-page-grid-gap);
+	}
+}

@@ -6,6 +6,7 @@ title: Feiertage für Österreich, Schweiz, UK, und Abwesenheiten an Feiertagen
 author: Tobias Schneider
 release-version: 4.28.0
 description: Urlaubsverwaltung 4.28.0 veröffentlicht. Darin enthalten sind Feiertagsregelungen für Österreich, Schweiz, UK, und Abwesenheiten an Feiertagen
+category: update
 ---
 
 _Feiertagsregelung für Österreich, die Schweiz und das Vereinigtes Königreich, Abwesenheiten an Feiertagen und ein neues Kalenderdesign_

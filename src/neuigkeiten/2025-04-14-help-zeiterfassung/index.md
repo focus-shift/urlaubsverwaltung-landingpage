@@ -7,6 +7,7 @@ author: Tobias Schneider
 release-version: 2.20.0
 teaserImage: /static/teaser/2025-04-14/teaser-help.png
 description: Im Avatar-Menü findest du jetzt einen direkten Zugang zur übersichtlich strukturierten Hilfe der Zeiterfassung mit Informationen zu Zeiteinträgen, Berichten, Personen und Feiertagen.
+category: blog
 ---
 
 Hilfe der Zeiterfassung. Die Hilfe ist übersichtlich in vier Bereiche unterteilt: Zeiteinträge, Berichte, Personen und Feiertage.

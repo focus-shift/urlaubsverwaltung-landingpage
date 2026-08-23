@@ -6,6 +6,7 @@ title: Neues Feature-Release - Nahtlose Synchronisierung von Überstunden zwisch
 author: Andreas Weigel
 teaserImage: /static/teaser/2025-05-28/uv-ze-overtime-sync.png
 description: Zwei Tools, ein Flow. Unsere neue Synchronisation verbindet Zeiterfassung und Urlaubsverwaltung – damit Überstunden automatisch übertragen, Abbauzeiten sauber gebucht und Mitarbeitende wie HR entlastet werden.
+category: update
 ---
 
 Wir freuen uns riesig, ein Feature zu präsentieren, auf das viele von euch lange gewartet haben: ab sofort synchronisieren sich Überstunden und Minusstunden automatisch zwischen unserer Zeiterfassungssoftware und der Urlaubsverwaltung – für mehr Transparenz, weniger Verwaltungsaufwand und eine reibungslose HR-Erfahrung!

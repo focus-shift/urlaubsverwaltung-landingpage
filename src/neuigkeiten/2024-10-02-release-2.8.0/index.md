@@ -7,6 +7,7 @@ author: Andreas Weigel
 release-version: 2.8.0
 teaserImage: /static/teaser/2024-10-02/ZE-Release-2.8.0.png
 description: Kon Uhrzeiten werden exportiert
+category: update
 ---
 
 In der Berichtübersicht werden die Summen nicht mehr in Industriestunden, sondern lesbar dargestellt.

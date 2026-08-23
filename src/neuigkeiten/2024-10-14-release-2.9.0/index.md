@@ -7,6 +7,7 @@ author: Andreas Weigel
 release-version: 2.9.0
 teaserImage: /static/teaser/2024-10-14/ZE-Release-2.9.0.png
 description: Stundenüberblick in den Berichten
+category: update
 ---
 
 Im Release 2.9.0 der Zeiterfassung wurden wichtige neue Werte in die Berichte aufgenommen,

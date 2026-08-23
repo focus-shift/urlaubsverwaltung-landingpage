@@ -6,6 +6,7 @@ title: Verbesserte Berechtigungen, UI-Update und Nachricht bei neuen User
 author: Tobias Schneider
 release-version: 4.26.0
 description: Urlaubsverwaltung 4.26.0 veröffentlicht. Darin enthalten sind verbesserte Berechtigungen, ein UI-Update und eine Nachricht bei neuen Usern.
+category: update
 ---
 
 _Version 4.26.0 veröffentlicht_

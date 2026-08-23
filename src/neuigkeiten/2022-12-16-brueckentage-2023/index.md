@@ -6,6 +6,7 @@ title: In diesen Wochen sind 2023 deine Mitarbeitenden im Urlaub!
 author: Andreas Weigel
 teaserImage: /static/Brückentag.png
 description: In diesen Wochen sind 2023 deine Mitarbeitenden im Urlaub! Je nach Bundesland variieren die Feiertage.
+category: blog
 ---
 
 Die Brückentage liegen 2023 günstig um sich viel zu erholen.

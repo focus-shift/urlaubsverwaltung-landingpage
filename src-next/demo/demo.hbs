@@ -1,0 +1,77 @@
+---
+layout: layout.hbs
+title: Demo
+description: Ohne Registrierung direkt ausprobieren. Mit der Live Demo alle Funktionen ausprobieren.
+navigation:
+  activeItem: demo
+stylesheets:
+- /static/css/demo.css
+---
+
+<div class="bg-white">
+	<div class="page-grid px-page-grid-gap">
+		<section class="section-hero">
+			<div class="section-hero__image highlight-box border-yellow bg-beige">
+				<div class="highlight-box__image p-14">
+					<img
+						src="teaser.png"
+						alt=""
+						class="object-contain aspect-square"
+					/>
+				</div>
+			</div>
+			<div class="section-hero__title">
+				<h1 class="mt-8 text-5xl">
+					Neugierig geworden? Jetzt Live-Demo starten.
+				</h1>
+			</div>
+			<div class="section-hero__text">
+				<p class="text-lg max-w-prose">
+					Teste hier & jetzt die Perspektive verschiedener Nutzer:innen der Urlaubsverwaltung
+					und Zeiterfassung in unserer Live-Demo. Ganz ohne Registrierung oder Download.
+				</p>
+				<p class="ci-dots-button-group mt-8">
+					{{> partials/dots-horizontal color="bg-lila" }}
+					<button class="button button--green" popovertarget="demo-popover">Demo Starten</button>
+				</p>
+				{{> partials/demo-popover id="demo-popover"}}
+			</div>
+		</section>
+	</div>
+</div>
+
+<div class="bg-beige py-14">
+	<div class="page-grid px-page-grid-gap">
+		<section class="page-subgrid-full">
+			<h2 class="section-title-pill lg:col-start-2">Demo</h2>
+			<div class="mt-9 col-span-full overflow-x-auto demo-carousel">
+				<ul class="flex flex-row gap-4">
+					<li>
+						<div class="aspect-cinematic w-[60vw] bg-white"></div>
+					</li>
+					<li>
+						<div class="aspect-cinematic w-[60vw] bg-white"></div>
+					</li>
+					<li>
+						<div class="aspect-cinematic w-[60vw] bg-white"></div>
+					</li>
+				</ul>
+			</div>
+			<div class="mt-8 col-span-full">
+				<ul class="flex flex-row gap-1 place-self-center">
+					<li>
+						<button class="flex items-center justify-center w-8 h-8 rounded-full border border-lila bg-lila">1</button>
+					</li>
+					<li>
+						<button class="flex items-center justify-center w-8 h-8 rounded-full border border-lila">2</button>
+					</li>
+					<li>
+						<button class="flex items-center justify-center w-8 h-8 rounded-full border border-lila">3</button>
+					</li>
+				</ul>
+			</div>
+		</section>
+	</div>
+</div>
+
+{{> partials/section-meeting }}

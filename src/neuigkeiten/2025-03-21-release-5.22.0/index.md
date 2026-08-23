@@ -7,6 +7,7 @@ author: Andreas Weigel
 release-version: 5.22.0
 teaserImage: /static/teaser/2025-03-21/UV-Release-5.22.0.png
 description: Die Version 5.22.0 bringt Verbesserungen in der Darstellung von Urlaubsverfall, Krankmeldungen und Sonderurlaub – alles für eine moderne, nachvollziehbare HR-Prozesse.
+category: update
 ---
 
 Die Urlaubsverwaltung hat ein neues Update erhalten – und das bringt einige sinnvolle Erweiterungen für Personalabteilungen und Mitarbeitende mit sich. Mit der **Version 5.22.0** setzen wir auf mehr **Transparenz**, **Nutzerfreundlichkeit** und eine präzisere **Darstellung wichtiger Informationen**

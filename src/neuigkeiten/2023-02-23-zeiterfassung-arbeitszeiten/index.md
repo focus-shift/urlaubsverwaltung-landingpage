@@ -6,6 +6,7 @@ title: Zeiterfassung - Arbeitszeiten, neue Berichte und geleistete Stunden
 author: Andreas Weigel
 teaserImage: /static/zeiterfassung-multi-device.png
 description: Zeiterfassung - Arbeitszeiten konfigurieren, neue Berichte erstellen und geleistete Stunden vergleichen
+category: update
 ---
 
 Wir haben in der neuen Version der Zeiterfassung viel von eurem Feedback umsetzen können.
