@@ -77,12 +77,6 @@
 		}
 	}
 
-	* {
-		/* TODO setting this globally ... good idea?!? */
-		hyphens: auto;
-		word-break: auto-phrase;
-	}
-
 	* > .font-basteleur {
 		font-size: 0.9em;
 	}
