@@ -24,7 +24,7 @@ In der Zeiterfassung können Personen mit der Berechtigung "darf die globalen Ei
 
     <img
       src="zeiteintrag_festschreiben.png"
-      alt=""
+      alt="Einstellung zum Festschreiben von Zeiteinträgen mit Anzahl der Tage bis zur Festschreibung"
     />
 
 Nur Mitarbeitende mit der Berechtigung 'darf die Zeiteinträge aller Personen bearbeiten'
@@ -35,7 +35,7 @@ An diesen Tagen können keine Zeiteinträge hinzugefügt oder geändert werden.
 
     <img
       src="zeiteintrag_festschreiben_lock_zeit.png"
-      alt=""
+      alt="Zeiteinträge-Übersicht, in der ein festgeschriebener Tag mit Schloss-Symbol markiert ist"
     />
 
 Für Personen mit der Berechtigung "darf die globalen Einstellungen bearbeiten" wird das Schloss-Symbol angezeigt.

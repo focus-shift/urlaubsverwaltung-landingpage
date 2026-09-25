@@ -30,7 +30,7 @@ Bislang wurden Pausen rein informativ erfasst. Das bedeutete:
     <figure>
             <img
               src="alt-pausenabzug.png"
-              alt=""
+              alt="Zeiteinträge am 22. Mai 2023: Arbeit von 8:00 bis 17:00 und Pause von 13:00 bis 14:00, trotzdem werden 9:00 Stunden gezählt"
               class="rounded-lg"
             />
         <figcaption class="text-sm text-center">Pausen wurden bei Überschneidungen bisher nicht abgezogen.</figcaption>
@@ -54,7 +54,7 @@ Mit dem Update werden Arbeits- und Pausenzeiten automatisch miteinander verrechn
     <figure>
             <img
               src="neu-pausenabzug.png"
-              alt=""
+              alt="Skizze: Arbeitszeit von 8:00 bis 14:00 mit Pause von 10:00 bis 11:00, bisher 6 Stunden, mit Pausenabzug 5 Stunden"
               class="rounded-lg"
             />
         <figcaption class="text-sm text-center">Pause machen und gleichzeitig arbeiten? Geht nicht! Pausen sollen bei Überschneidung abgezogen werden.</figcaption>
@@ -69,11 +69,13 @@ Dies ist weiterhin möglich, jedoch nicht mehr zwingend erforderlich.
 - _Neukunden:_ Die neue Berechnung ist ab sofort standardmäßig aktiv.
 - _Bestandskunden:_ Die Änderung kann in den Einstellungen optional aktiviert werden, um bestehende Prozesse nicht ungewollt zu beeinträchtigen.
 
+<figure>
   <img
       src="pausenabzug-einstellung.png"
-      alt="Einstellung, ab wann der Pausenabzug aktiv ist."
+      alt="Einstellung „Abzug von Pausen“ mit Checkbox „Abzug aktivieren ab dem“ und Datumsfeld"
     />
     <figcaption class="text-sm text-center">Einstellung, ab wann der Pausenabzug aktiv ist.</figcaption>
+</figure>
 
 ## Was bleibt unverändert?
 

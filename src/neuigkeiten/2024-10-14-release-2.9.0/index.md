@@ -29,7 +29,7 @@ Diese Verbesserungen unterstützen eine präzisere Übersicht und Planung der Ar
     <figure>
             <img
               src="Stundenübersicht.png"
-              alt="Soll- und Ist-Werte, sowie Überstunden in der Berichtübersicht"
+              alt="Soll- und Ist-Werte sowie Überstunden in der Berichtsübersicht"
               class="rounded-lg"
             />
         <figcaption class="text-sm text-center">Soll- und Ist-Werte, sowie Überstunden in der Berichtübersicht</figcaption>

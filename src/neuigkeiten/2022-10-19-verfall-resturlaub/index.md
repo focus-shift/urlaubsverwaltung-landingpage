@@ -24,10 +24,10 @@ nicht genommenen Urlaubstage komplett in das kommende Jahr als Resturlaub übern
     <figure>
             <img
               src="residual-leave-configuration.png"
-              alt="Konfiguration zum Deaktivieren/Aktivieren des Verfalls von Resturlaubs für alle Mitarbeitenden"
+              alt="Konfiguration zum Deaktivieren/Aktivieren des Verfalls von Resturlaub für alle Mitarbeitenden"
               class="rounded-lg"
             />
-        <figcaption class="text-sm text-center">Konfiguration zum Deaktivieren/Aktivieren des Verfalls von Resturlaubs für alle Mitarbeitenden</figcaption>
+        <figcaption class="text-sm text-center">Konfiguration zum Deaktivieren/Aktivieren des Verfalls von Resturlaub für alle Mitarbeitenden</figcaption>
     </figure>
 </div>
 

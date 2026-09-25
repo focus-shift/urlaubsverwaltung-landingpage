@@ -35,7 +35,7 @@ Damit bleibt die Vertraulichkeit gewahrt, während gleichzeitig die jeweils rele
     <figure>
             <img
               src="krankmeldungsstatistik-verteilung-der-krankheitstage-graph.png"
-              alt="Verteilung der Krankheitstage über das Kalenderjahr als Balkendiagramm"
+              alt="Gestapeltes Balkendiagramm der Krankheitstage und Kind-Krankheitstage 2025 pro Monat, Höchstwert im März mit 21 Tagen"
               class="rounded-lg"
             />
         <figcaption class="text-sm text-center">Verteilung der Krankheitstage über das Kalenderjahr als Balkendiagramm</figcaption>
@@ -46,7 +46,7 @@ Damit bleibt die Vertraulichkeit gewahrt, während gleichzeitig die jeweils rele
     <figure>
             <img
               src="krankmeldungsstatistik-krankheitstage-zahlen.png"
-              alt="Informationen zu den Krankheitstagen aufgeschlüsselt nach Kategorie (Normale Krankmeldung und Kind-Krankmeldung)"
+              alt="Kennzahlen 2025: 62 Krankheitstage (39 Krankmeldung, 23 Kind-Krankmeldung), im Schnitt 10,33 Tage pro Mitarbeitende und 2,70 Tage pro Krankmeldung"
               class="rounded-lg"
             />
         <figcaption class="text-sm text-center">Informationen zu den Krankheitstagen aufgeschlüsselt nach Kategorie (Normale Krankmeldung und Kind-Krankmeldung)</figcaption>
@@ -57,7 +57,7 @@ Damit bleibt die Vertraulichkeit gewahrt, während gleichzeitig die jeweils rele
     <figure>
             <img
               src="krankmeldungsstatistik-krankmeldungen-zahlen.png"
-              alt="Informationen zu den Krankmeldungen aufgeschlüsselt nach Kategorie (Normale Krankmeldung und Kind-Krankmeldung)"
+              alt="Kennzahlen: 23 Krankmeldungen (14 normal, 9 Kind), 42,9 % der Mitarbeitenden mit mindestens einer Krankmeldung (6 von 14)"
               class="rounded-lg"
             />
         <figcaption class="text-sm text-center">Informationen zu den Krankmeldungen aufgeschlüsselt nach Kategorie (Normale Krankmeldung und Kind-Krankmeldung)</figcaption>

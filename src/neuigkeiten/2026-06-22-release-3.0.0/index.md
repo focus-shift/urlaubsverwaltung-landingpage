@@ -34,7 +34,7 @@ Ein Klick genügt. Die Sidebar passt sich dynamisch an und sorgt dafür, dass ih
     <figure>
             <img
               src="sidebar-navigation.png"
-              alt="Screenshot der Zeiterfassung 3.0.0 mit der neuen Sidebar-Navigation an der linken Seite."
+              alt="Zeiterfassung 3.0.0 mit neuer Sidebar-Navigation links: Zeit, Berichte, Personen, Einstellungen"
               class="rounded-lg"
             />
         <figcaption class="text-sm text-center">Neue Sidebar-Navigation in der Zeiterfassung</figcaption>
@@ -57,7 +57,7 @@ direkt in dessen Monatsübersicht, die Berichte oder die Rechteverwaltung spring
     <figure>
             <img
               src="globale-suche.png"
-              alt="Screenshot der Zeiterfassung 3.0.0 mit geöffnetem Suchfenster der neuen globalen Suche im Vordergrund."
+              alt="Globale Suche der Zeiterfassung mit Trefferliste von Personen, je mit Direktsprung zu Zeiten, Berichten und Rechten"
               class="rounded-lg"
             />
         <figcaption class="text-sm text-center">Globale Suche in der Zeiterfassung</figcaption>
@@ -80,7 +80,7 @@ einsatzbereit.
     <figure>
             <img
               src="dark-mode.png"
-              alt="Screenshot der Zeiterfassung im hellen Modus mit geöffnetem Auswahlmenü für den Dark Mode und die Spracheinstellungen."
+              alt="Einstellungsseite „Erscheinungsbild und Sprache“ mit Auswahl der Sprache und der Darstellung System, Hell oder Dunkel"
               class="rounded-lg"
             />
         <figcaption class="text-sm text-center">Dark Mode in der Zeiterfassung</figcaption>

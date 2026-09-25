@@ -22,12 +22,12 @@ Für alle, die täglich mit mehreren Teammitgliedern und Projekten arbeiten, hab
 
 <div class="flex my-8">
     <figure>
-            <img
-              src="MAIcons.jpg"
-              alt="Zeiteinträge mit neuen Icons für Pausen und Kommentare"
-              class="rounded-lg"
-            />
-        <figcaption class="text-sm text-center">Zeiteinträge mit neuen Icons für Pausen und Kommentare</figcaption>
+      <img
+        src="MAIcons.jpg"
+        alt="Personenauswahl im Bericht, ausgewählte Personen als Avatare neben dem Filter"
+        class="rounded-lg"
+      />
+      <figcaption class="text-sm text-center">Avatare der ausgewählten Personen in der Berichtsübersicht</figcaption>
     </figure>
 </div>
 

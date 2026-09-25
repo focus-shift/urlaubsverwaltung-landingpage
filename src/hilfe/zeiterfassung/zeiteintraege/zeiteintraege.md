@@ -18,7 +18,7 @@ Du kannst den Tag auswählen, einen Kommentar sowie eine Start- und Endzeit eing
 
     <img
       src="neuen_zeiteintrag_datum.png"
-      alt=""
+      alt="Formular „Neuen Zeiteintrag erfassen“ mit geöffneter Datumsauswahl"
     />
 
 Wenn nur Startzeit und Dauer angegeben werden, wird die Endzeit automatisch gesetzt.
@@ -38,7 +38,7 @@ Der Kommentar wird dann automatisch zum Zeiteintrag hinzugefügt.
 
     <img
       src="stoppuhr_editieren.png"
-      alt=""
+      alt="Laufende Stoppuhr mit Eingabefeldern für Datum, Startzeit, Pause und Kommentar"
     />
 
 ## Kann ich für einen bestimmten Mitarbeitenden Zeiteinträge erfassen?
@@ -51,7 +51,7 @@ Mit einem Klick auf den Avatar eines Mitarbeitenden kann die Startseitenansicht 
 
     <img
       src="zeiteintrag_fuer_mitarbeitenden.png"
-      alt=""
+      alt="Startseite mit Formular „Neuen Zeiteintrag erfassen für Klaus Müller“ und seinen Zeiteinträgen"
     />
 
 ## Können Zeiteinträge festgeschrieben werden?
@@ -64,7 +64,7 @@ In der Zeiterfassung können Personen mit der Berechtigung "darf die globalen Ei
 
     <img
       src="zeiteintrag_festschreiben.png"
-      alt=""
+      alt="Einstellung „Festschreiben von Zeiteinträgen“: Festschreibung aktiviert für Tage, die älter als 5 Tage sind"
     />
 
 Festgeschriebene Zeiteinträge und das Hinzufügen neuer Zeiteinträgen für einen Tag, welcher festgeschrieben ist,
@@ -75,7 +75,7 @@ Dies bedeutet, dass an diesem Tag keine weiteren Zeiteinträge hinzugefügt bzw.
 
     <img
       src="zeiteintrag_festschreiben_lock_zeit.png"
-      alt=""
+      alt="Zeiteinträge-Übersicht, in der ein festgeschriebener Tag mit Schloss-Symbol markiert ist"
     />
 
 Für Personen mit der Berechtigung "darf die globalen Einstellungen bearbeiten" wird das Schloss-Symbol angezeigt.

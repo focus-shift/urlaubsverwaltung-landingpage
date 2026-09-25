@@ -42,7 +42,7 @@ Die Kalenderfreigabe kann pro Benutzer konfiguriert werden. Um die Konfiguration
 
 <img
  src="kalenderfreigabe.png"
- alt="Kalenderfreigabe"
+ alt="Übersichtsseite mit hervorgehobener Schaltfläche „Kalenderfreigabe“ oberhalb des Kalenders"
 />
 
 2. Wähle z. B. "Meinen Kalender freigeben"
@@ -56,7 +56,7 @@ Die Kalenderfreigabe kann pro Benutzer konfiguriert werden. Um die Konfiguration
 
 <img
  src="kalenderfreigabe-link.png"
- alt="Kalenderfreigabe Link"
+ alt="Generierter geheimer Link zur Kalenderfreigabe mit Schaltfläche zum Kopieren"
 />
 
 ### Wie kann ich eine Freigabe löschen?
@@ -67,7 +67,7 @@ Eine Freigabe kann über folgende Schritte gelöscht werden:
 
    <img
      src="kalenderfreigabe.png"
-     alt="Kalenderfreigabe"
+     alt="Übersichtsseite mit hervorgehobener Schaltfläche „Kalenderfreigabe“ oberhalb des Kalenders"
    />
 
 2. Wähle beim betreffenden Kalender "Freigabe löschen". Durch das Löschen ist der Zugriff über den geheimen Link nicht mehr möglich.
@@ -106,7 +106,7 @@ Die Urlaubsverwaltung bietet die Möglichkeit, Kalendereinträge in einen Google
    <figure>
        <img
          src="google-calendar-api-activate.png"
-         alt="Google Calendar API Aktivieren"
+         alt="Google API-Bibliothek mit der Kachel „Google Calendar API“ im Bereich Google Workspace"
        />
      <figcaption class="text-sm text-center">Google Calendar API auswählen</figcaption>
    </figure>
@@ -128,7 +128,7 @@ Die Urlaubsverwaltung bietet die Möglichkeit, Kalendereinträge in einen Google
     <figure class="mb-4">
        <img
          src="google-calendar-api-oauth-client.png"
-         alt="Google OAuth2 Client erstellen"
+         alt="Google Auth Platform zum Erstellen eines neuen OAuth-Clients"
        />
      <figcaption class="text-sm text-center">Google OAuth2 Client erstellen</figcaption>
    </figure>
@@ -137,7 +137,7 @@ Die Urlaubsverwaltung bietet die Möglichkeit, Kalendereinträge in einen Google
     <figure class="mb-4">
        <img
          src="google-calendar-api-oauth-client-two.png"
-         alt="Google OAuth2 Client erstellen"
+         alt="Detailansicht zum Erstellen eines neuen Google-OAuth-Clients"
        />
      <figcaption class="text-sm text-center">Google OAuth2 Client erstellen</figcaption>
    </figure>
@@ -151,7 +151,7 @@ Die Urlaubsverwaltung bietet die Möglichkeit, Kalendereinträge in einen Google
    <figure class="mb-4">
         <img
           src="google-calendar-api-oauth-client-testuser.png"
-          alt="Google OAuth2 Client Testnutzer"
+          alt="Detailansicht zum Pflegen der OAuth-Zielgruppe und Nutzer"
         />
       <figcaption class="text-sm text-center">Google OAuth2 Client Testnutzer</figcaption>
     </figure>

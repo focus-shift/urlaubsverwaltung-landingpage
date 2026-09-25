@@ -26,7 +26,7 @@ Mit diesem Release können nun alle **Änderungen an Zeiteinträgen** anhand des
     <figure>
             <img
               src="slot-history-icon.png"
-              alt="Zeiteintrag mit History-Icon"
+              alt="Zeiteintrag mit Symbol für die Bearbeitungshistorie"
               class="rounded-lg"
             />
         <figcaption class="text-sm text-center">Zeiteintrag mit History-Icon</figcaption>

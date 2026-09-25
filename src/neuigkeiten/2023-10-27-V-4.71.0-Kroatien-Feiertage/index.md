@@ -35,7 +35,7 @@ der Urlaubsansprüche als auch eine übersichtliche Darstellung der Abwesenheite
     <figure>
             <img
               src="kalenderuebersicht_Feiertage.png"
-              alt="Pausen erfassen"
+              alt="Abwesenheitsübersicht Oktober 2023: unterschiedliche Feiertage je Person"
               class="rounded-lg"
             />
         <figcaption class="text-sm text-center">Individuelle Feiertage pro Mitarbeitenden in der Kalenderübersicht</figcaption>
@@ -51,7 +51,7 @@ Malta, Italien und Griechenland sind nun auch die Feiertage aus Kroatien verfüg
     <figure>
             <img
               src="arbeitszeiten_Kroatien.png"
-              alt="Pausen erfassen"
+              alt="Arbeitszeiten von Marlene Muster mit ausgewählter Feiertagsregelung Kroatien"
               class="rounded-lg"
             />
         <figcaption class="text-sm text-center">Feiertagsregelung in den Arbeitszeiten: jetzt mit Kroatien</figcaption>

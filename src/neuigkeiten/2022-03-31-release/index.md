@@ -34,7 +34,7 @@ Nachdem ihr die Informationen gespeichert habt, werden diese angezeigt
     <figure>
             <img
               src="benutzeruebersicht.png"
-              alt="Benutzeruebersicht mit Personalnummer"
+              alt="Benutzerübersicht mit Personalnummer"
               class="rounded-lg"
             />
         <figcaption class="text-sm text-center">Benutzerübersicht mit Personalnummer.</figcaption>

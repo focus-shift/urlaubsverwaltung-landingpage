@@ -38,7 +38,7 @@ Kalender- oder Single-Sign-on-Systemen bieten eine nahtlose Integration in beste
 
     <img
       src="urlaubsverwaltung.png"
-      alt="Urlaubsverwaltung Landingpage"
+      alt="Startseite von urlaubsverwaltung.cloud mit der Aktion „Starte digital in das Jahr 2022! Wir schenken dir 3 Monate zusätzlich zur Testphase.“"
     />
 
 <br/>

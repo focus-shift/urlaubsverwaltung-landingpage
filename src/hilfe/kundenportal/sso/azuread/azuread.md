@@ -84,7 +84,7 @@ Neuer geheimer Clientschlüssel erstellen
 
     <img
       src="schritt_1_clientsecret.png"
-      alt="Neuer geheimer Clientschlüssel hinzufügen"
+      alt="Microsoft Azure Eingabemaske zum Hinzufügen eines neuen geheimen Clientschlüssels"
     />
 
 1. Im Menu zu _Zertifikate & Geheimnisse_ wechseln
@@ -143,7 +143,7 @@ Nun brauchen wir die Werte aus der Textdatei von [Schritt 1](#schritt-1-neue-app
 
     <img
       src="schritt_2_konfiguration.png"
-      alt=""
+      alt="Azure AD Konfiguration im Kundenportal mit den Feldern Anwendungs-ID, geheimer Clientschlüssel und Verzeichnis-ID sowie Schaltfläche zum Speichern"
     />
 
 1. Wert von _Anwendungs-Id_

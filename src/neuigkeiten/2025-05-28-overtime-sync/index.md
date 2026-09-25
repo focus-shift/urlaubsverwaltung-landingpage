@@ -49,10 +49,10 @@ Die zuvor manuel angelegten Überstunden, können weiterhin bearbeitet werden.
     <figure>
             <img
               src="overtime-listview.png"
-              alt="Übersicht der Synchronisierten Überstunden"
+              alt="Übersicht der synchronisierten Überstunden"
               class="rounded-lg"
             />
-        <figcaption class="text-sm text-center">Übersicht der Synchronisierten Überstunden</figcaption>
+        <figcaption class="text-sm text-center">Übersicht der synchronisierten Überstunden</figcaption>
     </figure>
 </div>
 
@@ -60,12 +60,12 @@ Die zuvor manuel angelegten Überstunden, können weiterhin bearbeitet werden.
 
 <div class="flex my-8">
     <figure>
-            <img
-              src="overtime-ze.png"
-              alt="Abteilungsübersicht mit Berechtigungen"
-              class="rounded-lg"
-            />
-        <figcaption class="text-sm text-center">Überstundenabbau in der Zeiterfassung</figcaption>
+      <img
+        src="overtime-ze.png"
+        alt="Überstundenabbau hebt sich in der Liste von Zeiteinträgen mit einem farbigen Balken deutlich ab."
+        class="rounded-lg"
+      />
+      <figcaption class="text-sm text-center">Überstundenabbau in der Zeiterfassung</figcaption>
     </figure>
 </div>
 

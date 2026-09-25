@@ -26,7 +26,7 @@ Mit der neuen iOS-App stehen dir und deinem Team alle wichtigen Funktionen der U
 
   <img
       src="ios-teaser.png"
-      alt="Die neue urlaubsverwaltung.cloud iOS-App"
+      alt="iPhone mit der Urlaubsübersicht und iPad mit der Zeiterfassung in der urlaubsverwaltung.cloud App"
     />
 
 ## Für wen ist die App gedacht?

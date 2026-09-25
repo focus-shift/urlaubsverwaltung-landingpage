@@ -53,14 +53,14 @@ Hierzu können in den _Einstellungen_ unter _Abwesenheiten_ die entsprechenden Z
 
     <img
       src="krankmeldung-einstellungen.png"
-      alt="Einstellungen Krankmeldung"
+      alt="Einstellungen zu Krankmeldungen: Lohnfortzahlung 42 Tage, Benachrichtigung 7 Tage vor Ende der Lohnfortzahlung"
     />
 
 ## Ablauf bei Krankmeldungen
 
     <img
       src="krankmeldung.png"
-      alt="Workflow bei Krankmeldungen"
+      alt="Ablaufdiagramm: Eine erstellte Krankmeldung ist aktiv und kann bearbeitet werden. Anschließend wird sie entweder storniert oder in Urlaub umgewandelt, damit endet der Ablauf."
     />
 
 ## Was passiert, wenn eine Krankmeldung in einem Urlaubszeitraum angelegt wird?

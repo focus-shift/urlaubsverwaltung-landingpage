@@ -30,7 +30,7 @@ aufgeräumte Arbeitsoberfläche, während alle Funktionen schnell erreichbar ble
     <figure>
             <img
               src="sidebar-navigation.png"
-              alt="Screenshot der Urlaubsverwaltung 6.0.0 mit der neuen Sidebar-Navigation an der linken Seite."
+              alt="Urlaubsverwaltung 6.0.0 mit neuer Sidebar-Navigation links, rechts die persönliche Übersicht mit Kalender und Abwesenheiten"
               class="rounded-lg"
             />
         <figcaption class="text-sm text-center">Neue Sidebar-Navigation in der Urlaubsverwaltung</figcaption>
@@ -50,7 +50,7 @@ passend zum Bereich, in dem Sie sich gerade befinden – stets direkt den richti
     <figure>
             <img
               src="globale-suche.png"
-              alt="Screenshot der Urlaubsverwaltung 6.0.0 mit geöffnetem Suchfenster der neuen globalen Suche im Vordergrund."
+              alt="Globale Suche der Urlaubsverwaltung mit aufgeklappter Trefferliste von Personen über der Übersichtsseite"
               class="rounded-lg"
             />
         <figcaption class="text-sm text-center">Globale Suche in der Urlaubsverwaltung</figcaption>

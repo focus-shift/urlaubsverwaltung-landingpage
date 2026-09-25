@@ -40,7 +40,7 @@ Abwesenheiten auch an Feiertagen einzutragen.
 
     <img
       src="public_holiday_person_no.png"
-      alt="Neues Kalenderdesign"
+      alt="Feiertagsregelung einer Person mit ausgewählter Option „Keine Feiertagsregelung“"
     />
 
 ## Neues Kalenderdesign

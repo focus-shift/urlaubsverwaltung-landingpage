@@ -28,20 +28,20 @@ Arbeitszeit langfristig planen könnt.
 
 <div class="my-8 flex flex-col gap-4 md:flex-row">
     <figure>
-            <img
-              src="arbeitszeiten.png"
-              alt="Weitere Arbeitszeiten erstellen und verwalten für Vertragsänderungen."
-              class="rounded-lg"
-            />
-        <figcaption class="text-sm text-center">Weitere Arbeitszeiten erstellen und verwalten für Vertragsänderungen.</figcaption>
+      <img
+        src="arbeitszeiten.png"
+        alt="Weitere Arbeitszeiten erstellen und verwalten für Vertragsänderungen."
+        class="rounded-lg"
+      />
+      <figcaption class="text-sm text-center">Weitere Arbeitszeiten erstellen und verwalten für Vertragsänderungen.</figcaption>
     </figure>
     <figure>
-            <img
-              src="arbeitszeiten_edit.png"
-              alt="Weitere Arbeitszeiten erstellen und verwalten für Vertragsänderungen."
-              class="rounded-lg"
-            />
-        <figcaption class="text-sm text-center">Bundesland und Feiertagsregelung individuell pflegen.</figcaption>
+      <img
+        src="arbeitszeiten_edit.png"
+        alt="Formular zum Konfigurieren der Arbeitstage und Zeiten einer Person."
+        class="rounded-lg"
+      />
+      <figcaption class="text-sm text-center">Bundesland und Feiertagsregelung individuell pflegen.</figcaption>
     </figure>
 </div>
 

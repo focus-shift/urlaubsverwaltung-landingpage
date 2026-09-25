@@ -26,10 +26,10 @@ was die Lesbarkeit deutlich verbessert.
     <figure>
             <img
               src="reformat-time.png"
-              alt="Die Summer der Arbeitszeiten wird jetzt in Stunden und Minuten dargestellt"
+              alt="Die Summe der Arbeitszeiten wird jetzt in Stunden und Minuten dargestellt"
               class="rounded-lg"
             />
-        <figcaption class="text-sm text-center">Die Summer der Arbeitszeiten wird jetzt in Stunden und Minuten dargestellt</figcaption>
+        <figcaption class="text-sm text-center">Die Summe der Arbeitszeiten wird jetzt in Stunden und Minuten dargestellt</figcaption>
     </figure>
 </div>
 

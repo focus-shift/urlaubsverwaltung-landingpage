@@ -32,7 +32,7 @@ Um diesen Workflow verwenden zu können, müssen folgende Einstellungen konfigur
 
     <img
       src="eigenverantwortliche-ueberstunden-erfassung.png"
-      alt="Konfiguration Eigenverantwortliche Überstunden Erfassung "
+      alt="Einstellungen zu Überstunden: Überstundenverwaltung aktiviert, Pflege nur durch privilegierte Benutzer deaktiviert, Überstundenabbau ohne Urlaubsantrag aktiviert"
     />
 
 ### Eigenverantwortliche Erfassung und Antrag auf Abbau
@@ -43,7 +43,7 @@ Um diesen Workflow verwenden zu können, müssen folgende Einstellungen konfigur
 
     <img
       src="ueberstunden-antrag.png"
-      alt="Konfiguration Antrag auf Überstundenabbau"
+      alt="Einstellungen zu Überstunden: Überstundenverwaltung aktiviert, Pflege nur durch privilegierte Benutzer deaktiviert, Überstundenabbau ohne Urlaubsantrag deaktiviert"
     />
 
 ### Erfassung durch privilegierte Person und Antrag Überstundenabbau
@@ -54,7 +54,7 @@ Um diesen Workflow verwenden zu können, müssen folgende Einstellungen konfigur
 
     <img
       src="privilegierte-ueberstunden-erfassung.png"
-      alt="Konfiguration Erfassung der Überstunden durch eine privilegierte Person"
+      alt="Einstellungen zu Überstunden: Überstundenverwaltung aktiviert, Pflege nur durch privilegierte Benutzer aktiviert, Überstundenabbau ohne Urlaubsantrag deaktiviert"
     />
 
 ## Kann ich die Überstundenfunktion deaktivieren?

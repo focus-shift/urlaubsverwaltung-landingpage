@@ -63,7 +63,7 @@ sodass auch hier mit nur 4 Urlaubstagen 9 freie Tage möglich sind.
     <figure>
             <img
               src="okt-dez.png"
-              alt="Kalenderdarstellung der Monate Oktober bis Dezember"
+              alt="Brückentage im Oktober bis Dezember 2023 in der Kalenderdarstellung"
               class="rounded-lg"
             />
         <figcaption class="text-sm text-center">Mögliche Urlaubsplanung für den Tag der Deutschen Einheit sowie für Weihnachten</figcaption>

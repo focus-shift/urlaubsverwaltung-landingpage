@@ -70,7 +70,7 @@ Wir helfen euch beim Onboarding und stehen für Fragen gerne zur Verfügung.
     <figure>
             <img
               src="aktion2023.png"
-              alt="Aktionsbanner Starte digital in das Jahr 2023"
+              alt="Aktionsbanner: Starte digital in das Jahr 2023! Wir schenken dir 2 Monate zusätzlich zur Testphase."
               class="rounded-lg"
             />
         <figcaption class="text-sm text-center">Aktion Starte digital in das Jahr 2023</figcaption>

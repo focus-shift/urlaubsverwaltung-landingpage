@@ -43,7 +43,7 @@ Ein Pausensymbol zeigt, ob es sich bei einer erfassten Zeit um eine Pause handel
 
     <img
       src="pausen.png"
-      alt="Pausen in der Tagesansicht"
+      alt="Wochenbericht mit einem Pauseneintrag von 12:00 bis 13:00 Uhr, gekennzeichnet mit Pausensymbol"
     />
 
 Pausen werden nicht in die geleistete Arbeitszeit eingerechnet.
@@ -56,14 +56,14 @@ So können Fehler korrigiert werden und es ist nachvollziehbar, wer wann eine Ä
 
     <img
       src="historie_icon.png"
-      alt="Pausen in der Tagesansicht"
+      alt="Wochenbericht mit Tooltip „Bearbeitungshistorie“ am Historie-Symbol eines Zeiteintrags"
     />
 
 Die Nachvollziehbarkeit von Änderungen ist insbesondere für Unternehmen und Teams von großer Bedeutung, da sie zu mehr Transparenz und Datenintegrität führt. Durch die Änderungshistorie können Fehlerquellen schneller identifiziert und behoben werden. Diese Funktion ist auch für Audits oder Compliance-Anforderungen von großer Bedeutung.
 
     <img
       src="historie.png"
-      alt="Pausen in der Tagesansicht"
+      alt="Dialog mit der Historie eines Zeiteintrags: frühere Stände mit Zeitpunkt der Änderung und bearbeitender Person"
     />
 
 ## Zeiteinträge über Berichte bearbeiten

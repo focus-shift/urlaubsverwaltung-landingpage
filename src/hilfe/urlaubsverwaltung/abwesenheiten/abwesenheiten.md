@@ -50,7 +50,7 @@ eine eigene Notiz hinterlegt werden. Die ausgewählten Personen werden über die
 
 <img
   src="vertretung.png"
-  alt="Übersicht zu aktuellen und zukünftigen Vertretungen"
+  alt="Formular zum Einreichen einer Abwesenheit mit ausgewählter Vertretung."
 />
 
 Außerdem ist für die Vertretung unter dem Menü-Punkt "Abwesenheiten" im Abschnitt "Aktuelle und zukünftige Vertretungen"
@@ -150,5 +150,5 @@ Stichtag kann pro Benutzer konfiguriert werden, sodass der Resturlaub zu einem a
 
     <img
       src="absence-workflow.png"
-      alt="Workflow bei Abwesenheitsanträgen"
+      alt="Ablaufdiagramm: Ein beantragter Urlaub ist wartend und kann storniert, abgelehnt, vorläufig oder endgültig genehmigt werden. Vorläufig genehmigter Urlaub kann abgelehnt, storniert oder endgültig genehmigt werden. Genehmigter Urlaub kann storniert werden."
     />

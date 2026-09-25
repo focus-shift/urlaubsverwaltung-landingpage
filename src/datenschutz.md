@@ -257,7 +257,7 @@ Es liegen Zertifikate von allen im Jahr 2025 vor.
 <div class="grid grid-cols-2 gap-4">
 	<img
 		src="/static/img/datenschutz/Datenschutz-Zertifikat-Weigel.png"
-		alt="CyberSecurity Zertifikat von Andreas Weigel"
+		alt="Datenschutz Zertifikat von Andreas Weigel"
 		class="rounded-b md:rounded-b-lg xl:rounded-b-2xl"
 		width="595"
 		height="841"

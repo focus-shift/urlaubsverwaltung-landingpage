@@ -54,7 +54,7 @@ Statistik **verlässlich** berechnet wird.
     <figure>
             <img
               src="stats.png"
-              alt="Foo"
+              alt=""
               class="rounded-lg"
             />
         <figcaption class="text-sm text-center">Statistik der Zeiterfassung bei urlaubsverwaltung.cloud</figcaption>
@@ -68,7 +68,7 @@ verwendet werden können, sondern auch inklusiv bedienbar sein und nie.
     <figure>
             <img
               src="enterslot.png"
-              alt="Foo"
+              alt=""
               class="rounded-lg"
             />
         <figcaption class="text-sm text-center">Formular zur Erfassung eines Zeitabschnitts</figcaption>
