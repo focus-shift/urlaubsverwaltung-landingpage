@@ -99,7 +99,7 @@ Neuer geheimer Clientschlüssel erstellen
     die Anwendung in Azure AD erzeugt werden muss. Dieser neue Clientschlüssel kann danach im Portal von
     urlaubsverwaltung.cloud konfiguriert werden. Falls dies nicht vor Ablauf des Clientschlüssel durchgeführt
     wird, ist <span class="font-bold">kein</span> Zugriff auf die Urlaubsverwaltung mehr möglich ist.
-    Solltest du den Zeitpunkt verpasst haben, ist das kein Problem! Melde dich einfach via <a href="mailto:info@urlaubsverwaltung.cloud?subject=Unterstützung%20Client-Secret%20abgelaufen">E-Mail</a> bei uns und wir beheben zusammen das Problem - Daten gehen dabei <span class="font-bold">nicht</span> verloren!
+    Solltest du den Zeitpunkt verpasst haben, ist das kein Problem! Melde dich einfach via <a href="mailto:support@focus-shift.de?subject=Unterstützung%20Client-Secret%20abgelaufen">E-Mail</a> bei uns und wir beheben zusammen das Problem - Daten gehen dabei <span class="font-bold">nicht</span> verloren!
     Am besten richtest du in deinem Kalender 7-14 Tage vor Ablauf des Clientschlüssels eine Erinnerung für den Wechsel ein.
   </p>
 </aside>

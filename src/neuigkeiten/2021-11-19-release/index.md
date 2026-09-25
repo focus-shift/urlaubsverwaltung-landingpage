@@ -80,5 +80,5 @@ CSV-Export herausgegeben.
 Wir hoffen, dass ihr eure Organisation noch besser abbilden könnt, und wünschen viel Spaß mit den neuen
 Abwesenheitsarten.
 
-<a href="mailto:info@urlaubsverwaltung.cloud?subject=Weitere%20Abwesenheitsart">Fehlt dir eine Abwesenheitsart dann
+<a href="mailto:support@focus-shift.de?subject=Weitere%20Abwesenheitsart">Fehlt dir eine Abwesenheitsart dann
 schreib uns einfach!</a>

@@ -118,4 +118,4 @@ Dagegen ist z.B. die Abwesenheitsart _Home-Office_ oder _Außer Haus_ ein Fall b
 </div>
 
 <br/>
-Wir freuen uns über dein Feedback an <a href="mailto:info@urlaubsverwaltung.cloud?subject=Feedback">info@urlaubsverwaltung.cloud</a>.
+Wir freuen uns über dein Feedback an <a href="mailto:support@focus-shift.de?subject=Feedback">support@focus-shift.de</a>.

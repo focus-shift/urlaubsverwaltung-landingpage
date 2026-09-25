@@ -109,4 +109,4 @@ Doch einen Tag länger krank gewesen? Mehrere Krankmeldungen hintereinander aus 
 
 Wenn ich krank im Bett liege, möchte ich so einfach wie möglich die Krankmeldung loswerden, ohne 1000 Fragen beantworten zu müssen. Deshalb werden wir die Krankmeldung weiter vereinfachen, damit du dich auf das Wesentliche konzentrieren kannst: Gesund werden. 😊
 
-Wir freuen uns über dein Feedback an <a href="mailto:info@urlaubsverwaltung.cloud?subject=Feedback%20Krankmeldung%20durch%20Mitarbeitende">info@urlaubsverwaltung.cloud</a>.
+Wir freuen uns über dein Feedback an <a href="mailto:support@focus-shift.de?subject=Feedback%20Krankmeldung%20durch%20Mitarbeitende">support@focus-shift.de</a>.

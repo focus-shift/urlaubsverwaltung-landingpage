@@ -61,4 +61,4 @@ Sofern mindestens eine Personalnummer gepflegt ist, werden diese in allen Übers
 Die E-Mail-Benachrichtigung einer genehmigten Abwesenheit wurde für die Benutzenden mit der Berechtigung _Office_ um die Kalendereinladung der Abwesenheit erweitert. Diese kann z.B. für einen externen Kalender zur einfacheren Koordination verwendet werden.
 
 <br/>
-Wir freuen uns über dein Feedback an <a href="mailto:info@urlaubsverwaltung.cloud?subject=Feedback">info@urlaubsverwaltung.cloud</a>.
+Wir freuen uns über dein Feedback an <a href="mailto:support@focus-shift.de?subject=Feedback">support@focus-shift.de</a>.

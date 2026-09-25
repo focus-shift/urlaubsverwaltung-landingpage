@@ -16,11 +16,11 @@ export default {
 		linkedIn: "https://www.linkedin.com/company/focus-shift-software",
 
 		individualPriceRequest:
-			"mailto:info@urlaubsverwaltung.cloud?subject=Anfrage%20individuelles%20Angebot",
+			"mailto:support@focus-shift.de?subject=Anfrage%20individuelles%20Angebot",
 		onPremiseSupportRequest:
-			"mailto:info@urlaubsverwaltung.cloud?subject=Anfrage%20On%20Premise%20Support",
+			"mailto:support@focus-shift.de?subject=Anfrage%20On%20Premise%20Support",
 		onPremiseInstallationRequest:
-			"mailto:info@urlaubsverwaltung.cloud?subject=Anfrage%20On%20Premise%20Installation",
+			"mailto:support@focus-shift.de?subject=Anfrage%20On%20Premise%20Installation",
 
 		googlePlayStore:
 			"https://play.google.com/store/apps/details?id=cloud.urlaubsverwaltung.mobile.urlaubsverwaltung",

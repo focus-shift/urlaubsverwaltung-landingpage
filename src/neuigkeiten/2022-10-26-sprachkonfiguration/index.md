@@ -37,4 +37,4 @@ Wer kennt schon die englischen Bezeichnungen für Resturlaub oder anteilige Urla
 Nun könnt ihr euren Browser auf eurer Wunschsprache eingestellt haben und die Urlaubsverwaltung z.B. auf Deutsch genießen!
 
 <br/>
-Wir freuen uns über dein Feedback an <a href="mailto:info@urlaubsverwaltung.cloud?subject=Feedback">info@urlaubsverwaltung.cloud</a>.
+Wir freuen uns über dein Feedback an <a href="mailto:support@focus-shift.de?subject=Feedback">support@focus-shift.de</a>.

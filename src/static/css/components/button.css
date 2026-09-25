@@ -12,7 +12,7 @@
 		user-select: none;
 
 		transition-property: scale, color, background-color, box-shadow;
-		transition-duration: 0.2s;
+		transition-duration: 200ms;
 		transition-timing-function: ease-out;
 
 		&:active {
@@ -36,6 +36,11 @@
 
 	.button--white {
 		background-color: var(--color-white);
+		color: var(--color-black);
+	}
+
+	.button--beige {
+		background-color: var(--color-beige);
 		color: var(--color-black);
 	}
 

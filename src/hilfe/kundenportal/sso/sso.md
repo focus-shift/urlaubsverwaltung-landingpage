@@ -27,4 +27,4 @@ Aktuell unterstützen wir folgende Single Sign-On Provider:
 ## Warum wird mein Single Sign-On Provider (noch) nicht unterstützt?
 
 Wahrscheinlich hat noch keiner unserer Kunden deinen Single Sign-On Provider im Einsatz.
-Melde dich einfach via [E-Mail](mailto:info@urlaubsverwaltung.cloud?subject=Unterstützung%20bei%20Single%20Sign-On) bei uns und wir finden gemeinsam eine Lösung.
+Melde dich einfach via [E-Mail](mailto:support@focus-shift.de?subject=Unterstützung%20bei%20Single%20Sign-On) bei uns und wir finden gemeinsam eine Lösung.

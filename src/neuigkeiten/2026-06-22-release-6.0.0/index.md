@@ -67,7 +67,7 @@ Wie immer gilt: Wir entwickeln unsere Produkte gemeinsam mit euch weiter. Testet
 gefällt – und was ihr euch als Nächstes wünscht!
 
 Bei Fragen oder Anregungen erreicht ihr uns jederzeit
-per [E-Mail](mailto:info@urlaubsverwaltung.cloud?subject=Urlaubsverwaltung%206%20Feedback)
+per [E-Mail](mailto:support@focus-shift.de?subject=Urlaubsverwaltung%206%20Feedback)
 
 <sub>Zur vollständigen
 Release-Übersicht: [Release 6.0.0 auf GitHub ansehen](https://github.com/urlaubsverwaltung/urlaubsverwaltung/releases/tag/urlaubsverwaltung-6.0.0)</sub>

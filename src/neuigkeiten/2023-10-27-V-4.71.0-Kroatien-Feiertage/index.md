@@ -58,4 +58,4 @@ Malta, Italien und Griechenland sind nun auch die Feiertage aus Kroatien verfüg
     </figure>
 </div>
 
-Dir Fehlen Feiertage für ein bestimmtes Land? Dann <a href="mailto:info@urlaubsverwaltung.cloud?subject=Feiertage">melde</a> dich bei uns, wir freuen uns über dein Feedback!
+Dir Fehlen Feiertage für ein bestimmtes Land? Dann <a href="mailto:support@focus-shift.de?subject=Feiertage">melde</a> dich bei uns, wir freuen uns über dein Feedback!

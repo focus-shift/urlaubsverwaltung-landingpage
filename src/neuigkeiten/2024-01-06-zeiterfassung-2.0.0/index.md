@@ -65,7 +65,7 @@ Die Zeiterfassung unterstützt dabei nicht nur deutsche Bundesländer, sondern a
 - 🇪🇸 Spanien
 
 Dir fehlen Feiertage für ein bestimmtes Land? Dann melde dich bei uns am einfachsten
-<a href="mailto:info@urlaubsverwaltung.cloud?subject=Feiertage">per E-Mail</a>, wir freuen uns über dein Feedback!
+<a href="mailto:support@focus-shift.de?subject=Feiertage">per E-Mail</a>, wir freuen uns über dein Feedback!
 
 ## Berechtigungen über die Anwendung vergeben
 
@@ -86,4 +86,4 @@ ganz bequem und sicher anzupassen, ohne die Anwendung verlassen zu müssen.
 
 Probiert die neuen Funktionalitäten gleich aus und gestaltet eure Arbeitszeit so, wir es für euch am besten passt!
 Habt ihr weitere Anforderungen und Wünsche lasst es uns wissen. Die urlaubsverwaltung.cloud ist euere Plattform! Schreibt
-uns an <a href="mailto:info@urlaubsverwaltung.cloud">info@urlaubsverwaltung.cloud</a>
+uns an <a href="mailto:support@focus-shift.de">support@focus-shift.de</a>

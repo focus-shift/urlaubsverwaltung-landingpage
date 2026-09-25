@@ -63,4 +63,4 @@ Urlaubsverwaltung ist es nun möglich das Verfallsdatum im Konto jedes einzelnen
 </div>
 
 <br/>
-Wir freuen uns über dein Feedback an <a href="mailto:info@urlaubsverwaltung.cloud?subject=Feedback">info@urlaubsverwaltung.cloud</a>.
+Wir freuen uns über dein Feedback an <a href="mailto:support@focus-shift.de?subject=Feedback">support@focus-shift.de</a>.

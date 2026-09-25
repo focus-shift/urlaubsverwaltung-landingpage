@@ -18,7 +18,7 @@ Die Version **5.12.0** bringt ein besonders spannendes neues Feature für alle w
 
 Mit diesem Release wird ein neues Feature eingeführt, das es ermöglicht, _Daten zu sichern und in der Cloud wiederherzustellen_. Das betrifft u.a. Urlaubsanträge, Krankmeldungen und Personaldaten in der Urlaubsverwaltung.
 
-Möchtest du **in die Cloud migrieren**? Dann schreibe uns an <a href="mailto:info@urlaubsverwaltung.cloud?subject=Ab%20in%20die%20Cloud!">info@urlaubsverwaltung.cloud</a>.
+Möchtest du **in die Cloud migrieren**? Dann schreibe uns an <a href="mailto:support@focus-shift.de?subject=Ab%20in%20die%20Cloud!">support@focus-shift.de</a>.
 
 **Was ist neu?**
 
@@ -46,6 +46,6 @@ Möchtest du **in die Cloud migrieren**? Dann schreibe uns an <a href="mailto:in
 
 Mit Release _5.12.0_ wird **der Weg in die Cloud** geebnet. Das neue Backup- und Restore-Feature ist ein wichtiger Schritt, um den Wechsel von On-Premise zur Cloud zu erleichtern.
 
-Möchtest du in die Cloud migrieren? Dann schreibe uns an <a href="mailto:info@urlaubsverwaltung.cloud?subject=Ab%20in%20die%20Cloud!">info@urlaubsverwaltung.cloud</a>.
+Möchtest du in die Cloud migrieren? Dann schreibe uns an <a href="mailto:support@focus-shift.de?subject=Ab%20in%20die%20Cloud!">support@focus-shift.de</a>.
 
 <sub>Zur vollständigen Release-Übersicht: [Release 5.12.0 auf GitHub ansehen](https://github.com/urlaubsverwaltung/urlaubsverwaltung/releases/tag/urlaubsverwaltung-5.12.0)</sub>

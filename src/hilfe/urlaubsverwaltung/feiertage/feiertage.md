@@ -55,4 +55,4 @@ Die Urlaubsverwaltung bietet alle geltenden Feiertage der Länder
 
 und weiteren europäischen Länder an. Auch Besonderheiten wie z. B. das Augsburger Friedensfest ist mit dabei.
 
-Sollte uns ein Feiertag fehlen, dann schreibe uns gerne eine [E-Mail](mailto:info@urlaubsverwaltung.cloud?subject=Feiertage)!
+Sollte uns ein Feiertag fehlen, dann schreibe uns gerne eine [E-Mail](mailto:support@focus-shift.de?subject=Feiertage)!

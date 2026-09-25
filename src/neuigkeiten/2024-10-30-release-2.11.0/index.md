@@ -42,4 +42,4 @@ Ein Problem der bisherigen Version war die fehlerhafte Berechnung von Zeiteintr�
 ## Fazit
 
 Die Version 2.11.0 ist ein weiterer Schritt in Richtung Effizienz und Benutzerfreundlichkeit f체r die Zeiterfassung. Durch diese kleinen, aber wirkungsvollen Anpassungen wird die t채gliche Arbeit f체r Nutzer noch unkomplizierter und pr채ziser. Wir freuen uns auf Ihr Feedback und stehen bei Fragen wie immer gern zur Verf체gung!
-Einfach E-Mail an <a href="mailto:info@urlaubsverwaltung.cloud" class="underline">info@urlaubsverwaltung.cloud</a>
+Einfach E-Mail an <a href="mailto:support@focus-shift.de" class="underline">support@focus-shift.de</a>

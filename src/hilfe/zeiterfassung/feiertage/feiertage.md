@@ -56,4 +56,4 @@ Die Zeiterfassung bietet alle geltenden Feiertagsregelungen der Länder
 und anderen europäischen Ländern. Auch Besonderheiten wie das Augsburger Friedensfest sind dabei.
 
 Dir fehlen Feiertage für ein bestimmtes Land? Dann kontaktiere uns am einfachsten per E-Mail, wir freuen uns über dein Feedback!
-Sollte uns ein Feiertag fehlen, dann schreibe uns gerne eine [E-Mail](mailto:info@urlaubsverwaltung.cloud?subject=Feiertage)!
+Sollte uns ein Feiertag fehlen, dann schreibe uns gerne eine [E-Mail](mailto:support@focus-shift.de?subject=Feiertage)!

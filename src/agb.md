@@ -144,7 +144,7 @@ Im Rahmen der Nutzung kostenpflichtiger Dienste (einschließlich des Abrufs von 
 
 ### § 16 Schriftformerfordernis
 
-Sofern in diesen Teilnahme- und Nutzungsbedingungen nicht ausdrücklich etwas Anderes angegeben ist, sind sämtliche Erklärungen, die im Rahmen der Teilnahme an dem Portal abgegeben werden, in Schriftform oder per E-Mail abzugeben. Die E-Mail-Adresse des Diensteanbieters lautet <a href="mailto:info@urlaubsverwaltung.cloud" class="underline">info@urlaubsverwaltung.cloud</a> . Die postalische Anschrift des Diensteanbieters lautet Lindenallee 126, 76189 Karlsruhe. Änderungen der Kontaktdaten bleiben vorbehalten. Im Fall einer solchen Änderung wird der Diensteanbieter Sie hierüber in Kenntnis setzen.
+Sofern in diesen Teilnahme- und Nutzungsbedingungen nicht ausdrücklich etwas Anderes angegeben ist, sind sämtliche Erklärungen, die im Rahmen der Teilnahme an dem Portal abgegeben werden, in Schriftform oder per E-Mail abzugeben. Die E-Mail-Adresse des Diensteanbieters lautet <a href="mailto:support@focus-shift.de" class="underline">support@focus-shift.de</a> . Die postalische Anschrift des Diensteanbieters lautet Lindenallee 126, 76189 Karlsruhe. Änderungen der Kontaktdaten bleiben vorbehalten. Im Fall einer solchen Änderung wird der Diensteanbieter Sie hierüber in Kenntnis setzen.
 
 ### § 17 Salvatorische Klausel
 

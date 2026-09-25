@@ -51,4 +51,4 @@ Notwendige Felder sind Vorname, Nachname und E-Mail-Adresse, alle anderen Angabe
 Eine Beispiel-Datei zur Orientierung haben wir dir <a href="/static/import-beispiel-onboarding.csv" class="underline">hier</a> bereitgestellt.
 
 Die Informationen können dann in verschlüsselter Form an uns übermittelt werden.
-Weitere Details zum Onboarding können wir im direkten Austausch klären. Schreibe uns dazu eine kurze E-Mail an <a href="mailto:info@urlaubsverwaltung.cloud?subject=Onboarding meiner Organisation" class="underline">info@urlaubsverwaltung.cloud</a>
+Weitere Details zum Onboarding können wir im direkten Austausch klären. Schreibe uns dazu eine kurze E-Mail an <a href="mailto:support@focus-shift.de?subject=Onboarding meiner Organisation" class="underline">support@focus-shift.de</a>

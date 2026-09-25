@@ -48,5 +48,5 @@ zu deaktivieren und für bestimmte Mitarbeitenden individuell zu aktivieren.
     </figure>
 </div>
 
-Wir freuen uns über dein Feedback an <a href="mailto:info@urlaubsverwaltung.cloud?subject=Feedback">info@urlaubsverwaltung.cloud</a>.
+Wir freuen uns über dein Feedback an <a href="mailto:support@focus-shift.de?subject=Feedback">support@focus-shift.de</a>.
 <br/>

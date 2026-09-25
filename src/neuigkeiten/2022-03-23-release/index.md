@@ -42,4 +42,4 @@ Die Abwesenheitsübersicht zeigt jetzt auf den ersten Blick, dass Brigitte Händ
 
 Diese Informationen sind auch im persönlichen Kalender sowie in der Datumsauswahl verfügbar.
 
-Wir freuen uns über dein Feedback an <a href="mailto:info@urlaubsverwaltung.cloud?subject=Feedback">info@urlaubsverwaltung.cloud</a>.
+Wir freuen uns über dein Feedback an <a href="mailto:support@focus-shift.de?subject=Feedback">support@focus-shift.de</a>.
