@@ -41,9 +41,9 @@ export default function (eleventyConfig) {
 
 	// every page redirects to the same path on focus-shift.de.
 	// layouts chain to one of these root layouts, so aliasing them catches all pages.
-	eleventyConfig.addLayoutAlias("layout.hbs", "layout-redirect.njk");
-	eleventyConfig.addLayoutAlias("layout-subpage.hbs", "layout-redirect.njk");
-	eleventyConfig.addLayoutAlias("layout-subpage", "layout-redirect.njk");
+	eleventyConfig.addLayoutAlias("layout.hbs", "layout-redirect.hbs");
+	eleventyConfig.addLayoutAlias("layout-subpage.hbs", "layout-redirect.hbs");
+	eleventyConfig.addLayoutAlias("layout-subpage", "layout-redirect.hbs");
 
 	eleventyConfig.addPlugin(pluginRss);
 	eleventyConfig.addPlugin(eleventyImageTransformPlugin, {

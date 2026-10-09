@@ -1,0 +1,258 @@
+---
+redirectBaseUrl: https://focus-shift.de
+redirectDelaySeconds: 20
+---
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1" />
+	<title>Wir sind umgezogen: focus-shift.de</title>
+	{{#if redirectPath}}
+		<link rel="canonical" href="{{redirectBaseUrl}}{{redirectPath}}" />
+	{{/if}}
+	<noscript>
+		<meta http-equiv="refresh" content="0; url={{redirectBaseUrl}}{{redirectPath}}" />
+	</noscript>
+	{{> partials/favicons}}
+	<meta name="theme-color" content="#ffffff" />
+	<link rel="preload" href="/static/font/raleway/Raleway-Bold.woff2" as="font" type="font/woff2" crossorigin />
+	<link rel="preload" href="/static/font/lato/Lato-Regular.woff2" as="font" type="font/woff2" crossorigin />
+	<link rel="stylesheet" href="/static/css/style.css" />
+	{{> partials/font-raleway }}
+	{{> partials/font-lato }}
+</head>
+
+<body class="flex flex-col min-h-full bg-sky-50">
+	<header class="w-full max-w-screen-xl mx-auto p-4">
+		<div class="flex items-center">
+			{{> partials/bear class='w-8 h-8 navbar:w-12 navbar:h-12' }}
+			<p class="flex flex-col ml-4 font-content">
+				<span>urlaubsverwaltung.cloud</span>
+				<span class="text-xs navbar:text-sm text-black text-opacity-50" style="letter-spacing: -0.055em; font-weight: 400;">
+					von Focus Shift Software GmbH
+				</span>
+			</p>
+		</div>
+	</header>
+
+	<main
+		id="redirect"
+		class="flex-1 flex items-center justify-center px-4 py-12 sm:py-24"
+		data-base-url="{{redirectBaseUrl}}"
+		data-path="{{redirectPath}}"
+		data-delay-seconds="{{redirectDelaySeconds}}"
+	>
+		<div class="w-full max-w-xl bg-white rounded-2xl p-8 sm:p-12">
+			<h1 class="text-2xl sm:text-3xl text-blue-900">Wir sind umgezogen</h1>
+			<p class="mt-6 text-lg">
+				Die Urlaubsverwaltung und Zeiterfassung findest du ab sofort auf
+				<strong>focus-shift.de</strong>.
+			</p>
+			<p class="mt-4">Die neue Adresse dieser Seite lautet:</p>
+			<div class="mt-2 flex items-center gap-2 p-1 pl-3 bg-sky-50 rounded-lg">
+				<p class="flex-1 min-w-0 py-2 font-mono text-sm break-all select-all">
+					<a id="redirect-target" href="{{redirectBaseUrl}}{{redirectPath}}" class="text-blue-900 hover:underline">{{redirectBaseUrl}}{{redirectPath}}</a>
+				</p>
+				<button
+					type="button"
+					id="redirect-copy"
+					hidden
+					title="Adresse kopieren"
+					class="flex-none p-2 rounded-md text-blue-900 hover:bg-sky-100 focus:outline-none focus-visible:ring-4 focus-visible:ring-sky-300"
+				>
+					<svg id="redirect-copy-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="w-5 h-5" aria-hidden="true">
+						<rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect>
+						<path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path>
+					</svg>
+					<svg id="redirect-copied-icon" hidden xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="w-5 h-5" aria-hidden="true">
+						<polyline points="20 6 9 17 4 12"></polyline>
+					</svg>
+					<span class="sr-only">Adresse kopieren</span>
+				</button>
+			</div>
+			<p id="redirect-copy-feedback" class="invisible mt-2 text-sm font-bold">&nbsp;</p>
+			<p class="mt-2 text-black text-opacity-75">
+				Bitte aktualisiere deine Lesezeichen: Klicke auf den Button und setze auf der neuen Seite ein neues Lesezeichen.
+			</p>
+
+			<div class="mt-8 flex flex-col sm:flex-row sm:items-center gap-4">
+				<a
+					id="redirect-now"
+					href="{{redirectBaseUrl}}{{redirectPath}}"
+					class="inline-flex justify-center items-center px-6 py-3 rounded-lg bg-gradient-to-br from-purple-900 via-blue-900 to-sky-800 text-white font-header font-bold shadow hover:shadow-lg focus:outline-none focus-visible:ring-4 focus-visible:ring-sky-300"
+				>
+					Jetzt zu focus-shift.de
+					{{> partials/icon-arrow-right class="ml-2 w-5 h-5" }}
+				</a>
+				<button
+					type="button"
+					id="redirect-stop"
+					hidden
+					class="px-4 py-3 rounded-lg text-blue-900 hover:bg-sky-50 focus:outline-none focus-visible:ring-4 focus-visible:ring-sky-300"
+				>
+					Weiterleitung stoppen
+				</button>
+			</div>
+
+			<p id="redirect-status" class="mt-6"></p>
+			<p id="redirect-announcement" aria-live="polite" class="sr-only"></p>
+		</div>
+	</main>
+
+	<footer class="bg-gradient-to-br 2xl:bg-gradient-to-r from-purple-900 via-blue-900 to-sky-800 p-8 text-white text-opacity-75">
+		<div class="w-full max-w-screen-xl mx-auto">
+			<small>© {{date page.date 'yyyy'}} Focus Shift Software GmbH</small>
+		</div>
+	</footer>
+
+	<script>
+		(function () {
+			let main = document.getElementById("redirect");
+			let baseUrl = main.dataset.baseUrl;
+			let path = main.dataset.path || location.pathname;
+			let target = baseUrl + path + location.search + location.hash;
+
+			let targetLink = document.getElementById("redirect-target");
+			targetLink.href = target;
+			targetLink.textContent = baseUrl + path;
+			document.getElementById("redirect-now").href = target;
+
+			let announcement = document.getElementById("redirect-announcement");
+
+			// emoji burst out of the given element, skipped for users who prefer reduced motion
+			function throwConfetti(origin) {
+				if (window.matchMedia("(prefers-reduced-motion: reduce)").matches) {
+					return;
+				}
+				let rect = origin.getBoundingClientRect();
+				let x = rect.left + rect.width / 2;
+				let y = rect.top + rect.height / 2;
+				let emojis = ["🎉", "✅", "🎉", "✅", "🥳"];
+				let particles = [];
+
+				for (let i = 0; i < 12; i++) {
+					let element = document.createElement("span");
+					element.textContent = emojis[i % emojis.length];
+					element.setAttribute("aria-hidden", "true");
+					element.style.cssText =
+						"position:fixed;left:" + x + "px;top:" + y + "px;z-index:50;pointer-events:none;" +
+						"font-size:" + (16 + Math.random() * 14) + "px;line-height:1;will-change:transform,opacity";
+					document.body.appendChild(element);
+
+					// ballistic flight: reach `height` after `timeToPeak` seconds, then fall with the same gravity.
+					// constant sideways speed and a continuous vertical speed keep the motion fluent at the peak.
+					let height = 90 + Math.random() * 110;
+					let timeToPeak = 0.4 + Math.random() * 0.2;
+					let gravity = (2 * height) / (timeToPeak * timeToPeak);
+					particles.push({
+						element: element,
+						velocityX: (Math.random() - 0.5) * 2 * (height / timeToPeak) * 0.9,
+						velocityY: -gravity * timeToPeak,
+						gravity: gravity,
+						spin: (Math.random() - 0.5) * 720,
+						lifetime: timeToPeak + 0.55 + Math.random() * 0.15,
+					});
+				}
+
+				let startTime = performance.now();
+				let tick = function (now) {
+					let t = (now - startTime) / 1000;
+					particles = particles.filter(function (particle) {
+						if (t >= particle.lifetime) {
+							particle.element.remove();
+							return false;
+						}
+						let dx = particle.velocityX * t;
+						let dy = particle.velocityY * t + 0.5 * particle.gravity * t * t;
+						let scale = Math.min(1, 0.4 + t * 4);
+						let fadeStart = particle.lifetime * 0.7;
+						let opacity = t < fadeStart ? 1 : 1 - (t - fadeStart) / (particle.lifetime - fadeStart);
+						particle.element.style.transform =
+							"translate(-50%,-50%) translate(" + dx + "px," + dy + "px) rotate(" + particle.spin * t + "deg) scale(" + scale + ")";
+						particle.element.style.opacity = opacity;
+						return true;
+					});
+					if (particles.length > 0) {
+						requestAnimationFrame(tick);
+					}
+				};
+				requestAnimationFrame(tick);
+			}
+
+			// clipboard api is only available in secure contexts (https, localhost)
+			let copyButton = document.getElementById("redirect-copy");
+			if (navigator.clipboard) {
+				let copyIcon = document.getElementById("redirect-copy-icon");
+				let copiedIcon = document.getElementById("redirect-copied-icon");
+				let copyFeedback = document.getElementById("redirect-copy-feedback");
+				let copiedTimeout;
+
+				let showCopyFeedback = function (success, message) {
+					copyIcon.hidden = success;
+					copiedIcon.hidden = !success;
+					copyButton.classList.toggle("text-green-700", success);
+					copyButton.classList.toggle("text-blue-900", !success);
+					copyFeedback.classList.toggle("text-green-700", success);
+					copyFeedback.classList.toggle("text-red-700", !success);
+					copyFeedback.textContent = message;
+					copyFeedback.classList.remove("invisible");
+					announcement.textContent = message;
+
+					clearTimeout(copiedTimeout);
+					copiedTimeout = setTimeout(function () {
+						copyIcon.hidden = false;
+						copiedIcon.hidden = true;
+						copyButton.classList.remove("text-green-700");
+						copyButton.classList.add("text-blue-900");
+						copyFeedback.classList.add("invisible");
+					}, 4000);
+				};
+
+				copyButton.hidden = false;
+				copyButton.addEventListener("click", function () {
+					navigator.clipboard.writeText(baseUrl + path).then(
+						function () {
+							showCopyFeedback(true, "Link in die Zwischenablage kopiert.");
+							throwConfetti(copyButton);
+						},
+						function () {
+							showCopyFeedback(false, "Kopieren nicht möglich. Bitte markiere die Adresse und kopiere sie selbst.");
+						},
+					);
+				});
+			}
+
+			let remaining = Number(main.dataset.delaySeconds);
+			let status = document.getElementById("redirect-status");
+			let stopButton = document.getElementById("redirect-stop");
+
+			function renderStatus() {
+				status.textContent = "Du wirst in " + remaining + " Sekunden automatisch weitergeleitet.";
+			}
+
+			renderStatus();
+			stopButton.hidden = false;
+
+			let timer = setInterval(function () {
+				remaining -= 1;
+				if (remaining <= 0) {
+					clearInterval(timer);
+					location.replace(target);
+					return;
+				}
+				renderStatus();
+			}, 1000);
+
+			stopButton.addEventListener("click", function () {
+				clearInterval(timer);
+				status.textContent = "Automatische Weiterleitung gestoppt.";
+				announcement.textContent = status.textContent;
+				stopButton.hidden = true;
+			});
+		})();
+	</script>
+</body>
+
+</html>
