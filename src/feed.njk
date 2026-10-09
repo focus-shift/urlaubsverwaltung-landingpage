@@ -6,6 +6,11 @@ metadata:
   subtitle:
   url: https://urlaubsverwaltung.cloud
   feedUrl: https://urlaubsverwaltung.cloud/feed.xml
+  # this feed is frozen. new posts are published at focus-shift.de.
+  # entry ids keep the old domain, so existing subscribers don't see old posts as new again.
+  newUrl: https://focus-shift.de
+  newFeedUrl: https://focus-shift.de/feed.xml
+  movedAt: 2026-10-09
 ---
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/" xml:lang="de">
@@ -13,21 +18,37 @@ metadata:
   <subtitle>{{ metadata.subtitle }}</subtitle>
   <link rel="self" href="{{ metadata.feedUrl }}" />
   <link rel="alternate" type="text/html" href="{{ metadata.url }}" />
-  <updated>{{ collections.blogposts | getNewestCollectionItemDate | dateToRfc3339 }}</updated>
+  <updated>{{ metadata.movedAt | dateToRfc3339 }}</updated>
   <id>{{ metadata.url }}</id>
+  <entry>
+    <title>Wir sind umgezogen: Bitte abonniere unseren neuen Feed</title>
+    <link href="{{ metadata.newUrl }}/neuigkeiten/" />
+    <updated>{{ metadata.movedAt | dateToRfc3339 }}</updated>
+    <id>tag:urlaubsverwaltung.cloud,2026-10-09:umzug-focus-shift</id>
+    <author>
+      <name>focus-shift</name>
+    </author>
+    <content type="xhtml">
+      <div xmlns="http://www.w3.org/1999/xhtml">
+        <p>Unsere Neuigkeiten findest du ab sofort auf <a href="{{ metadata.newUrl }}/neuigkeiten/">focus-shift.de</a>.</p>
+        <p>Dieser Feed wird nicht mehr aktualisiert. Bitte abonniere unseren neuen Feed: <a href="{{ metadata.newFeedUrl }}">{{ metadata.newFeedUrl }}</a></p>
+      </div>
+    </content>
+  </entry>
   {%- for post in collections.blogposts -%}
   {%- if post.data.draft | isNoDraft -%}
   {%- if post.data.date | isPublicationDateReached -%}
   {%- set absolutePostUrl %}{{ post.url | url | absoluteUrl(metadata.url) }}{% endset %}
+  {%- set newPostUrl %}{{ post.url | url | absoluteUrl(metadata.newUrl) }}{% endset %}
   <entry>
     <title>{{ post.data.title }}</title>
-    <link href="{{ absolutePostUrl }}" />
+    <link href="{{ newPostUrl }}" />
     <updated>{{ post.date | dateToRfc3339 }}</updated>
     <id>{{ absolutePostUrl }}</id>
     <author>
       <name>{{ post.data.author }}</name>
     </author>
-    <content type="html">{{ post.templateContent | htmlToAbsoluteUrls(absolutePostUrl) }}</content>
+    <content type="html">{{ post.templateContent | htmlToAbsoluteUrls(newPostUrl) }}</content>
   </entry>
   {%- endif -%}
   {%- endif -%}
