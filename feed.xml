@@ -4,11 +4,26 @@
   <subtitle></subtitle>
   <link rel="self" href="https://urlaubsverwaltung.cloud/feed.xml" />
   <link rel="alternate" type="text/html" href="https://urlaubsverwaltung.cloud" />
-  <updated>2026-06-22T00:00:00Z</updated>
+  <updated>2026-10-09T00:00:00Z</updated>
   <id>https://urlaubsverwaltung.cloud</id>
   <entry>
+    <title>Wir sind umgezogen: Bitte abonniere unseren neuen Feed</title>
+    <link href="https://focus-shift.de/neuigkeiten/" />
+    <updated>2026-10-09T00:00:00Z</updated>
+    <id>tag:urlaubsverwaltung.cloud,2026-10-09:umzug-focus-shift</id>
+    <author>
+      <name>focus-shift</name>
+    </author>
+    <content type="xhtml">
+      <div xmlns="http://www.w3.org/1999/xhtml">
+        <p>Unsere Neuigkeiten findest du ab sofort auf <a href="https://focus-shift.de/neuigkeiten/">focus-shift.de</a>.</p>
+        <p>Dieser Feed wird nicht mehr aktualisiert. Bitte abonniere unseren neuen Feed: <a href="https://focus-shift.de/feed.xml">https://focus-shift.de/feed.xml</a></p>
+      </div>
+    </content>
+  </entry>
+  <entry>
     <title>Urlaubsverwaltung 6.0.0 – Neue Navigation, globale Suche und ein aufgeräumteres Nutzererlebnis</title>
-    <link href="https://urlaubsverwaltung.cloud/neuigkeiten/2026-06-22-release-6.0.0/" />
+    <link href="https://focus-shift.de/neuigkeiten/2026-06-22-release-6.0.0/" />
     <updated>2026-06-22T00:00:00Z</updated>
     <id>https://urlaubsverwaltung.cloud/neuigkeiten/2026-06-22-release-6.0.0/</id>
     <author>
@@ -26,7 +41,7 @@ Sidebar lässt sich bei Bedarf ein- und ausklappen. Dies spart Platz auf kleiner
 aufgeräumte Arbeitsoberfläche, während alle Funktionen schnell erreichbar bleiben.&lt;/p&gt;
 &lt;div class=&quot;flex my-8&quot;&gt;
     &lt;figure&gt;
-            &lt;img src=&quot;https://urlaubsverwaltung.cloud/neuigkeiten/2026-06-22-release-6.0.0/sidebar-navigation.png&quot; alt=&quot;Screenshot der Urlaubsverwaltung 6.0.0 mit der neuen Sidebar-Navigation an der linken Seite.&quot; class=&quot;rounded-lg&quot; /&gt;
+            &lt;img src=&quot;https://focus-shift.de/neuigkeiten/2026-06-22-release-6.0.0/sidebar-navigation.png&quot; alt=&quot;Screenshot der Urlaubsverwaltung 6.0.0 mit der neuen Sidebar-Navigation an der linken Seite.&quot; class=&quot;rounded-lg&quot; /&gt;
         &lt;figcaption class=&quot;text-sm text-center&quot;&gt;Neue Sidebar-Navigation in der Urlaubsverwaltung&lt;/figcaption&gt;
     &lt;/figure&gt;
 &lt;/div&gt;
@@ -39,7 +54,7 @@ Profils. Dadurch entfällt das manuelle Wechseln der Menüpunkte nach einem Pers
 passend zum Bereich, in dem Sie sich gerade befinden – stets direkt den richtigen Einsprung.&lt;/p&gt;
 &lt;div class=&quot;flex my-8&quot;&gt;
     &lt;figure&gt;
-            &lt;img src=&quot;https://urlaubsverwaltung.cloud/neuigkeiten/2026-06-22-release-6.0.0/globale-suche.png&quot; alt=&quot;Screenshot der Urlaubsverwaltung 6.0.0 mit geöffnetem Suchfenster der neuen globalen Suche im Vordergrund.&quot; class=&quot;rounded-lg&quot; /&gt;
+            &lt;img src=&quot;https://focus-shift.de/neuigkeiten/2026-06-22-release-6.0.0/globale-suche.png&quot; alt=&quot;Screenshot der Urlaubsverwaltung 6.0.0 mit geöffnetem Suchfenster der neuen globalen Suche im Vordergrund.&quot; class=&quot;rounded-lg&quot; /&gt;
         &lt;figcaption class=&quot;text-sm text-center&quot;&gt;Globale Suche in der Urlaubsverwaltung&lt;/figcaption&gt;
     &lt;/figure&gt;
 &lt;/div&gt;
@@ -56,7 +71,7 @@ Release-Übersicht: &lt;a href=&quot;https://github.com/urlaubsverwaltung/urlaub
   </entry>
   <entry>
     <title>Zeiterfassung 3.0.0 bringt neue Sidebar und globale Suche</title>
-    <link href="https://urlaubsverwaltung.cloud/neuigkeiten/2026-06-22-release-3.0.0/" />
+    <link href="https://focus-shift.de/neuigkeiten/2026-06-22-release-3.0.0/" />
     <updated>2026-06-22T00:00:00Z</updated>
     <id>https://urlaubsverwaltung.cloud/neuigkeiten/2026-06-22-release-3.0.0/</id>
     <author>
@@ -77,7 +92,7 @@ sauber sortiert an der linken Seite.&lt;/p&gt;
 Ein Klick genügt. Die Sidebar passt sich dynamisch an und sorgt dafür, dass ihr euch nie wieder in Untermenüs verliert.&lt;/p&gt;
 &lt;div class=&quot;flex my-8&quot;&gt;
     &lt;figure&gt;
-            &lt;img src=&quot;https://urlaubsverwaltung.cloud/neuigkeiten/2026-06-22-release-3.0.0/sidebar-navigation.png&quot; alt=&quot;Screenshot der Zeiterfassung 3.0.0 mit der neuen Sidebar-Navigation an der linken Seite.&quot; class=&quot;rounded-lg&quot; /&gt;
+            &lt;img src=&quot;https://focus-shift.de/neuigkeiten/2026-06-22-release-3.0.0/sidebar-navigation.png&quot; alt=&quot;Screenshot der Zeiterfassung 3.0.0 mit der neuen Sidebar-Navigation an der linken Seite.&quot; class=&quot;rounded-lg&quot; /&gt;
         &lt;figcaption class=&quot;text-sm text-center&quot;&gt;Neue Sidebar-Navigation in der Zeiterfassung&lt;/figcaption&gt;
     &lt;/figure&gt;
 &lt;/div&gt;
@@ -92,7 +107,7 @@ unterschiedlichsten Funktionen. Ihr tippt einfach den Namen eines Teammitglieds 
 direkt in dessen Monatsübersicht, die Berichte oder die Rechteverwaltung springen wollt.&lt;/p&gt;
 &lt;div class=&quot;flex my-8&quot;&gt;
     &lt;figure&gt;
-            &lt;img src=&quot;https://urlaubsverwaltung.cloud/neuigkeiten/2026-06-22-release-3.0.0/globale-suche.png&quot; alt=&quot;Screenshot der Zeiterfassung 3.0.0 mit geöffnetem Suchfenster der neuen globalen Suche im Vordergrund.&quot; class=&quot;rounded-lg&quot; /&gt;
+            &lt;img src=&quot;https://focus-shift.de/neuigkeiten/2026-06-22-release-3.0.0/globale-suche.png&quot; alt=&quot;Screenshot der Zeiterfassung 3.0.0 mit geöffnetem Suchfenster der neuen globalen Suche im Vordergrund.&quot; class=&quot;rounded-lg&quot; /&gt;
         &lt;figcaption class=&quot;text-sm text-center&quot;&gt;Globale Suche in der Zeiterfassung&lt;/figcaption&gt;
     &lt;/figure&gt;
 &lt;/div&gt;
@@ -107,7 +122,7 @@ Sprache individuell einstellen. Damit ist die Zeiterfassung jetzt noch barrieref
 einsatzbereit.&lt;/p&gt;
 &lt;div class=&quot;flex my-8&quot;&gt;
     &lt;figure&gt;
-            &lt;img src=&quot;https://urlaubsverwaltung.cloud/neuigkeiten/2026-06-22-release-3.0.0/dark-mode.png&quot; alt=&quot;Screenshot der Zeiterfassung im hellen Modus mit geöffnetem Auswahlmenü für den Dark Mode und die Spracheinstellungen.&quot; class=&quot;rounded-lg&quot; /&gt;
+            &lt;img src=&quot;https://focus-shift.de/neuigkeiten/2026-06-22-release-3.0.0/dark-mode.png&quot; alt=&quot;Screenshot der Zeiterfassung im hellen Modus mit geöffnetem Auswahlmenü für den Dark Mode und die Spracheinstellungen.&quot; class=&quot;rounded-lg&quot; /&gt;
         &lt;figcaption class=&quot;text-sm text-center&quot;&gt;Dark Mode in der Zeiterfassung&lt;/figcaption&gt;
     &lt;/figure&gt;
 &lt;/div&gt;
@@ -122,7 +137,7 @@ Release-Übersicht: &lt;a href=&quot;https://github.com/urlaubsverwaltung/zeiter
   </entry>
   <entry>
     <title>Karenztage 2030 - Wie ein einzelner Hebel das System verändert</title>
-    <link href="https://urlaubsverwaltung.cloud/neuigkeiten/2026-05-19-Karenztage-Schweden/" />
+    <link href="https://focus-shift.de/neuigkeiten/2026-05-19-Karenztage-Schweden/" />
     <updated>2026-05-19T00:00:00Z</updated>
     <id>https://urlaubsverwaltung.cloud/neuigkeiten/2026-05-19-Karenztage-Schweden/</id>
     <author>
@@ -158,7 +173,7 @@ Studien des Wissenschaftlichen Instituts der AOK (WIdO) und der Felix-Burda-Stif
   </entry>
   <entry>
     <title>Teilzeit-Krankschreibung - Warum die Reform mehr verlangt als ein neues Formular</title>
-    <link href="https://urlaubsverwaltung.cloud/neuigkeiten/2026-05-08-Teilzeit-Krankschreibung/" />
+    <link href="https://focus-shift.de/neuigkeiten/2026-05-08-Teilzeit-Krankschreibung/" />
     <updated>2026-05-07T00:00:00Z</updated>
     <id>https://urlaubsverwaltung.cloud/neuigkeiten/2026-05-08-Teilzeit-Krankschreibung/</id>
     <author>
@@ -216,7 +231,7 @@ Die eigentliche Frage lautet nicht: Hat sich die Person an ihren Stundenrahmen g
   </entry>
   <entry>
     <title>Warum Krankenstand sinkt, wenn Menschen mitgestalten dürfen</title>
-    <link href="https://urlaubsverwaltung.cloud/neuigkeiten/2026-05-07-Krankenstand-Organisatorisch/" />
+    <link href="https://focus-shift.de/neuigkeiten/2026-05-07-Krankenstand-Organisatorisch/" />
     <updated>2026-05-07T00:00:00Z</updated>
     <id>https://urlaubsverwaltung.cloud/neuigkeiten/2026-05-07-Krankenstand-Organisatorisch/</id>
     <author>
@@ -262,7 +277,7 @@ Konkret bedeutet das: Bevor das nächste Gesundheitsprogramm aufgesetzt wird, lo
   </entry>
   <entry>
     <title>Leistung aus Erschöpfung - Warum reaktives Krisenmanagement in Organisationen systematisch zu spät kommt</title>
-    <link href="https://urlaubsverwaltung.cloud/neuigkeiten/2026-04-13-Leistung-aus-Erschoepfung/" />
+    <link href="https://focus-shift.de/neuigkeiten/2026-04-13-Leistung-aus-Erschoepfung/" />
     <updated>2026-04-13T00:00:00Z</updated>
     <id>https://urlaubsverwaltung.cloud/neuigkeiten/2026-04-13-Leistung-aus-Erschoepfung/</id>
     <author>
@@ -310,7 +325,7 @@ Konkret bedeutet das: Bevor das nächste Gesundheitsprogramm aufgesetzt wird, lo
   </entry>
   <entry>
     <title>Wenn KI die Einstiegsstufe streicht - Was Organisationen dabei wirklich verlieren</title>
-    <link href="https://urlaubsverwaltung.cloud/neuigkeiten/2026-04-09-KI-Einstellungsstufe/" />
+    <link href="https://focus-shift.de/neuigkeiten/2026-04-09-KI-Einstellungsstufe/" />
     <updated>2026-04-09T00:00:00Z</updated>
     <id>https://urlaubsverwaltung.cloud/neuigkeiten/2026-04-09-KI-Einstellungsstufe/</id>
     <author>
@@ -351,7 +366,7 @@ Konkret bedeutet das: Bevor das nächste Gesundheitsprogramm aufgesetzt wird, lo
   </entry>
   <entry>
     <title>Die stille Doppelschicht - Was pflegende Angehörige im Betrieb mit Ihrer Fürsorgepflicht zu tun haben</title>
-    <link href="https://urlaubsverwaltung.cloud/neuigkeiten/2026-04-08-Doppelschicht-F%C3%BCrsorgepflicht/" />
+    <link href="https://focus-shift.de/neuigkeiten/2026-04-08-Doppelschicht-F%C3%BCrsorgepflicht/" />
     <updated>2026-04-08T00:00:00Z</updated>
     <id>https://urlaubsverwaltung.cloud/neuigkeiten/2026-04-08-Doppelschicht-F%C3%BCrsorgepflicht/</id>
     <author>
@@ -393,7 +408,7 @@ Muster systematisch beobachten: Arbeitszeit- und Abwesenheitsdaten, die ohnehin 
   </entry>
   <entry>
     <title>Warum Sport mehr leistet als Fitness - Bewegung als soziales Fundament in einer digitalisierten Arbeitswelt</title>
-    <link href="https://urlaubsverwaltung.cloud/neuigkeiten/2026-04-06-Bewegung-Soziales-Fundament-Arbeitswelt/" />
+    <link href="https://focus-shift.de/neuigkeiten/2026-04-06-Bewegung-Soziales-Fundament-Arbeitswelt/" />
     <updated>2026-04-06T00:00:00Z</updated>
     <id>https://urlaubsverwaltung.cloud/neuigkeiten/2026-04-06-Bewegung-Soziales-Fundament-Arbeitswelt/</id>
     <author>
@@ -435,7 +450,7 @@ Muster systematisch beobachten: Arbeitszeit- und Abwesenheitsdaten, die ohnehin 
   </entry>
   <entry>
     <title>Mental Health als strategischer KPI - Vom Soft-Faktor zum messbaren Geschäftserfolg</title>
-    <link href="https://urlaubsverwaltung.cloud/neuigkeiten/2026-02-05-MentalHealth-Chatbot/" />
+    <link href="https://focus-shift.de/neuigkeiten/2026-02-05-MentalHealth-Chatbot/" />
     <updated>2026-02-05T00:00:00Z</updated>
     <id>https://urlaubsverwaltung.cloud/neuigkeiten/2026-02-05-MentalHealth-Chatbot/</id>
     <author>
@@ -472,7 +487,7 @@ Muster systematisch beobachten: Arbeitszeit- und Abwesenheitsdaten, die ohnehin 
   </entry>
   <entry>
     <title>Warum die Gen Z psychische Gesundheit anders angeht – und was Unternehmen davon lernen können</title>
-    <link href="https://urlaubsverwaltung.cloud/neuigkeiten/2026-02-02-Filderstadt-Genz-MentalHealth/" />
+    <link href="https://focus-shift.de/neuigkeiten/2026-02-02-Filderstadt-Genz-MentalHealth/" />
     <updated>2026-02-02T00:00:00Z</updated>
     <id>https://urlaubsverwaltung.cloud/neuigkeiten/2026-02-02-Filderstadt-Genz-MentalHealth/</id>
     <author>
@@ -512,7 +527,7 @@ Muster systematisch beobachten: Arbeitszeit- und Abwesenheitsdaten, die ohnehin 
   </entry>
   <entry>
     <title>Arbeitszeit an Heiligabend und Silvester</title>
-    <link href="https://urlaubsverwaltung.cloud/neuigkeiten/2025-12-14-heiligabend-silvester/" />
+    <link href="https://focus-shift.de/neuigkeiten/2025-12-14-heiligabend-silvester/" />
     <updated>2025-12-14T00:00:00Z</updated>
     <id>https://urlaubsverwaltung.cloud/neuigkeiten/2025-12-14-heiligabend-silvester/</id>
     <author>
@@ -557,7 +572,7 @@ Die Arbeitsdauer muss nur einmal zentral gepflegt werden und gilt dann für alle
   </entry>
   <entry>
     <title>Zeiterfassung 2.24.0 – Korrekte Verrechnung von Arbeits- und Pausenzeiten</title>
-    <link href="https://urlaubsverwaltung.cloud/neuigkeiten/2025-11-01-pausenzeiten/" />
+    <link href="https://focus-shift.de/neuigkeiten/2025-11-01-pausenzeiten/" />
     <updated>2025-11-01T00:00:00Z</updated>
     <id>https://urlaubsverwaltung.cloud/neuigkeiten/2025-11-01-pausenzeiten/</id>
     <author>
@@ -576,7 +591,7 @@ realitätsgetreuer abzubilden und dadurch verlässliche Arbeitszeitnachweise zu 
 &lt;/ul&gt;
 &lt;div class=&quot;flex my-8&quot;&gt;
     &lt;figure&gt;
-            &lt;img src=&quot;https://urlaubsverwaltung.cloud/neuigkeiten/2025-11-01-pausenzeiten/alt-pausenabzug.png&quot; alt=&quot;&quot; class=&quot;rounded-lg&quot; /&gt;
+            &lt;img src=&quot;https://focus-shift.de/neuigkeiten/2025-11-01-pausenzeiten/alt-pausenabzug.png&quot; alt=&quot;&quot; class=&quot;rounded-lg&quot; /&gt;
         &lt;figcaption class=&quot;text-sm text-center&quot;&gt;Pausen wurden bei Überschneidungen bisher nicht abgezogen.&lt;/figcaption&gt;
     &lt;/figure&gt;
 &lt;/div&gt;
@@ -593,7 +608,7 @@ Neue Berechnung: 8 Stunden – 1 Stunde Pause = 7 Arbeitsstunden&lt;/li&gt;
 &lt;/ul&gt;
 &lt;div class=&quot;flex my-8&quot;&gt;
     &lt;figure&gt;
-            &lt;img src=&quot;https://urlaubsverwaltung.cloud/neuigkeiten/2025-11-01-pausenzeiten/neu-pausenabzug.png&quot; alt=&quot;&quot; class=&quot;rounded-lg&quot; /&gt;
+            &lt;img src=&quot;https://focus-shift.de/neuigkeiten/2025-11-01-pausenzeiten/neu-pausenabzug.png&quot; alt=&quot;&quot; class=&quot;rounded-lg&quot; /&gt;
         &lt;figcaption class=&quot;text-sm text-center&quot;&gt;Pause machen und gleichzeitig arbeiten? Geht nicht! Pausen sollen bei Überschneidung abgezogen werden.&lt;/figcaption&gt;
     &lt;/figure&gt;
 &lt;/div&gt;
@@ -606,7 +621,7 @@ Dies ist weiterhin möglich, jedoch nicht mehr zwingend erforderlich.&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;&lt;em&gt;Bestandskunden:&lt;/em&gt; Die Änderung kann in den Einstellungen optional aktiviert werden, um bestehende Prozesse nicht ungewollt zu beeinträchtigen.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;https://urlaubsverwaltung.cloud/neuigkeiten/2025-11-01-pausenzeiten/pausenabzug-einstellung.png&quot; alt=&quot;Einstellung, ab wann der Pausenabzug aktiv ist.&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://focus-shift.de/neuigkeiten/2025-11-01-pausenzeiten/pausenabzug-einstellung.png&quot; alt=&quot;Einstellung, ab wann der Pausenabzug aktiv ist.&quot; /&gt;&lt;/p&gt;
   &lt;figcaption class=&quot;text-sm text-center&quot;&gt;Einstellung, ab wann der Pausenabzug aktiv ist.&lt;/figcaption&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
@@ -630,7 +645,7 @@ engem Austausch mit unseren Nutzer:innen entwickeln.&lt;/p&gt;
   </entry>
   <entry>
     <title>Urlaubsverwaltung 5.28.0 – Brandneue Statistik zu Krankmeldungen</title>
-    <link href="https://urlaubsverwaltung.cloud/neuigkeiten/2025-08-22-release-5.28.0/" />
+    <link href="https://focus-shift.de/neuigkeiten/2025-08-22-release-5.28.0/" />
     <updated>2025-08-22T00:00:00Z</updated>
     <id>https://urlaubsverwaltung.cloud/neuigkeiten/2025-08-22-release-5.28.0/</id>
     <author>
@@ -651,19 +666,19 @@ So entsteht ein klareres Bild darüber, wie sich Krankheitstage im Unternehmen e
 &lt;p&gt;Damit bleibt die Vertraulichkeit gewahrt, während gleichzeitig die jeweils relevanten Informationen zur Verfügung stehen.&lt;/p&gt;
 &lt;div class=&quot;flex my-8&quot;&gt;
     &lt;figure&gt;
-            &lt;img src=&quot;https://urlaubsverwaltung.cloud/neuigkeiten/2025-08-22-release-5.28.0/krankmeldungsstatistik-verteilung-der-krankheitstage-graph.png&quot; alt=&quot;Verteilung der Krankheitstage über das Kalenderjahr als Balkendiagramm&quot; class=&quot;rounded-lg&quot; /&gt;
+            &lt;img src=&quot;https://focus-shift.de/neuigkeiten/2025-08-22-release-5.28.0/krankmeldungsstatistik-verteilung-der-krankheitstage-graph.png&quot; alt=&quot;Verteilung der Krankheitstage über das Kalenderjahr als Balkendiagramm&quot; class=&quot;rounded-lg&quot; /&gt;
         &lt;figcaption class=&quot;text-sm text-center&quot;&gt;Verteilung der Krankheitstage über das Kalenderjahr als Balkendiagramm&lt;/figcaption&gt;
     &lt;/figure&gt;
 &lt;/div&gt;
 &lt;div class=&quot;flex my-8&quot;&gt;
     &lt;figure&gt;
-            &lt;img src=&quot;https://urlaubsverwaltung.cloud/neuigkeiten/2025-08-22-release-5.28.0/krankmeldungsstatistik-krankheitstage-zahlen.png&quot; alt=&quot;Informationen zu den Krankheitstagen aufgeschlüsselt nach Kategorie (Normale Krankmeldung und Kind-Krankmeldung)&quot; class=&quot;rounded-lg&quot; /&gt;
+            &lt;img src=&quot;https://focus-shift.de/neuigkeiten/2025-08-22-release-5.28.0/krankmeldungsstatistik-krankheitstage-zahlen.png&quot; alt=&quot;Informationen zu den Krankheitstagen aufgeschlüsselt nach Kategorie (Normale Krankmeldung und Kind-Krankmeldung)&quot; class=&quot;rounded-lg&quot; /&gt;
         &lt;figcaption class=&quot;text-sm text-center&quot;&gt;Informationen zu den Krankheitstagen aufgeschlüsselt nach Kategorie (Normale Krankmeldung und Kind-Krankmeldung)&lt;/figcaption&gt;
     &lt;/figure&gt;
 &lt;/div&gt;
 &lt;div class=&quot;flex my-8&quot;&gt;
     &lt;figure&gt;
-            &lt;img src=&quot;https://urlaubsverwaltung.cloud/neuigkeiten/2025-08-22-release-5.28.0/krankmeldungsstatistik-krankmeldungen-zahlen.png&quot; alt=&quot;Informationen zu den Krankmeldungen aufgeschlüsselt nach Kategorie (Normale Krankmeldung und Kind-Krankmeldung)&quot; class=&quot;rounded-lg&quot; /&gt;
+            &lt;img src=&quot;https://focus-shift.de/neuigkeiten/2025-08-22-release-5.28.0/krankmeldungsstatistik-krankmeldungen-zahlen.png&quot; alt=&quot;Informationen zu den Krankmeldungen aufgeschlüsselt nach Kategorie (Normale Krankmeldung und Kind-Krankmeldung)&quot; class=&quot;rounded-lg&quot; /&gt;
         &lt;figcaption class=&quot;text-sm text-center&quot;&gt;Informationen zu den Krankmeldungen aufgeschlüsselt nach Kategorie (Normale Krankmeldung und Kind-Krankmeldung)&lt;/figcaption&gt;
     &lt;/figure&gt;
 &lt;/div&gt;
@@ -686,7 +701,7 @@ So entsteht ein klareres Bild darüber, wie sich Krankheitstage im Unternehmen e
   </entry>
   <entry>
     <title>iOS-App für deine Mitarbeitende</title>
-    <link href="https://urlaubsverwaltung.cloud/neuigkeiten/2025-06-26-mobile-app-ios/" />
+    <link href="https://focus-shift.de/neuigkeiten/2025-06-26-mobile-app-ios/" />
     <updated>2025-06-26T00:00:00Z</updated>
     <id>https://urlaubsverwaltung.cloud/neuigkeiten/2025-06-26-mobile-app-ios/</id>
     <author>
@@ -708,7 +723,7 @@ Ab sofort ist die &lt;strong&gt;urlaubsverwaltung.cloud Mitarbeiter-App auch fü
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;&lt;strong&gt;Synchronisation:&lt;/strong&gt; Alle Daten werden automatisch mit der Web-Anwendung synchronisiert – keine lokalen Daten auf dem Gerät.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;https://urlaubsverwaltung.cloud/neuigkeiten/2025-06-26-mobile-app-ios/ios-teaser.png&quot; alt=&quot;Die neue urlaubsverwaltung.cloud iOS-App&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://focus-shift.de/neuigkeiten/2025-06-26-mobile-app-ios/ios-teaser.png&quot; alt=&quot;Die neue urlaubsverwaltung.cloud iOS-App&quot; /&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id=&quot;fuer-wen-ist-die-app-gedacht&quot;&gt;Für wen ist die App gedacht?&lt;/h2&gt;
@@ -722,12 +737,12 @@ Natürlich gibt es die App weiterhin auch für &lt;a href=&quot;https://play.goo
 Testet die neue iOS-App, gebt uns Feedback und sagt uns, was ihr euch als Nächstes wünscht!&lt;/p&gt;
 &lt;p&gt;Bei Fragen oder Anregungen erreicht ihr uns jederzeit per &lt;a href=&quot;mailto:info@urlaubsverwaltung.cloud?subject=iOS%20App%20Feedback&quot;&gt;E-Mail&lt;/a&gt; oder telefonisch unter +49 (721) 98614542.&lt;/p&gt;
 &lt;hr /&gt;
-&lt;p&gt;&lt;sub&gt;Zur Übersicht aller Neuigkeiten: &lt;a href=&quot;https://urlaubsverwaltung.cloud/neuigkeiten/&quot;&gt;Alle News anzeigen&lt;/a&gt;&lt;/sub&gt;&lt;/p&gt;
+&lt;p&gt;&lt;sub&gt;Zur Übersicht aller Neuigkeiten: &lt;a href=&quot;https://focus-shift.de/neuigkeiten/&quot;&gt;Alle News anzeigen&lt;/a&gt;&lt;/sub&gt;&lt;/p&gt;
 </content>
   </entry>
   <entry>
     <title>Urlaubsverwaltung 5.25.0 – Neue Einstellungen und Abteilungsleiter und Freigabe-Verantwortliche dürfen nun auch Abwesenheiten editieren</title>
-    <link href="https://urlaubsverwaltung.cloud/neuigkeiten/2025-05-02-release-5.25.0/" />
+    <link href="https://focus-shift.de/neuigkeiten/2025-05-02-release-5.25.0/" />
     <updated>2025-06-20T00:00:00Z</updated>
     <id>https://urlaubsverwaltung.cloud/neuigkeiten/2025-05-02-release-5.25.0/</id>
     <author>
@@ -756,7 +771,7 @@ Zudem wird die Navigation innerhalb der Einstellungen erleichtert.&lt;/p&gt;
 &lt;/ul&gt;
 &lt;div class=&quot;flex my-8&quot;&gt;
     &lt;figure&gt;
-            &lt;img src=&quot;https://urlaubsverwaltung.cloud/neuigkeiten/2025-05-02-release-5.25.0/Einstellung-kategorien.png&quot; alt=&quot;Übersicht der Einstellungskategorien&quot; class=&quot;rounded-lg&quot; /&gt;
+            &lt;img src=&quot;https://focus-shift.de/neuigkeiten/2025-05-02-release-5.25.0/Einstellung-kategorien.png&quot; alt=&quot;Übersicht der Einstellungskategorien&quot; class=&quot;rounded-lg&quot; /&gt;
         &lt;figcaption class=&quot;text-sm text-center&quot;&gt;Übersicht der Einstellungskategorien&lt;/figcaption&gt;
     &lt;/figure&gt;
 &lt;/div&gt;
@@ -766,7 +781,7 @@ Die Berechtigungen einer Person können ab jetzt direkt in der Übersicht der en
 Das erleichtert die Verwaltung der Berechtigungen.&lt;/p&gt;
 &lt;div class=&quot;flex my-8&quot;&gt;
     &lt;figure&gt;
-            &lt;img src=&quot;https://urlaubsverwaltung.cloud/neuigkeiten/2025-05-02-release-5.25.0/abteilung-uebersicht.png&quot; alt=&quot;Abteilungsübersicht mit Berechtigungen&quot; class=&quot;rounded-lg&quot; /&gt;
+            &lt;img src=&quot;https://focus-shift.de/neuigkeiten/2025-05-02-release-5.25.0/abteilung-uebersicht.png&quot; alt=&quot;Abteilungsübersicht mit Berechtigungen&quot; class=&quot;rounded-lg&quot; /&gt;
         &lt;figcaption class=&quot;text-sm text-center&quot;&gt;Abteilungsübersicht mit Berechtigungen&lt;/figcaption&gt;
     &lt;/figure&gt;
 &lt;/div&gt;
@@ -781,7 +796,7 @@ Abteilungsübersicht die Transparenz und Effizienz in der Berechtigungsverwaltun
   </entry>
   <entry>
     <title>Zeiterfassung 2.21.0 – Festschreiben von Zeiteinträgen</title>
-    <link href="https://urlaubsverwaltung.cloud/neuigkeiten/2025-04-25-release-2.21.0/" />
+    <link href="https://focus-shift.de/neuigkeiten/2025-04-25-release-2.21.0/" />
     <updated>2025-06-18T00:00:00Z</updated>
     <id>https://urlaubsverwaltung.cloud/neuigkeiten/2025-04-25-release-2.21.0/</id>
     <author>
@@ -793,12 +808,12 @@ Abteilungsübersicht die Transparenz und Effizienz in der Berechtigungsverwaltun
 Dies ist besonders wichtig, wenn die Zeitbuchungen für die Lohnabrechnung verwendet werden.&lt;/p&gt;
 &lt;p&gt;In der Zeiterfassung können Personen mit der Berechtigung &amp;quot;darf die globalen Einstellungen bearbeiten&amp;quot; unter
 &#39;Einstellungen &amp;gt; Festschreiben von Zeitslots&#39; einstellen nach wie vielen Tagen Zeiteinträge für die Mitarbeitenden festgeschrieben werden sollen.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;https://urlaubsverwaltung.cloud/neuigkeiten/2025-04-25-release-2.21.0/zeiteintrag_festschreiben.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://focus-shift.de/neuigkeiten/2025-04-25-release-2.21.0/zeiteintrag_festschreiben.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 &lt;p&gt;Nur Mitarbeitende mit der Berechtigung &#39;darf die Zeiteinträge aller Personen bearbeiten&#39;
 können an einem festgeschriebenen Tag neue Zeiteinträge hinzufügen oder bestehende bearbeiten.&lt;/p&gt;
 &lt;p&gt;Festgeschriebene Tage sind in der Übersicht mit einem Schloss-Symbol markiert.
 An diesen Tagen können keine Zeiteinträge hinzugefügt oder geändert werden.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;https://urlaubsverwaltung.cloud/neuigkeiten/2025-04-25-release-2.21.0/zeiteintrag_festschreiben_lock_zeit.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://focus-shift.de/neuigkeiten/2025-04-25-release-2.21.0/zeiteintrag_festschreiben_lock_zeit.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 &lt;p&gt;Für Personen mit der Berechtigung &amp;quot;darf die globalen Einstellungen bearbeiten&amp;quot; wird das Schloss-Symbol angezeigt.
 Diese können aber weiterhin neue Zeiteinträge hinzufügen bzw. bearbeiten.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Warum ist das wichtig?&lt;/strong&gt;&lt;br /&gt;
@@ -811,7 +826,7 @@ um die Integrität der Daten zu gewährleisten und um sicherzustellen, dass ab e
   </entry>
   <entry>
     <title>Urlaubsverwaltung 5.24.0 – Direkte Kommentare bei Abwesenheiten und Überstunden</title>
-    <link href="https://urlaubsverwaltung.cloud/neuigkeiten/2025-04-23-release-5.24.0/" />
+    <link href="https://focus-shift.de/neuigkeiten/2025-04-23-release-5.24.0/" />
     <updated>2025-06-13T00:00:00Z</updated>
     <id>https://urlaubsverwaltung.cloud/neuigkeiten/2025-04-23-release-5.24.0/</id>
     <author>
@@ -824,7 +839,7 @@ um die Integrität der Daten zu gewährleisten und um sicherzustellen, dass ab e
 Das ist besonders praktisch, wenn du schnell etwas anmerken möchtest, ohne den gesamten Antrag durchzugehen. Einfach Kommentar hinzufügen und fertig!&lt;/p&gt;
 &lt;div class=&quot;flex my-8&quot;&gt;
     &lt;figure&gt;
-            &lt;img src=&quot;https://urlaubsverwaltung.cloud/neuigkeiten/2025-04-23-release-5.24.0/kommentar-krankmeldung.png&quot; alt=&quot;Kommentar direkt zum Verlauf hinzufügen&quot; class=&quot;rounded-lg&quot; /&gt;
+            &lt;img src=&quot;https://focus-shift.de/neuigkeiten/2025-04-23-release-5.24.0/kommentar-krankmeldung.png&quot; alt=&quot;Kommentar direkt zum Verlauf hinzufügen&quot; class=&quot;rounded-lg&quot; /&gt;
         &lt;figcaption class=&quot;text-sm text-center&quot;&gt;Kommentar direkt zum Verlauf hinzufügen&lt;/figcaption&gt;
     &lt;/figure&gt;
 &lt;/div&gt;
@@ -837,7 +852,7 @@ Urlaubsanträge und Überstunden müssen nicht mehr bearbeitet werden, um einen 
   </entry>
   <entry>
     <title>Urlaubsverwaltung 5.23.0 – Abwesenheitsstatistik einsehen und Fehlerbehebungen</title>
-    <link href="https://urlaubsverwaltung.cloud/neuigkeiten/2025-03-28-release-5.23.0/" />
+    <link href="https://focus-shift.de/neuigkeiten/2025-03-28-release-5.23.0/" />
     <updated>2025-06-11T00:00:00Z</updated>
     <id>https://urlaubsverwaltung.cloud/neuigkeiten/2025-03-28-release-5.23.0/</id>
     <author>
@@ -851,7 +866,7 @@ Darüber hinaus ist es ab jetzt möglich initial &lt;strong&gt;negative Überstu
 &lt;p&gt;Mit diesem Update können Benutzende nun eine &lt;strong&gt;Abwesenheitsstatistik&lt;/strong&gt; einsehen, die es ihnen ermöglicht, ihre vergangenen und geplanten Abwesenheiten schnell zu überprüfen. Diese Funktion bietet eine Übersicht über &lt;strong&gt;Urlaubstage&lt;/strong&gt;, &lt;strong&gt;Krankmeldungen&lt;/strong&gt; und andere relevante Abwesenheiten und hilft dabei, eine bessere Übersicht und Planung zu gewährleisten.&lt;/p&gt;
 &lt;div class=&quot;flex my-8&quot;&gt;
     &lt;figure&gt;
-            &lt;img src=&quot;https://urlaubsverwaltung.cloud/neuigkeiten/2025-03-28-release-5.23.0/Abwesenheitsstatistik.png&quot; alt=&quot;Einblick in die Abwesenheitsstatistik&quot; class=&quot;rounded-lg&quot; /&gt;
+            &lt;img src=&quot;https://focus-shift.de/neuigkeiten/2025-03-28-release-5.23.0/Abwesenheitsstatistik.png&quot; alt=&quot;Einblick in die Abwesenheitsstatistik&quot; class=&quot;rounded-lg&quot; /&gt;
         &lt;figcaption class=&quot;text-sm text-center&quot;&gt;Einblick in die Abwesenheitsstatistik&lt;/figcaption&gt;
     &lt;/figure&gt;
 &lt;/div&gt;
@@ -863,7 +878,7 @@ Diese Funktion erleichtert Benutzern die &lt;strong&gt;Selbstkontrolle&lt;/stron
 Ab jetzt können &lt;strong&gt;negative Überstunden&lt;/strong&gt; korrekt angelegt werden, was für &lt;strong&gt;Überstundenabbau&lt;/strong&gt; oder &lt;strong&gt;Guthaben&lt;/strong&gt; von Bedeutung ist.&lt;/p&gt;
 &lt;div class=&quot;flex my-8&quot;&gt;
     &lt;figure&gt;
-            &lt;img src=&quot;https://urlaubsverwaltung.cloud/neuigkeiten/2025-03-28-release-5.23.0/minusstunden.png&quot; alt=&quot;Formular zum Eintragen von Minusstunden&quot; class=&quot;rounded-lg&quot; /&gt;
+            &lt;img src=&quot;https://focus-shift.de/neuigkeiten/2025-03-28-release-5.23.0/minusstunden.png&quot; alt=&quot;Formular zum Eintragen von Minusstunden&quot; class=&quot;rounded-lg&quot; /&gt;
         &lt;figcaption class=&quot;text-sm text-center&quot;&gt;Formular zum Eintragen von Minusstunden&lt;/figcaption&gt;
     &lt;/figure&gt;
 &lt;/div&gt;
@@ -878,7 +893,7 @@ ihre &lt;strong&gt;Abwesenheitsstatistik&lt;/strong&gt; einzusehen. Zudem wurden
   </entry>
   <entry>
     <title>Neues Feature-Release - Nahtlose Synchronisierung von Überstunden zwischen Zeiterfassung und Urlaubsverwaltung</title>
-    <link href="https://urlaubsverwaltung.cloud/neuigkeiten/2025-05-28-overtime-sync/" />
+    <link href="https://focus-shift.de/neuigkeiten/2025-05-28-overtime-sync/" />
     <updated>2025-06-06T00:00:00Z</updated>
     <id>https://urlaubsverwaltung.cloud/neuigkeiten/2025-05-28-overtime-sync/</id>
     <author>
@@ -898,7 +913,7 @@ Außerdem ist ab der Aktivierung eine manuelle erhebung von Überstunden nicht m
 Die zuvor manuel angelegten Überstunden, können weiterhin bearbeitet werden.&lt;/p&gt;
 &lt;div class=&quot;flex my-8&quot;&gt;
     &lt;figure&gt;
-            &lt;img src=&quot;https://urlaubsverwaltung.cloud/neuigkeiten/2025-05-28-overtime-sync/overtime-sync-config.png&quot; alt=&quot;Aktivierung der Synchronisierung der Überstunden&quot; class=&quot;rounded-lg&quot; /&gt;
+            &lt;img src=&quot;https://focus-shift.de/neuigkeiten/2025-05-28-overtime-sync/overtime-sync-config.png&quot; alt=&quot;Aktivierung der Synchronisierung der Überstunden&quot; class=&quot;rounded-lg&quot; /&gt;
         &lt;figcaption class=&quot;text-sm text-center&quot;&gt;Aktivierung der Synchronisierung der Überstunden&lt;/figcaption&gt;
     &lt;/figure&gt;
 &lt;/div&gt;
@@ -908,7 +923,7 @@ Die zuvor manuel angelegten Überstunden, können weiterhin bearbeitet werden.&l
 &lt;/ul&gt;
 &lt;div class=&quot;flex my-8&quot;&gt;
     &lt;figure&gt;
-            &lt;img src=&quot;https://urlaubsverwaltung.cloud/neuigkeiten/2025-05-28-overtime-sync/overtime-listview.png&quot; alt=&quot;Übersicht der Synchronisierten Überstunden&quot; class=&quot;rounded-lg&quot; /&gt;
+            &lt;img src=&quot;https://focus-shift.de/neuigkeiten/2025-05-28-overtime-sync/overtime-listview.png&quot; alt=&quot;Übersicht der Synchronisierten Überstunden&quot; class=&quot;rounded-lg&quot; /&gt;
         &lt;figcaption class=&quot;text-sm text-center&quot;&gt;Übersicht der Synchronisierten Überstunden&lt;/figcaption&gt;
     &lt;/figure&gt;
 &lt;/div&gt;
@@ -917,7 +932,7 @@ Die zuvor manuel angelegten Überstunden, können weiterhin bearbeitet werden.&l
 &lt;/ul&gt;
 &lt;div class=&quot;flex my-8&quot;&gt;
     &lt;figure&gt;
-            &lt;img src=&quot;https://urlaubsverwaltung.cloud/neuigkeiten/2025-05-28-overtime-sync/overtime-ze.png&quot; alt=&quot;Abteilungsübersicht mit Berechtigungen&quot; class=&quot;rounded-lg&quot; /&gt;
+            &lt;img src=&quot;https://focus-shift.de/neuigkeiten/2025-05-28-overtime-sync/overtime-ze.png&quot; alt=&quot;Abteilungsübersicht mit Berechtigungen&quot; class=&quot;rounded-lg&quot; /&gt;
         &lt;figcaption class=&quot;text-sm text-center&quot;&gt;Überstundenabbau in der Zeiterfassung&lt;/figcaption&gt;
     &lt;/figure&gt;
 &lt;/div&gt;
@@ -941,7 +956,7 @@ Die zuvor manuel angelegten Überstunden, können weiterhin bearbeitet werden.&l
   </entry>
   <entry>
     <title>Urlaubsverwaltung 5.22.0 veröffentlicht – neue Features für transparente Urlaubs- und Krankheitsverwaltung</title>
-    <link href="https://urlaubsverwaltung.cloud/neuigkeiten/2025-03-21-release-5.22.0/" />
+    <link href="https://focus-shift.de/neuigkeiten/2025-03-21-release-5.22.0/" />
     <updated>2025-06-06T00:00:00Z</updated>
     <id>https://urlaubsverwaltung.cloud/neuigkeiten/2025-03-21-release-5.22.0/</id>
     <author>
@@ -958,7 +973,7 @@ Insbesondere wird dargestellt, wenn es &lt;strong&gt;keine Entgeltfortzahlung&lt
 Das schafft mehr Transparenz über den Verlauf einer Krankheitsphase.&lt;/p&gt;
 &lt;div class=&quot;flex my-8&quot;&gt;
     &lt;figure&gt;
-            &lt;img src=&quot;https://urlaubsverwaltung.cloud/neuigkeiten/2025-03-21-release-5.22.0/krankmeldung-detail.png&quot; alt=&quot;Details einer Krankmeldung inklusive Informationen zur Lohnfortzahlung&quot; class=&quot;rounded-lg&quot; /&gt;
+            &lt;img src=&quot;https://focus-shift.de/neuigkeiten/2025-03-21-release-5.22.0/krankmeldung-detail.png&quot; alt=&quot;Details einer Krankmeldung inklusive Informationen zur Lohnfortzahlung&quot; class=&quot;rounded-lg&quot; /&gt;
         &lt;figcaption class=&quot;text-sm text-center&quot;&gt;Details einer Krankmeldung inklusive Informationen zur Lohnfortzahlung&lt;/figcaption&gt;
     &lt;/figure&gt;
 &lt;/div&gt;
@@ -976,7 +991,7 @@ Das minimiert die notwendige Kommunikation und sorgt für klare Abläufe.&lt;/p&
   </entry>
   <entry>
     <title>Zeiterfassung 2.19.0 – Verbesserte Arbeitszeiteinstellungen &amp; privilegierte Benutzeransicht</title>
-    <link href="https://urlaubsverwaltung.cloud/neuigkeiten/2025-03-21-release-2.19.0/" />
+    <link href="https://focus-shift.de/neuigkeiten/2025-03-21-release-2.19.0/" />
     <updated>2025-06-04T00:00:00Z</updated>
     <id>https://urlaubsverwaltung.cloud/neuigkeiten/2025-03-21-release-2.19.0/</id>
     <author>
@@ -1008,7 +1023,7 @@ Zudem wurde die Berechtigungsänderung verbessert, was die Zuverlässigkeit der 
   </entry>
   <entry>
     <title>Urlaubsverwaltung 5.21.0 – Wir können nun Singular und Plural!</title>
-    <link href="https://urlaubsverwaltung.cloud/neuigkeiten/2025-03-14-release-5.21.0/" />
+    <link href="https://focus-shift.de/neuigkeiten/2025-03-14-release-5.21.0/" />
     <updated>2025-05-30T00:00:00Z</updated>
     <id>https://urlaubsverwaltung.cloud/neuigkeiten/2025-03-14-release-5.21.0/</id>
     <author>
@@ -1031,7 +1046,7 @@ sorgt die Verbesserung der Anzeige von Tagen und Stunden für mehr Klarheit.&lt;
   </entry>
   <entry>
     <title>Zeiterfassung 2.18.0 – Verbesserte Performance &amp; Personensuche</title>
-    <link href="https://urlaubsverwaltung.cloud/neuigkeiten/2025-03-14-release-2.18.0/" />
+    <link href="https://focus-shift.de/neuigkeiten/2025-03-14-release-2.18.0/" />
     <updated>2025-05-28T00:00:00Z</updated>
     <id>https://urlaubsverwaltung.cloud/neuigkeiten/2025-03-14-release-2.18.0/</id>
     <author>
@@ -1067,7 +1082,7 @@ insbesondere bei der &lt;strong&gt;Personensuche&lt;/strong&gt;.&lt;/p&gt;
   </entry>
   <entry>
     <title>Urlaubsverwaltung 5.20.0 veröffentlicht – präzisere Kalenderangaben und optimierte Bestätigungs-Mails</title>
-    <link href="https://urlaubsverwaltung.cloud/neuigkeiten/2025-03-11-release-5.20.0/" />
+    <link href="https://focus-shift.de/neuigkeiten/2025-03-11-release-5.20.0/" />
     <updated>2025-05-23T00:00:00Z</updated>
     <id>https://urlaubsverwaltung.cloud/neuigkeiten/2025-03-11-release-5.20.0/</id>
     <author>
@@ -1102,7 +1117,7 @@ Diese Neuerungen erhöhen die &lt;strong&gt;Effizienz&lt;/strong&gt; und &lt;str
   </entry>
   <entry>
     <title>Urlaubsverwaltung 5.19.0 veröffentlicht – verbesserte Benachrichtigungen und neue Antwortfunktionen</title>
-    <link href="https://urlaubsverwaltung.cloud/neuigkeiten/2025-03-07-release-5.19.0/" />
+    <link href="https://focus-shift.de/neuigkeiten/2025-03-07-release-5.19.0/" />
     <updated>2025-05-21T00:00:00Z</updated>
     <id>https://urlaubsverwaltung.cloud/neuigkeiten/2025-03-07-release-5.19.0/</id>
     <author>
@@ -1135,7 +1150,7 @@ sorgen für mehr &lt;strong&gt;Effizienz&lt;/strong&gt; und &lt;strong&gt;Transp
   </entry>
   <entry>
     <title>Zeiterfassung 2.17.0 – Verbesserte Sortierung &amp; privilegierte Benutzerfunktionen</title>
-    <link href="https://urlaubsverwaltung.cloud/neuigkeiten/2025-03-07-release-2.17.0/" />
+    <link href="https://focus-shift.de/neuigkeiten/2025-03-07-release-2.17.0/" />
     <updated>2025-05-16T00:00:00Z</updated>
     <id>https://urlaubsverwaltung.cloud/neuigkeiten/2025-03-07-release-2.17.0/</id>
     <author>
@@ -1174,7 +1189,7 @@ Die visuelle Hervorhebung von &lt;strong&gt;unterschiedlichen Zeitslots&lt;/stro
   </entry>
   <entry>
     <title>Urlaubsverwaltung 5.18.0 veröffentlicht – mit Demo-Banner, stabilerem Dark Mode und Zeitzonen-Fix</title>
-    <link href="https://urlaubsverwaltung.cloud/neuigkeiten/2025-02-25-release-5.18.0/" />
+    <link href="https://focus-shift.de/neuigkeiten/2025-02-25-release-5.18.0/" />
     <updated>2025-05-14T00:00:00Z</updated>
     <id>https://urlaubsverwaltung.cloud/neuigkeiten/2025-02-25-release-5.18.0/</id>
     <author>
@@ -1195,7 +1210,7 @@ Die visuelle Hervorhebung von &lt;strong&gt;unterschiedlichen Zeitslots&lt;/stro
   </entry>
   <entry>
     <title>Zeiterfassung 2.16.0 – Änderungshistorie für Zeiteinträge</title>
-    <link href="https://urlaubsverwaltung.cloud/neuigkeiten/2025-02-21-release-2.16.0/" />
+    <link href="https://focus-shift.de/neuigkeiten/2025-02-21-release-2.16.0/" />
     <updated>2025-05-09T00:00:00Z</updated>
     <id>https://urlaubsverwaltung.cloud/neuigkeiten/2025-02-21-release-2.16.0/</id>
     <author>
@@ -1208,7 +1223,7 @@ Die visuelle Hervorhebung von &lt;strong&gt;unterschiedlichen Zeitslots&lt;/stro
 &lt;p&gt;Mit diesem Release können nun alle &lt;strong&gt;Änderungen an Zeiteinträgen&lt;/strong&gt; anhand des Histoy-Icons nachverfolgt werden.&lt;/p&gt;
 &lt;div class=&quot;flex my-8&quot;&gt;
     &lt;figure&gt;
-            &lt;img src=&quot;https://urlaubsverwaltung.cloud/neuigkeiten/2025-02-21-release-2.16.0/slot-history-icon.png&quot; alt=&quot;Zeiteintrag mit History-Icon&quot; class=&quot;rounded-lg&quot; /&gt;
+            &lt;img src=&quot;https://focus-shift.de/neuigkeiten/2025-02-21-release-2.16.0/slot-history-icon.png&quot; alt=&quot;Zeiteintrag mit History-Icon&quot; class=&quot;rounded-lg&quot; /&gt;
         &lt;figcaption class=&quot;text-sm text-center&quot;&gt;Zeiteintrag mit History-Icon&lt;/figcaption&gt;
     &lt;/figure&gt;
 &lt;/div&gt;
@@ -1216,7 +1231,7 @@ Die visuelle Hervorhebung von &lt;strong&gt;unterschiedlichen Zeitslots&lt;/stro
 Dies ist besonders nützlich, um &lt;strong&gt;Fehler&lt;/strong&gt; zu korrigieren und nachzuvollziehen, wer wann eine Änderung vorgenommen hat.&lt;/p&gt;
 &lt;div class=&quot;flex my-8&quot;&gt;
     &lt;figure&gt;
-            &lt;img src=&quot;https://urlaubsverwaltung.cloud/neuigkeiten/2025-02-21-release-2.16.0/slot-history.png&quot; alt=&quot;Historie zum Zeiteintrag&quot; class=&quot;rounded-lg&quot; /&gt;
+            &lt;img src=&quot;https://focus-shift.de/neuigkeiten/2025-02-21-release-2.16.0/slot-history.png&quot; alt=&quot;Historie zum Zeiteintrag&quot; class=&quot;rounded-lg&quot; /&gt;
         &lt;figcaption class=&quot;text-sm text-center&quot;&gt;Historie zum Zeiteintrag&lt;/figcaption&gt;
     &lt;/figure&gt;
 &lt;/div&gt;
@@ -1229,7 +1244,7 @@ Die &lt;strong&gt;Nachverfolgbarkeit&lt;/strong&gt; von Änderungen an Zeiteintr
   </entry>
   <entry>
     <title>Urlaubsverwaltung 5.17.0 – bessere Testdoku und Bugfixes für stabileres Verhalten</title>
-    <link href="https://urlaubsverwaltung.cloud/neuigkeiten/2025-02-15-release-5.17.0/" />
+    <link href="https://focus-shift.de/neuigkeiten/2025-02-15-release-5.17.0/" />
     <updated>2025-05-07T00:00:00Z</updated>
     <id>https://urlaubsverwaltung.cloud/neuigkeiten/2025-02-15-release-5.17.0/</id>
     <author>
@@ -1263,7 +1278,7 @@ Kein Versand oder Fehler mehr durch inaktive Accounts in Stellvertreterrollen.&l
   </entry>
   <entry>
     <title>Urlaubsverwaltung 5.15.0 – Noch schneller!</title>
-    <link href="https://urlaubsverwaltung.cloud/neuigkeiten/2025-01-30-release-5.15.0/" />
+    <link href="https://focus-shift.de/neuigkeiten/2025-01-30-release-5.15.0/" />
     <updated>2025-05-02T00:00:00Z</updated>
     <id>https://urlaubsverwaltung.cloud/neuigkeiten/2025-01-30-release-5.15.0/</id>
     <author>
@@ -1291,7 +1306,7 @@ Kein Versand oder Fehler mehr durch inaktive Accounts in Stellvertreterrollen.&l
   </entry>
   <entry>
     <title>Urlaubsverwaltung 5.14.0 – Schneller!</title>
-    <link href="https://urlaubsverwaltung.cloud/neuigkeiten/2025-01-29-release-5.14.0/" />
+    <link href="https://focus-shift.de/neuigkeiten/2025-01-29-release-5.14.0/" />
     <updated>2025-04-30T00:00:00Z</updated>
     <id>https://urlaubsverwaltung.cloud/neuigkeiten/2025-01-29-release-5.14.0/</id>
     <author>
@@ -1318,7 +1333,7 @@ Kein Versand oder Fehler mehr durch inaktive Accounts in Stellvertreterrollen.&l
   </entry>
   <entry>
     <title>Urlaubsverwaltung 5.12.0 – Ab in die Cloud!</title>
-    <link href="https://urlaubsverwaltung.cloud/neuigkeiten/2025-01-17-release-5.12.0/" />
+    <link href="https://focus-shift.de/neuigkeiten/2025-01-17-release-5.12.0/" />
     <updated>2025-04-25T00:00:00Z</updated>
     <id>https://urlaubsverwaltung.cloud/neuigkeiten/2025-01-17-release-5.12.0/</id>
     <author>
@@ -1358,7 +1373,7 @@ Kein Versand oder Fehler mehr durch inaktive Accounts in Stellvertreterrollen.&l
   </entry>
   <entry>
     <title>Urlaubsverwaltung 5.10.0 – Regionale US-Feiertage</title>
-    <link href="https://urlaubsverwaltung.cloud/neuigkeiten/2024-12-09-release-5.10.0/" />
+    <link href="https://focus-shift.de/neuigkeiten/2024-12-09-release-5.10.0/" />
     <updated>2025-04-23T00:00:00Z</updated>
     <id>https://urlaubsverwaltung.cloud/neuigkeiten/2024-12-09-release-5.10.0/</id>
     <author>
@@ -1394,7 +1409,7 @@ Kein Versand oder Fehler mehr durch inaktive Accounts in Stellvertreterrollen.&l
   </entry>
   <entry>
     <title>Zeiterfassung 2.14.0 – Neue Feiertage und Bugfixes</title>
-    <link href="https://urlaubsverwaltung.cloud/neuigkeiten/2024-12-06-release-2.14.0/" />
+    <link href="https://focus-shift.de/neuigkeiten/2024-12-06-release-2.14.0/" />
     <updated>2025-04-18T00:00:00Z</updated>
     <id>https://urlaubsverwaltung.cloud/neuigkeiten/2024-12-06-release-2.14.0/</id>
     <author>
@@ -1422,7 +1437,7 @@ Ein funktionierender Avatar ist nicht nur für die Benutzererfahrung wichtig, so
   </entry>
   <entry>
     <title>Urlaubsverwaltung 5.9.0 – Optimierte Feiertagsberechnung</title>
-    <link href="https://urlaubsverwaltung.cloud/neuigkeiten/2024-11-22-release-5.9.0/" />
+    <link href="https://focus-shift.de/neuigkeiten/2024-11-22-release-5.9.0/" />
     <updated>2025-04-16T00:00:00Z</updated>
     <id>https://urlaubsverwaltung.cloud/neuigkeiten/2024-11-22-release-5.9.0/</id>
     <author>
@@ -1447,7 +1462,7 @@ Ein funktionierender Avatar ist nicht nur für die Benutzererfahrung wichtig, so
   </entry>
   <entry>
     <title>Hilfe zur Zeiterfassung</title>
-    <link href="https://urlaubsverwaltung.cloud/neuigkeiten/2025-04-14-help-zeiterfassung/" />
+    <link href="https://focus-shift.de/neuigkeiten/2025-04-14-help-zeiterfassung/" />
     <updated>2025-04-14T00:00:00Z</updated>
     <id>https://urlaubsverwaltung.cloud/neuigkeiten/2025-04-14-help-zeiterfassung/</id>
     <author>
@@ -1459,7 +1474,7 @@ So findest du schneller die passenden Informationen und kannst die Zeiterfassung
 &lt;p&gt;Ab sofort findest du im &lt;strong&gt;Avatar-Menü&lt;/strong&gt; einen direkten Zugang zur &lt;a href=&quot;https://urlaubsverwaltung.cloud/hilfe/#dokumentation-zeiterfassung&quot;&gt;&lt;strong&gt;Hilfe-Seite der Zeiterfassung&lt;/strong&gt;&lt;/a&gt; – damit du noch schneller und einfacher Antworten auf deine Fragen bekommst.&lt;/p&gt;
 &lt;div class=&quot;flex my-8&quot;&gt;
     &lt;figure&gt;
-            &lt;img src=&quot;https://urlaubsverwaltung.cloud/neuigkeiten/2025-04-14-help-zeiterfassung/help.png&quot; alt=&quot;Hilfe der Zeiterfassung auf urlaubsverwaltung.cloud&quot; class=&quot;rounded-lg&quot; /&gt;
+            &lt;img src=&quot;https://focus-shift.de/neuigkeiten/2025-04-14-help-zeiterfassung/help.png&quot; alt=&quot;Hilfe der Zeiterfassung auf urlaubsverwaltung.cloud&quot; class=&quot;rounded-lg&quot; /&gt;
         &lt;figcaption class=&quot;text-sm text-center&quot;&gt;Hilfe der Zeiterfassung auf urlaubsverwaltung.cloud&lt;/figcaption&gt;
     &lt;/figure&gt;
 &lt;/div&gt;
@@ -1491,7 +1506,7 @@ Wie werden Feiertage berücksichtigt? Wie kannst du die globale Feiertagsregelun
   </entry>
   <entry>
     <title>Zeiterfassung 2.13.0 – Verbesserungen bei Berichten und Bugfixes</title>
-    <link href="https://urlaubsverwaltung.cloud/neuigkeiten/2024-11-15-release-2.13.0/" />
+    <link href="https://focus-shift.de/neuigkeiten/2024-11-15-release-2.13.0/" />
     <updated>2025-04-11T00:00:00Z</updated>
     <id>https://urlaubsverwaltung.cloud/neuigkeiten/2024-11-15-release-2.13.0/</id>
     <author>
@@ -1520,7 +1535,7 @@ Die korrekte Darstellung von &lt;strong&gt;Sollzeiten&lt;/strong&gt; ist essenzi
   </entry>
   <entry>
     <title>Zeiterfassung 2.12.0 – Verbesserungen bei Berichten und Fehlerbehebungen</title>
-    <link href="https://urlaubsverwaltung.cloud/neuigkeiten/2024-10-31-release-2.12.0/" />
+    <link href="https://focus-shift.de/neuigkeiten/2024-10-31-release-2.12.0/" />
     <updated>2025-04-09T00:00:00Z</updated>
     <id>https://urlaubsverwaltung.cloud/neuigkeiten/2024-10-31-release-2.12.0/</id>
     <author>
@@ -1554,7 +1569,7 @@ Die Unterstützung für mehrere Sprachen ist entscheidend, um eine breite Nutzer
   </entry>
   <entry>
     <title>Urlaubsverwaltung 5.8.0 – Verbesserte Krankmeldungsverwaltung</title>
-    <link href="https://urlaubsverwaltung.cloud/neuigkeiten/2024-10-02-release-5.8.0/" />
+    <link href="https://focus-shift.de/neuigkeiten/2024-10-02-release-5.8.0/" />
     <updated>2025-04-06T00:00:00Z</updated>
     <id>https://urlaubsverwaltung.cloud/neuigkeiten/2024-10-02-release-5.8.0/</id>
     <author>
@@ -1578,7 +1593,7 @@ Diese Funktion ermöglicht eine flexiblere Handhabung von Krankmeldungen und ist
   </entry>
   <entry>
     <title>Optimierung der UI in den Berichten und Eintrag über Mitternacht</title>
-    <link href="https://urlaubsverwaltung.cloud/neuigkeiten/2024-10-30-release-2.11.0/" />
+    <link href="https://focus-shift.de/neuigkeiten/2024-10-30-release-2.11.0/" />
     <updated>2024-10-30T00:00:00Z</updated>
     <id>https://urlaubsverwaltung.cloud/neuigkeiten/2024-10-30-release-2.11.0/</id>
     <author>
@@ -1590,7 +1605,7 @@ Diese Funktion ermöglicht eine flexiblere Handhabung von Krankmeldungen und ist
 &lt;p&gt;Für alle, die täglich mit mehreren Teammitgliedern und Projekten arbeiten, haben wir die Berichtsübersicht optimiert. Ab sofort werden auf dieser Seite Avatare angezeigt, die die ausgewählten Personen repräsentieren. Dies vereinfacht die Identifizierung der Teammitglieder und bringt eine verbesserte visuelle Übersicht für Manager und Teamleiter.&lt;/p&gt;
 &lt;div class=&quot;flex my-8&quot;&gt;
     &lt;figure&gt;
-            &lt;img src=&quot;https://urlaubsverwaltung.cloud/neuigkeiten/2024-10-30-release-2.11.0/MAIcons.jpg&quot; alt=&quot;Zeiteinträge mit neuen Icons für Pausen und Kommentare&quot; class=&quot;rounded-lg&quot; /&gt;
+            &lt;img src=&quot;https://focus-shift.de/neuigkeiten/2024-10-30-release-2.11.0/MAIcons.jpg&quot; alt=&quot;Zeiteinträge mit neuen Icons für Pausen und Kommentare&quot; class=&quot;rounded-lg&quot; /&gt;
         &lt;figcaption class=&quot;text-sm text-center&quot;&gt;Zeiteinträge mit neuen Icons für Pausen und Kommentare&lt;/figcaption&gt;
     &lt;/figure&gt;
 &lt;/div&gt;
@@ -1605,7 +1620,7 @@ Einfach E-Mail an &lt;a href=&quot;mailto:info@urlaubsverwaltung.cloud&quot; cla
   </entry>
   <entry>
     <title>Neue Icons für Pausen und Kommentare in der Berichtübersicht</title>
-    <link href="https://urlaubsverwaltung.cloud/neuigkeiten/2024-10-18-release-2.10.0/" />
+    <link href="https://focus-shift.de/neuigkeiten/2024-10-18-release-2.10.0/" />
     <updated>2024-10-18T00:00:00Z</updated>
     <id>https://urlaubsverwaltung.cloud/neuigkeiten/2024-10-18-release-2.10.0/</id>
     <author>
@@ -1622,7 +1637,7 @@ Ein weiteres Kommentar-Icon macht deutlich, ob zu einem Zeiteintrag ein Kommenta
 Durch diese visuellen Hinweise können Benutzer schneller erkennen, welche Einträge besondere Merkmale haben, was die Übersichtlichkeit der Berichte weiter steigert.&lt;/p&gt;
 &lt;div class=&quot;flex my-8&quot;&gt;
     &lt;figure&gt;
-            &lt;img src=&quot;https://urlaubsverwaltung.cloud/neuigkeiten/2024-10-18-release-2.10.0/KommentarPause.png&quot; alt=&quot;Zeiteinträge mit neuen Icons für Pausen und Kommentare&quot; class=&quot;rounded-lg&quot; /&gt;
+            &lt;img src=&quot;https://focus-shift.de/neuigkeiten/2024-10-18-release-2.10.0/KommentarPause.png&quot; alt=&quot;Zeiteinträge mit neuen Icons für Pausen und Kommentare&quot; class=&quot;rounded-lg&quot; /&gt;
         &lt;figcaption class=&quot;text-sm text-center&quot;&gt;Zeiteinträge mit neuen Icons für Pausen und Kommentare&lt;/figcaption&gt;
     &lt;/figure&gt;
 &lt;/div&gt;
@@ -1630,7 +1645,7 @@ Durch diese visuellen Hinweise können Benutzer schneller erkennen, welche Eintr
   </entry>
   <entry>
     <title>Soll und Ist Arbeitszeit in der Berichtübersicht</title>
-    <link href="https://urlaubsverwaltung.cloud/neuigkeiten/2024-10-14-release-2.9.0/" />
+    <link href="https://focus-shift.de/neuigkeiten/2024-10-14-release-2.9.0/" />
     <updated>2024-10-14T00:00:00Z</updated>
     <id>https://urlaubsverwaltung.cloud/neuigkeiten/2024-10-14-release-2.9.0/</id>
     <author>
@@ -1647,7 +1662,7 @@ Zusätzlich werden die Summen dieser Werte nun auch auf Wochen- und Monatsbasis 
 Diese Verbesserungen unterstützen eine präzisere Übersicht und Planung der Arbeitszeit.&lt;/p&gt;
 &lt;div class=&quot;flex my-8&quot;&gt;
     &lt;figure&gt;
-            &lt;img src=&quot;https://urlaubsverwaltung.cloud/neuigkeiten/2024-10-14-release-2.9.0/Stunden%C3%BCbersicht.png&quot; alt=&quot;Soll- und Ist-Werte, sowie Überstunden in der Berichtübersicht&quot; class=&quot;rounded-lg&quot; /&gt;
+            &lt;img src=&quot;https://focus-shift.de/neuigkeiten/2024-10-14-release-2.9.0/Stunden%C3%BCbersicht.png&quot; alt=&quot;Soll- und Ist-Werte, sowie Überstunden in der Berichtübersicht&quot; class=&quot;rounded-lg&quot; /&gt;
         &lt;figcaption class=&quot;text-sm text-center&quot;&gt;Soll- und Ist-Werte, sowie Überstunden in der Berichtübersicht&lt;/figcaption&gt;
     &lt;/figure&gt;
 &lt;/div&gt;
@@ -1655,7 +1670,7 @@ Diese Verbesserungen unterstützen eine präzisere Übersicht und Planung der Ar
   </entry>
   <entry>
     <title>Konsistente Darstellung von erfassten Zeiten und Uhrzeiten im CSV Export</title>
-    <link href="https://urlaubsverwaltung.cloud/neuigkeiten/2024-10-02-release-2.8.0/" />
+    <link href="https://focus-shift.de/neuigkeiten/2024-10-02-release-2.8.0/" />
     <updated>2024-10-02T00:00:00Z</updated>
     <id>https://urlaubsverwaltung.cloud/neuigkeiten/2024-10-02-release-2.8.0/</id>
     <author>
@@ -1670,7 +1685,7 @@ Ab jetzt werden die Summen in Stunden und Minuten dargestellt, konsistent zu den
 was die Lesbarkeit deutlich verbessert.&lt;/p&gt;
 &lt;div class=&quot;flex my-8&quot;&gt;
     &lt;figure&gt;
-            &lt;img src=&quot;https://urlaubsverwaltung.cloud/neuigkeiten/2024-10-02-release-2.8.0/reformat-time.png&quot; alt=&quot;Die Summer der Arbeitszeiten wird jetzt in Stunden und Minuten dargestellt&quot; class=&quot;rounded-lg&quot; /&gt;
+            &lt;img src=&quot;https://focus-shift.de/neuigkeiten/2024-10-02-release-2.8.0/reformat-time.png&quot; alt=&quot;Die Summer der Arbeitszeiten wird jetzt in Stunden und Minuten dargestellt&quot; class=&quot;rounded-lg&quot; /&gt;
         &lt;figcaption class=&quot;text-sm text-center&quot;&gt;Die Summer der Arbeitszeiten wird jetzt in Stunden und Minuten dargestellt&lt;/figcaption&gt;
     &lt;/figure&gt;
 &lt;/div&gt;
@@ -1678,7 +1693,7 @@ was die Lesbarkeit deutlich verbessert.&lt;/p&gt;
 &lt;p&gt;Der CSV Export enthält jetzt auch die konkreten Arbeitszeiten, die in der Zeiterfassung erfasst wurden.&lt;/p&gt;
 &lt;div class=&quot;flex my-8&quot;&gt;
     &lt;figure&gt;
-            &lt;img src=&quot;https://urlaubsverwaltung.cloud/neuigkeiten/2024-10-02-release-2.8.0/CSV-Export.png&quot; alt=&quot;Der CSV Export enthält jetzt auch die konkreten Arbeitszeiten&quot; class=&quot;rounded-lg&quot; /&gt;
+            &lt;img src=&quot;https://focus-shift.de/neuigkeiten/2024-10-02-release-2.8.0/CSV-Export.png&quot; alt=&quot;Der CSV Export enthält jetzt auch die konkreten Arbeitszeiten&quot; class=&quot;rounded-lg&quot; /&gt;
         &lt;figcaption class=&quot;text-sm text-center&quot;&gt;Der CSV Export enthält jetzt auch die konkreten Arbeitszeiten&lt;/figcaption&gt;
     &lt;/figure&gt;
 &lt;/div&gt;
@@ -1686,7 +1701,7 @@ was die Lesbarkeit deutlich verbessert.&lt;/p&gt;
   </entry>
   <entry>
     <title>AU Validierung Erweitert und Überstunden via API</title>
-    <link href="https://urlaubsverwaltung.cloud/neuigkeiten/2024-09-20-release-5.7.0/" />
+    <link href="https://focus-shift.de/neuigkeiten/2024-09-20-release-5.7.0/" />
     <updated>2024-09-20T00:00:00Z</updated>
     <id>https://urlaubsverwaltung.cloud/neuigkeiten/2024-09-20-release-5.7.0/</id>
     <author>
@@ -1710,7 +1725,7 @@ kann die Buchhaltung eine eAU abrufen. Der Zeitraum einer Krankmeldung kann an d
 &lt;p&gt;Diese Anforderung entspricht einem validen Anwendungsfall, daher haben wir die Validierung angepasst.&lt;/p&gt;
 &lt;div class=&quot;flex my-8&quot;&gt;
     &lt;figure&gt;
-            &lt;img src=&quot;https://urlaubsverwaltung.cloud/neuigkeiten/2024-09-20-release-5.7.0/AU-Zeitraum.png&quot; alt=&quot;Der Zeitraum der AU überschreitet den Zeitraum der Krankmeldung&quot; class=&quot;rounded-lg&quot; /&gt;
+            &lt;img src=&quot;https://focus-shift.de/neuigkeiten/2024-09-20-release-5.7.0/AU-Zeitraum.png&quot; alt=&quot;Der Zeitraum der AU überschreitet den Zeitraum der Krankmeldung&quot; class=&quot;rounded-lg&quot; /&gt;
         &lt;figcaption class=&quot;text-sm text-center&quot;&gt;Der Zeitraum der AU überschreitet den Zeitraum der Krankmeldung&lt;/figcaption&gt;
     &lt;/figure&gt;
 &lt;/div&gt;
@@ -1728,7 +1743,7 @@ Vielen Dank für Contribution!&lt;/p&gt;
   </entry>
   <entry>
     <title>Einfach, digital und nachvollziehbar Krankmelden durch Mitarbeitende</title>
-    <link href="https://urlaubsverwaltung.cloud/neuigkeiten/2024-06-21-selbsteintragen-von-krankmeldungen/" />
+    <link href="https://focus-shift.de/neuigkeiten/2024-06-21-selbsteintragen-von-krankmeldungen/" />
     <updated>2024-06-21T00:00:00Z</updated>
     <id>https://urlaubsverwaltung.cloud/neuigkeiten/2024-06-21-selbsteintragen-von-krankmeldungen/</id>
     <author>
@@ -1746,7 +1761,7 @@ Mehr zur Konfiguration der urlaubsverwaltung.cloud findest du in unserer &lt;a h
 &lt;p&gt;Jetzt kannst du als Mitarbeitende über das &#39;+&#39;-Zeichen neben einer Abwesenheit auch eine Krankmeldung eintragen.&lt;/p&gt;
 &lt;div class=&quot;flex my-8&quot;&gt;
     &lt;figure&gt;
-            &lt;img src=&quot;https://urlaubsverwaltung.cloud/neuigkeiten/2024-06-21-selbsteintragen-von-krankmeldungen/user-neue-krankmeldung.png&quot; alt=&quot;Krankmeldung erstellen als Mitarbeitende&quot; class=&quot;rounded-lg&quot; /&gt;
+            &lt;img src=&quot;https://focus-shift.de/neuigkeiten/2024-06-21-selbsteintragen-von-krankmeldungen/user-neue-krankmeldung.png&quot; alt=&quot;Krankmeldung erstellen als Mitarbeitende&quot; class=&quot;rounded-lg&quot; /&gt;
         &lt;figcaption class=&quot;text-sm text-center&quot;&gt;Krankmeldung erstellen als Mitarbeitende&lt;/figcaption&gt;
     &lt;/figure&gt;
 &lt;/div&gt;
@@ -1761,14 +1776,14 @@ Außerdem kann die Person aus dem Office jetzt nachgelagerte Prozesse in der Org
 zum Beispiel in der Lohnbuchhaltung.&lt;/p&gt;
 &lt;div class=&quot;flex my-8&quot;&gt;
     &lt;figure&gt;
-            &lt;img src=&quot;https://urlaubsverwaltung.cloud/neuigkeiten/2024-06-21-selbsteintragen-von-krankmeldungen/office-eingereichte-krankmeldungen.png&quot; alt=&quot;Mitarbeitende mit der Berechtigung &#39;Office&#39; oder &#39;Pflege von Krankmeldungen&#39; bekommen eingereichte Krankmeldungen angezeigt&quot; class=&quot;rounded-lg&quot; /&gt;
+            &lt;img src=&quot;https://focus-shift.de/neuigkeiten/2024-06-21-selbsteintragen-von-krankmeldungen/office-eingereichte-krankmeldungen.png&quot; alt=&quot;Mitarbeitende mit der Berechtigung &#39;Office&#39; oder &#39;Pflege von Krankmeldungen&#39; bekommen eingereichte Krankmeldungen angezeigt&quot; class=&quot;rounded-lg&quot; /&gt;
         &lt;figcaption class=&quot;text-sm text-center&quot;&gt;Mitarbeitende mit der Berechtigung &quot;Office&quot; oder &quot;Pflege von Krankmeldungen&quot; bekommen eingereichte Krankmeldungen angezeigt&lt;/figcaption&gt;
     &lt;/figure&gt;
 &lt;/div&gt;
 &lt;p&gt;An einer Krankmeldung ist für alle Berechtigten sichtbar, wann und wer die Krankmeldung eingereicht hat und wann und wer sie danach angenommen hat.&lt;/p&gt;
 &lt;div class=&quot;flex my-8&quot;&gt;
     &lt;figure&gt;
-            &lt;img src=&quot;https://urlaubsverwaltung.cloud/neuigkeiten/2024-06-21-selbsteintragen-von-krankmeldungen/verlauf-krankmeldung.png&quot; alt=&quot;Verlauf in einer Krankmeldung, die von einer Mitarbeitenden eingetragen wurde&quot; class=&quot;rounded-lg&quot; /&gt;
+            &lt;img src=&quot;https://focus-shift.de/neuigkeiten/2024-06-21-selbsteintragen-von-krankmeldungen/verlauf-krankmeldung.png&quot; alt=&quot;Verlauf in einer Krankmeldung, die von einer Mitarbeitenden eingetragen wurde&quot; class=&quot;rounded-lg&quot; /&gt;
         &lt;figcaption class=&quot;text-sm text-center&quot;&gt;Der Verlauf an einer Krankmeldung zeigt die Einreichung sowie das Annehmen einer Krankmeldung&lt;/figcaption&gt;
     &lt;/figure&gt;
 &lt;/div&gt;
@@ -1778,7 +1793,7 @@ sich als Mitarbeitende mit der Berechtigung &amp;quot;Office&amp;quot; oder &amp
 Krankmeldungen benachrichtigen zu lassen.&lt;/p&gt;
 &lt;div class=&quot;flex my-8&quot;&gt;
     &lt;figure&gt;
-            &lt;img src=&quot;https://urlaubsverwaltung.cloud/neuigkeiten/2024-06-21-selbsteintragen-von-krankmeldungen/benachrichtigungen-krankmeldungen.png&quot; alt=&quot;Einstellung der Benachrichtigungen für eingereichte und angenommene Krankmeldungen&quot; class=&quot;rounded-lg&quot; /&gt;
+            &lt;img src=&quot;https://focus-shift.de/neuigkeiten/2024-06-21-selbsteintragen-von-krankmeldungen/benachrichtigungen-krankmeldungen.png&quot; alt=&quot;Einstellung der Benachrichtigungen für eingereichte und angenommene Krankmeldungen&quot; class=&quot;rounded-lg&quot; /&gt;
         &lt;figcaption class=&quot;text-sm text-center&quot;&gt;Einstellung der Benachrichtigungen für eingereichte und angenommene Krankmeldungen&lt;/figcaption&gt;
     &lt;/figure&gt;
 &lt;/div&gt;
@@ -1795,7 +1810,7 @@ sie noch besser an eure Bedürfnisse anpassen. Meldet euch gerne bei uns, wenn i
   </entry>
   <entry>
     <title>Globale Feiertagsregelung in der Zeiterfassung</title>
-    <link href="https://urlaubsverwaltung.cloud/neuigkeiten/2024-05-17-zeiterfassung-globale-feiertagsregelung/" />
+    <link href="https://focus-shift.de/neuigkeiten/2024-05-17-zeiterfassung-globale-feiertagsregelung/" />
     <updated>2024-05-17T00:00:00Z</updated>
     <id>https://urlaubsverwaltung.cloud/neuigkeiten/2024-05-17-zeiterfassung-globale-feiertagsregelung/</id>
     <author>
@@ -1806,7 +1821,7 @@ sie noch besser an eure Bedürfnisse anpassen. Meldet euch gerne bei uns, wenn i
 &lt;p&gt;Bisher musste für jede Person einzeln das Bundesland und die dazugehörige Feiertagsregelung konfiguriert werden – eine mühsame Aufgabe bei einer größeren Anzahl von Mitarbeitern. Doch das ändert sich jetzt: Mit den neuen globalen Einstellungen kannst du ab sofort länderspezifische Feiertage und Arbeitsregelungen zentral für dein gesamtes Unternehmen festlegen.&lt;/p&gt;
 &lt;div class=&quot;flex my-8&quot;&gt;
     &lt;figure&gt;
-            &lt;img src=&quot;https://urlaubsverwaltung.cloud/neuigkeiten/2024-05-17-zeiterfassung-globale-feiertagsregelung/globale-feiertagsregelung-konfiguration.jpg&quot; alt=&quot;Konfiguration der globalen Feiertagsregelung in der Zeiterfassung&quot; class=&quot;rounded-lg&quot; /&gt;
+            &lt;img src=&quot;https://focus-shift.de/neuigkeiten/2024-05-17-zeiterfassung-globale-feiertagsregelung/globale-feiertagsregelung-konfiguration.jpg&quot; alt=&quot;Konfiguration der globalen Feiertagsregelung in der Zeiterfassung&quot; class=&quot;rounded-lg&quot; /&gt;
         &lt;figcaption class=&quot;text-sm text-center&quot;&gt;Konfiguration der globalen Feiertagsregelung in der Zeiterfassung&lt;/figcaption&gt;
     &lt;/figure&gt;
 &lt;/div&gt;
@@ -1815,7 +1830,7 @@ sie noch besser an eure Bedürfnisse anpassen. Meldet euch gerne bei uns, wenn i
   </entry>
   <entry>
     <title>Individuelle Abwesenheitsarten in der Urlaubsverwaltung</title>
-    <link href="https://urlaubsverwaltung.cloud/neuigkeiten/2024-05-10-uv-v5/" />
+    <link href="https://focus-shift.de/neuigkeiten/2024-05-10-uv-v5/" />
     <updated>2024-05-17T00:00:00Z</updated>
     <id>https://urlaubsverwaltung.cloud/neuigkeiten/2024-05-10-uv-v5/</id>
     <author>
@@ -1827,7 +1842,7 @@ Einen Einblick in die neuen Funktionen geben wir euch in diesem Blog.&lt;/p&gt;
 &lt;h2 id=&quot;individuelle-abwesenheitsarten&quot;&gt;Individuelle Abwesenheitsarten&lt;/h2&gt;
 &lt;div class=&quot;flex my-8&quot;&gt;
     &lt;figure&gt;
-            &lt;img src=&quot;https://urlaubsverwaltung.cloud/neuigkeiten/2024-05-10-uv-v5/individuelle-abwesenheitsarten-einstellungen.png&quot; alt=&quot;Konfiguration von individuellen Abwesenheitsarten&quot; class=&quot;rounded-lg&quot; /&gt;
+            &lt;img src=&quot;https://focus-shift.de/neuigkeiten/2024-05-10-uv-v5/individuelle-abwesenheitsarten-einstellungen.png&quot; alt=&quot;Konfiguration von individuellen Abwesenheitsarten&quot; class=&quot;rounded-lg&quot; /&gt;
         &lt;figcaption class=&quot;text-sm text-center&quot;&gt;Konfiguration von individuellen Abwesenheitsarten können nun in den Einstellungen hinterlegt werden&lt;/figcaption&gt;
     &lt;/figure&gt;
 &lt;/div&gt;
@@ -1835,11 +1850,11 @@ Einen Einblick in die neuen Funktionen geben wir euch in diesem Blog.&lt;/p&gt;
 Die individuellen Abwesenheitsarten werden außerdem auch in der Zeiterfassung berücksichtigt, sodass die Sollstunden reduziert werden.&lt;/p&gt;
 &lt;div class=&quot;my-8 flex flex-col gap-4 md:flex-row&quot;&gt;
     &lt;figure&gt;
-            &lt;img src=&quot;https://urlaubsverwaltung.cloud/neuigkeiten/2024-05-10-uv-v5/individuelle-abwesenheitsarten-kalender.png&quot; alt=&quot;Kalender enthalten ebenfalls die individuellen Abwesenheitsarten&quot; class=&quot;rounded-lg&quot; /&gt;
+            &lt;img src=&quot;https://focus-shift.de/neuigkeiten/2024-05-10-uv-v5/individuelle-abwesenheitsarten-kalender.png&quot; alt=&quot;Kalender enthalten ebenfalls die individuellen Abwesenheitsarten&quot; class=&quot;rounded-lg&quot; /&gt;
         &lt;figcaption class=&quot;text-sm text-center&quot;&gt;Der Kalender enthält die individuellen Abwesenheitsarten&lt;/figcaption&gt;
     &lt;/figure&gt;
         &lt;figure&gt;
-            &lt;img src=&quot;https://urlaubsverwaltung.cloud/neuigkeiten/2024-05-10-uv-v5/individuelle-abwesenheitsarten-abwesenheitsuebersicht.png&quot; alt=&quot;Beispiel für eine individuelle Abwesenheitsart in der Abwesenheitsübersicht&quot; class=&quot;rounded-lg&quot; /&gt;
+            &lt;img src=&quot;https://focus-shift.de/neuigkeiten/2024-05-10-uv-v5/individuelle-abwesenheitsarten-abwesenheitsuebersicht.png&quot; alt=&quot;Beispiel für eine individuelle Abwesenheitsart in der Abwesenheitsübersicht&quot; class=&quot;rounded-lg&quot; /&gt;
         &lt;figcaption class=&quot;text-sm text-center&quot;&gt;Beispiel für eine individuelle Abwesenheitsart in der Abwesenheitsübersicht&lt;/figcaption&gt;
     &lt;/figure&gt;
 &lt;/div&gt;
@@ -1859,7 +1874,7 @@ Die individuellen Abwesenheitsarten werden außerdem auch in der Zeiterfassung b
   </entry>
   <entry>
     <title>Arbeitszeiten, Feiertagsregelung und mehr Berechtigungen in der Zeiterfassung</title>
-    <link href="https://urlaubsverwaltung.cloud/neuigkeiten/2024-01-06-zeiterfassung-2.0.0/" />
+    <link href="https://focus-shift.de/neuigkeiten/2024-01-06-zeiterfassung-2.0.0/" />
     <updated>2024-01-08T00:00:00Z</updated>
     <id>https://urlaubsverwaltung.cloud/neuigkeiten/2024-01-06-zeiterfassung-2.0.0/</id>
     <author>
@@ -1878,11 +1893,11 @@ ihr stets den Überblick behaltet. Die Eingabe dieser Änderungen ist auch für 
 Arbeitszeit langfristig planen könnt.&lt;/p&gt;
 &lt;div class=&quot;my-8 flex flex-col gap-4 md:flex-row&quot;&gt;
     &lt;figure&gt;
-            &lt;img src=&quot;https://urlaubsverwaltung.cloud/neuigkeiten/2024-01-06-zeiterfassung-2.0.0/arbeitszeiten.png&quot; alt=&quot;Weitere Arbeitszeiten erstellen und verwalten für Vertragsänderungen.&quot; class=&quot;rounded-lg&quot; /&gt;
+            &lt;img src=&quot;https://focus-shift.de/neuigkeiten/2024-01-06-zeiterfassung-2.0.0/arbeitszeiten.png&quot; alt=&quot;Weitere Arbeitszeiten erstellen und verwalten für Vertragsänderungen.&quot; class=&quot;rounded-lg&quot; /&gt;
         &lt;figcaption class=&quot;text-sm text-center&quot;&gt;Weitere Arbeitszeiten erstellen und verwalten für Vertragsänderungen.&lt;/figcaption&gt;
     &lt;/figure&gt;
     &lt;figure&gt;
-            &lt;img src=&quot;https://urlaubsverwaltung.cloud/neuigkeiten/2024-01-06-zeiterfassung-2.0.0/arbeitszeiten_edit.png&quot; alt=&quot;Weitere Arbeitszeiten erstellen und verwalten für Vertragsänderungen.&quot; class=&quot;rounded-lg&quot; /&gt;
+            &lt;img src=&quot;https://focus-shift.de/neuigkeiten/2024-01-06-zeiterfassung-2.0.0/arbeitszeiten_edit.png&quot; alt=&quot;Weitere Arbeitszeiten erstellen und verwalten für Vertragsänderungen.&quot; class=&quot;rounded-lg&quot; /&gt;
         &lt;figcaption class=&quot;text-sm text-center&quot;&gt;Bundesland und Feiertagsregelung individuell pflegen.&lt;/figcaption&gt;
     &lt;/figure&gt;
 &lt;/div&gt;
@@ -1911,7 +1926,7 @@ pflegen zu können. Egal ob Teamleiter, Mitarbeiter oder Administrator - ihr hab
 ganz bequem und sicher anzupassen, ohne die Anwendung verlassen zu müssen.&lt;/p&gt;
 &lt;div class=&quot;flex my-8&quot;&gt;
     &lt;figure&gt;
-            &lt;img src=&quot;https://urlaubsverwaltung.cloud/neuigkeiten/2024-01-06-zeiterfassung-2.0.0/berechtigungen.png&quot; alt=&quot;Berechtigungen einer Person pflegen&quot; class=&quot;rounded-lg&quot; /&gt;
+            &lt;img src=&quot;https://focus-shift.de/neuigkeiten/2024-01-06-zeiterfassung-2.0.0/berechtigungen.png&quot; alt=&quot;Berechtigungen einer Person pflegen&quot; class=&quot;rounded-lg&quot; /&gt;
         &lt;figcaption class=&quot;text-sm text-center&quot;&gt;Berechtigungen einer Person direkt in der Anwendung pflegen.&lt;/figcaption&gt;
     &lt;/figure&gt;
 &lt;/div&gt;
@@ -1922,7 +1937,7 @@ uns an &lt;a href=&quot;mailto:info@urlaubsverwaltung.cloud&quot;&gt;info@urlaub
   </entry>
   <entry>
     <title>Dobrodošla Hrvatska - Kroatische Feiertage hinzugefügt 🇭🇷</title>
-    <link href="https://urlaubsverwaltung.cloud/neuigkeiten/2023-10-27-V-4.71.0-Kroatien-Feiertage/" />
+    <link href="https://focus-shift.de/neuigkeiten/2023-10-27-V-4.71.0-Kroatien-Feiertage/" />
     <updated>2023-10-27T00:00:00Z</updated>
     <id>https://urlaubsverwaltung.cloud/neuigkeiten/2023-10-27-V-4.71.0-Kroatien-Feiertage/</id>
     <author>
@@ -1943,7 +1958,7 @@ Projekten und Aufgaben zu ermöglichen.&lt;/p&gt;
 der Urlaubsansprüche als auch eine übersichtliche Darstellung der Abwesenheiten der Mitarbeitenden.&lt;/p&gt;
 &lt;div class=&quot;flex my-8&quot;&gt;
     &lt;figure&gt;
-            &lt;img src=&quot;https://urlaubsverwaltung.cloud/neuigkeiten/2023-10-27-V-4.71.0-Kroatien-Feiertage/kalenderuebersicht_Feiertage.png&quot; alt=&quot;Pausen erfassen&quot; class=&quot;rounded-lg&quot; /&gt;
+            &lt;img src=&quot;https://focus-shift.de/neuigkeiten/2023-10-27-V-4.71.0-Kroatien-Feiertage/kalenderuebersicht_Feiertage.png&quot; alt=&quot;Pausen erfassen&quot; class=&quot;rounded-lg&quot; /&gt;
         &lt;figcaption class=&quot;text-sm text-center&quot;&gt;Individuelle Feiertage pro Mitarbeitenden in der Kalenderübersicht&lt;/figcaption&gt;
     &lt;/figure&gt;
 &lt;/div&gt;
@@ -1952,7 +1967,7 @@ der Urlaubsansprüche als auch eine übersichtliche Darstellung der Abwesenheite
 Malta, Italien und Griechenland sind nun auch die Feiertage aus Kroatien verfügbar. Dobrodošla Hrvatska!&lt;/p&gt;
 &lt;div class=&quot;flex my-8&quot;&gt;
     &lt;figure&gt;
-            &lt;img src=&quot;https://urlaubsverwaltung.cloud/neuigkeiten/2023-10-27-V-4.71.0-Kroatien-Feiertage/arbeitszeiten_Kroatien.png&quot; alt=&quot;Pausen erfassen&quot; class=&quot;rounded-lg&quot; /&gt;
+            &lt;img src=&quot;https://focus-shift.de/neuigkeiten/2023-10-27-V-4.71.0-Kroatien-Feiertage/arbeitszeiten_Kroatien.png&quot; alt=&quot;Pausen erfassen&quot; class=&quot;rounded-lg&quot; /&gt;
         &lt;figcaption class=&quot;text-sm text-center&quot;&gt;Feiertagsregelung in den Arbeitszeiten: jetzt mit Kroatien&lt;/figcaption&gt;
     &lt;/figure&gt;
 &lt;/div&gt;
@@ -1961,7 +1976,7 @@ Malta, Italien und Griechenland sind nun auch die Feiertage aus Kroatien verfüg
   </entry>
   <entry>
     <title>Warum Ruhepausen für Unternehmen wichtig sind.</title>
-    <link href="https://urlaubsverwaltung.cloud/neuigkeiten/2023-03-08-zeiterfassung-pausenzeiten/" />
+    <link href="https://focus-shift.de/neuigkeiten/2023-03-08-zeiterfassung-pausenzeiten/" />
     <updated>2023-03-08T00:00:00Z</updated>
     <id>https://urlaubsverwaltung.cloud/neuigkeiten/2023-03-08-zeiterfassung-pausenzeiten/</id>
     <author>
@@ -1999,7 +2014,7 @@ Darüber hinaus bietet eine digitale Lösung für das Erfassen von Ruhepausen de
 dass sie auch für mobile Mitarbeitende mit unterschiedlichen Arbeitsorten geeignet ist.&lt;/p&gt;
 &lt;div class=&quot;flex my-8&quot;&gt;
     &lt;figure&gt;
-            &lt;img src=&quot;https://urlaubsverwaltung.cloud/neuigkeiten/2023-03-08-zeiterfassung-pausenzeiten/pause-erfassen.png&quot; alt=&quot;Pausen erfassen&quot; class=&quot;rounded-lg&quot; /&gt;
+            &lt;img src=&quot;https://focus-shift.de/neuigkeiten/2023-03-08-zeiterfassung-pausenzeiten/pause-erfassen.png&quot; alt=&quot;Pausen erfassen&quot; class=&quot;rounded-lg&quot; /&gt;
         &lt;figcaption class=&quot;text-sm text-center&quot;&gt;Pausen direkt in der Zeiterfassung erfassen&lt;/figcaption&gt;
     &lt;/figure&gt;
 &lt;/div&gt;
@@ -2008,7 +2023,7 @@ dass sie auch für mobile Mitarbeitende mit unterschiedlichen Arbeitsorten geeig
   </entry>
   <entry>
     <title>Zeiterfassung - Arbeitszeiten, neue Berichte und geleistete Stunden</title>
-    <link href="https://urlaubsverwaltung.cloud/neuigkeiten/2023-02-23-zeiterfassung-arbeitszeiten/" />
+    <link href="https://focus-shift.de/neuigkeiten/2023-02-23-zeiterfassung-arbeitszeiten/" />
     <updated>2023-02-23T00:00:00Z</updated>
     <id>https://urlaubsverwaltung.cloud/neuigkeiten/2023-02-23-zeiterfassung-arbeitszeiten/</id>
     <author>
@@ -2024,7 +2039,7 @@ nach Mitarbeitenden selektiert anzeigt werden. Auch die Auswahl von mehreren Mit
 erhält mal durch die Auswahl des jeweiligen Tages schnell einen Überblick wann und wie tatsächlich gearbeitet wurde.&lt;/p&gt;
 &lt;div class=&quot;flex my-8&quot;&gt;
     &lt;figure&gt;
-            &lt;img src=&quot;https://urlaubsverwaltung.cloud/neuigkeiten/2023-02-23-zeiterfassung-arbeitszeiten/zeiterfassung-person-details.png&quot; alt=&quot;Auswahl einer Person zur Ansicht der gebuchten Zeiten&quot; class=&quot;rounded-lg&quot; /&gt;
+            &lt;img src=&quot;https://focus-shift.de/neuigkeiten/2023-02-23-zeiterfassung-arbeitszeiten/zeiterfassung-person-details.png&quot; alt=&quot;Auswahl einer Person zur Ansicht der gebuchten Zeiten&quot; class=&quot;rounded-lg&quot; /&gt;
         &lt;figcaption class=&quot;text-sm text-center&quot;&gt;Auswahl einer Person zur Ansicht der gebuchten Zeiten&lt;/figcaption&gt;
     &lt;/figure&gt;
 &lt;/div&gt;
@@ -2034,7 +2049,7 @@ Es ist möglich für die ganze Woche, als auch feingranular pro Tag die Arbeitsz
 Diese Einstellung kann durch eine Person mit der entsprechenden Berechtigung vorgenommen werden.&lt;/p&gt;
 &lt;div class=&quot;flex my-8&quot;&gt;
     &lt;figure&gt;
-            &lt;img src=&quot;https://urlaubsverwaltung.cloud/neuigkeiten/2023-02-23-zeiterfassung-arbeitszeiten/zeiterfassung-workingtime.png&quot; alt=&quot;Einstellung der Arbeitszeiten pro Mitarbeitenden&quot; class=&quot;rounded-lg&quot; /&gt;
+            &lt;img src=&quot;https://focus-shift.de/neuigkeiten/2023-02-23-zeiterfassung-arbeitszeiten/zeiterfassung-workingtime.png&quot; alt=&quot;Einstellung der Arbeitszeiten pro Mitarbeitenden&quot; class=&quot;rounded-lg&quot; /&gt;
         &lt;figcaption class=&quot;text-sm text-center&quot;&gt;Einstellung der Arbeitszeiten pro Mitarbeitenden&lt;/figcaption&gt;
     &lt;/figure&gt;
 &lt;/div&gt;
@@ -2044,7 +2059,7 @@ Diese Einstellung kann durch eine Person mit der entsprechenden Berechtigung vor
 bereits von der geplanten Arbeitszeit geleistet wurde. Auch Überstunden sind in der Darstellung direkt sichtbar.&lt;/p&gt;
 &lt;div class=&quot;flex my-8&quot;&gt;
     &lt;figure&gt;
-            &lt;img src=&quot;https://urlaubsverwaltung.cloud/neuigkeiten/2023-02-23-zeiterfassung-arbeitszeiten/zeiterfassung-new-timeslot.png&quot; alt=&quot;Darstellung der geplanten Arbeitszeiten und der geleisteten Stunden&quot; class=&quot;rounded-lg&quot; /&gt;
+            &lt;img src=&quot;https://focus-shift.de/neuigkeiten/2023-02-23-zeiterfassung-arbeitszeiten/zeiterfassung-new-timeslot.png&quot; alt=&quot;Darstellung der geplanten Arbeitszeiten und der geleisteten Stunden&quot; class=&quot;rounded-lg&quot; /&gt;
         &lt;figcaption class=&quot;text-sm text-center&quot;&gt;Darstellung der geplanten Arbeitszeiten und der geleisteten Stunden&lt;/figcaption&gt;
     &lt;/figure&gt;
 &lt;/div&gt;
@@ -2052,13 +2067,13 @@ bereits von der geplanten Arbeitszeit geleistet wurde. Auch Überstunden sind in
 und können sowohl auf Wochen- als auch Monatsbasis aggregiert angezeigt werden.&lt;/p&gt;
 &lt;div class=&quot;flex my-8&quot;&gt;
     &lt;figure&gt;
-            &lt;img src=&quot;https://urlaubsverwaltung.cloud/neuigkeiten/2023-02-23-zeiterfassung-arbeitszeiten/zeiterfassung-report-week.png&quot; alt=&quot;Wöchentliche Berichte mit grafischer Darstellung der geplanten Arbeitszeiten&quot; class=&quot;rounded-lg&quot; /&gt;
+            &lt;img src=&quot;https://focus-shift.de/neuigkeiten/2023-02-23-zeiterfassung-arbeitszeiten/zeiterfassung-report-week.png&quot; alt=&quot;Wöchentliche Berichte mit grafischer Darstellung der geplanten Arbeitszeiten&quot; class=&quot;rounded-lg&quot; /&gt;
         &lt;figcaption class=&quot;text-sm text-center&quot;&gt;Wöchentliche Berichte mit grafischer Darstellung der geplanten Arbeitszeiten&lt;/figcaption&gt;
     &lt;/figure&gt;
 &lt;/div&gt;
 &lt;div class=&quot;flex my-8&quot;&gt;
     &lt;figure&gt;
-            &lt;img src=&quot;https://urlaubsverwaltung.cloud/neuigkeiten/2023-02-23-zeiterfassung-arbeitszeiten/zeiterfassung-report-month.png&quot; alt=&quot;Monatliche Berichte mit grafischer Darstellung der geplanten Arbeitszeiten&quot; class=&quot;rounded-lg&quot; /&gt;
+            &lt;img src=&quot;https://focus-shift.de/neuigkeiten/2023-02-23-zeiterfassung-arbeitszeiten/zeiterfassung-report-month.png&quot; alt=&quot;Monatliche Berichte mit grafischer Darstellung der geplanten Arbeitszeiten&quot; class=&quot;rounded-lg&quot; /&gt;
         &lt;figcaption class=&quot;text-sm text-center&quot;&gt;Monatliche Berichte mit grafischer Darstellung der geplanten Arbeitszeiten&lt;/figcaption&gt;
     &lt;/figure&gt;
 &lt;/div&gt;
@@ -2074,7 +2089,7 @@ und können sowohl auf Wochen- als auch Monatsbasis aggregiert angezeigt werden.
   </entry>
   <entry>
     <title>Wie Open-Source-Software durch Transparenz den Datenschutz erhöht</title>
-    <link href="https://urlaubsverwaltung.cloud/neuigkeiten/2023-01-20-opensource-vs-datenschutz/" />
+    <link href="https://focus-shift.de/neuigkeiten/2023-01-20-opensource-vs-datenschutz/" />
     <updated>2023-01-20T00:00:00Z</updated>
     <id>https://urlaubsverwaltung.cloud/neuigkeiten/2023-01-20-opensource-vs-datenschutz/</id>
     <author>
@@ -2087,7 +2102,7 @@ Auf der einen Seite steht der Schutz der Privatsphäre und die Sicherung sensibl
 auf der anderen Seite die Freiheit und Transparenz von Open-Source-Software.&lt;/p&gt;
 &lt;div class=&quot;flex flex-col items-center mt-2 lg:flex-row lg:space-x-8 lg:mb-8&quot;&gt;
   &lt;div&gt;
-    &lt;img class=&quot;mx-auto lg:max-w-md lg:h-72&quot; src=&quot;https://urlaubsverwaltung.cloud/static/lupe_code.png&quot; alt=&quot;Hilfe über das Avatarmenü&quot; /&gt;
+    &lt;img class=&quot;mx-auto lg:max-w-md lg:h-72&quot; src=&quot;https://focus-shift.de/static/lupe_code.png&quot; alt=&quot;Hilfe über das Avatarmenü&quot; /&gt;
   &lt;/div&gt;
   &lt;div class=&quot;max-w-none lg:max-w-screen&quot;&gt;
     &lt;h2&gt;Datenschutz als beschützendes Konzept&lt;/h2&gt;
@@ -2124,7 +2139,7 @@ Dieser Umstand führt dazu, dass potenzielle Ungereimtheiten schneller entdeckt 
 werden.&lt;/p&gt;
 &lt;div class=&quot;flex flex-col justify-end lg:flex-row-reverse lg:space-x-8 lg:space-x-reverse lg:mt-8 lg:mb-8&quot;&gt;
   &lt;div&gt;
-    &lt;img class=&quot;mx-auto mt-2 lg:max-w-md lg:h-80 border-none&quot; src=&quot;https://urlaubsverwaltung.cloud/neuigkeiten/2023-01-20-opensource-vs-datenschutz/OSIApproved_300X350_0.png&quot; alt=&quot;Open Source Initiative Logo&quot; /&gt;
+    &lt;img class=&quot;mx-auto mt-2 lg:max-w-md lg:h-80 border-none&quot; src=&quot;https://focus-shift.de/neuigkeiten/2023-01-20-opensource-vs-datenschutz/OSIApproved_300X350_0.png&quot; alt=&quot;Open Source Initiative Logo&quot; /&gt;
   &lt;/div&gt;
   &lt;div class=&quot;max-w-none lg:max-w-screen&quot;&gt;
     &lt;h2&gt; Datenschutz der Open-Source-Software urlaubsverwaltung.cloud&lt;/h2&gt;
@@ -2147,7 +2162,7 @@ werden.&lt;/p&gt;
   </entry>
   <entry>
     <title>4 Gründe für die Digitalisierung deiner HR zum Jahreswechsel 2023</title>
-    <link href="https://urlaubsverwaltung.cloud/neuigkeiten/2022-12-19-jahreswechsel/" />
+    <link href="https://focus-shift.de/neuigkeiten/2022-12-19-jahreswechsel/" />
     <updated>2022-12-19T00:00:00Z</updated>
     <id>https://urlaubsverwaltung.cloud/neuigkeiten/2022-12-19-jahreswechsel/</id>
     <author>
@@ -2163,7 +2178,7 @@ da zu diesem Zeitpunkt die Urlaubstage für das kommende Jahr festgelegt werden.
 Rechnungsfehler werden vermieden.&lt;/p&gt;
  &lt;div class=&quot;flex my-8&quot;&gt;
     &lt;figure&gt;
-            &lt;img src=&quot;https://urlaubsverwaltung.cloud/neuigkeiten/2022-12-19-jahreswechsel/%C3%BCbersicht.png&quot; alt=&quot;Übersicht des Urlaubsanspruchs&quot; class=&quot;rounded-lg&quot; /&gt;
+            &lt;img src=&quot;https://focus-shift.de/neuigkeiten/2022-12-19-jahreswechsel/%C3%BCbersicht.png&quot; alt=&quot;Übersicht des Urlaubsanspruchs&quot; class=&quot;rounded-lg&quot; /&gt;
         &lt;figcaption class=&quot;text-sm text-center&quot;&gt;Überblick des Urlaubsanspruchs sowie des Resturlaubs&lt;/figcaption&gt;
     &lt;/figure&gt;
 &lt;/div&gt;
@@ -2174,7 +2189,7 @@ und im Hinblick auf der Verteilung der Feiertage die optimale Urlaubsverteilung 
 Außerdem können mithilfe der Abwesenheitsübersicht die Urlaubstage anderer Personen im Team berücksichtigt werden.&lt;/p&gt;
 &lt;div class=&quot;flex my-8&quot;&gt;
     &lt;figure&gt;
-            &lt;img src=&quot;https://urlaubsverwaltung.cloud/neuigkeiten/2022-12-19-jahreswechsel/Abwesenheits%C3%BCbersicht.png&quot; alt=&quot;Abwesenheitsübersicht der Mitarbeitenden einer Abteilung&quot; class=&quot;rounded-lg&quot; /&gt;
+            &lt;img src=&quot;https://focus-shift.de/neuigkeiten/2022-12-19-jahreswechsel/Abwesenheits%C3%BCbersicht.png&quot; alt=&quot;Abwesenheitsübersicht der Mitarbeitenden einer Abteilung&quot; class=&quot;rounded-lg&quot; /&gt;
         &lt;figcaption class=&quot;text-sm text-center&quot;&gt;Abwesenheitsübersicht der Mitarbeitenden einer Abteilung&lt;/figcaption&gt;
     &lt;/figure&gt;
 &lt;/div&gt;
@@ -2189,7 +2204,7 @@ noch mehr Zeit die Urlaubsverwaltung anzuschauen und auszuprobieren, wie eure Pr
 Wir helfen euch beim Onboarding und stehen für Fragen gerne zur Verfügung.&lt;/p&gt;
  &lt;div class=&quot;flex my-8&quot;&gt;
     &lt;figure&gt;
-            &lt;img src=&quot;https://urlaubsverwaltung.cloud/neuigkeiten/2022-12-19-jahreswechsel/aktion2023.png&quot; alt=&quot;Aktionsbanner Starte digital in das Jahr 2023&quot; class=&quot;rounded-lg&quot; /&gt;
+            &lt;img src=&quot;https://focus-shift.de/neuigkeiten/2022-12-19-jahreswechsel/aktion2023.png&quot; alt=&quot;Aktionsbanner Starte digital in das Jahr 2023&quot; class=&quot;rounded-lg&quot; /&gt;
         &lt;figcaption class=&quot;text-sm text-center&quot;&gt;Aktion Starte digital in das Jahr 2023&lt;/figcaption&gt;
     &lt;/figure&gt;
 &lt;/div&gt;
@@ -2213,7 +2228,7 @@ um die Urlaubsverwaltung zu digitalisieren und damit die Effizienz und Produktiv
   </entry>
   <entry>
     <title>In diesen Wochen sind 2023 deine Mitarbeitenden im Urlaub!</title>
-    <link href="https://urlaubsverwaltung.cloud/neuigkeiten/2022-12-16-brueckentage-2023/" />
+    <link href="https://focus-shift.de/neuigkeiten/2022-12-16-brueckentage-2023/" />
     <updated>2022-12-16T00:00:00Z</updated>
     <id>https://urlaubsverwaltung.cloud/neuigkeiten/2022-12-16-brueckentage-2023/</id>
     <author>
@@ -2229,7 +2244,7 @@ sowie der Neujahrstag an einem Werktag liegen und sogar mit nur 7 Urlaubstagen d
 können.&lt;/p&gt;
 &lt;div class=&quot;flex my-8&quot;&gt;
     &lt;figure&gt;
-            &lt;img src=&quot;https://urlaubsverwaltung.cloud/neuigkeiten/2022-12-16-brueckentage-2023/apr-jun.png&quot; alt=&quot;Brückentage im April bis Juni (Kalenderdarstellung)&quot; class=&quot;rounded-lg&quot; /&gt;
+            &lt;img src=&quot;https://focus-shift.de/neuigkeiten/2022-12-16-brueckentage-2023/apr-jun.png&quot; alt=&quot;Brückentage im April bis Juni (Kalenderdarstellung)&quot; class=&quot;rounded-lg&quot; /&gt;
         &lt;figcaption class=&quot;text-sm text-center&quot;&gt;Mögliche Urlaubsplanung für die Brückentage im April bis Juni&lt;/figcaption&gt;
     &lt;/figure&gt;
 &lt;/div&gt;
@@ -2256,7 +2271,7 @@ Das ist wahlweise sowohl für die erste Monatshälfte im Mai, als auch für die 
 sodass auch hier mit nur 4 Urlaubstagen 9 freie Tage möglich sind.&lt;/p&gt;
 &lt;div class=&quot;flex my-8&quot;&gt;
     &lt;figure&gt;
-            &lt;img src=&quot;https://urlaubsverwaltung.cloud/neuigkeiten/2022-12-16-brueckentage-2023/okt-dez.png&quot; alt=&quot;Kalenderdarstellung der Monate Oktober bis Dezember&quot; class=&quot;rounded-lg&quot; /&gt;
+            &lt;img src=&quot;https://focus-shift.de/neuigkeiten/2022-12-16-brueckentage-2023/okt-dez.png&quot; alt=&quot;Kalenderdarstellung der Monate Oktober bis Dezember&quot; class=&quot;rounded-lg&quot; /&gt;
         &lt;figcaption class=&quot;text-sm text-center&quot;&gt;Mögliche Urlaubsplanung für den Tag der Deutschen Einheit sowie für Weihnachten&lt;/figcaption&gt;
     &lt;/figure&gt;
 &lt;/div&gt;
@@ -2498,7 +2513,7 @@ sodass auch hier mit nur 4 Urlaubstagen 9 freie Tage möglich sind.&lt;/p&gt;
 &lt;div class=&quot;flex flex-col justify-end lg:flex-row-reverse lg:space-x-8 lg:space-x-reverse lg:mt-8 lg:mb-8&quot;&gt;
   &lt;div class=&quot;w-full&quot;&gt;
     &lt;figure&gt;
-            &lt;img src=&quot;https://urlaubsverwaltung.cloud/neuigkeiten/2022-12-16-brueckentage-2023/einstellungen.png&quot; alt=&quot;Einstellungen von Bundesland und Arbeitstagen&quot; class=&quot;rounded-lg&quot; /&gt;
+            &lt;img src=&quot;https://focus-shift.de/neuigkeiten/2022-12-16-brueckentage-2023/einstellungen.png&quot; alt=&quot;Einstellungen von Bundesland und Arbeitstagen&quot; class=&quot;rounded-lg&quot; /&gt;
         &lt;figcaption class=&quot;text-sm text-center&quot;&gt;Einstellungen von Bundesland und Arbeitstagen&lt;/figcaption&gt;
     &lt;/figure&gt;
   &lt;/div&gt;
@@ -2533,7 +2548,7 @@ sodass auch hier mit nur 4 Urlaubstagen 9 freie Tage möglich sind.&lt;/p&gt;
   </entry>
   <entry>
     <title>Die einfachste Form der Zeiterfassung!</title>
-    <link href="https://urlaubsverwaltung.cloud/neuigkeiten/2022-12-05-zeiterfassung/" />
+    <link href="https://focus-shift.de/neuigkeiten/2022-12-05-zeiterfassung/" />
     <updated>2022-12-05T00:00:00Z</updated>
     <id>https://urlaubsverwaltung.cloud/neuigkeiten/2022-12-05-zeiterfassung/</id>
     <author>
@@ -2571,7 +2586,7 @@ sind. Für jeden Mitarbeitenden muss also gelten, dass für die gleichen eingege
 Statistik &lt;strong&gt;verlässlich&lt;/strong&gt; berechnet wird.&lt;/p&gt;
 &lt;div class=&quot;flex my-8&quot;&gt;
     &lt;figure&gt;
-            &lt;img src=&quot;https://urlaubsverwaltung.cloud/neuigkeiten/2022-12-05-zeiterfassung/stats.png&quot; alt=&quot;Foo&quot; class=&quot;rounded-lg&quot; /&gt;
+            &lt;img src=&quot;https://focus-shift.de/neuigkeiten/2022-12-05-zeiterfassung/stats.png&quot; alt=&quot;Foo&quot; class=&quot;rounded-lg&quot; /&gt;
         &lt;figcaption class=&quot;text-sm text-center&quot;&gt;Statistik der Zeiterfassung bei urlaubsverwaltung.cloud&lt;/figcaption&gt;
     &lt;/figure&gt;
 &lt;/div&gt;
@@ -2579,7 +2594,7 @@ Statistik &lt;strong&gt;verlässlich&lt;/strong&gt; berechnet wird.&lt;/p&gt;
 verwendet werden können, sondern auch inklusiv bedienbar sein und nie.&lt;/p&gt;
 &lt;div class=&quot;flex my-8&quot;&gt;
     &lt;figure&gt;
-            &lt;img src=&quot;https://urlaubsverwaltung.cloud/neuigkeiten/2022-12-05-zeiterfassung/enterslot.png&quot; alt=&quot;Foo&quot; class=&quot;rounded-lg&quot; /&gt;
+            &lt;img src=&quot;https://focus-shift.de/neuigkeiten/2022-12-05-zeiterfassung/enterslot.png&quot; alt=&quot;Foo&quot; class=&quot;rounded-lg&quot; /&gt;
         &lt;figcaption class=&quot;text-sm text-center&quot;&gt;Formular zur Erfassung eines Zeitabschnitts&lt;/figcaption&gt;
     &lt;/figure&gt;
 &lt;/div&gt;
@@ -2595,7 +2610,7 @@ zur Verfügung zu stellen.&lt;/p&gt;
   </entry>
   <entry>
     <title>Überschreiben der Browsersprache in den Personalisierungen</title>
-    <link href="https://urlaubsverwaltung.cloud/neuigkeiten/2022-10-26-sprachkonfiguration/" />
+    <link href="https://focus-shift.de/neuigkeiten/2022-10-26-sprachkonfiguration/" />
     <updated>2022-10-26T00:00:00Z</updated>
     <id>https://urlaubsverwaltung.cloud/neuigkeiten/2022-10-26-sprachkonfiguration/</id>
     <author>
@@ -2608,7 +2623,7 @@ Urlaubsverwaltung dargestellt wird. Dies ist weiterhin der Standardfall, jedoch 
 ermöglichen es in der Personalisierung einzustellen, welche Sprache verwendet werden soll.&lt;/p&gt;
 &lt;div class=&quot;flex my-8&quot;&gt;
     &lt;figure&gt;
-            &lt;img src=&quot;https://urlaubsverwaltung.cloud/neuigkeiten/2022-10-26-sprachkonfiguration/language-personalisation.png&quot; alt=&quot;Konfiguration zum Überschreiben der Browsersprache in den Personalisierungen&quot; class=&quot;rounded-lg&quot; /&gt;
+            &lt;img src=&quot;https://focus-shift.de/neuigkeiten/2022-10-26-sprachkonfiguration/language-personalisation.png&quot; alt=&quot;Konfiguration zum Überschreiben der Browsersprache in den Personalisierungen&quot; class=&quot;rounded-lg&quot; /&gt;
         &lt;figcaption class=&quot;text-sm text-center&quot;&gt;Konfiguration zum Überschreiben der Browsersprache in den Personalisierungen&lt;/figcaption&gt;
     &lt;/figure&gt;
 &lt;/div&gt;
@@ -2623,7 +2638,7 @@ Wir freuen uns über dein Feedback an &lt;a href=&quot;mailto:info@urlaubsverwal
   </entry>
   <entry>
     <title>Verfall von Resturlaub für alle und individuell für einzelne Mitarbeitenden</title>
-    <link href="https://urlaubsverwaltung.cloud/neuigkeiten/2022-10-19-verfall-resturlaub/" />
+    <link href="https://focus-shift.de/neuigkeiten/2022-10-19-verfall-resturlaub/" />
     <updated>2022-10-19T00:00:00Z</updated>
     <id>https://urlaubsverwaltung.cloud/neuigkeiten/2022-10-19-verfall-resturlaub/</id>
     <author>
@@ -2637,7 +2652,7 @@ des Mitarbeitenden deaktiviert bzw. aktiviert werden.&lt;/p&gt;
 nicht genommenen Urlaubstage komplett in das kommende Jahr als Resturlaub übernommen.&lt;/p&gt;
 &lt;div class=&quot;flex my-8&quot;&gt;
     &lt;figure&gt;
-            &lt;img src=&quot;https://urlaubsverwaltung.cloud/neuigkeiten/2022-10-19-verfall-resturlaub/residual-leave-configuration.png&quot; alt=&quot;Konfiguration zum Deaktivieren/Aktivieren des Verfalls von Resturlaubs für alle Mitarbeitenden&quot; class=&quot;rounded-lg&quot; /&gt;
+            &lt;img src=&quot;https://focus-shift.de/neuigkeiten/2022-10-19-verfall-resturlaub/residual-leave-configuration.png&quot; alt=&quot;Konfiguration zum Deaktivieren/Aktivieren des Verfalls von Resturlaubs für alle Mitarbeitenden&quot; class=&quot;rounded-lg&quot; /&gt;
         &lt;figcaption class=&quot;text-sm text-center&quot;&gt;Konfiguration zum Deaktivieren/Aktivieren des Verfalls von Resturlaubs für alle Mitarbeitenden&lt;/figcaption&gt;
     &lt;/figure&gt;
 &lt;/div&gt;
@@ -2647,7 +2662,7 @@ unter Urlaubsanspruch deaktiviert bzw. aktiviert werden. Hiermit hat man die Mö
 zu deaktivieren und für bestimmte Mitarbeitenden individuell zu aktivieren.&lt;/p&gt;
 &lt;div class=&quot;flex my-8&quot;&gt;
     &lt;figure&gt;
-            &lt;img src=&quot;https://urlaubsverwaltung.cloud/neuigkeiten/2022-10-19-verfall-resturlaub/residual-leave-configuration-employee.png&quot; alt=&quot;Konfiguration des individuellen Verfalls von Resturlaub pro Mitarbeitenden&quot; class=&quot;rounded-lg&quot; /&gt;
+            &lt;img src=&quot;https://focus-shift.de/neuigkeiten/2022-10-19-verfall-resturlaub/residual-leave-configuration-employee.png&quot; alt=&quot;Konfiguration des individuellen Verfalls von Resturlaub pro Mitarbeitenden&quot; class=&quot;rounded-lg&quot; /&gt;
         &lt;figcaption class=&quot;text-sm text-center&quot;&gt;Konfiguration des individuellen Verfalls von Resturlaub pro Mitarbeitenden&lt;/figcaption&gt;
     &lt;/figure&gt;
 &lt;/div&gt;
@@ -2657,7 +2672,7 @@ zu deaktivieren und für bestimmte Mitarbeitenden individuell zu aktivieren.&lt;
   </entry>
   <entry>
     <title>Verfall von Resturlaub pro Mitarbeitenden konfigurieren</title>
-    <link href="https://urlaubsverwaltung.cloud/neuigkeiten/2022-07-22-release-4.43.0/" />
+    <link href="https://focus-shift.de/neuigkeiten/2022-07-22-release-4.43.0/" />
     <updated>2022-07-22T00:00:00Z</updated>
     <id>https://urlaubsverwaltung.cloud/neuigkeiten/2022-07-22-release-4.43.0/</id>
     <author>
@@ -2670,14 +2685,14 @@ zu deaktivieren und für bestimmte Mitarbeitenden individuell zu aktivieren.&lt;
 Dies schafft mehr Transparenz über die Berechnung deiner verbleibenden Urlaubstage und erklärt, warum sich dein anteiliger Urlaubsanspruch ggf. reduziert hat.&lt;/p&gt;
 &lt;div class=&quot;flex my-8&quot;&gt;
     &lt;figure&gt;
-            &lt;img src=&quot;https://urlaubsverwaltung.cloud/neuigkeiten/2022-07-22-release-4.43.0/residual-leave-top.png&quot; alt=&quot;Information über den verfallenen Resturlaub am Start der Übersichtsseite&quot; class=&quot;rounded-lg&quot; /&gt;
+            &lt;img src=&quot;https://focus-shift.de/neuigkeiten/2022-07-22-release-4.43.0/residual-leave-top.png&quot; alt=&quot;Information über den verfallenen Resturlaub am Start der Übersichtsseite&quot; class=&quot;rounded-lg&quot; /&gt;
         &lt;figcaption class=&quot;text-sm text-center&quot;&gt;Information über den verfallenen Resturlaub am Start der Übersichtsseite&lt;/figcaption&gt;
     &lt;/figure&gt;
 &lt;/div&gt;
 &lt;p&gt;Der verfallene Resturlaub wird dir nicht nur bei den verbleibenden Urlaubstagen, sondern auch bei der Auflistung deiner Abwesenheiten dargestellt.&lt;/p&gt;
 &lt;div class=&quot;flex my-8&quot;&gt;
     &lt;figure&gt;
-            &lt;img src=&quot;https://urlaubsverwaltung.cloud/neuigkeiten/2022-07-22-release-4.43.0/residual-leave-top.png&quot; alt=&quot;Information über den verfallenen Resturlaub bei den Abwesenheiten auf der Übersichtsseite&quot; class=&quot;rounded-lg&quot; /&gt;
+            &lt;img src=&quot;https://focus-shift.de/neuigkeiten/2022-07-22-release-4.43.0/residual-leave-top.png&quot; alt=&quot;Information über den verfallenen Resturlaub bei den Abwesenheiten auf der Übersichtsseite&quot; class=&quot;rounded-lg&quot; /&gt;
         &lt;figcaption class=&quot;text-sm text-center&quot;&gt;Information über den verfallenen Resturlaub bei den Abwesenheiten auf der Übersichtsseite&lt;/figcaption&gt;
     &lt;/figure&gt;
 &lt;/div&gt;
@@ -2688,7 +2703,7 @@ Masse der Mitarbeitenden, war jedoch sehr starr und hat nicht jeden Anwendungsfa
 Urlaubsverwaltung ist es nun möglich das Verfallsdatum im Konto jedes einzelnen Mitarbeitenden unter Urlaubsanspruch individuell zu konfigurieren.&lt;/p&gt;
 &lt;div class=&quot;flex my-8&quot;&gt;
     &lt;figure&gt;
-            &lt;img src=&quot;https://urlaubsverwaltung.cloud/neuigkeiten/2022-07-22-release-4.43.0/residual-leave-configuration.png&quot; alt=&quot;Konfiguration des Urlaubsanspruchs einer Person mit anpassbarem Datum zum Verfall des Resturlaubes&quot; class=&quot;rounded-lg&quot; /&gt;
+            &lt;img src=&quot;https://focus-shift.de/neuigkeiten/2022-07-22-release-4.43.0/residual-leave-configuration.png&quot; alt=&quot;Konfiguration des Urlaubsanspruchs einer Person mit anpassbarem Datum zum Verfall des Resturlaubes&quot; class=&quot;rounded-lg&quot; /&gt;
         &lt;figcaption class=&quot;text-sm text-center&quot;&gt;Konfiguration des Urlaubsanspruchs einer Person mit anpassbarem Datum zum Verfall des Resturlaubes&lt;/figcaption&gt;
     &lt;/figure&gt;
 &lt;/div&gt;
@@ -2698,7 +2713,7 @@ Wir freuen uns über dein Feedback an &lt;a href=&quot;mailto:info@urlaubsverwal
   </entry>
   <entry>
     <title>🌈 Jetzt wirds bunt! Neue Farben und Sichtbarkeiten der Abwesenheitsarten</title>
-    <link href="https://urlaubsverwaltung.cloud/neuigkeiten/2022-06-01-release-4.39.0/" />
+    <link href="https://focus-shift.de/neuigkeiten/2022-06-01-release-4.39.0/" />
     <updated>2022-06-01T00:00:00Z</updated>
     <id>https://urlaubsverwaltung.cloud/neuigkeiten/2022-06-01-release-4.39.0/</id>
     <author>
@@ -2710,7 +2725,7 @@ Mitarbeitende zwar nicht vor Ort, aber dennoch beschäftigt und erreichbar sind.
 &lt;h2 id=&quot;abwesenheitsuebersicht&quot;&gt;Abwesenheitsübersicht&lt;/h2&gt;
 &lt;div class=&quot;flex my-8&quot;&gt;
     &lt;figure&gt;
-            &lt;img src=&quot;https://urlaubsverwaltung.cloud/neuigkeiten/2022-06-01-release-4.39.0/allAbsencesVisibleForOffice.png&quot; alt=&quot;Farbliche Darstellung der Abwesenheitsarten mit entsprechender Legende in der Abwesenheitsübersicht&quot; class=&quot;rounded-lg&quot; /&gt;
+            &lt;img src=&quot;https://focus-shift.de/neuigkeiten/2022-06-01-release-4.39.0/allAbsencesVisibleForOffice.png&quot; alt=&quot;Farbliche Darstellung der Abwesenheitsarten mit entsprechender Legende in der Abwesenheitsübersicht&quot; class=&quot;rounded-lg&quot; /&gt;
         &lt;figcaption class=&quot;text-sm text-center&quot;&gt;Farbliche Darstellung der Abwesenheitsarten mit entsprechender Legende in der Abwesenheitsübersicht&lt;/figcaption&gt;
     &lt;/figure&gt;
 &lt;/div&gt;
@@ -2719,14 +2734,14 @@ Noch nicht genehmigte Abwesenheiten werden als leerer Rahmen in der betreffenden
 &lt;h2 id=&quot;kalender-auf-der-persoenlichen-startseite&quot;&gt;Kalender auf der persönlichen Startseite&lt;/h2&gt;
 &lt;div class=&quot;flex my-8&quot;&gt;
     &lt;figure&gt;
-            &lt;img src=&quot;https://urlaubsverwaltung.cloud/neuigkeiten/2022-06-01-release-4.39.0/overviewCalendar.png&quot; alt=&quot;Kalender auf der persönlichen Startseite mit farblicher Unterscheidung der Abwesenheitsarten&quot; class=&quot;rounded-lg&quot; /&gt;
+            &lt;img src=&quot;https://focus-shift.de/neuigkeiten/2022-06-01-release-4.39.0/overviewCalendar.png&quot; alt=&quot;Kalender auf der persönlichen Startseite mit farblicher Unterscheidung der Abwesenheitsarten&quot; class=&quot;rounded-lg&quot; /&gt;
         &lt;figcaption class=&quot;text-sm text-center&quot;&gt;Kalender auf der persönlichen Startseite mit farblicher Unterscheidung der Abwesenheitsarten&lt;/figcaption&gt;
     &lt;/figure&gt;
 &lt;/div&gt;
 &lt;h2 id=&quot;datumsauswahl&quot;&gt;Datumsauswahl&lt;/h2&gt;
 &lt;div class=&quot;flex my-8&quot;&gt;
     &lt;figure&gt;
-            &lt;img src=&quot;https://urlaubsverwaltung.cloud/neuigkeiten/2022-06-01-release-4.39.0/calendarPicker.png&quot; alt=&quot;Datumsauswahl mit farblicher Unterscheidung der Abwesenheitsarten&quot; class=&quot;rounded-lg&quot; /&gt;
+            &lt;img src=&quot;https://focus-shift.de/neuigkeiten/2022-06-01-release-4.39.0/calendarPicker.png&quot; alt=&quot;Datumsauswahl mit farblicher Unterscheidung der Abwesenheitsarten&quot; class=&quot;rounded-lg&quot; /&gt;
         &lt;figcaption class=&quot;text-sm text-center&quot;&gt;Datumsauswahl mit farblicher Unterscheidung der Abwesenheitsarten&lt;/figcaption&gt;
     &lt;/figure&gt;
 &lt;/div&gt;
@@ -2734,7 +2749,7 @@ Noch nicht genehmigte Abwesenheiten werden als leerer Rahmen in der betreffenden
 &lt;p&gt;Die Farben der Abwesenheitsarten können durch Benutzende mit der Berechtigung Office unter &lt;em&gt;Einstellungen&lt;/em&gt; » &lt;em&gt;Abwesenheitsarten&lt;/em&gt; konfiguriert werden:&lt;/p&gt;
 &lt;div class=&quot;flex my-8&quot;&gt;
     &lt;figure&gt;
-            &lt;img src=&quot;https://urlaubsverwaltung.cloud/neuigkeiten/2022-06-01-release-4.39.0/colorConfiguration.png&quot; alt=&quot;Neue Farbkonfiguration für Abwesenheitsarten&quot; class=&quot;rounded-lg&quot; /&gt;
+            &lt;img src=&quot;https://focus-shift.de/neuigkeiten/2022-06-01-release-4.39.0/colorConfiguration.png&quot; alt=&quot;Neue Farbkonfiguration für Abwesenheitsarten&quot; class=&quot;rounded-lg&quot; /&gt;
         &lt;figcaption class=&quot;text-sm text-center&quot;&gt;Neue Farbkonfiguration für Abwesenheitsarten&lt;/figcaption&gt;
     &lt;/figure&gt;
 &lt;/div&gt;
@@ -2743,21 +2758,21 @@ Noch nicht genehmigte Abwesenheiten werden als leerer Rahmen in der betreffenden
 &lt;p&gt;Neben der neuen Farbkonfiguration ist es nun auch möglich die Sichtbarkeit der Abwesenheitsarten in der Abwesenheitsübersicht einzustellen.&lt;/p&gt;
 &lt;div class=&quot;flex my-8&quot;&gt;
     &lt;figure&gt;
-            &lt;img src=&quot;https://urlaubsverwaltung.cloud/neuigkeiten/2022-06-01-release-4.39.0/visibilityConfiguration.png&quot; alt=&quot;Einstellung der Sichtbarkeit von Abwesenheitsarten&quot; class=&quot;rounded-lg&quot; /&gt;
+            &lt;img src=&quot;https://focus-shift.de/neuigkeiten/2022-06-01-release-4.39.0/visibilityConfiguration.png&quot; alt=&quot;Einstellung der Sichtbarkeit von Abwesenheitsarten&quot; class=&quot;rounded-lg&quot; /&gt;
         &lt;figcaption class=&quot;text-sm text-center&quot;&gt;Einstellung der Sichtbarkeit von Abwesenheitsarten&lt;/figcaption&gt;
     &lt;/figure&gt;
 &lt;/div&gt;
 &lt;p&gt;Bisher war die Sichtbarkeit anhand der Berechtigungen eingeschränkt. Normale Benutzende konnten bisher nur die generische Information &lt;em&gt;Abwesend&lt;/em&gt; für die Kolleg:innen der Abteilung einsehen. Dies macht vor allem im Hinblick auf Datenschutz-Aspekte Sinn, da den Kolleg:innen aus der Abteilung z.B. nicht mitgeteilt werden muss, warum eine Person nicht anwesend ist. Im nachfolgenden Beispiel sind für den normalen Benutzer Klaus Müller nur eigenen Abwesenheiten mit Abwesenheitsart sichtbar. Die Abwesenheiten der Kolleg:innen sind mit der generischen Information &lt;em&gt;Abwesen&lt;/em&gt; dargestellt.&lt;/p&gt;
 &lt;div class=&quot;flex my-8&quot;&gt;
     &lt;figure&gt;
-            &lt;img src=&quot;https://urlaubsverwaltung.cloud/neuigkeiten/2022-06-01-release-4.39.0/colorConfiguration.png&quot; alt=&quot;Unterscheidung nur der eigenen Abwesenheitsarten&quot; class=&quot;rounded-lg&quot; /&gt;
+            &lt;img src=&quot;https://focus-shift.de/neuigkeiten/2022-06-01-release-4.39.0/colorConfiguration.png&quot; alt=&quot;Unterscheidung nur der eigenen Abwesenheitsarten&quot; class=&quot;rounded-lg&quot; /&gt;
         &lt;figcaption class=&quot;text-sm text-center&quot;&gt;Unterscheidung nur der eigenen Abwesenheitsarten, Abwesenheiten von Kolleg:innen werden als &lt;i&gt;Abwesend&lt;/i&gt; dargestellt.&lt;/figcaption&gt;
     &lt;/figure&gt;
 &lt;/div&gt;
 &lt;p&gt;Dagegen ist z.B. die Abwesenheitsart &lt;em&gt;Home-Office&lt;/em&gt; oder &lt;em&gt;Außer Haus&lt;/em&gt; ein Fall bei dem es sinnvoll sein kann die Information in der Abteilung zu teilen, da die Person in Arbeitsabläufe eingebunden sein kann oder zumindest telefonisch erreichbar ist. Für diesen Fall ist es nun möglich, dass die Abwesenheitsart für alle sichtbar gemacht wird. Die Einstellung hat zur Folge, dass die Abwesenheitsart nicht mehr durch die generische Information &amp;quot;Abwesend&amp;quot; für normale Benutzende dargestellt wird, sondern die konkrete Abwesenheitsart sichtbar ist. Als Beispiel ist im folgenden Bild ist die &lt;i&gt;Home-Office&lt;/i&gt;-Abwesenheit von Niko Schmitt am 27.-30.06 für Klaus Müller als normaler Benutzer sichtbar. Abwesenheitsarten für die, die Sichtbarkeit nicht freigegeben wurde, werden weiterhin als &lt;em&gt;Abwesend&lt;/em&gt; angezeigt.&lt;/p&gt;
 &lt;div class=&quot;flex my-8&quot;&gt;
     &lt;figure&gt;
-            &lt;img src=&quot;https://urlaubsverwaltung.cloud/neuigkeiten/2022-06-01-release-4.39.0/visibilityConfiguration.png&quot; alt=&quot;Differenzierung von Abwesenheitsarten der Mitarbeitenden&quot; class=&quot;rounded-lg&quot; /&gt;
+            &lt;img src=&quot;https://focus-shift.de/neuigkeiten/2022-06-01-release-4.39.0/visibilityConfiguration.png&quot; alt=&quot;Differenzierung von Abwesenheitsarten der Mitarbeitenden&quot; class=&quot;rounded-lg&quot; /&gt;
         &lt;figcaption class=&quot;text-sm text-center&quot;&gt;Differenzierung von Abwesenheitsarten der Mitarbeitenden, im Beispiel wird &lt;i&gt;Home-Office&lt;/i&gt; für alle Mitarbeitenden der Abteilung sichtbar&lt;/figcaption&gt;
     &lt;/figure&gt;
 &lt;/div&gt;
@@ -2767,7 +2782,7 @@ Wir freuen uns über dein Feedback an &lt;a href=&quot;mailto:info@urlaubsverwal
   </entry>
   <entry>
     <title>Personalstammdaten immer im Blick</title>
-    <link href="https://urlaubsverwaltung.cloud/neuigkeiten/2022-04-27-release-4.35.0/" />
+    <link href="https://focus-shift.de/neuigkeiten/2022-04-27-release-4.35.0/" />
     <updated>2022-04-27T00:00:00Z</updated>
     <id>https://urlaubsverwaltung.cloud/neuigkeiten/2022-04-27-release-4.35.0/</id>
     <author>
@@ -2780,11 +2795,11 @@ Benutzende mit der Berechtigung &lt;em&gt;Office&lt;/em&gt; können nun ganz beq
 Die Personalnummern und Zusatzinformationen sind in den bereits vorhandenen CSV-Exporten für Abwesenheiten und Krankmeldungen enthalten und können somit zur weiteren Verarbeitung in nachgelagerten Prozessen berücksichtigt werden.&lt;/p&gt;
 &lt;div class=&quot;flex my-8 gap-4 flex-col md:flex-row&quot;&gt;
     &lt;figure&gt;
-            &lt;img src=&quot;https://urlaubsverwaltung.cloud/neuigkeiten/2022-04-27-release-4.35.0/basedata-view.png&quot; alt=&quot;Hinzufügen von Personalstammdaten&quot; class=&quot;rounded-lg&quot; /&gt;
+            &lt;img src=&quot;https://focus-shift.de/neuigkeiten/2022-04-27-release-4.35.0/basedata-view.png&quot; alt=&quot;Hinzufügen von Personalstammdaten&quot; class=&quot;rounded-lg&quot; /&gt;
         &lt;figcaption class=&quot;text-sm text-center&quot;&gt;Hinzufügen von Personalstammdaten&lt;/figcaption&gt;
     &lt;/figure&gt;
     &lt;figure&gt;
-            &lt;img src=&quot;https://urlaubsverwaltung.cloud/neuigkeiten/2022-04-27-release-4.35.0/basedata-edit.png&quot; alt=&quot;Editieren von Personalstammdaten&quot; class=&quot;rounded-lg&quot; /&gt;
+            &lt;img src=&quot;https://focus-shift.de/neuigkeiten/2022-04-27-release-4.35.0/basedata-edit.png&quot; alt=&quot;Editieren von Personalstammdaten&quot; class=&quot;rounded-lg&quot; /&gt;
         &lt;figcaption class=&quot;text-sm text-center&quot;&gt;Editieren von Personalstammdaten&lt;/figcaption&gt;
     &lt;/figure&gt;
 &lt;/div&gt;
@@ -2796,7 +2811,7 @@ Die Personalnummern und Zusatzinformationen sind in den bereits vorhandenen CSV-
 &lt;/ul&gt;
 &lt;div class=&quot;flex my-8&quot;&gt;
     &lt;figure&gt;
-            &lt;img src=&quot;https://urlaubsverwaltung.cloud/neuigkeiten/2022-04-27-release-4.35.0/user-overview-with-personnel-number.png&quot; alt=&quot;Personalnummer in der Übersicht von Benutzenden&quot; class=&quot;rounded-lg&quot; /&gt;
+            &lt;img src=&quot;https://focus-shift.de/neuigkeiten/2022-04-27-release-4.35.0/user-overview-with-personnel-number.png&quot; alt=&quot;Personalnummer in der Übersicht von Benutzenden&quot; class=&quot;rounded-lg&quot; /&gt;
         &lt;figcaption class=&quot;text-sm text-center&quot;&gt;Personalnummer in der Übersicht von Benutzenden&lt;/figcaption&gt;
     &lt;/figure&gt;
 &lt;/div&gt;
@@ -2808,7 +2823,7 @@ Wir freuen uns über dein Feedback an &lt;a href=&quot;mailto:info@urlaubsverwal
   </entry>
   <entry>
     <title>Konfiguration von Sonderurlaubstagen und Bildungsurlaub</title>
-    <link href="https://urlaubsverwaltung.cloud/neuigkeiten/2022-04-06-release/" />
+    <link href="https://focus-shift.de/neuigkeiten/2022-04-06-release/" />
     <updated>2022-04-06T00:00:00Z</updated>
     <id>https://urlaubsverwaltung.cloud/neuigkeiten/2022-04-06-release/</id>
     <author>
@@ -2822,11 +2837,11 @@ könnt ihr nun die Anzeige der bei euch in der Organisation möglichen Sonderurl
 &lt;p&gt;Diese Einstellung wird beim Beantragen eines Sonderurlaubes direkt angezeigt und unterstützt den Antragstellenden.&lt;/p&gt;
 &lt;div class=&quot;flex my-8 gap-4 flex-col md:flex-row&quot;&gt;
     &lt;figure&gt;
-            &lt;img src=&quot;https://urlaubsverwaltung.cloud/neuigkeiten/2022-04-06-release/configuration-special-holiday.png&quot; alt=&quot;Einstellungen zu Sonderurlaub&quot; class=&quot;rounded-lg&quot; /&gt;
+            &lt;img src=&quot;https://focus-shift.de/neuigkeiten/2022-04-06-release/configuration-special-holiday.png&quot; alt=&quot;Einstellungen zu Sonderurlaub&quot; class=&quot;rounded-lg&quot; /&gt;
         &lt;figcaption class=&quot;text-sm text-center&quot;&gt;Einstellungen zu Sonderurlaub&lt;/figcaption&gt;
     &lt;/figure&gt;
     &lt;figure&gt;
-            &lt;img src=&quot;https://urlaubsverwaltung.cloud/neuigkeiten/2022-04-06-release/absence-request.png&quot; alt=&quot;Antrag eines Sonderurlaubes&quot; class=&quot;rounded-lg&quot; /&gt;
+            &lt;img src=&quot;https://focus-shift.de/neuigkeiten/2022-04-06-release/absence-request.png&quot; alt=&quot;Antrag eines Sonderurlaubes&quot; class=&quot;rounded-lg&quot; /&gt;
         &lt;figcaption class=&quot;text-sm text-center&quot;&gt;Antrag eines Sonderurlaubes&lt;/figcaption&gt;
     &lt;/figure&gt;
 &lt;/div&gt;
@@ -2839,7 +2854,7 @@ Wir freuen uns über dein Feedback an &lt;a href=&quot;mailto:info@urlaubsverwal
   </entry>
   <entry>
     <title>Benutzerspezifische Stammdaten</title>
-    <link href="https://urlaubsverwaltung.cloud/neuigkeiten/2022-03-31-release/" />
+    <link href="https://focus-shift.de/neuigkeiten/2022-03-31-release/" />
     <updated>2022-03-31T00:00:00Z</updated>
     <id>https://urlaubsverwaltung.cloud/neuigkeiten/2022-03-31-release/</id>
     <author>
@@ -2849,8 +2864,8 @@ Wir freuen uns über dein Feedback an &lt;a href=&quot;mailto:info@urlaubsverwal
 &lt;p&gt;Die Urlaubsverwaltung kann nun Stammdaten! Was bedeutet das genau? Es ist im Konto einer Person möglich zusätzliche Informationen
 wie die &lt;strong&gt;Personalnummer&lt;/strong&gt; und &lt;strong&gt;Zusatzinformation&lt;/strong&gt; zu hinterlegen. Zum Hinzufügen oder Bearbeiten einer dieser Informationen,
 könnt ihr über das Konto einer Person bei den &lt;strong&gt;Stammdaten&lt;/strong&gt; auf den Stift klicken und schon kann es losgehen.&lt;/p&gt;
-&lt;video controls=&quot;&quot; width=&quot;720&quot; height=&quot;515&quot; class=&quot;my-8 border-2 rounded-lg&quot; poster=&quot;https://urlaubsverwaltung.cloud/neuigkeiten/2022-03-31-release/stammdaten-bearbeiten-poster.png&quot;&gt;
-  &lt;source src=&quot;https://urlaubsverwaltung.cloud/neuigkeiten/2022-03-31-release/stammdaten-bearbeiten.mp4&quot; type=&quot;video/mp4&quot; /&gt;
+&lt;video controls=&quot;&quot; width=&quot;720&quot; height=&quot;515&quot; class=&quot;my-8 border-2 rounded-lg&quot; poster=&quot;https://focus-shift.de/neuigkeiten/2022-03-31-release/stammdaten-bearbeiten-poster.png&quot;&gt;
+  &lt;source src=&quot;https://focus-shift.de/neuigkeiten/2022-03-31-release/stammdaten-bearbeiten.mp4&quot; type=&quot;video/mp4&quot; /&gt;
 &lt;/video&gt;
 &lt;p&gt;Nachdem ihr die Informationen gespeichert habt, werden diese angezeigt&lt;/p&gt;
 &lt;ul&gt;
@@ -2862,15 +2877,15 @@ könnt ihr über das Konto einer Person bei den &lt;strong&gt;Stammdaten&lt;/str
 &lt;/ul&gt;
 &lt;div class=&quot;flex my-8 gap-4 flex-col md:flex-row&quot;&gt;
     &lt;figure&gt;
-            &lt;img src=&quot;https://urlaubsverwaltung.cloud/neuigkeiten/2022-03-31-release/benutzeruebersicht.png&quot; alt=&quot;Benutzeruebersicht mit Personalnummer&quot; class=&quot;rounded-lg&quot; /&gt;
+            &lt;img src=&quot;https://focus-shift.de/neuigkeiten/2022-03-31-release/benutzeruebersicht.png&quot; alt=&quot;Benutzeruebersicht mit Personalnummer&quot; class=&quot;rounded-lg&quot; /&gt;
         &lt;figcaption class=&quot;text-sm text-center&quot;&gt;Benutzerübersicht mit Personalnummer.&lt;/figcaption&gt;
     &lt;/figure&gt;
     &lt;figure&gt;
-            &lt;img src=&quot;https://urlaubsverwaltung.cloud/neuigkeiten/2022-03-31-release/krankmeldungen.png&quot; alt=&quot;Krankmeldungen mit Personalnummer&quot; class=&quot;rounded-lg&quot; /&gt;
+            &lt;img src=&quot;https://focus-shift.de/neuigkeiten/2022-03-31-release/krankmeldungen.png&quot; alt=&quot;Krankmeldungen mit Personalnummer&quot; class=&quot;rounded-lg&quot; /&gt;
       &lt;figcaption class=&quot;text-sm text-center&quot;&gt;Krankmeldungen mit Personalnummer.&lt;/figcaption&gt;
     &lt;/figure&gt;
     &lt;figure&gt;
-            &lt;img src=&quot;https://urlaubsverwaltung.cloud/neuigkeiten/2022-03-31-release/abwesenheitsstatistik.png&quot; alt=&quot;Abwesenheitsstatistik mit Personalnummer&quot; class=&quot;rounded-lg&quot; /&gt;
+            &lt;img src=&quot;https://focus-shift.de/neuigkeiten/2022-03-31-release/abwesenheitsstatistik.png&quot; alt=&quot;Abwesenheitsstatistik mit Personalnummer&quot; class=&quot;rounded-lg&quot; /&gt;
         &lt;figcaption class=&quot;text-sm text-center&quot;&gt;Abwesenheitsstatistik mit Personalnummer.&lt;/figcaption&gt;
     &lt;/figure&gt;
 &lt;/div&gt;
@@ -2879,7 +2894,7 @@ könnt ihr über das Konto einer Person bei den &lt;strong&gt;Stammdaten&lt;/str
   </entry>
   <entry>
     <title>Überarbeitung der Überstundenübersicht</title>
-    <link href="https://urlaubsverwaltung.cloud/neuigkeiten/2022-03-24-release/" />
+    <link href="https://focus-shift.de/neuigkeiten/2022-03-24-release/" />
     <updated>2022-03-24T00:00:00Z</updated>
     <id>https://urlaubsverwaltung.cloud/neuigkeiten/2022-03-24-release/</id>
     <author>
@@ -2892,13 +2907,13 @@ die &lt;strong&gt;beantragten und genehmigten Abwesenheiten&lt;/strong&gt; mit d
 Information erhaltet ihr ein &lt;strong&gt;komplettes Bild eurer Überstunden&lt;/strong&gt; und wie diese aufgebaut bzw. abgebaut wurden.
 Zudem wird euch auf der untersten Zeile der &lt;strong&gt;Übertrag&lt;/strong&gt; eurer Überstunden aus dem vorherigen Jahr angezeigt,
 ein &lt;strong&gt;Schnelleinstieg zum Bearbeiten&lt;/strong&gt; bereitgestellt sowie die &lt;strong&gt;Summe&lt;/strong&gt; der Überstunden pro Eintrag angezeigt.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;https://urlaubsverwaltung.cloud/neuigkeiten/2022-03-24-release/overtime-overview.png&quot; alt=&quot;Urlaubsverwaltung neue Überstundenübersicht&quot; class=&quot;rounded-lg&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://focus-shift.de/neuigkeiten/2022-03-24-release/overtime-overview.png&quot; alt=&quot;Urlaubsverwaltung neue Überstundenübersicht&quot; class=&quot;rounded-lg&quot; /&gt;&lt;/p&gt;
 &lt;p&gt;Wir freuen uns über dein Feedback an &lt;a href=&quot;mailto:info@urlaubsverwaltung.cloud?subject=Feedback&quot;&gt;info@urlaubsverwaltung.cloud&lt;/a&gt;.&lt;/p&gt;
 </content>
   </entry>
   <entry>
     <title>Freie Tage in der Abwesenheitsübersicht und den Kalendern</title>
-    <link href="https://urlaubsverwaltung.cloud/neuigkeiten/2022-03-23-release/" />
+    <link href="https://focus-shift.de/neuigkeiten/2022-03-23-release/" />
     <updated>2022-03-23T00:00:00Z</updated>
     <id>https://urlaubsverwaltung.cloud/neuigkeiten/2022-03-23-release/</id>
     <author>
@@ -2913,16 +2928,16 @@ obwohl der Abwesenheitsantrag über die ganze Woche gestellt wurde.&lt;/p&gt;
 das diese eine vier Tage Woche hat und das der freie Tag am Mittwoch ist. Ok. Verstanden. Man konnte den Antrag genehmigen.
 Drei Monate später wunderte man sich wieder und das Spiel ging von vorne los.&lt;/p&gt;
 &lt;p&gt;Um dieser Herausforderung zu begegnen, zeigen die Abwesenheitsübersicht und die Kalender ab sofort die freien Tage einer Person an.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;https://urlaubsverwaltung.cloud/neuigkeiten/2022-03-23-release/vier-tage-woche.png&quot; alt=&quot;Urlaubsverwaltung Abwesenheitsübersicht mit einer 4-Tage-Woche&quot; class=&quot;rounded-lg&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://focus-shift.de/neuigkeiten/2022-03-23-release/vier-tage-woche.png&quot; alt=&quot;Urlaubsverwaltung Abwesenheitsübersicht mit einer 4-Tage-Woche&quot; class=&quot;rounded-lg&quot; /&gt;&lt;/p&gt;
 &lt;p&gt;Die Abwesenheitsübersicht zeigt jetzt auf den ersten Blick, dass Brigitte Händel an jedem Mittwoch und den Wochenenden freie Tage hat und an den restlichen anwesend ist. Mit dieser Information ist direkt erkenntlich, weshalb im Antrag von Brigitte Händel am 9. März keine Abwesenheit eingetragen ist.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;https://urlaubsverwaltung.cloud/neuigkeiten/2022-03-23-release/vier-tage-woche-kalender.png&quot; alt=&quot;Urlaubsverwaltung Kalender mit einer 4-Tage-Woche&quot; class=&quot;rounded-lg&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://focus-shift.de/neuigkeiten/2022-03-23-release/vier-tage-woche-kalender.png&quot; alt=&quot;Urlaubsverwaltung Kalender mit einer 4-Tage-Woche&quot; class=&quot;rounded-lg&quot; /&gt;&lt;/p&gt;
 &lt;p&gt;Diese Informationen sind auch im persönlichen Kalender sowie in der Datumsauswahl verfügbar.&lt;/p&gt;
 &lt;p&gt;Wir freuen uns über dein Feedback an &lt;a href=&quot;mailto:info@urlaubsverwaltung.cloud?subject=Feedback&quot;&gt;info@urlaubsverwaltung.cloud&lt;/a&gt;.&lt;/p&gt;
 </content>
   </entry>
   <entry>
     <title>Kalimera Griechenland - Griechische Feiertage und Übersetzung</title>
-    <link href="https://urlaubsverwaltung.cloud/neuigkeiten/2022-03-11-release/" />
+    <link href="https://focus-shift.de/neuigkeiten/2022-03-11-release/" />
     <updated>2022-03-11T00:00:00Z</updated>
     <id>https://urlaubsverwaltung.cloud/neuigkeiten/2022-03-11-release/</id>
     <author>
@@ -2933,14 +2948,14 @@ Drei Monate später wunderte man sich wieder und das Spiel ging von vorne los.&l
 &lt;p&gt;Wir freuen uns sehr darüber, dass Nikos Zagkanas auf uns zukam und die Urlaubsverwaltung für Griechenland einsetzbar gemacht hat!&lt;/p&gt;
 &lt;p&gt;Die Urlaubsverwaltung verfügt nun über eine vollständige griechische Übersetzung, welche durch die Browsersprache gesteuert wird. Des Weiteren wurden auch griechische Feiertage integriert.&lt;/p&gt;
 &lt;p&gt;Wir empfanden die Kooperation als sehr angenehm und wir freuen uns darüber, auch in Griechenland einen Mehrwert bei der Abwesenheitsplanung beisteuern zu können.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;https://urlaubsverwaltung.cloud/neuigkeiten/2022-03-11-release/greek.png&quot; alt=&quot;Urlaubsverwaltung auf griechisch&quot; class=&quot;rounded-lg&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://focus-shift.de/neuigkeiten/2022-03-11-release/greek.png&quot; alt=&quot;Urlaubsverwaltung auf griechisch&quot; class=&quot;rounded-lg&quot; /&gt;&lt;/p&gt;
 &lt;br /&gt;
 &lt;p&gt;Wir freuen uns über dein Feedback an &lt;a href=&quot;mailto:info@urlaubsverwaltung.cloud?subject=Feedback&quot;&gt;info@urlaubsverwaltung.cloud&lt;/a&gt;.&lt;/p&gt;
 </content>
   </entry>
   <entry>
     <title>Willkommen auf der dunklen Seite</title>
-    <link href="https://urlaubsverwaltung.cloud/neuigkeiten/2022-02-06-release/" />
+    <link href="https://focus-shift.de/neuigkeiten/2022-02-06-release/" />
     <updated>2022-02-06T00:00:00Z</updated>
     <id>https://urlaubsverwaltung.cloud/neuigkeiten/2022-02-06-release/</id>
     <author>
@@ -2967,11 +2982,11 @@ Des Weiteren hat eine Studie herausgefunden, dass heller Text auf dunklem Hinter
 &lt;/ul&gt;
 &lt;div class=&quot;flex my-8 gap-4 flex-col md:flex-row&quot;&gt;
     &lt;div&gt;
-          &lt;img src=&quot;https://urlaubsverwaltung.cloud/neuigkeiten/2022-02-06-release/uv-theme-light.png&quot; alt=&quot;Urlaubsverwaltung Übersichtseite im Light Theme&quot; class=&quot;rounded-lg&quot; /&gt;
+          &lt;img src=&quot;https://focus-shift.de/neuigkeiten/2022-02-06-release/uv-theme-light.png&quot; alt=&quot;Urlaubsverwaltung Übersichtseite im Light Theme&quot; class=&quot;rounded-lg&quot; /&gt;
       &lt;p class=&quot;text-sm text-center&quot;&gt;Übersichtseite im Light Theme.&lt;/p&gt;
     &lt;/div&gt;
     &lt;div&gt;
-          &lt;img src=&quot;https://urlaubsverwaltung.cloud/neuigkeiten/2022-02-06-release/uv-theme-dark.png&quot; alt=&quot;Urlaubsverwaltung Übersichtseite im Dark Theme&quot; class=&quot;rounded-lg&quot; /&gt;
+          &lt;img src=&quot;https://focus-shift.de/neuigkeiten/2022-02-06-release/uv-theme-dark.png&quot; alt=&quot;Urlaubsverwaltung Übersichtseite im Dark Theme&quot; class=&quot;rounded-lg&quot; /&gt;
       &lt;p class=&quot;text-sm text-center&quot;&gt;Übersichtseite im Dark Theme.&lt;/p&gt;
     &lt;/div&gt;
 &lt;/div&gt;
@@ -2987,7 +3002,7 @@ die Urlaubsverwaltung wird immer mit dunklem Text auf hellem Hintergrund dargest
 die Urlaubsverwaltung wird immer mit hellem Txt auf dunklem Hintergrund dargestellt&lt;/li&gt;
 &lt;/ul&gt;
 &lt;video controls=&quot;&quot; width=&quot;720&quot; height=&quot;515&quot; class=&quot;my-8&quot;&gt;
-  &lt;source src=&quot;https://urlaubsverwaltung.cloud/neuigkeiten/2022-02-06-release/uv-theme-configuration.mp4&quot; type=&quot;video/mp4&quot; /&gt;
+  &lt;source src=&quot;https://focus-shift.de/neuigkeiten/2022-02-06-release/uv-theme-configuration.mp4&quot; type=&quot;video/mp4&quot; /&gt;
 &lt;/video&gt;
 &lt;p&gt;Du hast Verbesserungsvorschläge?&lt;br /&gt;
 Wünschst du dir weitere Themes wie z. B. erhöhter Kontrast?&lt;br /&gt;
@@ -2997,7 +3012,7 @@ Oder dir gefällt das neue Theme einfach nur sehr gut?&lt;/p&gt;
   </entry>
   <entry>
     <title>Focus Shift im Interview - wie alles begann</title>
-    <link href="https://urlaubsverwaltung.cloud/neuigkeiten/2022-01-20-interview-startup-stuttgart/" />
+    <link href="https://focus-shift.de/neuigkeiten/2022-01-20-interview-startup-stuttgart/" />
     <updated>2022-01-20T00:00:00Z</updated>
     <id>https://urlaubsverwaltung.cloud/neuigkeiten/2022-01-20-interview-startup-stuttgart/</id>
     <author>
@@ -3015,7 +3030,7 @@ Außerdem gibt es auch ein paar Einblicke in die ersten Fehler und Erfolge.&lt;/
   </entry>
   <entry>
     <title>Feiertage für Österreich, Schweiz, UK, und Abwesenheiten an Feiertagen</title>
-    <link href="https://urlaubsverwaltung.cloud/neuigkeiten/2022-01-12-release/" />
+    <link href="https://focus-shift.de/neuigkeiten/2022-01-12-release/" />
     <updated>2022-01-12T00:00:00Z</updated>
     <id>https://urlaubsverwaltung.cloud/neuigkeiten/2022-01-12-release/</id>
     <author>
@@ -3028,24 +3043,24 @@ den Schweizer Kantonen sowie mit den Landesteilen des Vereinigtes Königreiches 
 global in den Einstellungen der Urlaubsverwaltung konfigurierbar und steht zusätzlich im Konto einer Person zur Auswahl bereit.
 Der Name der Einstellung hat sich von &#39;Bundesland&#39; zu &#39;Feiertagsregelung&#39; geändert.&lt;/p&gt;
 &lt;div class=&quot;flex gap-4 flex-col md:flex-row&quot;&gt;
-        &lt;img src=&quot;https://urlaubsverwaltung.cloud/neuigkeiten/2022-01-12-release/public_holiday_person.png&quot; alt=&quot;Personübersicht mit Feiertagsregelung Auswahl&quot; /&gt;
-        &lt;img src=&quot;https://urlaubsverwaltung.cloud/neuigkeiten/2022-01-12-release/public_holiday_person_change.png&quot; alt=&quot;Feiertagsregelung Auswahl einer Person&quot; /&gt;
+        &lt;img src=&quot;https://focus-shift.de/neuigkeiten/2022-01-12-release/public_holiday_person.png&quot; alt=&quot;Personübersicht mit Feiertagsregelung Auswahl&quot; /&gt;
+        &lt;img src=&quot;https://focus-shift.de/neuigkeiten/2022-01-12-release/public_holiday_person_change.png&quot; alt=&quot;Feiertagsregelung Auswahl einer Person&quot; /&gt;
 &lt;/div&gt;
 &lt;h2 id=&quot;abwesenheiten-an-feiertagen&quot;&gt;Abwesenheiten an Feiertagen&lt;/h2&gt;
-&lt;p&gt;Die &lt;a href=&quot;https://urlaubsverwaltung.cloud/hilfe/urlaubsverwaltung/feiertage/&quot;&gt;Feiertagsregelung&lt;/a&gt; wurde zudem um den Eintrag &lt;em&gt;Keine Feiertagsregelung&lt;/em&gt; erweitert. Mit dieser Einstellung
+&lt;p&gt;Die &lt;a href=&quot;https://focus-shift.de/hilfe/urlaubsverwaltung/feiertage/&quot;&gt;Feiertagsregelung&lt;/a&gt; wurde zudem um den Eintrag &lt;em&gt;Keine Feiertagsregelung&lt;/em&gt; erweitert. Mit dieser Einstellung
 ist es für die gesamte Urlaubsverwaltung sowie für bestimmte Personen möglich die Feiertagsregelung außer Kraft zu setzen und
 Abwesenheiten auch an Feiertagen einzutragen.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;https://urlaubsverwaltung.cloud/neuigkeiten/2022-01-12-release/public_holiday_person_no.png&quot; alt=&quot;Neues Kalenderdesign&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://focus-shift.de/neuigkeiten/2022-01-12-release/public_holiday_person_no.png&quot; alt=&quot;Neues Kalenderdesign&quot; /&gt;&lt;/p&gt;
 &lt;h2 id=&quot;neues-kalenderdesign&quot;&gt;Neues Kalenderdesign&lt;/h2&gt;
 &lt;p&gt;Das Kalenderdesign wurde überarbeitet und bietet nun mehr Platz um zukünftig noch weitere Informationen für einen Tag anzuzeigen.
 Die Urlaubsverwaltung unterliegt einem ständigen Verbesserungsprozess, welcher Wert auf eine intuitive Bedienung legt.
 Mit dem neuen Kalenderdesign stellen wir die Weichen für mehr Flexibilität und einen höheren Informationsgehalt. Wir freuen uns auf dein Feedback!&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;https://urlaubsverwaltung.cloud/neuigkeiten/2022-01-12-release/new_calendar_design_overview.png&quot; alt=&quot;Neues Kalenderdesign&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://focus-shift.de/neuigkeiten/2022-01-12-release/new_calendar_design_overview.png&quot; alt=&quot;Neues Kalenderdesign&quot; /&gt;&lt;/p&gt;
 </content>
   </entry>
   <entry>
     <title>Berechtigungskombinationen, Abwesenheitsübersicht und Logback</title>
-    <link href="https://urlaubsverwaltung.cloud/neuigkeiten/2021-12-15-release/" />
+    <link href="https://focus-shift.de/neuigkeiten/2021-12-15-release/" />
     <updated>2021-12-15T00:00:00Z</updated>
     <id>https://urlaubsverwaltung.cloud/neuigkeiten/2021-12-15-release/</id>
     <author>
@@ -3077,7 +3092,7 @@ was du auch sehen darfst.&lt;/p&gt;
   </entry>
   <entry>
     <title>Neue Abwesenheitsarten braucht die Urlaubsverwaltung!</title>
-    <link href="https://urlaubsverwaltung.cloud/neuigkeiten/2021-11-19-release/" />
+    <link href="https://focus-shift.de/neuigkeiten/2021-11-19-release/" />
     <updated>2021-11-19T00:00:00Z</updated>
     <id>https://urlaubsverwaltung.cloud/neuigkeiten/2021-11-19-release/</id>
     <author>
@@ -3095,7 +3110,7 @@ was du auch sehen darfst.&lt;/p&gt;
 &lt;/ul&gt;
 &lt;div class=&quot;flex flex-col justify-end lg:flex-row-reverse lg:space-x-8 lg:space-x-reverse mt-8 mb-4 lg:mt-4&quot;&gt;
   &lt;div class=&quot;mb-8 lg:mb-0&quot;&gt;
-    &lt;img src=&quot;https://urlaubsverwaltung.cloud/neuigkeiten/2021-11-19-release/abwesenheitsarten.png&quot; alt=&quot;Neue Abwesenheitsarten der Urlaubsverwaltung&quot; /&gt;
+    &lt;img src=&quot;https://focus-shift.de/neuigkeiten/2021-11-19-release/abwesenheitsarten.png&quot; alt=&quot;Neue Abwesenheitsarten der Urlaubsverwaltung&quot; /&gt;
   &lt;/div&gt;
   &lt;div class=&quot;lg:max-w-xl&quot;&gt;
     &lt;p&gt;
@@ -3125,10 +3140,10 @@ sondern werden auch in den Abwesenheitsstatistik (frühere Urlaubsstatistik) sep
 CSV-Export herausgegeben.&lt;/p&gt;
 &lt;div class=&quot;flex flex-col items-start md:flex-row my-8 md:space-x-8&quot;&gt;
   &lt;div class=&quot;md:w-1/2&quot;&gt;
-        &lt;img src=&quot;https://urlaubsverwaltung.cloud/neuigkeiten/2021-11-19-release/antrag.png&quot; alt=&quot;Erstellen einer Abwesenheit&quot; /&gt;
+        &lt;img src=&quot;https://focus-shift.de/neuigkeiten/2021-11-19-release/antrag.png&quot; alt=&quot;Erstellen einer Abwesenheit&quot; /&gt;
   &lt;/div&gt;
   &lt;div class=&quot;md:w-1/2 mt-4 md:mt-0&quot;&gt;
-        &lt;img src=&quot;https://urlaubsverwaltung.cloud/neuigkeiten/2021-11-19-release/abwesenheitsstatistik.png&quot; alt=&quot;Abwesenheitsstatistik mit neuen Abwesenheitsarten&quot; /&gt;
+        &lt;img src=&quot;https://focus-shift.de/neuigkeiten/2021-11-19-release/abwesenheitsstatistik.png&quot; alt=&quot;Abwesenheitsstatistik mit neuen Abwesenheitsarten&quot; /&gt;
   &lt;/div&gt;
 &lt;/div&gt;
 &lt;p&gt;Wir hoffen, dass ihr eure Organisation noch besser abbilden könnt, und wünschen viel Spaß mit den neuen
@@ -3139,7 +3154,7 @@ schreib uns einfach!&lt;/a&gt;&lt;/p&gt;
   </entry>
   <entry>
     <title>Onboarding bei der urlaubsverwaltung.cloud</title>
-    <link href="https://urlaubsverwaltung.cloud/neuigkeiten/2021-11-19-onboarding-csv/" />
+    <link href="https://focus-shift.de/neuigkeiten/2021-11-19-onboarding-csv/" />
     <updated>2021-11-19T00:00:00Z</updated>
     <id>https://urlaubsverwaltung.cloud/neuigkeiten/2021-11-19-onboarding-csv/</id>
     <author>
@@ -3149,7 +3164,7 @@ schreib uns einfach!&lt;/a&gt;&lt;/p&gt;
 Direkt eins vorweg: Lehne dich zurück! Wir ermöglichen dir den passenden Einstieg.&lt;/p&gt;
 &lt;h2 id=&quot;los-gehts&quot;&gt;Los gehts!&lt;/h2&gt;
 &lt;div class=&quot;flex flex-col items-center mt-2 lg:flex-row lg:space-x-8 lg:mb-8&quot;&gt;
-    &lt;img class=&quot;mx-auto lg:max-w-md lg:h-72&quot; src=&quot;https://urlaubsverwaltung.cloud/static/img/onboarding.jpg&quot; alt=&quot;Herzlich Willkommen&quot; /&gt;
+    &lt;img class=&quot;mx-auto lg:max-w-md lg:h-72&quot; src=&quot;https://focus-shift.de/static/img/onboarding.jpg&quot; alt=&quot;Herzlich Willkommen&quot; /&gt;
   &lt;div class=&quot;max-w-none lg:max-w-screen&quot;&gt;
     &lt;p class=&quot;mt-4 lg:mb-4&quot;&gt;
       Ein neuer Anfang, bedeutet natürlich auch immer eine gewisse Vorbereitung. Zum einen müssen die Mitarbeiter:innen in der Organisation über die neue Software informiert werden, zum anderen sollen die Abläufe von Genehmigungsprozessen passend abgebildet werden. Natürlich sind auch die Daten wie zum Beispiel Urlaubsansprüche aus dem laufenden Jahr oder die erbrachten Überstunden wichtig für einen erfolgreichen Start. In dieser Artikelserie wollen wir drei mögliche Wege des Onboardings vorstellen, die einen reibungslosen Einstieg ermöglichen.
@@ -3173,14 +3188,14 @@ In der CSV kannst du pro Person folgende Felder pflegen. Für die Zuordnung sind
 &lt;li&gt;Abteilung_5_Abteilungsleiter&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;Notwendige Felder sind Vorname, Nachname und E-Mail-Adresse, alle anderen Angaben sind optional.&lt;/p&gt;
-&lt;p&gt;Eine Beispiel-Datei zur Orientierung haben wir dir &lt;a href=&quot;https://urlaubsverwaltung.cloud/static/import-beispiel-onboarding.csv&quot; class=&quot;underline&quot;&gt;hier&lt;/a&gt; bereitgestellt.&lt;/p&gt;
+&lt;p&gt;Eine Beispiel-Datei zur Orientierung haben wir dir &lt;a href=&quot;https://focus-shift.de/static/import-beispiel-onboarding.csv&quot; class=&quot;underline&quot;&gt;hier&lt;/a&gt; bereitgestellt.&lt;/p&gt;
 &lt;p&gt;Die Informationen können dann in verschlüsselter Form an uns übermittelt werden.
 Weitere Details zum Onboarding können wir im direkten Austausch klären. Schreibe uns dazu eine kurze E-Mail an &lt;a href=&quot;mailto:info@urlaubsverwaltung.cloud?subject=Onboarding%20meiner%20Organisation&quot; class=&quot;underline&quot;&gt;info@urlaubsverwaltung.cloud&lt;/a&gt;&lt;/p&gt;
 </content>
   </entry>
   <entry>
     <title>Verbesserte Berechtigungen, UI-Update und Nachricht bei neuen User</title>
-    <link href="https://urlaubsverwaltung.cloud/neuigkeiten/2021-11-16-release/" />
+    <link href="https://focus-shift.de/neuigkeiten/2021-11-16-release/" />
     <updated>2021-11-16T00:00:00Z</updated>
     <id>https://urlaubsverwaltung.cloud/neuigkeiten/2021-11-16-release/</id>
     <author>
@@ -3190,7 +3205,7 @@ Weitere Details zum Onboarding können wir im direkten Austausch klären. Schrei
 &lt;h2 id=&quot;verbesserte-berechtigungen&quot;&gt;Verbesserte Berechtigungen&lt;/h2&gt;
 &lt;p&gt;Seit dieser Version können die Berechtigungen &lt;em&gt;Chef&lt;/em&gt; und &lt;em&gt;Office&lt;/em&gt; mit den Berechtigungen &lt;em&gt;Abteilungsleiter&lt;/em&gt; bzw.
 &lt;em&gt;Freigabe-Verantwortlicher&lt;/em&gt; kombiniert werden. Wir bieten dir damit die Möglichkeit deine Organisationsstruktur noch besser abbilden zu können.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;https://urlaubsverwaltung.cloud/neuigkeiten/2021-11-16-release/berechtigungen.png&quot; alt=&quot;Berechtigungen einer Person mit Abteilungsleiter und Chef bzw. Office&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://focus-shift.de/neuigkeiten/2021-11-16-release/berechtigungen.png&quot; alt=&quot;Berechtigungen einer Person mit Abteilungsleiter und Chef bzw. Office&quot; /&gt;&lt;/p&gt;
 &lt;h2 id=&quot;e-mail-benachrichtigung-bei-neuanlage-einer-person&quot;&gt;E-Mail-Benachrichtigung bei Neuanlage einer Person&lt;/h2&gt;
 &lt;p&gt;Personen mit der Berechtigung &lt;em&gt;Office&lt;/em&gt; erhalten eine E-Mail-Benachrichtigung, sobald eine neue Person in der
 Urlaubsverwaltung angelegt wurde. Diese Benachrichtigung soll dazu dienen, einen Überblick über Neuanlagen zu behalten
@@ -3221,7 +3236,7 @@ eines Antrages nicht angezeigt. Dies wurde behoben und die Anträge werden nun k
   </entry>
   <entry>
     <title>Starte deine Digitalisierung - Urlaub, Krankmeldungen, Überstunden digital</title>
-    <link href="https://urlaubsverwaltung.cloud/neuigkeiten/2021-11-11-starte-deine-digitalisierungsstrategie/" />
+    <link href="https://focus-shift.de/neuigkeiten/2021-11-11-starte-deine-digitalisierungsstrategie/" />
     <updated>2021-11-11T00:00:00Z</updated>
     <id>https://urlaubsverwaltung.cloud/neuigkeiten/2021-11-11-starte-deine-digitalisierungsstrategie/</id>
     <author>
@@ -3246,7 +3261,7 @@ Abwesenheitsverwaltung im neuen Jahr.&amp;quot;, so Andreas Weigel Geschäftsfü
 Um die bestehenden Prozesse des Kunden bestmöglich abzubilden, existieren ein- oder zweistufige Freigabeverfahren.
 Eine Aufbauorganisation kann durch Abteilungen und deren verantwortliche Personen abgebildet werden. Schnittstellen zu
 Kalender- oder Single-Sign-on-Systemen bieten eine nahtlose Integration in bestehende Infrastruktur.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;https://urlaubsverwaltung.cloud/neuigkeiten/2021-11-11-starte-deine-digitalisierungsstrategie/urlaubsverwaltung.png&quot; alt=&quot;Urlaubsverwaltung Landingpage&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://focus-shift.de/neuigkeiten/2021-11-11-starte-deine-digitalisierungsstrategie/urlaubsverwaltung.png&quot; alt=&quot;Urlaubsverwaltung Landingpage&quot; /&gt;&lt;/p&gt;
 &lt;br /&gt;
 &lt;h2 id=&quot;focus-shift-software-gmbh&quot;&gt;Focus Shift Software GmbH&lt;/h2&gt;
 &lt;p&gt;Die Focus Shift Software GmbH stellt kleinen und mittelständischen Unternehmen aller Branchen Software-as-a-Service-Produkte
@@ -3256,7 +3271,7 @@ Verwaltung in Richtung der Fachkompetenz stärken das Kerngeschäft.&lt;/p&gt;
   </entry>
   <entry>
     <title>Verbesserte Urlaubs-Übersicht // Hilfe direkt aus der Urlaubsverwaltung</title>
-    <link href="https://urlaubsverwaltung.cloud/neuigkeiten/2021-10-20-release/" />
+    <link href="https://focus-shift.de/neuigkeiten/2021-10-20-release/" />
     <updated>2021-10-20T00:00:00Z</updated>
     <id>https://urlaubsverwaltung.cloud/neuigkeiten/2021-10-20-release/</id>
     <author>
@@ -3266,15 +3281,15 @@ Verwaltung in Richtung der Fachkompetenz stärken das Kerngeschäft.&lt;/p&gt;
 &lt;h2 id=&quot;hilfe-direkt-aus-der-urlaubsverwaltung&quot;&gt;Hilfe direkt aus der Urlaubsverwaltung&lt;/h2&gt;
 &lt;div class=&quot;flex flex-col items-center mt-2 lg:flex-row lg:space-x-8 lg:mb-8&quot;&gt;
   &lt;div&gt;
-    &lt;img class=&quot;mx-auto lg:max-w-md lg:h-72&quot; src=&quot;https://urlaubsverwaltung.cloud/neuigkeiten/2021-10-20-release/hilfe.png&quot; alt=&quot;Hilfe über das Avatarmenü&quot; /&gt;
+    &lt;img class=&quot;mx-auto lg:max-w-md lg:h-72&quot; src=&quot;https://focus-shift.de/neuigkeiten/2021-10-20-release/hilfe.png&quot; alt=&quot;Hilfe über das Avatarmenü&quot; /&gt;
   &lt;/div&gt;
   &lt;div class=&quot;max-w-none lg:max-w-screen&quot;&gt;
     &lt;p class=&quot;mt-4 lg:mb-4&quot;&gt;
       Unsere Philosophie mit der Urlaubsverwaltung ist es, eine mächtige Applikation zu entwickeln, die sich
       sehr leichtgewichtig anfühlt, sodass sich jeder Benutzer direkt wohlfühlt und das Anliegen einfach und
       bequem erledigen kann. Es kommt jedoch ab und an vor, dass man Fragen zu einem bestimmten Feature
-      hat und die Antworten auf eigene Faust finden möchte. Deshalb haben wir für euch die &lt;a href=&quot;https://urlaubsverwaltung.cloud/hilfe/&quot;&gt;Hilfe&lt;/a&gt; auf
-      &lt;a href=&quot;https://urlaubsverwaltung.cloud/hilfe/&quot;&gt;urlaubsverwaltung.cloud&lt;/a&gt; erstellt und in der Urlaubsverwaltung im Avatar-Menü verlinkt.
+      hat und die Antworten auf eigene Faust finden möchte. Deshalb haben wir für euch die &lt;a href=&quot;https://focus-shift.de/hilfe/&quot;&gt;Hilfe&lt;/a&gt; auf
+      &lt;a href=&quot;https://focus-shift.de/hilfe/&quot;&gt;urlaubsverwaltung.cloud&lt;/a&gt; erstellt und in der Urlaubsverwaltung im Avatar-Menü verlinkt.
     &lt;/p&gt;
     &lt;p&gt;
       Helfe dir selbst und sei dein eigener Held!
@@ -3284,7 +3299,7 @@ Verwaltung in Richtung der Fachkompetenz stärken das Kerngeschäft.&lt;/p&gt;
 &lt;h2 id=&quot;verbesserte-urlaub-uebersichtsseite&quot;&gt;Verbesserte Urlaub-Übersichtsseite&lt;/h2&gt;
 &lt;div class=&quot;flex flex-col justify-end lg:flex-row-reverse lg:space-x-8 lg:space-x-reverse lg:mt-8 lg:mb-8&quot;&gt;
   &lt;div&gt;
-    &lt;img class=&quot;mx-auto mt-2 lg:max-w-md lg:h-80&quot; src=&quot;https://urlaubsverwaltung.cloud/neuigkeiten/2021-10-20-release/vertretung.png&quot; alt=&quot;Anstehende Vertretung mit Notiz&quot; /&gt;
+    &lt;img class=&quot;mx-auto mt-2 lg:max-w-md lg:h-80&quot; src=&quot;https://focus-shift.de/neuigkeiten/2021-10-20-release/vertretung.png&quot; alt=&quot;Anstehende Vertretung mit Notiz&quot; /&gt;
   &lt;/div&gt;
   &lt;div class=&quot;max-w-none lg:max-w-screen&quot;&gt;
     &lt;p class=&quot;mt-4 lg:mb-4&quot;&gt;
@@ -3303,7 +3318,7 @@ Verwaltung in Richtung der Fachkompetenz stärken das Kerngeschäft.&lt;/p&gt;
     &lt;/p&gt;
   &lt;/div&gt;
 &lt;/div&gt;
-&lt;img class=&quot;mb-4 lg:mb-8&quot; src=&quot;https://urlaubsverwaltung.cloud/neuigkeiten/2021-10-20-release/vacation-overview.png&quot; alt=&quot;Neue Urlaub-Übersichtsseite auf dem Desktop&quot; /&gt;
+&lt;img class=&quot;mb-4 lg:mb-8&quot; src=&quot;https://focus-shift.de/neuigkeiten/2021-10-20-release/vacation-overview.png&quot; alt=&quot;Neue Urlaub-Übersichtsseite auf dem Desktop&quot; /&gt;
 &lt;h2 id=&quot;weitere-anpassungen&quot;&gt;Weitere Anpassungen&lt;/h2&gt;
 &lt;div class=&quot;flex space-x-8 mt-2&quot;&gt;
     &lt;p class=&quot;mb-4&quot;&gt;
@@ -3315,7 +3330,7 @@ Verwaltung in Richtung der Fachkompetenz stärken das Kerngeschäft.&lt;/p&gt;
   </entry>
   <entry>
     <title>Version 4.15.0 veröffentlicht</title>
-    <link href="https://urlaubsverwaltung.cloud/neuigkeiten/2021-04-09-release/" />
+    <link href="https://focus-shift.de/neuigkeiten/2021-04-09-release/" />
     <updated>2021-04-09T00:00:00Z</updated>
     <id>https://urlaubsverwaltung.cloud/neuigkeiten/2021-04-09-release/</id>
     <author>
@@ -3340,13 +3355,13 @@ Verwaltung in Richtung der Fachkompetenz stärken das Kerngeschäft.&lt;/p&gt;
     &lt;/p&gt;
   &lt;/div&gt;
   &lt;div class=&quot;flex-1&quot;&gt;
-    &lt;img src=&quot;https://urlaubsverwaltung.cloud/neuigkeiten/2021-04-09-release/einstellung-urlaubsbenachrichtigung.png&quot; alt=&quot;Einstellen der automatischen Benachrichtigung X Tage vor Urlaubsbeginn.&quot; class=&quot;mx-auto&quot; /&gt;
+    &lt;img src=&quot;https://focus-shift.de/neuigkeiten/2021-04-09-release/einstellung-urlaubsbenachrichtigung.png&quot; alt=&quot;Einstellen der automatischen Benachrichtigung X Tage vor Urlaubsbeginn.&quot; class=&quot;mx-auto&quot; /&gt;
   &lt;/div&gt;
 &lt;/div&gt;
 &lt;h2 id=&quot;halbe-urlaubstage-erlauben-oder-unterbinden&quot;&gt;Halbe Urlaubstage erlauben oder unterbinden&lt;/h2&gt;
 &lt;div class=&quot;flex space-x-8&quot;&gt;
   &lt;div class=&quot;mr-8&quot;&gt;
-    &lt;img src=&quot;https://urlaubsverwaltung.cloud/neuigkeiten/2021-04-09-release/einstellung-halbe-urlaubstage.png&quot; alt=&quot;Einstellen ob halbe Urlaubstage erlaubt sind oder nicht.&quot; class=&quot;mx-auto&quot; /&gt;
+    &lt;img src=&quot;https://focus-shift.de/neuigkeiten/2021-04-09-release/einstellung-halbe-urlaubstage.png&quot; alt=&quot;Einstellen ob halbe Urlaubstage erlaubt sind oder nicht.&quot; class=&quot;mx-auto&quot; /&gt;
   &lt;/div&gt;
   &lt;div class=&quot;max-w-2xl&quot;&gt;
     &lt;p&gt;
